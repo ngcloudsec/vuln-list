@@ -1,0 +1,182 @@
+[
+  {
+    "Architecture": [
+      "i386 amd64 x32"
+    ],
+    "Autobuild": [
+      "yes"
+    ],
+    "Binary": [
+      "amd64-microcode"
+    ],
+    "Build-Depends": [
+      "debhelper (\u003e= 9)"
+    ],
+    "Checksums-Sha1": [
+      "37e43fd62ee872a502a4259e53e483d595ff65e1 1711 amd64-microcode_3.20181128.1~deb8u1.dsc 70ca0d8b2989042c1b280629bfd0e8c4b2af3b59 34700 amd64-microcode_3.20181128.1~deb8u1.tar.xz"
+    ],
+    "Checksums-Sha256": [
+      "ce2bfcf2ef68054c5a5ea48a5cdc22a8a61767ff27416bf9a8f35edd59dfa5ea 1711 amd64-microcode_3.20181128.1~deb8u1.dsc f6815e2d33558d170462593b5baffc3185798b31350b0ccd9fd4f092ca967793 34700 amd64-microcode_3.20181128.1~deb8u1.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/non-free/a/amd64-microcode"
+    ],
+    "Files": [
+      "dc4d7addd981da02d0d71fbf448eb53d 1711 amd64-microcode_3.20181128.1~deb8u1.dsc 29bb2ca39f1102605aeaae0dc515f1e7 34700 amd64-microcode_3.20181128.1~deb8u1.tar.xz"
+    ],
+    "Format": [
+      "3.0 (native)"
+    ],
+    "Maintainer": [
+      "Henrique de Moraes Holschuh \u003chmh@debian.org\u003e"
+    ],
+    "Package": [
+      "amd64-microcode"
+    ],
+    "Package-List": [
+      "amd64-microcode deb non-free/admin standard arch=i386,amd64,x32"
+    ],
+    "Priority": [
+      "source"
+    ],
+    "Section": [
+      "non-free/admin"
+    ],
+    "Standards-Version": [
+      "3.9.8"
+    ],
+    "Uploaders": [
+      "Giacomo Catenazzi \u003ccate@debian.org\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/hmh/amd64-microcode"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/hmh/amd64-microcode.git"
+    ],
+    "Version": [
+      "3.20181128.1~deb8u1"
+    ]
+  },
+  {
+    "Architecture": [
+      "all"
+    ],
+    "Autobuild": [
+      "yes"
+    ],
+    "Binary": [
+      "firmware-linux, firmware-linux-nonfree, firmware-adi, firmware-ralink, firmware-amd-graphics, firmware-atheros, firmware-bnx2, firmware-bnx2x, firmware-brcm80211, firmware-cavium, firmware-intelwimax, firmware-intel-sound, firmware-ipw2x00, firmware-ivtv, firmware-iwlwifi, firmware-libertas, firmware-misc-nonfree, firmware-myricom, firmware-netxen, firmware-qlogic, firmware-realtek, firmware-samsung, firmware-siano, firmware-ti-connectivity"
+    ],
+    "Build-Depends": [
+      "debhelper (\u003e= 9)"
+    ],
+    "Checksums-Sha1": [
+      "fce3b234b5d95a76731bb02cc57fb3dee8cb21bb 3873 firmware-nonfree_20161130-5~deb8u1.dsc 4c77a90503154121d1046fc0cb24bceee3ab598d 30872784 firmware-nonfree_20161130.orig.tar.xz 18984aac329e420e757f8dc1f9079fb007886497 3991188 firmware-nonfree_20161130-5~deb8u1.debian.tar.xz"
+    ],
+    "Checksums-Sha256": [
+      "903967e82b958bcc6f858241292dc112cd0897a1d2bfe41bc34097a6b2e93354 3873 firmware-nonfree_20161130-5~deb8u1.dsc 3a6d58b518d30f18ade4914b66e8788fd32e19ec4c86a6eddbbe58d349a81c12 30872784 firmware-nonfree_20161130.orig.tar.xz 42151a3393004733beb313c374e8db69658002b70970a9a8a8bb1812e2abb7df 3991188 firmware-nonfree_20161130-5~deb8u1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/non-free/f/firmware-nonfree"
+    ],
+    "Files": [
+      "6e90d3c8f39795e8fca10926fe38e56d 3873 firmware-nonfree_20161130-5~deb8u1.dsc 73adbd7e95beed7f46966337e05cca65 30872784 firmware-nonfree_20161130.orig.tar.xz d4e0ced985ef5e757ce26488c3eb081a 3991188 firmware-nonfree_20161130-5~deb8u1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Maintainer": [
+      "Debian Kernel Team \u003cdebian-kernel@lists.debian.org\u003e"
+    ],
+    "Package": [
+      "firmware-nonfree"
+    ],
+    "Package-List": [
+      "firmware-adi deb non-free/oldlibs optional arch=all firmware-amd-graphics deb non-free/kernel optional arch=all firmware-atheros deb non-free/kernel optional arch=all firmware-bnx2 deb non-free/kernel optional arch=all firmware-bnx2x deb non-free/kernel optional arch=all firmware-brcm80211 deb non-free/kernel optional arch=all firmware-cavium deb non-free/kernel optional arch=all firmware-intel-sound deb non-free/kernel optional arch=all firmware-intelwimax deb non-free/kernel optional arch=all firmware-ipw2x00 deb non-free/kernel optional arch=all firmware-ivtv deb non-free/kernel optional arch=all firmware-iwlwifi deb non-free/kernel optional arch=all firmware-libertas deb non-free/kernel optional arch=all firmware-linux deb non-free/metapackages optional arch=all firmware-linux-nonfree deb non-free/metapackages optional arch=all firmware-misc-nonfree deb non-free/kernel optional arch=all firmware-myricom deb non-free/kernel optional arch=all firmware-netxen deb non-free/kernel optional arch=all firmware-qlogic deb non-free/kernel optional arch=all firmware-ralink deb non-free/oldlibs optional arch=all firmware-realtek deb non-free/kernel optional arch=all firmware-samsung deb non-free/kernel optional arch=all firmware-siano deb non-free/kernel optional arch=all firmware-ti-connectivity deb non-free/kernel optional arch=all"
+    ],
+    "Priority": [
+      "source"
+    ],
+    "Section": [
+      "non-free/kernel"
+    ],
+    "Standards-Version": [
+      "3.9.8"
+    ],
+    "Uploaders": [
+      "Bastian Blank \u003cwaldi@debian.org\u003e, Steve Langasek \u003cvorlon@debian.org\u003e, maximilian attems \u003cmaks@debian.org\u003e, Ben Hutchings \u003cben@decadent.org.uk\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/kernel-team/firmware-nonfree"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/kernel-team/firmware-nonfree.git"
+    ],
+    "Version": [
+      "20161130-5~deb8u1"
+    ]
+  },
+  {
+    "Architecture": [
+      "i386 amd64 x32"
+    ],
+    "Autobuild": [
+      "yes"
+    ],
+    "Binary": [
+      "intel-microcode"
+    ],
+    "Build-Depends": [
+      "debhelper (\u003e= 9), iucode-tool (\u003e= 0.9)"
+    ],
+    "Checksums-Sha1": [
+      "7dee7c79459f76ae86ad010eb4c63ecc38c2cad8 1817 intel-microcode_3.20200609.2~deb8u1.dsc f5e2a87043a7fa2edee0e855e65bdeba1e59b9d5 3254228 intel-microcode_3.20200609.2~deb8u1.tar.xz"
+    ],
+    "Checksums-Sha256": [
+      "cb747d128dc46cdf4b6ce80f5de3601bc15939027ab40cf57dc84cac8dd9d491 1817 intel-microcode_3.20200609.2~deb8u1.dsc 432f71473114c46181128dd59180861b0e8fa870edc4625d7321551a706ffaf5 3254228 intel-microcode_3.20200609.2~deb8u1.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/non-free/i/intel-microcode"
+    ],
+    "Files": [
+      "8450774df392657b4398c2aedc621326 1817 intel-microcode_3.20200609.2~deb8u1.dsc 73dacf646ea5c687a5c1a3741b4a6fda 3254228 intel-microcode_3.20200609.2~deb8u1.tar.xz"
+    ],
+    "Format": [
+      "3.0 (native)"
+    ],
+    "Homepage": [
+      "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files"
+    ],
+    "Maintainer": [
+      "Henrique de Moraes Holschuh \u003chmh@debian.org\u003e"
+    ],
+    "Package": [
+      "intel-microcode"
+    ],
+    "Package-List": [
+      "intel-microcode deb non-free/admin standard arch=i386,amd64,x32"
+    ],
+    "Priority": [
+      "source"
+    ],
+    "Section": [
+      "non-free/admin"
+    ],
+    "Standards-Version": [
+      "4.1.1"
+    ],
+    "Uploaders": [
+      "Giacomo Catenazzi \u003ccate@debian.org\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/hmh/intel-microcode"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/hmh/intel-microcode.git"
+    ],
+    "Version": [
+      "3.20200609.2~deb8u1"
+    ]
+  }
+]

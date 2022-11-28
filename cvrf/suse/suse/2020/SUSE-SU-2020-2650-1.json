@@ -1,0 +1,370 @@
+{
+  "Title": "Security update for SUSE Manager Proxy 4.0",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:2650-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-09-16T12:24:24Z",
+    "CurrentReleaseDate": "2020-09-16T12:24:24Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-09-16T12:24:24Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for SUSE Manager Proxy 4.0",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nThis update fixes the following issues:\n\nspacecmd:\n\n- Python3 fixes for errata in spacecmd (bsc#1169664)\n- Python3 fix for sorted usage (bsc#1167907)\n- Fix softwarechannel_listlatestpackages throwing error on\n  empty channels (bsc#1175889)\n- Fix escaping of package names (bsc#1171281)\n\nspacewalk-certs-tools:\n\n- Add option --nostricthostkeychecking to spacewalk-ssh-push-init\n- Strip SSL Certificate Common Name after 63 Characters (bsc#1173535)\n\nspacewalk-proxy:\n\n- Python3 fix for loading pickle file during kickstart\n  procedure (bsc#1174201)\n\nspacewalk-web:\n\n- Fix login page after jQuery upgrade (bsc#1175224)\n- Upgrade jQuery and adapt the code - CVE-2020-11022 (bsc#1172831)\n- Warn when a system is in multiple groups that configure the same formula in the system formula's UI (bsc#1173554)\n\nHow to apply this update:\n1. Log in as root user to the SUSE Manager proxy.\n2. Stop the proxy service:\nspacewalk-proxy stop\n3. Apply the patch using either zypper patch or YaST Online Update.\n4. Start the Spacewalk service:\nspacewalk-proxy start\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "python3-spacewalk-certs-tools-4.0.17-3.21.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacecmd-4.0.20-3.19.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-base-minimal-4.0.23-3.30.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-base-minimal-config-4.0.23-3.30.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-certs-tools-4.0.17-3.21.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-proxy-broker-4.0.14-3.10.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-proxy-common-4.0.14-3.10.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-proxy-management-4.0.14-3.10.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-proxy-package-manager-4.0.14-3.10.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-proxy-redirect-4.0.14-3.10.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-proxy-salt-4.0.14-3.10.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "hibernate5-5.3.7-4.3.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "image-sync-formula-0.1.1595937550.0285244-3.20.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openvpn-formula-0.1.1-4.6.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "prometheus-exporters-formula-0.7.1-3.10.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-spacewalk-certs-tools-4.0.17-3.21.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-netapi-client-0.17.0-4.6.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "saltboot-formula-0.1.1595937550.0285244-3.19.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacecmd-4.0.20-3.19.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-admin-4.0.11-3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-base-4.0.23-3.30.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-base-minimal-4.0.23-3.30.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-base-minimal-config-4.0.23-3.30.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-certs-tools-4.0.17-3.21.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-html-4.0.23-3.30.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-java-4.0.37-3.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-java-config-4.0.37-3.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-java-lib-4.0.37-3.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-java-postgresql-4.0.37-3.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-setup-4.0.14-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-taskomatic-4.0.37-3.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-utils-4.0.18-3.21.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "susemanager-4.0.28-3.36.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "susemanager-frontend-libs-4.0.2-4.3.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "susemanager-schema-4.0.22-3.29.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "susemanager-sls-4.0.29-3.31.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "susemanager-sync-data-4.0.18-3.24.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "susemanager-tools-4.0.28-3.36.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "susemanager-web-libs-4.0.23-3.30.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "virtualization-host-formula-0.5-4.12.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20202650-1/",
+      "Description": "Link for SUSE-SU-2020:2650-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-September/007435.html",
+      "Description": "E-Mail link for SUSE-SU-2020:2650-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1167907",
+      "Description": "SUSE Bug 1167907"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1169664",
+      "Description": "SUSE Bug 1169664"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1171281",
+      "Description": "SUSE Bug 1171281"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1172831",
+      "Description": "SUSE Bug 1172831"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1173535",
+      "Description": "SUSE Bug 1173535"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1173554",
+      "Description": "SUSE Bug 1173554"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1174201",
+      "Description": "SUSE Bug 1174201"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1175224",
+      "Description": "SUSE Bug 1175224"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1175889",
+      "Description": "SUSE Bug 1175889"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-11022/",
+      "Description": "SUSE CVE CVE-2020-11022 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-11022",
+      "Description": "In jQuery versions greater than or equal to 1.2 and before 3.5.0, passing HTML from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-11022.html",
+          "Description": "CVE-2020-11022"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1173090",
+          "Description": "SUSE Bug 1173090"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1178434",
+          "Description": "SUSE Bug 1178434"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1190663",
+          "Description": "SUSE Bug 1190663"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0:python3-spacewalk-certs-tools-4.0.17-3.21.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0:spacecmd-4.0.20-3.19.2",
+            "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0:spacewalk-base-minimal-4.0.23-3.30.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0:spacewalk-base-minimal-config-4.0.23-3.30.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0:spacewalk-certs-tools-4.0.17-3.21.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0:spacewalk-proxy-broker-4.0.14-3.10.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0:spacewalk-proxy-common-4.0.14-3.10.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0:spacewalk-proxy-management-4.0.14-3.10.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0:spacewalk-proxy-package-manager-4.0.14-3.10.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0:spacewalk-proxy-redirect-4.0.14-3.10.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Proxy 4.0:spacewalk-proxy-salt-4.0.14-3.10.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:hibernate5-5.3.7-4.3.2",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:image-sync-formula-0.1.1595937550.0285244-3.20.2",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:openvpn-formula-0.1.1-4.6.2",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:prometheus-exporters-formula-0.7.1-3.10.2",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:python3-spacewalk-certs-tools-4.0.17-3.21.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:salt-netapi-client-0.17.0-4.6.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:saltboot-formula-0.1.1595937550.0285244-3.19.2",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:spacecmd-4.0.20-3.19.2",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:spacewalk-admin-4.0.11-3.12.1",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:spacewalk-base-4.0.23-3.30.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:spacewalk-base-minimal-4.0.23-3.30.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:spacewalk-base-minimal-config-4.0.23-3.30.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:spacewalk-certs-tools-4.0.17-3.21.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:spacewalk-html-4.0.23-3.30.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:spacewalk-java-4.0.37-3.39.1",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:spacewalk-java-config-4.0.37-3.39.1",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:spacewalk-java-lib-4.0.37-3.39.1",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:spacewalk-java-postgresql-4.0.37-3.39.1",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:spacewalk-setup-4.0.14-3.14.1",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:spacewalk-taskomatic-4.0.37-3.39.1",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:spacewalk-utils-4.0.18-3.21.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:susemanager-4.0.28-3.36.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:susemanager-frontend-libs-4.0.2-4.3.2",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:susemanager-schema-4.0.22-3.29.2",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:susemanager-sls-4.0.29-3.31.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:susemanager-sync-data-4.0.18-3.24.2",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:susemanager-tools-4.0.28-3.36.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:susemanager-web-libs-4.0.23-3.30.3",
+            "SUSE Linux Enterprise Module for SUSE Manager Server 4.0:virtualization-host-formula-0.5-4.12.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

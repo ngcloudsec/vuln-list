@@ -1,0 +1,128 @@
+{
+  "Title": "Security update for gzip",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:1650-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-05-12T15:14:12Z",
+    "CurrentReleaseDate": "2022-05-12T15:14:12Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-05-12T15:14:12Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for gzip",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for gzip fixes the following issues:\n\n- CVE-2022-1271: Add hardening for zgrep. (bsc#1198062)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "gzip-1.10-4.14.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-4.14.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-4.14.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-4.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-4.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20221650-1/",
+      "Description": "Link for SUSE-SU-2022:1650-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-May/010998.html",
+      "Description": "E-Mail link for SUSE-SU-2022:1650-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1271/",
+      "Description": "SUSE CVE CVE-2022-1271 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-1271",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1271.html",
+          "Description": "CVE-2022-1271"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1198062",
+          "Description": "SUSE Bug 1198062"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1198812",
+          "Description": "SUSE Bug 1198812"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199107",
+          "Description": "SUSE Bug 1199107"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199108",
+          "Description": "SUSE Bug 1199108"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES12-SP5-EC2-SAP-On-Demand:gzip-1.10-4.14.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:gzip-1.10-4.14.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:gzip-1.10-4.14.1",
+            "SUSE Linux Enterprise Server 12 SP5:gzip-1.10-4.14.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:gzip-1.10-4.14.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

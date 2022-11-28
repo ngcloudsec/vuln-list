@@ -1,0 +1,52 @@
+{
+  "id": "RLSA-2022:8492",
+  "title": "Important: python39:3.9 security update",
+  "issued": {
+    "date": "2022-11-22 18:24:40"
+  },
+  "updated": {
+    "date": "2022-11-16 00:00:00"
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "description": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "packages": [
+    {
+      "name": "python39-mod_wsgi",
+      "epoch": "0",
+      "version": "4.7.1",
+      "release": "5.module+el8.7.0+1064+ad564229",
+      "arch": "aarch64",
+      "src": "mod_wsgi-4.7.1-5.module+el8.7.0+1064+ad564229.src.rpm",
+      "filename": "python39-mod_wsgi-4.7.1-5.module+el8.7.0+1064+ad564229.aarch64.rpm"
+    },
+    {
+      "name": "python39-pip",
+      "epoch": "0",
+      "version": "20.2.4",
+      "release": "7.module+el8.7.0+1064+ad564229",
+      "arch": "noarch",
+      "src": "python3x-pip-20.2.4-7.module+el8.7.0+1064+ad564229.src.rpm",
+      "filename": "python39-pip-20.2.4-7.module+el8.7.0+1064+ad564229.noarch.rpm"
+    },
+    {
+      "name": "python39-pip-wheel",
+      "epoch": "0",
+      "version": "20.2.4",
+      "release": "7.module+el8.7.0+1064+ad564229",
+      "arch": "noarch",
+      "src": "python3x-pip-20.2.4-7.module+el8.7.0+1064+ad564229.src.rpm",
+      "filename": "python39-pip-wheel-20.2.4-7.module+el8.7.0+1064+ad564229.noarch.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-42919.json",
+      "id": "CVE-2022-42919",
+      "title": "Update information for CVE-2022-42919 is retrieved from Red Hat",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2022-42919"
+  ]
+}

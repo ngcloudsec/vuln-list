@@ -1,0 +1,1744 @@
+{
+  "Title": "Security update for e2fsprogs",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:1688-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-05-16T12:03:05Z",
+    "CurrentReleaseDate": "2022-05-16T12:03:05Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-05-16T12:03:05Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for e2fsprogs",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for e2fsprogs fixes the following issues:\n\n- CVE-2022-1304: Fixed out-of-bounds read/write leading to segmentation fault\n  and possibly arbitrary code execution. (bsc#1198446)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/golang:1.16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/golang:1.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:11",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container suse/pcp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container suse/rmt-mariadb-client:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container suse/rmt-mariadb:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container suse/rmt-nginx:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container suse/rmt-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container suse/sle15:15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container suse/sle15:15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container suse/sle15:15.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Container suse/sle15:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "e2fsprogs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcom_err2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs-devel-static-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libext2fs2-32bit-1.43.8-150000.4.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20221688-1/",
+      "Description": "Link for SUSE-SU-2022:1688-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-May/011031.html",
+      "Description": "E-Mail link for SUSE-SU-2022:1688-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1198446",
+      "Description": "SUSE Bug 1198446"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1304/",
+      "Description": "SUSE CVE CVE-2022-1304 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-1304",
+      "Description": "An out-of-bounds read/write vulnerability was found in e2fsprogs 1.46.5. This issue leads to a segmentation fault and possibly arbitrary code execution via a specially crafted filesystem.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1304.html",
+          "Description": "CVE-2022-1304"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1198446",
+          "Description": "SUSE Bug 1198446"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201025",
+          "Description": "SUSE Bug 1201025"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:libcom_err2-1.43.8-150000.4.33.1",
+            "Container bci/dotnet-aspnet:3.1:libcom_err2-1.43.8-150000.4.33.1",
+            "Container bci/dotnet-aspnet:5.0:libcom_err2-1.43.8-150000.4.33.1",
+            "Container bci/dotnet-aspnet:latest:libcom_err2-1.43.8-150000.4.33.1",
+            "Container bci/dotnet-runtime:3.1:libcom_err2-1.43.8-150000.4.33.1",
+            "Container bci/dotnet-runtime:5.0:libcom_err2-1.43.8-150000.4.33.1",
+            "Container bci/dotnet-runtime:latest:libcom_err2-1.43.8-150000.4.33.1",
+            "Container bci/dotnet-sdk:3.1:libcom_err2-1.43.8-150000.4.33.1",
+            "Container bci/dotnet-sdk:5.0:libcom_err2-1.43.8-150000.4.33.1",
+            "Container bci/dotnet-sdk:latest:libcom_err2-1.43.8-150000.4.33.1",
+            "Container bci/golang:1.16:libcom_err2-1.43.8-150000.4.33.1",
+            "Container bci/golang:1.17:libcom_err2-1.43.8-150000.4.33.1",
+            "Container bci/golang:latest:libcom_err2-1.43.8-150000.4.33.1",
+            "Container bci/node:12:libcom_err2-1.43.8-150000.4.33.1",
+            "Container bci/node:14:libcom_err2-1.43.8-150000.4.33.1",
+            "Container bci/nodejs:latest:libcom_err2-1.43.8-150000.4.33.1",
+            "Container bci/openjdk-devel:11:libcom_err2-1.43.8-150000.4.33.1",
+            "Container bci/openjdk:latest:libcom_err2-1.43.8-150000.4.33.1",
+            "Container bci/python:3:libcom_err2-1.43.8-150000.4.33.1",
+            "Container bci/ruby:latest:libcom_err2-1.43.8-150000.4.33.1",
+            "Container suse/pcp:latest:libcom_err2-1.43.8-150000.4.33.1",
+            "Container suse/rmt-mariadb-client:latest:libcom_err2-1.43.8-150000.4.33.1",
+            "Container suse/rmt-mariadb:latest:libcom_err2-1.43.8-150000.4.33.1",
+            "Container suse/rmt-nginx:latest:libcom_err2-1.43.8-150000.4.33.1",
+            "Container suse/rmt-server:latest:libcom_err2-1.43.8-150000.4.33.1",
+            "Container suse/sle15:15.0:libcom_err2-1.43.8-150000.4.33.1",
+            "Container suse/sle15:15.1:libcom_err2-1.43.8-150000.4.33.1",
+            "Container suse/sle15:15.2:libcom_err2-1.43.8-150000.4.33.1",
+            "Container suse/sle15:15.3:libcom_err2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP2-SAP-BYOS-GCE:e2fsprogs-1.43.8-150000.4.33.1",
+            "Image SLES15-SP2-SAP-BYOS-GCE:libcom_err2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP2-SAP-BYOS-GCE:libext2fs2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP2-SAP-GCE:e2fsprogs-1.43.8-150000.4.33.1",
+            "Image SLES15-SP2-SAP-GCE:libcom_err2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP2-SAP-GCE:libext2fs2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-BYOS-GCE:e2fsprogs-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-BYOS-GCE:libcom_err2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-BYOS-GCE:libext2fs2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:e2fsprogs-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libcom_err2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libext2fs2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:e2fsprogs-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libcom_err2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libext2fs2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:e2fsprogs-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libcom_err2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libext2fs2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:e2fsprogs-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libcom_err2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libext2fs2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-GCE:e2fsprogs-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-GCE:libcom_err2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-GCE:libext2fs2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-HPC-BYOS-GCE:e2fsprogs-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-HPC-BYOS-GCE:libcom_err2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-HPC-BYOS-GCE:libext2fs2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:e2fsprogs-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libcom_err2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libext2fs2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:e2fsprogs-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:libcom_err2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:libext2fs2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-SAP-BYOS-GCE:e2fsprogs-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-SAP-BYOS-GCE:libcom_err2-1.43.8-150000.4.33.1",
+            "Image SLES15-SP3-SAP-BYOS-GCE:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Enterprise Storage 6:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Enterprise Storage 6:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Enterprise Storage 6:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Enterprise Storage 6:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Enterprise Storage 6:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Enterprise Storage 6:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Enterprise Storage 6:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Enterprise Storage 6:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Enterprise Storage 6:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Enterprise Storage 7:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Enterprise Storage 7:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Enterprise Storage 7:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Enterprise Storage 7:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Enterprise Storage 7:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Enterprise Storage 7:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Enterprise Storage 7:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Enterprise Storage 7:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Enterprise Storage 7:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Micro 5.0:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Micro 5.0:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Micro 5.0:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Micro 5.1:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Micro 5.1:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Micro 5.1:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Micro 5.2:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Micro 5.2:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Micro 5.2:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15-LTSS:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15-LTSS:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Manager Proxy 4.1:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Manager Proxy 4.1:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Manager Proxy 4.1:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Manager Proxy 4.1:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Manager Proxy 4.1:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Manager Proxy 4.1:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Manager Proxy 4.1:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Manager Proxy 4.1:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Manager Proxy 4.1:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Manager Retail Branch Server 4.1:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Manager Retail Branch Server 4.1:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Manager Retail Branch Server 4.1:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Manager Retail Branch Server 4.1:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Manager Retail Branch Server 4.1:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Manager Retail Branch Server 4.1:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Manager Retail Branch Server 4.1:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Manager Retail Branch Server 4.1:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Manager Retail Branch Server 4.1:libext2fs2-1.43.8-150000.4.33.1",
+            "SUSE Manager Server 4.1:e2fsprogs-1.43.8-150000.4.33.1",
+            "SUSE Manager Server 4.1:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "SUSE Manager Server 4.1:libcom_err-devel-1.43.8-150000.4.33.1",
+            "SUSE Manager Server 4.1:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Manager Server 4.1:libcom_err2-1.43.8-150000.4.33.1",
+            "SUSE Manager Server 4.1:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "SUSE Manager Server 4.1:libext2fs-devel-1.43.8-150000.4.33.1",
+            "SUSE Manager Server 4.1:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "SUSE Manager Server 4.1:libext2fs2-1.43.8-150000.4.33.1",
+            "openSUSE Leap 15.3:e2fsprogs-1.43.8-150000.4.33.1",
+            "openSUSE Leap 15.3:e2fsprogs-devel-1.43.8-150000.4.33.1",
+            "openSUSE Leap 15.3:libcom_err-devel-1.43.8-150000.4.33.1",
+            "openSUSE Leap 15.3:libcom_err-devel-32bit-1.43.8-150000.4.33.1",
+            "openSUSE Leap 15.3:libcom_err-devel-static-1.43.8-150000.4.33.1",
+            "openSUSE Leap 15.3:libcom_err2-1.43.8-150000.4.33.1",
+            "openSUSE Leap 15.3:libcom_err2-32bit-1.43.8-150000.4.33.1",
+            "openSUSE Leap 15.3:libext2fs-devel-1.43.8-150000.4.33.1",
+            "openSUSE Leap 15.3:libext2fs-devel-32bit-1.43.8-150000.4.33.1",
+            "openSUSE Leap 15.3:libext2fs-devel-static-1.43.8-150000.4.33.1",
+            "openSUSE Leap 15.3:libext2fs2-1.43.8-150000.4.33.1",
+            "openSUSE Leap 15.3:libext2fs2-32bit-1.43.8-150000.4.33.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

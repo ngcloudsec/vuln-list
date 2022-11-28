@@ -1,0 +1,198 @@
+{
+  "Title": "Security update for libssh",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:0130-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-01-20T08:21:25Z",
+    "CurrentReleaseDate": "2020-01-20T08:21:25Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-01-20T08:21:25Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for libssh",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for libssh fixes the following issues:\n\n- CVE-2019-14889: Fixed an unwanted command execution in scp caused by unsanitized location (bsc#1158095).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libssh4-0.7.5-6.9.2",
+        "RelatesToProductReference": "Container suse/sle15:15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libssh4-0.7.5-6.9.2",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libssh-devel-0.7.5-6.9.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libssh4-0.7.5-6.9.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libssh4-32bit-0.7.5-6.9.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libssh-devel-doc-0.7.5-6.9.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libssh-devel-0.7.5-6.9.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libssh4-0.7.5-6.9.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libssh4-32bit-0.7.5-6.9.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libssh-devel-0.7.5-6.9.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libssh4-0.7.5-6.9.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libssh4-32bit-0.7.5-6.9.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libssh-devel-0.7.5-6.9.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libssh4-0.7.5-6.9.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libssh4-32bit-0.7.5-6.9.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libssh-devel-0.7.5-6.9.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libssh4-0.7.5-6.9.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libssh4-32bit-0.7.5-6.9.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20200130-1/",
+      "Description": "Link for SUSE-SU-2020:0130-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-January/006384.html",
+      "Description": "E-Mail link for SUSE-SU-2020:0130-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1158095",
+      "Description": "SUSE Bug 1158095"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-14889/",
+      "Description": "SUSE CVE CVE-2019-14889 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-14889",
+      "Description": "A flaw was found with the libssh API function ssh_scp_new() in versions before 0.9.3 and before 0.8.8. When the libssh SCP client connects to a server, the scp command, which includes a user-provided path, is executed on the server-side. In case the library is used in a way where users can influence the third parameter of the function, it would become possible for an attacker to inject arbitrary commands, leading to a compromise of the remote target.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-14889.html",
+          "Description": "CVE-2019-14889"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1158095",
+          "Description": "SUSE Bug 1158095"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/sle15:15.0:libssh4-0.7.5-6.9.2",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:libssh4-0.7.5-6.9.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libssh-devel-0.7.5-6.9.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libssh4-0.7.5-6.9.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libssh4-32bit-0.7.5-6.9.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libssh-devel-0.7.5-6.9.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libssh4-0.7.5-6.9.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libssh4-32bit-0.7.5-6.9.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libssh-devel-0.7.5-6.9.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libssh4-0.7.5-6.9.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libssh4-32bit-0.7.5-6.9.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:libssh-devel-doc-0.7.5-6.9.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libssh-devel-0.7.5-6.9.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libssh4-0.7.5-6.9.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libssh4-32bit-0.7.5-6.9.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libssh-devel-0.7.5-6.9.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libssh4-0.7.5-6.9.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libssh4-32bit-0.7.5-6.9.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

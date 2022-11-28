@@ -1,0 +1,2510 @@
+{
+  "Title": "Security update for Linux kernel",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:0652-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2012-04-28T03:21:16Z",
+    "CurrentReleaseDate": "2012-04-28T03:21:16Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2012-04-28T03:21:16Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for Linux kernel",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nThe SUSE Linux Enterprise 11 SP1 kernel have been updated to the 2.6.32.59 \nstable release to fix a lot of bugs and security issues.\n\nThe following security issues have been fixed:\n\n    * CVE-2012-2133: A use after free bug in hugetlb support could be used\n      by local attackers to crash the system.\n    * CVE-2012-1097: A null pointer dereference bug in the regsets proc\n      file could be used by local attackers to perhaps crash the system.\n      With mmap_min_addr is set and enabled, exploitation is unlikely.\n    * CVE-2012-0879: A reference counting issue in CLONE_IO could be used\n      by local attackers to cause a denial of service (out of memory).\n    * CVE-2012-1090: A file handle leak in CIFS code could be used by local\n      attackers to crash the system.\n    * CVE-2011-1083: Large nested epoll chains could be used by local\n      attackers to cause a denial of service (excessive CPU consumption).\n    * CVE-2011-4622: When using KVM, programming a PIT timer without a\n      irqchip configuration, can be used to crash the kvm guest. This\n      likely can be done only by a privileged guest user.\n    * CVE-2012-0045: A KVM 32bit guest crash in 'syscall' opcode handling\n      was fixed that could be caused by local attackers.\n    * CVE-2011-4086: Fixed a oops in jbd/jbd2 that could be caused by\n      specific filesystem access patterns.\n\nThe following non-security issues have been fixed:\n\nX86:\n\n    * x86: fix the initialization of physnode_map (bnc#748112).\n    * x86: Allow bootmem reserves at greater than 8G node offset within a\n      node (bnc#740895).\n    * x86, tsc: Fix SMI induced variation in quick_pit_calibrate().\n      (bnc#751322)\n    * x86, efi: Work around broken firmware. (bnc#714507)\n\nBONDING:\n\n    * bonding: update speed/duplex for NETDEV_CHANGE (bnc#752634).\n    * bonding: comparing a u8 with -1 is always false (bnc#752634).\n    * bonding: start slaves with link down for ARP monitor (bnc#752634).\n    * bonding: send gratuitous ARP for all addresses (bnc#752491).\n\nXFS:\n\n    * xfs: Fix excessive inode syncing when project quota is exceeded\n      (bnc#756448).\n    * xfs: Fix oops on IO error during xlog_recover_process_iunlinks()\n      (bnc#716850).\n\nSCSI:\n\n    * scsi/ses: Handle non-unique element descriptors (bnc#749342,\n      bnc#617344).\n    * scsi/sd: mark busy sd majors as allocated (bug#744658).\n    * scsi: Check for invalid sdev in scsi_prep_state_check() (bnc#734300).\n\nMD/RAID:\n\n    * md: fix possible corruption of array metadata on shutdown.\n    * md: ensure changes to write-mostly are reflected in metadata\n      (bnc#755178).\n    * md: do not set md arrays to readonly on shutdown (bnc#740180,\n      bnc#713148, bnc#734900).\n\nXEN:\n\n    * smpboot: adjust ordering of operations.\n    * x86-64: provide a memset() that can deal with 4Gb or above at a time\n      (bnc#738528).\n    * blkfront: properly fail packet requests (bnc#745929).\n    * Update Xen patches to 2.6.32.57.\n    * xenbus: Reject replies with payload \u003e XENSTORE_PAYLOAD_MAX.\n    * xenbus_dev: add missing error checks to watch handling.\n    * Refresh other Xen patches (bnc#652942, bnc#668194, bnc#688079).\n    * fix Xen-specific kABI issue in Linux 2.6.19.\n\nNFS:\n\n    * NFSD: Fill in WCC data for REMOVE, RMDIR, MKNOD, and MKDIR\n      (bnc#751880).\n    * nfs: Include SYNC flag when comparing mount options with NOAC flag\n      (bnc#745422).\n    * NFS returns EIO for EDQUOT and others (bnc#747028).\n    * lockd: fix arg parsing for grace_period and timeout (bnc#733761).\n    * nfs: allow nfs4leasetime to be set before starting servers\n      (bnc#733761).\n    * nfs: handle d_revalidate of dot correctly (bnc#731809).\n\nS/390:\n\n    * ctcmpc: use correct idal word list for ctcmpc (bnc#750171,LTC#79264).\n    * qeth: synchronize discipline module loading (bnc#747430,LTC#78788).\n    * qdio: avoid race leading to stall when tolerating CQ\n      (bnc#737326,LTC#76599).\n    * kernel: no storage key operations for invalid page table entries\n      (bnc#737326,LTC#77697).\n\nOTHER:\n\n    * tlan: add cast needed for proper 64 bit operation (bnc#756840).\n    * dl2k: Tighten ioctl permissions (bnc#758813).\n    * tg3: Fix RSS ring refill race condition (bnc#757917).\n    * usbhid: fix error handling of not enough bandwidth (bnc#704280).\n    * pagecache limit: Fix the shmem deadlock (bnc#755537).\n    * tty_audit: fix tty_audit_add_data live lock on audit disabled\n      (bnc#721366).\n    * ixgbe: driver sets all WOL flags upon initialization so that machine\n      is powered on as soon at it is switched off (bnc#693639)\n    * PCI: Set device power state to PCI_D0 for device without native PM\n      support (bnc#752972).\n    * dlm: Do not allocate a fd for peeloff (bnc#729247).\n    * sctp: Export sctp_do_peeloff (bnc#729247).\n    * epoll: Do not limit non-nested epoll paths (bnc#676204).\n    * mlx4: Limit MSI-X vector allocation (bnc#624072).\n    * mlx4: Changing interrupt scheme (bnc#624072).\n    * mlx4_en: Assigning TX irq per ring (bnc#624072).\n    * mlx4_en: Restoring RX buffer pointer in case of failure (bnc#624072).\n    * mlx4_en: using new mlx4 interrupt scheme (bnc#624072).\n    * igb: Fix for Alt MAC Address feature on 82580 and later devices\n      (bnc#746980).\n    * igb: Power down link when interface is down (bnc#745699).\n    * igb: use correct bits to identify if managability is enabled\n      (bnc#743209).\n    * intel_agp: Do not oops with zero stolen memory (bnc#738679).\n    * agp: fix scratch page cleanup (bnc#738679).\n    * hugetlb: add generic definition of NUMA_NO_NODE (bnc#751844).\n    * sched: Fix proc_sched_set_task() (bnc#717994).\n    * PM: Print a warning if firmware is requested when tasks are frozen\n      (bnc#749886).\n    * PM / Sleep: Fix freezer failures due to racy\n      usermodehelper_is_disabled() (bnc#749886).\n    * PM / Sleep: Fix read_unlock_usermodehelper() call (bnc#749886).\n    * firmware loader: allow builtin firmware load even if usermodehelper\n      is disabled (bnc#749886).\n    * PM / Hibernate: Enable usermodehelpers in software_resume() error\n      path (bnc#744163).\n    * ipv6: Allow inet6_dump_addr() to handle more than 64 addresses\n      (bnc#748279).\n    * ipv6: fix refcnt problem related to POSTDAD state (bnc#743619).\n    * be2net: change to show correct physical link status (bnc#727834).\n    * be2net: changes to properly provide phy details (bnc#727834).\n    * aio: fix race between io_destroy() and io_submit() (bnc#747445\n      bnc#611264).\n    * intel-iommu: Check for identity mapping candidate using system dma\n      mask (bnc#700449).\n    * intel-iommu: Dont cache iova above 32bit (bnc#700449).\n    * intel-iommu: Add domain check in domain_remove_one_dev_info\n      (bnc#700449).\n    * intel-iommu: Provide option to enable 64-bit IOMMU pass through mode\n      (bnc#700449).\n    * intel-iommu: Remove Host Bridge devices from identity mapping\n      (bnc#700449).\n    * intel-iommu: Speed up processing of the identity_mapping function\n      (bnc#700449).\n    * intel-iommu: Use coherent DMA mask when requested (bnc#700449).\n    * 1: Fix accounting of softirq time when idle (bnc#719793).\n    * driver-core: fix race between device_register and driver_register\n      (bnc#742358).\n    * dcache: patches.fixes/large-hash-dcache_init-fix.patch: Fix oops when\n      initializing large hash on \u003e 16TB machine (bnc#742210).\n    * kdump: Save PG_compound or PG_head value in VMCOREINFO (bnc#738503).\n    * Update config files: disable NET_9P_RDMA (bnc#720374).\n    * cdc-wdm: fix race leading leading to memory corruption (bnc#759544).\n\nSecurity Issue references:\n\n    * CVE-2011-1083\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1083\u003e\n    * CVE-2011-4086\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4086\u003e\n    * CVE-2011-4622\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-4622\u003e\n    * CVE-2012-0045\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0045\u003e\n    * CVE-2012-0879\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0879\u003e\n    * CVE-2012-1090\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-1090\u003e\n    * CVE-2012-1097\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-1097\u003e\n    * CVE-2012-2133\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2133\u003e\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-man-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-2.6.32.59-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-base-2.6.32.59-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-source-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-syms-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-man-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-2.6.32.59-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-base-2.6.32.59-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-source-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-syms-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-man-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-2.6.32.59-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-base-2.6.32.59-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-source-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-syms-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-man-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-2.6.32.59-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-base-2.6.32.59-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-source-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-syms-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-base-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-devel-2.6.32.59-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20150652-1/",
+      "Description": "Link for SUSE-SU-2015:0652-1"
+    },
+    {
+      "URL": "https://lists.opensuse.org/opensuse-security-announce/2015-04/msg00000.html",
+      "Description": "E-Mail link for SUSE-SU-2015:0652-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/611264",
+      "Description": "SUSE Bug 611264"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/617344",
+      "Description": "SUSE Bug 617344"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/624072",
+      "Description": "SUSE Bug 624072"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/652942",
+      "Description": "SUSE Bug 652942"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/668194",
+      "Description": "SUSE Bug 668194"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/676204",
+      "Description": "SUSE Bug 676204"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/688079",
+      "Description": "SUSE Bug 688079"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/693639",
+      "Description": "SUSE Bug 693639"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/697920",
+      "Description": "SUSE Bug 697920"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/700449",
+      "Description": "SUSE Bug 700449"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/704280",
+      "Description": "SUSE Bug 704280"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/713148",
+      "Description": "SUSE Bug 713148"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/714507",
+      "Description": "SUSE Bug 714507"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/716850",
+      "Description": "SUSE Bug 716850"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/717994",
+      "Description": "SUSE Bug 717994"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/719793",
+      "Description": "SUSE Bug 719793"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/720374",
+      "Description": "SUSE Bug 720374"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/721366",
+      "Description": "SUSE Bug 721366"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/727834",
+      "Description": "SUSE Bug 727834"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/729247",
+      "Description": "SUSE Bug 729247"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/731809",
+      "Description": "SUSE Bug 731809"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/733761",
+      "Description": "SUSE Bug 733761"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/734300",
+      "Description": "SUSE Bug 734300"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/734900",
+      "Description": "SUSE Bug 734900"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/737326",
+      "Description": "SUSE Bug 737326"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/738210",
+      "Description": "SUSE Bug 738210"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/738503",
+      "Description": "SUSE Bug 738503"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/738528",
+      "Description": "SUSE Bug 738528"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/738679",
+      "Description": "SUSE Bug 738679"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/740180",
+      "Description": "SUSE Bug 740180"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/740895",
+      "Description": "SUSE Bug 740895"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/740969",
+      "Description": "SUSE Bug 740969"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/742210",
+      "Description": "SUSE Bug 742210"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/742358",
+      "Description": "SUSE Bug 742358"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/743209",
+      "Description": "SUSE Bug 743209"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/743619",
+      "Description": "SUSE Bug 743619"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/744163",
+      "Description": "SUSE Bug 744163"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/744658",
+      "Description": "SUSE Bug 744658"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/745422",
+      "Description": "SUSE Bug 745422"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/745699",
+      "Description": "SUSE Bug 745699"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/745832",
+      "Description": "SUSE Bug 745832"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/745929",
+      "Description": "SUSE Bug 745929"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/746980",
+      "Description": "SUSE Bug 746980"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/747028",
+      "Description": "SUSE Bug 747028"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/747430",
+      "Description": "SUSE Bug 747430"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/747445",
+      "Description": "SUSE Bug 747445"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/748112",
+      "Description": "SUSE Bug 748112"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/748279",
+      "Description": "SUSE Bug 748279"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/748812",
+      "Description": "SUSE Bug 748812"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/749342",
+      "Description": "SUSE Bug 749342"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/749569",
+      "Description": "SUSE Bug 749569"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/749886",
+      "Description": "SUSE Bug 749886"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/750079",
+      "Description": "SUSE Bug 750079"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/750171",
+      "Description": "SUSE Bug 750171"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/751322",
+      "Description": "SUSE Bug 751322"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/751844",
+      "Description": "SUSE Bug 751844"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/751880",
+      "Description": "SUSE Bug 751880"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/752491",
+      "Description": "SUSE Bug 752491"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/752634",
+      "Description": "SUSE Bug 752634"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/752972",
+      "Description": "SUSE Bug 752972"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/755178",
+      "Description": "SUSE Bug 755178"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/755537",
+      "Description": "SUSE Bug 755537"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/756448",
+      "Description": "SUSE Bug 756448"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/756840",
+      "Description": "SUSE Bug 756840"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/757917",
+      "Description": "SUSE Bug 757917"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/758532",
+      "Description": "SUSE Bug 758532"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/758813",
+      "Description": "SUSE Bug 758813"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/759544",
+      "Description": "SUSE Bug 759544"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2011-1083/",
+      "Description": "SUSE CVE CVE-2011-1083 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2011-4086/",
+      "Description": "SUSE CVE CVE-2011-4086 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2011-4622/",
+      "Description": "SUSE CVE CVE-2011-4622 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-0045/",
+      "Description": "SUSE CVE CVE-2012-0045 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-0879/",
+      "Description": "SUSE CVE CVE-2012-0879 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-1090/",
+      "Description": "SUSE CVE CVE-2012-1090 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-1097/",
+      "Description": "SUSE CVE CVE-2012-1097 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-2133/",
+      "Description": "SUSE CVE CVE-2012-2133 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2011-1083",
+      "Description": "The epoll implementation in the Linux kernel 2.6.37.2 and earlier does not properly traverse a tree of epoll file descriptors, which allows local users to cause a denial of service (CPU consumption) via a crafted application that makes epoll_create and epoll_ctl system calls.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2011-1083.html",
+          "Description": "CVE-2011-1083"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/676204",
+          "Description": "SUSE Bug 676204"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/690537",
+          "Description": "SUSE Bug 690537"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2011-4086",
+      "Description": "The journal_unmap_buffer function in fs/jbd2/transaction.c in the Linux kernel before 3.3.1 does not properly handle the _Delay and _Unwritten buffer head states, which allows local users to cause a denial of service (system crash) by leveraging the presence of an ext4 filesystem that was mounted with a journal.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2011-4086.html",
+          "Description": "CVE-2011-4086"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/745832",
+          "Description": "SUSE Bug 745832"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2011-4622",
+      "Description": "The create_pit_timer function in arch/x86/kvm/i8254.c in KVM 83, and possibly other versions, does not properly handle when Programmable Interval Timer (PIT) interrupt requests (IRQs) when a virtual interrupt controller (irqchip) is not available, which allows local users to cause a denial of service (NULL pointer dereference) by starting a timer.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2011-4622.html",
+          "Description": "CVE-2011-4622"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/738210",
+          "Description": "SUSE Bug 738210"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2012-0045",
+      "Description": "The em_syscall function in arch/x86/kvm/emulate.c in the KVM implementation in the Linux kernel before 3.2.14 does not properly handle the 0f05 (aka syscall) opcode, which allows guest OS users to cause a denial of service (guest OS crash) via a crafted application, as demonstrated by an NASM file.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-0045.html",
+          "Description": "CVE-2012-0045"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/740969",
+          "Description": "SUSE Bug 740969"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2012-0879",
+      "Description": "The I/O implementation for block devices in the Linux kernel before 2.6.33 does not properly handle the CLONE_IO feature, which allows local users to cause a denial of service (I/O instability) by starting multiple processes that share an I/O context.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-0879.html",
+          "Description": "CVE-2012-0879"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/748812",
+          "Description": "SUSE Bug 748812"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2012-1090",
+      "Description": "The cifs_lookup function in fs/cifs/dir.c in the Linux kernel before 3.2.10 allows local users to cause a denial of service (OOPS) via attempted access to a special file, as demonstrated by a FIFO.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-1090.html",
+          "Description": "CVE-2012-1090"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/749569",
+          "Description": "SUSE Bug 749569"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2012-1097",
+      "Description": "The regset (aka register set) feature in the Linux kernel before 3.2.10 does not properly handle the absence of .get and .set methods, which allows local users to cause a denial of service (NULL pointer dereference) or possibly have unspecified other impact via a (1) PTRACE_GETREGSET or (2) PTRACE_SETREGSET ptrace call.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-1097.html",
+          "Description": "CVE-2012-1097"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/750079",
+          "Description": "SUSE Bug 750079"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2012-2133",
+      "Description": "Use-after-free vulnerability in the Linux kernel before 3.3.6, when huge pages are enabled, allows local users to cause a denial of service (system crash) or possibly gain privileges by interacting with a hugetlbfs filesystem, as demonstrated by a umount operation that triggers improper handling of quota data.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-2133.html",
+          "Description": "CVE-2012-2133"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/758532",
+          "Description": "SUSE Bug 758532"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP1:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP1:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP1:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-default-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-pae-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:btrfs-kmp-xen-0_2.6.32.59_0.3-0.3.92",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-default-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-pae-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-ppc64-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-trace-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:ext4dev-kmp-xen-0_2.6.32.59_0.3-7.9.59",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-default-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-pae-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:hyper-v-kmp-trace-0_2.6.32.59_0.3-0.18.16",
+            "SUSE Linux Enterprise Server 11 SP2:iscsitarget-kmp-default-1.4.19_2.6.32.19_0.3-0.7.8",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-default-man-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-base-2.6.32.59-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ec2-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-pae-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-ppc64-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-source-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-syms-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-trace-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-base-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:kernel-xen-devel-2.6.32.59-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:oracleasm-kmp-default-2.0.5_2.6.32.19_0.3-7.10.1",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-default-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-pae-4.0.3_21548_16_2.6.32.59_0.15-0.5.26",
+            "SUSE Linux Enterprise Server 11 SP2:xen-kmp-trace-4.0.3_21548_16_2.6.32.59_0.15-0.5.26"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

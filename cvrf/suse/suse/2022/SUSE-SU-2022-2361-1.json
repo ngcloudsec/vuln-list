@@ -1,0 +1,1342 @@
+{
+  "Title": "Security update for pcre",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:2361-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-07-12T10:05:47Z",
+    "CurrentReleaseDate": "2022-07-12T10:05:47Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-07-12T10:05:47Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for pcre",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for pcre fixes the following issues:\n\n- CVE-2022-1586: Fixed unicode property matching issue. (bsc#1199232)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "Container bci/python:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "Container suse/389-ds:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "Container suse/pcp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "Container suse/sle15:15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-static-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-doc-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre1-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre16-0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcrecpp0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcreposix0-32bit-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-devel-static-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-doc-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre-tools-8.45-150000.20.13.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20222361-1/",
+      "Description": "Link for SUSE-SU-2022:2361-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-July/011510.html",
+      "Description": "E-Mail link for SUSE-SU-2022:2361-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1199232",
+      "Description": "SUSE Bug 1199232"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1586/",
+      "Description": "SUSE CVE CVE-2022-1586 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-1586",
+      "Description": "An out-of-bounds read vulnerability was discovered in the PCRE2 library in the compile_xclass_matchingpath() function of the pcre2_jit_compile.c file. This involves a unicode property matching issue in JIT-compiled regular expressions. The issue occurs because the character was not fully read in case-less matching within JIT.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1586.html",
+          "Description": "CVE-2022-1586"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199232",
+          "Description": "SUSE Bug 1199232"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201031",
+          "Description": "SUSE Bug 1201031"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/dotnet-aspnet:3.1:libpcre1-8.45-150000.20.13.1",
+            "Container bci/dotnet-aspnet:5.0:libpcre1-8.45-150000.20.13.1",
+            "Container bci/dotnet-aspnet:latest:libpcre1-8.45-150000.20.13.1",
+            "Container bci/dotnet-runtime:3.1:libpcre1-8.45-150000.20.13.1",
+            "Container bci/dotnet-runtime:5.0:libpcre1-8.45-150000.20.13.1",
+            "Container bci/dotnet-runtime:latest:libpcre1-8.45-150000.20.13.1",
+            "Container bci/dotnet-sdk:3.1:libpcre1-8.45-150000.20.13.1",
+            "Container bci/dotnet-sdk:5.0:libpcre1-8.45-150000.20.13.1",
+            "Container bci/node:12:libpcre1-8.45-150000.20.13.1",
+            "Container bci/python:latest:libpcre1-8.45-150000.20.13.1",
+            "Container bci/ruby:latest:libpcre1-8.45-150000.20.13.1",
+            "Container suse/389-ds:latest:libpcre1-8.45-150000.20.13.1",
+            "Container suse/pcp:latest:libpcre1-8.45-150000.20.13.1",
+            "Container suse/sle15:15.1:libpcre1-8.45-150000.20.13.1",
+            "SUSE Enterprise Storage 6:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Enterprise Storage 6:libpcre1-8.45-150000.20.13.1",
+            "SUSE Enterprise Storage 6:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Enterprise Storage 6:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Enterprise Storage 6:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Enterprise Storage 6:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Enterprise Storage 6:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Enterprise Storage 6:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Enterprise Storage 7:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Enterprise Storage 7:libpcre1-8.45-150000.20.13.1",
+            "SUSE Enterprise Storage 7:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Enterprise Storage 7:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Enterprise Storage 7:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Enterprise Storage 7:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Enterprise Storage 7:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Enterprise Storage 7:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libpcre1-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libpcre1-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libpcre1-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libpcre1-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libpcre1-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libpcre1-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Micro 5.1:libpcre1-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Micro 5.2:libpcre1-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libpcre1-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libpcre1-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libpcre1-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libpcre1-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libpcre1-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libpcre1-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libpcre1-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15-LTSS:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server 15-LTSS:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libpcre1-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libpcre1-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libpcre1-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Manager Proxy 4.1:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Manager Proxy 4.1:libpcre1-8.45-150000.20.13.1",
+            "SUSE Manager Proxy 4.1:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Manager Proxy 4.1:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Manager Proxy 4.1:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Manager Proxy 4.1:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Manager Proxy 4.1:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Manager Proxy 4.1:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Manager Retail Branch Server 4.1:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Manager Retail Branch Server 4.1:libpcre1-8.45-150000.20.13.1",
+            "SUSE Manager Retail Branch Server 4.1:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Manager Retail Branch Server 4.1:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Manager Retail Branch Server 4.1:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Manager Retail Branch Server 4.1:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Manager Retail Branch Server 4.1:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Manager Retail Branch Server 4.1:pcre-tools-8.45-150000.20.13.1",
+            "SUSE Manager Server 4.1:libpcre1-32bit-8.45-150000.20.13.1",
+            "SUSE Manager Server 4.1:libpcre1-8.45-150000.20.13.1",
+            "SUSE Manager Server 4.1:libpcre16-0-8.45-150000.20.13.1",
+            "SUSE Manager Server 4.1:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "SUSE Manager Server 4.1:libpcrecpp0-8.45-150000.20.13.1",
+            "SUSE Manager Server 4.1:libpcreposix0-8.45-150000.20.13.1",
+            "SUSE Manager Server 4.1:pcre-devel-8.45-150000.20.13.1",
+            "SUSE Manager Server 4.1:pcre-tools-8.45-150000.20.13.1",
+            "openSUSE Leap 15.3:libpcre1-32bit-8.45-150000.20.13.1",
+            "openSUSE Leap 15.3:libpcre1-8.45-150000.20.13.1",
+            "openSUSE Leap 15.3:libpcre16-0-32bit-8.45-150000.20.13.1",
+            "openSUSE Leap 15.3:libpcre16-0-8.45-150000.20.13.1",
+            "openSUSE Leap 15.3:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "openSUSE Leap 15.3:libpcrecpp0-8.45-150000.20.13.1",
+            "openSUSE Leap 15.3:libpcreposix0-32bit-8.45-150000.20.13.1",
+            "openSUSE Leap 15.3:libpcreposix0-8.45-150000.20.13.1",
+            "openSUSE Leap 15.3:pcre-devel-8.45-150000.20.13.1",
+            "openSUSE Leap 15.3:pcre-devel-static-8.45-150000.20.13.1",
+            "openSUSE Leap 15.3:pcre-doc-8.45-150000.20.13.1",
+            "openSUSE Leap 15.3:pcre-tools-8.45-150000.20.13.1",
+            "openSUSE Leap 15.4:libpcre1-32bit-8.45-150000.20.13.1",
+            "openSUSE Leap 15.4:libpcre1-8.45-150000.20.13.1",
+            "openSUSE Leap 15.4:libpcre16-0-32bit-8.45-150000.20.13.1",
+            "openSUSE Leap 15.4:libpcre16-0-8.45-150000.20.13.1",
+            "openSUSE Leap 15.4:libpcrecpp0-32bit-8.45-150000.20.13.1",
+            "openSUSE Leap 15.4:libpcrecpp0-8.45-150000.20.13.1",
+            "openSUSE Leap 15.4:libpcreposix0-32bit-8.45-150000.20.13.1",
+            "openSUSE Leap 15.4:libpcreposix0-8.45-150000.20.13.1",
+            "openSUSE Leap 15.4:pcre-devel-8.45-150000.20.13.1",
+            "openSUSE Leap 15.4:pcre-devel-static-8.45-150000.20.13.1",
+            "openSUSE Leap 15.4:pcre-doc-8.45-150000.20.13.1",
+            "openSUSE Leap 15.4:pcre-tools-8.45-150000.20.13.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

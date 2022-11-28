@@ -1,0 +1,938 @@
+{
+  "Title": "Security update for freetype2",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3252-2",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-09-22T09:26:38Z",
+    "CurrentReleaseDate": "2022-09-22T09:26:38Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-09-22T09:26:38Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for freetype2",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for freetype2 fixes the following issues:\n\n- CVE-2022-27404 Fixed a segmentation fault via a crafted typeface (bsc#1198830).\n- CVE-2022-27405 Fixed a buffer overflow via a crafted typeface (bsc#1198832).\n- CVE-2022-27406 Fixed a segmentation fault via a crafted typeface (bsc#1198823).\n\nNon-security fixes:\n\n- Updated to version 2.10.4\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.4/libguestfs-tools:0.49.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.4/virt-launcher:0.49.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-EC2-ECS-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftdump-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftdump-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftdump-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftdump-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftdump-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftdump-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftdump-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftdump-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftdump-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223252-2/",
+      "Description": "Link for SUSE-SU-2022:3252-2"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-September/012330.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3252-2"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1198823",
+      "Description": "SUSE Bug 1198823"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1198830",
+      "Description": "SUSE Bug 1198830"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1198832",
+      "Description": "SUSE Bug 1198832"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-27404/",
+      "Description": "SUSE CVE CVE-2022-27404 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-27405/",
+      "Description": "SUSE CVE CVE-2022-27405 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-27406/",
+      "Description": "SUSE CVE CVE-2022-27406 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-27404",
+      "Description": "FreeType commit 1e2eb65048f75c64b68708efed6ce904c31f3b2f was discovered to contain a heap buffer overflow via the function sfnt_init_face.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-27404.html",
+          "Description": "CVE-2022-27404"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1198830",
+          "Description": "SUSE Bug 1198830"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/openjdk-devel:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container bci/openjdk:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container suse/sle-micro-rancher/5.2:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container suse/sle-micro-rancher/5.3:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container suse/sles/15.4/libguestfs-tools:0.49.0:libfreetype6-2.10.4-150000.4.12.1",
+            "Container suse/sles/15.4/virt-launcher:0.49.0:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-BYOS-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-BYOS:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-CHOST-BYOS-Aliyun:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-CHOST-BYOS-Azure:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-CHOST-BYOS:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-EC2-ECS-HVM:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-HPC-BYOS-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-HPC-BYOS:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-HPC-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAP-BYOS-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAP-BYOS:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAP-EC2:freetype2-devel-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAP-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAP:freetype2-devel-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAP:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAPCAL-EC2:freetype2-devel-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAPCAL-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAPCAL:freetype2-devel-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAPCAL:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 6:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 6:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 6:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 7:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 7:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 7:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 7:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15-LTSS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Manager Proxy 4.1:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Manager Proxy 4.1:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Manager Proxy 4.1:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Manager Proxy 4.1:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Manager Retail Branch Server 4.1:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Manager Retail Branch Server 4.1:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Manager Retail Branch Server 4.1:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Manager Server 4.1:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Manager Server 4.1:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Manager Server 4.1:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Manager Server 4.1:libfreetype6-32bit-2.10.4-150000.4.12.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-27405",
+      "Description": "FreeType commit 53dfdcd8198d2b3201a23c4bad9190519ba918db was discovered to contain a segmentation violation via the function FNT_Size_Request.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-27405.html",
+          "Description": "CVE-2022-27405"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1198832",
+          "Description": "SUSE Bug 1198832"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/openjdk-devel:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container bci/openjdk:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container suse/sle-micro-rancher/5.2:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container suse/sle-micro-rancher/5.3:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container suse/sles/15.4/libguestfs-tools:0.49.0:libfreetype6-2.10.4-150000.4.12.1",
+            "Container suse/sles/15.4/virt-launcher:0.49.0:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-BYOS-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-BYOS:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-CHOST-BYOS-Aliyun:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-CHOST-BYOS-Azure:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-CHOST-BYOS:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-EC2-ECS-HVM:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-HPC-BYOS-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-HPC-BYOS:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-HPC-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAP-BYOS-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAP-BYOS:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAP-EC2:freetype2-devel-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAP-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAP:freetype2-devel-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAP:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAPCAL-EC2:freetype2-devel-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAPCAL-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAPCAL:freetype2-devel-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAPCAL:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 6:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 6:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 6:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 7:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 7:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 7:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 7:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15-LTSS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Manager Proxy 4.1:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Manager Proxy 4.1:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Manager Proxy 4.1:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Manager Proxy 4.1:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Manager Retail Branch Server 4.1:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Manager Retail Branch Server 4.1:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Manager Retail Branch Server 4.1:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Manager Server 4.1:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Manager Server 4.1:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Manager Server 4.1:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Manager Server 4.1:libfreetype6-32bit-2.10.4-150000.4.12.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-27406",
+      "Description": "FreeType commit 22a0cccb4d9d002f33c1ba7a4b36812c7d4f46b5 was discovered to contain a segmentation violation via the function FT_Request_Size.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-27406.html",
+          "Description": "CVE-2022-27406"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1198823",
+          "Description": "SUSE Bug 1198823"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/openjdk-devel:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container bci/openjdk:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container suse/sle-micro-rancher/5.2:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container suse/sle-micro-rancher/5.3:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container suse/sles/15.4/libguestfs-tools:0.49.0:libfreetype6-2.10.4-150000.4.12.1",
+            "Container suse/sles/15.4/virt-launcher:0.49.0:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-BYOS-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-BYOS:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-CHOST-BYOS-Aliyun:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-CHOST-BYOS-Azure:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-CHOST-BYOS:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-EC2-ECS-HVM:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-HPC-BYOS-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-HPC-BYOS:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-HPC-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAP-BYOS-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAP-BYOS:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAP-EC2:freetype2-devel-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAP-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAP:freetype2-devel-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAP:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAPCAL-EC2:freetype2-devel-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAPCAL-EC2:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAPCAL:freetype2-devel-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4-SAPCAL:libfreetype6-2.10.4-150000.4.12.1",
+            "Image SLES15-SP4:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 6:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 6:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 6:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 7:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 7:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 7:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Enterprise Storage 7:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15-LTSS:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Manager Proxy 4.1:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Manager Proxy 4.1:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Manager Proxy 4.1:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Manager Proxy 4.1:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Manager Retail Branch Server 4.1:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Manager Retail Branch Server 4.1:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Manager Retail Branch Server 4.1:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Manager Server 4.1:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Manager Server 4.1:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Manager Server 4.1:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Manager Server 4.1:libfreetype6-32bit-2.10.4-150000.4.12.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

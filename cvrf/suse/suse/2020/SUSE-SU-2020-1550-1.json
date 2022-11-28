@@ -1,0 +1,364 @@
+{
+  "Title": "Security update for vim",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:1550-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-06-08T07:29:51Z",
+    "CurrentReleaseDate": "2020-06-08T07:29:51Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-06-08T07:29:51Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for vim",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for vim fixes the following issues:\n\n- CVE-2019-20807: Fixed an issue where escaping from the restrictive mode of vim \n  was possible using interfaces (bsc#1172225 and bsc#1172031).\t  \n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "gvim-7.4.326-17.6.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-7.4.326-17.6.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-7.4.326-17.6.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gvim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gvim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gvim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gvim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gvim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gvim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gvim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gvim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gvim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gvim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gvim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gvim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gvim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gvim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-7.4.326-17.6.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20201550-1/",
+      "Description": "Link for SUSE-SU-2020:1550-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-June/006895.html",
+      "Description": "E-Mail link for SUSE-SU-2020:1550-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1172031",
+      "Description": "SUSE Bug 1172031"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1172225",
+      "Description": "SUSE Bug 1172225"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-20807/",
+      "Description": "SUSE CVE CVE-2019-20807 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-20807",
+      "Description": "In Vim before 8.1.0881, users can circumvent the rvim restricted mode and execute arbitrary OS commands via scripting interfaces (e.g., Python, Ruby, or Lua).",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-20807.html",
+          "Description": "CVE-2019-20807"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1172225",
+          "Description": "SUSE Bug 1172225"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "HPE Helion Openstack 8:gvim-7.4.326-17.6.1",
+            "HPE Helion Openstack 8:vim-7.4.326-17.6.1",
+            "HPE Helion Openstack 8:vim-data-7.4.326-17.6.1",
+            "SUSE Enterprise Storage 5:gvim-7.4.326-17.6.1",
+            "SUSE Enterprise Storage 5:vim-7.4.326-17.6.1",
+            "SUSE Enterprise Storage 5:vim-data-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:gvim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:vim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:vim-data-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:gvim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:vim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:vim-data-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:gvim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:vim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:vim-data-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:gvim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:vim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:vim-data-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server 12 SP4:gvim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server 12 SP4:vim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server 12 SP4:vim-data-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server 12 SP5:gvim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server 12 SP5:vim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server 12 SP5:vim-data-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:gvim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:vim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:vim-data-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:gvim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:vim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:vim-data-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:gvim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:vim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:vim-data-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:gvim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:vim-7.4.326-17.6.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:vim-data-7.4.326-17.6.1",
+            "SUSE OpenStack Cloud 7:gvim-7.4.326-17.6.1",
+            "SUSE OpenStack Cloud 7:vim-7.4.326-17.6.1",
+            "SUSE OpenStack Cloud 7:vim-data-7.4.326-17.6.1",
+            "SUSE OpenStack Cloud 8:gvim-7.4.326-17.6.1",
+            "SUSE OpenStack Cloud 8:vim-7.4.326-17.6.1",
+            "SUSE OpenStack Cloud 8:vim-data-7.4.326-17.6.1",
+            "SUSE OpenStack Cloud Crowbar 8:gvim-7.4.326-17.6.1",
+            "SUSE OpenStack Cloud Crowbar 8:vim-7.4.326-17.6.1",
+            "SUSE OpenStack Cloud Crowbar 8:vim-data-7.4.326-17.6.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

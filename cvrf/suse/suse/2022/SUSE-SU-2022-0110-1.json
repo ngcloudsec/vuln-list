@@ -1,0 +1,108 @@
+{
+  "Title": "Security update for virglrenderer",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:0110-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-01-18T11:05:55Z",
+    "CurrentReleaseDate": "2022-01-18T11:05:55Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-01-18T11:05:55Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for virglrenderer",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for virglrenderer fixes the following issues:\n\t  \n- CVE-2022-0175: Fixed missing initialization of res-\u003eptr (bsc#1194601).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "virglrenderer-devel-0.5.0-12.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvirglrenderer0-0.5.0-12.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvirglrenderer0-0.5.0-12.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20220110-1/",
+      "Description": "Link for SUSE-SU-2022:0110-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-updates/2022-January/021373.html",
+      "Description": "E-Mail link for SUSE-SU-2022:0110-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1194601",
+      "Description": "SUSE Bug 1194601"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-0175/",
+      "Description": "SUSE CVE CVE-2022-0175 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-0175",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-0175.html",
+          "Description": "CVE-2022-0175"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1194601",
+          "Description": "SUSE Bug 1194601"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 12 SP5:libvirglrenderer0-0.5.0-12.6.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libvirglrenderer0-0.5.0-12.6.1",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:virglrenderer-devel-0.5.0-12.6.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

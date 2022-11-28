@@ -1,0 +1,222 @@
+{
+  "Title": "Security update for net-snmp",
+  "Tracking": {
+    "ID": "SUSE-SU-2021:4191-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2021-12-27T16:28:03Z",
+    "CurrentReleaseDate": "2021-12-27T16:28:03Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2021-12-27T16:28:03Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for net-snmp",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for net-snmp fixes the following issues:\n\n- CVE-2020-15862: Make extended MIB read-only (bsc#1174961)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libsnmp30-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "net-snmp-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "net-snmp-devel-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-SNMP-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "snmp-mibs-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsnmp30-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "net-snmp-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "net-snmp-devel-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-SNMP-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "snmp-mibs-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsnmp30-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "net-snmp-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "net-snmp-devel-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-SNMP-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "snmp-mibs-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsnmp30-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "net-snmp-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "net-snmp-devel-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-SNMP-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "snmp-mibs-5.7.3-7.13.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2021/suse-su-20214191-1/",
+      "Description": "Link for SUSE-SU-2021:4191-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2021-December/009952.html",
+      "Description": "E-Mail link for SUSE-SU-2021:4191-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1152968",
+      "Description": "SUSE Bug 1152968"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1174961",
+      "Description": "SUSE Bug 1174961"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-15862/",
+      "Description": "SUSE CVE CVE-2020-15862 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-15862",
+      "Description": "Net-SNMP through 5.7.3 has Improper Privilege Management because SNMP WRITE access to the EXTEND MIB provides the ability to run arbitrary commands as root.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-15862.html",
+          "Description": "CVE-2020-15862"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1174961",
+          "Description": "SUSE Bug 1174961"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1193875",
+          "Description": "SUSE Bug 1193875"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1196341",
+          "Description": "SUSE Bug 1196341"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsnmp30-5.7.3-7.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:net-snmp-5.7.3-7.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:net-snmp-devel-5.7.3-7.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:perl-SNMP-5.7.3-7.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:snmp-mibs-5.7.3-7.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsnmp30-5.7.3-7.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:net-snmp-5.7.3-7.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:net-snmp-devel-5.7.3-7.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:perl-SNMP-5.7.3-7.13.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:snmp-mibs-5.7.3-7.13.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsnmp30-5.7.3-7.13.1",
+            "SUSE Linux Enterprise Server 15-LTSS:net-snmp-5.7.3-7.13.1",
+            "SUSE Linux Enterprise Server 15-LTSS:net-snmp-devel-5.7.3-7.13.1",
+            "SUSE Linux Enterprise Server 15-LTSS:perl-SNMP-5.7.3-7.13.1",
+            "SUSE Linux Enterprise Server 15-LTSS:snmp-mibs-5.7.3-7.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsnmp30-5.7.3-7.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:net-snmp-5.7.3-7.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:net-snmp-devel-5.7.3-7.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:perl-SNMP-5.7.3-7.13.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:snmp-mibs-5.7.3-7.13.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

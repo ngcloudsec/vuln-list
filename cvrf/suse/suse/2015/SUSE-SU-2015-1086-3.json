@@ -1,0 +1,2998 @@
+{
+  "Title": "Security update for IBM Java 7",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:1086-3",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2013-11-19T10:42:44Z",
+    "CurrentReleaseDate": "2013-11-19T10:42:44Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2013-11-19T10:42:44Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for IBM Java 7",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nIBM Java 7 SR6 has been released and fixes lots of bugs and security \nissues.\n\nMore information can be found on: \nhttp://www.ibm.com/developerworks/java/jdk/alerts/\n\u003chttp://www.ibm.com/developerworks/java/jdk/alerts/\u003e\n\nSecurity Issue references:\n\n    * CVE-2013-5458\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5458\u003e\n    * CVE-2013-5456\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5456\u003e\n    * CVE-2013-5457\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5457\u003e\n    * CVE-2013-4041\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4041\u003e\n    * CVE-2013-5375\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5375\u003e\n    * CVE-2013-5372\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5372\u003e\n    * CVE-2013-5843\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5843\u003e\n    * CVE-2013-5789\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5789\u003e\n    * CVE-2013-5830\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5830\u003e\n    * CVE-2013-5829\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5829\u003e\n    * CVE-2013-5787\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5787\u003e\n    * CVE-2013-5788\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5788\u003e\n    * CVE-2013-5824\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5824\u003e\n    * CVE-2013-5842\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5842\u003e\n    * CVE-2013-5782\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5782\u003e\n    * CVE-2013-5817\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5817\u003e\n    * CVE-2013-5809\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5809\u003e\n    * CVE-2013-5814\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5814\u003e\n    * CVE-2013-5832\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5832\u003e\n    * CVE-2013-5850\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5850\u003e\n    * CVE-2013-5838\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5838\u003e\n    * CVE-2013-5802\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5802\u003e\n    * CVE-2013-5812\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5812\u003e\n    * CVE-2013-5804\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5804\u003e\n    * CVE-2013-5783\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5783\u003e\n    * CVE-2013-3829\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-3829\u003e\n    * CVE-2013-5823\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5823\u003e\n    * CVE-2013-5831\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5831\u003e\n    * CVE-2013-5820\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5820\u003e\n    * CVE-2013-5819\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5819\u003e\n    * CVE-2013-5818\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5818\u003e\n    * CVE-2013-5848\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5848\u003e\n    * CVE-2013-5776\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5776\u003e\n    * CVE-2013-5774\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5774\u003e\n    * CVE-2013-5825\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5825\u003e\n    * CVE-2013-5840\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5840\u003e\n    * CVE-2013-5801\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5801\u003e\n    * CVE-2013-5778\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5778\u003e\n    * CVE-2013-5851\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5851\u003e\n    * CVE-2013-5800\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5800\u003e\n    * CVE-2013-5784\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5784\u003e\n    * CVE-2013-5849\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5849\u003e\n    * CVE-2013-5790\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5790\u003e\n    * CVE-2013-5780\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5780\u003e\n    * CVE-2013-5797\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5797\u003e\n    * CVE-2013-5803\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5803\u003e\n    * CVE-2013-5772\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5772\u003e\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20151086-3/",
+      "Description": "Link for SUSE-SU-2015:1086-3"
+    },
+    {
+      "URL": "https://lists.opensuse.org/opensuse-security-announce/2015-06/msg00021.html",
+      "Description": "E-Mail link for SUSE-SU-2015:1086-3"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/849212",
+      "Description": "SUSE Bug 849212"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-3829/",
+      "Description": "SUSE CVE CVE-2013-3829 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-4041/",
+      "Description": "SUSE CVE CVE-2013-4041 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5372/",
+      "Description": "SUSE CVE CVE-2013-5372 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5375/",
+      "Description": "SUSE CVE CVE-2013-5375 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5456/",
+      "Description": "SUSE CVE CVE-2013-5456 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5457/",
+      "Description": "SUSE CVE CVE-2013-5457 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5458/",
+      "Description": "SUSE CVE CVE-2013-5458 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5772/",
+      "Description": "SUSE CVE CVE-2013-5772 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5774/",
+      "Description": "SUSE CVE CVE-2013-5774 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5776/",
+      "Description": "SUSE CVE CVE-2013-5776 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5778/",
+      "Description": "SUSE CVE CVE-2013-5778 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5780/",
+      "Description": "SUSE CVE CVE-2013-5780 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5782/",
+      "Description": "SUSE CVE CVE-2013-5782 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5783/",
+      "Description": "SUSE CVE CVE-2013-5783 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5784/",
+      "Description": "SUSE CVE CVE-2013-5784 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5787/",
+      "Description": "SUSE CVE CVE-2013-5787 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5788/",
+      "Description": "SUSE CVE CVE-2013-5788 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5789/",
+      "Description": "SUSE CVE CVE-2013-5789 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5790/",
+      "Description": "SUSE CVE CVE-2013-5790 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5797/",
+      "Description": "SUSE CVE CVE-2013-5797 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5800/",
+      "Description": "SUSE CVE CVE-2013-5800 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5801/",
+      "Description": "SUSE CVE CVE-2013-5801 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5802/",
+      "Description": "SUSE CVE CVE-2013-5802 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5803/",
+      "Description": "SUSE CVE CVE-2013-5803 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5804/",
+      "Description": "SUSE CVE CVE-2013-5804 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5809/",
+      "Description": "SUSE CVE CVE-2013-5809 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5812/",
+      "Description": "SUSE CVE CVE-2013-5812 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5814/",
+      "Description": "SUSE CVE CVE-2013-5814 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5817/",
+      "Description": "SUSE CVE CVE-2013-5817 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5818/",
+      "Description": "SUSE CVE CVE-2013-5818 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5819/",
+      "Description": "SUSE CVE CVE-2013-5819 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5820/",
+      "Description": "SUSE CVE CVE-2013-5820 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5823/",
+      "Description": "SUSE CVE CVE-2013-5823 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5824/",
+      "Description": "SUSE CVE CVE-2013-5824 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5825/",
+      "Description": "SUSE CVE CVE-2013-5825 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5829/",
+      "Description": "SUSE CVE CVE-2013-5829 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5830/",
+      "Description": "SUSE CVE CVE-2013-5830 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5831/",
+      "Description": "SUSE CVE CVE-2013-5831 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5832/",
+      "Description": "SUSE CVE CVE-2013-5832 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5838/",
+      "Description": "SUSE CVE CVE-2013-5838 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5840/",
+      "Description": "SUSE CVE CVE-2013-5840 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5842/",
+      "Description": "SUSE CVE CVE-2013-5842 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5843/",
+      "Description": "SUSE CVE CVE-2013-5843 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5848/",
+      "Description": "SUSE CVE CVE-2013-5848 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5849/",
+      "Description": "SUSE CVE CVE-2013-5849 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5850/",
+      "Description": "SUSE CVE CVE-2013-5850 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-5851/",
+      "Description": "SUSE CVE CVE-2013-5851 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2013-3829",
+      "Description": "Unspecified vulnerability in the Java SE, Java SE Embedded component in Oracle Java SE Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality and integrity via unknown vectors related to Libraries.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-3829.html",
+          "Description": "CVE-2013-3829"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-4041",
+      "Description": "Unspecified vulnerability in IBM Java SDK 5.0.0 before SR16 FP4, 7.0.0 before SR6, 6.0.1 before SR7, and 6.0.0 before SR15 allows remote attackers to access restricted classes via unspecified vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-4041.html",
+          "Description": "CVE-2013-4041"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5372",
+      "Description": "The XML4J parser in IBM WebSphere Message Broker 6.1 before 6.1.0.12, 7.0 before 7.0.0.7, and 8.0 before 8.0.0.4 and IBM Integration Bus 9.0 before 9.0.0.1 allows remote attackers to cause a denial of service (memory consumption) via a crafted XML document that triggers expansion for many entities.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5372.html",
+          "Description": "CVE-2013-5372"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5375",
+      "Description": "Unspecified vulnerability in IBM Java SDK 7.0.0 before SR6, 6.0.1 before SR7, 6.0.0 before SR15, and 5.0.0 before SR16 FP4 allows remote attackers to access restricted classes via unspecified vectors related to XML and XSL.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5375.html",
+          "Description": "CVE-2013-5375"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5456",
+      "Description": "The com.ibm.rmi.io.SunSerializableFactory class in IBM Java SDK 7.0.0 before SR6 allows remote attackers to bypass a sandbox protection mechanism and execute arbitrary code via vectors related to deserialization inside the AccessController doPrivileged block.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5456.html",
+          "Description": "CVE-2013-5456"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/977646",
+          "Description": "SUSE Bug 977646"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/981057",
+          "Description": "SUSE Bug 981057"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/981060",
+          "Description": "SUSE Bug 981060"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/981087",
+          "Description": "SUSE Bug 981087"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5457",
+      "Description": "Unspecified vulnerability in IBM Java SDK 7.0.0 before SR6, 6.0.1 before SR7, and 6.0.0 before SR15 allows remote attackers to execute arbitrary code via unspecified vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5457.html",
+          "Description": "CVE-2013-5457"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5458",
+      "Description": "Unspecified vulnerability in IBM Java SDK 7.0.0 before SR6 allows remote attackers to execute arbitrary code via unspecified vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5458.html",
+          "Description": "CVE-2013-5458"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5772",
+      "Description": "Unspecified vulnerability in the Java SE component in Oracle Java SE Java SE 7u40 and earlier and Java SE 6u60 and earlier allows remote attackers to affect integrity via unknown vectors related to jhat.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5772.html",
+          "Description": "CVE-2013-5772"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5774",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, 6u60 and earlier, 5.0u51 and earlier, and Embedded 7u40 and earlier allows remote attackers to affect integrity via unknown vectors related to Libraries.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5774.html",
+          "Description": "CVE-2013-5774"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5776",
+      "Description": "Unspecified vulnerability in the Java SE and Java SE Embedded components in Oracle Java SE Java SE 7u40 and earlier, Java SE 6u60 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect integrity via unknown vectors related to Deployment.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5776.html",
+          "Description": "CVE-2013-5776"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5778",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, 6u60 and earlier, 5.0u51 and earlier, and Embedded 7u40 and earlier allows remote attackers to affect confidentiality via unknown vectors related to 2D.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5778.html",
+          "Description": "CVE-2013-5778"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5780",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, JRockit R28.2.8 and earlier, JRockit R27.7.6 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality via unknown vectors related to Libraries.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5780.html",
+          "Description": "CVE-2013-5780"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5782",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, JRockit R28.2.8 and earlier, JRockit R27.7.6 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to 2D.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5782.html",
+          "Description": "CVE-2013-5782"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5783",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality and integrity via unknown vectors related to Swing.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5783.html",
+          "Description": "CVE-2013-5783"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5784",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect integrity via vectors related to SCRIPTING.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5784.html",
+          "Description": "CVE-2013-5784"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5787",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Deployment, a different vulnerability than CVE-2013-5789, CVE-2013-5824, CVE-2013-5832, and CVE-2013-5852.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5787.html",
+          "Description": "CVE-2013-5787"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5788",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Deployment.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5788.html",
+          "Description": "CVE-2013-5788"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5789",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Deployment, a different vulnerability than CVE-2013-5787, CVE-2013-5824, CVE-2013-5832, and CVE-2013-5852.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5789.html",
+          "Description": "CVE-2013-5789"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5790",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality via vectors related to BEANS.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5790.html",
+          "Description": "CVE-2013-5790"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5797",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, JRockit R28.2.8 and earlier, JRockit R27.7.6 and earlier, and JavaFX 2.2.40 and earlier allows remote authenticated users to affect integrity via unknown vectors related to Javadoc.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "low"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5797.html",
+          "Description": "CVE-2013-5797"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5800",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality via vectors related to JGSS.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5800.html",
+          "Description": "CVE-2013-5800"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5801",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality via unknown vectors related to 2D.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5801.html",
+          "Description": "CVE-2013-5801"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5802",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, JRockit R28.2.8 and earlier, JRockit R27.7.6 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via vectors related to JAXP.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5802.html",
+          "Description": "CVE-2013-5802"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5803",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, JRockit R28.2.8 and earlier, JRockit R27.7.6 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect availability via vectors related to JGSS.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5803.html",
+          "Description": "CVE-2013-5803"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5804",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, JRockit R28.2.8 and earlier, and JRockit R27.7.6 and earlier allows remote attackers to affect confidentiality and integrity via unknown vectors related to Javadoc.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5804.html",
+          "Description": "CVE-2013-5804"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5809",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to 2D, a different vulnerability than CVE-2013-5829.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "critical"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5809.html",
+          "Description": "CVE-2013-5809"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5812",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality and availability via unknown vectors related to Deployment.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5812.html",
+          "Description": "CVE-2013-5812"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5814",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via vectors related to CORBA.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "critical"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5814.html",
+          "Description": "CVE-2013-5814"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5817",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via vectors related to JNDI.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "critical"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5817.html",
+          "Description": "CVE-2013-5817"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5818",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect integrity via unknown vectors related to Deployment, a different vulnerability than CVE-2013-5819 and CVE-2013-5831.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5818.html",
+          "Description": "CVE-2013-5818"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5819",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect integrity via unknown vectors related to Deployment, a different vulnerability than CVE-2013-5818 and CVE-2013-5831.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5819.html",
+          "Description": "CVE-2013-5819"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5820",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect integrity via vectors related to JAX-WS.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5820.html",
+          "Description": "CVE-2013-5820"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5823",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, JRockit R28.2.8 and earlier, JRockit R27.7.6 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect availability via unknown vectors related to Security.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5823.html",
+          "Description": "CVE-2013-5823"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5824",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Deployment, a different vulnerability than CVE-2013-5787, CVE-2013-5789, CVE-2013-5832, and CVE-2013-5852.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5824.html",
+          "Description": "CVE-2013-5824"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5825",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, JRockit R28.2.8 and earlier, JRockit R27.7.6 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect availability via vectors related to JAXP.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5825.html",
+          "Description": "CVE-2013-5825"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5829",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to 2D, a different vulnerability than CVE-2013-5809.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "critical"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5829.html",
+          "Description": "CVE-2013-5829"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5830",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, JRockit R28.2.8 and earlier, JRockit R27.7.6 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "critical"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5830.html",
+          "Description": "CVE-2013-5830"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5831",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect integrity via unknown vectors related to Deployment, a different vulnerability than CVE-2013-5818 and CVE-2013-5819.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5831.html",
+          "Description": "CVE-2013-5831"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5832",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Deployment, a different vulnerability than CVE-2013-5787, CVE-2013-5789, CVE-2013-5824, and CVE-2013-5852.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5832.html",
+          "Description": "CVE-2013-5832"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5838",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u25 and earlier, and Java SE Embedded 7u25 and earlier, allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "critical"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5838.html",
+          "Description": "CVE-2013-5838"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/972468",
+          "Description": "SUSE Bug 972468"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5840",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality via unknown vectors related to Libraries.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5840.html",
+          "Description": "CVE-2013-5840"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5842",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries, a different vulnerability than CVE-2013-5850.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5842.html",
+          "Description": "CVE-2013-5842"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5843",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, JavaFX 2.2.40 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to 2D.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5843.html",
+          "Description": "CVE-2013-5843"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5848",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, and JavaFX 2.2.40 and earlier allows remote attackers to affect integrity via unknown vectors related to Deployment.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5848.html",
+          "Description": "CVE-2013-5848"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5849",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality via vectors related to AWT.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5849.html",
+          "Description": "CVE-2013-5849"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5850",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier, Java SE 6u60 and earlier, Java SE 5.0u51 and earlier, and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries, a different vulnerability than CVE-2013-5842.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "critical"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5850.html",
+          "Description": "CVE-2013-5850"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-5851",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u40 and earlier and Java SE Embedded 7u40 and earlier allows remote attackers to affect confidentiality via vectors related to JAXP.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-5851.html",
+          "Description": "CVE-2013-5851"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846177",
+          "Description": "SUSE Bug 846177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/846999",
+          "Description": "SUSE Bug 846999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/849212",
+          "Description": "SUSE Bug 849212"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/852367",
+          "Description": "SUSE Bug 852367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-alsa-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-devel-1.7.0_sr7.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-jdbc-1.7.0_sr6.0-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_7_0-ibm-plugin-1.7.0_sr6.0-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

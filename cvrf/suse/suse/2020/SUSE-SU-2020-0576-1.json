@@ -1,0 +1,96 @@
+{
+  "Title": "Security update for compat-openssl098",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:0576-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-03-03T14:22:46Z",
+    "CurrentReleaseDate": "2020-03-03T14:22:46Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-03-03T14:22:46Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for compat-openssl098",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for compat-openssl098 fixes the following issues:\n\n- Add missing commits for fixes of the 'The 9 Lives of Bleichenbacher's CAT' attack (bsc#1117951)\n- Fixed missing BN_copy() (bsc#1160163)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-106.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Legacy 12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-32bit-0.9.8j-106.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Legacy 12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-106.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-106.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-106.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-106.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-106.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20200576-1/",
+      "Description": "Link for SUSE-SU-2020:0576-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-March/006569.html",
+      "Description": "E-Mail link for SUSE-SU-2020:0576-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1117951",
+      "Description": "SUSE Bug 1117951"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1160163",
+      "Description": "SUSE Bug 1160163"
+    }
+  ],
+  "Vulnerabilities": null
+}

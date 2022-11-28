@@ -1,0 +1,1252 @@
+{
+  "Title": "Security update for openssl-1_1",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:3721-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-12-09T12:36:50Z",
+    "CurrentReleaseDate": "2020-12-09T12:36:50Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-12-09T12:36:50Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for openssl-1_1",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for openssl-1_1 fixes the following issues:\n\t  \n- CVE-2020-1971: Fixed a null pointer dereference in EDIPARTYNAME (bsc#1179491).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/golang:1.16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/golang:1.16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/golang:1.16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/389-ds:1.4.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/busybox:1.26.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/caasp-dex:2.23.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cert-exporter:2.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cert-manager-cainjector:0.15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cert-manager-controller:0.15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cert-manager-webhook:0.15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cilium-etcd-operator:2.0.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cilium-operator:1.7.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cilium:1.7.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/configmap-reload:0.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/coredns:1.6.7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/curl:7.66.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/default-http-backend:0.15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/etcd:3.4.13",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/gangway:3.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/grafana:7.3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/helm-tiller:2.16.12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/istio-base:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/istio-base:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/istio-pilot:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/istio-pilot:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/istio-proxyv2:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/istio-proxyv2:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/k8s-sidecar:0.1.75",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/k8s-sidecar:0.1.75",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-apiserver:v1.18.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-apiserver:v1.18.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-controller-manager:v1.18.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-controller-manager:v1.18.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-proxy:v1.18.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-proxy:v1.18.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-scheduler:v1.18.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-scheduler:v1.18.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-state-metrics:1.9.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kubernetes-client:1.18.10",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kucero:1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kured:1.4.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/metrics-server:0.3.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/prometheus-alertmanager:0.16.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/prometheus-node-exporter:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/prometheus-pushgateway:0.6.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/prometheus-server:2.18.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/reloader:0.0.58",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/rsyslog:8.39.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/skuba-tooling:0.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/velero-plugin-for-aws:1.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/velero-plugin-for-gcp:1.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/velero-plugin-for-microsoft-azure:1.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/velero-restic-restore-helper:1.4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container caasp/v4.5/velero:1.4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ingress-nginx-controller:0.15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-attacher:v3.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-attacher:v3.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-livenessprobe:v1.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-node-driver-registrar:v2.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-node-driver-registrar:v2.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-provisioner:v3.0.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-provisioner:v3.0.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-resizer:v1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-resizer:v1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-snapshotter:v2.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-snapshotter:v4.2.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-snapshotter:v4.2.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/prometheus-webhook-snmp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/prometheus-webhook-snmp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-alertmanager:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-alertmanager:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-node-exporter:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-node-exporter:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container ses/7/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sle15:15.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sle15:15.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sle15:15.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sle15:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sle15:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sle15:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-api:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-controller:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-handler:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-launcher:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-operator:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-apiserver:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-apiserver:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-cloner:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-cloner:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-controller:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-controller:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-importer:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-importer:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-operator:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-operator:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-uploadproxy:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-uploadproxy:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-uploadserver:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-uploadserver:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/libguestfs-tools:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/libguestfs-tools:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-api:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-api:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-controller:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-controller:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-handler:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-handler:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-launcher:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-launcher:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-operator:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-operator:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container trento/trento-db:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container trento/trento-db:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container trento/trento-runner:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container trento/trento-runner:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container trento/trento-runner:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container trento/trento-web:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Container trento/trento-web:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1d-11.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1d-11.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-11.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1d-11.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-11.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20203721-1/",
+      "Description": "Link for SUSE-SU-2020:3721-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-December/007947.html",
+      "Description": "E-Mail link for SUSE-SU-2020:3721-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1179491",
+      "Description": "SUSE Bug 1179491"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-1971/",
+      "Description": "SUSE CVE CVE-2020-1971 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-1971",
+      "Description": "The X.509 GeneralName type is a generic type for representing different types of names. One of those name types is known as EDIPartyName. OpenSSL provides a function GENERAL_NAME_cmp which compares different instances of a GENERAL_NAME to see if they are equal or not. This function behaves incorrectly when both GENERAL_NAMEs contain an EDIPARTYNAME. A NULL pointer dereference and a crash may occur leading to a possible denial of service attack. OpenSSL itself uses the GENERAL_NAME_cmp function for two purposes: 1) Comparing CRL distribution point names between an available CRL and a CRL distribution point embedded in an X509 certificate 2) When verifying that a timestamp response token signer matches the timestamp authority name (exposed via the API functions TS_RESP_verify_response and TS_RESP_verify_token) If an attacker can control both items being compared then that attacker could trigger a crash. For example if the attacker can trick a client or server into checking a malicious certificate against a malicious CRL then this may occur. Note that some applications automatically download CRLs based on a URL embedded in a certificate. This checking happens prior to the signatures on the certificate and CRL being verified. OpenSSL's s_server, s_client and verify tools have support for the \"-crl_download\" option which implements automatic CRL downloading and this attack has been demonstrated to work against those tools. Note that an unrelated bug means that affected versions of OpenSSL cannot parse or construct correct encodings of EDIPARTYNAME. However it is possible to construct a malformed EDIPARTYNAME that OpenSSL's parser will accept and hence trigger this attack. All OpenSSL 1.1.1 and 1.0.2 versions are affected by this issue. Other OpenSSL releases are out of support and have not been checked. Fixed in OpenSSL 1.1.1i (Affected 1.1.1-1.1.1h). Fixed in OpenSSL 1.0.2x (Affected 1.0.2-1.0.2w).",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-1971.html",
+          "Description": "CVE-2020-1971"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1179491",
+          "Description": "SUSE Bug 1179491"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1196179",
+          "Description": "SUSE Bug 1196179"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:libopenssl1_1-1.1.1d-11.12.1",
+            "Container bci/bci-init:latest:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container bci/bci-init:latest:openssl-1_1-1.1.1d-11.12.1",
+            "Container bci/dotnet-aspnet:3.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container bci/dotnet-aspnet:3.1:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container bci/dotnet-aspnet:5.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container bci/dotnet-aspnet:5.0:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container bci/dotnet-aspnet:latest:libopenssl1_1-1.1.1d-11.12.1",
+            "Container bci/dotnet-aspnet:latest:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container bci/dotnet-runtime:3.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container bci/dotnet-runtime:3.1:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container bci/dotnet-runtime:5.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container bci/dotnet-runtime:5.0:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container bci/dotnet-runtime:latest:libopenssl1_1-1.1.1d-11.12.1",
+            "Container bci/dotnet-runtime:latest:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container bci/dotnet-sdk:3.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container bci/dotnet-sdk:3.1:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container bci/dotnet-sdk:5.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container bci/dotnet-sdk:5.0:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container bci/dotnet-sdk:latest:libopenssl1_1-1.1.1d-11.12.1",
+            "Container bci/dotnet-sdk:latest:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container bci/golang:1.16:libopenssl1_1-1.1.1d-11.12.1",
+            "Container bci/golang:1.16:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container bci/golang:1.16:openssl-1_1-1.1.1d-11.12.1",
+            "Container bci/golang:latest:libopenssl1_1-1.1.1d-11.12.1",
+            "Container bci/golang:latest:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container bci/golang:latest:openssl-1_1-1.1.1d-11.12.1",
+            "Container bci/node:12:libopenssl1_1-1.1.1d-11.12.1",
+            "Container bci/node:12:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container bci/node:12:openssl-1_1-1.1.1d-11.12.1",
+            "Container bci/node:14:libopenssl1_1-1.1.1d-11.12.1",
+            "Container bci/node:14:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container bci/node:14:openssl-1_1-1.1.1d-11.12.1",
+            "Container bci/nodejs:latest:libopenssl1_1-1.1.1d-11.12.1",
+            "Container bci/nodejs:latest:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container bci/nodejs:latest:openssl-1_1-1.1.1d-11.12.1",
+            "Container bci/openjdk-devel:latest:libopenssl1_1-1.1.1d-11.12.1",
+            "Container bci/openjdk-devel:latest:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container bci/openjdk-devel:latest:openssl-1_1-1.1.1d-11.12.1",
+            "Container bci/openjdk:latest:libopenssl1_1-1.1.1d-11.12.1",
+            "Container bci/openjdk:latest:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container bci/openjdk:latest:openssl-1_1-1.1.1d-11.12.1",
+            "Container bci/ruby:latest:libopenssl1_1-1.1.1d-11.12.1",
+            "Container bci/ruby:latest:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container bci/ruby:latest:openssl-1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/389-ds:1.4.3:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/busybox:1.26.2:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/caasp-dex:2.23.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/cert-exporter:2.3.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/cert-manager-cainjector:0.15.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/cert-manager-controller:0.15.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/cert-manager-webhook:0.15.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/cilium-etcd-operator:2.0.5:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/cilium-operator:1.7.6:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/cilium:1.7.6:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/configmap-reload:0.3.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/coredns:1.6.7:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/curl:7.66.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/default-http-backend:0.15.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/etcd:3.4.13:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/gangway:3.1.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/grafana:7.3.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/helm-tiller:2.16.12:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/istio-base:beta:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/istio-base:beta:openssl-1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/istio-pilot:beta:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/istio-pilot:beta:openssl-1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/istio-proxyv2:beta:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/istio-proxyv2:beta:openssl-1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/k8s-sidecar:0.1.75:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/k8s-sidecar:0.1.75:openssl-1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/kube-apiserver:v1.18.20:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/kube-apiserver:v1.18.20:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container caasp/v4.5/kube-controller-manager:v1.18.20:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/kube-controller-manager:v1.18.20:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container caasp/v4.5/kube-proxy:v1.18.20:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/kube-proxy:v1.18.20:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container caasp/v4.5/kube-scheduler:v1.18.20:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/kube-scheduler:v1.18.20:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container caasp/v4.5/kube-state-metrics:1.9.5:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/kubernetes-client:1.18.10:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/kucero:1.3.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/kured:1.4.3:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/metrics-server:0.3.6:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/prometheus-alertmanager:0.16.2:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/prometheus-node-exporter:1.0.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/prometheus-pushgateway:0.6.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/prometheus-server:2.18.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/reloader:0.0.58:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/rsyslog:8.39.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/skuba-tooling:0.1.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/velero-plugin-for-aws:1.1.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/velero-plugin-for-gcp:1.1.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/velero-plugin-for-microsoft-azure:1.1.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/velero-restic-restore-helper:1.4.2:libopenssl1_1-1.1.1d-11.12.1",
+            "Container caasp/v4.5/velero:1.4.2:libopenssl1_1-1.1.1d-11.12.1",
+            "Container ingress-nginx-controller:0.15.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container ses/7/ceph/grafana:latest:libopenssl1_1-1.1.1d-11.12.1",
+            "Container ses/7/ceph/grafana:latest:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container ses/7/cephcsi/cephcsi:latest:libopenssl1_1-1.1.1d-11.12.1",
+            "Container ses/7/cephcsi/cephcsi:latest:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container ses/7/cephcsi/cephcsi:latest:openssl-1_1-1.1.1d-11.12.1",
+            "Container ses/7/cephcsi/csi-attacher:v3.3.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container ses/7/cephcsi/csi-attacher:v3.3.0:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container ses/7/cephcsi/csi-livenessprobe:v1.1.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container ses/7/cephcsi/csi-node-driver-registrar:v2.3.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container ses/7/cephcsi/csi-node-driver-registrar:v2.3.0:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container ses/7/cephcsi/csi-provisioner:v3.0.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container ses/7/cephcsi/csi-provisioner:v3.0.0:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container ses/7/cephcsi/csi-resizer:v1.3.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container ses/7/cephcsi/csi-resizer:v1.3.0:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container ses/7/cephcsi/csi-snapshotter:v2.1.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container ses/7/cephcsi/csi-snapshotter:v4.2.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container ses/7/cephcsi/csi-snapshotter:v4.2.0:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container ses/7/prometheus-webhook-snmp:latest:libopenssl1_1-1.1.1d-11.12.1",
+            "Container ses/7/prometheus-webhook-snmp:latest:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container ses/7/prometheus/prometheus-alertmanager:latest:libopenssl1_1-1.1.1d-11.12.1",
+            "Container ses/7/prometheus/prometheus-alertmanager:latest:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container ses/7/prometheus/prometheus-node-exporter:latest:libopenssl1_1-1.1.1d-11.12.1",
+            "Container ses/7/prometheus/prometheus-node-exporter:latest:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container ses/7/prometheus/prometheus-server:latest:libopenssl1_1-1.1.1d-11.12.1",
+            "Container ses/7/prometheus/prometheus-server:latest:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container ses/7/rook/ceph:latest:libopenssl1_1-1.1.1d-11.12.1",
+            "Container ses/7/rook/ceph:latest:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container ses/7/rook/ceph:latest:openssl-1_1-1.1.1d-11.12.1",
+            "Container suse/sle15:15.2:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sle15:15.2:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container suse/sle15:15.2:openssl-1_1-1.1.1d-11.12.1",
+            "Container suse/sle15:15.3:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sle15:15.3:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container suse/sle15:15.3:openssl-1_1-1.1.1d-11.12.1",
+            "Container suse/sles/15.2/virt-api:0.38.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sles/15.2/virt-controller:0.38.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sles/15.2/virt-handler:0.38.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sles/15.2/virt-launcher:0.38.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sles/15.2/virt-operator:0.38.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/cdi-apiserver:1.37.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/cdi-apiserver:1.37.1:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/cdi-cloner:1.37.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/cdi-cloner:1.37.1:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/cdi-controller:1.37.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/cdi-controller:1.37.1:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/cdi-importer:1.37.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/cdi-importer:1.37.1:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/cdi-operator:1.37.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/cdi-operator:1.37.1:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/cdi-uploadproxy:1.37.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/cdi-uploadproxy:1.37.1:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/cdi-uploadserver:1.37.1:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/cdi-uploadserver:1.37.1:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/libguestfs-tools:0.45.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/libguestfs-tools:0.45.0:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/virt-api:0.45.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/virt-api:0.45.0:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/virt-controller:0.45.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/virt-controller:0.45.0:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/virt-handler:0.45.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/virt-handler:0.45.0:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/virt-launcher:0.45.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/virt-launcher:0.45.0:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/virt-operator:0.45.0:libopenssl1_1-1.1.1d-11.12.1",
+            "Container suse/sles/15.3/virt-operator:0.45.0:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container trento/trento-db:latest:libopenssl1_1-1.1.1d-11.12.1",
+            "Container trento/trento-db:latest:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container trento/trento-runner:latest:libopenssl1_1-1.1.1d-11.12.1",
+            "Container trento/trento-runner:latest:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Container trento/trento-runner:latest:openssl-1_1-1.1.1d-11.12.1",
+            "Container trento/trento-web:latest:libopenssl1_1-1.1.1d-11.12.1",
+            "Container trento/trento-web:latest:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libopenssl1_1-1.1.1d-11.12.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:openssl-1_1-1.1.1d-11.12.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libopenssl1_1-1.1.1d-11.12.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:openssl-1_1-1.1.1d-11.12.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libopenssl1_1-1.1.1d-11.12.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:openssl-1_1-1.1.1d-11.12.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libopenssl1_1-1.1.1d-11.12.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:openssl-1_1-1.1.1d-11.12.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:libopenssl1_1-1.1.1d-11.12.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:openssl-1_1-1.1.1d-11.12.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libopenssl1_1-1.1.1d-11.12.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:openssl-1_1-1.1.1d-11.12.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libopenssl1_1-1.1.1d-11.12.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:openssl-1_1-1.1.1d-11.12.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libopenssl1_1-1.1.1d-11.12.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:openssl-1_1-1.1.1d-11.12.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libopenssl1_1-1.1.1d-11.12.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:openssl-1_1-1.1.1d-11.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libopenssl-1_1-devel-1.1.1d-11.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libopenssl1_1-1.1.1d-11.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libopenssl1_1-32bit-1.1.1d-11.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libopenssl1_1-hmac-1.1.1d-11.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libopenssl1_1-hmac-32bit-1.1.1d-11.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:openssl-1_1-1.1.1d-11.12.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

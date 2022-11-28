@@ -1,0 +1,454 @@
+{
+  "Title": "Security update for samba",
+  "Tracking": {
+    "ID": "SUSE-SU-2019:1574-2",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2019-06-24T09:29:54Z",
+    "CurrentReleaseDate": "2019-06-24T09:29:54Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2019-06-24T09:29:54Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for samba",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for samba fixes the following issues:\n\nSecurity issues fixed:\n\n- CVE-2019-12435: zone operations can crash rpc server; (bso#13922); (bsc#1137815).\n\nOther issues fixed:\n\n- Fix cephwrap_flistxattr() debug message; (bso#13940); (bsc#1134697).\n- Add ceph_snapshots VFS module; (jsc#SES-183).\n- Fix vfs_ceph realpath; (bso#13918); (bsc#1134452).\n- MacOS credit accounting breaks with async SESSION SETUP;\n  (bsc#1125601); (bso#13796).\n- Mac OS X SMB2 implmenetation sees Input/output error or Resource\n  temporarily unavailable and drops connection; (bso#13698)\n- Explicitly enable libcephfs POSIX ACL support; (bso#13896); (bsc#1130245).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libdcerpc-binding0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-krb5pac0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-nbt0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-standard0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnetapi0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-credentials0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-errors0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-hostconfig0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-passdb0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-util0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamdb0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbconf0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbldap2-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent-util0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-python3-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-binding0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-krb5pac0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-nbt0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-standard0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnetapi0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-credentials0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-errors0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-hostconfig0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-passdb0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-util0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamdb0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbconf0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbldap2-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent-util0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-python3-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-binding0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-krb5pac0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-nbt0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-standard0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnetapi0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-credentials0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-errors0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-hostconfig0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-passdb0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-util0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamdb0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbconf0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbldap2-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent-util0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-python3-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-ceph-4.9.5+git.176.375e1f05788-3.6.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20191574-2/",
+      "Description": "Link for SUSE-SU-2019:1574-2"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2019-June/005626.html",
+      "Description": "E-Mail link for SUSE-SU-2019:1574-2"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1125601",
+      "Description": "SUSE Bug 1125601"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1130245",
+      "Description": "SUSE Bug 1130245"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1134452",
+      "Description": "SUSE Bug 1134452"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1134697",
+      "Description": "SUSE Bug 1134697"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1137815",
+      "Description": "SUSE Bug 1137815"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-12435/",
+      "Description": "SUSE CVE CVE-2019-12435 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-12435",
+      "Description": "Samba 4.9.x before 4.9.9 and 4.10.x before 4.10.5 has a NULL pointer dereference, leading to Denial of Service. This is related to the AD DC DNS management server (dnsserver) RPC server process.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-12435.html",
+          "Description": "CVE-2019-12435"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1137815",
+          "Description": "SUSE Bug 1137815"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libdcerpc-binding0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libdcerpc0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libndr-krb5pac0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libndr-nbt0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libndr-standard0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libndr0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libnetapi0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libsamba-credentials0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libsamba-errors0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libsamba-hostconfig0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libsamba-passdb0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libsamba-util0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libsamdb0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libsmbconf0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libsmbldap2-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libtevent-util0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libwbclient0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:samba-libs-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:samba-libs-python3-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libdcerpc-binding0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libdcerpc0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libndr-krb5pac0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libndr-nbt0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libndr-standard0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libndr0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libnetapi0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libsamba-credentials0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libsamba-errors0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libsamba-hostconfig0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libsamba-passdb0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libsamba-util0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libsamdb0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libsmbconf0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libsmbldap2-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libtevent-util0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libwbclient0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:samba-libs-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:samba-libs-python3-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libdcerpc-binding0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libdcerpc0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libndr-krb5pac0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libndr-nbt0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libndr-standard0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libndr0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libnetapi0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libsamba-credentials0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libsamba-errors0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libsamba-hostconfig0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libsamba-passdb0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libsamba-util0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libsamdb0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libsmbconf0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libsmbldap2-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libtevent-util0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libwbclient0-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:samba-libs-4.9.5+git.176.375e1f05788-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:samba-libs-python3-4.9.5+git.176.375e1f05788-3.6.1",
+            "SUSE Enterprise Storage 6:samba-ceph-4.9.5+git.176.375e1f05788-3.6.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

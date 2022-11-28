@@ -1,0 +1,336 @@
+{
+  "Title": "Security update for libpng16",
+  "Tracking": {
+    "ID": "SUSE-SU-2019:1398-2",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2019-07-05T11:03:58Z",
+    "CurrentReleaseDate": "2019-07-05T11:03:58Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2019-07-05T11:03:58Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for libpng16",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for libpng16 fixes the following issues:\n\nSecurity issues fixed:\n\n- CVE-2019-7317: Fixed a use-after-free vulnerability, triggered when \n  png_image_free() was called under png_safe_execute (bsc#1124211).\n- CVE-2018-13785: Fixed a wrong calculation of row_factor in the\n  png_check_chunk_length function in pngrutil.c, which could haved triggered\n  and integer overflow and result in an divide-by-zero while processing a\n  crafted PNG file, leading to a denial of service (bsc#1100687)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "Container ingress-nginx-controller:0.15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-launcher:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/libguestfs-tools:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-launcher:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-32bit-1.6.34-3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-32bit-1.6.34-3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-32bit-1.6.34-3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-tools-1.6.34-3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20191398-2/",
+      "Description": "Link for SUSE-SU-2019:1398-2"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2019-July/005664.html",
+      "Description": "E-Mail link for SUSE-SU-2019:1398-2"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1100687",
+      "Description": "SUSE Bug 1100687"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1121624",
+      "Description": "SUSE Bug 1121624"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1124211",
+      "Description": "SUSE Bug 1124211"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2018-13785/",
+      "Description": "SUSE CVE CVE-2018-13785 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-7317/",
+      "Description": "SUSE CVE CVE-2019-7317 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2018-13785",
+      "Description": "In libpng 1.6.34, a wrong calculation of row_factor in the png_check_chunk_length function (pngrutil.c) may trigger an integer overflow and resultant divide-by-zero while processing a crafted PNG file, leading to a denial of service.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "low"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2018-13785.html",
+          "Description": "CVE-2018-13785"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1100687",
+          "Description": "SUSE Bug 1100687"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1112153",
+          "Description": "SUSE Bug 1112153"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1116574",
+          "Description": "SUSE Bug 1116574"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/openjdk-devel:latest:libpng16-16-1.6.34-3.9.1",
+            "Container bci/openjdk:latest:libpng16-16-1.6.34-3.9.1",
+            "Container ingress-nginx-controller:0.15.0:libpng16-16-1.6.34-3.9.1",
+            "Container suse/sles/15.2/virt-launcher:0.38.1:libpng16-16-1.6.34-3.9.1",
+            "Container suse/sles/15.3/libguestfs-tools:0.45.0:libpng16-16-1.6.34-3.9.1",
+            "Container suse/sles/15.3/virt-launcher:0.45.0:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libpng16-16-1.6.34-3.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libpng16-16-1.6.34-3.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libpng16-16-32bit-1.6.34-3.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libpng16-compat-devel-1.6.34-3.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libpng16-devel-1.6.34-3.9.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libpng16-compat-devel-32bit-1.6.34-3.9.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libpng16-devel-32bit-1.6.34-3.9.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libpng16-tools-1.6.34-3.9.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2019-7317",
+      "Description": "png_image_free in png.c in libpng 1.6.x before 1.6.37 has a use-after-free because png_image_free_function is called under png_safe_execute.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-7317.html",
+          "Description": "CVE-2019-7317"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1124211",
+          "Description": "SUSE Bug 1124211"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1135824",
+          "Description": "SUSE Bug 1135824"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1141780",
+          "Description": "SUSE Bug 1141780"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1147021",
+          "Description": "SUSE Bug 1147021"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1165297",
+          "Description": "SUSE Bug 1165297"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/openjdk-devel:latest:libpng16-16-1.6.34-3.9.1",
+            "Container bci/openjdk:latest:libpng16-16-1.6.34-3.9.1",
+            "Container ingress-nginx-controller:0.15.0:libpng16-16-1.6.34-3.9.1",
+            "Container suse/sles/15.2/virt-launcher:0.38.1:libpng16-16-1.6.34-3.9.1",
+            "Container suse/sles/15.3/libguestfs-tools:0.45.0:libpng16-16-1.6.34-3.9.1",
+            "Container suse/sles/15.3/virt-launcher:0.45.0:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libpng16-16-1.6.34-3.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libpng16-16-1.6.34-3.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libpng16-16-1.6.34-3.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libpng16-16-32bit-1.6.34-3.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libpng16-compat-devel-1.6.34-3.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libpng16-devel-1.6.34-3.9.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libpng16-compat-devel-32bit-1.6.34-3.9.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libpng16-devel-32bit-1.6.34-3.9.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libpng16-tools-1.6.34-3.9.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

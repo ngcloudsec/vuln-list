@@ -1,0 +1,420 @@
+{
+  "Title": "Security update for freetype2",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:2998-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-10-22T08:05:18Z",
+    "CurrentReleaseDate": "2020-10-22T08:05:18Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-10-22T08:05:18Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for freetype2",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for freetype2 fixes the following issues:\n\n- CVE-2020-15999: fixed a heap buffer overflow found in the handling of embedded PNG bitmaps (bsc#1177914).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libfreetype6-2.6.3-7.18.1",
+        "RelatesToProductReference": "Container caasp/v4/nginx-ingress-controller:beta1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ft2demos-2.6.3-7.18.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.6.3-7.18.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.6.3-7.18.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ft2demos-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ft2demos-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ft2demos-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ft2demos-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ft2demos-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ft2demos-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ft2demos-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ft2demos-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ft2demos-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ft2demos-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ft2demos-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ft2demos-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ft2demos-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ft2demos-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ft2demos-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ft2demos-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.6.3-7.18.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20202998-1/",
+      "Description": "Link for SUSE-SU-2020:2998-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-October/007609.html",
+      "Description": "E-Mail link for SUSE-SU-2020:2998-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1177914",
+      "Description": "SUSE Bug 1177914"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-15999/",
+      "Description": "SUSE CVE CVE-2020-15999 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-15999",
+      "Description": "Heap buffer overflow in Freetype in Google Chrome prior to 86.0.4240.111 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-15999.html",
+          "Description": "CVE-2020-15999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1177914",
+          "Description": "SUSE Bug 1177914"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1177936",
+          "Description": "SUSE Bug 1177936"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1178824",
+          "Description": "SUSE Bug 1178824"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1178894",
+          "Description": "SUSE Bug 1178894"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container caasp/v4/nginx-ingress-controller:beta1:libfreetype6-2.6.3-7.18.1",
+            "HPE Helion Openstack 8:ft2demos-2.6.3-7.18.1",
+            "HPE Helion Openstack 8:libfreetype6-2.6.3-7.18.1",
+            "HPE Helion Openstack 8:libfreetype6-32bit-2.6.3-7.18.1",
+            "SUSE Enterprise Storage 5:ft2demos-2.6.3-7.18.1",
+            "SUSE Enterprise Storage 5:libfreetype6-2.6.3-7.18.1",
+            "SUSE Enterprise Storage 5:libfreetype6-32bit-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:ft2demos-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libfreetype6-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libfreetype6-32bit-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:ft2demos-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:libfreetype6-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:libfreetype6-32bit-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:ft2demos-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libfreetype6-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libfreetype6-32bit-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:ft2demos-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:libfreetype6-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:libfreetype6-32bit-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:ft2demos-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libfreetype6-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libfreetype6-32bit-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server 12 SP5:ft2demos-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server 12 SP5:libfreetype6-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server 12 SP5:libfreetype6-32bit-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:ft2demos-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:libfreetype6-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:libfreetype6-32bit-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:ft2demos-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:libfreetype6-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:libfreetype6-32bit-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:ft2demos-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libfreetype6-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libfreetype6-32bit-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:ft2demos-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libfreetype6-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libfreetype6-32bit-2.6.3-7.18.1",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:freetype2-devel-2.6.3-7.18.1",
+            "SUSE OpenStack Cloud 7:ft2demos-2.6.3-7.18.1",
+            "SUSE OpenStack Cloud 7:libfreetype6-2.6.3-7.18.1",
+            "SUSE OpenStack Cloud 7:libfreetype6-32bit-2.6.3-7.18.1",
+            "SUSE OpenStack Cloud 8:ft2demos-2.6.3-7.18.1",
+            "SUSE OpenStack Cloud 8:libfreetype6-2.6.3-7.18.1",
+            "SUSE OpenStack Cloud 8:libfreetype6-32bit-2.6.3-7.18.1",
+            "SUSE OpenStack Cloud 9:ft2demos-2.6.3-7.18.1",
+            "SUSE OpenStack Cloud 9:libfreetype6-2.6.3-7.18.1",
+            "SUSE OpenStack Cloud 9:libfreetype6-32bit-2.6.3-7.18.1",
+            "SUSE OpenStack Cloud Crowbar 8:ft2demos-2.6.3-7.18.1",
+            "SUSE OpenStack Cloud Crowbar 8:libfreetype6-2.6.3-7.18.1",
+            "SUSE OpenStack Cloud Crowbar 8:libfreetype6-32bit-2.6.3-7.18.1",
+            "SUSE OpenStack Cloud Crowbar 9:ft2demos-2.6.3-7.18.1",
+            "SUSE OpenStack Cloud Crowbar 9:libfreetype6-2.6.3-7.18.1",
+            "SUSE OpenStack Cloud Crowbar 9:libfreetype6-32bit-2.6.3-7.18.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

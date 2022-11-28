@@ -1,0 +1,82 @@
+{
+  "Title": "Security update for tcl",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3653-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-10-19T10:05:20Z",
+    "CurrentReleaseDate": "2022-10-19T10:05:20Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-10-19T10:05:20Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for tcl",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for tcl fixes the following issues:\n\n- Fixed a race condition in test socket-13.1.                                                                                                                             \n- Removed the SQLite extension and use the packaged sqlite3 instead (bsc#1195773). \n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "tcl-devel-8.6.12-11.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcl-8.6.12-11.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcl-32bit-8.6.12-11.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcl-8.6.12-11.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcl-32bit-8.6.12-11.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223653-1/",
+      "Description": "Link for SUSE-SU-2022:3653-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-October/012573.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3653-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1195773",
+      "Description": "SUSE Bug 1195773"
+    }
+  ],
+  "Vulnerabilities": null
+}

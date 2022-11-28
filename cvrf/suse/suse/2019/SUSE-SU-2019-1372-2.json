@@ -1,0 +1,1680 @@
+{
+  "Title": "Security update for libtasn1",
+  "Tracking": {
+    "ID": "SUSE-SU-2019:1372-2",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2019-07-03T08:55:12Z",
+    "CurrentReleaseDate": "2019-07-03T08:55:12Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2019-07-03T08:55:12Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for libtasn1",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for libtasn1 fixes the following issues:\n\nSecurity issue fixed:\n\n- CVE-2018-1000654: Fixed a denial of service in the asn1 parser (bsc#1105435).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/389-ds:1.4.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/389-ds:1.4.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/busybox:1.26.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/busybox:1.26.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/caasp-dex:2.23.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/caasp-dex:2.23.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cert-exporter:2.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cert-exporter:2.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cert-manager-cainjector:0.15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cert-manager-cainjector:0.15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cert-manager-controller:0.15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cert-manager-controller:0.15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cert-manager-webhook:0.15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cert-manager-webhook:0.15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cilium-etcd-operator:2.0.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cilium-etcd-operator:2.0.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cilium-operator:1.7.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cilium-operator:1.7.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cilium:1.7.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cilium:1.7.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/configmap-reload:0.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/configmap-reload:0.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/coredns:1.6.7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/coredns:1.6.7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/curl:7.66.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/curl:7.66.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/default-http-backend:0.15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/default-http-backend:0.15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/etcd:3.4.13",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/etcd:3.4.13",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/gangway:3.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/gangway:3.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/grafana:7.3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/grafana:7.3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/helm-tiller:2.16.12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/helm-tiller:2.16.12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/istio-base:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/istio-base:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/istio-pilot:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/istio-pilot:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/istio-proxyv2:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/istio-proxyv2:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/k8s-sidecar:0.1.75",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/k8s-sidecar:0.1.75",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-apiserver:v1.18.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-apiserver:v1.18.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-controller-manager:v1.18.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-controller-manager:v1.18.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-proxy:v1.18.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-proxy:v1.18.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-scheduler:v1.18.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-scheduler:v1.18.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-state-metrics:1.9.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-state-metrics:1.9.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kubernetes-client:1.18.10",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kubernetes-client:1.18.10",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kucero:1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kucero:1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kured:1.4.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kured:1.4.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/metrics-server:0.3.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/metrics-server:0.3.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/prometheus-alertmanager:0.16.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/prometheus-alertmanager:0.16.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/prometheus-node-exporter:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/prometheus-node-exporter:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/prometheus-pushgateway:0.6.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/prometheus-pushgateway:0.6.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/prometheus-server:2.18.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/prometheus-server:2.18.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/reloader:0.0.58",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/reloader:0.0.58",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/rsyslog:8.39.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/rsyslog:8.39.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/skuba-tooling:0.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/skuba-tooling:0.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/velero-plugin-for-aws:1.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/velero-plugin-for-aws:1.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/velero-plugin-for-gcp:1.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/velero-plugin-for-gcp:1.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/velero-plugin-for-microsoft-azure:1.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/velero-plugin-for-microsoft-azure:1.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/velero-restic-restore-helper:1.4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/velero-restic-restore-helper:1.4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/velero:1.4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4.5/velero:1.4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/389-ds:1.4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/389-ds:1.4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/busybox:1.34.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/busybox:1.34.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/caasp-dex:2.16.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/caasp-dex:2.16.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/caaspctl-tooling:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/caaspctl-tooling:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/cert-exporter:2.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/cert-exporter:2.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium-etcd-operator:2.0.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium-etcd-operator:2.0.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium-init:1.5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium-init:1.5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium-operator:1.6.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium-operator:1.6.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium:1.6.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium:1.6.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/cloud-provider-openstack:1.15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/cloud-provider-openstack:1.15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/configmap-reload:0.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/configmap-reload:0.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/coredns:1.6.7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/coredns:1.6.7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/curl:7.60.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/curl:7.60.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/etcd:3.4.13",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/etcd:3.4.13",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/gangway:3.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/gangway:3.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/grafana:7.5.12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/grafana:7.5.12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/helm-tiller:2.16.12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/helm-tiller:2.16.12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/hyperkube:v1.17.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/hyperkube:v1.17.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/k8s-sidecar:0.1.75",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/k8s-sidecar:0.1.75",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/kube-state-metrics:1.9.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/kube-state-metrics:1.9.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/kubernetes-client:1.17.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/kubernetes-client:1.17.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/kucero:1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/kucero:1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/kured:1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/kured:1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/metrics-server:0.3.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/metrics-server:0.3.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-alertmanager:0.16.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-alertmanager:0.16.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-node-exporter:1.1.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-node-exporter:1.1.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-pushgateway:0.6.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-pushgateway:0.6.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-server:2.7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-server:2.7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/rsyslog:8.39.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/rsyslog:8.39.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/skuba-tooling:0.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/skuba-tooling:0.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/test-update:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/test-update:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-plugin-for-aws:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-plugin-for-aws:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-plugin-for-gcp:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-plugin-for-gcp:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-plugin-for-microsoft-azure:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-plugin-for-microsoft-azure:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-restic-restore-helper:1.3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-restic-restore-helper:1.3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/velero:1.3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container caasp/v4/velero:1.3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ingress-nginx-controller:0.15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ingress-nginx-controller:0.15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/6/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/6/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/6/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/6/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/ceph/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/ceph/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-attacher:v2.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-attacher:v2.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-attacher:v3.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-attacher:v3.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-livenessprobe:v1.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-livenessprobe:v1.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-node-driver-registrar:v1.2.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-node-driver-registrar:v1.2.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-node-driver-registrar:v2.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-node-driver-registrar:v2.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-provisioner:v1.6.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-provisioner:v1.6.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-provisioner:v3.0.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-provisioner:v3.0.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-resizer:v0.4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-resizer:v0.4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-resizer:v1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-resizer:v1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-snapshotter:v2.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-snapshotter:v2.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-snapshotter:v2.1.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-snapshotter:v2.1.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-snapshotter:v4.2.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-snapshotter:v4.2.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/prometheus-webhook-snmp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/prometheus-webhook-snmp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-alertmanager:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-alertmanager:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-node-exporter:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-node-exporter:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container ses/7/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sle15:15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sle15:15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sle15:15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sle15:15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sle15:15.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sle15:15.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sle15:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sle15:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sle15:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sle15:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-handler:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-handler:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-launcher:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-launcher:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-importer:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-importer:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-uploadserver:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-uploadserver:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/libguestfs-tools:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/libguestfs-tools:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-handler:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-handler:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-launcher:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-launcher:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Container trento/trento-runner:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Container trento/trento-runner:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.13-4.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.13-4.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-32bit-4.13-4.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-devel-4.13-4.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-devel-32bit-4.13-4.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20191372-2/",
+      "Description": "Link for SUSE-SU-2019:1372-2"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2019-July/005654.html",
+      "Description": "E-Mail link for SUSE-SU-2019:1372-2"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1105435",
+      "Description": "SUSE Bug 1105435"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2018-1000654/",
+      "Description": "SUSE CVE CVE-2018-1000654 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2018-1000654",
+      "Description": "GNU Libtasn1-4.13 libtasn1-4.13 version libtasn1-4.13, libtasn1-4.12 contains a DoS, specifically CPU usage will reach 100% when running asn1Paser against the POC due to an issue in _asn1_expand_object_id(p_tree), after a long time, the program will be killed. This attack appears to be exploitable via parsing a crafted file.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2018-1000654.html",
+          "Description": "CVE-2018-1000654"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1105435",
+          "Description": "SUSE Bug 1105435"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/openjdk-devel:latest:libtasn1-4.13-4.5.1",
+            "Container bci/openjdk-devel:latest:libtasn1-6-4.13-4.5.1",
+            "Container bci/openjdk:latest:libtasn1-4.13-4.5.1",
+            "Container bci/openjdk:latest:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/389-ds:1.4.3:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/389-ds:1.4.3:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/busybox:1.26.2:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/busybox:1.26.2:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/caasp-dex:2.23.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/caasp-dex:2.23.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/cert-exporter:2.3.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/cert-exporter:2.3.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/cert-manager-cainjector:0.15.1:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/cert-manager-cainjector:0.15.1:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/cert-manager-controller:0.15.1:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/cert-manager-controller:0.15.1:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/cert-manager-webhook:0.15.1:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/cert-manager-webhook:0.15.1:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/cilium-etcd-operator:2.0.5:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/cilium-etcd-operator:2.0.5:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/cilium-operator:1.7.6:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/cilium-operator:1.7.6:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/cilium:1.7.6:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/cilium:1.7.6:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/configmap-reload:0.3.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/configmap-reload:0.3.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/coredns:1.6.7:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/coredns:1.6.7:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/curl:7.66.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/curl:7.66.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/default-http-backend:0.15.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/default-http-backend:0.15.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/etcd:3.4.13:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/etcd:3.4.13:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/gangway:3.1.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/gangway:3.1.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/grafana:7.3.1:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/grafana:7.3.1:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/helm-tiller:2.16.12:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/helm-tiller:2.16.12:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/istio-base:beta:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/istio-base:beta:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/istio-pilot:beta:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/istio-pilot:beta:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/istio-proxyv2:beta:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/istio-proxyv2:beta:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/k8s-sidecar:0.1.75:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/k8s-sidecar:0.1.75:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/kube-apiserver:v1.18.20:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/kube-apiserver:v1.18.20:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/kube-controller-manager:v1.18.20:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/kube-controller-manager:v1.18.20:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/kube-proxy:v1.18.20:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/kube-proxy:v1.18.20:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/kube-scheduler:v1.18.20:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/kube-scheduler:v1.18.20:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/kube-state-metrics:1.9.5:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/kube-state-metrics:1.9.5:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/kubernetes-client:1.18.10:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/kubernetes-client:1.18.10:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/kucero:1.3.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/kucero:1.3.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/kured:1.4.3:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/kured:1.4.3:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/metrics-server:0.3.6:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/metrics-server:0.3.6:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/prometheus-alertmanager:0.16.2:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/prometheus-alertmanager:0.16.2:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/prometheus-node-exporter:1.0.1:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/prometheus-node-exporter:1.0.1:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/prometheus-pushgateway:0.6.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/prometheus-pushgateway:0.6.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/prometheus-server:2.18.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/prometheus-server:2.18.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/reloader:0.0.58:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/reloader:0.0.58:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/rsyslog:8.39.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/rsyslog:8.39.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/skuba-tooling:0.1.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/skuba-tooling:0.1.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/velero-plugin-for-aws:1.1.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/velero-plugin-for-aws:1.1.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/velero-plugin-for-gcp:1.1.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/velero-plugin-for-gcp:1.1.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/velero-plugin-for-microsoft-azure:1.1.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/velero-plugin-for-microsoft-azure:1.1.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/velero-restic-restore-helper:1.4.2:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/velero-restic-restore-helper:1.4.2:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4.5/velero:1.4.2:libtasn1-4.13-4.5.1",
+            "Container caasp/v4.5/velero:1.4.2:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/389-ds:1.4.2:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/389-ds:1.4.2:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/busybox:1.34.1:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/busybox:1.34.1:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/caasp-dex:2.16.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/caasp-dex:2.16.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/caaspctl-tooling:beta:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/caaspctl-tooling:beta:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/cert-exporter:2.3.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/cert-exporter:2.3.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/cilium-etcd-operator:2.0.5:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/cilium-etcd-operator:2.0.5:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/cilium-init:1.5.3:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/cilium-init:1.5.3:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/cilium-operator:1.6.6:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/cilium-operator:1.6.6:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/cilium:1.6.6:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/cilium:1.6.6:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/cloud-provider-openstack:1.15.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/cloud-provider-openstack:1.15.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/configmap-reload:0.3.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/configmap-reload:0.3.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/coredns:1.6.7:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/coredns:1.6.7:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/curl:7.60.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/curl:7.60.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/etcd:3.4.13:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/etcd:3.4.13:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/gangway:3.1.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/gangway:3.1.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/grafana:7.5.12:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/grafana:7.5.12:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/helm-tiller:2.16.12:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/helm-tiller:2.16.12:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/hyperkube:v1.17.17:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/hyperkube:v1.17.17:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/k8s-sidecar:0.1.75:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/k8s-sidecar:0.1.75:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/kube-state-metrics:1.9.3:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/kube-state-metrics:1.9.3:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/kubernetes-client:1.17.17:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/kubernetes-client:1.17.17:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/kucero:1.3.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/kucero:1.3.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/kured:1.3.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/kured:1.3.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/metrics-server:0.3.6:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/metrics-server:0.3.6:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/prometheus-alertmanager:0.16.2:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/prometheus-alertmanager:0.16.2:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/prometheus-node-exporter:1.1.2:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/prometheus-node-exporter:1.1.2:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/prometheus-pushgateway:0.6.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/prometheus-pushgateway:0.6.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/prometheus-server:2.7.1:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/prometheus-server:2.7.1:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/rsyslog:8.39.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/rsyslog:8.39.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/skuba-tooling:0.1.0:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/skuba-tooling:0.1.0:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/test-update:beta:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/test-update:beta:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/velero-plugin-for-aws:1.0.1:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/velero-plugin-for-aws:1.0.1:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/velero-plugin-for-gcp:1.0.1:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/velero-plugin-for-gcp:1.0.1:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/velero-plugin-for-microsoft-azure:1.0.1:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/velero-plugin-for-microsoft-azure:1.0.1:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/velero-restic-restore-helper:1.3.1:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/velero-restic-restore-helper:1.3.1:libtasn1-6-4.13-4.5.1",
+            "Container caasp/v4/velero:1.3.1:libtasn1-4.13-4.5.1",
+            "Container caasp/v4/velero:1.3.1:libtasn1-6-4.13-4.5.1",
+            "Container ingress-nginx-controller:0.15.0:libtasn1-4.13-4.5.1",
+            "Container ingress-nginx-controller:0.15.0:libtasn1-6-4.13-4.5.1",
+            "Container ses/6/cephcsi/cephcsi:latest:libtasn1-4.13-4.5.1",
+            "Container ses/6/cephcsi/cephcsi:latest:libtasn1-6-4.13-4.5.1",
+            "Container ses/6/rook/ceph:latest:libtasn1-4.13-4.5.1",
+            "Container ses/6/rook/ceph:latest:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/ceph/ceph:latest:libtasn1-4.13-4.5.1",
+            "Container ses/7/ceph/ceph:latest:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/ceph/grafana:latest:libtasn1-4.13-4.5.1",
+            "Container ses/7/ceph/grafana:latest:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/cephcsi/cephcsi:latest:libtasn1-4.13-4.5.1",
+            "Container ses/7/cephcsi/cephcsi:latest:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-attacher:v2.1.0:libtasn1-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-attacher:v2.1.0:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-attacher:v3.3.0:libtasn1-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-attacher:v3.3.0:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-livenessprobe:v1.1.0:libtasn1-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-livenessprobe:v1.1.0:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-node-driver-registrar:v1.2.0:libtasn1-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-node-driver-registrar:v1.2.0:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-node-driver-registrar:v2.3.0:libtasn1-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-node-driver-registrar:v2.3.0:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-provisioner:v1.6.0:libtasn1-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-provisioner:v1.6.0:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-provisioner:v3.0.0:libtasn1-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-provisioner:v3.0.0:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-resizer:v0.4.0:libtasn1-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-resizer:v0.4.0:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-resizer:v1.3.0:libtasn1-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-resizer:v1.3.0:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-snapshotter:v2.1.0:libtasn1-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-snapshotter:v2.1.0:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-snapshotter:v2.1.1:libtasn1-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-snapshotter:v2.1.1:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-snapshotter:v4.2.0:libtasn1-4.13-4.5.1",
+            "Container ses/7/cephcsi/csi-snapshotter:v4.2.0:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/prometheus-webhook-snmp:latest:libtasn1-4.13-4.5.1",
+            "Container ses/7/prometheus-webhook-snmp:latest:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/prometheus/prometheus-alertmanager:latest:libtasn1-4.13-4.5.1",
+            "Container ses/7/prometheus/prometheus-alertmanager:latest:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/prometheus/prometheus-node-exporter:latest:libtasn1-4.13-4.5.1",
+            "Container ses/7/prometheus/prometheus-node-exporter:latest:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/prometheus/prometheus-server:latest:libtasn1-4.13-4.5.1",
+            "Container ses/7/prometheus/prometheus-server:latest:libtasn1-6-4.13-4.5.1",
+            "Container ses/7/rook/ceph:latest:libtasn1-4.13-4.5.1",
+            "Container ses/7/rook/ceph:latest:libtasn1-6-4.13-4.5.1",
+            "Container suse/sle15:15.0:libtasn1-4.13-4.5.1",
+            "Container suse/sle15:15.0:libtasn1-6-4.13-4.5.1",
+            "Container suse/sle15:15.1:libtasn1-4.13-4.5.1",
+            "Container suse/sle15:15.1:libtasn1-6-4.13-4.5.1",
+            "Container suse/sle15:15.2:libtasn1-4.13-4.5.1",
+            "Container suse/sle15:15.2:libtasn1-6-4.13-4.5.1",
+            "Container suse/sle15:15.3:libtasn1-4.13-4.5.1",
+            "Container suse/sle15:15.3:libtasn1-6-4.13-4.5.1",
+            "Container suse/sle15:15.4:libtasn1-4.13-4.5.1",
+            "Container suse/sle15:15.4:libtasn1-6-4.13-4.5.1",
+            "Container suse/sles/15.2/virt-handler:0.38.1:libtasn1-4.13-4.5.1",
+            "Container suse/sles/15.2/virt-handler:0.38.1:libtasn1-6-4.13-4.5.1",
+            "Container suse/sles/15.2/virt-launcher:0.38.1:libtasn1-4.13-4.5.1",
+            "Container suse/sles/15.2/virt-launcher:0.38.1:libtasn1-6-4.13-4.5.1",
+            "Container suse/sles/15.3/cdi-importer:1.37.1:libtasn1-4.13-4.5.1",
+            "Container suse/sles/15.3/cdi-importer:1.37.1:libtasn1-6-4.13-4.5.1",
+            "Container suse/sles/15.3/cdi-uploadserver:1.37.1:libtasn1-4.13-4.5.1",
+            "Container suse/sles/15.3/cdi-uploadserver:1.37.1:libtasn1-6-4.13-4.5.1",
+            "Container suse/sles/15.3/libguestfs-tools:0.45.0:libtasn1-4.13-4.5.1",
+            "Container suse/sles/15.3/libguestfs-tools:0.45.0:libtasn1-6-4.13-4.5.1",
+            "Container suse/sles/15.3/virt-handler:0.45.0:libtasn1-4.13-4.5.1",
+            "Container suse/sles/15.3/virt-handler:0.45.0:libtasn1-6-4.13-4.5.1",
+            "Container suse/sles/15.3/virt-launcher:0.45.0:libtasn1-4.13-4.5.1",
+            "Container suse/sles/15.3/virt-launcher:0.45.0:libtasn1-6-4.13-4.5.1",
+            "Container trento/trento-runner:latest:libtasn1-4.13-4.5.1",
+            "Container trento/trento-runner:latest:libtasn1-6-4.13-4.5.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:libtasn1-4.13-4.5.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:libtasn1-6-4.13-4.5.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libtasn1-4.13-4.5.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libtasn1-6-4.13-4.5.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libtasn1-4.13-4.5.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libtasn1-6-4.13-4.5.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libtasn1-4.13-4.5.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libtasn1-6-4.13-4.5.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libtasn1-4.13-4.5.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libtasn1-6-4.13-4.5.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libtasn1-4.13-4.5.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libtasn1-6-4.13-4.5.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libtasn1-4.13-4.5.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libtasn1-6-4.13-4.5.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libtasn1-4.13-4.5.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libtasn1-6-4.13-4.5.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:libtasn1-4.13-4.5.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:libtasn1-6-4.13-4.5.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libtasn1-4.13-4.5.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libtasn1-6-4.13-4.5.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libtasn1-4.13-4.5.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libtasn1-6-4.13-4.5.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libtasn1-4.13-4.5.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libtasn1-6-4.13-4.5.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libtasn1-4.13-4.5.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libtasn1-6-4.13-4.5.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libtasn1-4.13-4.5.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libtasn1-6-32bit-4.13-4.5.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libtasn1-6-4.13-4.5.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libtasn1-devel-4.13-4.5.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libtasn1-devel-32bit-4.13-4.5.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

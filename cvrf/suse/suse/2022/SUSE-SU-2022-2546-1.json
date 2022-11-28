@@ -1,0 +1,202 @@
+{
+  "Title": "Security update for gpg2",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:2546-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-07-25T12:43:40Z",
+    "CurrentReleaseDate": "2022-07-25T12:43:40Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-07-25T12:43:40Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for gpg2",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for gpg2 fixes the following issues:\n\n- CVE-2022-34903: Fixed a status injection vulnerability (bsc#1201225).\n- Use AES as default cipher instead of 3DES when we are in FIPS mode. (bsc#1196125)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "gpg2-2.2.27-150300.3.5.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.27-150300.3.5.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.27-150300.3.5.1",
+        "RelatesToProductReference": "Container suse/sle15:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.27-150300.3.5.1",
+        "RelatesToProductReference": "Container suse/sle15:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dirmngr-2.2.27-150300.3.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.27-150300.3.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.27-150300.3.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dirmngr-2.2.27-150300.3.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.27-150300.3.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.27-150300.3.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.27-150300.3.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.27-150300.3.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dirmngr-2.2.27-150300.3.5.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.27-150300.3.5.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.27-150300.3.5.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dirmngr-2.2.27-150300.3.5.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.27-150300.3.5.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.27-150300.3.5.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20222546-1/",
+      "Description": "Link for SUSE-SU-2022:2546-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-July/011648.html",
+      "Description": "E-Mail link for SUSE-SU-2022:2546-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1196125",
+      "Description": "SUSE Bug 1196125"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1201225",
+      "Description": "SUSE Bug 1201225"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-34903/",
+      "Description": "SUSE CVE CVE-2022-34903 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-34903",
+      "Description": "GnuPG through 2.3.6, in unusual situations where an attacker possesses any secret-key information from a victim's keyring and other constraints (e.g., use of GPGME) are met, allows signature forgery via injection into the status line.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-34903.html",
+          "Description": "CVE-2022-34903"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201225",
+          "Description": "SUSE Bug 1201225"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/python:3:gpg2-2.2.27-150300.3.5.1",
+            "Container suse/sle-micro-rancher/5.2:latest:gpg2-2.2.27-150300.3.5.1",
+            "Container suse/sle15:15.3:gpg2-2.2.27-150300.3.5.1",
+            "Container suse/sle15:15.4:gpg2-2.2.27-150300.3.5.1",
+            "SUSE Linux Enterprise Micro 5.1:gpg2-2.2.27-150300.3.5.1",
+            "SUSE Linux Enterprise Micro 5.2:gpg2-2.2.27-150300.3.5.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:dirmngr-2.2.27-150300.3.5.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:gpg2-2.2.27-150300.3.5.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:gpg2-lang-2.2.27-150300.3.5.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:dirmngr-2.2.27-150300.3.5.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:gpg2-2.2.27-150300.3.5.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:gpg2-lang-2.2.27-150300.3.5.1",
+            "openSUSE Leap 15.3:dirmngr-2.2.27-150300.3.5.1",
+            "openSUSE Leap 15.3:gpg2-2.2.27-150300.3.5.1",
+            "openSUSE Leap 15.3:gpg2-lang-2.2.27-150300.3.5.1",
+            "openSUSE Leap 15.4:dirmngr-2.2.27-150300.3.5.1",
+            "openSUSE Leap 15.4:gpg2-2.2.27-150300.3.5.1",
+            "openSUSE Leap 15.4:gpg2-lang-2.2.27-150300.3.5.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

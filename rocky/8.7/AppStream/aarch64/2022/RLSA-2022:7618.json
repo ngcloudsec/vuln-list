@@ -1,0 +1,43 @@
+{
+  "id": "RLSA-2022:7618",
+  "title": "Moderate: gstreamer1-plugins-good security update",
+  "issued": {
+    "date": "2022-11-13 07:48:49"
+  },
+  "updated": {
+    "date": "2022-11-08 00:00:00"
+  },
+  "severity": "SEVERITY_MODERATE",
+  "description": "GStreamer is a streaming media framework based on graphs of filters that operate on media data. The gstreamer1-plugins-good packages contain a collection of well-supported plug-ins of good quality and under the LGPL license.\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nAdditional Changes:\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
+  "packages": [
+    {
+      "name": "gstreamer1-plugins-good",
+      "epoch": "0",
+      "version": "1.16.1",
+      "release": "3.el8",
+      "arch": "aarch64",
+      "src": "gstreamer1-plugins-good-1.16.1-3.el8.src.rpm",
+      "filename": "gstreamer1-plugins-good-1.16.1-3.el8.aarch64.rpm"
+    },
+    {
+      "name": "gstreamer1-plugins-good-gtk",
+      "epoch": "0",
+      "version": "1.16.1",
+      "release": "3.el8",
+      "arch": "aarch64",
+      "src": "gstreamer1-plugins-good-1.16.1-3.el8.src.rpm",
+      "filename": "gstreamer1-plugins-good-gtk-1.16.1-3.el8.aarch64.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-3497.json",
+      "id": "CVE-2021-3497",
+      "title": "Update information for CVE-2021-3497 is retrieved from Red Hat",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2021-3497"
+  ]
+}

@@ -1,0 +1,1206 @@
+{
+  "Title": "Security update for json-c",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:0184-2",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-02-17T07:37:14Z",
+    "CurrentReleaseDate": "2022-02-17T07:37:14Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-02-17T07:37:14Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for json-c",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for json-c fixes the following issues:\n\n- CVE-2020-12762: Fixed integer overflow and out-of-bounds write. (bsc#1171479)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium:1.6.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container caasp/v4/etcd:3.4.13",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container caasp/v4/hyperkube:v1.17.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-alertmanager:0.16.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-pushgateway:0.6.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-server:2.7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container caasp/v4/rsyslog:8.39.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container ses/6/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container ses/6/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/haproxy:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container ses/7.1/ceph/keepalived:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container ses/7.1/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container ses/7.1/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container ses/7/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-httpd:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container suse/pcp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container suse/postgres:10",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container suse/postgres:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container suse/postgres:13",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container suse/postgres:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.2/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.3/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container suse/sles/15.4/cdi-importer:1.43.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container suse/sles/15.4/libguestfs-tools:0.49.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container suse/sles/15.4/virt-handler:0.49.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container suse/sles/15.4/virt-launcher:0.49.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Container trento/trento-db:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-EC2-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SAP-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SAP-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SAP-EC2-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SAP-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-EC2-HPC-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-EC2-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-EC2-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-32bit-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAPCAL-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-32bit-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAPCAL-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-32bit-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-HPC-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-EC2-ECS-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-EC2-ECS-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c-devel-0.13-3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-0.13-3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjson-c3-32bit-0.13-3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20220184-2/",
+      "Description": "Link for SUSE-SU-2022:0184-2"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-February/010235.html",
+      "Description": "E-Mail link for SUSE-SU-2022:0184-2"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1171479",
+      "Description": "SUSE Bug 1171479"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-12762/",
+      "Description": "SUSE CVE CVE-2020-12762 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-12762",
+      "Description": "json-c through 0.14 has an integer overflow and out-of-bounds write via a large JSON file, as demonstrated by printbuf_memappend.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-12762.html",
+          "Description": "CVE-2020-12762"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1171479",
+          "Description": "SUSE Bug 1171479"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:libjson-c3-0.13-3.3.1",
+            "Container caasp/v4/cilium:1.6.6:libjson-c3-0.13-3.3.1",
+            "Container caasp/v4/etcd:3.4.13:libjson-c3-0.13-3.3.1",
+            "Container caasp/v4/hyperkube:v1.17.17:libjson-c3-0.13-3.3.1",
+            "Container caasp/v4/prometheus-alertmanager:0.16.2:libjson-c3-0.13-3.3.1",
+            "Container caasp/v4/prometheus-pushgateway:0.6.0:libjson-c3-0.13-3.3.1",
+            "Container caasp/v4/prometheus-server:2.7.1:libjson-c3-0.13-3.3.1",
+            "Container caasp/v4/rsyslog:8.39.0:libjson-c3-0.13-3.3.1",
+            "Container ses/6/cephcsi/cephcsi:latest:libjson-c3-0.13-3.3.1",
+            "Container ses/6/rook/ceph:latest:libjson-c3-0.13-3.3.1",
+            "Container ses/7.1/ceph/haproxy:latest:libjson-c3-0.13-3.3.1",
+            "Container ses/7.1/ceph/keepalived:latest:libjson-c3-0.13-3.3.1",
+            "Container ses/7.1/cephcsi/cephcsi:latest:libjson-c3-0.13-3.3.1",
+            "Container ses/7.1/rook/ceph:latest:libjson-c3-0.13-3.3.1",
+            "Container ses/7/cephcsi/cephcsi:latest:libjson-c3-0.13-3.3.1",
+            "Container ses/7/rook/ceph:latest:libjson-c3-0.13-3.3.1",
+            "Container suse/manager/4.3/proxy-httpd:latest:libjson-c3-0.13-3.3.1",
+            "Container suse/pcp:latest:libjson-c3-0.13-3.3.1",
+            "Container suse/postgres:10:libjson-c3-0.13-3.3.1",
+            "Container suse/postgres:12:libjson-c3-0.13-3.3.1",
+            "Container suse/postgres:13:libjson-c3-0.13-3.3.1",
+            "Container suse/postgres:latest:libjson-c3-0.13-3.3.1",
+            "Container suse/sle-micro-rancher/5.2:latest:libjson-c3-0.13-3.3.1",
+            "Container suse/sle-micro/5.2/toolbox:latest:libjson-c3-0.13-3.3.1",
+            "Container suse/sle-micro/5.3/toolbox:latest:libjson-c3-0.13-3.3.1",
+            "Container suse/sles/15.4/cdi-importer:1.43.0:libjson-c3-0.13-3.3.1",
+            "Container suse/sles/15.4/libguestfs-tools:0.49.0:libjson-c3-0.13-3.3.1",
+            "Container suse/sles/15.4/virt-handler:0.49.0:libjson-c3-0.13-3.3.1",
+            "Container suse/sles/15.4/virt-launcher:0.49.0:libjson-c3-0.13-3.3.1",
+            "Container trento/trento-db:latest:libjson-c3-0.13-3.3.1",
+            "Image SLES15-Azure-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-EC2-HVM-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-GCE-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SAP-Azure-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SAP-Azure-LI-BYOS-Production:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SAP-Azure-VLI-BYOS-Production:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SAP-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SAP-EC2-HVM-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SAP-EC2-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SAP-GCE-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SAP-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-Azure-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-Azure-HPC-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-EC2-HPC-HVM-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-EC2-HVM-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-GCE-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-SAP-Azure-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-SAP-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-SAP-EC2-HVM-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-SAP-EC2-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-SAP-GCE-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-SAP-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-SAPCAL-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-SAPCAL-Azure:libjson-c3-32bit-0.13-3.3.1",
+            "Image SLES15-SP1-SAPCAL-EC2-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-SAPCAL-EC2-HVM:libjson-c3-32bit-0.13-3.3.1",
+            "Image SLES15-SP1-SAPCAL-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP1-SAPCAL-GCE:libjson-c3-32bit-0.13-3.3.1",
+            "Image SLES15-SP2-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-BYOS-EC2-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-HPC-BYOS-EC2-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-SAP-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-SAP-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-SAP-BYOS-EC2-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-SAP-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-SAP-EC2-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-SAP-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP2-SAP:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-Azure-Basic:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-Azure-Standard:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-BYOS-EC2-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-CHOST-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-EC2-ECS-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-EC2-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-HPC-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-HPC-BYOS-EC2-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-HPC-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-HPC-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-Micro-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-SAP-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-SAP-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-SAP-BYOS-EC2-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-SAP-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-SAP-EC2-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-SAP-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-SAP:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-SAPCAL-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-SAPCAL-EC2-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3-SAPCAL-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP3:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-Azure-Basic:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-Azure-Standard:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-BYOS-EC2:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-CHOST-BYOS-Aliyun:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-CHOST-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-CHOST-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-CHOST-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-EC2-ECS-HVM:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-EC2:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-HPC-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-HPC-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-HPC-BYOS-EC2:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-HPC-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-HPC-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-HPC-EC2:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-HPC-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-HPC:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-SAP-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-SAP-BYOS-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-SAP-BYOS-EC2:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-SAP-BYOS-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-SAP-BYOS:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-SAP-EC2:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-SAP-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-SAP:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-SAPCAL-Azure:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-SAPCAL-EC2:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-SAPCAL-GCE:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4-SAPCAL:libjson-c3-0.13-3.3.1",
+            "Image SLES15-SP4:libjson-c3-0.13-3.3.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:libjson-c-devel-0.13-3.3.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:libjson-c3-0.13-3.3.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:libjson-c3-32bit-0.13-3.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

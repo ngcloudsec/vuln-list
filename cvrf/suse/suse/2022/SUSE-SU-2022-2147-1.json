@@ -1,0 +1,160 @@
+{
+  "Title": "Security update for python36",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:2147-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-06-21T08:33:00Z",
+    "CurrentReleaseDate": "2022-06-21T08:33:00Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-06-21T08:33:00Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for python36",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for python36 fixes the following issues:\n\n- CVE-2015-20107: avoid command injection in the mailcap module (bsc#1198511).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "python36-devel-3.6.15-24.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-24.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-32bit-3.6.15-24.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python36-3.6.15-24.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python36-base-3.6.15-24.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-24.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-32bit-3.6.15-24.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python36-3.6.15-24.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python36-base-3.6.15-24.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20222147-1/",
+      "Description": "Link for SUSE-SU-2022:2147-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-June/011323.html",
+      "Description": "E-Mail link for SUSE-SU-2022:2147-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1198511",
+      "Description": "SUSE Bug 1198511"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2015-20107/",
+      "Description": "SUSE CVE CVE-2015-20107 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2015-20107",
+      "Description": "In Python (aka CPython) through 3.10.4, the mailcap module does not add escape characters into commands discovered in the system mailcap file. This may allow attackers to inject shell commands into applications that call mailcap.findmatch with untrusted input (if they lack validation of user-provided filenames or arguments).",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2015-20107.html",
+          "Description": "CVE-2015-20107"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1198511",
+          "Description": "SUSE Bug 1198511"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200507",
+          "Description": "SUSE Bug 1200507"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201026",
+          "Description": "SUSE Bug 1201026"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201027",
+          "Description": "SUSE Bug 1201027"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201028",
+          "Description": "SUSE Bug 1201028"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 12 SP5:libpython3_6m1_0-3.6.15-24.1",
+            "SUSE Linux Enterprise Server 12 SP5:libpython3_6m1_0-32bit-3.6.15-24.1",
+            "SUSE Linux Enterprise Server 12 SP5:python36-3.6.15-24.1",
+            "SUSE Linux Enterprise Server 12 SP5:python36-base-3.6.15-24.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libpython3_6m1_0-3.6.15-24.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libpython3_6m1_0-32bit-3.6.15-24.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python36-3.6.15-24.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python36-base-3.6.15-24.1",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:python36-devel-3.6.15-24.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

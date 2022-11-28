@@ -1,0 +1,1336 @@
+{
+  "Title": "Security update for libqt5-qtbase",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:0349-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-02-06T13:12:21Z",
+    "CurrentReleaseDate": "2020-02-06T13:12:21Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-02-06T13:12:21Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for libqt5-qtbase",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for libqt5-qtbase fixes the following issues:\n\n- CVE-2020-0569: Fixed a potential local code execution by loading plugins from CWD (bsc#1161167).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libQt5Concurrent-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Concurrent5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5KmsSupport-devel-static-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5KmsSupport-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5OpenGL-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5OpenGL-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5OpenGL5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PlatformHeaders-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PlatformSupport-devel-static-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PlatformSupport-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PrintSupport-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PrintSupport-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PrintSupport5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql5-sqlite-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Test-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Test-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Test5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Xml-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Xml5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libqt5-qtbase-common-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libqt5-qtbase-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libqt5-qtbase-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5OpenGLExtensions-devel-static-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql5-mysql-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql5-postgresql-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql5-unixODBC-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libqt5-qtbase-platformtheme-gtk3-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Bootstrap-devel-static-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libqt5-qtbase-examples-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Concurrent-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Concurrent5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5KmsSupport-devel-static-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5KmsSupport-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5OpenGL-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5OpenGL-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5OpenGL5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PlatformHeaders-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PlatformSupport-devel-static-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PlatformSupport-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PrintSupport-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PrintSupport-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PrintSupport5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql5-sqlite-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Test-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Test-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Test5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Xml-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Xml5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libqt5-qtbase-common-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libqt5-qtbase-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libqt5-qtbase-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Concurrent-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Concurrent5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5KmsSupport-devel-static-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5KmsSupport-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5OpenGL-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5OpenGL-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5OpenGL5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PlatformHeaders-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PlatformSupport-devel-static-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PlatformSupport-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PrintSupport-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PrintSupport-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PrintSupport5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql5-sqlite-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Test-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Test-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Test5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Xml-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Xml5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libqt5-qtbase-common-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libqt5-qtbase-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libqt5-qtbase-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Concurrent-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Concurrent5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5KmsSupport-devel-static-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5KmsSupport-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5OpenGL-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5OpenGL-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5OpenGL5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PlatformHeaders-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PlatformSupport-devel-static-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PlatformSupport-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PrintSupport-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PrintSupport-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PrintSupport5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql5-sqlite-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Test-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Test-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Test5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Xml-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Xml5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libqt5-qtbase-common-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libqt5-qtbase-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libqt5-qtbase-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Concurrent-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Concurrent5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Core5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5DBus5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Gui5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5KmsSupport-devel-static-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5KmsSupport-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Network5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5OpenGL-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5OpenGL-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5OpenGL5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PlatformHeaders-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PlatformSupport-devel-static-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PlatformSupport-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PrintSupport-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PrintSupport-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5PrintSupport5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Sql5-sqlite-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Test-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Test-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Test5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Widgets5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Xml-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libQt5Xml5-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libqt5-qtbase-common-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libqt5-qtbase-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libqt5-qtbase-private-headers-devel-5.9.4-8.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20200349-1/",
+      "Description": "Link for SUSE-SU-2020:0349-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-February/006459.html",
+      "Description": "E-Mail link for SUSE-SU-2020:0349-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1161167",
+      "Description": "SUSE Bug 1161167"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-0569/",
+      "Description": "SUSE CVE CVE-2020-0569 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-0569",
+      "Description": "Out of bounds write in Intel(R) PROSet/Wireless WiFi products on Windows 10 may allow an authenticated user to potentially enable denial of service via local access.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-0569.html",
+          "Description": "CVE-2020-0569"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1161167",
+          "Description": "SUSE Bug 1161167"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1162191",
+          "Description": "SUSE Bug 1162191"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Concurrent-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Concurrent5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Core-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Core-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Core5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5DBus-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5DBus-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5DBus5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Gui-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Gui-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Gui5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5KmsSupport-devel-static-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5KmsSupport-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Network-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Network-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Network5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5OpenGL-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5OpenGL-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5OpenGL5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5PlatformHeaders-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5PlatformSupport-devel-static-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5PlatformSupport-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5PrintSupport-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5PrintSupport-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5PrintSupport5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Sql-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Sql-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Sql5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Sql5-sqlite-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Test-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Test-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Test5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Widgets-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Widgets-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Widgets5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Xml-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libQt5Xml5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libqt5-qtbase-common-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libqt5-qtbase-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libqt5-qtbase-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Concurrent-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Concurrent5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Core-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Core-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Core5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5DBus-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5DBus-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5DBus5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Gui-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Gui-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Gui5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5KmsSupport-devel-static-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5KmsSupport-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Network-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Network-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Network5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5OpenGL-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5OpenGL-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5OpenGL5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5PlatformHeaders-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5PlatformSupport-devel-static-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5PlatformSupport-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5PrintSupport-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5PrintSupport-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5PrintSupport5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Sql-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Sql-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Sql5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Sql5-sqlite-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Test-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Test-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Test5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Widgets-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Widgets-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Widgets5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Xml-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libQt5Xml5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libqt5-qtbase-common-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libqt5-qtbase-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libqt5-qtbase-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Concurrent-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Concurrent5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Core-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Core-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Core5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5DBus-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5DBus-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5DBus5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Gui-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Gui-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Gui5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5KmsSupport-devel-static-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5KmsSupport-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Network-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Network-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Network5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5OpenGL-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5OpenGL-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5OpenGL5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5PlatformHeaders-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5PlatformSupport-devel-static-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5PlatformSupport-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5PrintSupport-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5PrintSupport-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5PrintSupport5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Sql-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Sql-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Sql5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Sql5-sqlite-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Test-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Test-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Test5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Widgets-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Widgets-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Widgets5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Xml-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libQt5Xml5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libqt5-qtbase-common-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libqt5-qtbase-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libqt5-qtbase-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Desktop Applications 15:libQt5OpenGLExtensions-devel-static-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Desktop Applications 15:libQt5Sql5-mysql-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Desktop Applications 15:libQt5Sql5-postgresql-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Desktop Applications 15:libQt5Sql5-unixODBC-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Desktop Applications 15:libqt5-qtbase-platformtheme-gtk3-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:libQt5Bootstrap-devel-static-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:libqt5-qtbase-examples-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Concurrent-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Concurrent5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Core-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Core-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Core5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5DBus-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5DBus-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5DBus5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Gui-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Gui-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Gui5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5KmsSupport-devel-static-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5KmsSupport-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Network-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Network-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Network5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5OpenGL-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5OpenGL-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5OpenGL5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5PlatformHeaders-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5PlatformSupport-devel-static-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5PlatformSupport-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5PrintSupport-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5PrintSupport-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5PrintSupport5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Sql-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Sql-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Sql5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Sql5-sqlite-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Test-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Test-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Test5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Widgets-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Widgets-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Widgets5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Xml-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libQt5Xml5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libqt5-qtbase-common-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libqt5-qtbase-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server 15-LTSS:libqt5-qtbase-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Concurrent-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Concurrent5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Core-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Core-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Core5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5DBus-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5DBus-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5DBus5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Gui-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Gui-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Gui5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5KmsSupport-devel-static-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5KmsSupport-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Network-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Network-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Network5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5OpenGL-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5OpenGL-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5OpenGL5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5PlatformHeaders-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5PlatformSupport-devel-static-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5PlatformSupport-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5PrintSupport-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5PrintSupport-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5PrintSupport5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Sql-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Sql-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Sql5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Sql5-sqlite-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Test-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Test-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Test5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Widgets-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Widgets-private-headers-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Widgets5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Xml-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libQt5Xml5-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libqt5-qtbase-common-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libqt5-qtbase-devel-5.9.4-8.21.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libqt5-qtbase-private-headers-devel-5.9.4-8.21.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "id": "ALAS-2021-1539",
+  "title": "Amazon Linux AMI 2014.03 - ALAS-2021-1539: important priority package update for kernel",
+  "issued": {
+    "date": "2021-09-30 19:25"
+  },
+  "updated": {
+    "date": "2021-10-04 22:14"
+  },
+  "severity": "important",
+  "description": "Package updates are available for Amazon Linux AMI that fix the following vulnerabilities:\nCVE-2021-40490:\n\tA flaw was found in the Linux kernel. A race condition was discovered in the ext4 subsystem. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.\n2001951: CVE-2021-40490 kernel: race condition was discovered in ext4_write_inline_data_end in fs/ext4/inline.c in the ext4 subsystem\n\nCVE-2021-38205:\n\tA flaw was found in the Linux kernel that allows attackers to defeat an ASLR protection mechanism because it prints a kernel pointer (i.e., the real IOMEM pointer). The highest threat from this vulnerability is to confidentiality.\n1992774: CVE-2021-38205 kernel: drivers/net/ethernet/xilinx/xilinx_emaclite.c prints the real IOMEM pointer\n\nCVE-2021-38204:\n\tA flaw was found in the Linux kernel. A denial of service attack (use-after-free and panic) can be caused by a physically proximate attack by removing a MAX-3421 USB device in certain situations. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.\n1992754: CVE-2021-38204 kernel: use-after-free and panic in drivers/usb/host/max3421-hcd.c by removing a MAX-3421 USB device in certain situations\n\nCVE-2021-38198:\n\tA flaw was found in the Linux kernel, where it incorrectly computes the access permissions of a shadow page. This issue leads to a missing guest protection page fault.\n1992264: CVE-2021-38198 kernel: arch/x86/kvm/mmu/paging_tmpl.h incorrectly computes the access permissions of a shadow page\n\nCVE-2021-37576:\n\tA flaw was found on the Linux kernel. On the PowerPC platform, the KVM guest allows the OS users to cause host OS memory corruption via rtas_args.nargs. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.\n1986506: CVE-2021-37576 kernel: powerpc: KVM guest OS users can cause host OS memory corruption\n\nCVE-2021-3753:\n\tA race problem was seen in the vt_k_ioctl in drivers/tty/vt/vt_ioctl.c in the Linux kernel, which may cause an out of bounds read in vt as the write access to vc_mode is not protected by lock-in vt_ioctl (KDSETMDE). The highest threat from this vulnerability is to data confidentiality.\n1999589: CVE-2021-3753 kernel: a race out-of-bound read in vt\n\nCVE-2021-3732:\n\tA flaw was found in the Linux kernel's OverlayFS subsystem in the way the user mounts the TmpFS filesystem with OverlayFS. This flaw allows a local user to gain access to hidden files that should not be accessible.\n1995249: CVE-2021-3732 kernel: overlayfs: Mounting overlayfs inside an unprivileged user namespace can reveal files\n\nCVE-2021-3679:\n\tA lack of CPU resources in the Linux kernel tracing module functionality was found in the way users use the trace ring buffer in specific way. Only privileged local users (with CAP_SYS_ADMIN capability) could use this flaw to starve the resources causing denial of service.\n1989165: CVE-2021-3679 kernel: DoS in rb_per_cpu_empty()\n\nCVE-2021-3655:\n\tA vulnerability was found in the Linux kernel. Missing size validations on inbound SCTP packets may allow the kernel to read uninitialized memory.\n1984024: CVE-2021-3655 kernel: missing size validations on inbound SCTP packets\n\nCVE-2021-3609:\n\tA flaw was found in the CAN BCM networking protocol in the Linux kernel, where a local attacker can abuse a flaw in the CAN subsystem to corrupt memory, crash the system or escalate privileges.\n1971651: CVE-2021-3609 kernel: race condition in net/can/bcm.c leads to local privilege escalation\n\nCVE-2021-22543:\n\tA flaw was found in the Linux kernel's KVM implementation, where improper handing of the VM_IO|VM_PFNMAP VMAs in KVM bypasses RO checks and leads to pages being freed while still accessible by the VMM and guest. This flaw allows users who can start and control a VM to read/write random pages of memory, resulting in local privilege escalation. The highest threat from this vulnerability is to confidentiality, integrity, and system availability.\n1965461: CVE-2021-22543 kernel: Improper handling of VM_IO|VM_PFNMAP vmas in KVM can bypass RO checks\n\nCVE-2020-16119:\n\tA flaw was found in the Linux kernel. When reusing a socket with an attached dccps_hc_tx_ccid as a listener, the socket will be used after being released leading to denial of service (DoS) or a potential code execution. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.\n1886374: CVE-2020-16119 kernel: DCCP CCID structure use-after-free may lead to DoS or code execution\n",
+  "packages": [
+    {
+      "name": "kernel-debuginfo-common-x86_64",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-debuginfo-common-x86_64-4.14.248-129.473.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "kernel-tools-devel",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-tools-devel-4.14.248-129.473.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "kernel",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-4.14.248-129.473.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "perf",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/perf-4.14.248-129.473.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "kernel-headers",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-headers-4.14.248-129.473.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "kernel-tools-debuginfo",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-tools-debuginfo-4.14.248-129.473.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "kernel-debuginfo",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-debuginfo-4.14.248-129.473.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "kernel-tools",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-tools-4.14.248-129.473.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "perf-debuginfo",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/perf-debuginfo-4.14.248-129.473.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "kernel-devel",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-devel-4.14.248-129.473.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "perf-debuginfo",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "i686",
+      "filename": "Packages/perf-debuginfo-4.14.248-129.473.amzn1.i686.rpm"
+    },
+    {
+      "name": "kernel-debuginfo",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "i686",
+      "filename": "Packages/kernel-debuginfo-4.14.248-129.473.amzn1.i686.rpm"
+    },
+    {
+      "name": "kernel-tools-debuginfo",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "i686",
+      "filename": "Packages/kernel-tools-debuginfo-4.14.248-129.473.amzn1.i686.rpm"
+    },
+    {
+      "name": "kernel",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "i686",
+      "filename": "Packages/kernel-4.14.248-129.473.amzn1.i686.rpm"
+    },
+    {
+      "name": "kernel-tools",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "i686",
+      "filename": "Packages/kernel-tools-4.14.248-129.473.amzn1.i686.rpm"
+    },
+    {
+      "name": "perf",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "i686",
+      "filename": "Packages/perf-4.14.248-129.473.amzn1.i686.rpm"
+    },
+    {
+      "name": "kernel-tools-devel",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "i686",
+      "filename": "Packages/kernel-tools-devel-4.14.248-129.473.amzn1.i686.rpm"
+    },
+    {
+      "name": "kernel-devel",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "i686",
+      "filename": "Packages/kernel-devel-4.14.248-129.473.amzn1.i686.rpm"
+    },
+    {
+      "name": "kernel-debuginfo-common-i686",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "i686",
+      "filename": "Packages/kernel-debuginfo-common-i686-4.14.248-129.473.amzn1.i686.rpm"
+    },
+    {
+      "name": "kernel-headers",
+      "epoch": "0",
+      "version": "4.14.248",
+      "release": "129.473.amzn1",
+      "arch": "i686",
+      "filename": "Packages/kernel-headers-4.14.248-129.473.amzn1.i686.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-16119",
+      "id": "CVE-2020-16119",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22543",
+      "id": "CVE-2021-22543",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3609",
+      "id": "CVE-2021-3609",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3655",
+      "id": "CVE-2021-3655",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3679",
+      "id": "CVE-2021-3679",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3732",
+      "id": "CVE-2021-3732",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3753",
+      "id": "CVE-2021-3753",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-37576",
+      "id": "CVE-2021-37576",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38198",
+      "id": "CVE-2021-38198",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38204",
+      "id": "CVE-2021-38204",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38205",
+      "id": "CVE-2021-38205",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-40490",
+      "id": "CVE-2021-40490",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2020-16119",
+    "CVE-2021-22543",
+    "CVE-2021-3609",
+    "CVE-2021-3655",
+    "CVE-2021-3679",
+    "CVE-2021-3732",
+    "CVE-2021-3753",
+    "CVE-2021-37576",
+    "CVE-2021-38198",
+    "CVE-2021-38204",
+    "CVE-2021-38205",
+    "CVE-2021-40490"
+  ]
+}

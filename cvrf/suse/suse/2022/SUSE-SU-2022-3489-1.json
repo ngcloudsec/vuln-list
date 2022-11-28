@@ -1,0 +1,192 @@
+{
+  "Title": "Security update for expat",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3489-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-10-01T11:35:30Z",
+    "CurrentReleaseDate": "2022-10-01T11:35:30Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-10-01T11:35:30Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for expat",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for expat fixes the following issues:\n\n- CVE-2022-40674: Fixed use-after-free in the doContent function in xmlparse.c (bsc#1203438).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.9.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.9.1",
+        "RelatesToProductReference": "Container bci/golang:1.16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.9.1",
+        "RelatesToProductReference": "Container bci/golang:1.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.9.1",
+        "RelatesToProductReference": "Container bci/golang:1.18",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.9.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.9.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.9.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.4.4-150400.3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.4.4-150400.3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.4.4-150400.3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.4.4-150400.3.9.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.4.4-150400.3.9.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-32bit-2.4.4-150400.3.9.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.9.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.4.4-150400.3.9.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223489-1/",
+      "Description": "Link for SUSE-SU-2022:3489-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-October/012469.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3489-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1203438",
+      "Description": "SUSE Bug 1203438"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-40674/",
+      "Description": "SUSE CVE CVE-2022-40674 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-40674",
+      "Description": "libexpat before 2.4.9 has a use-after-free in the doContent function in xmlparse.c.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-40674.html",
+          "Description": "CVE-2022-40674"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1203438",
+          "Description": "SUSE Bug 1203438"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:libexpat1-2.4.4-150400.3.9.1",
+            "Container bci/golang:1.16:libexpat1-2.4.4-150400.3.9.1",
+            "Container bci/golang:1.17:libexpat1-2.4.4-150400.3.9.1",
+            "Container bci/golang:1.18:libexpat1-2.4.4-150400.3.9.1",
+            "Container bci/nodejs:latest:libexpat1-2.4.4-150400.3.9.1",
+            "Container bci/python:3:libexpat1-2.4.4-150400.3.9.1",
+            "Container suse/sle-micro-rancher/5.3:latest:libexpat1-2.4.4-150400.3.9.1",
+            "SUSE Linux Enterprise Micro 5.3:libexpat1-2.4.4-150400.3.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:expat-2.4.4-150400.3.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat-devel-2.4.4-150400.3.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat1-2.4.4-150400.3.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat1-32bit-2.4.4-150400.3.9.1",
+            "openSUSE Leap 15.4:expat-2.4.4-150400.3.9.1",
+            "openSUSE Leap 15.4:libexpat-devel-2.4.4-150400.3.9.1",
+            "openSUSE Leap 15.4:libexpat-devel-32bit-2.4.4-150400.3.9.1",
+            "openSUSE Leap 15.4:libexpat1-2.4.4-150400.3.9.1",
+            "openSUSE Leap 15.4:libexpat1-32bit-2.4.4-150400.3.9.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

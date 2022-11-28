@@ -1,0 +1,116 @@
+{
+  "Title": "Security update for polkit",
+  "Tracking": {
+    "ID": "SUSE-SU-2019:2035-2",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2019-08-01T15:35:16Z",
+    "CurrentReleaseDate": "2019-08-01T15:35:16Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2019-08-01T15:35:16Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for polkit",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for polkit fixes the following issues:\n\nSecurity issue fixed:\n\n- CVE-2019-6133: Fixed improper caching of auth decisions, which could bypass \n  uid checking in the interactive backend (bsc#1121826).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libpolkit0-0.113-5.18.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "polkit-0.113-5.18.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "typelib-1_0-Polkit-1_0-0.113-5.18.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20192035-2/",
+      "Description": "Link for SUSE-SU-2019:2035-2"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2019-August/005819.html",
+      "Description": "E-Mail link for SUSE-SU-2019:2035-2"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1121826",
+      "Description": "SUSE Bug 1121826"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-6133/",
+      "Description": "SUSE CVE CVE-2019-6133 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-6133",
+      "Description": "In PolicyKit (aka polkit) 0.115, the \"start time\" protection mechanism can be bypassed because fork() is not atomic, and therefore authorization decisions are improperly cached. This is related to lack of uid checking in polkitbackend/polkitbackendinteractiveauthority.c.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-6133.html",
+          "Description": "CVE-2019-6133"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1070943",
+          "Description": "SUSE Bug 1070943"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1121826",
+          "Description": "SUSE Bug 1121826"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1121872",
+          "Description": "SUSE Bug 1121872"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 5:libpolkit0-0.113-5.18.1",
+            "SUSE Enterprise Storage 5:polkit-0.113-5.18.1",
+            "SUSE Enterprise Storage 5:typelib-1_0-Polkit-1_0-0.113-5.18.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

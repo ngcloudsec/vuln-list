@@ -1,0 +1,319 @@
+{
+  "Title": "Security update for go1.17",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:2004-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-06-07T14:34:31Z",
+    "CurrentReleaseDate": "2022-06-07T14:34:31Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-06-07T14:34:31Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for go1.17",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for go1.17 fixes the following issues:\n\nUpdate to go1.17.11 (released 2022-06-01) (bsc#1190649):\n\n- CVE-2022-30634: Fixed crypto/rand rand.Read hangs with extremely large buffers (bsc#1200134).\n- CVE-2022-30629: Fixed crypto/tls session tickets lack random ticket_age_add (bsc#1200135).\n- CVE-2022-29804: Fixed path/filepath Clean(`.\\c:`) returns `c:` on Windows (bsc#1200137).\n- CVE-2022-30580: Fixed os/exec empty Cmd.Path can result in running unintended binary on Windows (bsc#1200136).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "go1.17-1.17.11-150000.1.37.1",
+        "RelatesToProductReference": "Container bci/golang:1.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "go1.17-1.17.11-150000.1.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "go1.17-doc-1.17.11-150000.1.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "go1.17-race-1.17.11-150000.1.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "go1.17-1.17.11-150000.1.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "go1.17-doc-1.17.11-150000.1.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "go1.17-race-1.17.11-150000.1.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "go1.17-1.17.11-150000.1.37.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "go1.17-doc-1.17.11-150000.1.37.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "go1.17-race-1.17.11-150000.1.37.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "go1.17-1.17.11-150000.1.37.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "go1.17-doc-1.17.11-150000.1.37.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "go1.17-race-1.17.11-150000.1.37.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20222004-1/",
+      "Description": "Link for SUSE-SU-2022:2004-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-June/011250.html",
+      "Description": "E-Mail link for SUSE-SU-2022:2004-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1190649",
+      "Description": "SUSE Bug 1190649"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1200134",
+      "Description": "SUSE Bug 1200134"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1200135",
+      "Description": "SUSE Bug 1200135"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1200136",
+      "Description": "SUSE Bug 1200136"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1200137",
+      "Description": "SUSE Bug 1200137"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-29804/",
+      "Description": "SUSE CVE CVE-2022-29804 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-30580/",
+      "Description": "SUSE CVE CVE-2022-30580 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-30629/",
+      "Description": "SUSE CVE CVE-2022-30629 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-30634/",
+      "Description": "SUSE CVE CVE-2022-30634 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-29804",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-29804.html",
+          "Description": "CVE-2022-29804"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200137",
+          "Description": "SUSE Bug 1200137"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/golang:1.17:go1.17-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:go1.17-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:go1.17-doc-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:go1.17-race-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.17-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.17-doc-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.17-race-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.3:go1.17-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.3:go1.17-doc-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.3:go1.17-race-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.4:go1.17-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.4:go1.17-doc-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.4:go1.17-race-1.17.11-150000.1.37.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-30580",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-30580.html",
+          "Description": "CVE-2022-30580"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200136",
+          "Description": "SUSE Bug 1200136"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/golang:1.17:go1.17-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:go1.17-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:go1.17-doc-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:go1.17-race-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.17-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.17-doc-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.17-race-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.3:go1.17-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.3:go1.17-doc-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.3:go1.17-race-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.4:go1.17-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.4:go1.17-doc-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.4:go1.17-race-1.17.11-150000.1.37.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-30629",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-30629.html",
+          "Description": "CVE-2022-30629"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200135",
+          "Description": "SUSE Bug 1200135"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/golang:1.17:go1.17-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:go1.17-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:go1.17-doc-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:go1.17-race-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.17-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.17-doc-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.17-race-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.3:go1.17-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.3:go1.17-doc-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.3:go1.17-race-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.4:go1.17-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.4:go1.17-doc-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.4:go1.17-race-1.17.11-150000.1.37.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-30634",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-30634.html",
+          "Description": "CVE-2022-30634"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200134",
+          "Description": "SUSE Bug 1200134"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/golang:1.17:go1.17-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:go1.17-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:go1.17-doc-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:go1.17-race-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.17-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.17-doc-1.17.11-150000.1.37.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:go1.17-race-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.3:go1.17-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.3:go1.17-doc-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.3:go1.17-race-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.4:go1.17-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.4:go1.17-doc-1.17.11-150000.1.37.1",
+            "openSUSE Leap 15.4:go1.17-race-1.17.11-150000.1.37.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "Title": "Security update for cups",
+  "Tracking": {
+    "ID": "SUSE-SU-2019:3030-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2019-11-21T18:11:31Z",
+    "CurrentReleaseDate": "2019-11-21T18:11:31Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2019-11-21T18:11:31Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for cups",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for cups fixes the following issues:\n\t  \n- CVE-2019-8675: Fixed a stack buffer overflow in libcups's asn1_get_type function(bsc#1146358). \n- CVE-2019-8696: Fixed a stack buffer overflow in libcups's asn1_get_packed function (bsc#1146359).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "cups-config-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcups2-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-config-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcups2-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-config-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcups2-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-config-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcups2-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-config-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcups2-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-config-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcups2-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-config-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcups2-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-config-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcups2-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-config-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcups2-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-config-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcups2-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-config-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcups2-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-config-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcups2-2.2.7-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-client-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-config-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-devel-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcups2-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcups2-32bit-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcupscgi1-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcupsimage2-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcupsmime1-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcupsppdc1-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-client-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-config-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-devel-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcups2-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcups2-32bit-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcupscgi1-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcupsimage2-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcupsmime1-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcupsppdc1-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcups2-32bit-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-ddk-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-ddk-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-devel-32bit-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcupscgi1-32bit-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcupsimage2-32bit-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcupsmime1-32bit-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcupsppdc1-32bit-2.2.7-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20193030-1/",
+      "Description": "Link for SUSE-SU-2019:3030-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2019-November/006159.html",
+      "Description": "E-Mail link for SUSE-SU-2019:3030-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1146358",
+      "Description": "SUSE Bug 1146358"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1146359",
+      "Description": "SUSE Bug 1146359"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-8675/",
+      "Description": "SUSE CVE CVE-2019-8675 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-8696/",
+      "Description": "SUSE CVE CVE-2019-8696 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-8675",
+      "Description": "A buffer overflow issue was addressed with improved memory handling. This issue is fixed in macOS Mojave 10.14.6, Security Update 2019-004 High Sierra, Security Update 2019-004 Sierra. An attacker in a privileged network position may be able to execute arbitrary code.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-8675.html",
+          "Description": "CVE-2019-8675"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1146358",
+          "Description": "SUSE Bug 1146358"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1168422",
+          "Description": "SUSE Bug 1168422"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-SP1-CHOST-BYOS-Azure:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libcups2-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:cups-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:cups-client-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:cups-config-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:cups-devel-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libcups2-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libcups2-32bit-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libcupscgi1-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libcupsimage2-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libcupsmime1-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libcupsppdc1-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:cups-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:cups-client-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:cups-config-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:cups-devel-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libcups2-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libcups2-32bit-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libcupscgi1-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libcupsimage2-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libcupsmime1-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libcupsppdc1-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15:libcups2-32bit-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP1:cups-ddk-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Development Tools 15:cups-ddk-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:cups-devel-32bit-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libcupscgi1-32bit-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libcupsimage2-32bit-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libcupsmime1-32bit-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libcupsppdc1-32bit-2.2.7-3.14.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2019-8696",
+      "Description": "A buffer overflow issue was addressed with improved memory handling. This issue is fixed in macOS Mojave 10.14.6, Security Update 2019-004 High Sierra, Security Update 2019-004 Sierra. An attacker in a privileged network position may be able to execute arbitrary code.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-8696.html",
+          "Description": "CVE-2019-8696"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1146358",
+          "Description": "SUSE Bug 1146358"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1146359",
+          "Description": "SUSE Bug 1146359"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-SP1-CHOST-BYOS-Azure:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libcups2-2.2.7-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:cups-config-2.2.7-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libcups2-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:cups-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:cups-client-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:cups-config-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:cups-devel-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libcups2-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libcups2-32bit-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libcupscgi1-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libcupsimage2-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libcupsmime1-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libcupsppdc1-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:cups-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:cups-client-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:cups-config-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:cups-devel-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libcups2-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libcups2-32bit-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libcupscgi1-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libcupsimage2-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libcupsmime1-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libcupsppdc1-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15:libcups2-32bit-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP1:cups-ddk-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Development Tools 15:cups-ddk-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:cups-devel-32bit-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libcupscgi1-32bit-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libcupsimage2-32bit-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libcupsmime1-32bit-2.2.7-3.14.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libcupsppdc1-32bit-2.2.7-3.14.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

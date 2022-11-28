@@ -1,0 +1,110 @@
+{
+  "Title": "Security update for permissions",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3382-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-09-26T10:34:22Z",
+    "CurrentReleaseDate": "2022-09-26T10:34:22Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-09-26T10:34:22Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for permissions",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for permissions fixes the following issues:\n\n- CVE-2022-31252: Fixed chkstat group controlled paths (bsc#1203018).\n\n- Add capability for prometheus-blackbox_exporter (bsc#1191194).\n- Make btmp root:utmp (bsc#1050467).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "permissions-20170707-6.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "permissions-20170707-6.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223382-1/",
+      "Description": "Link for SUSE-SU-2022:3382-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-September/012372.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3382-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1050467",
+      "Description": "SUSE Bug 1050467"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1191194",
+      "Description": "SUSE Bug 1191194"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1203018",
+      "Description": "SUSE Bug 1203018"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-31252/",
+      "Description": "SUSE CVE CVE-2022-31252 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-31252",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-31252.html",
+          "Description": "CVE-2022-31252"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1203018",
+          "Description": "SUSE Bug 1203018"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 12 SP5:permissions-20170707-6.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:permissions-20170707-6.10.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

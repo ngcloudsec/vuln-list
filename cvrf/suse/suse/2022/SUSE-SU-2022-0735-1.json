@@ -1,0 +1,890 @@
+{
+  "Title": "Security update for zsh",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:0735-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-03-04T13:51:25Z",
+    "CurrentReleaseDate": "2022-03-04T13:51:25Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-03-04T13:51:25Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for zsh",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for zsh fixes the following issues:\n\n- CVE-2021-45444: Fixed a vulnerability where arbitrary shell commands could be \n  executed related to prompt expansion (bsc#1196435).\n- CVE-2019-20044: Fixed a vulnerability where shell privileges would not be\n  properly dropped when unsetting the PRIVILEGED option (bsc#1163882).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP1-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP1-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zsh-5.6-7.5.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20220735-1/",
+      "Description": "Link for SUSE-SU-2022:0735-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-March/010365.html",
+      "Description": "E-Mail link for SUSE-SU-2022:0735-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1163882",
+      "Description": "SUSE Bug 1163882"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1196435",
+      "Description": "SUSE Bug 1196435"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-20044/",
+      "Description": "SUSE CVE CVE-2019-20044 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2021-45444/",
+      "Description": "SUSE CVE CVE-2021-45444 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-20044",
+      "Description": "In Zsh before 5.8, attackers able to execute commands can regain privileges dropped by the --no-PRIVILEGED option. Zsh fails to overwrite the saved uid, so the original privileges can be restored by executing MODULE_PATH=/dir/with/module zmodload with a module that calls setuid().",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-20044.html",
+          "Description": "CVE-2019-20044"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1163882",
+          "Description": "SUSE Bug 1163882"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200039",
+          "Description": "SUSE Bug 1200039"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-SP1-Azure-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP1-Azure-HPC-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP1-SAP-Azure-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:zsh-5.6-7.5.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-SAP-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-SAP-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-SAP-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-SAP-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Azure-Basic:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Azure-Standard:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-BYOS-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-HPC-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-HPC-BYOS-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-HPC-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAP-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAP-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAP-BYOS-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAP-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAP-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAP-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAP:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAPCAL-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAPCAL-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAPCAL-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Azure-Basic:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Azure-Standard:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-BYOS-EC2:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-EC2:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-HPC-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-HPC-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-HPC-BYOS-EC2:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-HPC-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-HPC-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-HPC-EC2:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-HPC-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-HPC:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-BYOS-EC2:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-EC2:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAPCAL-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAPCAL-EC2:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAPCAL-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAPCAL:zsh-5.6-7.5.1",
+            "Image SLES15-SP4:zsh-5.6-7.5.1",
+            "SUSE Enterprise Storage 6:zsh-5.6-7.5.1",
+            "SUSE Enterprise Storage 7:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:zsh-5.6-7.5.1",
+            "SUSE Manager Proxy 4.1:zsh-5.6-7.5.1",
+            "SUSE Manager Retail Branch Server 4.1:zsh-5.6-7.5.1",
+            "SUSE Manager Server 4.1:zsh-5.6-7.5.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2021-45444",
+      "Description": "In zsh before 5.8.1, an attacker can achieve code execution if they control a command output inside the prompt, as demonstrated by a %F argument. This occurs because of recursive PROMPT_SUBST expansion.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2021-45444.html",
+          "Description": "CVE-2021-45444"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1196435",
+          "Description": "SUSE Bug 1196435"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199097",
+          "Description": "SUSE Bug 1199097"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-SP1-Azure-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP1-Azure-HPC-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP1-SAP-Azure-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:zsh-5.6-7.5.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-Manager-4-1-Server-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-SAP-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-SAP-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-SAP-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP2-SAP-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Azure-Basic:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Azure-Standard:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-BYOS-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-HPC-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-HPC-BYOS-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-HPC-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAP-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAP-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAP-BYOS-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAP-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAP-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAP-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAP:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAPCAL-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAPCAL-EC2-HVM:zsh-5.6-7.5.1",
+            "Image SLES15-SP3-SAPCAL-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Azure-Basic:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Azure-Standard:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-BYOS-EC2:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-EC2:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-HPC-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-HPC-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-HPC-BYOS-EC2:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-HPC-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-HPC-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-HPC-EC2:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-HPC-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-HPC:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-BYOS-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-BYOS-EC2:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-BYOS-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-BYOS:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-EC2:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAP:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAPCAL-Azure:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAPCAL-EC2:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAPCAL-GCE:zsh-5.6-7.5.1",
+            "Image SLES15-SP4-SAPCAL:zsh-5.6-7.5.1",
+            "Image SLES15-SP4:zsh-5.6-7.5.1",
+            "SUSE Enterprise Storage 6:zsh-5.6-7.5.1",
+            "SUSE Enterprise Storage 7:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:zsh-5.6-7.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:zsh-5.6-7.5.1",
+            "SUSE Manager Proxy 4.1:zsh-5.6-7.5.1",
+            "SUSE Manager Retail Branch Server 4.1:zsh-5.6-7.5.1",
+            "SUSE Manager Server 4.1:zsh-5.6-7.5.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

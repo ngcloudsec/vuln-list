@@ -1,0 +1,282 @@
+{
+  "Title": "Security update for python",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:2275-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-08-19T11:21:42Z",
+    "CurrentReleaseDate": "2020-08-19T11:21:42Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-08-19T11:21:42Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for python",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for python fixes the following issues:\n\n- CVE-2019-20907: Avoid a possible infinite loop caused by specifically crafted tarballs (bsc#1174091).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libpython2_7-1_0-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython2_7-1_0-32bit-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-32bit-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-base-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-base-32bit-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-curses-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-demo-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-devel-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-doc-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-doc-pdf-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-gdbm-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-idle-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-tk-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-xml-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython2_7-1_0-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython2_7-1_0-32bit-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-32bit-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-base-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-base-32bit-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-curses-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-demo-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-devel-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-doc-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-doc-pdf-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-gdbm-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-idle-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-tk-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-xml-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-devel-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Workstation Extension 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-strict-tls-check-2.7.17-28.48.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20202275-1/",
+      "Description": "Link for SUSE-SU-2020:2275-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-August/007283.html",
+      "Description": "E-Mail link for SUSE-SU-2020:2275-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1174091",
+      "Description": "SUSE Bug 1174091"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-20907/",
+      "Description": "SUSE CVE CVE-2019-20907 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-20907",
+      "Description": "In Lib/tarfile.py in Python through 3.8.3, an attacker is able to craft a TAR archive leading to an infinite loop when opened by tarfile.open, because _proc_pax lacks header validation.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-20907.html",
+          "Description": "CVE-2019-20907"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1174091",
+          "Description": "SUSE Bug 1174091"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 5:python-strict-tls-check-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server 12 SP5:libpython2_7-1_0-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server 12 SP5:libpython2_7-1_0-32bit-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server 12 SP5:python-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server 12 SP5:python-32bit-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server 12 SP5:python-base-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server 12 SP5:python-base-32bit-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server 12 SP5:python-curses-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server 12 SP5:python-demo-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server 12 SP5:python-devel-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server 12 SP5:python-doc-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server 12 SP5:python-doc-pdf-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server 12 SP5:python-gdbm-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server 12 SP5:python-idle-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server 12 SP5:python-tk-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server 12 SP5:python-xml-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libpython2_7-1_0-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libpython2_7-1_0-32bit-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python-32bit-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python-base-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python-base-32bit-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python-curses-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python-demo-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python-devel-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python-doc-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python-doc-pdf-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python-gdbm-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python-idle-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python-tk-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python-xml-2.7.17-28.48.1",
+            "SUSE Linux Enterprise Workstation Extension 12 SP5:python-devel-2.7.17-28.48.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "Title": "Security update for xterm",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3952-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-11-11T10:41:16Z",
+    "CurrentReleaseDate": "2022-11-11T10:41:16Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-11-11T10:41:16Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for xterm",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for xterm fixes the following issues:\n\n- CVE-2022-24130: Fixed buffer overflow in set_sixel when Sixel support is enabled. (bsc#1195387)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "xterm-308-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xterm-308-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223952-1/",
+      "Description": "Link for SUSE-SU-2022:3952-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-November/012899.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3952-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1195387",
+      "Description": "SUSE Bug 1195387"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-24130/",
+      "Description": "SUSE CVE CVE-2022-24130 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-24130",
+      "Description": "xterm through Patch 370, when Sixel support is enabled, allows attackers to trigger a buffer overflow in set_sixel in graphics_sixel.c via crafted text.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-24130.html",
+          "Description": "CVE-2022-24130"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1195387",
+          "Description": "SUSE Bug 1195387"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 12 SP5:xterm-308-5.6.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:xterm-308-5.6.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

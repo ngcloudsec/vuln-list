@@ -1,0 +1,1670 @@
+{
+  "Title": "Security update for php53",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:1265-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2014-10-28T10:05:33Z",
+    "CurrentReleaseDate": "2014-10-28T10:05:33Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2014-10-28T10:05:33Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for php53",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nThis update fixes the following vulnerabilities in php:\n\n    * Heap corruption issue in exif_thumbnail(). (CVE-2014-3670)\n    * Integer overflow in unserialize(). (CVE-2014-3669)\n    * Xmlrpc ISO8601 date format parsing out-of-bounds read in mkgmtime().\n      (CVE-2014-3668)\n\nSecurity Issues:\n\n    * CVE-2014-3669\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3669\u003e\n    * CVE-2014-3670\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3670\u003e\n    * CVE-2014-3668\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3668\u003e\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "php53-devel-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-imap-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-posix-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-readline-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-sockets-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-sqlite-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-tidy-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-mod_php53-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-bcmath-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-bz2-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-calendar-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-ctype-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-curl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-dba-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-dom-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-exif-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-fastcgi-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-fileinfo-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-ftp-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-gd-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-gettext-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-gmp-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-iconv-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-intl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-json-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-ldap-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-mbstring-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-mcrypt-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-mysql-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-odbc-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-openssl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pcntl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pdo-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pear-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pgsql-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pspell-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-shmop-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-snmp-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-soap-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-suhosin-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-sysvmsg-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-sysvsem-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-sysvshm-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-tokenizer-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-wddx-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-xmlreader-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-xmlrpc-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-xmlwriter-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-xsl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-zip-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-zlib-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-mod_php53-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-bcmath-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-bz2-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-calendar-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-ctype-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-curl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-dba-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-dom-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-exif-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-fastcgi-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-fileinfo-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-ftp-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-gd-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-gettext-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-gmp-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-iconv-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-intl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-json-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-ldap-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-mbstring-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-mcrypt-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-mysql-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-odbc-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-openssl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pcntl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pdo-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pear-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pgsql-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pspell-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-shmop-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-snmp-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-soap-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-suhosin-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-sysvmsg-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-sysvsem-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-sysvshm-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-tokenizer-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-wddx-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-xmlreader-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-xmlrpc-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-xmlwriter-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-xsl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-zip-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-zlib-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-mod_php53-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-bcmath-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-bz2-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-calendar-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-ctype-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-curl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-dba-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-dom-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-exif-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-fastcgi-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-fileinfo-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-ftp-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-gd-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-gettext-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-gmp-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-iconv-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-intl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-json-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-ldap-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-mbstring-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-mcrypt-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-mysql-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-odbc-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-openssl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pcntl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pdo-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pear-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pgsql-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pspell-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-shmop-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-snmp-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-soap-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-suhosin-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-sysvmsg-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-sysvsem-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-sysvshm-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-tokenizer-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-wddx-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-xmlreader-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-xmlrpc-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-xmlwriter-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-xsl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-zip-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-zlib-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-mod_php53-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-bcmath-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-bz2-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-calendar-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-ctype-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-curl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-dba-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-dom-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-exif-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-fastcgi-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-fileinfo-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-ftp-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-gd-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-gettext-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-gmp-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-iconv-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-intl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-json-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-ldap-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-mbstring-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-mcrypt-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-mysql-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-odbc-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-openssl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pcntl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pdo-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pear-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pgsql-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-pspell-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-shmop-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-snmp-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-soap-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-suhosin-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-sysvmsg-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-sysvsem-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-sysvshm-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-tokenizer-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-wddx-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-xmlreader-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-xmlrpc-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-xmlwriter-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-xsl-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-zip-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "php53-zlib-5.3.17-0.31.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20151265-1/",
+      "Description": "Link for SUSE-SU-2015:1265-1"
+    },
+    {
+      "URL": "https://lists.opensuse.org/opensuse-security-announce/2015-07/msg00030.html",
+      "Description": "E-Mail link for SUSE-SU-2015:1265-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/902357",
+      "Description": "SUSE Bug 902357"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/902360",
+      "Description": "SUSE Bug 902360"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/902368",
+      "Description": "SUSE Bug 902368"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-3668/",
+      "Description": "SUSE CVE CVE-2014-3668 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-3669/",
+      "Description": "SUSE CVE CVE-2014-3669 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-3670/",
+      "Description": "SUSE CVE CVE-2014-3670 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2014-3668",
+      "Description": "Buffer overflow in the date_from_ISO8601 function in the mkgmtime implementation in libxmlrpc/xmlrpc.c in the XMLRPC extension in PHP before 5.4.34, 5.5.x before 5.5.18, and 5.6.x before 5.6.2 allows remote attackers to cause a denial of service (application crash) via (1) a crafted first argument to the xmlrpc_set_type function or (2) a crafted argument to the xmlrpc_decode function, related to an out-of-bounds read operation.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-3668.html",
+          "Description": "CVE-2014-3668"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/902368",
+          "Description": "SUSE Bug 902368"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/980366",
+          "Description": "SUSE Bug 980366"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:apache2-mod_php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-bcmath-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-bz2-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-calendar-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-ctype-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-curl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-dba-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-dom-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-exif-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-fastcgi-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-fileinfo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-ftp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-gd-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-gettext-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-gmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-iconv-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-intl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-json-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-ldap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-mbstring-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-mcrypt-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-mysql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-odbc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-openssl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-pcntl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-pdo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-pear-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-pgsql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-pspell-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-shmop-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-snmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-soap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-suhosin-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-sysvmsg-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-sysvsem-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-sysvshm-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-tokenizer-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-wddx-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-xmlreader-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-xmlrpc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-xmlwriter-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-xsl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-zip-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-zlib-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:apache2-mod_php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-bcmath-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-bz2-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-calendar-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-ctype-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-curl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-dba-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-dom-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-exif-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-fastcgi-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-fileinfo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-ftp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-gd-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-gettext-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-gmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-iconv-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-intl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-json-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-ldap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-mbstring-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-mcrypt-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-mysql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-odbc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-openssl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-pcntl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-pdo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-pear-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-pgsql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-pspell-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-shmop-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-snmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-soap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-suhosin-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-sysvmsg-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-sysvsem-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-sysvshm-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-tokenizer-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-wddx-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-xmlreader-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-xmlrpc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-xmlwriter-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-xsl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-zip-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-zlib-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:apache2-mod_php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-bcmath-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-bz2-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-calendar-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-ctype-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-curl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-dba-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-dom-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-exif-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-fastcgi-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-fileinfo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-ftp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-gd-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-gettext-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-gmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-iconv-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-intl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-json-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-ldap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-mbstring-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-mcrypt-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-mysql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-odbc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-openssl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-pcntl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-pdo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-pear-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-pgsql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-pspell-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-shmop-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-snmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-soap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-suhosin-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-sysvmsg-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-sysvsem-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-sysvshm-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-tokenizer-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-wddx-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-xmlreader-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-xmlrpc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-xmlwriter-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-xsl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-zip-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-zlib-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:apache2-mod_php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-bcmath-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-bz2-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-calendar-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-ctype-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-curl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-dba-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-dom-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-exif-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-fastcgi-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-fileinfo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-ftp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-gd-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-gettext-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-gmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-iconv-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-intl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-json-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-ldap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-mbstring-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-mcrypt-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-mysql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-odbc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-openssl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-pcntl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-pdo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-pear-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-pgsql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-pspell-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-shmop-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-snmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-soap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-suhosin-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-sysvmsg-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-sysvsem-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-sysvshm-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-tokenizer-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-wddx-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-xmlreader-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-xmlrpc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-xmlwriter-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-xsl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-zip-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-zlib-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-devel-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-imap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-posix-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-readline-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-sockets-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-sqlite-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-tidy-5.3.17-0.31.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-3669",
+      "Description": "Integer overflow in the object_custom function in ext/standard/var_unserializer.c in PHP before 5.4.34, 5.5.x before 5.5.18, and 5.6.x before 5.6.2 allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via an argument to the unserialize function that triggers calculation of a large length value.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-3669.html",
+          "Description": "CVE-2014-3669"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/902360",
+          "Description": "SUSE Bug 902360"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/980366",
+          "Description": "SUSE Bug 980366"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:apache2-mod_php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-bcmath-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-bz2-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-calendar-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-ctype-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-curl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-dba-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-dom-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-exif-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-fastcgi-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-fileinfo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-ftp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-gd-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-gettext-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-gmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-iconv-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-intl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-json-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-ldap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-mbstring-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-mcrypt-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-mysql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-odbc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-openssl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-pcntl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-pdo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-pear-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-pgsql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-pspell-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-shmop-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-snmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-soap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-suhosin-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-sysvmsg-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-sysvsem-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-sysvshm-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-tokenizer-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-wddx-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-xmlreader-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-xmlrpc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-xmlwriter-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-xsl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-zip-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-zlib-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:apache2-mod_php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-bcmath-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-bz2-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-calendar-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-ctype-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-curl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-dba-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-dom-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-exif-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-fastcgi-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-fileinfo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-ftp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-gd-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-gettext-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-gmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-iconv-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-intl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-json-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-ldap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-mbstring-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-mcrypt-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-mysql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-odbc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-openssl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-pcntl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-pdo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-pear-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-pgsql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-pspell-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-shmop-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-snmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-soap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-suhosin-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-sysvmsg-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-sysvsem-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-sysvshm-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-tokenizer-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-wddx-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-xmlreader-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-xmlrpc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-xmlwriter-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-xsl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-zip-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-zlib-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:apache2-mod_php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-bcmath-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-bz2-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-calendar-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-ctype-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-curl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-dba-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-dom-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-exif-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-fastcgi-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-fileinfo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-ftp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-gd-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-gettext-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-gmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-iconv-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-intl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-json-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-ldap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-mbstring-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-mcrypt-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-mysql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-odbc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-openssl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-pcntl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-pdo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-pear-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-pgsql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-pspell-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-shmop-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-snmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-soap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-suhosin-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-sysvmsg-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-sysvsem-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-sysvshm-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-tokenizer-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-wddx-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-xmlreader-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-xmlrpc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-xmlwriter-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-xsl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-zip-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-zlib-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:apache2-mod_php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-bcmath-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-bz2-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-calendar-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-ctype-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-curl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-dba-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-dom-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-exif-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-fastcgi-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-fileinfo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-ftp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-gd-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-gettext-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-gmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-iconv-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-intl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-json-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-ldap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-mbstring-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-mcrypt-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-mysql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-odbc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-openssl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-pcntl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-pdo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-pear-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-pgsql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-pspell-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-shmop-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-snmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-soap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-suhosin-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-sysvmsg-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-sysvsem-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-sysvshm-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-tokenizer-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-wddx-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-xmlreader-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-xmlrpc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-xmlwriter-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-xsl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-zip-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-zlib-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-devel-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-imap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-posix-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-readline-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-sockets-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-sqlite-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-tidy-5.3.17-0.31.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-3670",
+      "Description": "The exif_ifd_make_value function in exif.c in the EXIF extension in PHP before 5.4.34, 5.5.x before 5.5.18, and 5.6.x before 5.6.2 operates on floating-point arrays incorrectly, which allows remote attackers to cause a denial of service (heap memory corruption and application crash) or possibly execute arbitrary code via a crafted JPEG image with TIFF thumbnail data that is improperly handled by the exif_thumbnail function.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-3670.html",
+          "Description": "CVE-2014-3670"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/902357",
+          "Description": "SUSE Bug 902357"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/980366",
+          "Description": "SUSE Bug 980366"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:apache2-mod_php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-bcmath-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-bz2-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-calendar-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-ctype-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-curl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-dba-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-dom-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-exif-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-fastcgi-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-fileinfo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-ftp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-gd-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-gettext-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-gmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-iconv-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-intl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-json-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-ldap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-mbstring-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-mcrypt-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-mysql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-odbc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-openssl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-pcntl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-pdo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-pear-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-pgsql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-pspell-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-shmop-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-snmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-soap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-suhosin-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-sysvmsg-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-sysvsem-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-sysvshm-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-tokenizer-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-wddx-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-xmlreader-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-xmlrpc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-xmlwriter-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-xsl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-zip-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:php53-zlib-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:apache2-mod_php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-bcmath-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-bz2-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-calendar-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-ctype-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-curl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-dba-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-dom-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-exif-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-fastcgi-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-fileinfo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-ftp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-gd-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-gettext-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-gmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-iconv-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-intl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-json-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-ldap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-mbstring-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-mcrypt-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-mysql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-odbc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-openssl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-pcntl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-pdo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-pear-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-pgsql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-pspell-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-shmop-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-snmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-soap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-suhosin-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-sysvmsg-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-sysvsem-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-sysvshm-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-tokenizer-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-wddx-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-xmlreader-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-xmlrpc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-xmlwriter-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-xsl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-zip-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server 11 SP3:php53-zlib-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:apache2-mod_php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-bcmath-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-bz2-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-calendar-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-ctype-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-curl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-dba-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-dom-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-exif-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-fastcgi-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-fileinfo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-ftp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-gd-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-gettext-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-gmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-iconv-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-intl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-json-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-ldap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-mbstring-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-mcrypt-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-mysql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-odbc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-openssl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-pcntl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-pdo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-pear-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-pgsql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-pspell-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-shmop-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-snmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-soap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-suhosin-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-sysvmsg-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-sysvsem-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-sysvshm-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-tokenizer-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-wddx-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-xmlreader-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-xmlrpc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-xmlwriter-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-xsl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-zip-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:php53-zlib-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:apache2-mod_php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-bcmath-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-bz2-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-calendar-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-ctype-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-curl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-dba-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-dom-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-exif-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-fastcgi-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-fileinfo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-ftp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-gd-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-gettext-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-gmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-iconv-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-intl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-json-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-ldap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-mbstring-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-mcrypt-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-mysql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-odbc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-openssl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-pcntl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-pdo-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-pear-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-pgsql-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-pspell-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-shmop-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-snmp-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-soap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-suhosin-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-sysvmsg-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-sysvsem-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-sysvshm-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-tokenizer-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-wddx-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-xmlreader-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-xmlrpc-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-xmlwriter-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-xsl-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-zip-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:php53-zlib-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-devel-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-imap-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-posix-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-readline-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-sockets-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-sqlite-5.3.17-0.31.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:php53-tidy-5.3.17-0.31.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

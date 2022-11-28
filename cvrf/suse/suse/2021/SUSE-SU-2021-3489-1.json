@@ -1,0 +1,238 @@
+{
+  "Title": "Security update for python",
+  "Tracking": {
+    "ID": "SUSE-SU-2021:3489-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2021-10-20T14:19:33Z",
+    "CurrentReleaseDate": "2021-10-20T14:19:33Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2021-10-20T14:19:33Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for python",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for python fixes the following issues:\n\n- CVE-2021-3737: Fixed http client infinite line reading (DoS) after a http 100. (bsc#1189241)\n- CVE-2021-3733: Fixed ReDoS in urllib.request. (bsc#1189287)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libpython2_7-1_0-2.7.18-33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-2.7.18-33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-base-2.7.18-33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython2_7-1_0-2.7.18-33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-2.7.18-33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-base-2.7.18-33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-tk-2.7.18-33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-tk-2.7.18-33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-curses-2.7.18-33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-devel-2.7.18-33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-gdbm-2.7.18-33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-xml-2.7.18-33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-curses-2.7.18-33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-devel-2.7.18-33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-gdbm-2.7.18-33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-xml-2.7.18-33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2021/suse-su-20213489-1/",
+      "Description": "Link for SUSE-SU-2021:3489-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2021-October/009628.html",
+      "Description": "E-Mail link for SUSE-SU-2021:3489-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1189241",
+      "Description": "SUSE Bug 1189241"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1189287",
+      "Description": "SUSE Bug 1189287"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2021-3733/",
+      "Description": "SUSE CVE CVE-2021-3733 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2021-3737/",
+      "Description": "SUSE CVE CVE-2021-3737 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2021-3733",
+      "Description": "There's a flaw in urllib's AbstractBasicAuthHandler class. An attacker who controls a malicious HTTP server that an HTTP client (such as web browser) connects to, could trigger a Regular Expression Denial of Service (ReDOS) during an authentication request with a specially crafted payload that is sent by the server to the client. The greatest threat that this flaw poses is to application availability.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2021-3733.html",
+          "Description": "CVE-2021-3733"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1189287",
+          "Description": "SUSE Bug 1189287"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libpython2_7-1_0-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:python-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:python-base-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libpython2_7-1_0-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python-base-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP2:python-tk-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP3:python-tk-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP2:python-curses-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP2:python-devel-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP2:python-gdbm-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP2:python-xml-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP3:python-curses-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP3:python-devel-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP3:python-gdbm-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP3:python-xml-2.7.18-33.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2021-3737",
+      "Description": "A flaw was found in python. An improperly handled HTTP response in the HTTP client code of python may allow a remote attacker, who controls the HTTP server, to make the client script enter an infinite loop, consuming CPU time. The highest threat from this vulnerability is to system availability.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2021-3737.html",
+          "Description": "CVE-2021-3737"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1189241",
+          "Description": "SUSE Bug 1189241"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libpython2_7-1_0-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:python-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:python-base-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libpython2_7-1_0-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python-base-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP2:python-tk-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP3:python-tk-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP2:python-curses-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP2:python-devel-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP2:python-gdbm-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP2:python-xml-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP3:python-curses-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP3:python-devel-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP3:python-gdbm-2.7.18-33.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP3:python-xml-2.7.18-33.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

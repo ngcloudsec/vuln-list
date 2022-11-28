@@ -1,0 +1,3242 @@
+{
+  "Title": "Security update for mozilla-nss",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:1149-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-04-11T14:29:24Z",
+    "CurrentReleaseDate": "2022-04-11T14:29:24Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-04-11T14:29:24Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for mozilla-nss",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for mozilla-nss fixes the following issues:\n\nMozilla NSS 3.68.3 (bsc#1197903):\n  - CVE-2022-1097: Fixed memory safety violations that could occur when PKCS#11\n    tokens are removed while in use.\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SAP-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SAP-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SAP-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SAP-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SAP-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-EC2-ECS-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-EC2-ECS-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-EC2-ECS-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-EC2-ECS-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image ceph-csi-image",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image ceph-csi-image",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image ceph-csi-image",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "Image ceph-csi-image",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-devel-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-sysinit-32bit-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mozilla-nss-tools-3.68.3-150000.3.67.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20221149-1/",
+      "Description": "Link for SUSE-SU-2022:1149-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-April/010677.html",
+      "Description": "E-Mail link for SUSE-SU-2022:1149-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1197903",
+      "Description": "SUSE Bug 1197903"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1097/",
+      "Description": "SUSE CVE CVE-2022-1097 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-1097",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1097.html",
+          "Description": "CVE-2022-1097"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/openjdk-devel:latest:libfreebl3-3.68.3-150000.3.67.1",
+            "Container bci/openjdk-devel:latest:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "Container bci/openjdk-devel:latest:libsoftokn3-3.68.3-150000.3.67.1",
+            "Container bci/openjdk-devel:latest:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "Container bci/openjdk-devel:latest:mozilla-nss-3.68.3-150000.3.67.1",
+            "Container bci/openjdk-devel:latest:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Container bci/openjdk:latest:libfreebl3-3.68.3-150000.3.67.1",
+            "Container bci/openjdk:latest:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "Container bci/openjdk:latest:libsoftokn3-3.68.3-150000.3.67.1",
+            "Container bci/openjdk:latest:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "Container bci/openjdk:latest:mozilla-nss-3.68.3-150000.3.67.1",
+            "Container bci/openjdk:latest:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-Azure-BYOS:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-Azure-BYOS:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SAP-Azure-BYOS:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SAP-Azure-BYOS:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SAP-Azure-BYOS:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SAP-Azure-BYOS:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SAP-Azure-BYOS:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "Image SLES15-SAP-Azure-LI-BYOS-Production:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SAP-Azure-LI-BYOS-Production:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SAP-Azure-LI-BYOS-Production:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SAP-Azure-LI-BYOS-Production:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SAP-Azure-LI-BYOS-Production:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "Image SLES15-SAP-Azure-VLI-BYOS-Production:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SAP-Azure-VLI-BYOS-Production:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SAP-Azure-VLI-BYOS-Production:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SAP-Azure-VLI-BYOS-Production:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SAP-Azure-VLI-BYOS-Production:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-Azure-BYOS:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-Azure-BYOS:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-Azure-BYOS:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-Azure-BYOS:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-Azure-HPC-BYOS:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-Azure-HPC-BYOS:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-Azure-HPC-BYOS:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-Azure-HPC-BYOS:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-SAP-Azure-BYOS:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-SAP-Azure-BYOS:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-SAP-Azure-BYOS:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-SAP-Azure-BYOS:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-SAP-Azure-BYOS:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-SAP-Azure-LI-BYOS-Production:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP1-SAP-Azure-VLI-BYOS-Production:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-BYOS-Azure:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-BYOS-Azure:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-EC2-HVM:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-Manager-4-1-Proxy-BYOS-GCE:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-Manager-4-1-Server-BYOS-EC2-HVM:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-Manager-4-1-Server-BYOS-GCE:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-Azure:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-Azure:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-Azure:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-Azure:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-Azure:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-BYOS-Azure:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-BYOS-Azure:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-BYOS-Azure:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-BYOS-Azure:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP2-SAP-BYOS-Azure:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-Azure-Basic:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-Azure-Standard:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-BYOS-Azure:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-BYOS-EC2-HVM:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-EC2-ECS-HVM:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-EC2-ECS-HVM:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-EC2-ECS-HVM:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-EC2-ECS-HVM:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-EC2-HVM:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-HPC-Azure:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-HPC-Azure:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-HPC-Azure:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-HPC-Azure:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-HPC-BYOS-EC2-HVM:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-HPC-BYOS-EC2-HVM:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-HPC-BYOS-EC2-HVM:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-HPC-BYOS-EC2-HVM:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-Azure-LI-BYOS-Production:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-Azure:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-Azure:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-Azure:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-Azure:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-Azure:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-BYOS-Azure:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-BYOS-Azure:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-BYOS-Azure:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-BYOS-Azure:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-BYOS-Azure:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-BYOS-EC2-HVM:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-BYOS-EC2-HVM:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-BYOS-EC2-HVM:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-BYOS-EC2-HVM:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-BYOS-EC2-HVM:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-EC2-HVM:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-EC2-HVM:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-EC2-HVM:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-EC2-HVM:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAP-EC2-HVM:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAPCAL-Azure:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAPCAL-Azure:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAPCAL-Azure:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAPCAL-Azure:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAPCAL-EC2-HVM:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAPCAL-EC2-HVM:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAPCAL-EC2-HVM:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAPCAL-EC2-HVM:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAPCAL-GCE:libfreebl3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAPCAL-GCE:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAPCAL-GCE:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image SLES15-SP3-SAPCAL-GCE:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "Image ceph-csi-image:libfreebl3-3.68.3-150000.3.67.1",
+            "Image ceph-csi-image:libsoftokn3-3.68.3-150000.3.67.1",
+            "Image ceph-csi-image:mozilla-nss-3.68.3-150000.3.67.1",
+            "Image ceph-csi-image:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 6:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 6:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 6:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 6:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 6:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 6:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 6:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 6:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 6:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 6:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 6:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 6:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 6:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 6:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 6:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 7:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 7:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 7:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 7:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 7:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 7:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 7:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 7:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 7:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 7:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 7:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 7:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 7:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 7:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Enterprise Storage 7:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Micro 5.0:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Micro 5.0:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Micro 5.0:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Micro 5.0:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Micro 5.1:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Micro 5.1:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Micro 5.1:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Micro 5.1:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Micro 5.1:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Micro 5.1:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Micro 5.1:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Micro 5.2:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Micro 5.2:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Micro 5.2:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Micro 5.2:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Micro 5.2:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Micro 5.2:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Micro 5.2:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP3:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP3:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15-LTSS:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15-LTSS:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15-LTSS:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15-LTSS:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15-LTSS:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15-LTSS:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server 15-LTSS:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Manager Proxy 4.1:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Manager Proxy 4.1:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Manager Proxy 4.1:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Manager Proxy 4.1:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Manager Proxy 4.1:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Manager Proxy 4.1:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Manager Proxy 4.1:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Manager Proxy 4.1:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Manager Proxy 4.1:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Manager Proxy 4.1:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Manager Proxy 4.1:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Manager Proxy 4.1:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Manager Proxy 4.1:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Manager Proxy 4.1:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Manager Proxy 4.1:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Manager Retail Branch Server 4.1:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Manager Retail Branch Server 4.1:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Manager Retail Branch Server 4.1:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Manager Retail Branch Server 4.1:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Manager Retail Branch Server 4.1:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Manager Retail Branch Server 4.1:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Manager Retail Branch Server 4.1:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Manager Retail Branch Server 4.1:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Manager Retail Branch Server 4.1:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Manager Retail Branch Server 4.1:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Manager Retail Branch Server 4.1:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Manager Retail Branch Server 4.1:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Manager Retail Branch Server 4.1:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Manager Retail Branch Server 4.1:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Manager Retail Branch Server 4.1:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "SUSE Manager Server 4.1:libfreebl3-3.68.3-150000.3.67.1",
+            "SUSE Manager Server 4.1:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Manager Server 4.1:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Manager Server 4.1:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Manager Server 4.1:libsoftokn3-3.68.3-150000.3.67.1",
+            "SUSE Manager Server 4.1:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "SUSE Manager Server 4.1:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "SUSE Manager Server 4.1:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "SUSE Manager Server 4.1:mozilla-nss-3.68.3-150000.3.67.1",
+            "SUSE Manager Server 4.1:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "SUSE Manager Server 4.1:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "SUSE Manager Server 4.1:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "SUSE Manager Server 4.1:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "SUSE Manager Server 4.1:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "SUSE Manager Server 4.1:mozilla-nss-tools-3.68.3-150000.3.67.1",
+            "openSUSE Leap 15.3:libfreebl3-3.68.3-150000.3.67.1",
+            "openSUSE Leap 15.3:libfreebl3-32bit-3.68.3-150000.3.67.1",
+            "openSUSE Leap 15.3:libfreebl3-hmac-3.68.3-150000.3.67.1",
+            "openSUSE Leap 15.3:libfreebl3-hmac-32bit-3.68.3-150000.3.67.1",
+            "openSUSE Leap 15.3:libsoftokn3-3.68.3-150000.3.67.1",
+            "openSUSE Leap 15.3:libsoftokn3-32bit-3.68.3-150000.3.67.1",
+            "openSUSE Leap 15.3:libsoftokn3-hmac-3.68.3-150000.3.67.1",
+            "openSUSE Leap 15.3:libsoftokn3-hmac-32bit-3.68.3-150000.3.67.1",
+            "openSUSE Leap 15.3:mozilla-nss-3.68.3-150000.3.67.1",
+            "openSUSE Leap 15.3:mozilla-nss-32bit-3.68.3-150000.3.67.1",
+            "openSUSE Leap 15.3:mozilla-nss-certs-3.68.3-150000.3.67.1",
+            "openSUSE Leap 15.3:mozilla-nss-certs-32bit-3.68.3-150000.3.67.1",
+            "openSUSE Leap 15.3:mozilla-nss-devel-3.68.3-150000.3.67.1",
+            "openSUSE Leap 15.3:mozilla-nss-sysinit-3.68.3-150000.3.67.1",
+            "openSUSE Leap 15.3:mozilla-nss-sysinit-32bit-3.68.3-150000.3.67.1",
+            "openSUSE Leap 15.3:mozilla-nss-tools-3.68.3-150000.3.67.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

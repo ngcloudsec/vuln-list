@@ -1,0 +1,180 @@
+{
+  "Title": "Security update for python-PyJWT",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:2402-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-07-14T14:58:57Z",
+    "CurrentReleaseDate": "2022-07-14T14:58:57Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-07-14T14:58:57Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for python-PyJWT",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for python-PyJWT fixes the following issues:\n\n- CVE-2022-29217: Fixed key confusion through non-blocklisted public key format (bsc#1199756).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "python3-PyJWT-1.7.1-150200.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-PyJWT-1.7.1-150200.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-PyJWT-1.7.1-150200.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Package Hub 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-PyJWT-1.7.1-150200.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-PyJWT-1.7.1-150200.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-PyJWT-1.7.1-150200.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-PyJWT-1.7.1-150200.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-PyJWT-1.7.1-150200.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-PyJWT-1.7.1-150200.3.3.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-PyJWT-1.7.1-150200.3.3.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-PyJWT-1.7.1-150200.3.3.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-PyJWT-1.7.1-150200.3.3.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-PyJWT-1.7.1-150200.3.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-PyJWT-1.7.1-150200.3.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-PyJWT-1.7.1-150200.3.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20222402-1/",
+      "Description": "Link for SUSE-SU-2022:2402-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-July/011552.html",
+      "Description": "E-Mail link for SUSE-SU-2022:2402-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1199756",
+      "Description": "SUSE Bug 1199756"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-29217/",
+      "Description": "SUSE CVE CVE-2022-29217 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-29217",
+      "Description": "PyJWT is a Python implementation of RFC 7519. PyJWT supports multiple different JWT signing algorithms. With JWT, an attacker submitting the JWT token can choose the used signing algorithm. The PyJWT library requires that the application chooses what algorithms are supported. The application can specify `jwt.algorithms.get_default_algorithms()` to get support for all algorithms, or specify a single algorithm. The issue is not that big as `algorithms=jwt.algorithms.get_default_algorithms()` has to be used. Users should upgrade to v2.4.0 to receive a patch for this issue. As a workaround, always be explicit with the algorithms that are accepted and expected when decoding.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-29217.html",
+          "Description": "CVE-2022-29217"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199756",
+          "Description": "SUSE Bug 1199756"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7:python3-PyJWT-1.7.1-150200.3.3.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:python3-PyJWT-1.7.1-150200.3.3.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:python3-PyJWT-1.7.1-150200.3.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-PyJWT-1.7.1-150200.3.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-PyJWT-1.7.1-150200.3.3.1",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP3:python2-PyJWT-1.7.1-150200.3.3.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:python3-PyJWT-1.7.1-150200.3.3.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:python3-PyJWT-1.7.1-150200.3.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:python3-PyJWT-1.7.1-150200.3.3.1",
+            "SUSE Manager Proxy 4.1:python3-PyJWT-1.7.1-150200.3.3.1",
+            "SUSE Manager Retail Branch Server 4.1:python3-PyJWT-1.7.1-150200.3.3.1",
+            "SUSE Manager Server 4.1:python3-PyJWT-1.7.1-150200.3.3.1",
+            "openSUSE Leap 15.3:python2-PyJWT-1.7.1-150200.3.3.1",
+            "openSUSE Leap 15.3:python3-PyJWT-1.7.1-150200.3.3.1",
+            "openSUSE Leap 15.4:python3-PyJWT-1.7.1-150200.3.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

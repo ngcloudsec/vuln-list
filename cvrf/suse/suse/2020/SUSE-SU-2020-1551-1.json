@@ -1,0 +1,498 @@
+{
+  "Title": "Security update for vim",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:1551-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-06-08T07:31:46Z",
+    "CurrentReleaseDate": "2020-06-08T07:31:46Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-06-08T07:31:46Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for vim",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for vim fixes the following issues:\n\n- CVE-2019-20807: Fixed an issue where escaping from the restrictive mode of vim \n  was possible using interfaces (bsc#1172225). \n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-launcher:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-launcher:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-launcher:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-launcher:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gvim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gvim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-8.0.1568-5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20201551-1/",
+      "Description": "Link for SUSE-SU-2020:1551-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-June/006896.html",
+      "Description": "E-Mail link for SUSE-SU-2020:1551-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1172225",
+      "Description": "SUSE Bug 1172225"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-20807/",
+      "Description": "SUSE CVE CVE-2019-20807 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-20807",
+      "Description": "In Vim before 8.1.0881, users can circumvent the rvim restricted mode and execute arbitrary OS commands via scripting interfaces (e.g., Python, Ruby, or Lua).",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-20807.html",
+          "Description": "CVE-2019-20807"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1172225",
+          "Description": "SUSE Bug 1172225"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/dotnet-aspnet:3.1:vim-8.0.1568-5.6.1",
+            "Container bci/dotnet-aspnet:3.1:vim-data-common-8.0.1568-5.6.1",
+            "Container bci/dotnet-aspnet:5.0:vim-8.0.1568-5.6.1",
+            "Container bci/dotnet-aspnet:5.0:vim-data-common-8.0.1568-5.6.1",
+            "Container bci/dotnet-aspnet:latest:vim-8.0.1568-5.6.1",
+            "Container bci/dotnet-aspnet:latest:vim-data-common-8.0.1568-5.6.1",
+            "Container bci/dotnet-runtime:3.1:vim-8.0.1568-5.6.1",
+            "Container bci/dotnet-runtime:3.1:vim-data-common-8.0.1568-5.6.1",
+            "Container bci/dotnet-runtime:5.0:vim-8.0.1568-5.6.1",
+            "Container bci/dotnet-runtime:5.0:vim-data-common-8.0.1568-5.6.1",
+            "Container bci/dotnet-runtime:latest:vim-8.0.1568-5.6.1",
+            "Container bci/dotnet-runtime:latest:vim-data-common-8.0.1568-5.6.1",
+            "Container bci/dotnet-sdk:3.1:vim-8.0.1568-5.6.1",
+            "Container bci/dotnet-sdk:3.1:vim-data-common-8.0.1568-5.6.1",
+            "Container bci/dotnet-sdk:5.0:vim-8.0.1568-5.6.1",
+            "Container bci/dotnet-sdk:5.0:vim-data-common-8.0.1568-5.6.1",
+            "Container bci/dotnet-sdk:latest:vim-8.0.1568-5.6.1",
+            "Container bci/dotnet-sdk:latest:vim-data-common-8.0.1568-5.6.1",
+            "Container suse/sles/15.2/virt-launcher:0.38.1:vim-8.0.1568-5.6.1",
+            "Container suse/sles/15.2/virt-launcher:0.38.1:vim-data-common-8.0.1568-5.6.1",
+            "Container suse/sles/15.3/virt-launcher:0.45.0:vim-8.0.1568-5.6.1",
+            "Container suse/sles/15.3/virt-launcher:0.45.0:vim-data-common-8.0.1568-5.6.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:vim-8.0.1568-5.6.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:vim-data-common-8.0.1568-5.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:vim-8.0.1568-5.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:vim-data-common-8.0.1568-5.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:vim-8.0.1568-5.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:vim-data-common-8.0.1568-5.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:vim-8.0.1568-5.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:vim-data-common-8.0.1568-5.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:vim-8.0.1568-5.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:vim-data-common-8.0.1568-5.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:vim-8.0.1568-5.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:vim-data-common-8.0.1568-5.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:vim-8.0.1568-5.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:vim-data-common-8.0.1568-5.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:vim-8.0.1568-5.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:vim-data-common-8.0.1568-5.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:vim-8.0.1568-5.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:vim-data-common-8.0.1568-5.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:vim-8.0.1568-5.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:vim-data-common-8.0.1568-5.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:vim-8.0.1568-5.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:vim-data-common-8.0.1568-5.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:vim-8.0.1568-5.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:vim-data-common-8.0.1568-5.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:vim-8.0.1568-5.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:vim-data-common-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:vim-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:vim-data-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:vim-data-common-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:vim-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:vim-data-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:vim-data-common-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:vim-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:vim-data-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:vim-data-common-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:vim-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:vim-data-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:vim-data-common-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:gvim-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP2:gvim-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise Server 15-LTSS:vim-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise Server 15-LTSS:vim-data-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise Server 15-LTSS:vim-data-common-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:vim-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:vim-data-8.0.1568-5.6.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:vim-data-common-8.0.1568-5.6.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

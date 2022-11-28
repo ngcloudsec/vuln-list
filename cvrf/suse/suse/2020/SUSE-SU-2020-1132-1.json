@@ -1,0 +1,1660 @@
+{
+  "Title": "Security update for samba",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:1132-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-04-28T14:38:27Z",
+    "CurrentReleaseDate": "2020-04-28T14:38:27Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-04-28T14:38:27Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for samba",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for samba fixes the following issues:\n\n- CVE-2020-10704: Fixed a stack overflow in the AD DC (C)LDAP server (bsc#1169851).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "ctdb-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Availability 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-binding0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-binding0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-samr-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-samr0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-krb5pac-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-krb5pac0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-krb5pac0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-nbt-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-nbt0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-nbt0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-standard-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-standard0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-standard0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnetapi-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnetapi0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnetapi0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-credentials-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-credentials0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-credentials0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-errors-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-errors0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-errors0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-hostconfig-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-hostconfig0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-hostconfig0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-passdb-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-passdb0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-passdb0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-policy-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-policy0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-util-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-util0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-util0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamdb-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamdb0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamdb0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbconf-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbconf0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbconf0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbldap-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbldap2-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbldap2-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent-util-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent-util0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent-util0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-core-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-binding0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-binding0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-samr-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-samr0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-krb5pac-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-krb5pac0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-krb5pac0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-nbt-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-nbt0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-nbt0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-standard-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-standard0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-standard0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnetapi-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnetapi0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnetapi0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-credentials-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-credentials0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-credentials0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-errors-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-errors0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-errors0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-hostconfig-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-hostconfig0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-hostconfig0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-passdb-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-passdb0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-passdb0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-policy-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-policy0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-util-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-util0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-util0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamdb-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamdb0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamdb0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbconf-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbconf0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbconf0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbldap-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbldap2-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbldap2-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent-util-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent-util0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent-util0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-core-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-binding0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-binding0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-samr-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-samr0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-krb5pac-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-krb5pac0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-krb5pac0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-nbt-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-nbt0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-nbt0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-standard-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-standard0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-standard0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnetapi-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnetapi0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnetapi0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-credentials-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-credentials0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-credentials0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-errors-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-errors0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-errors0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-hostconfig-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-hostconfig0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-hostconfig0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-passdb-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-passdb0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-passdb0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-policy-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-policy0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-util-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-util0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-util0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamdb-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamdb0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamdb0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbconf-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbconf0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbconf0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbldap-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbldap2-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbldap2-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent-util-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent-util0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent-util0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-core-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-binding0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-binding0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-samr-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc-samr0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdcerpc0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-krb5pac-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-krb5pac0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-krb5pac0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-nbt-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-nbt0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-nbt0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-standard-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-standard0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr-standard0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libndr0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnetapi-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnetapi0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnetapi0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-credentials-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-credentials0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-credentials0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-errors-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-errors0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-errors0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-hostconfig-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-hostconfig0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-hostconfig0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-passdb-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-passdb0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-passdb0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-policy-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-policy0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-util-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-util0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-util0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamdb-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamdb0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamdb0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbconf-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbconf0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbconf0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbldap-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbldap2-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbldap2-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent-util-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent-util0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent-util0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-core-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20201132-1/",
+      "Description": "Link for SUSE-SU-2020:1132-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-April/006750.html",
+      "Description": "E-Mail link for SUSE-SU-2020:1132-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1169851",
+      "Description": "SUSE Bug 1169851"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-10704/",
+      "Description": "SUSE CVE CVE-2020-10704 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-10704",
+      "Description": "A flaw was found when using samba as an Active Directory Domain Controller. Due to the way samba handles certain requests as an Active Directory Domain Controller LDAP server, an unauthorized user can cause a stack overflow leading to a denial of service. The highest threat from this vulnerability is to system availability. This issue affects all samba versions before 4.10.15, before 4.11.8 and before 4.12.2.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-10704.html",
+          "Description": "CVE-2020-10704"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1169851",
+          "Description": "SUSE Bug 1169851"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1170771",
+          "Description": "SUSE Bug 1170771"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise High Availability 15:ctdb-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libdcerpc-binding0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libdcerpc-binding0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libdcerpc-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libdcerpc-samr-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libdcerpc-samr0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libdcerpc0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libdcerpc0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libndr-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libndr-krb5pac-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libndr-krb5pac0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libndr-krb5pac0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libndr-nbt-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libndr-nbt0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libndr-nbt0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libndr-standard-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libndr-standard0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libndr-standard0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libndr0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libndr0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libnetapi-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libnetapi0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libnetapi0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamba-credentials-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamba-credentials0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamba-credentials0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamba-errors-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamba-errors0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamba-errors0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamba-hostconfig-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamba-hostconfig0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamba-hostconfig0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamba-passdb-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamba-passdb0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamba-passdb0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamba-policy-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamba-policy0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamba-util-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamba-util0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamba-util0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamdb-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamdb0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsamdb0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsmbclient-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsmbclient0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsmbclient0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsmbconf-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsmbconf0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsmbconf0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsmbldap-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsmbldap2-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libsmbldap2-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libtevent-util-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libtevent-util0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libtevent-util0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libwbclient-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libwbclient0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libwbclient0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:samba-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:samba-client-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:samba-client-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:samba-core-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:samba-libs-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:samba-libs-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:samba-winbind-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:samba-winbind-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libdcerpc-binding0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libdcerpc-binding0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libdcerpc-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libdcerpc-samr-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libdcerpc-samr0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libdcerpc0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libdcerpc0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libndr-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libndr-krb5pac-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libndr-krb5pac0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libndr-krb5pac0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libndr-nbt-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libndr-nbt0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libndr-nbt0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libndr-standard-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libndr-standard0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libndr-standard0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libndr0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libndr0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libnetapi-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libnetapi0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libnetapi0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamba-credentials-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamba-credentials0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamba-credentials0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamba-errors-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamba-errors0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamba-errors0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamba-hostconfig-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamba-hostconfig0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamba-hostconfig0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamba-passdb-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamba-passdb0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamba-passdb0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamba-policy-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamba-policy0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamba-util-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamba-util0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamba-util0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamdb-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamdb0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsamdb0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsmbclient-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsmbclient0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsmbclient0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsmbconf-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsmbconf0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsmbconf0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsmbldap-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsmbldap2-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libsmbldap2-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libtevent-util-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libtevent-util0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libtevent-util0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libwbclient-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libwbclient0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libwbclient0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:samba-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:samba-client-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:samba-client-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:samba-core-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:samba-libs-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:samba-libs-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:samba-winbind-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:samba-winbind-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libdcerpc-binding0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libdcerpc-binding0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libdcerpc-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libdcerpc-samr-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libdcerpc-samr0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libdcerpc0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libdcerpc0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libndr-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libndr-krb5pac-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libndr-krb5pac0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libndr-krb5pac0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libndr-nbt-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libndr-nbt0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libndr-nbt0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libndr-standard-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libndr-standard0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libndr-standard0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libndr0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libndr0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libnetapi-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libnetapi0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libnetapi0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamba-credentials-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamba-credentials0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamba-credentials0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamba-errors-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamba-errors0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamba-errors0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamba-hostconfig-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamba-hostconfig0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamba-hostconfig0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamba-passdb-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamba-passdb0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamba-passdb0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamba-policy-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamba-policy0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamba-util-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamba-util0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamba-util0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamdb-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamdb0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsamdb0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsmbclient-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsmbclient0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsmbclient0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsmbconf-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsmbconf0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsmbconf0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsmbldap-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsmbldap2-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libsmbldap2-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libtevent-util-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libtevent-util0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libtevent-util0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libwbclient-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libwbclient0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libwbclient0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:samba-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:samba-client-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:samba-client-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:samba-core-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:samba-libs-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:samba-libs-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:samba-winbind-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server 15-LTSS:samba-winbind-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libdcerpc-binding0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libdcerpc-binding0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libdcerpc-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libdcerpc-samr-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libdcerpc-samr0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libdcerpc0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libdcerpc0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libndr-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libndr-krb5pac-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libndr-krb5pac0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libndr-krb5pac0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libndr-nbt-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libndr-nbt0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libndr-nbt0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libndr-standard-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libndr-standard0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libndr-standard0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libndr0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libndr0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libnetapi-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libnetapi0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libnetapi0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamba-credentials-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamba-credentials0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamba-credentials0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamba-errors-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamba-errors0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamba-errors0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamba-hostconfig-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamba-hostconfig0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamba-hostconfig0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamba-passdb-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamba-passdb0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamba-passdb0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamba-policy-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamba-policy0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamba-util-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamba-util0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamba-util0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamdb-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamdb0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsamdb0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsmbclient-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsmbclient0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsmbclient0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsmbconf-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsmbconf0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsmbconf0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsmbldap-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsmbldap2-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libsmbldap2-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libtevent-util-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libtevent-util0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libtevent-util0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libwbclient-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libwbclient0-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libwbclient0-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:samba-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:samba-client-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:samba-client-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:samba-core-devel-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:samba-libs-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:samba-libs-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:samba-winbind-32bit-4.7.11+git.231.7f324c4d89e-4.40.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:samba-winbind-4.7.11+git.231.7f324c4d89e-4.40.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

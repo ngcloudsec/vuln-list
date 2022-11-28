@@ -1,0 +1,106 @@
+{
+  "Title": "Security update for compat-openssl097g",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:0543-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2012-08-30T22:56:05Z",
+    "CurrentReleaseDate": "2012-08-30T22:56:05Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2012-08-30T22:56:05Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for compat-openssl097g",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nThis compat-openssl097g rollup update contains various security fixes:\n\n    * CVE-2012-2131,CVE-2012-2110: incorrect integer conversions in OpenSSL\n      can result in memory corruption during buffer management operations.\n\nSecurity Issue reference:\n\n    * CVE-2012-2110\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2110\u003e\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "compat-openssl097g-0.9.7g-146.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "compat-openssl097g-32bit-0.9.7g-146.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20150543-1/",
+      "Description": "Link for SUSE-SU-2015:0543-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2015-March/001298.html",
+      "Description": "E-Mail link for SUSE-SU-2015:0543-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/758060",
+      "Description": "SUSE Bug 758060"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-2110/",
+      "Description": "SUSE CVE CVE-2012-2110 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2012-2110",
+      "Description": "The asn1_d2i_read_bio function in crypto/asn1/a_d2i_fp.c in OpenSSL before 0.9.8v, 1.0.0 before 1.0.0i, and 1.0.1 before 1.0.1a does not properly interpret integer data, which allows remote attackers to conduct buffer overflow attacks, and cause a denial of service (memory corruption) or possibly have unspecified other impact, via crafted DER data, as demonstrated by an X.509 certificate or an RSA public key.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-2110.html",
+          "Description": "CVE-2012-2110"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/758060",
+          "Description": "SUSE Bug 758060"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/778825",
+          "Description": "SUSE Bug 778825"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1:compat-openssl097g-0.9.7g-146.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1:compat-openssl097g-32bit-0.9.7g-146.22.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

@@ -1,0 +1,1441 @@
+{
+  "Title": "Security update for IBM Java 1.6.0",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:0392-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2012-04-27T08:53:34Z",
+    "CurrentReleaseDate": "2012-04-27T08:53:34Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2012-04-27T08:53:34Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for IBM Java 1.6.0",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nIBM Java 1.6.0 was updated to SR10-FP1, fixing various security issues.\n\nMore information can be found on:\n\nhttp://www.ibm.com/developerworks/java/jdk/alerts/\n\u003chttp://www.ibm.com/developerworks/java/jdk/alerts/\u003e\n\nSecurity Issue references:\n\n    * CVE-2012-0502\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0502\u003e\n    * CVE-2012-0503\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0503\u003e\n    * CVE-2012-0506\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0506\u003e\n    * CVE-2012-0507\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0507\u003e\n    * CVE-2011-3563\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3563\u003e\n    * CVE-2012-0500\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0500\u003e\n    * CVE-2012-0497\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0497\u003e\n    * CVE-2012-0498\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0498\u003e\n    * CVE-2012-0499\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0499\u003e\n    * CVE-2012-0500\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0500\u003e\n    * CVE-2012-0501\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0501\u003e\n    * CVE-2012-0505\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0505\u003e\n    * CVE-2011-5035\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-5035\u003e\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20150392-1/",
+      "Description": "Link for SUSE-SU-2015:0392-1"
+    },
+    {
+      "URL": "https://lists.opensuse.org/opensuse-security-announce/2015-02/msg00036.html",
+      "Description": "E-Mail link for SUSE-SU-2015:0392-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/752306",
+      "Description": "SUSE Bug 752306"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/758470",
+      "Description": "SUSE Bug 758470"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2011-3563/",
+      "Description": "SUSE CVE CVE-2011-3563 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2011-5035/",
+      "Description": "SUSE CVE CVE-2011-5035 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-0497/",
+      "Description": "SUSE CVE CVE-2012-0497 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-0498/",
+      "Description": "SUSE CVE CVE-2012-0498 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-0499/",
+      "Description": "SUSE CVE CVE-2012-0499 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-0500/",
+      "Description": "SUSE CVE CVE-2012-0500 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-0501/",
+      "Description": "SUSE CVE CVE-2012-0501 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-0502/",
+      "Description": "SUSE CVE CVE-2012-0502 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-0503/",
+      "Description": "SUSE CVE CVE-2012-0503 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-0505/",
+      "Description": "SUSE CVE CVE-2012-0505 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-0506/",
+      "Description": "SUSE CVE CVE-2012-0506 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-0507/",
+      "Description": "SUSE CVE CVE-2012-0507 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2011-3563",
+      "Description": "Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 2 and earlier, 6 Update 30 and earlier, 5.0 Update 33 and earlier, and 1.4.2_35 and earlier allows remote attackers to affect confidentiality and availability via unknown vectors related to Sound.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2011-3563.html",
+          "Description": "CVE-2011-3563"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/747208",
+          "Description": "SUSE Bug 747208"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/758470",
+          "Description": "SUSE Bug 758470"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/763805",
+          "Description": "SUSE Bug 763805"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2011-5035",
+      "Description": "Oracle Glassfish 2.1.1, 3.0.1, and 3.1.1, as used in Communications Server 2.0, Sun Java System Application Server 8.1 and 8.2, and possibly other products, computes hash values for form parameters without restricting the ability to trigger hash collisions predictably, which allows remote attackers to cause a denial of service (CPU consumption) by sending many crafted parameters, aka Oracle security ticket S0104869.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2011-5035.html",
+          "Description": "CVE-2011-5035"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/747208",
+          "Description": "SUSE Bug 747208"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/757762",
+          "Description": "SUSE Bug 757762"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/758470",
+          "Description": "SUSE Bug 758470"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2012-0497",
+      "Description": "Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 2 and earlier, and 6 Update 30 and earlier, allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to 2D.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-0497.html",
+          "Description": "CVE-2012-0497"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/747208",
+          "Description": "SUSE Bug 747208"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/758470",
+          "Description": "SUSE Bug 758470"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2012-0498",
+      "Description": "Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 2 and earlier, 6 Update 30 and earlier, and 5.0 Update 33 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to 2D.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-0498.html",
+          "Description": "CVE-2012-0498"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/758470",
+          "Description": "SUSE Bug 758470"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2012-0499",
+      "Description": "Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 2 and earlier, 6 Update 30 and earlier, 5.0 Update 33 and earlier, and 1.4.2_35 and earlier; and JavaFX 2.0.2 and earlier; allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to 2D.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-0499.html",
+          "Description": "CVE-2012-0499"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/758470",
+          "Description": "SUSE Bug 758470"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/763805",
+          "Description": "SUSE Bug 763805"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2012-0500",
+      "Description": "Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 2 and earlier, 6 Update 30 and earlier, and JavaFX 2.0.2 and earlier allows remote untrusted Java Web Start applications and untrusted Java applets to affect confidentiality, integrity, and availability via unknown vectors related to Deployment.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-0500.html",
+          "Description": "CVE-2012-0500"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/758470",
+          "Description": "SUSE Bug 758470"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2012-0501",
+      "Description": "Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 2 and earlier, 6 Update 30 and earlier, and 5.0 Update 33 and earlier allows remote attackers to affect availability via unknown vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-0501.html",
+          "Description": "CVE-2012-0501"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/747208",
+          "Description": "SUSE Bug 747208"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/758470",
+          "Description": "SUSE Bug 758470"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2012-0502",
+      "Description": "Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 2 and earlier, 6 Update 30 and earlier, 5.0 Update 33 and earlier, and 1.4.2_35 and earlier allows remote untrusted Java Web Start applications and untrusted Java applets to affect confidentiality and availability, related to AWT.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-0502.html",
+          "Description": "CVE-2012-0502"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/747208",
+          "Description": "SUSE Bug 747208"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/758470",
+          "Description": "SUSE Bug 758470"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/763805",
+          "Description": "SUSE Bug 763805"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2012-0503",
+      "Description": "Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 2 and earlier, 6 Update 30 and earlier, 5.0 Update 33 and earlier, and 1.4.2_35 and earlier allows remote untrusted Java Web Start applications and untrusted Java applets to affect confidentiality, integrity, and availability, related to I18n.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-0503.html",
+          "Description": "CVE-2012-0503"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/747208",
+          "Description": "SUSE Bug 747208"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/758470",
+          "Description": "SUSE Bug 758470"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/763805",
+          "Description": "SUSE Bug 763805"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2012-0505",
+      "Description": "Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 2 and earlier, 6 Update 30 and earlier, 5 Update 33 and earlier, and 1.4.2_35 and earlier allows remote untrusted Java Web Start applications and untrusted Java applets to affect confidentiality, integrity, and availability via unknown vectors related to Serialization.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-0505.html",
+          "Description": "CVE-2012-0505"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/747208",
+          "Description": "SUSE Bug 747208"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/758470",
+          "Description": "SUSE Bug 758470"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/763805",
+          "Description": "SUSE Bug 763805"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2012-0506",
+      "Description": "Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 2 and earlier, 6 Update 30 and earlier, 5.0 Update 33 and earlier, and 1.4.2_35 and earlier allows remote untrusted Java Web Start applications and untrusted Java applets to affect integrity via unknown vectors related to CORBA.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-0506.html",
+          "Description": "CVE-2012-0506"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/747208",
+          "Description": "SUSE Bug 747208"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/758470",
+          "Description": "SUSE Bug 758470"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/763805",
+          "Description": "SUSE Bug 763805"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2012-0507",
+      "Description": "Unspecified vulnerability in the Java Runtime Environment (JRE) component in Oracle Java SE 7 Update 2 and earlier, 6 Update 30 and earlier, and 5.0 Update 33 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Concurrency.  NOTE: the previous information was obtained from the February 2012 Oracle CPU. Oracle has not commented on claims from a downstream vendor and third party researchers that this issue occurs because the AtomicReferenceArray class implementation does not ensure that the array is of the Object[] type, which allows attackers to cause a denial of service (JVM crash) or bypass Java sandbox restrictions.  NOTE: this issue was originally mapped to CVE-2011-3571, but that identifier was already assigned to a different issue.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-0507.html",
+          "Description": "CVE-2012-0507"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/758470",
+          "Description": "SUSE Bug 758470"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr10.1-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-alsa-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-devel-1.6.0_sr16.0-0.3.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-fonts-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-jdbc-1.6.0_sr15.0-0.5.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:java-1_6_0-ibm-plugin-1.6.0_sr15.0-0.5.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

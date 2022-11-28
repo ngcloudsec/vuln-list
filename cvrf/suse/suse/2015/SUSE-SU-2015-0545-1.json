@@ -1,0 +1,638 @@
+{
+  "Title": "Security update for libopenssl",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:0545-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2012-07-10T12:09:45Z",
+    "CurrentReleaseDate": "2012-07-10T12:09:45Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2012-07-10T12:09:45Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for libopenssl",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nThis update adds libopenssl0_9_8-hmac packages, that, when installed, will \nenforce FIPS 140-2 self-test being run upon first use of the library.\n\nIf FIPS mode is enforced, these new packages are required in order to \nenable FIPS mode successfully.\n\nThe update also imposes limits on the parameters of a Diffie-Hellman key \nexchange to prevent man-in-the-middle (MITM) attacks in FIPS mode \n(CVE-2011-5095).\n\nSecurity reference:\n\n    * CVE-2011-5095\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-5095\u003e\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libopenssl-devel-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-32bit-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-x86-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-x86-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-doc-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-devel-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-32bit-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-x86-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-x86-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-doc-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-devel-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-32bit-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-x86-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-x86-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-doc-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-devel-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-32bit-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-x86-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-x86-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-doc-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-devel-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-32bit-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-x86-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-x86-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-doc-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-devel-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-32bit-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-x86-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-x86-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-doc-0.9.8j-0.44.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-devel-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-32bit-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-x86-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-x86-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-doc-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-devel-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-32bit-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-x86-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-x86-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-doc-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-devel-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-32bit-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-x86-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-x86-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-doc-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-devel-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-32bit-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-x86-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-x86-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-doc-0.9.8j-0.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20150545-1/",
+      "Description": "Link for SUSE-SU-2015:0545-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2015-March/001299.html",
+      "Description": "E-Mail link for SUSE-SU-2015:0545-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/767256",
+      "Description": "SUSE Bug 767256"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/768097",
+      "Description": "SUSE Bug 768097"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2011-5095/",
+      "Description": "SUSE CVE CVE-2011-5095 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2011-5095",
+      "Description": "The Diffie-Hellman key-exchange implementation in OpenSSL 0.9.8, when FIPS mode is enabled, does not properly validate a public parameter, which makes it easier for man-in-the-middle attackers to obtain the shared secret key by modifying network traffic, a related issue to CVE-2011-1923.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2011-5095.html",
+          "Description": "CVE-2011-5095"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/768097",
+          "Description": "SUSE Bug 768097"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/773908",
+          "Description": "SUSE Bug 773908"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libopenssl-devel-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libopenssl0_9_8-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libopenssl0_9_8-32bit-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libopenssl0_9_8-hmac-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libopenssl0_9_8-hmac-32bit-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libopenssl0_9_8-hmac-x86-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libopenssl0_9_8-x86-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:openssl-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:openssl-doc-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libopenssl-devel-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libopenssl0_9_8-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libopenssl0_9_8-32bit-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libopenssl0_9_8-hmac-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libopenssl0_9_8-hmac-32bit-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libopenssl0_9_8-hmac-x86-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libopenssl0_9_8-x86-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:openssl-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:openssl-doc-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1:libopenssl-devel-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP1:libopenssl0_9_8-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1:libopenssl0_9_8-32bit-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1:libopenssl0_9_8-hmac-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1:libopenssl0_9_8-hmac-32bit-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1:libopenssl0_9_8-hmac-x86-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1:libopenssl0_9_8-x86-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1:openssl-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP1:openssl-doc-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libopenssl-devel-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libopenssl0_9_8-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libopenssl0_9_8-32bit-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libopenssl0_9_8-hmac-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libopenssl0_9_8-hmac-32bit-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libopenssl0_9_8-hmac-x86-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libopenssl0_9_8-x86-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:openssl-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:openssl-doc-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl-devel-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl-devel-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl-devel-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl-devel-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-32bit-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-32bit-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-32bit-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-32bit-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-hmac-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-hmac-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-hmac-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-hmac-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-hmac-32bit-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-hmac-32bit-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-hmac-32bit-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-hmac-32bit-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-hmac-x86-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-hmac-x86-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-hmac-x86-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-hmac-x86-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-x86-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-x86-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-x86-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libopenssl0_9_8-x86-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:openssl-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP2:openssl-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP2:openssl-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:openssl-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:openssl-doc-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP2:openssl-doc-0.9.8j-0.44.1",
+            "SUSE Linux Enterprise Server 11 SP2:openssl-doc-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:openssl-doc-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libopenssl-devel-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libopenssl0_9_8-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libopenssl0_9_8-32bit-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libopenssl0_9_8-hmac-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libopenssl0_9_8-hmac-32bit-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libopenssl0_9_8-hmac-x86-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libopenssl0_9_8-x86-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:openssl-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:openssl-doc-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libopenssl-devel-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libopenssl0_9_8-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libopenssl0_9_8-32bit-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libopenssl0_9_8-hmac-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libopenssl0_9_8-hmac-32bit-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libopenssl0_9_8-hmac-x86-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libopenssl0_9_8-x86-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:openssl-0.9.8j-0.50.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:openssl-doc-0.9.8j-0.50.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "Title": "Security update for systemd",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:1828-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-07-02T11:07:32Z",
+    "CurrentReleaseDate": "2020-07-02T11:07:32Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-07-02T11:07:32Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for systemd",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for systemd fixes the following issues:\n\n- CVE-2019-20386: Fixed a memory leak when executing the udevadm trigger command (bsc#1161436).\n- Renamed the persistent link for ATA devices (bsc#1164538)\n- shared/install: try harder to find enablement symlinks when disabling a unit (bsc#1157315)\n- tmpfiles: removed unnecessary assert (bsc#1171145)\n- pid1: by default make user units inherit their umask from the user manager (bsc#1162698)\n- manager: fixed job mode when signalled to shutdown etc (bsc#1161262)\n- coredump: fixed bug that loses core dump files when core dumps are compressed and disk space is low. (bsc#1167622)\n- udev: inform systemd how many workers we can potentially spawn (#4036) (bsc#1165633)\n- libblkid: open device in nonblock mode. (bsc#1084671)\n- udev/cdrom_id: Do not open CD-rom in exclusive mode. (bsc#1154256)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libsystemd0-228-157.12.5",
+        "RelatesToProductReference": "Container suse/sles12sp5:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-228-157.12.5",
+        "RelatesToProductReference": "Container suse/sles12sp5:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev-devel-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-devel-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-32bit-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev-devel-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-32bit-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-32bit-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-bash-completion-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-devel-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-sysvinit-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "udev-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-32bit-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev-devel-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-32bit-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-32bit-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-bash-completion-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-devel-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-sysvinit-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "udev-228-157.12.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20201828-1/",
+      "Description": "Link for SUSE-SU-2020:1828-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-July/007068.html",
+      "Description": "E-Mail link for SUSE-SU-2020:1828-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1084671",
+      "Description": "SUSE Bug 1084671"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1154256",
+      "Description": "SUSE Bug 1154256"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1157315",
+      "Description": "SUSE Bug 1157315"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1161262",
+      "Description": "SUSE Bug 1161262"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1161436",
+      "Description": "SUSE Bug 1161436"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1162698",
+      "Description": "SUSE Bug 1162698"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1164538",
+      "Description": "SUSE Bug 1164538"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1165633",
+      "Description": "SUSE Bug 1165633"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1167622",
+      "Description": "SUSE Bug 1167622"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1171145",
+      "Description": "SUSE Bug 1171145"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-20386/",
+      "Description": "SUSE CVE CVE-2019-20386 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-20386",
+      "Description": "An issue was discovered in button_open in login/logind-button.c in systemd before 243. When executing the udevadm trigger command, a memory leak may occur.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "low"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-20386.html",
+          "Description": "CVE-2019-20386"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1161436",
+          "Description": "SUSE Bug 1161436"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/sles12sp5:latest:libsystemd0-228-157.12.5",
+            "Container suse/sles12sp5:latest:libudev1-228-157.12.5",
+            "SUSE Linux Enterprise Server 12 SP5:libsystemd0-228-157.12.5",
+            "SUSE Linux Enterprise Server 12 SP5:libsystemd0-32bit-228-157.12.5",
+            "SUSE Linux Enterprise Server 12 SP5:libudev-devel-228-157.12.5",
+            "SUSE Linux Enterprise Server 12 SP5:libudev1-228-157.12.5",
+            "SUSE Linux Enterprise Server 12 SP5:libudev1-32bit-228-157.12.5",
+            "SUSE Linux Enterprise Server 12 SP5:systemd-228-157.12.5",
+            "SUSE Linux Enterprise Server 12 SP5:systemd-32bit-228-157.12.5",
+            "SUSE Linux Enterprise Server 12 SP5:systemd-bash-completion-228-157.12.5",
+            "SUSE Linux Enterprise Server 12 SP5:systemd-devel-228-157.12.5",
+            "SUSE Linux Enterprise Server 12 SP5:systemd-sysvinit-228-157.12.5",
+            "SUSE Linux Enterprise Server 12 SP5:udev-228-157.12.5",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libsystemd0-228-157.12.5",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libsystemd0-32bit-228-157.12.5",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libudev-devel-228-157.12.5",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libudev1-228-157.12.5",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libudev1-32bit-228-157.12.5",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:systemd-228-157.12.5",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:systemd-32bit-228-157.12.5",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:systemd-bash-completion-228-157.12.5",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:systemd-devel-228-157.12.5",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:systemd-sysvinit-228-157.12.5",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:udev-228-157.12.5",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:libudev-devel-228-157.12.5",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:systemd-devel-228-157.12.5"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

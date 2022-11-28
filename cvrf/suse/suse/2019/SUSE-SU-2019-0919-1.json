@@ -1,0 +1,96 @@
+{
+  "Title": "Security update for blktrace",
+  "Tracking": {
+    "ID": "SUSE-SU-2019:0919-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2019-04-09T13:47:46Z",
+    "CurrentReleaseDate": "2019-04-09T13:47:46Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2019-04-09T13:47:46Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for blktrace",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for blktrace fixes the following issues:\n\n- CVE-2018-10689: Prevent buffer overflow in the dev_map_read function because\n  the device and devno arrays were too small (bsc#1091942)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "blktrace-1.1.0+git.20170126-3.3.28",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20190919-1/",
+      "Description": "Link for SUSE-SU-2019:0919-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2019-April/005319.html",
+      "Description": "E-Mail link for SUSE-SU-2019:0919-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1091942",
+      "Description": "SUSE Bug 1091942"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2018-10689/",
+      "Description": "SUSE CVE CVE-2018-10689 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2018-10689",
+      "Description": "blktrace (aka Block IO Tracing) 1.2.0, as used with the Linux kernel and Android, has a buffer overflow in the dev_map_read function in btt/devmap.c because the device and devno arrays are too small, as demonstrated by an invalid free when using the btt program with a crafted file.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "low"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2018-10689.html",
+          "Description": "CVE-2018-10689"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1091942",
+          "Description": "SUSE Bug 1091942"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Development Tools 15:blktrace-1.1.0+git.20170126-3.3.28"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

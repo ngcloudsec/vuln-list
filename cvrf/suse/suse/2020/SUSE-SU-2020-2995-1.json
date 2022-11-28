@@ -1,0 +1,330 @@
+{
+  "Title": "Security update for freetype2",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:2995-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-10-22T08:03:16Z",
+    "CurrentReleaseDate": "2020-10-22T08:03:16Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-10-22T08:03:16Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for freetype2",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for freetype2 fixes the following issues:\n\n- CVE-2020-15999: fixed a heap buffer overflow found in the handling of embedded PNG bitmaps (bsc#1177914).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "Container ingress-nginx-controller:0.15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-launcher:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/libguestfs-tools:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-launcher:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.1-4.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.1-4.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.1-4.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.1-4.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftdump-2.10.1-4.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.1-4.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.1-4.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.1-4.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.1-4.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.1-4.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.1-4.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.1-4.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.1-4.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.1-4.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20202995-1/",
+      "Description": "Link for SUSE-SU-2020:2995-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-October/007607.html",
+      "Description": "E-Mail link for SUSE-SU-2020:2995-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1177914",
+      "Description": "SUSE Bug 1177914"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-15999/",
+      "Description": "SUSE CVE CVE-2020-15999 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-15999",
+      "Description": "Heap buffer overflow in Freetype in Google Chrome prior to 86.0.4240.111 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-15999.html",
+          "Description": "CVE-2020-15999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1177914",
+          "Description": "SUSE Bug 1177914"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1177936",
+          "Description": "SUSE Bug 1177936"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1178824",
+          "Description": "SUSE Bug 1178824"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1178894",
+          "Description": "SUSE Bug 1178894"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/openjdk-devel:latest:libfreetype6-2.10.1-4.8.1",
+            "Container bci/openjdk:latest:libfreetype6-2.10.1-4.8.1",
+            "Container ingress-nginx-controller:0.15.0:libfreetype6-2.10.1-4.8.1",
+            "Container suse/sles/15.2/virt-launcher:0.38.1:libfreetype6-2.10.1-4.8.1",
+            "Container suse/sles/15.3/libguestfs-tools:0.45.0:libfreetype6-2.10.1-4.8.1",
+            "Container suse/sles/15.3/virt-launcher:0.45.0:libfreetype6-2.10.1-4.8.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:libfreetype6-2.10.1-4.8.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libfreetype6-2.10.1-4.8.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libfreetype6-2.10.1-4.8.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libfreetype6-2.10.1-4.8.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libfreetype6-2.10.1-4.8.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libfreetype6-2.10.1-4.8.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libfreetype6-2.10.1-4.8.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libfreetype6-2.10.1-4.8.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:libfreetype6-2.10.1-4.8.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libfreetype6-2.10.1-4.8.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libfreetype6-2.10.1-4.8.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libfreetype6-2.10.1-4.8.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libfreetype6-2.10.1-4.8.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:freetype2-devel-2.10.1-4.8.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libfreetype6-2.10.1-4.8.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libfreetype6-32bit-2.10.1-4.8.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:freetype2-devel-2.10.1-4.8.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libfreetype6-2.10.1-4.8.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libfreetype6-32bit-2.10.1-4.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:freetype2-devel-2.10.1-4.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libfreetype6-2.10.1-4.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libfreetype6-32bit-2.10.1-4.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:freetype2-devel-2.10.1-4.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libfreetype6-2.10.1-4.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libfreetype6-32bit-2.10.1-4.8.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP2:ftdump-2.10.1-4.8.1",
+            "SUSE Linux Enterprise Server 15-LTSS:freetype2-devel-2.10.1-4.8.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libfreetype6-2.10.1-4.8.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libfreetype6-32bit-2.10.1-4.8.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:freetype2-devel-2.10.1-4.8.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libfreetype6-2.10.1-4.8.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libfreetype6-32bit-2.10.1-4.8.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

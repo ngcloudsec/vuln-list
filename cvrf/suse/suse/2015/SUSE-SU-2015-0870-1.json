@@ -1,0 +1,213 @@
+{
+  "Title": "Security update for kvm",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:0870-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2014-09-19T14:41:45Z",
+    "CurrentReleaseDate": "2014-09-19T14:41:45Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2014-09-19T14:41:45Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for kvm",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nkvm has been updated to fix issues in the embedded qemu:\n\n    * \n\n      CVE-2014-0223: An integer overflow flaw was found in the QEMU block\n      driver for QCOW version 1 disk images. A user able to alter the QEMU\n      disk image files loaded by a guest could have used this flaw to\n      corrupt QEMU process memory on the host, which could potentially have\n      resulted in arbitrary code execution on the host with the privileges\n      of the QEMU process.\n\n    * \n\n      CVE-2014-3461: A user able to alter the savevm data (either on the\n      disk or over the wire during migration) could have used this flaw to\n      to corrupt QEMU process memory on the (destination) host, which could\n      have potentially resulted in arbitrary code execution on the host\n      with the privileges of the QEMU process.\n\n    * \n\n      CVE-2014-0222: An integer overflow flaw was found in the QEMU block\n      driver for QCOW version 1 disk images. A user able to alter the QEMU\n      disk image files loaded by a guest could have used this flaw to\n      corrupt QEMU process memory on the host, which could have potentially\n      resulted in arbitrary code execution on the host with the privileges\n      of the QEMU process.\n\nNon-security bugs fixed:\n\n    * Fix exceeding IRQ routes that could have caused freezes of guests.\n      (bnc#876842)\n    * Fix CPUID emulation bugs that may have broken Windows guests with\n      newer -cpu types (bnc#886535)\n\nSecurity Issues:\n\n    * CVE-2014-0222\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0222\u003e\n    * CVE-2014-0223\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0223\u003e\n    * CVE-2014-3461\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3461\u003e\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "kvm-1.4.2-0.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kvm-1.4.2-0.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kvm-1.4.2-0.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kvm-1.4.2-0.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20150870-1/",
+      "Description": "Link for SUSE-SU-2015:0870-1"
+    },
+    {
+      "URL": "https://lists.opensuse.org/opensuse-security-announce/2015-05/msg00006.html",
+      "Description": "E-Mail link for SUSE-SU-2015:0870-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/876842",
+      "Description": "SUSE Bug 876842"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/877642",
+      "Description": "SUSE Bug 877642"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/877645",
+      "Description": "SUSE Bug 877645"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/878541",
+      "Description": "SUSE Bug 878541"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/886535",
+      "Description": "SUSE Bug 886535"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-0222/",
+      "Description": "SUSE CVE CVE-2014-0222 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-0223/",
+      "Description": "SUSE CVE CVE-2014-0223 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-3461/",
+      "Description": "SUSE CVE CVE-2014-3461 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2014-0222",
+      "Description": "Integer overflow in the qcow_open function in block/qcow.c in QEMU before 1.7.2 allows remote attackers to cause a denial of service (crash) via a large L2 table in a QCOW version 1 image.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-0222.html",
+          "Description": "CVE-2014-0222"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/877642",
+          "Description": "SUSE Bug 877642"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/950367",
+          "Description": "SUSE Bug 950367"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/964925",
+          "Description": "SUSE Bug 964925"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:kvm-1.4.2-0.17.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:kvm-1.4.2-0.17.1",
+            "SUSE Linux Enterprise Server 11 SP3:kvm-1.4.2-0.17.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:kvm-1.4.2-0.17.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "5.5",
+        "Vector": "AV:A/AC:L/Au:S/C:N/I:N/A:C"
+      }
+    },
+    {
+      "CVE": "CVE-2014-0223",
+      "Description": "Integer overflow in the qcow_open function in block/qcow.c in QEMU before 1.7.2 allows local users to cause a denial of service (crash) and possibly execute arbitrary code via a large image size, which triggers a buffer overflow or out-of-bounds read.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-0223.html",
+          "Description": "CVE-2014-0223"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/877645",
+          "Description": "SUSE Bug 877645"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:kvm-1.4.2-0.17.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:kvm-1.4.2-0.17.1",
+            "SUSE Linux Enterprise Server 11 SP3:kvm-1.4.2-0.17.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:kvm-1.4.2-0.17.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-3461",
+      "Description": "hw/usb/bus.c in QEMU 1.6.2 allows remote attackers to execute arbitrary code via crafted savevm data, which triggers a heap-based buffer overflow, related to \"USB post load checks.\"",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-3461.html",
+          "Description": "CVE-2014-3461"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/878541",
+          "Description": "SUSE Bug 878541"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:kvm-1.4.2-0.17.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:kvm-1.4.2-0.17.1",
+            "SUSE Linux Enterprise Server 11 SP3:kvm-1.4.2-0.17.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:kvm-1.4.2-0.17.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "Title": "Security update for multipath-tools",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3711-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-10-24T14:23:58Z",
+    "CurrentReleaseDate": "2022-10-24T14:23:58Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-10-24T14:23:58Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for multipath-tools",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for multipath-tools fixes the following issues:\n\n- CVE-2022-41973: Fixed a symlink attack in multipathd. (bsc#1202739)\n- CVE-2022-41974: Fixed an authorization bypass issue in multipathd. (bsc#1202739)\n- Avoid linking to libreadline to avoid licensing issue (bsc#1202616)\n- libmultipath: fix find_multipaths_timeout for unknown hardware (bsc#1201483)\n- multipath-tools: fix 'multipath -ll' for Native NVME Multipath devices (bsc#1201483)\n- multipathd: don't switch to DAEMON_IDLE during startup (bsc#1199346, bsc#1197570)\n- multipathd: avoid delays during uevent processing (bsc#1199347)\n- multipathd: Don't keep starting TUR threads, if they always hang. (bsc#1199345)\n- Fix busy loop with delayed_reconfigure (bsc#1199342)\n- multipath.conf: add support for 'protocol' subsection in\n'overrides' section to set certain config options by protocol.\n- Removed the previously deprecated options getuid_callout, config_dir, multipath_dir, pg_timeout\n- Add disclaimer about vendor support\n- Change built-in defaults for NVMe: group by prio, and immediate failback\n- Fixes for minor issues reported by coverity\n- Fix for memory leak with uid_attrs\n- Updates for built in hardware db\n- Logging improvements\n- multipathd: use remove_map_callback for delayed reconfigure\n- Fix handling of path addition in read-only arrays on NVMe\n- Updates of built-in hardware database\n- libmultipath: only warn once about unsupported dev_loss_tmo\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "kpartx-0.9.0+62+suse.3e048d4-150400.4.7.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmpath0-0.9.0+62+suse.3e048d4-150400.4.7.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "multipath-tools-0.9.0+62+suse.3e048d4-150400.4.7.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kpartx-0.9.0+62+suse.3e048d4-150400.4.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmpath0-0.9.0+62+suse.3e048d4-150400.4.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "multipath-tools-0.9.0+62+suse.3e048d4-150400.4.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kpartx-0.9.0+62+suse.3e048d4-150400.4.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdmmp-devel-0.9.0+62+suse.3e048d4-150400.4.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdmmp0_2_0-0.9.0+62+suse.3e048d4-150400.4.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmpath0-0.9.0+62+suse.3e048d4-150400.4.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "multipath-tools-0.9.0+62+suse.3e048d4-150400.4.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "multipath-tools-devel-0.9.0+62+suse.3e048d4-150400.4.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kpartx-0.9.0+62+suse.3e048d4-150400.4.7.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdmmp-devel-0.9.0+62+suse.3e048d4-150400.4.7.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdmmp0_2_0-0.9.0+62+suse.3e048d4-150400.4.7.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmpath0-0.9.0+62+suse.3e048d4-150400.4.7.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "multipath-tools-0.9.0+62+suse.3e048d4-150400.4.7.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "multipath-tools-devel-0.9.0+62+suse.3e048d4-150400.4.7.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223711-1/",
+      "Description": "Link for SUSE-SU-2022:3711-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-October/012643.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3711-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1197570",
+      "Description": "SUSE Bug 1197570"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1199342",
+      "Description": "SUSE Bug 1199342"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1199345",
+      "Description": "SUSE Bug 1199345"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1199346",
+      "Description": "SUSE Bug 1199346"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1199347",
+      "Description": "SUSE Bug 1199347"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1201483",
+      "Description": "SUSE Bug 1201483"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1202616",
+      "Description": "SUSE Bug 1202616"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1202739",
+      "Description": "SUSE Bug 1202739"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-41973/",
+      "Description": "SUSE CVE CVE-2022-41973 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-41974/",
+      "Description": "SUSE CVE CVE-2022-41974 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-41973",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-41973.html",
+          "Description": "CVE-2022-41973"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1202739",
+          "Description": "SUSE Bug 1202739"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/sle-micro-rancher/5.3:latest:kpartx-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "Container suse/sle-micro-rancher/5.3:latest:libmpath0-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "Container suse/sle-micro-rancher/5.3:latest:multipath-tools-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "SUSE Linux Enterprise Micro 5.3:kpartx-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "SUSE Linux Enterprise Micro 5.3:libmpath0-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "SUSE Linux Enterprise Micro 5.3:multipath-tools-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:kpartx-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libdmmp-devel-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libdmmp0_2_0-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libmpath0-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:multipath-tools-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:multipath-tools-devel-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "openSUSE Leap 15.4:kpartx-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "openSUSE Leap 15.4:libdmmp-devel-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "openSUSE Leap 15.4:libdmmp0_2_0-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "openSUSE Leap 15.4:libmpath0-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "openSUSE Leap 15.4:multipath-tools-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "openSUSE Leap 15.4:multipath-tools-devel-0.9.0+62+suse.3e048d4-150400.4.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-41974",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-41974.html",
+          "Description": "CVE-2022-41974"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/sle-micro-rancher/5.3:latest:kpartx-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "Container suse/sle-micro-rancher/5.3:latest:libmpath0-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "Container suse/sle-micro-rancher/5.3:latest:multipath-tools-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "SUSE Linux Enterprise Micro 5.3:kpartx-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "SUSE Linux Enterprise Micro 5.3:libmpath0-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "SUSE Linux Enterprise Micro 5.3:multipath-tools-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:kpartx-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libdmmp-devel-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libdmmp0_2_0-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libmpath0-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:multipath-tools-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:multipath-tools-devel-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "openSUSE Leap 15.4:kpartx-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "openSUSE Leap 15.4:libdmmp-devel-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "openSUSE Leap 15.4:libdmmp0_2_0-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "openSUSE Leap 15.4:libmpath0-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "openSUSE Leap 15.4:multipath-tools-0.9.0+62+suse.3e048d4-150400.4.7.1",
+            "openSUSE Leap 15.4:multipath-tools-devel-0.9.0+62+suse.3e048d4-150400.4.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

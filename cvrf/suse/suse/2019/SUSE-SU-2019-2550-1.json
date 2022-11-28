@@ -1,0 +1,446 @@
+{
+  "Title": "Security update for bind",
+  "Tracking": {
+    "ID": "SUSE-SU-2019:2550-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2019-10-04T11:17:21Z",
+    "CurrentReleaseDate": "2019-10-04T11:17:21Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2019-10-04T11:17:21Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for bind",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for bind fixes the following issues:\n\nSecurity issue fixed:\n\n- CVE-2019-6471: Fixed a reachable assert in dispatch.c. (bsc#1138687)\n\nNon-security issue fixed:\n\n- bind will no longer rely on /etc/insserv.conf (bsc#1118367, bsc#1118368)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "bind-utils-9.11.2-12.13.2",
+        "RelatesToProductReference": "Container caasp/v4.5/istio-base:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.11.2-12.13.2",
+        "RelatesToProductReference": "Container caasp/v4.5/istio-base:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.2-12.13.2",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.11.2-12.13.2",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.2-12.13.2",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.11.2-12.13.2",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.2-12.13.2",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.11.2-12.13.2",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.2-12.13.2",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.11.2-12.13.2",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.2-12.13.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.11.2-12.13.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.2-12.13.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.11.2-12.13.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.2-12.13.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.11.2-12.13.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.2-12.13.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.11.2-12.13.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.2-12.13.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.11.2-12.13.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-devel-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-160-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns169-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs-devel-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs160-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc166-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc160-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg160-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblwres160-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-devel-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-160-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns169-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs-devel-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs160-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc166-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc160-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg160-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblwres160-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-lwresd-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-devel-32bit-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-lwresd-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-160-32bit-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns169-32bit-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs160-32bit-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc166-32bit-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc160-32bit-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg160-32bit-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblwres160-32bit-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-chrootenv-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-doc-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-chrootenv-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-doc-9.11.2-12.13.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20192550-1/",
+      "Description": "Link for SUSE-SU-2019:2550-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2019-October/005988.html",
+      "Description": "E-Mail link for SUSE-SU-2019:2550-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1118367",
+      "Description": "SUSE Bug 1118367"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1118368",
+      "Description": "SUSE Bug 1118368"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1138687",
+      "Description": "SUSE Bug 1138687"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-6471/",
+      "Description": "SUSE CVE CVE-2019-6471 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-6471",
+      "Description": "A race condition which may occur when discarding malformed packets can result in BIND exiting due to a REQUIRE assertion failure in dispatch.c. Versions affected: BIND 9.11.0 -\u003e 9.11.7, 9.12.0 -\u003e 9.12.4-P1, 9.14.0 -\u003e 9.14.2. Also all releases of the BIND 9.13 development branch and version 9.15.0 of the BIND 9.15 development branch and BIND Supported Preview Edition versions 9.11.3-S1 -\u003e 9.11.7-S1.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-6471.html",
+          "Description": "CVE-2019-6471"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1138687",
+          "Description": "SUSE Bug 1138687"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container caasp/v4.5/istio-base:beta:bind-utils-9.11.2-12.13.2",
+            "Container caasp/v4.5/istio-base:beta:python3-bind-9.11.2-12.13.2",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:bind-utils-9.11.2-12.13.2",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:python3-bind-9.11.2-12.13.2",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:bind-utils-9.11.2-12.13.2",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:python3-bind-9.11.2-12.13.2",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:bind-utils-9.11.2-12.13.2",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:python3-bind-9.11.2-12.13.2",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:bind-utils-9.11.2-12.13.2",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:python3-bind-9.11.2-12.13.2",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:bind-utils-9.11.2-12.13.2",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:python3-bind-9.11.2-12.13.2",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:bind-utils-9.11.2-12.13.2",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:python3-bind-9.11.2-12.13.2",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:bind-utils-9.11.2-12.13.2",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:python3-bind-9.11.2-12.13.2",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:bind-utils-9.11.2-12.13.2",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:python3-bind-9.11.2-12.13.2",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:bind-utils-9.11.2-12.13.2",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:python3-bind-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:bind-devel-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:bind-utils-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libbind9-160-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libdns169-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libirs-devel-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libirs160-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libisc166-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libisccc160-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libisccfg160-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:liblwres160-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:python3-bind-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:bind-devel-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:bind-utils-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libbind9-160-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libdns169-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libirs-devel-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libirs160-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libisc166-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libisccc160-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:libisccfg160-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:liblwres160-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:python3-bind-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:bind-devel-32bit-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:bind-lwresd-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libbind9-160-32bit-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libdns169-32bit-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libirs160-32bit-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libisc166-32bit-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libisccc160-32bit-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libisccfg160-32bit-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:liblwres160-32bit-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:bind-lwresd-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP1:bind-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP1:bind-chrootenv-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP1:bind-doc-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Server Applications 15:bind-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Server Applications 15:bind-chrootenv-9.11.2-12.13.2",
+            "SUSE Linux Enterprise Module for Server Applications 15:bind-doc-9.11.2-12.13.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

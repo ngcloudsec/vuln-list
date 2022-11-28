@@ -1,0 +1,37 @@
+{
+  "Header": {
+    "Original": "[15 Mar 2022] DSA-5103-1 openssl - security update",
+    "Line": 635,
+    "ID": "DSA-5103-1",
+    "Description": "openssl - security update"
+  },
+  "Annotations": [
+    {
+      "Original": "{CVE-2021-4160 CVE-2022-0778}",
+      "Line": 636,
+      "Type": "xref",
+      "Bugs": [
+        "CVE-2021-4160",
+        "CVE-2022-0778"
+      ]
+    },
+    {
+      "Original": "[buster] - openssl 1.1.1d-0+deb10u8",
+      "Line": 637,
+      "Type": "package",
+      "Release": "buster",
+      "Package": "openssl",
+      "Kind": "fixed",
+      "Version": "1.1.1d-0+deb10u8"
+    },
+    {
+      "Original": "[bullseye] - openssl 1.1.1k-1+deb11u2",
+      "Line": 638,
+      "Type": "package",
+      "Release": "bullseye",
+      "Package": "openssl",
+      "Kind": "fixed",
+      "Version": "1.1.1k-1+deb11u2"
+    }
+  ]
+}

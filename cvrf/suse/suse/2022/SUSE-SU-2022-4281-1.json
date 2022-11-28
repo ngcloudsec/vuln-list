@@ -1,0 +1,893 @@
+{
+  "Title": "Security update for python3",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:4281-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-11-29T14:46:51Z",
+    "CurrentReleaseDate": "2022-11-29T14:46:51Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-11-29T14:46:51Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for python3",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for python3 fixes the following issues:\n\n- CVE-2022-37454: Fixed a buffer overflow in hashlib.sha3_* implementations. (bsc#1204577)\n- CVE-2020-10735: Fixed a bug to limit amount of digits converting text to int and vice vera. (bsc#1203125)\n\nThe following non-security bug was fixed:\n\n- Fixed a crash in the garbage collection (bsc#1188607).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-base-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-base-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-base-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-devel-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "Container suse/389-ds:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-base-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "Container suse/389-ds:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-base-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "Container suse/sle-micro/5.1/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-base-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "Container suse/sle-micro/5.1/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "Container suse/sle-micro/5.2/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-base-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "Container suse/sle-micro/5.2/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "Container suse/sle-micro/5.3/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-base-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "Container suse/sle-micro/5.3/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "Container suse/sle-micro/5.4/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-base-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "Container suse/sle-micro/5.4/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-base-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-base-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-curses-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-dbm-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-devel-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-idle-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-tk-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-base-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-curses-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-dbm-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-devel-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-idle-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-tk-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-tools-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-tools-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-base-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-base-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-base-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-32bit-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-base-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-curses-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-dbm-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-devel-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-doc-3.6.15-150300.10.37.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-doc-devhelp-3.6.15-150300.10.37.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-idle-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-testsuite-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-tk-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-tools-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-32bit-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-base-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-curses-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-dbm-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-devel-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-doc-3.6.15-150300.10.37.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-doc-devhelp-3.6.15-150300.10.37.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-idle-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-testsuite-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-tk-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-tools-3.6.15-150300.10.37.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20224281-1/",
+      "Description": "Link for SUSE-SU-2022:4281-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-November/013149.html",
+      "Description": "E-Mail link for SUSE-SU-2022:4281-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1188607",
+      "Description": "SUSE Bug 1188607"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1203125",
+      "Description": "SUSE Bug 1203125"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1204577",
+      "Description": "SUSE Bug 1204577"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-18348/",
+      "Description": "SUSE CVE CVE-2019-18348 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-10735/",
+      "Description": "SUSE CVE CVE-2020-10735 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-8492/",
+      "Description": "SUSE CVE CVE-2020-8492 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-37454/",
+      "Description": "SUSE CVE CVE-2022-37454 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-18348",
+      "Description": "An issue was discovered in urllib2 in Python 2.x through 2.7.17 and urllib in Python 3.x through 3.8.0. CRLF injection is possible if the attacker controls a url parameter, as demonstrated by the first argument to urllib.request.urlopen with \\r\\n (specifically in the host component of a URL) followed by an HTTP header. This is similar to the CVE-2019-9740 query string issue and the CVE-2019-9947 path string issue. (This is not exploitable when glibc has CVE-2016-10739 fixed.). This is fixed in: v2.7.18, v2.7.18rc1; v3.5.10, v3.5.10rc1; v3.6.11, v3.6.11rc1, v3.6.12; v3.7.8, v3.7.8rc1, v3.7.9; v3.8.3, v3.8.3rc1, v3.8.4, v3.8.4rc1, v3.8.5, v3.8.6, v3.8.6rc1.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-18348.html",
+          "Description": "CVE-2019-18348"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1155094",
+          "Description": "SUSE Bug 1155094"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/node:12:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container bci/node:12:python3-base-3.6.15-150300.10.37.2",
+            "Container bci/node:14:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container bci/node:14:python3-base-3.6.15-150300.10.37.2",
+            "Container bci/python:3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container bci/python:3:python3-base-3.6.15-150300.10.37.2",
+            "Container bci/python:3:python3-devel-3.6.15-150300.10.37.2",
+            "Container suse/389-ds:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/389-ds:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro-rancher/5.2:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro-rancher/5.2:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.1/toolbox:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.1/toolbox:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.2/toolbox:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.2/toolbox:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.3/toolbox:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.3/toolbox:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.4/toolbox:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.4/toolbox:latest:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.2:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.2:python3-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.2:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.3:python3-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.3:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-curses-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-dbm-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-devel-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-idle-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-tk-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-curses-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-dbm-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-devel-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-idle-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-tk-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:python3-tools-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:python3-tools-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:libpython3_6m1_0-32bit-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-base-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-curses-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-dbm-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-devel-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-doc-3.6.15-150300.10.37.1",
+            "openSUSE Leap 15.3:python3-doc-devhelp-3.6.15-150300.10.37.1",
+            "openSUSE Leap 15.3:python3-idle-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-testsuite-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-tk-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-tools-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:libpython3_6m1_0-32bit-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-base-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-curses-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-dbm-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-devel-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-doc-3.6.15-150300.10.37.1",
+            "openSUSE Leap 15.4:python3-doc-devhelp-3.6.15-150300.10.37.1",
+            "openSUSE Leap 15.4:python3-idle-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-testsuite-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-tk-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-tools-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.2:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.2:python3-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.2:python3-base-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.3:python3-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.3:python3-base-3.6.15-150300.10.37.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2020-10735",
+      "Description": "A flaw was found in python. In algorithms with quadratic time complexity using non-binary bases, when using int(\"text\"), a system could take 50ms to parse an int string with 100,000 digits and 5s for 1,000,000 digits (float, decimal, int.from_bytes(), and int() for binary bases 2, 4, 8, 16, and 32 are not affected). The highest threat from this vulnerability is to system availability.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-10735.html",
+          "Description": "CVE-2020-10735"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1203125",
+          "Description": "SUSE Bug 1203125"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1204077",
+          "Description": "SUSE Bug 1204077"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1204096",
+          "Description": "SUSE Bug 1204096"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1204097",
+          "Description": "SUSE Bug 1204097"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1205075",
+          "Description": "SUSE Bug 1205075"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/node:12:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container bci/node:12:python3-base-3.6.15-150300.10.37.2",
+            "Container bci/node:14:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container bci/node:14:python3-base-3.6.15-150300.10.37.2",
+            "Container bci/python:3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container bci/python:3:python3-base-3.6.15-150300.10.37.2",
+            "Container bci/python:3:python3-devel-3.6.15-150300.10.37.2",
+            "Container suse/389-ds:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/389-ds:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro-rancher/5.2:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro-rancher/5.2:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.1/toolbox:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.1/toolbox:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.2/toolbox:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.2/toolbox:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.3/toolbox:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.3/toolbox:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.4/toolbox:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.4/toolbox:latest:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.2:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.2:python3-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.2:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.3:python3-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.3:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-curses-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-dbm-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-devel-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-idle-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-tk-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-curses-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-dbm-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-devel-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-idle-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-tk-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:python3-tools-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:python3-tools-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:libpython3_6m1_0-32bit-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-base-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-curses-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-dbm-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-devel-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-doc-3.6.15-150300.10.37.1",
+            "openSUSE Leap 15.3:python3-doc-devhelp-3.6.15-150300.10.37.1",
+            "openSUSE Leap 15.3:python3-idle-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-testsuite-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-tk-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-tools-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:libpython3_6m1_0-32bit-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-base-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-curses-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-dbm-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-devel-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-doc-3.6.15-150300.10.37.1",
+            "openSUSE Leap 15.4:python3-doc-devhelp-3.6.15-150300.10.37.1",
+            "openSUSE Leap 15.4:python3-idle-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-testsuite-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-tk-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-tools-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.2:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.2:python3-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.2:python3-base-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.3:python3-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.3:python3-base-3.6.15-150300.10.37.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2020-8492",
+      "Description": "Python 2.7 through 2.7.17, 3.5 through 3.5.9, 3.6 through 3.6.10, 3.7 through 3.7.6, and 3.8 through 3.8.1 allows an HTTP server to conduct Regular Expression Denial of Service (ReDoS) attacks against a client because of urllib.request.AbstractBasicAuthHandler catastrophic backtracking.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-8492.html",
+          "Description": "CVE-2020-8492"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1162367",
+          "Description": "SUSE Bug 1162367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/node:12:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container bci/node:12:python3-base-3.6.15-150300.10.37.2",
+            "Container bci/node:14:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container bci/node:14:python3-base-3.6.15-150300.10.37.2",
+            "Container bci/python:3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container bci/python:3:python3-base-3.6.15-150300.10.37.2",
+            "Container bci/python:3:python3-devel-3.6.15-150300.10.37.2",
+            "Container suse/389-ds:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/389-ds:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro-rancher/5.2:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro-rancher/5.2:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.1/toolbox:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.1/toolbox:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.2/toolbox:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.2/toolbox:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.3/toolbox:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.3/toolbox:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.4/toolbox:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.4/toolbox:latest:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.2:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.2:python3-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.2:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.3:python3-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.3:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-curses-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-dbm-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-devel-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-idle-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-tk-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-curses-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-dbm-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-devel-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-idle-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-tk-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:python3-tools-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:python3-tools-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:libpython3_6m1_0-32bit-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-base-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-curses-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-dbm-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-devel-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-doc-3.6.15-150300.10.37.1",
+            "openSUSE Leap 15.3:python3-doc-devhelp-3.6.15-150300.10.37.1",
+            "openSUSE Leap 15.3:python3-idle-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-testsuite-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-tk-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-tools-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:libpython3_6m1_0-32bit-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-base-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-curses-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-dbm-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-devel-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-doc-3.6.15-150300.10.37.1",
+            "openSUSE Leap 15.4:python3-doc-devhelp-3.6.15-150300.10.37.1",
+            "openSUSE Leap 15.4:python3-idle-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-testsuite-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-tk-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-tools-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.2:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.2:python3-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.2:python3-base-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.3:python3-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.3:python3-base-3.6.15-150300.10.37.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-37454",
+      "Description": "The Keccak XKCP SHA-3 reference implementation before fdc6fef has an integer overflow and resultant buffer overflow that allows attackers to execute arbitrary code or eliminate expected cryptographic properties. This occurs in the sponge function interface.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-37454.html",
+          "Description": "CVE-2022-37454"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1204577",
+          "Description": "SUSE Bug 1204577"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1204966",
+          "Description": "SUSE Bug 1204966"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1205836",
+          "Description": "SUSE Bug 1205836"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/node:12:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container bci/node:12:python3-base-3.6.15-150300.10.37.2",
+            "Container bci/node:14:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container bci/node:14:python3-base-3.6.15-150300.10.37.2",
+            "Container bci/python:3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container bci/python:3:python3-base-3.6.15-150300.10.37.2",
+            "Container bci/python:3:python3-devel-3.6.15-150300.10.37.2",
+            "Container suse/389-ds:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/389-ds:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro-rancher/5.2:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro-rancher/5.2:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.1/toolbox:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.1/toolbox:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.2/toolbox:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.2/toolbox:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.3/toolbox:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.3/toolbox:latest:python3-base-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.4/toolbox:latest:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "Container suse/sle-micro/5.4/toolbox:latest:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.2:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.2:python3-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.2:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.3:python3-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Micro 5.3:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-curses-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-dbm-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-devel-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-idle-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-tk-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-base-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-curses-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-dbm-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-devel-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-idle-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-tk-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:python3-tools-3.6.15-150300.10.37.2",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:python3-tools-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:libpython3_6m1_0-32bit-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-base-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-curses-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-dbm-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-devel-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-doc-3.6.15-150300.10.37.1",
+            "openSUSE Leap 15.3:python3-doc-devhelp-3.6.15-150300.10.37.1",
+            "openSUSE Leap 15.3:python3-idle-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-testsuite-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-tk-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.3:python3-tools-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:libpython3_6m1_0-32bit-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-base-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-curses-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-dbm-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-devel-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-doc-3.6.15-150300.10.37.1",
+            "openSUSE Leap 15.4:python3-doc-devhelp-3.6.15-150300.10.37.1",
+            "openSUSE Leap 15.4:python3-idle-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-testsuite-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-tk-3.6.15-150300.10.37.2",
+            "openSUSE Leap 15.4:python3-tools-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.2:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.2:python3-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.2:python3-base-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.3:libpython3_6m1_0-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.3:python3-3.6.15-150300.10.37.2",
+            "openSUSE Leap Micro 5.3:python3-base-3.6.15-150300.10.37.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

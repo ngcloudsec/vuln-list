@@ -1,0 +1,62 @@
+{
+  "id": "RLSA-2022:7519",
+  "title": "Moderate: grafana security, bug fix, and enhancement update",
+  "issued": {
+    "date": "2022-11-13 07:55:50"
+  },
+  "updated": {
+    "date": "2022-11-08 00:00:00"
+  },
+  "severity": "SEVERITY_MODERATE",
+  "description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB \u0026amp; OpenTSDB. \nThe following packages have been upgraded to a later upstream version: grafana (7.5.15). (BZ#2055348)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nAdditional Changes:\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
+  "packages": [
+    {
+      "name": "grafana",
+      "epoch": "0",
+      "version": "7.5.15",
+      "release": "3.el8",
+      "arch": "aarch64",
+      "src": "grafana-7.5.15-3.el8.src.rpm",
+      "filename": "grafana-7.5.15-3.el8.aarch64.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-23648.json",
+      "id": "CVE-2021-23648",
+      "title": "Update information for CVE-2021-23648 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-21673.json",
+      "id": "CVE-2022-21673",
+      "title": "Update information for CVE-2022-21673 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-21702.json",
+      "id": "CVE-2022-21702",
+      "title": "Update information for CVE-2022-21702 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-21703.json",
+      "id": "CVE-2022-21703",
+      "title": "Update information for CVE-2022-21703 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-21713.json",
+      "id": "CVE-2022-21713",
+      "title": "Update information for CVE-2022-21713 is retrieved from Red Hat",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2021-23648",
+    "CVE-2022-21673",
+    "CVE-2022-21702",
+    "CVE-2022-21703",
+    "CVE-2022-21713"
+  ]
+}

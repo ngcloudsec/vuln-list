@@ -1,0 +1,140 @@
+{
+  "Title": "Security update for squid",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3532-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-10-06T07:22:03Z",
+    "CurrentReleaseDate": "2022-10-06T07:22:03Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-10-06T07:22:03Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for squid",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for squid fixes the following issues:\n\n  - CVE-2022-41317: Fixed exposure of sensitive information in cache manager (bsc#1203677).\n  - CVE-2022-41318: Fixed buffer overread in SSPI and SMB Authentication (bsc#1203680).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "squid-4.17-4.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "squid-4.17-4.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223532-1/",
+      "Description": "Link for SUSE-SU-2022:3532-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-October/012508.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3532-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1203677",
+      "Description": "SUSE Bug 1203677"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1203680",
+      "Description": "SUSE Bug 1203680"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-41317/",
+      "Description": "SUSE CVE CVE-2022-41317 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-41318/",
+      "Description": "SUSE CVE CVE-2022-41318 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-41317",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-41317.html",
+          "Description": "CVE-2022-41317"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1203677",
+          "Description": "SUSE Bug 1203677"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 12 SP5:squid-4.17-4.27.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:squid-4.17-4.27.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-41318",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-41318.html",
+          "Description": "CVE-2022-41318"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1203680",
+          "Description": "SUSE Bug 1203680"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 12 SP5:squid-4.17-4.27.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:squid-4.17-4.27.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

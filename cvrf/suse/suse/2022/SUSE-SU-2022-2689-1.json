@@ -1,0 +1,102 @@
+{
+  "Title": "Security update for dpkg",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:2689-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-08-05T13:46:02Z",
+    "CurrentReleaseDate": "2022-08-05T13:46:02Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-08-05T13:46:02Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for dpkg",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for dpkg fixes the following issues:\n\n- CVE-2022-1664: Fixed directory traversal vulnerability in Dpkg::Source::Archive (bsc#1199944).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "update-alternatives-1.18.4-16.3.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.18.4-16.3.5",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20222689-1/",
+      "Description": "Link for SUSE-SU-2022:2689-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-August/011813.html",
+      "Description": "E-Mail link for SUSE-SU-2022:2689-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1199944",
+      "Description": "SUSE Bug 1199944"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1664/",
+      "Description": "SUSE CVE CVE-2022-1664 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-1664",
+      "Description": "Dpkg::Source::Archive in dpkg, the Debian package management system, before version 1.21.8, 1.20.10, 1.19.8, 1.18.26 is prone to a directory traversal vulnerability. When extracting untrusted source packages in v2 and v3 source package formats that include a debian.tar, the in-place extraction can lead to directory traversal situations on specially crafted orig.tar and debian.tar tarballs.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "low"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1664.html",
+          "Description": "CVE-2022-1664"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199944",
+          "Description": "SUSE Bug 1199944"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 12 SP5:update-alternatives-1.18.4-16.3.5",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:update-alternatives-1.18.4-16.3.5"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

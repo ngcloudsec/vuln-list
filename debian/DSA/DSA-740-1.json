@@ -1,0 +1,49 @@
+{
+  "Header": {
+    "Original": "[06 Jul 2005] DSA-740-1 zlib - buffer overflow",
+    "Line": 15830,
+    "ID": "DSA-740-1",
+    "Description": "zlib - buffer overflow"
+  },
+  "Annotations": [
+    {
+      "Original": "{CVE-2005-2096}",
+      "Line": 15831,
+      "Type": "xref",
+      "Bugs": [
+        "CVE-2005-2096"
+      ]
+    },
+    {
+      "Original": "[woody] - zlib \u003cnot-affected\u003e (vulnerability was introduced later)",
+      "Line": 15832,
+      "Type": "package",
+      "Release": "woody",
+      "Package": "zlib",
+      "Kind": "not-affected",
+      "Description": "vulnerability was introduced later"
+    },
+    {
+      "Original": "[sarge] - zlib 1:1.2.2-4.sarge.1 (medium)",
+      "Line": 15833,
+      "Type": "package",
+      "Release": "sarge",
+      "Package": "zlib",
+      "Kind": "fixed",
+      "Version": "1:1.2.2-4.sarge.1",
+      "Severity": "medium"
+    },
+    {
+      "Original": "NOTE: anything statically linking zlib needs rebuild",
+      "Line": 15834,
+      "Type": "NOTE",
+      "Description": "anything statically linking zlib needs rebuild"
+    },
+    {
+      "Original": "NOTE: not fixed in testing at time of DSA (embargoed disclosure)",
+      "Line": 15835,
+      "Type": "NOTE",
+      "Description": "not fixed in testing at time of DSA (embargoed disclosure)"
+    }
+  ]
+}

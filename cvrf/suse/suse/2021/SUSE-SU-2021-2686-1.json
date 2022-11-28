@@ -1,0 +1,276 @@
+{
+  "Title": "Security update for cpio",
+  "Tracking": {
+    "ID": "SUSE-SU-2021:2686-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2021-08-14T01:59:05Z",
+    "CurrentReleaseDate": "2021-08-14T01:59:05Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2021-08-14T01:59:05Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for cpio",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for cpio fixes the following issues:\n\n  It was possible to trigger Remote code execution due to a integer overflow (CVE-2021-38185, bsc#1189206)\n  ",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "cpio-2.11-36.9.1",
+        "RelatesToProductReference": "Container suse/sles12sp3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-2.11-36.9.1",
+        "RelatesToProductReference": "Container suse/sles12sp4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-2.11-36.9.1",
+        "RelatesToProductReference": "Container suse/sles12sp5:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-2.11-36.9.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-lang-2.11-36.9.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-lang-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-lang-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-lang-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-lang-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-lang-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-lang-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-lang-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-lang-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-lang-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-lang-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-lang-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cpio-lang-2.11-36.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2021/suse-su-20212686-1/",
+      "Description": "Link for SUSE-SU-2021:2686-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2021-August/009291.html",
+      "Description": "E-Mail link for SUSE-SU-2021:2686-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1189206",
+      "Description": "SUSE Bug 1189206"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2021-38185/",
+      "Description": "SUSE CVE CVE-2021-38185 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2021-38185",
+      "Description": "GNU cpio through 2.13 allows attackers to execute arbitrary code via a crafted pattern file, because of a dstring.c ds_fgetstr integer overflow that triggers an out-of-bounds heap write. NOTE: it is unclear whether there are common cases where the pattern file, associated with the -E option, is untrusted data.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2021-38185.html",
+          "Description": "CVE-2021-38185"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1189206",
+          "Description": "SUSE Bug 1189206"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1189486",
+          "Description": "SUSE Bug 1189486"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1192364",
+          "Description": "SUSE Bug 1192364"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1193391",
+          "Description": "SUSE Bug 1193391"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/sles12sp3:latest:cpio-2.11-36.9.1",
+            "Container suse/sles12sp4:latest:cpio-2.11-36.9.1",
+            "Container suse/sles12sp5:latest:cpio-2.11-36.9.1",
+            "HPE Helion Openstack 8:cpio-2.11-36.9.1",
+            "HPE Helion Openstack 8:cpio-lang-2.11-36.9.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:cpio-2.11-36.9.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:cpio-lang-2.11-36.9.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:cpio-2.11-36.9.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:cpio-lang-2.11-36.9.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:cpio-2.11-36.9.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:cpio-lang-2.11-36.9.1",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:cpio-2.11-36.9.1",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:cpio-lang-2.11-36.9.1",
+            "SUSE Linux Enterprise Server 12 SP5:cpio-2.11-36.9.1",
+            "SUSE Linux Enterprise Server 12 SP5:cpio-lang-2.11-36.9.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:cpio-2.11-36.9.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:cpio-lang-2.11-36.9.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:cpio-2.11-36.9.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:cpio-lang-2.11-36.9.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:cpio-2.11-36.9.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:cpio-lang-2.11-36.9.1",
+            "SUSE OpenStack Cloud 8:cpio-2.11-36.9.1",
+            "SUSE OpenStack Cloud 8:cpio-lang-2.11-36.9.1",
+            "SUSE OpenStack Cloud 9:cpio-2.11-36.9.1",
+            "SUSE OpenStack Cloud 9:cpio-lang-2.11-36.9.1",
+            "SUSE OpenStack Cloud Crowbar 8:cpio-2.11-36.9.1",
+            "SUSE OpenStack Cloud Crowbar 8:cpio-lang-2.11-36.9.1",
+            "SUSE OpenStack Cloud Crowbar 9:cpio-2.11-36.9.1",
+            "SUSE OpenStack Cloud Crowbar 9:cpio-lang-2.11-36.9.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

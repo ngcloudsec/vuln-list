@@ -1,0 +1,348 @@
+{
+  "Title": "Security update for lz4",
+  "Tracking": {
+    "ID": "SUSE-SU-2021:1825-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2021-06-01T14:24:04Z",
+    "CurrentReleaseDate": "2021-06-01T14:24:04Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2021-06-01T14:24:04Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for lz4",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for lz4 fixes the following issues:\n\n- CVE-2021-3520: Fixed memory corruption due to an integer overflow bug caused by memmove argument (bsc#1185438).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container bci/golang:1.16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container suse/sle15:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-apiserver:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-cloner:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-controller:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-importer:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-operator:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-uploadproxy:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-uploadserver:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/libguestfs-tools:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-api:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-controller:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-handler:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-launcher:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-operator:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container trento/trento-db:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container trento/trento-runner:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Container trento/trento-web:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-1.9.2-3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-1-32bit-1.9.2-3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblz4-devel-1.9.2-3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "lz4-1.9.2-3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2021/suse-su-20211825-1/",
+      "Description": "Link for SUSE-SU-2021:1825-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2021-June/008909.html",
+      "Description": "E-Mail link for SUSE-SU-2021:1825-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1185438",
+      "Description": "SUSE Bug 1185438"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2021-3520/",
+      "Description": "SUSE CVE CVE-2021-3520 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2021-3520",
+      "Description": "There's a flaw in lz4. An attacker who submits a crafted file to an application linked with lz4 may be able to trigger an integer overflow, leading to calling of memmove() on a negative size argument, causing an out-of-bounds write and/or a crash. The greatest impact of this flaw is to availability, with some potential impact to confidentiality and integrity as well.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2021-3520.html",
+          "Description": "CVE-2021-3520"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1185438",
+          "Description": "SUSE Bug 1185438"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:liblz4-1-1.9.2-3.3.1",
+            "Container bci/dotnet-aspnet:3.1:liblz4-1-1.9.2-3.3.1",
+            "Container bci/dotnet-aspnet:5.0:liblz4-1-1.9.2-3.3.1",
+            "Container bci/dotnet-aspnet:latest:liblz4-1-1.9.2-3.3.1",
+            "Container bci/dotnet-runtime:3.1:liblz4-1-1.9.2-3.3.1",
+            "Container bci/dotnet-runtime:5.0:liblz4-1-1.9.2-3.3.1",
+            "Container bci/dotnet-runtime:latest:liblz4-1-1.9.2-3.3.1",
+            "Container bci/dotnet-sdk:3.1:liblz4-1-1.9.2-3.3.1",
+            "Container bci/dotnet-sdk:5.0:liblz4-1-1.9.2-3.3.1",
+            "Container bci/dotnet-sdk:latest:liblz4-1-1.9.2-3.3.1",
+            "Container bci/golang:1.16:liblz4-1-1.9.2-3.3.1",
+            "Container bci/golang:latest:liblz4-1-1.9.2-3.3.1",
+            "Container bci/node:12:liblz4-1-1.9.2-3.3.1",
+            "Container bci/node:14:liblz4-1-1.9.2-3.3.1",
+            "Container bci/nodejs:latest:liblz4-1-1.9.2-3.3.1",
+            "Container bci/openjdk-devel:latest:liblz4-1-1.9.2-3.3.1",
+            "Container bci/openjdk:latest:liblz4-1-1.9.2-3.3.1",
+            "Container bci/ruby:latest:liblz4-1-1.9.2-3.3.1",
+            "Container suse/sle15:15.3:liblz4-1-1.9.2-3.3.1",
+            "Container suse/sles/15.3/cdi-apiserver:1.37.1:liblz4-1-1.9.2-3.3.1",
+            "Container suse/sles/15.3/cdi-cloner:1.37.1:liblz4-1-1.9.2-3.3.1",
+            "Container suse/sles/15.3/cdi-controller:1.37.1:liblz4-1-1.9.2-3.3.1",
+            "Container suse/sles/15.3/cdi-importer:1.37.1:liblz4-1-1.9.2-3.3.1",
+            "Container suse/sles/15.3/cdi-operator:1.37.1:liblz4-1-1.9.2-3.3.1",
+            "Container suse/sles/15.3/cdi-uploadproxy:1.37.1:liblz4-1-1.9.2-3.3.1",
+            "Container suse/sles/15.3/cdi-uploadserver:1.37.1:liblz4-1-1.9.2-3.3.1",
+            "Container suse/sles/15.3/libguestfs-tools:0.45.0:liblz4-1-1.9.2-3.3.1",
+            "Container suse/sles/15.3/virt-api:0.45.0:liblz4-1-1.9.2-3.3.1",
+            "Container suse/sles/15.3/virt-controller:0.45.0:liblz4-1-1.9.2-3.3.1",
+            "Container suse/sles/15.3/virt-handler:0.45.0:liblz4-1-1.9.2-3.3.1",
+            "Container suse/sles/15.3/virt-launcher:0.45.0:liblz4-1-1.9.2-3.3.1",
+            "Container suse/sles/15.3/virt-operator:0.45.0:liblz4-1-1.9.2-3.3.1",
+            "Container trento/trento-db:latest:liblz4-1-1.9.2-3.3.1",
+            "Container trento/trento-runner:latest:liblz4-1-1.9.2-3.3.1",
+            "Container trento/trento-web:latest:liblz4-1-1.9.2-3.3.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:liblz4-1-1.9.2-3.3.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:liblz4-1-1.9.2-3.3.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:liblz4-1-1.9.2-3.3.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:liblz4-1-1.9.2-3.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:liblz4-1-1.9.2-3.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:liblz4-1-32bit-1.9.2-3.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:liblz4-devel-1.9.2-3.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:lz4-1.9.2-3.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

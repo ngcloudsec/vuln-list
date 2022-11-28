@@ -1,0 +1,186 @@
+{
+  "Title": "Security update for python",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:2276-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-08-19T11:22:52Z",
+    "CurrentReleaseDate": "2020-08-19T11:22:52Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-08-19T11:22:52Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for python",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for python fixes the following issues:\n\n- CVE-2019-20907: Avoid a possible infinite loop caused by specifically crafted tarballs (bsc#1174091).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libpython2_7-1_0-2.7.17-7.41.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-2.7.17-7.41.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-base-2.7.17-7.41.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython2_7-1_0-2.7.17-7.41.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-2.7.17-7.41.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-base-2.7.17-7.41.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-tk-2.7.17-7.41.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-tk-2.7.17-7.41.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-curses-2.7.17-7.41.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-devel-2.7.17-7.41.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-gdbm-2.7.17-7.41.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-xml-2.7.17-7.41.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-curses-2.7.17-7.41.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-devel-2.7.17-7.41.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-gdbm-2.7.17-7.41.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-xml-2.7.17-7.41.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP2",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20202276-1/",
+      "Description": "Link for SUSE-SU-2020:2276-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-August/007284.html",
+      "Description": "E-Mail link for SUSE-SU-2020:2276-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1174091",
+      "Description": "SUSE Bug 1174091"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-20907/",
+      "Description": "SUSE CVE CVE-2019-20907 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-20907",
+      "Description": "In Lib/tarfile.py in Python through 3.8.3, an attacker is able to craft a TAR archive leading to an infinite loop when opened by tarfile.open, because _proc_pax lacks header validation.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-20907.html",
+          "Description": "CVE-2019-20907"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1174091",
+          "Description": "SUSE Bug 1174091"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libpython2_7-1_0-2.7.17-7.41.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:python-2.7.17-7.41.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:python-base-2.7.17-7.41.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libpython2_7-1_0-2.7.17-7.41.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:python-2.7.17-7.41.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:python-base-2.7.17-7.41.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:python-tk-2.7.17-7.41.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP2:python-tk-2.7.17-7.41.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP1:python-curses-2.7.17-7.41.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP1:python-devel-2.7.17-7.41.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP1:python-gdbm-2.7.17-7.41.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP1:python-xml-2.7.17-7.41.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP2:python-curses-2.7.17-7.41.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP2:python-devel-2.7.17-7.41.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP2:python-gdbm-2.7.17-7.41.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP2:python-xml-2.7.17-7.41.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

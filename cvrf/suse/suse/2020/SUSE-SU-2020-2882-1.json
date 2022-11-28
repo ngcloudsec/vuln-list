@@ -1,0 +1,186 @@
+{
+  "Title": "Security update for tigervnc",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:2882-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-10-09T12:44:27Z",
+    "CurrentReleaseDate": "2020-10-09T12:44:27Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-10-09T12:44:27Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for tigervnc",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for tigervnc fixes the following issues:\n\n- CVE-2020-26117: Server certificates were stored as certiticate\n  authorities, allowing malicious owners of these certificates\n  to impersonate any server after a client had added an exception\n  (bsc#1176733)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libXvnc1-1.8.0-13.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tigervnc-1.8.0-13.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xorg-x11-Xvnc-1.8.0-13.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xorg-x11-Xvnc-novnc-1.8.0-13.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libXvnc1-1.8.0-13.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tigervnc-1.8.0-13.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xorg-x11-Xvnc-1.8.0-13.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xorg-x11-Xvnc-novnc-1.8.0-13.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libXvnc1-1.8.0-13.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tigervnc-1.8.0-13.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xorg-x11-Xvnc-1.8.0-13.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xorg-x11-Xvnc-novnc-1.8.0-13.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libXvnc1-1.8.0-13.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tigervnc-1.8.0-13.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xorg-x11-Xvnc-1.8.0-13.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xorg-x11-Xvnc-novnc-1.8.0-13.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20202882-1/",
+      "Description": "Link for SUSE-SU-2020:2882-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-October/007536.html",
+      "Description": "E-Mail link for SUSE-SU-2020:2882-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1176733",
+      "Description": "SUSE Bug 1176733"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-26117/",
+      "Description": "SUSE CVE CVE-2020-26117 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-26117",
+      "Description": "In rfb/CSecurityTLS.cxx and rfb/CSecurityTLS.java in TigerVNC before 1.11.0, viewers mishandle TLS certificate exceptions. They store the certificates as authorities, meaning that the owner of a certificate could impersonate any server after a client had added an exception.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "critical"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-26117.html",
+          "Description": "CVE-2020-26117"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1176733",
+          "Description": "SUSE Bug 1176733"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libXvnc1-1.8.0-13.14.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:tigervnc-1.8.0-13.14.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xorg-x11-Xvnc-1.8.0-13.14.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:xorg-x11-Xvnc-novnc-1.8.0-13.14.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libXvnc1-1.8.0-13.14.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:tigervnc-1.8.0-13.14.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:xorg-x11-Xvnc-1.8.0-13.14.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:xorg-x11-Xvnc-novnc-1.8.0-13.14.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libXvnc1-1.8.0-13.14.1",
+            "SUSE Linux Enterprise Server 15-LTSS:tigervnc-1.8.0-13.14.1",
+            "SUSE Linux Enterprise Server 15-LTSS:xorg-x11-Xvnc-1.8.0-13.14.1",
+            "SUSE Linux Enterprise Server 15-LTSS:xorg-x11-Xvnc-novnc-1.8.0-13.14.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libXvnc1-1.8.0-13.14.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:tigervnc-1.8.0-13.14.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:xorg-x11-Xvnc-1.8.0-13.14.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:xorg-x11-Xvnc-novnc-1.8.0-13.14.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

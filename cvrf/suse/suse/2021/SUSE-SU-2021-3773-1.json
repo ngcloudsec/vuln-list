@@ -1,0 +1,606 @@
+{
+  "Title": "Security update for bind",
+  "Tracking": {
+    "ID": "SUSE-SU-2021:3773-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2021-11-23T14:49:35Z",
+    "CurrentReleaseDate": "2021-11-23T14:49:35Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2021-11-23T14:49:35Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for bind",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for bind fixes the following issues:\n\n- CVE-2021-25219: Fixed lame cache that could have been abused to severely degrade resolver performance (bsc#1192146).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "bind-utils-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1605-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs1601-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1606-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libns1604-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1605-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs1601-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1606-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libns1604-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1605-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs1601-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1606-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libns1604-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1605-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs1601-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1606-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libns1604-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1605-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs1601-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1606-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libns1604-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1605-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs1601-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1606-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libns1604-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1605-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs1601-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1606-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libns1604-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1605-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs1601-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1606-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libns1604-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.6-12.57.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-devel-9.16.6-12.57.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.6-12.57.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1605-9.16.6-12.57.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs-devel-9.16.6-12.57.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs1601-9.16.6-12.57.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1606-9.16.6-12.57.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg1600-9.16.6-12.57.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libns1604-9.16.6-12.57.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.6-12.57.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-9.16.6-12.57.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-chrootenv-9.16.6-12.57.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-doc-9.16.6-12.57.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2021/suse-su-20213773-1/",
+      "Description": "Link for SUSE-SU-2021:3773-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2021-November/009771.html",
+      "Description": "E-Mail link for SUSE-SU-2021:3773-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1192146",
+      "Description": "SUSE Bug 1192146"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2021-25219/",
+      "Description": "SUSE CVE CVE-2021-25219 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2021-25219",
+      "Description": "In BIND 9.3.0 -\u003e 9.11.35, 9.12.0 -\u003e 9.16.21, and versions 9.9.3-S1 -\u003e 9.11.35-S1 and 9.16.8-S1 -\u003e 9.16.21-S1 of BIND Supported Preview Edition, as well as release versions 9.17.0 -\u003e 9.17.18 of the BIND 9.17 development branch, exploitation of broken authoritative servers using a flaw in response processing can cause degradation in BIND resolver performance. The way the lame cache is currently designed makes it possible for its internal data structures to grow almost infinitely, which may cause significant delays in client query processing.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2021-25219.html",
+          "Description": "CVE-2021-25219"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1192146",
+          "Description": "SUSE Bug 1192146"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-EC2-CHOST-HVM-BYOS:bind-utils-9.16.6-12.57.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:libbind9-1600-9.16.6-12.57.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:libdns1605-9.16.6-12.57.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:libirs1601-9.16.6-12.57.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:libisc1606-9.16.6-12.57.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:libisccc1600-9.16.6-12.57.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:libisccfg1600-9.16.6-12.57.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:libns1604-9.16.6-12.57.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:python3-bind-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:bind-utils-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libbind9-1600-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libdns1605-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libirs1601-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libisc1606-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libisccc1600-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libisccfg1600-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libns1604-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:python3-bind-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:bind-utils-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libbind9-1600-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libdns1605-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libirs1601-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libisc1606-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libisccc1600-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libisccfg1600-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libns1604-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:python3-bind-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:bind-utils-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libbind9-1600-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libdns1605-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libirs1601-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libisc1606-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libisccc1600-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libisccfg1600-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libns1604-9.16.6-12.57.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:python3-bind-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:bind-utils-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libbind9-1600-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libdns1605-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libirs1601-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libisc1606-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libisccc1600-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libisccfg1600-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libns1604-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:python3-bind-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:bind-utils-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libbind9-1600-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libdns1605-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libirs1601-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libisc1606-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libisccc1600-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libisccfg1600-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libns1604-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:python3-bind-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:bind-utils-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libbind9-1600-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libdns1605-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libirs1601-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libisc1606-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libisccc1600-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libisccfg1600-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libns1604-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:python3-bind-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:bind-utils-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libbind9-1600-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libdns1605-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libirs1601-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libisc1606-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libisccc1600-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libisccfg1600-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libns1604-9.16.6-12.57.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:python3-bind-9.16.6-12.57.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:bind-devel-9.16.6-12.57.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:bind-utils-9.16.6-12.57.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libbind9-1600-9.16.6-12.57.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libdns1605-9.16.6-12.57.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libirs-devel-9.16.6-12.57.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libirs1601-9.16.6-12.57.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libisc1606-9.16.6-12.57.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libisccc1600-9.16.6-12.57.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libisccfg1600-9.16.6-12.57.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libns1604-9.16.6-12.57.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:python3-bind-9.16.6-12.57.1",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP2:bind-9.16.6-12.57.1",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP2:bind-chrootenv-9.16.6-12.57.1",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP2:bind-doc-9.16.6-12.57.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

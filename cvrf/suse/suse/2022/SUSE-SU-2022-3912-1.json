@@ -1,0 +1,726 @@
+{
+  "Title": "Security update for expat",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3912-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-11-08T12:38:20Z",
+    "CurrentReleaseDate": "2022-11-08T12:38:20Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-11-08T12:38:20Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for expat",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for expat fixes the following issues:\n\n  - CVE-2022-43680: Fixed use-after free caused by overeager destruction of a shared DTD in XML_ExternalEntityParserCreate (bsc#1204708).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "Image SLES15-SP1-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "Image SLES15-SP2-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "Image SLES15-SP3-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "Image SLES15-SP3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-150000.3.25.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223912-1/",
+      "Description": "Link for SUSE-SU-2022:3912-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-November/012847.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3912-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1204708",
+      "Description": "SUSE Bug 1204708"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-43680/",
+      "Description": "SUSE CVE CVE-2022-43680 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-43680",
+      "Description": "In libexpat through 2.4.9, there is a use-after free caused by overeager destruction of a shared DTD in XML_ExternalEntityParserCreate in out-of-memory situations.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-43680.html",
+          "Description": "CVE-2022-43680"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1204708",
+          "Description": "SUSE Bug 1204708"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-SP1-SAPCAL-GCE:expat-2.2.5-150000.3.25.1",
+            "Image SLES15-SP1-SAPCAL-GCE:libexpat-devel-2.2.5-150000.3.25.1",
+            "Image SLES15-SP1-SAPCAL-GCE:libexpat1-2.2.5-150000.3.25.1",
+            "Image SLES15-SP2-BYOS-GCE:libexpat1-2.2.5-150000.3.25.1",
+            "Image SLES15-SP2-SAP-BYOS-Azure:expat-2.2.5-150000.3.25.1",
+            "Image SLES15-SP2-SAP-BYOS-Azure:libexpat1-2.2.5-150000.3.25.1",
+            "Image SLES15-SP2-SAP-BYOS-GCE:expat-2.2.5-150000.3.25.1",
+            "Image SLES15-SP2-SAP-BYOS-GCE:libexpat1-2.2.5-150000.3.25.1",
+            "Image SLES15-SP3-BYOS-EC2-HVM:libexpat1-2.2.5-150000.3.25.1",
+            "Image SLES15-SP3-BYOS-GCE:libexpat1-2.2.5-150000.3.25.1",
+            "Image SLES15-SP3-HPC-BYOS-EC2-HVM:libexpat1-2.2.5-150000.3.25.1",
+            "Image SLES15-SP3-SAP-BYOS-EC2-HVM:expat-2.2.5-150000.3.25.1",
+            "Image SLES15-SP3-SAP-BYOS-EC2-HVM:libexpat1-2.2.5-150000.3.25.1",
+            "Image SLES15-SP3-SAP-BYOS-GCE:expat-2.2.5-150000.3.25.1",
+            "Image SLES15-SP3-SAP-BYOS-GCE:libexpat1-2.2.5-150000.3.25.1",
+            "Image SLES15-SP3-SAPCAL-EC2-HVM:expat-2.2.5-150000.3.25.1",
+            "Image SLES15-SP3-SAPCAL-EC2-HVM:libexpat-devel-2.2.5-150000.3.25.1",
+            "Image SLES15-SP3-SAPCAL-EC2-HVM:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Enterprise Storage 6:expat-2.2.5-150000.3.25.1",
+            "SUSE Enterprise Storage 6:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Enterprise Storage 6:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Enterprise Storage 6:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "SUSE Enterprise Storage 7:expat-2.2.5-150000.3.25.1",
+            "SUSE Enterprise Storage 7:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Enterprise Storage 7:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Enterprise Storage 7:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:expat-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:expat-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:expat-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:expat-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:expat-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:expat-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Micro 5.1:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Micro 5.2:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:expat-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:expat-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:expat-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:expat-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:expat-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15-LTSS:expat-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:expat-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:expat-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:expat-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "SUSE Manager Proxy 4.1:expat-2.2.5-150000.3.25.1",
+            "SUSE Manager Proxy 4.1:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Manager Proxy 4.1:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Manager Proxy 4.1:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "SUSE Manager Retail Branch Server 4.1:expat-2.2.5-150000.3.25.1",
+            "SUSE Manager Retail Branch Server 4.1:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Manager Retail Branch Server 4.1:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Manager Retail Branch Server 4.1:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "SUSE Manager Server 4.1:expat-2.2.5-150000.3.25.1",
+            "SUSE Manager Server 4.1:libexpat-devel-2.2.5-150000.3.25.1",
+            "SUSE Manager Server 4.1:libexpat1-2.2.5-150000.3.25.1",
+            "SUSE Manager Server 4.1:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "openSUSE Leap 15.3:expat-2.2.5-150000.3.25.1",
+            "openSUSE Leap 15.3:libexpat-devel-2.2.5-150000.3.25.1",
+            "openSUSE Leap 15.3:libexpat-devel-32bit-2.2.5-150000.3.25.1",
+            "openSUSE Leap 15.3:libexpat1-2.2.5-150000.3.25.1",
+            "openSUSE Leap 15.3:libexpat1-32bit-2.2.5-150000.3.25.1",
+            "openSUSE Leap Micro 5.2:libexpat1-2.2.5-150000.3.25.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

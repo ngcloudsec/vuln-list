@@ -1,0 +1,604 @@
+{
+  "Title": "Security update for gzip",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:1617-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-05-10T12:40:52Z",
+    "CurrentReleaseDate": "2022-05-10T12:40:52Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-05-10T12:40:52Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for gzip",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for gzip fixes the following issues:\n\n- CVE-2022-1271: Fix escaping of malicious filenames. (bsc#1198062)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-httpd:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Container suse/pcp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.3/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Container trento/trento-runner:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP3-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-EC2-ECS-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.10-150200.10.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20221617-1/",
+      "Description": "Link for SUSE-SU-2022:1617-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-May/010979.html",
+      "Description": "E-Mail link for SUSE-SU-2022:1617-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1198062",
+      "Description": "SUSE Bug 1198062"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1198922",
+      "Description": "SUSE Bug 1198922"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1271/",
+      "Description": "SUSE CVE CVE-2022-1271 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-1271",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1271.html",
+          "Description": "CVE-2022-1271"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1198062",
+          "Description": "SUSE Bug 1198062"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1198812",
+          "Description": "SUSE Bug 1198812"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199107",
+          "Description": "SUSE Bug 1199107"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199108",
+          "Description": "SUSE Bug 1199108"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:gzip-1.10-150200.10.1",
+            "Container suse/manager/4.3/proxy-httpd:latest:gzip-1.10-150200.10.1",
+            "Container suse/pcp:latest:gzip-1.10-150200.10.1",
+            "Container suse/sle-micro/5.3/toolbox:latest:gzip-1.10-150200.10.1",
+            "Container trento/trento-runner:latest:gzip-1.10-150200.10.1",
+            "Image SLES15-SP2-SAP-BYOS-GCE:gzip-1.10-150200.10.1",
+            "Image SLES15-SP2-SAP-GCE:gzip-1.10-150200.10.1",
+            "Image SLES15-SP3-BYOS-GCE:gzip-1.10-150200.10.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:gzip-1.10-150200.10.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:gzip-1.10-150200.10.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:gzip-1.10-150200.10.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:gzip-1.10-150200.10.1",
+            "Image SLES15-SP3-GCE:gzip-1.10-150200.10.1",
+            "Image SLES15-SP3-HPC-BYOS-GCE:gzip-1.10-150200.10.1",
+            "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:gzip-1.10-150200.10.1",
+            "Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure:gzip-1.10-150200.10.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:gzip-1.10-150200.10.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:gzip-1.10-150200.10.1",
+            "Image SLES15-SP3-SAP-BYOS-GCE:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-Azure-Basic:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-Azure-Standard:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-BYOS-Azure:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-BYOS-EC2:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-BYOS-GCE:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-BYOS:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-CHOST-BYOS-Aliyun:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-CHOST-BYOS-Azure:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-CHOST-BYOS-GCE:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-CHOST-BYOS:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-EC2-ECS-HVM:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-EC2:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-GCE:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-HPC-Azure:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-HPC-BYOS-Azure:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-HPC-BYOS-EC2:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-HPC-BYOS-GCE:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-HPC-BYOS:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-HPC-EC2:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-HPC-GCE:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-HPC:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-SAP-Azure:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-SAP-BYOS-Azure:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-SAP-BYOS-EC2:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-SAP-BYOS-GCE:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-SAP-BYOS:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-SAP-EC2:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-SAP-GCE:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-SAP:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-SAPCAL-Azure:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-SAPCAL-EC2:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-SAPCAL-GCE:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4-SAPCAL:gzip-1.10-150200.10.1",
+            "Image SLES15-SP4:gzip-1.10-150200.10.1",
+            "SUSE Enterprise Storage 7:gzip-1.10-150200.10.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:gzip-1.10-150200.10.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:gzip-1.10-150200.10.1",
+            "SUSE Linux Enterprise Micro 5.0:gzip-1.10-150200.10.1",
+            "SUSE Linux Enterprise Micro 5.1:gzip-1.10-150200.10.1",
+            "SUSE Linux Enterprise Micro 5.2:gzip-1.10-150200.10.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:gzip-1.10-150200.10.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:gzip-1.10-150200.10.1",
+            "SUSE Linux Enterprise Real Time 15 SP2:gzip-1.10-150200.10.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:gzip-1.10-150200.10.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:gzip-1.10-150200.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:gzip-1.10-150200.10.1",
+            "SUSE Manager Proxy 4.1:gzip-1.10-150200.10.1",
+            "SUSE Manager Retail Branch Server 4.1:gzip-1.10-150200.10.1",
+            "SUSE Manager Server 4.1:gzip-1.10-150200.10.1",
+            "openSUSE Leap 15.3:gzip-1.10-150200.10.1",
+            "openSUSE Leap 15.4:gzip-1.10-150200.10.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

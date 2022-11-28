@@ -1,0 +1,630 @@
+{
+  "Title": "Security update for salt",
+  "Tracking": {
+    "ID": "SUSE-SU-2021:3555-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2021-10-27T13:28:57Z",
+    "CurrentReleaseDate": "2021-10-27T13:28:57Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2021-10-27T13:28:57Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for salt",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for salt fixes the following issues:\n\n- Support querying for JSON data in external sql pillar.\n- Exclude the full path of a download URL to prevent injection of malicious code.\n  (bsc#1190265, CVE-2021-21996)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "python3-salt-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-api-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-bash-completion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-cloud-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-doc-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-fish-completion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-master-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-minion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-proxy-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-ssh-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-standalone-formulas-configuration-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-syndic-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-transactional-update-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-zsh-completion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-salt-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-api-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-bash-completion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-cloud-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-doc-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-fish-completion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-master-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-minion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-proxy-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-ssh-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-standalone-formulas-configuration-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-syndic-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-transactional-update-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-zsh-completion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-salt-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-api-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-bash-completion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-cloud-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-doc-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-fish-completion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-master-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-minion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-proxy-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-ssh-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-standalone-formulas-configuration-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-syndic-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-transactional-update-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-zsh-completion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-salt-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-api-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-bash-completion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-cloud-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-doc-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-fish-completion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-master-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-minion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-proxy-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-ssh-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-standalone-formulas-configuration-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-syndic-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-transactional-update-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-zsh-completion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-salt-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-api-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-bash-completion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-cloud-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-doc-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-fish-completion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-master-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-minion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-proxy-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-ssh-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-standalone-formulas-configuration-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-syndic-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-transactional-update-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-zsh-completion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-salt-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-api-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-bash-completion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-cloud-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-doc-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-fish-completion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-master-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-minion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-proxy-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-ssh-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-standalone-formulas-configuration-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-syndic-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-transactional-update-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "salt-zsh-completion-3002.2-48.4",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2021/suse-su-20213555-1/",
+      "Description": "Link for SUSE-SU-2021:3555-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2021-October/009662.html",
+      "Description": "E-Mail link for SUSE-SU-2021:3555-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1190265",
+      "Description": "SUSE Bug 1190265"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2021-21996/",
+      "Description": "SUSE CVE CVE-2021-21996 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2021-21996",
+      "Description": "An issue was discovered in SaltStack Salt before 3003.3. A user who has control of the source, and source_hash URLs can gain full file system access as root on a salt minion.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2021-21996.html",
+          "Description": "CVE-2021-21996"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1190265",
+          "Description": "SUSE Bug 1190265"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 6:python3-salt-3002.2-48.4",
+            "SUSE Enterprise Storage 6:salt-3002.2-48.4",
+            "SUSE Enterprise Storage 6:salt-api-3002.2-48.4",
+            "SUSE Enterprise Storage 6:salt-bash-completion-3002.2-48.4",
+            "SUSE Enterprise Storage 6:salt-cloud-3002.2-48.4",
+            "SUSE Enterprise Storage 6:salt-doc-3002.2-48.4",
+            "SUSE Enterprise Storage 6:salt-fish-completion-3002.2-48.4",
+            "SUSE Enterprise Storage 6:salt-master-3002.2-48.4",
+            "SUSE Enterprise Storage 6:salt-minion-3002.2-48.4",
+            "SUSE Enterprise Storage 6:salt-proxy-3002.2-48.4",
+            "SUSE Enterprise Storage 6:salt-ssh-3002.2-48.4",
+            "SUSE Enterprise Storage 6:salt-standalone-formulas-configuration-3002.2-48.4",
+            "SUSE Enterprise Storage 6:salt-syndic-3002.2-48.4",
+            "SUSE Enterprise Storage 6:salt-transactional-update-3002.2-48.4",
+            "SUSE Enterprise Storage 6:salt-zsh-completion-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:python3-salt-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:salt-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:salt-api-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:salt-bash-completion-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:salt-cloud-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:salt-doc-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:salt-fish-completion-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:salt-master-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:salt-minion-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:salt-proxy-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:salt-ssh-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:salt-standalone-formulas-configuration-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:salt-syndic-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:salt-transactional-update-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:salt-zsh-completion-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:python3-salt-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:salt-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:salt-api-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:salt-bash-completion-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:salt-cloud-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:salt-doc-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:salt-fish-completion-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:salt-master-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:salt-minion-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:salt-proxy-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:salt-ssh-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:salt-standalone-formulas-configuration-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:salt-syndic-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:salt-transactional-update-3002.2-48.4",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:salt-zsh-completion-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:python3-salt-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:salt-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:salt-api-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:salt-bash-completion-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:salt-cloud-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:salt-doc-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:salt-fish-completion-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:salt-master-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:salt-minion-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:salt-proxy-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:salt-ssh-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:salt-standalone-formulas-configuration-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:salt-syndic-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:salt-transactional-update-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:salt-zsh-completion-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:python3-salt-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:salt-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:salt-api-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:salt-bash-completion-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:salt-cloud-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:salt-doc-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:salt-fish-completion-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:salt-master-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:salt-minion-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:salt-proxy-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:salt-ssh-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:salt-standalone-formulas-configuration-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:salt-syndic-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:salt-transactional-update-3002.2-48.4",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:salt-zsh-completion-3002.2-48.4",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:python3-salt-3002.2-48.4",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:salt-3002.2-48.4",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:salt-api-3002.2-48.4",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:salt-bash-completion-3002.2-48.4",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:salt-cloud-3002.2-48.4",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:salt-doc-3002.2-48.4",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:salt-fish-completion-3002.2-48.4",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:salt-master-3002.2-48.4",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:salt-minion-3002.2-48.4",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:salt-proxy-3002.2-48.4",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:salt-ssh-3002.2-48.4",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:salt-standalone-formulas-configuration-3002.2-48.4",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:salt-syndic-3002.2-48.4",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:salt-transactional-update-3002.2-48.4",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:salt-zsh-completion-3002.2-48.4"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

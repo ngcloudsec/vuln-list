@@ -1,0 +1,720 @@
+{
+  "Title": "Security update for gmp",
+  "Tracking": {
+    "ID": "SUSE-SU-2021:3946-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2021-12-06T13:57:48Z",
+    "CurrentReleaseDate": "2021-12-06T13:57:48Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2021-12-06T13:57:48Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for gmp",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for gmp fixes the following issues:\n    \n- CVE-2021-43618: Fixed buffer overflow via crafted input in mpz/inp_raw.c (bsc#1192717).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/bci-micro:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/bci-micro:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/bci-minimal:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/bci-minimal:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/golang:1.16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/389-ds:1.4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/busybox:1.34.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/caasp-dex:2.16.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cert-exporter:2.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium-etcd-operator:2.0.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium-init:1.5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium-operator:1.6.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium:1.6.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cloud-provider-openstack:1.15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/configmap-reload:0.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/coredns:1.6.7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/curl:7.60.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/etcd:3.4.13",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/gangway:3.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/grafana:7.5.12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/helm-tiller:2.16.12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/hyperkube:v1.17.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/k8s-sidecar:0.1.75",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/kube-state-metrics:1.9.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/kubernetes-client:1.17.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/kucero:1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/kured:1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/metrics-server:0.3.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-alertmanager:0.16.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-node-exporter:1.1.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-pushgateway:0.6.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-server:2.7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/rsyslog:8.39.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/skuba-tooling:0.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/test-update:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-plugin-for-aws:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-plugin-for-gcp:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-plugin-for-microsoft-azure:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-restic-restore-helper:1.3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero:1.3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container ses/6/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container ses/6/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container ses/7/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-attacher:v3.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-node-driver-registrar:v2.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-provisioner:v3.0.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-resizer:v1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-snapshotter:v4.2.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container ses/7/prometheus-webhook-snmp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-alertmanager:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-node-exporter:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container ses/7/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container trento/trento-db:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container trento/trento-runner:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Container trento/trento-web:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gmp-devel-6.1.2-4.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-32bit-6.1.2-4.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmpxx4-6.1.2-4.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gmp-devel-6.1.2-4.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-32bit-6.1.2-4.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmpxx4-6.1.2-4.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gmp-devel-32bit-6.1.2-4.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmpxx4-32bit-6.1.2-4.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gmp-devel-32bit-6.1.2-4.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmpxx4-32bit-6.1.2-4.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgmp10-6.1.2-4.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2021/suse-su-20213946-1/",
+      "Description": "Link for SUSE-SU-2021:3946-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2021-December/009846.html",
+      "Description": "E-Mail link for SUSE-SU-2021:3946-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1192717",
+      "Description": "SUSE Bug 1192717"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2021-43618/",
+      "Description": "SUSE CVE CVE-2021-43618 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2021-43618",
+      "Description": "GNU Multiple Precision Arithmetic Library (GMP) through 6.2.1 has an mpz/inp_raw.c integer overflow and resultant buffer overflow via crafted input, leading to a segmentation fault on 32-bit platforms.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2021-43618.html",
+          "Description": "CVE-2021-43618"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1192717",
+          "Description": "SUSE Bug 1192717"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:libgmp10-6.1.2-4.9.1",
+            "Container bci/bci-micro:15.4:libgmp10-6.1.2-4.9.1",
+            "Container bci/bci-micro:latest:libgmp10-6.1.2-4.9.1",
+            "Container bci/bci-minimal:15.4:libgmp10-6.1.2-4.9.1",
+            "Container bci/bci-minimal:latest:libgmp10-6.1.2-4.9.1",
+            "Container bci/dotnet-aspnet:3.1:libgmp10-6.1.2-4.9.1",
+            "Container bci/dotnet-aspnet:5.0:libgmp10-6.1.2-4.9.1",
+            "Container bci/dotnet-aspnet:latest:libgmp10-6.1.2-4.9.1",
+            "Container bci/dotnet-runtime:3.1:libgmp10-6.1.2-4.9.1",
+            "Container bci/dotnet-runtime:5.0:libgmp10-6.1.2-4.9.1",
+            "Container bci/dotnet-runtime:latest:libgmp10-6.1.2-4.9.1",
+            "Container bci/dotnet-sdk:3.1:libgmp10-6.1.2-4.9.1",
+            "Container bci/dotnet-sdk:5.0:libgmp10-6.1.2-4.9.1",
+            "Container bci/dotnet-sdk:latest:libgmp10-6.1.2-4.9.1",
+            "Container bci/golang:1.16:libgmp10-6.1.2-4.9.1",
+            "Container bci/golang:latest:libgmp10-6.1.2-4.9.1",
+            "Container bci/node:12:libgmp10-6.1.2-4.9.1",
+            "Container bci/node:14:libgmp10-6.1.2-4.9.1",
+            "Container bci/nodejs:latest:libgmp10-6.1.2-4.9.1",
+            "Container bci/openjdk-devel:latest:libgmp10-6.1.2-4.9.1",
+            "Container bci/openjdk:latest:libgmp10-6.1.2-4.9.1",
+            "Container bci/ruby:latest:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/389-ds:1.4.2:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/busybox:1.34.1:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/caasp-dex:2.16.0:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/cert-exporter:2.3.0:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/cilium-etcd-operator:2.0.5:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/cilium-init:1.5.3:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/cilium-operator:1.6.6:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/cilium:1.6.6:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/cloud-provider-openstack:1.15.0:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/configmap-reload:0.3.0:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/coredns:1.6.7:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/curl:7.60.0:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/etcd:3.4.13:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/gangway:3.1.0:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/grafana:7.5.12:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/helm-tiller:2.16.12:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/hyperkube:v1.17.17:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/k8s-sidecar:0.1.75:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/kube-state-metrics:1.9.3:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/kubernetes-client:1.17.17:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/kucero:1.3.0:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/kured:1.3.0:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/metrics-server:0.3.6:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/prometheus-alertmanager:0.16.2:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/prometheus-node-exporter:1.1.2:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/prometheus-pushgateway:0.6.0:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/prometheus-server:2.7.1:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/rsyslog:8.39.0:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/skuba-tooling:0.1.0:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/test-update:beta:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/velero-plugin-for-aws:1.0.1:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/velero-plugin-for-gcp:1.0.1:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/velero-plugin-for-microsoft-azure:1.0.1:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/velero-restic-restore-helper:1.3.1:libgmp10-6.1.2-4.9.1",
+            "Container caasp/v4/velero:1.3.1:libgmp10-6.1.2-4.9.1",
+            "Container ses/6/cephcsi/cephcsi:latest:libgmp10-6.1.2-4.9.1",
+            "Container ses/6/rook/ceph:latest:libgmp10-6.1.2-4.9.1",
+            "Container ses/7/ceph/grafana:latest:libgmp10-6.1.2-4.9.1",
+            "Container ses/7/cephcsi/cephcsi:latest:libgmp10-6.1.2-4.9.1",
+            "Container ses/7/cephcsi/csi-attacher:v3.3.0:libgmp10-6.1.2-4.9.1",
+            "Container ses/7/cephcsi/csi-node-driver-registrar:v2.3.0:libgmp10-6.1.2-4.9.1",
+            "Container ses/7/cephcsi/csi-provisioner:v3.0.0:libgmp10-6.1.2-4.9.1",
+            "Container ses/7/cephcsi/csi-resizer:v1.3.0:libgmp10-6.1.2-4.9.1",
+            "Container ses/7/cephcsi/csi-snapshotter:v4.2.0:libgmp10-6.1.2-4.9.1",
+            "Container ses/7/prometheus-webhook-snmp:latest:libgmp10-6.1.2-4.9.1",
+            "Container ses/7/prometheus/prometheus-alertmanager:latest:libgmp10-6.1.2-4.9.1",
+            "Container ses/7/prometheus/prometheus-node-exporter:latest:libgmp10-6.1.2-4.9.1",
+            "Container ses/7/prometheus/prometheus-server:latest:libgmp10-6.1.2-4.9.1",
+            "Container ses/7/rook/ceph:latest:libgmp10-6.1.2-4.9.1",
+            "Container suse/sle15:15.0:libgmp10-6.1.2-4.9.1",
+            "Container suse/sle15:15.1:libgmp10-6.1.2-4.9.1",
+            "Container suse/sle15:15.2:libgmp10-6.1.2-4.9.1",
+            "Container suse/sle15:15.3:libgmp10-6.1.2-4.9.1",
+            "Container suse/sle15:15.4:libgmp10-6.1.2-4.9.1",
+            "Container trento/trento-db:latest:libgmp10-6.1.2-4.9.1",
+            "Container trento/trento-runner:latest:libgmp10-6.1.2-4.9.1",
+            "Container trento/trento-web:latest:libgmp10-6.1.2-4.9.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:libgmp10-6.1.2-4.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libgmp10-6.1.2-4.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libgmp10-6.1.2-4.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libgmp10-6.1.2-4.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libgmp10-6.1.2-4.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libgmp10-6.1.2-4.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libgmp10-6.1.2-4.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libgmp10-6.1.2-4.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libgmp10-6.1.2-4.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libgmp10-6.1.2-4.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libgmp10-6.1.2-4.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libgmp10-6.1.2-4.9.1",
+            "SUSE Linux Enterprise Micro 5.0:libgmp10-6.1.2-4.9.1",
+            "SUSE Linux Enterprise Micro 5.1:libgmp10-6.1.2-4.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:gmp-devel-6.1.2-4.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libgmp10-32bit-6.1.2-4.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libgmp10-6.1.2-4.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libgmpxx4-6.1.2-4.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:gmp-devel-6.1.2-4.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libgmp10-32bit-6.1.2-4.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libgmp10-6.1.2-4.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libgmpxx4-6.1.2-4.9.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP2:gmp-devel-32bit-6.1.2-4.9.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP2:libgmpxx4-32bit-6.1.2-4.9.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:gmp-devel-32bit-6.1.2-4.9.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:libgmpxx4-32bit-6.1.2-4.9.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

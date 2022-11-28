@@ -1,0 +1,559 @@
+{
+  "Title": "Security update for MozillaThunderbird",
+  "Tracking": {
+    "ID": "openSUSE-SU-2022:0199-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-01-26T08:36:10Z",
+    "CurrentReleaseDate": "2022-01-26T08:36:10Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-01-26T08:36:10Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for MozillaThunderbird",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for MozillaThunderbird fixes the following issues:\n\n- CVE-2021-4140: Fixed Iframe sandbox bypass with XSLT (bsc#1194547).\n- CVE-2022-22737: Fixed race condition when playing audio files (bsc#1194547).\n- CVE-2022-22738: Fixed heap-buffer-overflow in blendGaussianBlur (bsc#1194547).\n- CVE-2022-22739: Fixed missing throttling on external protocol launch dialog (bsc#1194547).\n- CVE-2022-22740: Fixed use-after-free of ChannelEventQueue::mOwner (bsc#1194547).\n- CVE-2022-22741: Fixed browser window spoof using fullscreen mode (bsc#1194547).\n- CVE-2022-22742: Fixed out-of-bounds memory access when inserting text in edit mode (bsc#1194547).\n- CVE-2022-22743: Fixed browser window spoof using fullscreen mode (bsc#1194547).\n- CVE-2022-22744: Fixed possible command injection via the 'Copy as curl' feature in DevTools (bsc#1194547).\n- CVE-2022-22745: Fixed leaking cross-origin URLs through securitypolicyviolation event (bsc#1194547).\n- CVE-2022-22746: Fixed calling into reportValidity could have lead to fullscreen window spoof (bsc#1194547).\n- CVE-2022-22747: Fixed crash when handling empty pkcs7 sequence(bsc#1194547).\n- CVE-2022-22748: Fixed spoofed origin on external protocol launch dialog (bsc#1194547).\n- CVE-2022-22751: Fixed memory safety bugs (bsc#1194547).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "MozillaThunderbird-91.5.0-8.51.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaThunderbird-translations-common-91.5.0-8.51.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaThunderbird-translations-other-91.5.0-8.51.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://lists.opensuse.org/archives/list/security-announce@lists.opensuse.org/thread/VJHDOBPPHGJWIXDJDMLZUCHBBMTQIEIO/",
+      "Description": "E-Mail link for openSUSE-SU-2022:0199-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1194547",
+      "Description": "SUSE Bug 1194547"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2021-4140/",
+      "Description": "SUSE CVE CVE-2021-4140 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-22737/",
+      "Description": "SUSE CVE CVE-2022-22737 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-22738/",
+      "Description": "SUSE CVE CVE-2022-22738 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-22739/",
+      "Description": "SUSE CVE CVE-2022-22739 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-22740/",
+      "Description": "SUSE CVE CVE-2022-22740 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-22741/",
+      "Description": "SUSE CVE CVE-2022-22741 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-22742/",
+      "Description": "SUSE CVE CVE-2022-22742 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-22743/",
+      "Description": "SUSE CVE CVE-2022-22743 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-22744/",
+      "Description": "SUSE CVE CVE-2022-22744 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-22745/",
+      "Description": "SUSE CVE CVE-2022-22745 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-22746/",
+      "Description": "SUSE CVE CVE-2022-22746 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-22747/",
+      "Description": "SUSE CVE CVE-2022-22747 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-22748/",
+      "Description": "SUSE CVE CVE-2022-22748 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-22751/",
+      "Description": "SUSE CVE CVE-2022-22751 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2021-4140",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2021-4140.html",
+          "Description": "CVE-2021-4140"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1194547",
+          "Description": "SUSE Bug 1194547"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.3:MozillaThunderbird-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-common-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-other-91.5.0-8.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-22737",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-22737.html",
+          "Description": "CVE-2022-22737"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1194547",
+          "Description": "SUSE Bug 1194547"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.3:MozillaThunderbird-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-common-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-other-91.5.0-8.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-22738",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-22738.html",
+          "Description": "CVE-2022-22738"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1194547",
+          "Description": "SUSE Bug 1194547"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.3:MozillaThunderbird-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-common-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-other-91.5.0-8.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-22739",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-22739.html",
+          "Description": "CVE-2022-22739"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1194547",
+          "Description": "SUSE Bug 1194547"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.3:MozillaThunderbird-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-common-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-other-91.5.0-8.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-22740",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-22740.html",
+          "Description": "CVE-2022-22740"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1194547",
+          "Description": "SUSE Bug 1194547"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.3:MozillaThunderbird-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-common-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-other-91.5.0-8.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-22741",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-22741.html",
+          "Description": "CVE-2022-22741"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1194547",
+          "Description": "SUSE Bug 1194547"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.3:MozillaThunderbird-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-common-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-other-91.5.0-8.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-22742",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-22742.html",
+          "Description": "CVE-2022-22742"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1194547",
+          "Description": "SUSE Bug 1194547"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.3:MozillaThunderbird-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-common-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-other-91.5.0-8.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-22743",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-22743.html",
+          "Description": "CVE-2022-22743"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1194547",
+          "Description": "SUSE Bug 1194547"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.3:MozillaThunderbird-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-common-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-other-91.5.0-8.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-22744",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-22744.html",
+          "Description": "CVE-2022-22744"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1194547",
+          "Description": "SUSE Bug 1194547"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.3:MozillaThunderbird-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-common-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-other-91.5.0-8.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-22745",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-22745.html",
+          "Description": "CVE-2022-22745"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1194547",
+          "Description": "SUSE Bug 1194547"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.3:MozillaThunderbird-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-common-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-other-91.5.0-8.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-22746",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-22746.html",
+          "Description": "CVE-2022-22746"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1194547",
+          "Description": "SUSE Bug 1194547"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.3:MozillaThunderbird-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-common-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-other-91.5.0-8.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-22747",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-22747.html",
+          "Description": "CVE-2022-22747"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1194547",
+          "Description": "SUSE Bug 1194547"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.3:MozillaThunderbird-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-common-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-other-91.5.0-8.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-22748",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-22748.html",
+          "Description": "CVE-2022-22748"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1194547",
+          "Description": "SUSE Bug 1194547"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.3:MozillaThunderbird-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-common-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-other-91.5.0-8.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-22751",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-22751.html",
+          "Description": "CVE-2022-22751"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1194547",
+          "Description": "SUSE Bug 1194547"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.3:MozillaThunderbird-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-common-91.5.0-8.51.1",
+            "openSUSE Leap 15.3:MozillaThunderbird-translations-other-91.5.0-8.51.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

@@ -1,0 +1,880 @@
+{
+  "Title": "Security update for chromium",
+  "Tracking": {
+    "ID": "openSUSE-SU-2022:10005-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-06-03T09:26:22Z",
+    "CurrentReleaseDate": "2022-06-03T09:26:22Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-06-03T09:26:22Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for chromium",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for chromium fixes the following issues:\n\nChromium 102.0.5001.61 (boo#1199893)\n\n* CVE-2022-1853: Use after free in Indexed DB\n* CVE-2022-1854: Use after free in ANGLE\n* CVE-2022-1855: Use after free in Messaging\n* CVE-2022-1856: Use after free in User Education\n* CVE-2022-1857: Insufficient policy enforcement in File System API\n* CVE-2022-1858: Out of bounds read in DevTools\n* CVE-2022-1859: Use after free in Performance Manager\n* CVE-2022-1860: Use after free in UI Foundations\n* CVE-2022-1861: Use after free in Sharing\n* CVE-2022-1862: Inappropriate implementation in Extensions\n* CVE-2022-1863: Use after free in Tab Groups\n* CVE-2022-1864: Use after free in WebApp Installs\n* CVE-2022-1865: Use after free in Bookmarks\n* CVE-2022-1866: Use after free in Tablet Mode\n* CVE-2022-1867: Insufficient validation of untrusted input in Data Transfer\n* CVE-2022-1868: Inappropriate implementation in Extensions API\n* CVE-2022-1869: Type Confusion in V8\n* CVE-2022-1870: Use after free in App Service\n* CVE-2022-1871: Insufficient policy enforcement in File System API\n* CVE-2022-1872: Insufficient policy enforcement in Extensions API\n* CVE-2022-1873: Insufficient policy enforcement in COOP\n* CVE-2022-1874: Insufficient policy enforcement in Safe Browsing\n* CVE-2022-1875: Inappropriate implementation in PDF\n* CVE-2022-1876: Heap buffer overflow in DevTools\n\n- Chromium 101.0.4951.67\n\n  * fixes for other platforms\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "chromedriver-102.0.5005.61-bp154.2.5.3",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "chromium-102.0.5005.61-bp154.2.5.3",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://lists.opensuse.org/archives/list/security-announce@lists.opensuse.org/thread/JSMLLTNKJ3TPX4NE3EBN2DITMAJNWNB6/",
+      "Description": "E-Mail link for openSUSE-SU-2022:10005-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1199893",
+      "Description": "SUSE Bug 1199893"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1853/",
+      "Description": "SUSE CVE CVE-2022-1853 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1854/",
+      "Description": "SUSE CVE CVE-2022-1854 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1855/",
+      "Description": "SUSE CVE CVE-2022-1855 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1856/",
+      "Description": "SUSE CVE CVE-2022-1856 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1857/",
+      "Description": "SUSE CVE CVE-2022-1857 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1858/",
+      "Description": "SUSE CVE CVE-2022-1858 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1859/",
+      "Description": "SUSE CVE CVE-2022-1859 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1860/",
+      "Description": "SUSE CVE CVE-2022-1860 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1861/",
+      "Description": "SUSE CVE CVE-2022-1861 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1862/",
+      "Description": "SUSE CVE CVE-2022-1862 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1863/",
+      "Description": "SUSE CVE CVE-2022-1863 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1864/",
+      "Description": "SUSE CVE CVE-2022-1864 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1865/",
+      "Description": "SUSE CVE CVE-2022-1865 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1866/",
+      "Description": "SUSE CVE CVE-2022-1866 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1867/",
+      "Description": "SUSE CVE CVE-2022-1867 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1868/",
+      "Description": "SUSE CVE CVE-2022-1868 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1869/",
+      "Description": "SUSE CVE CVE-2022-1869 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1870/",
+      "Description": "SUSE CVE CVE-2022-1870 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1871/",
+      "Description": "SUSE CVE CVE-2022-1871 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1872/",
+      "Description": "SUSE CVE CVE-2022-1872 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1873/",
+      "Description": "SUSE CVE CVE-2022-1873 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1874/",
+      "Description": "SUSE CVE CVE-2022-1874 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1875/",
+      "Description": "SUSE CVE CVE-2022-1875 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1876/",
+      "Description": "SUSE CVE CVE-2022-1876 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-1853",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1853.html",
+          "Description": "CVE-2022-1853"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1854",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1854.html",
+          "Description": "CVE-2022-1854"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1855",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1855.html",
+          "Description": "CVE-2022-1855"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1856",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1856.html",
+          "Description": "CVE-2022-1856"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1857",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1857.html",
+          "Description": "CVE-2022-1857"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1858",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1858.html",
+          "Description": "CVE-2022-1858"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1859",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1859.html",
+          "Description": "CVE-2022-1859"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1860",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1860.html",
+          "Description": "CVE-2022-1860"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1861",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1861.html",
+          "Description": "CVE-2022-1861"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1862",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1862.html",
+          "Description": "CVE-2022-1862"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1863",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1863.html",
+          "Description": "CVE-2022-1863"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1864",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1864.html",
+          "Description": "CVE-2022-1864"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1865",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1865.html",
+          "Description": "CVE-2022-1865"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1866",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1866.html",
+          "Description": "CVE-2022-1866"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1867",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1867.html",
+          "Description": "CVE-2022-1867"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1868",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1868.html",
+          "Description": "CVE-2022-1868"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1869",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1869.html",
+          "Description": "CVE-2022-1869"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1870",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1870.html",
+          "Description": "CVE-2022-1870"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1871",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1871.html",
+          "Description": "CVE-2022-1871"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1872",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1872.html",
+          "Description": "CVE-2022-1872"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1873",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1873.html",
+          "Description": "CVE-2022-1873"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1874",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1874.html",
+          "Description": "CVE-2022-1874"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1875",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1875.html",
+          "Description": "CVE-2022-1875"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-1876",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1876.html",
+          "Description": "CVE-2022-1876"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199893",
+          "Description": "SUSE Bug 1199893"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openSUSE Leap 15.4:chromedriver-102.0.5005.61-bp154.2.5.3",
+            "openSUSE Leap 15.4:chromium-102.0.5005.61-bp154.2.5.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

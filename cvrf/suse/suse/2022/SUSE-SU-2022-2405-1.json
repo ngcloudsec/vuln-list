@@ -1,0 +1,238 @@
+{
+  "Title": "Security update for p11-kit",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:2405-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-07-15T09:48:03Z",
+    "CurrentReleaseDate": "2022-07-15T09:48:03Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-07-15T09:48:03Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for p11-kit",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for p11-kit fixes the following issues:\n\n- CVE-2020-29362: Fixed a 4 byte overread in p11_rpc_buffer_get_byte_array which could lead to crashes (bsc#1180065)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libp11-kit0-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "Container suse/sle15:15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "p11-kit-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "Container suse/sle15:15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "p11-kit-tools-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "Container suse/sle15:15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libp11-kit0-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libp11-kit0-32bit-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "p11-kit-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "p11-kit-devel-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "p11-kit-nss-trust-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "p11-kit-tools-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "p11-kit-32bit-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Package Hub 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libp11-kit0-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "p11-kit-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "p11-kit-tools-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libp11-kit0-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "p11-kit-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "p11-kit-tools-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libp11-kit0-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libp11-kit0-32bit-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "p11-kit-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "p11-kit-32bit-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "p11-kit-devel-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "p11-kit-nss-trust-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "p11-kit-nss-trust-32bit-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "p11-kit-tools-0.23.2-150000.4.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20222405-1/",
+      "Description": "Link for SUSE-SU-2022:2405-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-July/011556.html",
+      "Description": "E-Mail link for SUSE-SU-2022:2405-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1180065",
+      "Description": "SUSE Bug 1180065"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-29362/",
+      "Description": "SUSE CVE CVE-2020-29362 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-29362",
+      "Description": "An issue was discovered in p11-kit 0.21.1 through 0.23.21. A heap-based buffer over-read has been discovered in the RPC protocol used by thep11-kit server/remote commands and the client library. When the remote entity supplies a byte array through a serialized PKCS#11 function call, the receiving entity may allow the reading of up to 4 bytes of memory past the heap allocation.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-29362.html",
+          "Description": "CVE-2020-29362"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1180065",
+          "Description": "SUSE Bug 1180065"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201534",
+          "Description": "SUSE Bug 1201534"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/sle15:15.0:libp11-kit0-0.23.2-150000.4.16.1",
+            "Container suse/sle15:15.0:p11-kit-0.23.2-150000.4.16.1",
+            "Container suse/sle15:15.0:p11-kit-tools-0.23.2-150000.4.16.1",
+            "SUSE Linux Enterprise Micro 5.1:libp11-kit0-0.23.2-150000.4.16.1",
+            "SUSE Linux Enterprise Micro 5.1:p11-kit-0.23.2-150000.4.16.1",
+            "SUSE Linux Enterprise Micro 5.1:p11-kit-tools-0.23.2-150000.4.16.1",
+            "SUSE Linux Enterprise Micro 5.2:libp11-kit0-0.23.2-150000.4.16.1",
+            "SUSE Linux Enterprise Micro 5.2:p11-kit-0.23.2-150000.4.16.1",
+            "SUSE Linux Enterprise Micro 5.2:p11-kit-tools-0.23.2-150000.4.16.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libp11-kit0-0.23.2-150000.4.16.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libp11-kit0-32bit-0.23.2-150000.4.16.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:p11-kit-0.23.2-150000.4.16.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:p11-kit-devel-0.23.2-150000.4.16.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:p11-kit-nss-trust-0.23.2-150000.4.16.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:p11-kit-tools-0.23.2-150000.4.16.1",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP3:p11-kit-32bit-0.23.2-150000.4.16.1",
+            "openSUSE Leap 15.3:libp11-kit0-0.23.2-150000.4.16.1",
+            "openSUSE Leap 15.3:libp11-kit0-32bit-0.23.2-150000.4.16.1",
+            "openSUSE Leap 15.3:p11-kit-0.23.2-150000.4.16.1",
+            "openSUSE Leap 15.3:p11-kit-32bit-0.23.2-150000.4.16.1",
+            "openSUSE Leap 15.3:p11-kit-devel-0.23.2-150000.4.16.1",
+            "openSUSE Leap 15.3:p11-kit-nss-trust-0.23.2-150000.4.16.1",
+            "openSUSE Leap 15.3:p11-kit-nss-trust-32bit-0.23.2-150000.4.16.1",
+            "openSUSE Leap 15.3:p11-kit-tools-0.23.2-150000.4.16.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "Title": "Security update for bash",
+  "Tracking": {
+    "ID": "SUSE-SU-2019:0838-2",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2019-07-05T17:46:32Z",
+    "CurrentReleaseDate": "2019-07-05T17:46:32Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2019-07-05T17:46:32Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for bash",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for bash fixes the following issues:\n\t  \nSecurity issue fixed: \n\n- CVE-2019-9924: Fixed a vulnerability in which shell did not prevent user BASH_CMDS \n  allowing the user to execute any command with the permissions of the shell (bsc#1130324).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "bash-4.3-83.23.1",
+        "RelatesToProductReference": "Container caasp/v4/nginx-ingress-controller:beta1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libreadline6-6.3-83.23.1",
+        "RelatesToProductReference": "Container caasp/v4/nginx-ingress-controller:beta1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bash-4.3-83.23.1",
+        "RelatesToProductReference": "Container suse/sles12sp3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libreadline6-6.3-83.23.1",
+        "RelatesToProductReference": "Container suse/sles12sp3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bash-4.3-83.23.1",
+        "RelatesToProductReference": "Container suse/sles12sp4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libreadline6-6.3-83.23.1",
+        "RelatesToProductReference": "Container suse/sles12sp4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bash-4.3-83.23.1",
+        "RelatesToProductReference": "Container suse/sles12sp5:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libreadline6-6.3-83.23.1",
+        "RelatesToProductReference": "Container suse/sles12sp5:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bash-4.3-83.23.1",
+        "RelatesToProductReference": "SUSE CaaS Platform ALL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bash-devel-4.3-83.23.1",
+        "RelatesToProductReference": "SUSE CaaS Platform ALL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bash-doc-4.3-83.23.1",
+        "RelatesToProductReference": "SUSE CaaS Platform ALL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bash-lang-4.3-83.23.1",
+        "RelatesToProductReference": "SUSE CaaS Platform ALL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bash-loadables-4.3-83.23.1",
+        "RelatesToProductReference": "SUSE CaaS Platform ALL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libreadline6-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE CaaS Platform ALL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libreadline6-32bit-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE CaaS Platform ALL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libreadline6-64bit-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE CaaS Platform ALL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "readline-devel-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE CaaS Platform ALL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "readline-devel-32bit-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE CaaS Platform ALL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "readline-devel-64bit-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE CaaS Platform ALL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "readline-doc-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE CaaS Platform ALL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bash-4.3-83.23.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bash-doc-4.3-83.23.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libreadline6-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libreadline6-32bit-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "readline-doc-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bash-4.3-83.23.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bash-doc-4.3-83.23.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libreadline6-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libreadline6-32bit-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "readline-doc-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bash-4.3-83.23.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bash-doc-4.3-83.23.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libreadline6-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libreadline6-32bit-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "readline-doc-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bash-4.3-83.23.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bash-doc-4.3-83.23.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libreadline6-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libreadline6-32bit-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "readline-doc-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bash-4.3-83.23.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bash-doc-4.3-83.23.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libreadline6-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libreadline6-32bit-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "readline-doc-6.3-83.23.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20190838-2/",
+      "Description": "Link for SUSE-SU-2019:0838-2"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2019-July/005665.html",
+      "Description": "E-Mail link for SUSE-SU-2019:0838-2"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1130324",
+      "Description": "SUSE Bug 1130324"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-9924/",
+      "Description": "SUSE CVE CVE-2019-9924 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-9924",
+      "Description": "rbash in Bash before 4.4-beta2 did not prevent the shell user from modifying BASH_CMDS, thus allowing the user to execute any command with the permissions of the shell.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-9924.html",
+          "Description": "CVE-2019-9924"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1130324",
+          "Description": "SUSE Bug 1130324"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container caasp/v4/nginx-ingress-controller:beta1:bash-4.3-83.23.1",
+            "Container caasp/v4/nginx-ingress-controller:beta1:libreadline6-6.3-83.23.1",
+            "Container suse/sles12sp3:latest:bash-4.3-83.23.1",
+            "Container suse/sles12sp3:latest:libreadline6-6.3-83.23.1",
+            "Container suse/sles12sp4:latest:bash-4.3-83.23.1",
+            "Container suse/sles12sp4:latest:libreadline6-6.3-83.23.1",
+            "Container suse/sles12sp5:latest:bash-4.3-83.23.1",
+            "Container suse/sles12sp5:latest:libreadline6-6.3-83.23.1",
+            "SUSE CaaS Platform ALL:bash-4.3-83.23.1",
+            "SUSE CaaS Platform ALL:bash-devel-4.3-83.23.1",
+            "SUSE CaaS Platform ALL:bash-doc-4.3-83.23.1",
+            "SUSE CaaS Platform ALL:bash-lang-4.3-83.23.1",
+            "SUSE CaaS Platform ALL:bash-loadables-4.3-83.23.1",
+            "SUSE CaaS Platform ALL:libreadline6-32bit-6.3-83.23.1",
+            "SUSE CaaS Platform ALL:libreadline6-6.3-83.23.1",
+            "SUSE CaaS Platform ALL:libreadline6-64bit-6.3-83.23.1",
+            "SUSE CaaS Platform ALL:readline-devel-32bit-6.3-83.23.1",
+            "SUSE CaaS Platform ALL:readline-devel-6.3-83.23.1",
+            "SUSE CaaS Platform ALL:readline-devel-64bit-6.3-83.23.1",
+            "SUSE CaaS Platform ALL:readline-doc-6.3-83.23.1",
+            "SUSE Enterprise Storage 4:bash-4.3-83.23.1",
+            "SUSE Enterprise Storage 4:bash-doc-4.3-83.23.1",
+            "SUSE Enterprise Storage 4:libreadline6-32bit-6.3-83.23.1",
+            "SUSE Enterprise Storage 4:libreadline6-6.3-83.23.1",
+            "SUSE Enterprise Storage 4:readline-doc-6.3-83.23.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:bash-4.3-83.23.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:bash-doc-4.3-83.23.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libreadline6-32bit-6.3-83.23.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libreadline6-6.3-83.23.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:readline-doc-6.3-83.23.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:bash-4.3-83.23.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:bash-doc-4.3-83.23.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:libreadline6-32bit-6.3-83.23.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:libreadline6-6.3-83.23.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:readline-doc-6.3-83.23.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:bash-4.3-83.23.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:bash-doc-4.3-83.23.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:libreadline6-32bit-6.3-83.23.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:libreadline6-6.3-83.23.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:readline-doc-6.3-83.23.1",
+            "SUSE OpenStack Cloud 7:bash-4.3-83.23.1",
+            "SUSE OpenStack Cloud 7:bash-doc-4.3-83.23.1",
+            "SUSE OpenStack Cloud 7:libreadline6-32bit-6.3-83.23.1",
+            "SUSE OpenStack Cloud 7:libreadline6-6.3-83.23.1",
+            "SUSE OpenStack Cloud 7:readline-doc-6.3-83.23.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

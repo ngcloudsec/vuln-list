@@ -1,0 +1,1227 @@
+{
+  "Title": "Security update for Java OpenJDK",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:0336-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2014-10-24T14:17:30Z",
+    "CurrentReleaseDate": "2014-10-24T14:17:30Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2014-10-24T14:17:30Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for Java OpenJDK",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nOracle Critical Patch Update Advisory - October 2014\n\nDescription:\n\nA Critical Patch Update (CPU) is a collection of patches for multiple \nsecurity vulnerabilities.\n\nFind more information here: \nhttp://www.oracle.com/technetwork/topics/security/cpuoct2014-1972960.html\n\u003chttp://www.oracle.com/technetwork/topics/security/cpuoct2014-1972960.html\u003e\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "java-1_7_0-openjdk-1.7.0.71-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "java-1_7_0-openjdk-devel-1.7.0.71-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20150336-1/",
+      "Description": "Link for SUSE-SU-2015:0336-1"
+    },
+    {
+      "URL": "https://lists.opensuse.org/opensuse-security-announce/2015-02/msg00024.html",
+      "Description": "E-Mail link for SUSE-SU-2015:0336-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/901242",
+      "Description": "SUSE Bug 901242"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-4288/",
+      "Description": "SUSE CVE CVE-2014-4288 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6456/",
+      "Description": "SUSE CVE CVE-2014-6456 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6457/",
+      "Description": "SUSE CVE CVE-2014-6457 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6458/",
+      "Description": "SUSE CVE CVE-2014-6458 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6466/",
+      "Description": "SUSE CVE CVE-2014-6466 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6468/",
+      "Description": "SUSE CVE CVE-2014-6468 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6476/",
+      "Description": "SUSE CVE CVE-2014-6476 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6485/",
+      "Description": "SUSE CVE CVE-2014-6485 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6492/",
+      "Description": "SUSE CVE CVE-2014-6492 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6493/",
+      "Description": "SUSE CVE CVE-2014-6493 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6502/",
+      "Description": "SUSE CVE CVE-2014-6502 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6503/",
+      "Description": "SUSE CVE CVE-2014-6503 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6504/",
+      "Description": "SUSE CVE CVE-2014-6504 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6506/",
+      "Description": "SUSE CVE CVE-2014-6506 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6511/",
+      "Description": "SUSE CVE CVE-2014-6511 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6512/",
+      "Description": "SUSE CVE CVE-2014-6512 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6513/",
+      "Description": "SUSE CVE CVE-2014-6513 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6515/",
+      "Description": "SUSE CVE CVE-2014-6515 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6517/",
+      "Description": "SUSE CVE CVE-2014-6517 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6519/",
+      "Description": "SUSE CVE CVE-2014-6519 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6527/",
+      "Description": "SUSE CVE CVE-2014-6527 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6531/",
+      "Description": "SUSE CVE CVE-2014-6531 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6532/",
+      "Description": "SUSE CVE CVE-2014-6532 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6558/",
+      "Description": "SUSE CVE CVE-2014-6558 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-6562/",
+      "Description": "SUSE CVE CVE-2014-6562 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2014-4288",
+      "Description": "Unspecified vulnerability in Oracle Java SE 6u81, 7u67, and 8u20 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Deployment, a different vulnerability than CVE-2014-6493, CVE-2014-6503, and CVE-2014-6532.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-4288.html",
+          "Description": "CVE-2014-4288"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "10",
+        "Vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C"
+      }
+    },
+    {
+      "CVE": "CVE-2014-6456",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u67 and 8u20 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6456.html",
+          "Description": "CVE-2014-6456"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6457",
+      "Description": "Unspecified vulnerability in Oracle Java SE 5.0u71, 6u81, 7u67, and 8u20; Java SE Embedded 7u60; and JRockit R27.8.3, and R28.3.3 allows remote attackers to affect confidentiality and integrity via vectors related to JSSE.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6457.html",
+          "Description": "CVE-2014-6457"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6458",
+      "Description": "Unspecified vulnerability in Oracle Java SE 6u81, 7u67, and 8u20 allows local users to affect confidentiality, integrity, and availability via unknown vectors related to Deployment.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6458.html",
+          "Description": "CVE-2014-6458"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6466",
+      "Description": "Unspecified vulnerability in Oracle Java SE 6u81, 7u67, and 8u20, when running on Internet Explorer, allows local users to affect confidentiality, integrity, and availability via unknown vectors related to Deployment.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6466.html",
+          "Description": "CVE-2014-6466"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6468",
+      "Description": "Unspecified vulnerability in Oracle Java SE 8u20 allows local users to affect confidentiality, integrity, and availability via unknown vectors related to Hotspot.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6468.html",
+          "Description": "CVE-2014-6468"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6476",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u67 and 8u20 allows remote attackers to affect integrity via unknown vectors related to Deployment, a different vulnerability than CVE-2014-6527.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6476.html",
+          "Description": "CVE-2014-6476"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6485",
+      "Description": "Unspecified vulnerability in Oracle Java SE 8u20 and JavaFX 2.2.65 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6485.html",
+          "Description": "CVE-2014-6485"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6492",
+      "Description": "Unspecified vulnerability in Oracle Java SE 6u81, 7u67, and 8u20, when running on Firefox, allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Deployment.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6492.html",
+          "Description": "CVE-2014-6492"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6493",
+      "Description": "Unspecified vulnerability in Oracle Java SE 6u81, 7u67, and 8u20 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Deployment, a different vulnerability than CVE-2014-4288, CVE-2014-6503, and CVE-2014-6532.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6493.html",
+          "Description": "CVE-2014-6493"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6502",
+      "Description": "Unspecified vulnerability in Oracle Java SE 5.0u71, 6u81, 7u67, and 8u20, and Java SE Embedded 7u60, allows remote attackers to affect integrity via unknown vectors related to Libraries.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6502.html",
+          "Description": "CVE-2014-6502"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6503",
+      "Description": "Unspecified vulnerability in Oracle Java SE 6u81, 7u67, and 8u20 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Deployment, a different vulnerability than CVE-2014-4288, CVE-2014-6493, and CVE-2014-6532.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6503.html",
+          "Description": "CVE-2014-6503"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6504",
+      "Description": "Unspecified vulnerability in Oracle Java SE 5.0u71, 6u81, and 7u67, and Java SE Embedded 7u60, allows remote attackers to affect confidentiality via unknown vectors related to Hotspot.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6504.html",
+          "Description": "CVE-2014-6504"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6506",
+      "Description": "Unspecified vulnerability in Oracle Java SE 5.0u71, 6u81, 7u67, and 8u20, and Java SE Embedded 7u60, allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6506.html",
+          "Description": "CVE-2014-6506"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6511",
+      "Description": "Unspecified vulnerability in Oracle Java SE 5.0u71, 6u81, 7u67, and 8u20 allows remote attackers to affect confidentiality via unknown vectors related to 2D.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6511.html",
+          "Description": "CVE-2014-6511"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6512",
+      "Description": "Unspecified vulnerability in Oracle Java SE 5.0u71, 6u81, 7u67, and 8u20; Java SE Embedded 7u60; and JRockit R27.8.3 and R28.3.3 allows remote attackers to affect integrity via unknown vectors related to Libraries.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6512.html",
+          "Description": "CVE-2014-6512"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6513",
+      "Description": "Unspecified vulnerability in Oracle Java SE 6u81, 7u67, and 8u20, and Java SE Embedded 7u60, allows remote attackers to affect confidentiality, integrity, and availability via vectors related to AWT.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6513.html",
+          "Description": "CVE-2014-6513"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6515",
+      "Description": "Unspecified vulnerability in Oracle Java SE 6u81, 7u67, and 8u20 allows remote attackers to affect integrity via unknown vectors related to Deployment.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6515.html",
+          "Description": "CVE-2014-6515"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6517",
+      "Description": "Unspecified vulnerability in Oracle Java SE 6u81, 7u67, and 8u20; Java SE Embedded 7u60; and Jrockit R27.8.3 and R28.3.3 allows remote attackers to affect confidentiality via vectors related to JAXP.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6517.html",
+          "Description": "CVE-2014-6517"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6519",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u67 and 8u20, and Java SE Embedded 7u60, allows remote attackers to affect integrity via unknown vectors related to Hotspot.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6519.html",
+          "Description": "CVE-2014-6519"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6527",
+      "Description": "Unspecified vulnerability in Oracle Java SE 7u67 and 8u20 allows remote attackers to affect integrity via unknown vectors related to Deployment, a different vulnerability than CVE-2014-6476.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6527.html",
+          "Description": "CVE-2014-6527"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6531",
+      "Description": "Unspecified vulnerability in Oracle Java SE 5.0u71, 6u81, 7u67, and 8u20, and Java SE Embedded 7u60, allows remote attackers to affect confidentiality via unknown vectors related to Libraries.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6531.html",
+          "Description": "CVE-2014-6531"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6532",
+      "Description": "Unspecified vulnerability in Oracle Java SE 6u81, 7u67, and 8u20 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Deployment, a different vulnerability than CVE-2014-4288, CVE-2014-6493, and CVE-2014-6503.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6532.html",
+          "Description": "CVE-2014-6532"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6558",
+      "Description": "Unspecified vulnerability in Oracle Java SE 5.0u71, 6u81, 7u67, and 8u20; Java SE Embedded 7u60; and JRockit R27.8.3 and JRockit R28.3.3 allows remote attackers to affect integrity via unknown vectors related to Security.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6558.html",
+          "Description": "CVE-2014-6558"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-6562",
+      "Description": "Unspecified vulnerability in Oracle Java SE 8u20 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-6562.html",
+          "Description": "CVE-2014-6562"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901239",
+          "Description": "SUSE Bug 901239"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901242",
+          "Description": "SUSE Bug 901242"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901246",
+          "Description": "SUSE Bug 901246"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-demo-1.7.0.71-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:java-1_7_0-openjdk-devel-1.7.0.71-0.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

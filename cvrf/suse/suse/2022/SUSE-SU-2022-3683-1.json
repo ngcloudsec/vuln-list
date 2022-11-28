@@ -1,0 +1,408 @@
+{
+  "Title": "Security update for libksba",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3683-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-10-21T09:49:00Z",
+    "CurrentReleaseDate": "2022-10-21T09:49:00Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-10-21T09:49:00Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for libksba",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for libksba fixes the following issues:\n\n  - CVE-2022-3515: Fixed a possible overflow in the TLV parser (bsc#1204357).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "Container suse/sle15:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba-devel-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libksba8-1.3.5-150000.4.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223683-1/",
+      "Description": "Link for SUSE-SU-2022:3683-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-October/012597.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3683-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1204357",
+      "Description": "SUSE Bug 1204357"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-3515/",
+      "Description": "SUSE CVE CVE-2022-3515 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-3515",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "critical"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-3515.html",
+          "Description": "CVE-2022-3515"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1204357",
+          "Description": "SUSE Bug 1204357"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/sle-micro-rancher/5.2:latest:libksba8-1.3.5-150000.4.3.1",
+            "Container suse/sle-micro-rancher/5.3:latest:libksba8-1.3.5-150000.4.3.1",
+            "Container suse/sle15:15.4:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Enterprise Storage 6:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Enterprise Storage 6:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Enterprise Storage 7:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Enterprise Storage 7:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Micro 5.1:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Micro 5.2:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Micro 5.3:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Manager Proxy 4.1:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Manager Proxy 4.1:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Manager Retail Branch Server 4.1:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Manager Retail Branch Server 4.1:libksba8-1.3.5-150000.4.3.1",
+            "SUSE Manager Server 4.1:libksba-devel-1.3.5-150000.4.3.1",
+            "SUSE Manager Server 4.1:libksba8-1.3.5-150000.4.3.1",
+            "openSUSE Leap 15.3:libksba-devel-1.3.5-150000.4.3.1",
+            "openSUSE Leap 15.3:libksba8-1.3.5-150000.4.3.1",
+            "openSUSE Leap 15.4:libksba-devel-1.3.5-150000.4.3.1",
+            "openSUSE Leap 15.4:libksba8-1.3.5-150000.4.3.1",
+            "openSUSE Leap Micro 5.2:libksba8-1.3.5-150000.4.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

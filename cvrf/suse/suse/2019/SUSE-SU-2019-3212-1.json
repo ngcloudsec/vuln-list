@@ -1,0 +1,156 @@
+{
+  "Title": "Security update for postgresql",
+  "Tracking": {
+    "ID": "SUSE-SU-2019:3212-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2019-12-10T09:04:35Z",
+    "CurrentReleaseDate": "2019-12-10T09:04:35Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2019-12-10T09:04:35Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for postgresql",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for postgresql fixes the following issues:\n\n- Changed permissions, so that the directory can only be used by users \n  in the postgres group (bsc#1123886).\n- Moved bash profile out of /var/lib to allow transactional updates (bsc#1100397).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "postgresql-10-8.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql-10-8.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql-test-10-8.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql-test-10-8.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql-test-10-8.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for additional PackageHub packages 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql-contrib-10-8.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql-devel-10-8.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql-docs-10-8.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql-plperl-10-8.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql-plpython-10-8.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql-pltcl-10-8.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql-server-10-8.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql-contrib-10-8.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql-devel-10-8.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql-docs-10-8.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql-plperl-10-8.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql-plpython-10-8.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql-pltcl-10-8.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postgresql-server-10-8.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20193212-1/",
+      "Description": "Link for SUSE-SU-2019:3212-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2019-December/006234.html",
+      "Description": "E-Mail link for SUSE-SU-2019:3212-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1100397",
+      "Description": "SUSE Bug 1100397"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1123886",
+      "Description": "SUSE Bug 1123886"
+    }
+  ],
+  "Vulnerabilities": null
+}

@@ -1,0 +1,79 @@
+{
+  "id": "RLSA-2022:7720",
+  "title": "Moderate: e2fsprogs security and bug fix update",
+  "issued": {
+    "date": "2022-11-13 07:51:39"
+  },
+  "updated": {
+    "date": "2022-11-08 00:00:00"
+  },
+  "severity": "SEVERITY_MODERATE",
+  "description": "The e2fsprogs packages provide a number of utilities for creating, checking, modifying, and correcting the ext2, ext3, and ext4 file systems.\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nAdditional Changes:\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
+  "packages": [
+    {
+      "name": "e2fsprogs",
+      "epoch": "0",
+      "version": "1.45.6",
+      "release": "5.el8",
+      "arch": "aarch64",
+      "src": "e2fsprogs-1.45.6-5.el8.src.rpm",
+      "filename": "e2fsprogs-1.45.6-5.el8.aarch64.rpm"
+    },
+    {
+      "name": "e2fsprogs-devel",
+      "epoch": "0",
+      "version": "1.45.6",
+      "release": "5.el8",
+      "arch": "aarch64",
+      "src": "e2fsprogs-1.45.6-5.el8.src.rpm",
+      "filename": "e2fsprogs-devel-1.45.6-5.el8.aarch64.rpm"
+    },
+    {
+      "name": "e2fsprogs-libs",
+      "epoch": "0",
+      "version": "1.45.6",
+      "release": "5.el8",
+      "arch": "aarch64",
+      "src": "e2fsprogs-1.45.6-5.el8.src.rpm",
+      "filename": "e2fsprogs-libs-1.45.6-5.el8.aarch64.rpm"
+    },
+    {
+      "name": "libcom_err",
+      "epoch": "0",
+      "version": "1.45.6",
+      "release": "5.el8",
+      "arch": "aarch64",
+      "src": "e2fsprogs-1.45.6-5.el8.src.rpm",
+      "filename": "libcom_err-1.45.6-5.el8.aarch64.rpm"
+    },
+    {
+      "name": "libcom_err-devel",
+      "epoch": "0",
+      "version": "1.45.6",
+      "release": "5.el8",
+      "arch": "aarch64",
+      "src": "e2fsprogs-1.45.6-5.el8.src.rpm",
+      "filename": "libcom_err-devel-1.45.6-5.el8.aarch64.rpm"
+    },
+    {
+      "name": "libss",
+      "epoch": "0",
+      "version": "1.45.6",
+      "release": "5.el8",
+      "arch": "aarch64",
+      "src": "e2fsprogs-1.45.6-5.el8.src.rpm",
+      "filename": "libss-1.45.6-5.el8.aarch64.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-1304.json",
+      "id": "CVE-2022-1304",
+      "title": "Update information for CVE-2022-1304 is retrieved from Red Hat",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2022-1304"
+  ]
+}

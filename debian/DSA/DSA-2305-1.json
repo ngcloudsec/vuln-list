@@ -1,0 +1,42 @@
+{
+  "Header": {
+    "Original": "[08 Sep 2011] DSA-2305-1 vsftpd - denial of service",
+    "Line": 10099,
+    "ID": "DSA-2305-1",
+    "Description": "vsftpd - denial of service"
+  },
+  "Annotations": [
+    {
+      "Original": "{CVE-2011-0762}",
+      "Line": 10100,
+      "Type": "xref",
+      "Bugs": [
+        "CVE-2011-0762"
+      ]
+    },
+    {
+      "Original": "[squeeze] - vsftpd 2.3.2-3+squeeze2",
+      "Line": 10101,
+      "Type": "package",
+      "Release": "squeeze",
+      "Package": "vsftpd",
+      "Kind": "fixed",
+      "Version": "2.3.2-3+squeeze2"
+    },
+    {
+      "Original": "[lenny] - vsftpd 2.0.7-1+lenny1",
+      "Line": 10102,
+      "Type": "package",
+      "Release": "lenny",
+      "Package": "vsftpd",
+      "Kind": "fixed",
+      "Version": "2.0.7-1+lenny1"
+    },
+    {
+      "Original": "NOTE: additionally CVE-2011-2189 has been fixed for vsftpd by adding a kernel check",
+      "Line": 10103,
+      "Type": "NOTE",
+      "Description": "additionally CVE-2011-2189 has been fixed for vsftpd by adding a kernel check"
+    }
+  ]
+}

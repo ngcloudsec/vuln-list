@@ -1,0 +1,392 @@
+{
+  "Title": "Security update for openssh",
+  "Tracking": {
+    "ID": "SUSE-SU-2021:3950-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2021-12-06T13:59:42Z",
+    "CurrentReleaseDate": "2021-12-06T13:59:42Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2021-12-06T13:59:42Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for openssh",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for openssh fixes the following issues:\n\n- CVE-2021-41617: Fixed privilege escalation when AuthorizedKeysCommand/AuthorizedPrincipalsCommand are configured (bsc#1190975).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "openssh-clients-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-fips-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-fips-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-fips-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-fips-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-fips-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container trento/trento-runner:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container trento/trento-runner:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container trento/trento-runner:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-fips-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container trento/trento-runner:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-3.6.1",
+        "RelatesToProductReference": "Container trento/trento-runner:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-fips-8.4p1-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-helpers-8.4p1-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-askpass-gnome-8.4p1-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-fips-8.4p1-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-8.4p1-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-clients-8.4p1-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-common-8.4p1-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-fips-8.4p1-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssh-server-8.4p1-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2021/suse-su-20213950-1/",
+      "Description": "Link for SUSE-SU-2021:3950-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2021-December/009857.html",
+      "Description": "E-Mail link for SUSE-SU-2021:3950-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1190975",
+      "Description": "SUSE Bug 1190975"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2021-41617/",
+      "Description": "SUSE CVE CVE-2021-41617 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2021-41617",
+      "Description": "sshd in OpenSSH 6.2 through 8.x before 8.8, when certain non-default configurations are used, allows privilege escalation because supplemental groups are not initialized as expected. Helper programs for AuthorizedKeysCommand and AuthorizedPrincipalsCommand may run with privileges associated with group memberships of the sshd process, if the configuration specifies running the command as a different user.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2021-41617.html",
+          "Description": "CVE-2021-41617"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1190975",
+          "Description": "SUSE Bug 1190975"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1193460",
+          "Description": "SUSE Bug 1193460"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1193497",
+          "Description": "SUSE Bug 1193497"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/node:12:openssh-clients-8.4p1-3.6.1",
+            "Container bci/node:12:openssh-common-8.4p1-3.6.1",
+            "Container bci/node:12:openssh-fips-8.4p1-3.6.1",
+            "Container bci/node:14:openssh-clients-8.4p1-3.6.1",
+            "Container bci/node:14:openssh-common-8.4p1-3.6.1",
+            "Container bci/node:14:openssh-fips-8.4p1-3.6.1",
+            "Container bci/nodejs:latest:openssh-clients-8.4p1-3.6.1",
+            "Container bci/nodejs:latest:openssh-common-8.4p1-3.6.1",
+            "Container bci/nodejs:latest:openssh-fips-8.4p1-3.6.1",
+            "Container bci/openjdk-devel:latest:openssh-clients-8.4p1-3.6.1",
+            "Container bci/openjdk-devel:latest:openssh-common-8.4p1-3.6.1",
+            "Container bci/openjdk-devel:latest:openssh-fips-8.4p1-3.6.1",
+            "Container bci/ruby:latest:openssh-clients-8.4p1-3.6.1",
+            "Container bci/ruby:latest:openssh-common-8.4p1-3.6.1",
+            "Container bci/ruby:latest:openssh-fips-8.4p1-3.6.1",
+            "Container trento/trento-runner:latest:openssh-8.4p1-3.6.1",
+            "Container trento/trento-runner:latest:openssh-clients-8.4p1-3.6.1",
+            "Container trento/trento-runner:latest:openssh-common-8.4p1-3.6.1",
+            "Container trento/trento-runner:latest:openssh-fips-8.4p1-3.6.1",
+            "Container trento/trento-runner:latest:openssh-server-8.4p1-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:openssh-8.4p1-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:openssh-clients-8.4p1-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:openssh-common-8.4p1-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:openssh-server-8.4p1-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:openssh-8.4p1-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:openssh-clients-8.4p1-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:openssh-common-8.4p1-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:openssh-server-8.4p1-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:openssh-8.4p1-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:openssh-clients-8.4p1-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:openssh-common-8.4p1-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:openssh-server-8.4p1-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:openssh-8.4p1-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:openssh-clients-8.4p1-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:openssh-common-8.4p1-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:openssh-server-8.4p1-3.6.1",
+            "SUSE Linux Enterprise Micro 5.1:openssh-8.4p1-3.6.1",
+            "SUSE Linux Enterprise Micro 5.1:openssh-clients-8.4p1-3.6.1",
+            "SUSE Linux Enterprise Micro 5.1:openssh-common-8.4p1-3.6.1",
+            "SUSE Linux Enterprise Micro 5.1:openssh-fips-8.4p1-3.6.1",
+            "SUSE Linux Enterprise Micro 5.1:openssh-server-8.4p1-3.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:openssh-8.4p1-3.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:openssh-clients-8.4p1-3.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:openssh-common-8.4p1-3.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:openssh-fips-8.4p1-3.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:openssh-helpers-8.4p1-3.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:openssh-server-8.4p1-3.6.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP3:openssh-askpass-gnome-8.4p1-3.6.1",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP3:openssh-fips-8.4p1-3.6.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

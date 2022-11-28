@@ -1,0 +1,132 @@
+{
+  "Title": "Security update for libbsd",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:1298-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-05-18T05:42:54Z",
+    "CurrentReleaseDate": "2020-05-18T05:42:54Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-05-18T05:42:54Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for libbsd",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for libbsd fixes the following issues:\n\n- CVE-2019-20367: Fixed an out-of-bounds read during a comparison for a symbol names from the string table (bsc#1160551).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libbsd0-0.8.7-3.3.17",
+        "RelatesToProductReference": "Container caasp/v4.5/istio-base:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbsd0-0.8.7-3.3.17",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-handler:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbsd0-0.8.7-3.3.17",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-launcher:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbsd0-0.8.7-3.3.17",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-launcher:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbsd-devel-0.8.7-3.3.17",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbsd0-0.8.7-3.3.17",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbsd-ctor-static-0.8.7-3.3.17",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20201298-1/",
+      "Description": "Link for SUSE-SU-2020:1298-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-May/006825.html",
+      "Description": "E-Mail link for SUSE-SU-2020:1298-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1160551",
+      "Description": "SUSE Bug 1160551"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-20367/",
+      "Description": "SUSE CVE CVE-2019-20367 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-20367",
+      "Description": "nlist.c in libbsd before 0.10.0 has an out-of-bounds read during a comparison for a symbol name from the string table (strtab).",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-20367.html",
+          "Description": "CVE-2019-20367"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1160551",
+          "Description": "SUSE Bug 1160551"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container caasp/v4.5/istio-base:beta:libbsd0-0.8.7-3.3.17",
+            "Container suse/sles/15.2/virt-handler:0.38.1:libbsd0-0.8.7-3.3.17",
+            "Container suse/sles/15.2/virt-launcher:0.38.1:libbsd0-0.8.7-3.3.17",
+            "Container suse/sles/15.3/virt-launcher:0.45.0:libbsd0-0.8.7-3.3.17",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libbsd-devel-0.8.7-3.3.17",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libbsd0-0.8.7-3.3.17",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libbsd-ctor-static-0.8.7-3.3.17"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

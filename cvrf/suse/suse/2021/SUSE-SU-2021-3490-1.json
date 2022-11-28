@@ -1,0 +1,1984 @@
+{
+  "Title": "Security update for ncurses",
+  "Tracking": {
+    "ID": "SUSE-SU-2021:3490-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2021-10-20T14:32:00Z",
+    "CurrentReleaseDate": "2021-10-20T14:32:00Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2021-10-20T14:32:00Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for ncurses",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for ncurses fixes the following issues:\n\n- CVE-2021-39537: Fixed an heap-based buffer overflow in _nc_captoinfo. (bsc#1190793)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/bci-micro:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/bci-micro:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/bci-micro:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/bci-micro:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/bci-minimal:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/bci-minimal:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/bci-minimal:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/bci-minimal:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/golang:1.16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/golang:1.16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/golang:1.16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/389-ds:1.4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/389-ds:1.4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/389-ds:1.4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/busybox:1.34.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/busybox:1.34.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/busybox:1.34.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/caasp-dex:2.16.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/caasp-dex:2.16.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/caasp-dex:2.16.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cert-exporter:2.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cert-exporter:2.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cert-exporter:2.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium-etcd-operator:2.0.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium-etcd-operator:2.0.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium-etcd-operator:2.0.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium-init:1.5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium-init:1.5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium-init:1.5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium-operator:1.6.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium-operator:1.6.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium-operator:1.6.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium:1.6.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium:1.6.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium:1.6.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cloud-provider-openstack:1.15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cloud-provider-openstack:1.15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/cloud-provider-openstack:1.15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/configmap-reload:0.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/configmap-reload:0.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/configmap-reload:0.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/coredns:1.6.7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/coredns:1.6.7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/coredns:1.6.7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/curl:7.60.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/curl:7.60.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/curl:7.60.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/etcd:3.4.13",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/etcd:3.4.13",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/etcd:3.4.13",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/gangway:3.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/gangway:3.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/gangway:3.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/grafana:7.5.12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/grafana:7.5.12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/grafana:7.5.12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/helm-tiller:2.16.12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/helm-tiller:2.16.12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/helm-tiller:2.16.12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/hyperkube:v1.17.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/hyperkube:v1.17.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/hyperkube:v1.17.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/k8s-sidecar:0.1.75",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/k8s-sidecar:0.1.75",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/k8s-sidecar:0.1.75",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/kube-state-metrics:1.9.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/kube-state-metrics:1.9.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/kube-state-metrics:1.9.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/kubernetes-client:1.17.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/kubernetes-client:1.17.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/kubernetes-client:1.17.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/kucero:1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/kucero:1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/kucero:1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/kured:1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/kured:1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/kured:1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/metrics-server:0.3.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/metrics-server:0.3.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/metrics-server:0.3.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-alertmanager:0.16.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-alertmanager:0.16.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-alertmanager:0.16.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-node-exporter:1.1.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-node-exporter:1.1.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-node-exporter:1.1.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-pushgateway:0.6.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-pushgateway:0.6.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-pushgateway:0.6.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-server:2.7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-server:2.7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-server:2.7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/rsyslog:8.39.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/rsyslog:8.39.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/rsyslog:8.39.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/skuba-tooling:0.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/skuba-tooling:0.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/skuba-tooling:0.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/test-update:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/test-update:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/test-update:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-plugin-for-aws:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-plugin-for-aws:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-plugin-for-aws:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-plugin-for-gcp:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-plugin-for-gcp:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-plugin-for-gcp:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-plugin-for-microsoft-azure:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-plugin-for-microsoft-azure:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-plugin-for-microsoft-azure:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-restic-restore-helper:1.3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-restic-restore-helper:1.3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero-restic-restore-helper:1.3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero:1.3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero:1.3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container caasp/v4/velero:1.3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/6/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/6/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/6/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/6/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/6/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/6/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-attacher:v3.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-attacher:v3.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-attacher:v3.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-node-driver-registrar:v2.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-node-driver-registrar:v2.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-node-driver-registrar:v2.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-provisioner:v3.0.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-provisioner:v3.0.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-provisioner:v3.0.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-resizer:v1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-resizer:v1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-resizer:v1.3.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-snapshotter:v4.2.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-snapshotter:v4.2.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/csi-snapshotter:v4.2.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/prometheus-webhook-snmp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/prometheus-webhook-snmp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/prometheus-webhook-snmp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-alertmanager:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-alertmanager:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-alertmanager:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-node-exporter:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-node-exporter:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-node-exporter:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/prometheus/prometheus-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container ses/7/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container suse/sle15:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container trento/trento-db:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container trento/trento-db:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container trento/trento-db:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container trento/trento-runner:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container trento/trento-runner:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container trento/trento-runner:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Container trento/trento-web:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Container trento/trento-web:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Container trento/trento-web:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-32bit-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-devel-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tack-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-iterm-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-screen-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-32bit-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-devel-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tack-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-iterm-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-screen-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-devel-32bit-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-devel-32bit-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Legacy 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-32bit-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Legacy 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses5-devel-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Legacy 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Legacy 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-32bit-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Legacy 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses5-devel-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Legacy 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2021/suse-su-20213490-1/",
+      "Description": "Link for SUSE-SU-2021:3490-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2021-October/009630.html",
+      "Description": "E-Mail link for SUSE-SU-2021:3490-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1190793",
+      "Description": "SUSE Bug 1190793"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2021-39537/",
+      "Description": "SUSE CVE CVE-2021-39537 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2021-39537",
+      "Description": "An issue was discovered in ncurses through v6.2-1. _nc_captoinfo in captoinfo.c has a heap-based buffer overflow.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2021-39537.html",
+          "Description": "CVE-2021-39537"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1190793",
+          "Description": "SUSE Bug 1190793"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1196626",
+          "Description": "SUSE Bug 1196626"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:libncurses6-6.1-5.9.1",
+            "Container bci/bci-init:latest:ncurses-utils-6.1-5.9.1",
+            "Container bci/bci-init:latest:terminfo-base-6.1-5.9.1",
+            "Container bci/bci-micro:15.4:libncurses6-6.1-5.9.1",
+            "Container bci/bci-micro:15.4:terminfo-base-6.1-5.9.1",
+            "Container bci/bci-micro:latest:libncurses6-6.1-5.9.1",
+            "Container bci/bci-micro:latest:terminfo-base-6.1-5.9.1",
+            "Container bci/bci-minimal:15.4:libncurses6-6.1-5.9.1",
+            "Container bci/bci-minimal:15.4:terminfo-base-6.1-5.9.1",
+            "Container bci/bci-minimal:latest:libncurses6-6.1-5.9.1",
+            "Container bci/bci-minimal:latest:terminfo-base-6.1-5.9.1",
+            "Container bci/dotnet-aspnet:3.1:libncurses6-6.1-5.9.1",
+            "Container bci/dotnet-aspnet:3.1:ncurses-utils-6.1-5.9.1",
+            "Container bci/dotnet-aspnet:3.1:terminfo-base-6.1-5.9.1",
+            "Container bci/dotnet-aspnet:5.0:libncurses6-6.1-5.9.1",
+            "Container bci/dotnet-aspnet:5.0:ncurses-utils-6.1-5.9.1",
+            "Container bci/dotnet-aspnet:5.0:terminfo-base-6.1-5.9.1",
+            "Container bci/dotnet-aspnet:latest:libncurses6-6.1-5.9.1",
+            "Container bci/dotnet-aspnet:latest:ncurses-utils-6.1-5.9.1",
+            "Container bci/dotnet-aspnet:latest:terminfo-base-6.1-5.9.1",
+            "Container bci/dotnet-runtime:3.1:libncurses6-6.1-5.9.1",
+            "Container bci/dotnet-runtime:3.1:ncurses-utils-6.1-5.9.1",
+            "Container bci/dotnet-runtime:3.1:terminfo-base-6.1-5.9.1",
+            "Container bci/dotnet-runtime:5.0:libncurses6-6.1-5.9.1",
+            "Container bci/dotnet-runtime:5.0:ncurses-utils-6.1-5.9.1",
+            "Container bci/dotnet-runtime:5.0:terminfo-base-6.1-5.9.1",
+            "Container bci/dotnet-runtime:latest:libncurses6-6.1-5.9.1",
+            "Container bci/dotnet-runtime:latest:ncurses-utils-6.1-5.9.1",
+            "Container bci/dotnet-runtime:latest:terminfo-base-6.1-5.9.1",
+            "Container bci/dotnet-sdk:3.1:libncurses6-6.1-5.9.1",
+            "Container bci/dotnet-sdk:3.1:ncurses-utils-6.1-5.9.1",
+            "Container bci/dotnet-sdk:3.1:terminfo-base-6.1-5.9.1",
+            "Container bci/dotnet-sdk:5.0:libncurses6-6.1-5.9.1",
+            "Container bci/dotnet-sdk:5.0:ncurses-utils-6.1-5.9.1",
+            "Container bci/dotnet-sdk:5.0:terminfo-base-6.1-5.9.1",
+            "Container bci/dotnet-sdk:latest:libncurses6-6.1-5.9.1",
+            "Container bci/dotnet-sdk:latest:ncurses-utils-6.1-5.9.1",
+            "Container bci/dotnet-sdk:latest:terminfo-base-6.1-5.9.1",
+            "Container bci/golang:1.16:libncurses6-6.1-5.9.1",
+            "Container bci/golang:1.16:ncurses-utils-6.1-5.9.1",
+            "Container bci/golang:1.16:terminfo-base-6.1-5.9.1",
+            "Container bci/golang:latest:libncurses6-6.1-5.9.1",
+            "Container bci/golang:latest:ncurses-utils-6.1-5.9.1",
+            "Container bci/golang:latest:terminfo-base-6.1-5.9.1",
+            "Container bci/node:12:libncurses6-6.1-5.9.1",
+            "Container bci/node:12:ncurses-utils-6.1-5.9.1",
+            "Container bci/node:12:terminfo-base-6.1-5.9.1",
+            "Container bci/node:14:libncurses6-6.1-5.9.1",
+            "Container bci/node:14:ncurses-utils-6.1-5.9.1",
+            "Container bci/node:14:terminfo-base-6.1-5.9.1",
+            "Container bci/nodejs:latest:libncurses6-6.1-5.9.1",
+            "Container bci/nodejs:latest:ncurses-utils-6.1-5.9.1",
+            "Container bci/nodejs:latest:terminfo-base-6.1-5.9.1",
+            "Container bci/openjdk-devel:latest:libncurses6-6.1-5.9.1",
+            "Container bci/openjdk-devel:latest:ncurses-utils-6.1-5.9.1",
+            "Container bci/openjdk-devel:latest:terminfo-base-6.1-5.9.1",
+            "Container bci/openjdk:latest:libncurses6-6.1-5.9.1",
+            "Container bci/openjdk:latest:ncurses-utils-6.1-5.9.1",
+            "Container bci/openjdk:latest:terminfo-base-6.1-5.9.1",
+            "Container bci/ruby:latest:libncurses6-6.1-5.9.1",
+            "Container bci/ruby:latest:ncurses-utils-6.1-5.9.1",
+            "Container bci/ruby:latest:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/389-ds:1.4.2:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/389-ds:1.4.2:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/389-ds:1.4.2:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/busybox:1.34.1:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/busybox:1.34.1:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/busybox:1.34.1:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/caasp-dex:2.16.0:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/caasp-dex:2.16.0:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/caasp-dex:2.16.0:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/cert-exporter:2.3.0:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/cert-exporter:2.3.0:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/cert-exporter:2.3.0:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/cilium-etcd-operator:2.0.5:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/cilium-etcd-operator:2.0.5:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/cilium-etcd-operator:2.0.5:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/cilium-init:1.5.3:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/cilium-init:1.5.3:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/cilium-init:1.5.3:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/cilium-operator:1.6.6:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/cilium-operator:1.6.6:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/cilium-operator:1.6.6:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/cilium:1.6.6:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/cilium:1.6.6:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/cilium:1.6.6:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/cloud-provider-openstack:1.15.0:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/cloud-provider-openstack:1.15.0:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/cloud-provider-openstack:1.15.0:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/configmap-reload:0.3.0:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/configmap-reload:0.3.0:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/configmap-reload:0.3.0:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/coredns:1.6.7:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/coredns:1.6.7:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/coredns:1.6.7:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/curl:7.60.0:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/curl:7.60.0:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/curl:7.60.0:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/etcd:3.4.13:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/etcd:3.4.13:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/etcd:3.4.13:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/gangway:3.1.0:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/gangway:3.1.0:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/gangway:3.1.0:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/grafana:7.5.12:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/grafana:7.5.12:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/grafana:7.5.12:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/helm-tiller:2.16.12:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/helm-tiller:2.16.12:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/helm-tiller:2.16.12:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/hyperkube:v1.17.17:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/hyperkube:v1.17.17:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/hyperkube:v1.17.17:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/k8s-sidecar:0.1.75:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/k8s-sidecar:0.1.75:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/k8s-sidecar:0.1.75:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/kube-state-metrics:1.9.3:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/kube-state-metrics:1.9.3:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/kube-state-metrics:1.9.3:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/kubernetes-client:1.17.17:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/kubernetes-client:1.17.17:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/kubernetes-client:1.17.17:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/kucero:1.3.0:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/kucero:1.3.0:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/kucero:1.3.0:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/kured:1.3.0:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/kured:1.3.0:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/kured:1.3.0:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/metrics-server:0.3.6:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/metrics-server:0.3.6:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/metrics-server:0.3.6:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/prometheus-alertmanager:0.16.2:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/prometheus-alertmanager:0.16.2:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/prometheus-alertmanager:0.16.2:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/prometheus-node-exporter:1.1.2:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/prometheus-node-exporter:1.1.2:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/prometheus-node-exporter:1.1.2:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/prometheus-pushgateway:0.6.0:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/prometheus-pushgateway:0.6.0:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/prometheus-pushgateway:0.6.0:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/prometheus-server:2.7.1:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/prometheus-server:2.7.1:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/prometheus-server:2.7.1:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/rsyslog:8.39.0:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/rsyslog:8.39.0:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/rsyslog:8.39.0:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/skuba-tooling:0.1.0:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/skuba-tooling:0.1.0:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/skuba-tooling:0.1.0:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/test-update:beta:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/test-update:beta:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/test-update:beta:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/velero-plugin-for-aws:1.0.1:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/velero-plugin-for-aws:1.0.1:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/velero-plugin-for-aws:1.0.1:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/velero-plugin-for-gcp:1.0.1:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/velero-plugin-for-gcp:1.0.1:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/velero-plugin-for-gcp:1.0.1:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/velero-plugin-for-microsoft-azure:1.0.1:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/velero-plugin-for-microsoft-azure:1.0.1:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/velero-plugin-for-microsoft-azure:1.0.1:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/velero-restic-restore-helper:1.3.1:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/velero-restic-restore-helper:1.3.1:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/velero-restic-restore-helper:1.3.1:terminfo-base-6.1-5.9.1",
+            "Container caasp/v4/velero:1.3.1:libncurses6-6.1-5.9.1",
+            "Container caasp/v4/velero:1.3.1:ncurses-utils-6.1-5.9.1",
+            "Container caasp/v4/velero:1.3.1:terminfo-base-6.1-5.9.1",
+            "Container ses/6/cephcsi/cephcsi:latest:libncurses6-6.1-5.9.1",
+            "Container ses/6/cephcsi/cephcsi:latest:ncurses-utils-6.1-5.9.1",
+            "Container ses/6/cephcsi/cephcsi:latest:terminfo-base-6.1-5.9.1",
+            "Container ses/6/rook/ceph:latest:libncurses6-6.1-5.9.1",
+            "Container ses/6/rook/ceph:latest:ncurses-utils-6.1-5.9.1",
+            "Container ses/6/rook/ceph:latest:terminfo-base-6.1-5.9.1",
+            "Container ses/7/ceph/grafana:latest:libncurses6-6.1-5.9.1",
+            "Container ses/7/ceph/grafana:latest:ncurses-utils-6.1-5.9.1",
+            "Container ses/7/ceph/grafana:latest:terminfo-base-6.1-5.9.1",
+            "Container ses/7/cephcsi/cephcsi:latest:libncurses6-6.1-5.9.1",
+            "Container ses/7/cephcsi/cephcsi:latest:ncurses-utils-6.1-5.9.1",
+            "Container ses/7/cephcsi/cephcsi:latest:terminfo-base-6.1-5.9.1",
+            "Container ses/7/cephcsi/csi-attacher:v3.3.0:libncurses6-6.1-5.9.1",
+            "Container ses/7/cephcsi/csi-attacher:v3.3.0:ncurses-utils-6.1-5.9.1",
+            "Container ses/7/cephcsi/csi-attacher:v3.3.0:terminfo-base-6.1-5.9.1",
+            "Container ses/7/cephcsi/csi-node-driver-registrar:v2.3.0:libncurses6-6.1-5.9.1",
+            "Container ses/7/cephcsi/csi-node-driver-registrar:v2.3.0:ncurses-utils-6.1-5.9.1",
+            "Container ses/7/cephcsi/csi-node-driver-registrar:v2.3.0:terminfo-base-6.1-5.9.1",
+            "Container ses/7/cephcsi/csi-provisioner:v3.0.0:libncurses6-6.1-5.9.1",
+            "Container ses/7/cephcsi/csi-provisioner:v3.0.0:ncurses-utils-6.1-5.9.1",
+            "Container ses/7/cephcsi/csi-provisioner:v3.0.0:terminfo-base-6.1-5.9.1",
+            "Container ses/7/cephcsi/csi-resizer:v1.3.0:libncurses6-6.1-5.9.1",
+            "Container ses/7/cephcsi/csi-resizer:v1.3.0:ncurses-utils-6.1-5.9.1",
+            "Container ses/7/cephcsi/csi-resizer:v1.3.0:terminfo-base-6.1-5.9.1",
+            "Container ses/7/cephcsi/csi-snapshotter:v4.2.0:libncurses6-6.1-5.9.1",
+            "Container ses/7/cephcsi/csi-snapshotter:v4.2.0:ncurses-utils-6.1-5.9.1",
+            "Container ses/7/cephcsi/csi-snapshotter:v4.2.0:terminfo-base-6.1-5.9.1",
+            "Container ses/7/prometheus-webhook-snmp:latest:libncurses6-6.1-5.9.1",
+            "Container ses/7/prometheus-webhook-snmp:latest:ncurses-utils-6.1-5.9.1",
+            "Container ses/7/prometheus-webhook-snmp:latest:terminfo-base-6.1-5.9.1",
+            "Container ses/7/prometheus/prometheus-alertmanager:latest:libncurses6-6.1-5.9.1",
+            "Container ses/7/prometheus/prometheus-alertmanager:latest:ncurses-utils-6.1-5.9.1",
+            "Container ses/7/prometheus/prometheus-alertmanager:latest:terminfo-base-6.1-5.9.1",
+            "Container ses/7/prometheus/prometheus-node-exporter:latest:libncurses6-6.1-5.9.1",
+            "Container ses/7/prometheus/prometheus-node-exporter:latest:ncurses-utils-6.1-5.9.1",
+            "Container ses/7/prometheus/prometheus-node-exporter:latest:terminfo-base-6.1-5.9.1",
+            "Container ses/7/prometheus/prometheus-server:latest:libncurses6-6.1-5.9.1",
+            "Container ses/7/prometheus/prometheus-server:latest:ncurses-utils-6.1-5.9.1",
+            "Container ses/7/prometheus/prometheus-server:latest:terminfo-base-6.1-5.9.1",
+            "Container ses/7/rook/ceph:latest:libncurses6-6.1-5.9.1",
+            "Container ses/7/rook/ceph:latest:ncurses-utils-6.1-5.9.1",
+            "Container ses/7/rook/ceph:latest:terminfo-base-6.1-5.9.1",
+            "Container suse/sle15:15.0:libncurses6-6.1-5.9.1",
+            "Container suse/sle15:15.0:ncurses-utils-6.1-5.9.1",
+            "Container suse/sle15:15.0:terminfo-base-6.1-5.9.1",
+            "Container suse/sle15:15.1:libncurses6-6.1-5.9.1",
+            "Container suse/sle15:15.1:ncurses-utils-6.1-5.9.1",
+            "Container suse/sle15:15.1:terminfo-base-6.1-5.9.1",
+            "Container suse/sle15:15.2:libncurses6-6.1-5.9.1",
+            "Container suse/sle15:15.2:ncurses-utils-6.1-5.9.1",
+            "Container suse/sle15:15.2:terminfo-base-6.1-5.9.1",
+            "Container suse/sle15:15.3:libncurses6-6.1-5.9.1",
+            "Container suse/sle15:15.3:ncurses-utils-6.1-5.9.1",
+            "Container suse/sle15:15.3:terminfo-base-6.1-5.9.1",
+            "Container suse/sle15:15.4:libncurses6-6.1-5.9.1",
+            "Container suse/sle15:15.4:ncurses-utils-6.1-5.9.1",
+            "Container suse/sle15:15.4:terminfo-base-6.1-5.9.1",
+            "Container trento/trento-db:latest:libncurses6-6.1-5.9.1",
+            "Container trento/trento-db:latest:ncurses-utils-6.1-5.9.1",
+            "Container trento/trento-db:latest:terminfo-base-6.1-5.9.1",
+            "Container trento/trento-runner:latest:libncurses6-6.1-5.9.1",
+            "Container trento/trento-runner:latest:ncurses-utils-6.1-5.9.1",
+            "Container trento/trento-runner:latest:terminfo-base-6.1-5.9.1",
+            "Container trento/trento-web:latest:libncurses6-6.1-5.9.1",
+            "Container trento/trento-web:latest:ncurses-utils-6.1-5.9.1",
+            "Container trento/trento-web:latest:terminfo-base-6.1-5.9.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:libncurses6-6.1-5.9.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:ncurses-utils-6.1-5.9.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:terminfo-6.1-5.9.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:terminfo-base-6.1-5.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libncurses6-6.1-5.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:ncurses-utils-6.1-5.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:terminfo-6.1-5.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:terminfo-base-6.1-5.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libncurses6-6.1-5.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:ncurses-utils-6.1-5.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:terminfo-6.1-5.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:terminfo-base-6.1-5.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libncurses6-6.1-5.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:ncurses-utils-6.1-5.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:terminfo-6.1-5.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:terminfo-base-6.1-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libncurses6-6.1-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:ncurses-utils-6.1-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:terminfo-6.1-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:terminfo-base-6.1-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libncurses6-6.1-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:ncurses-utils-6.1-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:terminfo-6.1-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:terminfo-base-6.1-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libncurses6-6.1-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:ncurses-utils-6.1-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:terminfo-6.1-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:terminfo-base-6.1-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libncurses6-6.1-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:ncurses-utils-6.1-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:terminfo-6.1-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:terminfo-base-6.1-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libncurses6-6.1-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:ncurses-utils-6.1-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:terminfo-6.1-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:terminfo-base-6.1-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libncurses6-6.1-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:ncurses-utils-6.1-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:terminfo-6.1-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:terminfo-base-6.1-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libncurses6-6.1-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:ncurses-utils-6.1-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:terminfo-6.1-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:terminfo-base-6.1-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libncurses6-6.1-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:ncurses-utils-6.1-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:terminfo-6.1-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:terminfo-base-6.1-5.9.1",
+            "SUSE Linux Enterprise Micro 5.0:libncurses6-6.1-5.9.1",
+            "SUSE Linux Enterprise Micro 5.0:ncurses-utils-6.1-5.9.1",
+            "SUSE Linux Enterprise Micro 5.0:terminfo-6.1-5.9.1",
+            "SUSE Linux Enterprise Micro 5.0:terminfo-base-6.1-5.9.1",
+            "SUSE Linux Enterprise Micro 5.1:libncurses6-6.1-5.9.1",
+            "SUSE Linux Enterprise Micro 5.1:ncurses-utils-6.1-5.9.1",
+            "SUSE Linux Enterprise Micro 5.1:terminfo-6.1-5.9.1",
+            "SUSE Linux Enterprise Micro 5.1:terminfo-base-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libncurses6-32bit-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libncurses6-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:ncurses-devel-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:ncurses-utils-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:tack-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:terminfo-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:terminfo-base-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:terminfo-iterm-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:terminfo-screen-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libncurses6-32bit-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libncurses6-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:ncurses-devel-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:ncurses-utils-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:tack-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:terminfo-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:terminfo-base-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:terminfo-iterm-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:terminfo-screen-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP2:ncurses-devel-32bit-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:ncurses-devel-32bit-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Legacy 15 SP2:libncurses5-32bit-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Legacy 15 SP2:libncurses5-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Legacy 15 SP2:ncurses5-devel-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Legacy 15 SP3:libncurses5-32bit-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Legacy 15 SP3:libncurses5-6.1-5.9.1",
+            "SUSE Linux Enterprise Module for Legacy 15 SP3:ncurses5-devel-6.1-5.9.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

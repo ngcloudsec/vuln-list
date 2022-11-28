@@ -1,0 +1,278 @@
+{
+  "Title": "Security update for xen",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:2296-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-07-06T11:35:07Z",
+    "CurrentReleaseDate": "2022-07-06T11:35:07Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-07-06T11:35:07Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for xen",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for xen fixes the following issues:\n\n- CVE-2022-26362: Fixed race condition in typeref acquisition (bsc#1199965)\n- CVE-2022-26363, CVE-2022-26364: Fixed insufficient care with non-coherent mappings (bsc#1199966)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "xen-libs-4.16.1_04-150400.4.5.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.16.1_04-150400.4.5.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-4.16.1_04-150400.4.5.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-devel-4.16.1_04-150400.4.5.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-4.16.1_04-150400.4.5.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-xendomains-wait-disk-4.16.1_04-150400.4.5.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-4.16.1_04-150400.4.5.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-devel-4.16.1_04-150400.4.5.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-doc-html-4.16.1_04-150400.4.5.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.1_04-150400.4.5.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-32bit-4.16.1_04-150400.4.5.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-4.16.1_04-150400.4.5.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.16.1_04-150400.4.5.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-xendomains-wait-disk-4.16.1_04-150400.4.5.2",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20222296-1/",
+      "Description": "Link for SUSE-SU-2022:2296-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-July/011431.html",
+      "Description": "E-Mail link for SUSE-SU-2022:2296-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1027519",
+      "Description": "SUSE Bug 1027519"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1199965",
+      "Description": "SUSE Bug 1199965"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1199966",
+      "Description": "SUSE Bug 1199966"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-26362/",
+      "Description": "SUSE CVE CVE-2022-26362 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-26363/",
+      "Description": "SUSE CVE CVE-2022-26363 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-26364/",
+      "Description": "SUSE CVE CVE-2022-26364 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-26362",
+      "Description": "x86 pv: Race condition in typeref acquisition Xen maintains a type reference count for pages, in addition to a regular reference count. This scheme is used to maintain invariants required for Xen's safety, e.g. PV guests may not have direct writeable access to pagetables; updates need auditing by Xen. Unfortunately, the logic for acquiring a type reference has a race condition, whereby a safely TLB flush is issued too early and creates a window where the guest can re-establish the read/write mapping before writeability is prohibited.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-26362.html",
+          "Description": "CVE-2022-26362"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199965",
+          "Description": "SUSE Bug 1199965"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201036",
+          "Description": "SUSE Bug 1201036"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:xen-libs-4.16.1_04-150400.4.5.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:xen-tools-domU-4.16.1_04-150400.4.5.2",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:xen-4.16.1_04-150400.4.5.2",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:xen-devel-4.16.1_04-150400.4.5.2",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:xen-tools-4.16.1_04-150400.4.5.2",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:xen-tools-xendomains-wait-disk-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-devel-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-doc-html-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-libs-32bit-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-libs-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-tools-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-tools-domU-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-tools-xendomains-wait-disk-4.16.1_04-150400.4.5.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-26363",
+      "Description": "x86 pv: Insufficient care with non-coherent mappings T[his CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.] Xen maintains a type reference count for pages, in addition to a regular reference count. This scheme is used to maintain invariants required for Xen's safety, e.g. PV guests may not have direct writeable access to pagetables; updates need auditing by Xen. Unfortunately, Xen's safety logic doesn't account for CPU-induced cache non-coherency; cases where the CPU can cause the content of the cache to be different to the content in main memory. In such cases, Xen's safety logic can incorrectly conclude that the contents of a page is safe.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-26363.html",
+          "Description": "CVE-2022-26363"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199966",
+          "Description": "SUSE Bug 1199966"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:xen-libs-4.16.1_04-150400.4.5.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:xen-tools-domU-4.16.1_04-150400.4.5.2",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:xen-4.16.1_04-150400.4.5.2",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:xen-devel-4.16.1_04-150400.4.5.2",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:xen-tools-4.16.1_04-150400.4.5.2",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:xen-tools-xendomains-wait-disk-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-devel-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-doc-html-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-libs-32bit-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-libs-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-tools-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-tools-domU-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-tools-xendomains-wait-disk-4.16.1_04-150400.4.5.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-26364",
+      "Description": "x86 pv: Insufficient care with non-coherent mappings T[his CNA information record relates to multiple CVEs; the text explains which aspects/vulnerabilities correspond to which CVE.] Xen maintains a type reference count for pages, in addition to a regular reference count. This scheme is used to maintain invariants required for Xen's safety, e.g. PV guests may not have direct writeable access to pagetables; updates need auditing by Xen. Unfortunately, Xen's safety logic doesn't account for CPU-induced cache non-coherency; cases where the CPU can cause the content of the cache to be different to the content in main memory. In such cases, Xen's safety logic can incorrectly conclude that the contents of a page is safe.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-26364.html",
+          "Description": "CVE-2022-26364"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199966",
+          "Description": "SUSE Bug 1199966"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:xen-libs-4.16.1_04-150400.4.5.2",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:xen-tools-domU-4.16.1_04-150400.4.5.2",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:xen-4.16.1_04-150400.4.5.2",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:xen-devel-4.16.1_04-150400.4.5.2",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:xen-tools-4.16.1_04-150400.4.5.2",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:xen-tools-xendomains-wait-disk-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-devel-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-doc-html-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-libs-32bit-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-libs-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-tools-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-tools-domU-4.16.1_04-150400.4.5.2",
+            "openSUSE Leap 15.4:xen-tools-xendomains-wait-disk-4.16.1_04-150400.4.5.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

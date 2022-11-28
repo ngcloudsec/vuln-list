@@ -1,0 +1,174 @@
+{
+  "Title": "Security update for wget",
+  "Tracking": {
+    "ID": "SUSE-SU-2019:0925-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2019-04-10T14:32:53Z",
+    "CurrentReleaseDate": "2019-04-10T14:32:53Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2019-04-10T14:32:53Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for wget",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for wget fixes the following issues:\n\nSecurity issue fixed:\n\n- CVE-2019-5953: Fixed a buffer overflow vulnerability which might cause code execution (bsc#1131493).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "wget-1.19.5-3.6.2",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wget-1.19.5-3.6.2",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wget-1.19.5-3.6.2",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wget-1.19.5-3.6.2",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wget-1.19.5-3.6.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wget-1.19.5-3.6.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wget-1.19.5-3.6.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wget-1.19.5-3.6.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wget-1.19.5-3.6.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wget-1.19.5-3.6.2",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wget-1.19.5-3.6.2",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wget-1.19.5-3.6.2",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wget-1.19.5-3.6.2",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wget-1.19.5-3.6.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20190925-1/",
+      "Description": "Link for SUSE-SU-2019:0925-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20190925-1.html",
+      "Description": "E-Mail link for SUSE-SU-2019:0925-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1131493",
+      "Description": "SUSE Bug 1131493"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-5953/",
+      "Description": "SUSE CVE CVE-2019-5953 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-5953",
+      "Description": "Buffer overflow in GNU Wget 1.20.1 and earlier allows remote attackers to cause a denial-of-service (DoS) or may execute an arbitrary code via unspecified vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-5953.html",
+          "Description": "CVE-2019-5953"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1131493",
+          "Description": "SUSE Bug 1131493"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-EC2-CHOST-HVM-BYOS:wget-1.19.5-3.6.2",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:wget-1.19.5-3.6.2",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:wget-1.19.5-3.6.2",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:wget-1.19.5-3.6.2",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:wget-1.19.5-3.6.2",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:wget-1.19.5-3.6.2",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:wget-1.19.5-3.6.2",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:wget-1.19.5-3.6.2",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:wget-1.19.5-3.6.2",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:wget-1.19.5-3.6.2",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:wget-1.19.5-3.6.2",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:wget-1.19.5-3.6.2",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:wget-1.19.5-3.6.2",
+            "SUSE Linux Enterprise Module for Basesystem 15:wget-1.19.5-3.6.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

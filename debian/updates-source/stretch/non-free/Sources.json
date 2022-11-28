@@ -1,0 +1,300 @@
+[
+  {
+    "Architecture": [
+      "i386 amd64 x32"
+    ],
+    "Autobuild": [
+      "yes"
+    ],
+    "Binary": [
+      "amd64-microcode"
+    ],
+    "Build-Depends": [
+      "debhelper (\u003e= 9)"
+    ],
+    "Checksums-Sha1": [
+      "958605eae62c8b5299e908575660d025db456922 1740 amd64-microcode_3.20181128.1~deb9u2.dsc b8bc96f7c29c2a86b5fbd35e2174d248f22598ee 34676 amd64-microcode_3.20181128.1~deb9u2.tar.xz"
+    ],
+    "Checksums-Sha256": [
+      "95f355fb7f9326c816e9b9e9fe14cb2b3a9f60f32b42e366b9126f4a52d8e82d 1740 amd64-microcode_3.20181128.1~deb9u2.dsc 71a8c7208966f42a1e6d7ecb8b94870a21c214a854becd70dd7141a69d9513c7 34676 amd64-microcode_3.20181128.1~deb9u2.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/non-free/a/amd64-microcode"
+    ],
+    "Files": [
+      "804e1c62f8bcb70ecc9949a5a14d3248 1740 amd64-microcode_3.20181128.1~deb9u2.dsc 07b051e62e45399cf7edea21aa18ffa2 34676 amd64-microcode_3.20181128.1~deb9u2.tar.xz"
+    ],
+    "Format": [
+      "3.0 (native)"
+    ],
+    "Maintainer": [
+      "Henrique de Moraes Holschuh \u003chmh@debian.org\u003e"
+    ],
+    "Package": [
+      "amd64-microcode"
+    ],
+    "Package-List": [
+      "amd64-microcode deb non-free/admin standard arch=i386,amd64,x32"
+    ],
+    "Priority": [
+      "source"
+    ],
+    "Section": [
+      "non-free/admin"
+    ],
+    "Standards-Version": [
+      "3.9.8"
+    ],
+    "Uploaders": [
+      "Giacomo Catenazzi \u003ccate@debian.org\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/hmh/amd64-microcode"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/hmh/amd64-microcode.git"
+    ],
+    "Version": [
+      "3.20181128.1~deb9u2"
+    ]
+  },
+  {
+    "Architecture": [
+      "all"
+    ],
+    "Autobuild": [
+      "yes"
+    ],
+    "Binary": [
+      "firmware-linux, firmware-linux-nonfree, firmware-adi, firmware-ralink, firmware-amd-graphics, firmware-atheros, firmware-bnx2, firmware-bnx2x, firmware-brcm80211, firmware-cavium, firmware-intelwimax, firmware-intel-sound, firmware-ipw2x00, firmware-ivtv, firmware-iwlwifi, firmware-libertas, firmware-misc-nonfree, firmware-myricom, firmware-netronome, firmware-netxen, firmware-qcom-media, firmware-qlogic, firmware-realtek, firmware-samsung, firmware-siano, firmware-ti-connectivity"
+    ],
+    "Build-Depends": [
+      "debhelper (\u003e= 9)"
+    ],
+    "Checksums-Sha1": [
+      "366d859d09ff52264f54a6fa586a275d0179df8b 4031 firmware-nonfree_20190114-2~deb9u1.dsc 2728e02e34e1c7423bd6289036f951de203966c2 40934776 firmware-nonfree_20190114.orig.tar.xz 39abe98d0f73cf48bcb82baefdd4dccb5ac6065c 4666080 firmware-nonfree_20190114-2~deb9u1.debian.tar.xz"
+    ],
+    "Checksums-Sha256": [
+      "e5c89e23b78a860fa6fabb6669cb0870cd8873f9d5987fb3f82b319c7beea93b 4031 firmware-nonfree_20190114-2~deb9u1.dsc 298af2888197436a7775e5092b1ff07cc60045969db375c2ca2a550fdcd2c8be 40934776 firmware-nonfree_20190114.orig.tar.xz 229aba1cd21016697678806a8e9ae6c7902b35c32803d225e467f907118ed3b3 4666080 firmware-nonfree_20190114-2~deb9u1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/non-free/f/firmware-nonfree"
+    ],
+    "Files": [
+      "affd9eee12a6655667dfde111defb5b3 4031 firmware-nonfree_20190114-2~deb9u1.dsc 36d986562cd76c6f7ffd36b6d8206ead 40934776 firmware-nonfree_20190114.orig.tar.xz 76e19f75304f285adb4338081b7bc2af 4666080 firmware-nonfree_20190114-2~deb9u1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Maintainer": [
+      "Debian Kernel Team \u003cdebian-kernel@lists.debian.org\u003e"
+    ],
+    "Package": [
+      "firmware-nonfree"
+    ],
+    "Package-List": [
+      "firmware-adi deb non-free/oldlibs optional arch=all firmware-amd-graphics deb non-free/kernel optional arch=all firmware-atheros deb non-free/kernel optional arch=all firmware-bnx2 deb non-free/kernel optional arch=all firmware-bnx2x deb non-free/kernel optional arch=all firmware-brcm80211 deb non-free/kernel optional arch=all firmware-cavium deb non-free/kernel optional arch=all firmware-intel-sound deb non-free/kernel optional arch=all firmware-intelwimax deb non-free/kernel optional arch=all firmware-ipw2x00 deb non-free/kernel optional arch=all firmware-ivtv deb non-free/kernel optional arch=all firmware-iwlwifi deb non-free/kernel optional arch=all firmware-libertas deb non-free/kernel optional arch=all firmware-linux deb non-free/metapackages optional arch=all firmware-linux-nonfree deb non-free/metapackages optional arch=all firmware-misc-nonfree deb non-free/kernel optional arch=all firmware-myricom deb non-free/kernel optional arch=all firmware-netronome deb non-free/kernel optional arch=all firmware-netxen deb non-free/kernel optional arch=all firmware-qcom-media deb non-free/kernel optional arch=all firmware-qlogic deb non-free/kernel optional arch=all firmware-ralink deb non-free/oldlibs optional arch=all firmware-realtek deb non-free/kernel optional arch=all firmware-samsung deb non-free/kernel optional arch=all firmware-siano deb non-free/kernel optional arch=all firmware-ti-connectivity deb non-free/kernel optional arch=all"
+    ],
+    "Priority": [
+      "source"
+    ],
+    "Section": [
+      "non-free/kernel"
+    ],
+    "Standards-Version": [
+      "4.0.1"
+    ],
+    "Uploaders": [
+      "Bastian Blank \u003cwaldi@debian.org\u003e, Steve Langasek \u003cvorlon@debian.org\u003e, maximilian attems \u003cmaks@debian.org\u003e, Ben Hutchings \u003cben@decadent.org.uk\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/kernel-team/firmware-nonfree"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/kernel-team/firmware-nonfree.git"
+    ],
+    "Version": [
+      "20190114-2~deb9u1"
+    ]
+  },
+  {
+    "Architecture": [
+      "i386 amd64 x32"
+    ],
+    "Autobuild": [
+      "yes"
+    ],
+    "Binary": [
+      "intel-microcode"
+    ],
+    "Build-Depends": [
+      "debhelper (\u003e= 9), iucode-tool (\u003e= 0.9)"
+    ],
+    "Checksums-Sha1": [
+      "5d4b826ed57a1cddbf0b5e829b950973ea0d8896 1817 intel-microcode_3.20210608.2~deb9u2.dsc 20aa7dfeb2c4d7dbfafcf86fe80dbfc6e73fd930 4608336 intel-microcode_3.20210608.2~deb9u2.tar.xz"
+    ],
+    "Checksums-Sha256": [
+      "9290fd6f91a78d37ee3519aafe59f72afc43ef96e69365943dd67361ebfae4cf 1817 intel-microcode_3.20210608.2~deb9u2.dsc b51ac732105c34af8fc9bc5b15b3a4c7462df3e31105ddc019ecc866b41f3f43 4608336 intel-microcode_3.20210608.2~deb9u2.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/non-free/i/intel-microcode"
+    ],
+    "Files": [
+      "c701d44070ec4ff4208d3af068c13feb 1817 intel-microcode_3.20210608.2~deb9u2.dsc ec07b45699e214700c2ce254c47c0a6a 4608336 intel-microcode_3.20210608.2~deb9u2.tar.xz"
+    ],
+    "Format": [
+      "3.0 (native)"
+    ],
+    "Homepage": [
+      "https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files"
+    ],
+    "Maintainer": [
+      "Henrique de Moraes Holschuh \u003chmh@debian.org\u003e"
+    ],
+    "Package": [
+      "intel-microcode"
+    ],
+    "Package-List": [
+      "intel-microcode deb non-free/admin standard arch=i386,amd64,x32"
+    ],
+    "Priority": [
+      "source"
+    ],
+    "Section": [
+      "non-free/admin"
+    ],
+    "Standards-Version": [
+      "4.1.1"
+    ],
+    "Uploaders": [
+      "Giacomo Catenazzi \u003ccate@debian.org\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/hmh/intel-microcode"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/hmh/intel-microcode.git"
+    ],
+    "Version": [
+      "3.20210608.2~deb9u2"
+    ]
+  },
+  {
+    "Architecture": [
+      "i386 amd64 armhf"
+    ],
+    "Autobuild": [
+      "yes"
+    ],
+    "Binary": [
+      "nvidia-driver, nvidia-alternative, nvidia-kernel-support, nvidia-kernel-dkms, nvidia-kernel-source, xserver-xorg-video-nvidia, nvidia-legacy-check, nvidia-driver-bin, libnvidia-cfg1, nvidia-driver-libs, nvidia-driver-libs-i386, nvidia-driver-libs-nonglvnd, nvidia-driver-libs-nonglvnd-i386, libglvnd0-nvidia, libopengl0-glvnd-nvidia, libglx0-glvnd-nvidia, libglx-nvidia0, libgl1-glvnd-nvidia-glx, libgl1-nvidia-glvnd-glx, libgl1-nvidia-glx, libnvidia-glcore, libegl1-glvnd-nvidia, libegl1-nvidia, libegl-nvidia0, libgles1-glvnd-nvidia, libgles1-nvidia, libgles-nvidia1, libgles2-glvnd-nvidia, libgles2-nvidia, libgles-nvidia2, libnvidia-eglcore, nvidia-egl-common, nvidia-egl-icd, nvidia-vdpau-driver, nvidia-vulkan-common, nvidia-vulkan-icd, nvidia-nonglvnd-vulkan-common, nvidia-nonglvnd-vulkan-icd, nvidia-smi, libnvidia-ml1, nvidia-cuda-mps, libcuda1, libcuda1-i386, libnvidia-compiler, libnvidia-fatbinaryloader, libnvidia-ptxjitcompiler1, libnvcuvid1, libnvidia-encode1, libnvidia-ifr1, libnvidia-fbc1, nvidia-opencl-common, nvidia-opencl-icd, nvidia-libopencl1, nvidia-detect"
+    ],
+    "Build-Conflicts": [
+      "libglvnd-dev"
+    ],
+    "Build-Depends": [
+      "debhelper (\u003e= 10), dpkg-dev (\u003e= 1.18.8), xz-utils, dkms, libvulkan1, libxext6 [!ppc64el], quilt, po-debconf"
+    ],
+    "Checksums-Sha1": [
+      "065658310a8d281ce10c6f5ea634c6bcfd1df0dc 8088 nvidia-graphics-drivers_390.144-1~deb9u1.dsc 8e5378c8ba77c77cfdb09bd08c9ca184a0404ecd 84965827 nvidia-graphics-drivers_390.144.orig-amd64.tar.gz 8b18262058cdac5fe52621db2ce8134c39b7a888 30092440 nvidia-graphics-drivers_390.144.orig-armhf.tar.gz 178198f0ea69f18dd1053e9bee3dbffdb1ffb295 49171898 nvidia-graphics-drivers_390.144.orig-i386.tar.gz 3f836f33d6b23ee99b86f4bf346f54557238b1f5 138 nvidia-graphics-drivers_390.144.orig.tar.gz 948717bad2b4f1c44cfb4ab163c34d2f904ad05d 185308 nvidia-graphics-drivers_390.144-1~deb9u1.debian.tar.xz"
+    ],
+    "Checksums-Sha256": [
+      "4dd10bd4b46faedcd5239e402903ea756c1052c82a9b38561acc2008d8dc609a 8088 nvidia-graphics-drivers_390.144-1~deb9u1.dsc 5aefc4a52a251107aced4f308123ed5b41d231e8e75110c45e83edff40acc220 84965827 nvidia-graphics-drivers_390.144.orig-amd64.tar.gz c93672634d10128503ecc2f77241359fd9fa88c37d3e0e5dffc5cc37acd608fd 30092440 nvidia-graphics-drivers_390.144.orig-armhf.tar.gz 440af47b18863ffaf80eb7b258c9fbe9da03a19e4b02ea0f986ed657bdf5bd13 49171898 nvidia-graphics-drivers_390.144.orig-i386.tar.gz d2c4228b841f02a02b4859eb0a29f03b617098ae9b7c3c0bc80b5b5f4ca91580 138 nvidia-graphics-drivers_390.144.orig.tar.gz 221ff7a18e0f0cc978f99adc01cf5732c6959f1949cb7fe09994ff3f0df1987c 185308 nvidia-graphics-drivers_390.144-1~deb9u1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/non-free/n/nvidia-graphics-drivers"
+    ],
+    "Files": [
+      "b55bc7776c2ee316f61747fa1de17d5b 8088 nvidia-graphics-drivers_390.144-1~deb9u1.dsc 84e94bb93887c3009d10969fcc930cef 84965827 nvidia-graphics-drivers_390.144.orig-amd64.tar.gz ecf0cd7cede042ffa57dfd31b2f7935e 30092440 nvidia-graphics-drivers_390.144.orig-armhf.tar.gz da3fcfe953ec9d61db25ea9ef232bb64 49171898 nvidia-graphics-drivers_390.144.orig-i386.tar.gz 8efe4ba7b0605eb592fb0b7ba58043c4 138 nvidia-graphics-drivers_390.144.orig.tar.gz 7a720d961ebb7bdd12eae9962fdfcd4b 185308 nvidia-graphics-drivers_390.144-1~deb9u1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://www.nvidia.com"
+    ],
+    "Maintainer": [
+      "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "nvidia-graphics-drivers"
+    ],
+    "Package-List": [
+      "libcuda1 deb non-free/libs optional arch=i386,amd64,armhf libcuda1-i386 deb non-free/libs optional arch=i386 libegl-nvidia0 deb non-free/libs optional arch=i386,amd64,armhf libegl1-glvnd-nvidia deb non-free/libs optional arch=i386,amd64,armhf libegl1-nvidia deb non-free/libs optional arch=i386,amd64,armhf libgl1-glvnd-nvidia-glx deb non-free/libs optional arch=i386,amd64,armhf libgl1-nvidia-glvnd-glx deb non-free/libs optional arch=i386,amd64,armhf libgl1-nvidia-glx deb non-free/libs optional arch=i386,amd64,armhf libgles-nvidia1 deb non-free/libs optional arch=i386,amd64,armhf libgles-nvidia2 deb non-free/libs optional arch=i386,amd64,armhf libgles1-glvnd-nvidia deb non-free/libs optional arch=i386,amd64,armhf libgles1-nvidia deb non-free/oldlibs optional arch=i386,amd64,armhf libgles2-glvnd-nvidia deb non-free/libs optional arch=i386,amd64,armhf libgles2-nvidia deb non-free/oldlibs optional arch=i386,amd64,armhf libglvnd0-nvidia deb non-free/libs optional arch=i386,amd64,armhf libglx-nvidia0 deb non-free/libs optional arch=i386,amd64,armhf libglx0-glvnd-nvidia deb non-free/libs optional arch=i386,amd64,armhf libnvcuvid1 deb non-free/libs optional arch=i386,amd64,armhf libnvidia-cfg1 deb non-free/libs optional arch=i386,amd64,armhf libnvidia-compiler deb non-free/libs optional arch=i386,amd64 libnvidia-eglcore deb non-free/libs optional arch=i386,amd64,armhf libnvidia-encode1 deb non-free/libs optional arch=i386,amd64,armhf libnvidia-fatbinaryloader deb non-free/libs optional arch=i386,amd64,armhf libnvidia-fbc1 deb non-free/libs optional arch=i386,amd64,armhf libnvidia-glcore deb non-free/libs optional arch=i386,amd64,armhf libnvidia-ifr1 deb non-free/libs optional arch=i386,amd64,armhf libnvidia-ml1 deb non-free/libs optional arch=i386,amd64,armhf libnvidia-ptxjitcompiler1 deb non-free/libs optional arch=i386,amd64,armhf libopengl0-glvnd-nvidia deb non-free/libs optional arch=i386,amd64,armhf nvidia-alternative deb non-free/libs optional arch=i386,amd64,armhf nvidia-cuda-mps deb non-free/utils optional arch=i386,amd64,armhf nvidia-detect deb non-free/x11 optional arch=i386,amd64,armhf nvidia-driver deb non-free/x11 optional arch=i386,amd64,armhf nvidia-driver-bin deb non-free/x11 optional arch=i386,amd64,armhf nvidia-driver-libs deb non-free/libs optional arch=i386,amd64,armhf nvidia-driver-libs-i386 deb non-free/libs optional arch=i386 nvidia-driver-libs-nonglvnd deb non-free/libs optional arch=i386,amd64,armhf nvidia-driver-libs-nonglvnd-i386 deb non-free/libs optional arch=i386 nvidia-egl-common deb non-free/libs optional arch=i386,amd64,armhf nvidia-egl-icd deb non-free/libs optional arch=i386,amd64,armhf nvidia-kernel-dkms deb non-free/kernel optional arch=i386,amd64,armhf nvidia-kernel-source deb non-free/kernel optional arch=i386,amd64,armhf nvidia-kernel-support deb non-free/kernel optional arch=i386,amd64,armhf nvidia-legacy-check deb non-free/libs optional arch=i386,amd64,armhf nvidia-libopencl1 deb non-free/libs optional arch=i386,amd64 nvidia-nonglvnd-vulkan-common deb non-free/libs optional arch=i386,amd64 nvidia-nonglvnd-vulkan-icd deb non-free/libs optional arch=i386,amd64 nvidia-opencl-common deb non-free/libs optional arch=i386,amd64 nvidia-opencl-icd deb non-free/libs optional arch=i386,amd64 nvidia-smi deb non-free/utils optional arch=i386,amd64,armhf nvidia-vdpau-driver deb non-free/video optional arch=i386,amd64,armhf nvidia-vulkan-common deb non-free/libs optional arch=i386,amd64 nvidia-vulkan-icd deb non-free/libs optional arch=i386,amd64 xserver-xorg-video-nvidia deb non-free/x11 optional arch=i386,amd64,armhf"
+    ],
+    "Priority": [
+      "source"
+    ],
+    "Section": [
+      "non-free/x11"
+    ],
+    "Standards-Version": [
+      "4.5.0"
+    ],
+    "Uploaders": [
+      "Andreas Beckmann \u003canbe@debian.org\u003e, Vincent Cheng \u003cvcheng@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers.git"
+    ],
+    "Version": [
+      "390.144-1~deb9u1"
+    ]
+  },
+  {
+    "Architecture": [
+      "all"
+    ],
+    "Binary": [
+      "otrs2, otrs"
+    ],
+    "Build-Depends": [
+      "debhelper (\u003e= 9), yui-compressor"
+    ],
+    "Checksums-Sha1": [
+      "0ef36873a6049034fbef5f8694a63072242dac8e 1838 otrs2_5.0.16-1+deb9u6.dsc 5538c2b9138a0b6d5816ff034507dd5ce26abf8d 19417591 otrs2_5.0.16.orig.tar.bz2 96eb8c5568d20ec68319226c8c1602a0c6d20858 54040 otrs2_5.0.16-1+deb9u6.debian.tar.xz"
+    ],
+    "Checksums-Sha256": [
+      "2bd3cd3a0cbb9964b72362b2b0738e75e29225de0e143fe298055f76a7e6db96 1838 otrs2_5.0.16-1+deb9u6.dsc ddec039990c1bdfc27299ab175eff3e1665aa99ba48050f7f2dde480b28f4029 19417591 otrs2_5.0.16.orig.tar.bz2 b185225b6a0cb7330346fab434f64552761c6961fcd0624b67051d494a3f82dc 54040 otrs2_5.0.16-1+deb9u6.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/non-free/o/otrs2"
+    ],
+    "Files": [
+      "74efa4609d0917946d561d34c6937aec 1838 otrs2_5.0.16-1+deb9u6.dsc 9fe21e6993bcac71247fdcaf5e1f4e55 19417591 otrs2_5.0.16.orig.tar.bz2 4c285c82641db3569e47241e69fcb8c4 54040 otrs2_5.0.16-1+deb9u6.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "http://www.otrs.org"
+    ],
+    "Maintainer": [
+      "Patrick Matthäi \u003cpmatthaei@debian.org\u003e"
+    ],
+    "Package": [
+      "otrs2"
+    ],
+    "Package-List": [
+      "otrs deb non-free/web optional arch=all otrs2 deb non-free/web optional arch=all"
+    ],
+    "Priority": [
+      "source"
+    ],
+    "Section": [
+      "non-free/misc"
+    ],
+    "Standards-Version": [
+      "3.9.8"
+    ],
+    "Uploaders": [
+      "Thomas Mueller \u003cthomas@chaschperli.ch\u003e"
+    ],
+    "Version": [
+      "5.0.16-1+deb9u6"
+    ]
+  }
+]

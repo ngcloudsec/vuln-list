@@ -1,0 +1,203 @@
+{
+  "Title": "Security update for rubygem-rack",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:2192-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-06-27T15:13:56Z",
+    "CurrentReleaseDate": "2022-06-27T15:13:56Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-06-27T15:13:56Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for rubygem-rack",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for rubygem-rack fixes the following issues:\n\n- CVE-2022-30122: Fixed crafted multipart POST request may cause a DoS (bsc#1200748)\n- CVE-2022-30123: Fixed crafted requests can cause shell escape sequences (bsc#1200750)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Availability 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Availability 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Availability 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Availability 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Availability 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-rack-doc-2.0.8-150000.3.6.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-rack-testsuite-2.0.8-150000.3.6.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-rack-doc-2.0.8-150000.3.6.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-rack-testsuite-2.0.8-150000.3.6.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20222192-1/",
+      "Description": "Link for SUSE-SU-2022:2192-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-June/011366.html",
+      "Description": "E-Mail link for SUSE-SU-2022:2192-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1200748",
+      "Description": "SUSE Bug 1200748"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1200750",
+      "Description": "SUSE Bug 1200750"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-30122/",
+      "Description": "SUSE CVE CVE-2022-30122 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-30123/",
+      "Description": "SUSE CVE CVE-2022-30123 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-30122",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "critical"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-30122.html",
+          "Description": "CVE-2022-30122"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200748",
+          "Description": "SUSE Bug 1200748"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise High Availability 15 SP1:ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+            "SUSE Linux Enterprise High Availability 15 SP2:ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+            "SUSE Linux Enterprise High Availability 15 SP3:ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+            "SUSE Linux Enterprise High Availability 15 SP4:ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+            "SUSE Linux Enterprise High Availability 15:ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+            "openSUSE Leap 15.3:ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+            "openSUSE Leap 15.3:ruby2.5-rubygem-rack-doc-2.0.8-150000.3.6.1",
+            "openSUSE Leap 15.3:ruby2.5-rubygem-rack-testsuite-2.0.8-150000.3.6.1",
+            "openSUSE Leap 15.4:ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+            "openSUSE Leap 15.4:ruby2.5-rubygem-rack-doc-2.0.8-150000.3.6.1",
+            "openSUSE Leap 15.4:ruby2.5-rubygem-rack-testsuite-2.0.8-150000.3.6.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-30123",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "critical"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-30123.html",
+          "Description": "CVE-2022-30123"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200750",
+          "Description": "SUSE Bug 1200750"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise High Availability 15 SP1:ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+            "SUSE Linux Enterprise High Availability 15 SP2:ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+            "SUSE Linux Enterprise High Availability 15 SP3:ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+            "SUSE Linux Enterprise High Availability 15 SP4:ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+            "SUSE Linux Enterprise High Availability 15:ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+            "openSUSE Leap 15.3:ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+            "openSUSE Leap 15.3:ruby2.5-rubygem-rack-doc-2.0.8-150000.3.6.1",
+            "openSUSE Leap 15.3:ruby2.5-rubygem-rack-testsuite-2.0.8-150000.3.6.1",
+            "openSUSE Leap 15.4:ruby2.5-rubygem-rack-2.0.8-150000.3.6.1",
+            "openSUSE Leap 15.4:ruby2.5-rubygem-rack-doc-2.0.8-150000.3.6.1",
+            "openSUSE Leap 15.4:ruby2.5-rubygem-rack-testsuite-2.0.8-150000.3.6.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

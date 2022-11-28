@@ -1,0 +1,140 @@
+{
+  "Title": "Security update for sysstat",
+  "Tracking": {
+    "ID": "SUSE-SU-2019:0806-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2019-03-29T12:16:54Z",
+    "CurrentReleaseDate": "2019-03-29T12:16:54Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2019-03-29T12:16:54Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for sysstat",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for sysstat fixes the following issues:\n\nSecurity issues fixed:\n\n- CVE-2018-19416: Fixed out-of-bounds read during a memmove call inside the remap_struct function (bsc#1117001).\n- CVE-2018-19517: Fixed out-of-bounds read during a memset call inside the remap_struct function (bsc#1117260).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "sysstat-12.0.2-3.6.12",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sysstat-isag-12.0.2-3.6.12",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20190806-1/",
+      "Description": "Link for SUSE-SU-2019:0806-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2019-March/005263.html",
+      "Description": "E-Mail link for SUSE-SU-2019:0806-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1117001",
+      "Description": "SUSE Bug 1117001"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1117260",
+      "Description": "SUSE Bug 1117260"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2018-19416/",
+      "Description": "SUSE CVE CVE-2018-19416 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2018-19517/",
+      "Description": "SUSE CVE CVE-2018-19517 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2018-19416",
+      "Description": "An issue was discovered in sysstat 12.1.1. The remap_struct function in sa_common.c has an out-of-bounds read during a memmove call, as demonstrated by sadf.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "low"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2018-19416.html",
+          "Description": "CVE-2018-19416"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1117001",
+          "Description": "SUSE Bug 1117001"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Basesystem 15:sysstat-12.0.2-3.6.12",
+            "SUSE Linux Enterprise Module for Server Applications 15:sysstat-isag-12.0.2-3.6.12"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2018-19517",
+      "Description": "An issue was discovered in sysstat 12.1.1. The remap_struct function in sa_common.c has an out-of-bounds read during a memset call, as demonstrated by sadf.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "low"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2018-19517.html",
+          "Description": "CVE-2018-19517"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1117260",
+          "Description": "SUSE Bug 1117260"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Basesystem 15:sysstat-12.0.2-3.6.12",
+            "SUSE Linux Enterprise Module for Server Applications 15:sysstat-isag-12.0.2-3.6.12"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

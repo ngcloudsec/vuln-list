@@ -1,0 +1,900 @@
+{
+  "Title": "Security update for ncurses",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:2717-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-08-09T10:54:40Z",
+    "CurrentReleaseDate": "2022-08-09T10:54:40Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-08-09T10:54:40Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for ncurses",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for ncurses fixes the following issues:\n\n- CVE-2022-29458: Fixed segfaulting out-of-bounds read in convert_strings in tinfo/read_entry.c (bsc#1198627).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/bci-minimal:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/bci-minimal:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/bci-minimal:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/bci-minimal:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/golang:1.16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/golang:1.16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/golang:1.16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/golang:1.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/golang:1.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/golang:1.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/python:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/python:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/python:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/rust:1.59",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/rust:1.59",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container bci/rust:1.59",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container suse/389-ds:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container suse/389-ds:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container suse/389-ds:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container suse/sle15:15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container suse/sle15:15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container suse/sle15:15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container suse/sle15:15.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container suse/sle15:15.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container suse/sle15:15.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container suse/sle15:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container suse/sle15:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "Container suse/sle15:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-32bit-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-devel-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tack-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-iterm-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-screen-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-32bit-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-devel-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tack-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-iterm-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-screen-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-devel-32bit-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-devel-32bit-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Legacy 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-32bit-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Legacy 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses5-devel-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Legacy 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Legacy 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-32bit-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Legacy 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses5-devel-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Legacy 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-32bit-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-32bit-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-devel-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-devel-32bit-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses5-devel-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses5-devel-32bit-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tack-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-iterm-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-screen-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses5-32bit-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libncurses6-32bit-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-devel-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-devel-32bit-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses-utils-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses5-devel-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ncurses5-devel-32bit-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tack-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-base-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-iterm-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "terminfo-screen-6.1-150000.5.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20222717-1/",
+      "Description": "Link for SUSE-SU-2022:2717-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-updates/2022-August/024348.html",
+      "Description": "E-Mail link for SUSE-SU-2022:2717-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1198627",
+      "Description": "SUSE Bug 1198627"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-29458/",
+      "Description": "SUSE CVE CVE-2022-29458 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-29458",
+      "Description": "ncurses 6.3 before patch 20220416 has an out-of-bounds read and segmentation violation in convert_strings in tinfo/read_entry.c in the terminfo library.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-29458.html",
+          "Description": "CVE-2022-29458"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1198627",
+          "Description": "SUSE Bug 1198627"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:libncurses6-6.1-150000.5.12.1",
+            "Container bci/bci-init:latest:ncurses-utils-6.1-150000.5.12.1",
+            "Container bci/bci-init:latest:terminfo-base-6.1-150000.5.12.1",
+            "Container bci/bci-minimal:15.3:libncurses6-6.1-150000.5.12.1",
+            "Container bci/bci-minimal:15.3:terminfo-base-6.1-150000.5.12.1",
+            "Container bci/bci-minimal:latest:libncurses6-6.1-150000.5.12.1",
+            "Container bci/bci-minimal:latest:terminfo-base-6.1-150000.5.12.1",
+            "Container bci/dotnet-aspnet:3.1:libncurses6-6.1-150000.5.12.1",
+            "Container bci/dotnet-aspnet:3.1:ncurses-utils-6.1-150000.5.12.1",
+            "Container bci/dotnet-aspnet:3.1:terminfo-base-6.1-150000.5.12.1",
+            "Container bci/dotnet-aspnet:5.0:libncurses6-6.1-150000.5.12.1",
+            "Container bci/dotnet-aspnet:5.0:ncurses-utils-6.1-150000.5.12.1",
+            "Container bci/dotnet-aspnet:5.0:terminfo-base-6.1-150000.5.12.1",
+            "Container bci/dotnet-aspnet:latest:libncurses6-6.1-150000.5.12.1",
+            "Container bci/dotnet-aspnet:latest:ncurses-utils-6.1-150000.5.12.1",
+            "Container bci/dotnet-aspnet:latest:terminfo-base-6.1-150000.5.12.1",
+            "Container bci/dotnet-runtime:3.1:libncurses6-6.1-150000.5.12.1",
+            "Container bci/dotnet-runtime:3.1:ncurses-utils-6.1-150000.5.12.1",
+            "Container bci/dotnet-runtime:3.1:terminfo-base-6.1-150000.5.12.1",
+            "Container bci/dotnet-runtime:5.0:libncurses6-6.1-150000.5.12.1",
+            "Container bci/dotnet-runtime:5.0:ncurses-utils-6.1-150000.5.12.1",
+            "Container bci/dotnet-runtime:5.0:terminfo-base-6.1-150000.5.12.1",
+            "Container bci/dotnet-runtime:latest:libncurses6-6.1-150000.5.12.1",
+            "Container bci/dotnet-runtime:latest:ncurses-utils-6.1-150000.5.12.1",
+            "Container bci/dotnet-runtime:latest:terminfo-base-6.1-150000.5.12.1",
+            "Container bci/dotnet-sdk:latest:libncurses6-6.1-150000.5.12.1",
+            "Container bci/dotnet-sdk:latest:ncurses-utils-6.1-150000.5.12.1",
+            "Container bci/dotnet-sdk:latest:terminfo-base-6.1-150000.5.12.1",
+            "Container bci/golang:1.16:libncurses6-6.1-150000.5.12.1",
+            "Container bci/golang:1.16:ncurses-utils-6.1-150000.5.12.1",
+            "Container bci/golang:1.16:terminfo-base-6.1-150000.5.12.1",
+            "Container bci/golang:1.17:libncurses6-6.1-150000.5.12.1",
+            "Container bci/golang:1.17:ncurses-utils-6.1-150000.5.12.1",
+            "Container bci/golang:1.17:terminfo-base-6.1-150000.5.12.1",
+            "Container bci/golang:latest:libncurses6-6.1-150000.5.12.1",
+            "Container bci/golang:latest:ncurses-utils-6.1-150000.5.12.1",
+            "Container bci/golang:latest:terminfo-base-6.1-150000.5.12.1",
+            "Container bci/nodejs:latest:libncurses6-6.1-150000.5.12.1",
+            "Container bci/nodejs:latest:ncurses-utils-6.1-150000.5.12.1",
+            "Container bci/nodejs:latest:terminfo-base-6.1-150000.5.12.1",
+            "Container bci/openjdk-devel:latest:libncurses6-6.1-150000.5.12.1",
+            "Container bci/openjdk-devel:latest:ncurses-utils-6.1-150000.5.12.1",
+            "Container bci/openjdk-devel:latest:terminfo-base-6.1-150000.5.12.1",
+            "Container bci/openjdk:latest:libncurses6-6.1-150000.5.12.1",
+            "Container bci/openjdk:latest:ncurses-utils-6.1-150000.5.12.1",
+            "Container bci/openjdk:latest:terminfo-base-6.1-150000.5.12.1",
+            "Container bci/python:3:libncurses6-6.1-150000.5.12.1",
+            "Container bci/python:3:ncurses-utils-6.1-150000.5.12.1",
+            "Container bci/python:3:terminfo-base-6.1-150000.5.12.1",
+            "Container bci/python:latest:libncurses6-6.1-150000.5.12.1",
+            "Container bci/python:latest:ncurses-utils-6.1-150000.5.12.1",
+            "Container bci/python:latest:terminfo-base-6.1-150000.5.12.1",
+            "Container bci/ruby:latest:libncurses6-6.1-150000.5.12.1",
+            "Container bci/ruby:latest:ncurses-utils-6.1-150000.5.12.1",
+            "Container bci/ruby:latest:terminfo-base-6.1-150000.5.12.1",
+            "Container bci/rust:1.59:libncurses6-6.1-150000.5.12.1",
+            "Container bci/rust:1.59:ncurses-utils-6.1-150000.5.12.1",
+            "Container bci/rust:1.59:terminfo-base-6.1-150000.5.12.1",
+            "Container suse/389-ds:latest:libncurses6-6.1-150000.5.12.1",
+            "Container suse/389-ds:latest:ncurses-utils-6.1-150000.5.12.1",
+            "Container suse/389-ds:latest:terminfo-base-6.1-150000.5.12.1",
+            "Container suse/sle-micro-rancher/5.2:latest:libncurses6-6.1-150000.5.12.1",
+            "Container suse/sle-micro-rancher/5.2:latest:ncurses-utils-6.1-150000.5.12.1",
+            "Container suse/sle-micro-rancher/5.2:latest:terminfo-base-6.1-150000.5.12.1",
+            "Container suse/sle15:15.1:libncurses6-6.1-150000.5.12.1",
+            "Container suse/sle15:15.1:ncurses-utils-6.1-150000.5.12.1",
+            "Container suse/sle15:15.1:terminfo-base-6.1-150000.5.12.1",
+            "Container suse/sle15:15.2:libncurses6-6.1-150000.5.12.1",
+            "Container suse/sle15:15.2:ncurses-utils-6.1-150000.5.12.1",
+            "Container suse/sle15:15.2:terminfo-base-6.1-150000.5.12.1",
+            "Container suse/sle15:15.4:libncurses6-6.1-150000.5.12.1",
+            "Container suse/sle15:15.4:ncurses-utils-6.1-150000.5.12.1",
+            "Container suse/sle15:15.4:terminfo-base-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Micro 5.1:libncurses6-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Micro 5.1:ncurses-utils-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Micro 5.1:terminfo-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Micro 5.1:terminfo-base-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Micro 5.2:libncurses6-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Micro 5.2:ncurses-utils-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Micro 5.2:terminfo-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Micro 5.2:terminfo-base-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libncurses6-32bit-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libncurses6-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:ncurses-devel-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:ncurses-utils-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:tack-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:terminfo-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:terminfo-base-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:terminfo-iterm-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:terminfo-screen-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libncurses6-32bit-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libncurses6-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:ncurses-devel-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:ncurses-utils-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:tack-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:terminfo-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:terminfo-base-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:terminfo-iterm-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:terminfo-screen-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:ncurses-devel-32bit-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:ncurses-devel-32bit-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Legacy 15 SP3:libncurses5-32bit-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Legacy 15 SP3:libncurses5-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Legacy 15 SP3:ncurses5-devel-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Legacy 15 SP4:libncurses5-32bit-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Legacy 15 SP4:libncurses5-6.1-150000.5.12.1",
+            "SUSE Linux Enterprise Module for Legacy 15 SP4:ncurses5-devel-6.1-150000.5.12.1",
+            "openSUSE Leap 15.3:libncurses5-32bit-6.1-150000.5.12.1",
+            "openSUSE Leap 15.3:libncurses5-6.1-150000.5.12.1",
+            "openSUSE Leap 15.3:libncurses6-32bit-6.1-150000.5.12.1",
+            "openSUSE Leap 15.3:libncurses6-6.1-150000.5.12.1",
+            "openSUSE Leap 15.3:ncurses-devel-32bit-6.1-150000.5.12.1",
+            "openSUSE Leap 15.3:ncurses-devel-6.1-150000.5.12.1",
+            "openSUSE Leap 15.3:ncurses-utils-6.1-150000.5.12.1",
+            "openSUSE Leap 15.3:ncurses5-devel-32bit-6.1-150000.5.12.1",
+            "openSUSE Leap 15.3:ncurses5-devel-6.1-150000.5.12.1",
+            "openSUSE Leap 15.3:tack-6.1-150000.5.12.1",
+            "openSUSE Leap 15.3:terminfo-6.1-150000.5.12.1",
+            "openSUSE Leap 15.3:terminfo-base-6.1-150000.5.12.1",
+            "openSUSE Leap 15.3:terminfo-iterm-6.1-150000.5.12.1",
+            "openSUSE Leap 15.3:terminfo-screen-6.1-150000.5.12.1",
+            "openSUSE Leap 15.4:libncurses5-32bit-6.1-150000.5.12.1",
+            "openSUSE Leap 15.4:libncurses5-6.1-150000.5.12.1",
+            "openSUSE Leap 15.4:libncurses6-32bit-6.1-150000.5.12.1",
+            "openSUSE Leap 15.4:libncurses6-6.1-150000.5.12.1",
+            "openSUSE Leap 15.4:ncurses-devel-32bit-6.1-150000.5.12.1",
+            "openSUSE Leap 15.4:ncurses-devel-6.1-150000.5.12.1",
+            "openSUSE Leap 15.4:ncurses-utils-6.1-150000.5.12.1",
+            "openSUSE Leap 15.4:ncurses5-devel-32bit-6.1-150000.5.12.1",
+            "openSUSE Leap 15.4:ncurses5-devel-6.1-150000.5.12.1",
+            "openSUSE Leap 15.4:tack-6.1-150000.5.12.1",
+            "openSUSE Leap 15.4:terminfo-6.1-150000.5.12.1",
+            "openSUSE Leap 15.4:terminfo-base-6.1-150000.5.12.1",
+            "openSUSE Leap 15.4:terminfo-iterm-6.1-150000.5.12.1",
+            "openSUSE Leap 15.4:terminfo-screen-6.1-150000.5.12.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

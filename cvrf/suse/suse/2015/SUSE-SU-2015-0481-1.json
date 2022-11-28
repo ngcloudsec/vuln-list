@@ -1,0 +1,537 @@
+{
+  "Title": "Security update for Linux kernel",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:0481-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2014-02-05T12:49:24Z",
+    "CurrentReleaseDate": "2014-02-05T12:49:24Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2014-02-05T12:49:24Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for Linux kernel",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nThe SUSE Linux Enterprise 11 Service Pack 2 kernel was updated to fix a \nregression introduced by the previous update:\n\n    * scsi_dh_alua: Incorrect reference counting in the SCSI ALUA\n      initialization code lead to system crashes on boot (bnc#858831).\n\nAs the update introducing the regression was marked security, this is also \nmarked security even though this bug is not security relevant.\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "kernel-default-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-man-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-source-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-syms-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-default-4.1.6_04_3.0.101_0.7.17-0.5.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-pae-4.1.6_04_3.0.101_0.7.17-0.5.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-trace-4.1.6_04_3.0.101_0.7.17-0.5.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-man-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-source-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-syms-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-default-4.1.6_04_3.0.101_0.7.17-0.5.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-pae-4.1.6_04_3.0.101_0.7.17-0.5.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-trace-4.1.6_04_3.0.101_0.7.17-0.5.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-man-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-source-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-syms-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-default-4.1.6_04_3.0.101_0.7.17-0.5.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-pae-4.1.6_04_3.0.101_0.7.17-0.5.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-trace-4.1.6_04_3.0.101_0.7.17-0.5.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-man-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ec2-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-pae-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-ppc64-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-source-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-syms-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-trace-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-base-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-xen-devel-3.0.101-0.7.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-default-4.1.6_04_3.0.101_0.7.17-0.5.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-pae-4.1.6_04_3.0.101_0.7.17-0.5.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-kmp-trace-4.1.6_04_3.0.101_0.7.17-0.5.16",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20150481-1/",
+      "Description": "Link for SUSE-SU-2015:0481-1"
+    },
+    {
+      "URL": "https://lists.opensuse.org/opensuse-security-announce/2015-03/msg00010.html",
+      "Description": "E-Mail link for SUSE-SU-2015:0481-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/858831",
+      "Description": "SUSE Bug 858831"
+    }
+  ],
+  "Vulnerabilities": null
+}

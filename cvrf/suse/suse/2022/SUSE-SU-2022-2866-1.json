@@ -1,0 +1,184 @@
+{
+  "Title": "Security update for systemd-presets-common-SUSE",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:2866-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-08-22T13:36:44Z",
+    "CurrentReleaseDate": "2022-08-22T13:36:44Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-08-22T13:36:44Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for systemd-presets-common-SUSE",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for systemd-presets-common-SUSE fixes the following issues:\n\n- CVE-2022-1706: Fixed accessible configs from unprivileged containers in VMs running on VMware products (bsc#1199524).\n\nThe following non-security bugs were fixed:\n\n- Modify branding-preset-states to fix systemd-presets-common-SUSE\n  not enabling new user systemd service preset configuration just\n  as it handles system service presets. By passing an (optional)\n  second parameter 'user', the save/apply-changes commands now\n  work with user services instead of system ones (bsc#1200485)\n\n- Add the wireplumber user service preset to enable it by default\n  in SLE15-SP4 where it replaced pipewire-media-session, but keep\n  pipewire-media-session preset so we don't have to branch the\n  systemd-presets-common-SUSE package for SP4 (bsc#1200485)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "systemd-presets-common-SUSE-15-150100.8.17.1",
+        "RelatesToProductReference": "Container bci/bci-init:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-presets-common-SUSE-15-150100.8.17.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-presets-common-SUSE-15-150100.8.17.1",
+        "RelatesToProductReference": "Container suse/pcp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-presets-common-SUSE-15-150100.8.17.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-presets-common-SUSE-15-150100.8.17.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.1/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-presets-common-SUSE-15-150100.8.17.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.2/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-presets-common-SUSE-15-150100.8.17.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-presets-common-SUSE-15-150100.8.17.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-presets-common-SUSE-15-150100.8.17.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-presets-common-SUSE-15-150100.8.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-presets-common-SUSE-15-150100.8.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-presets-common-SUSE-15-150100.8.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-presets-common-SUSE-15-150100.8.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-presets-common-SUSE-15-150100.8.17.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-presets-common-SUSE-15-150100.8.17.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20222866-1/",
+      "Description": "Link for SUSE-SU-2022:2866-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-August/011963.html",
+      "Description": "E-Mail link for SUSE-SU-2022:2866-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1199524",
+      "Description": "SUSE Bug 1199524"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1200485",
+      "Description": "SUSE Bug 1200485"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1706/",
+      "Description": "SUSE CVE CVE-2022-1706 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-1706",
+      "Description": "A vulnerability was found in Ignition where ignition configs are accessible from unprivileged containers in VMs running on VMware products. This issue is only relevant in user environments where the Ignition config contains secrets. The highest threat from this vulnerability is to data confidentiality. Possible workaround is to not put secrets in the Ignition config.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1706.html",
+          "Description": "CVE-2022-1706"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199524",
+          "Description": "SUSE Bug 1199524"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:15.3:systemd-presets-common-SUSE-15-150100.8.17.1",
+            "Container bci/bci-init:latest:systemd-presets-common-SUSE-15-150100.8.17.1",
+            "Container suse/pcp:latest:systemd-presets-common-SUSE-15-150100.8.17.1",
+            "Container suse/sle-micro-rancher/5.2:latest:systemd-presets-common-SUSE-15-150100.8.17.1",
+            "Container suse/sle-micro/5.1/toolbox:latest:systemd-presets-common-SUSE-15-150100.8.17.1",
+            "Container suse/sle-micro/5.2/toolbox:latest:systemd-presets-common-SUSE-15-150100.8.17.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:systemd-presets-common-SUSE-15-150100.8.17.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:systemd-presets-common-SUSE-15-150100.8.17.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:systemd-presets-common-SUSE-15-150100.8.17.1",
+            "SUSE Linux Enterprise Micro 5.1:systemd-presets-common-SUSE-15-150100.8.17.1",
+            "SUSE Linux Enterprise Micro 5.2:systemd-presets-common-SUSE-15-150100.8.17.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:systemd-presets-common-SUSE-15-150100.8.17.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:systemd-presets-common-SUSE-15-150100.8.17.1",
+            "openSUSE Leap 15.3:systemd-presets-common-SUSE-15-150100.8.17.1",
+            "openSUSE Leap 15.4:systemd-presets-common-SUSE-15-150100.8.17.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

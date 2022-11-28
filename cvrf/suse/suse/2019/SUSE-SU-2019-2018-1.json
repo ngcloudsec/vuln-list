@@ -1,0 +1,164 @@
+{
+  "Title": "Security update for polkit",
+  "Tracking": {
+    "ID": "SUSE-SU-2019:2018-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2019-07-30T11:16:56Z",
+    "CurrentReleaseDate": "2019-07-30T11:16:56Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2019-07-30T11:16:56Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for polkit",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for polkit fixes the following issues:\n\nSecurity issue fixed:\n\n- CVE-2019-6133: Fixed improper caching of auth decisions, which could bypass \n  uid checking in the interactive backend (bsc#1121826).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libpolkit0-0.114-3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "polkit-0.114-3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "polkit-devel-0.114-3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "typelib-1_0-Polkit-1_0-0.114-3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpolkit0-0.114-3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "polkit-0.114-3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "polkit-devel-0.114-3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "typelib-1_0-Polkit-1_0-0.114-3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "polkit-doc-0.114-3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpolkit0-32bit-0.114-3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "polkit-doc-0.114-3.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20192018-1/",
+      "Description": "Link for SUSE-SU-2019:2018-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2019-July/005759.html",
+      "Description": "E-Mail link for SUSE-SU-2019:2018-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1121826",
+      "Description": "SUSE Bug 1121826"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-6133/",
+      "Description": "SUSE CVE CVE-2019-6133 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-6133",
+      "Description": "In PolicyKit (aka polkit) 0.115, the \"start time\" protection mechanism can be bypassed because fork() is not atomic, and therefore authorization decisions are improperly cached. This is related to lack of uid checking in polkitbackend/polkitbackendinteractiveauthority.c.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-6133.html",
+          "Description": "CVE-2019-6133"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1070943",
+          "Description": "SUSE Bug 1070943"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1121826",
+          "Description": "SUSE Bug 1121826"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1121872",
+          "Description": "SUSE Bug 1121872"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libpolkit0-0.114-3.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:polkit-0.114-3.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:polkit-devel-0.114-3.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:typelib-1_0-Polkit-1_0-0.114-3.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libpolkit0-0.114-3.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:polkit-0.114-3.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:polkit-devel-0.114-3.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:typelib-1_0-Polkit-1_0-0.114-3.9.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libpolkit0-32bit-0.114-3.9.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:polkit-doc-0.114-3.9.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:polkit-doc-0.114-3.9.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "Title": "Security update for libX11",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:2475-2",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-12-01T06:33:15Z",
+    "CurrentReleaseDate": "2020-12-01T06:33:15Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-12-01T06:33:15Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for libX11",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for libX11 fixes the following issues:\n\n- CVE-2020-14363: Fix an integer overflow in init_om() (bsc#1175239).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libX11-6-1.6.2-12.15.1",
+        "RelatesToProductReference": "Container caasp/v4/nginx-ingress-controller:beta1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.2-12.15.1",
+        "RelatesToProductReference": "Container caasp/v4/nginx-ingress-controller:beta1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.2-12.15.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.2-12.15.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.2-12.15.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-32bit-1.6.2-12.15.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20202475-2/",
+      "Description": "Link for SUSE-SU-2020:2475-2"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-December/007895.html",
+      "Description": "E-Mail link for SUSE-SU-2020:2475-2"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1175239",
+      "Description": "SUSE Bug 1175239"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-14363/",
+      "Description": "SUSE CVE CVE-2020-14363 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-14363",
+      "Description": "An integer overflow vulnerability leading to a double-free was found in libX11. This flaw allows a local privileged attacker to cause an application compiled with libX11 to crash, or in some cases, result in arbitrary code execution. The highest threat from this flaw is to confidentiality, integrity as well as system availability.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-14363.html",
+          "Description": "CVE-2020-14363"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1175239",
+          "Description": "SUSE Bug 1175239"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container caasp/v4/nginx-ingress-controller:beta1:libX11-6-1.6.2-12.15.1",
+            "Container caasp/v4/nginx-ingress-controller:beta1:libX11-data-1.6.2-12.15.1",
+            "HPE Helion Openstack 8:libX11-6-1.6.2-12.15.1",
+            "HPE Helion Openstack 8:libX11-6-32bit-1.6.2-12.15.1",
+            "HPE Helion Openstack 8:libX11-data-1.6.2-12.15.1",
+            "HPE Helion Openstack 8:libX11-xcb1-1.6.2-12.15.1",
+            "HPE Helion Openstack 8:libX11-xcb1-32bit-1.6.2-12.15.1",
+            "SUSE Enterprise Storage 5:libX11-6-1.6.2-12.15.1",
+            "SUSE Enterprise Storage 5:libX11-6-32bit-1.6.2-12.15.1",
+            "SUSE Enterprise Storage 5:libX11-data-1.6.2-12.15.1",
+            "SUSE Enterprise Storage 5:libX11-xcb1-1.6.2-12.15.1",
+            "SUSE Enterprise Storage 5:libX11-xcb1-32bit-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libX11-6-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libX11-6-32bit-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libX11-data-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libX11-xcb1-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libX11-xcb1-32bit-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:libX11-6-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:libX11-6-32bit-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:libX11-data-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:libX11-xcb1-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:libX11-xcb1-32bit-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libX11-6-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libX11-6-32bit-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libX11-data-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libX11-xcb1-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libX11-xcb1-32bit-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:libX11-6-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:libX11-6-32bit-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:libX11-data-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:libX11-xcb1-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:libX11-xcb1-32bit-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libX11-6-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libX11-6-32bit-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libX11-data-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libX11-xcb1-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libX11-xcb1-32bit-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:libX11-6-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:libX11-6-32bit-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:libX11-data-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:libX11-xcb1-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:libX11-xcb1-32bit-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:libX11-6-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:libX11-6-32bit-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:libX11-data-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:libX11-xcb1-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:libX11-xcb1-32bit-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libX11-6-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libX11-6-32bit-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libX11-data-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libX11-xcb1-1.6.2-12.15.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libX11-xcb1-32bit-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud 7:libX11-6-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud 7:libX11-6-32bit-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud 7:libX11-data-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud 7:libX11-xcb1-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud 7:libX11-xcb1-32bit-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud 8:libX11-6-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud 8:libX11-6-32bit-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud 8:libX11-data-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud 8:libX11-xcb1-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud 8:libX11-xcb1-32bit-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud 9:libX11-6-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud 9:libX11-6-32bit-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud 9:libX11-data-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud 9:libX11-xcb1-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud 9:libX11-xcb1-32bit-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud Crowbar 8:libX11-6-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud Crowbar 8:libX11-6-32bit-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud Crowbar 8:libX11-data-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud Crowbar 8:libX11-xcb1-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud Crowbar 8:libX11-xcb1-32bit-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud Crowbar 9:libX11-6-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud Crowbar 9:libX11-6-32bit-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud Crowbar 9:libX11-data-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud Crowbar 9:libX11-xcb1-1.6.2-12.15.1",
+            "SUSE OpenStack Cloud Crowbar 9:libX11-xcb1-32bit-1.6.2-12.15.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

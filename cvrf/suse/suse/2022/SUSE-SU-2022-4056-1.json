@@ -1,0 +1,556 @@
+{
+  "Title": "Security update for systemd",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:4056-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-11-17T14:38:33Z",
+    "CurrentReleaseDate": "2022-11-17T14:38:33Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-11-17T14:38:33Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for systemd",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for systemd fixes the following issues:\n\n- CVE-2022-3821: Fixed buffer overrun in format_timespan() function (bsc#1204968).\n\n- Import commit 56bee38fd0da18dad5fc5c5d12c02238a22b50e2\n  * 8a70235d8a core: Add trigger limit for path units\n  * 93e544f3a0 core/mount: also add default before dependency for automount mount units\n  * 5916a7748c logind: fix crash in logind on user-specified message string\n\n- Document udev naming scheme (bsc#1204179).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libsystemd0-246.16-150300.7.54.1",
+        "RelatesToProductReference": "Container bci/bci-init:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-246.16-150300.7.54.1",
+        "RelatesToProductReference": "Container bci/bci-init:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-246.16-150300.7.54.1",
+        "RelatesToProductReference": "Container bci/bci-init:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "udev-246.16-150300.7.54.1",
+        "RelatesToProductReference": "Container bci/bci-init:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-246.16-150300.7.54.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-246.16-150300.7.54.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-246.16-150300.7.54.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-246.16-150300.7.54.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-246.16-150300.7.54.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-246.16-150300.7.54.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-246.16-150300.7.54.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-sysvinit-246.16-150300.7.54.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "udev-246.16-150300.7.54.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-32bit-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev-devel-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-32bit-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-32bit-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-container-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-coredump-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-devel-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-doc-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-journal-remote-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-lang-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-sysvinit-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "udev-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-container-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-journal-remote-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-sysvinit-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "udev-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-container-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-journal-remote-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-sysvinit-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "udev-246.16-150300.7.54.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-container-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-journal-remote-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-sysvinit-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "udev-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-32bit-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev-devel-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev-devel-32bit-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-32bit-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nss-myhostname-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nss-myhostname-32bit-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nss-mymachines-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nss-mymachines-32bit-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nss-resolve-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nss-systemd-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-32bit-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-container-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-coredump-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-devel-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-doc-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-journal-remote-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-lang-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-logger-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-network-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-sysvinit-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "udev-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nss-mymachines-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nss-mymachines-32bit-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nss-resolve-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-logger-246.16-150300.7.54.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20224056-1/",
+      "Description": "Link for SUSE-SU-2022:4056-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-November/012968.html",
+      "Description": "E-Mail link for SUSE-SU-2022:4056-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1204179",
+      "Description": "SUSE Bug 1204179"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1204968",
+      "Description": "SUSE Bug 1204968"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-3821/",
+      "Description": "SUSE CVE CVE-2022-3821 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-3821",
+      "Description": "An off-by-one Error issue was discovered in Systemd in format_timespan() function of time-util.c. An attacker could supply specific values for time and accuracy that leads to buffer overrun in format_timespan(), leading to a Denial of Service.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-3821.html",
+          "Description": "CVE-2022-3821"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1204968",
+          "Description": "SUSE Bug 1204968"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:15.3:libsystemd0-246.16-150300.7.54.1",
+            "Container bci/bci-init:15.3:libudev1-246.16-150300.7.54.1",
+            "Container bci/bci-init:15.3:systemd-246.16-150300.7.54.1",
+            "Container bci/bci-init:15.3:udev-246.16-150300.7.54.1",
+            "Container bci/node:12:libsystemd0-246.16-150300.7.54.1",
+            "Container bci/node:12:libudev1-246.16-150300.7.54.1",
+            "Container bci/python:3:libsystemd0-246.16-150300.7.54.1",
+            "Container bci/python:3:libudev1-246.16-150300.7.54.1",
+            "Container suse/sle-micro-rancher/5.2:latest:libsystemd0-246.16-150300.7.54.1",
+            "Container suse/sle-micro-rancher/5.2:latest:libudev1-246.16-150300.7.54.1",
+            "Container suse/sle-micro-rancher/5.2:latest:systemd-246.16-150300.7.54.1",
+            "Container suse/sle-micro-rancher/5.2:latest:systemd-sysvinit-246.16-150300.7.54.1",
+            "Container suse/sle-micro-rancher/5.2:latest:udev-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Micro 5.1:libsystemd0-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Micro 5.1:libudev1-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Micro 5.1:systemd-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Micro 5.1:systemd-container-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Micro 5.1:systemd-journal-remote-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Micro 5.1:systemd-sysvinit-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Micro 5.1:udev-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Micro 5.2:libsystemd0-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Micro 5.2:libudev1-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Micro 5.2:systemd-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Micro 5.2:systemd-container-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Micro 5.2:systemd-journal-remote-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Micro 5.2:systemd-sysvinit-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Micro 5.2:udev-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsystemd0-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsystemd0-32bit-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libudev-devel-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libudev1-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libudev1-32bit-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:systemd-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:systemd-32bit-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:systemd-container-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:systemd-coredump-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:systemd-devel-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:systemd-doc-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:systemd-journal-remote-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:systemd-lang-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:systemd-sysvinit-246.16-150300.7.54.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:udev-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:libsystemd0-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:libsystemd0-32bit-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:libudev-devel-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:libudev-devel-32bit-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:libudev1-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:libudev1-32bit-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:nss-myhostname-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:nss-myhostname-32bit-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:nss-mymachines-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:nss-mymachines-32bit-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:nss-resolve-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:nss-systemd-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:systemd-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:systemd-32bit-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:systemd-container-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:systemd-coredump-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:systemd-devel-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:systemd-doc-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:systemd-journal-remote-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:systemd-lang-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:systemd-logger-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:systemd-network-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:systemd-sysvinit-246.16-150300.7.54.1",
+            "openSUSE Leap 15.3:udev-246.16-150300.7.54.1",
+            "openSUSE Leap 15.4:nss-mymachines-246.16-150300.7.54.1",
+            "openSUSE Leap 15.4:nss-mymachines-32bit-246.16-150300.7.54.1",
+            "openSUSE Leap 15.4:nss-resolve-246.16-150300.7.54.1",
+            "openSUSE Leap 15.4:systemd-logger-246.16-150300.7.54.1",
+            "openSUSE Leap Micro 5.2:libsystemd0-246.16-150300.7.54.1",
+            "openSUSE Leap Micro 5.2:libudev1-246.16-150300.7.54.1",
+            "openSUSE Leap Micro 5.2:systemd-246.16-150300.7.54.1",
+            "openSUSE Leap Micro 5.2:systemd-container-246.16-150300.7.54.1",
+            "openSUSE Leap Micro 5.2:systemd-journal-remote-246.16-150300.7.54.1",
+            "openSUSE Leap Micro 5.2:systemd-sysvinit-246.16-150300.7.54.1",
+            "openSUSE Leap Micro 5.2:udev-246.16-150300.7.54.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

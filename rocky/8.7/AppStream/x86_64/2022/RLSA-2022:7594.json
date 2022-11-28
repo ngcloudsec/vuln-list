@@ -1,0 +1,88 @@
+{
+  "id": "RLSA-2022:7594",
+  "title": "Moderate: poppler security and bug fix update",
+  "issued": {
+    "date": "2022-11-13 07:51:52"
+  },
+  "updated": {
+    "date": "2022-11-08 00:00:00"
+  },
+  "severity": "SEVERITY_MODERATE",
+  "description": "Poppler is a Portable Document Format (PDF) rendering library, used by applications such as Evince.\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nAdditional Changes:\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
+  "packages": [
+    {
+      "name": "poppler",
+      "epoch": "0",
+      "version": "20.11.0",
+      "release": "5.el8",
+      "arch": "i686",
+      "src": "poppler-20.11.0-5.el8.src.rpm",
+      "filename": "poppler-20.11.0-5.el8.i686.rpm"
+    },
+    {
+      "name": "poppler",
+      "epoch": "0",
+      "version": "20.11.0",
+      "release": "5.el8",
+      "arch": "x86_64",
+      "src": "poppler-20.11.0-5.el8.src.rpm",
+      "filename": "poppler-20.11.0-5.el8.x86_64.rpm"
+    },
+    {
+      "name": "poppler-glib",
+      "epoch": "0",
+      "version": "20.11.0",
+      "release": "5.el8",
+      "arch": "i686",
+      "src": "poppler-20.11.0-5.el8.src.rpm",
+      "filename": "poppler-glib-20.11.0-5.el8.i686.rpm"
+    },
+    {
+      "name": "poppler-glib",
+      "epoch": "0",
+      "version": "20.11.0",
+      "release": "5.el8",
+      "arch": "x86_64",
+      "src": "poppler-20.11.0-5.el8.src.rpm",
+      "filename": "poppler-glib-20.11.0-5.el8.x86_64.rpm"
+    },
+    {
+      "name": "poppler-qt5",
+      "epoch": "0",
+      "version": "20.11.0",
+      "release": "5.el8",
+      "arch": "i686",
+      "src": "poppler-20.11.0-5.el8.src.rpm",
+      "filename": "poppler-qt5-20.11.0-5.el8.i686.rpm"
+    },
+    {
+      "name": "poppler-qt5",
+      "epoch": "0",
+      "version": "20.11.0",
+      "release": "5.el8",
+      "arch": "x86_64",
+      "src": "poppler-20.11.0-5.el8.src.rpm",
+      "filename": "poppler-qt5-20.11.0-5.el8.x86_64.rpm"
+    },
+    {
+      "name": "poppler-utils",
+      "epoch": "0",
+      "version": "20.11.0",
+      "release": "5.el8",
+      "arch": "x86_64",
+      "src": "poppler-20.11.0-5.el8.src.rpm",
+      "filename": "poppler-utils-20.11.0-5.el8.x86_64.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-27337.json",
+      "id": "CVE-2022-27337",
+      "title": "Update information for CVE-2022-27337 is retrieved from Red Hat",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2022-27337"
+  ]
+}

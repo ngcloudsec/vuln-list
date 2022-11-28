@@ -1,0 +1,554 @@
+{
+  "Title": "Security update for freetype2",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3252-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-09-12T07:08:18Z",
+    "CurrentReleaseDate": "2022-09-12T07:08:18Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-09-12T07:08:18Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for freetype2",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for freetype2 fixes the following issues:\n\n- CVE-2022-27404 Fixed a segmentation fault via a crafted typeface (bsc#1198830).\n- CVE-2022-27405 Fixed a buffer overflow via a crafted typeface (bsc#1198832).\n- CVE-2022-27406 Fixed a segmentation fault via a crafted typeface (bsc#1198823).\n\nNon-security fixes:\n\n- Updated to version 2.10.4\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftdump-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftdump-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-profile-tti35-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ft2demos-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftbench-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftdiff-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftdump-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftgamma-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftgrid-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftinspect-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftlint-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftmulti-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftstring-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftvalid-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftview-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-devel-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freetype2-profile-tti35-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ft2demos-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftbench-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftdiff-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftdump-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftgamma-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftgrid-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftinspect-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftlint-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftmulti-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftstring-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftvalid-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ftview-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libfreetype6-32bit-2.10.4-150000.4.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223252-1/",
+      "Description": "Link for SUSE-SU-2022:3252-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-updates/2022-September/025092.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3252-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1198823",
+      "Description": "SUSE Bug 1198823"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1198830",
+      "Description": "SUSE Bug 1198830"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1198832",
+      "Description": "SUSE Bug 1198832"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-27404/",
+      "Description": "SUSE CVE CVE-2022-27404 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-27405/",
+      "Description": "SUSE CVE CVE-2022-27405 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-27406/",
+      "Description": "SUSE CVE CVE-2022-27406 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-27404",
+      "Description": "FreeType commit 1e2eb65048f75c64b68708efed6ce904c31f3b2f was discovered to contain a heap buffer overflow via the function sfnt_init_face.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-27404.html",
+          "Description": "CVE-2022-27404"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1198830",
+          "Description": "SUSE Bug 1198830"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/openjdk-devel:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container bci/openjdk:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container suse/sle-micro-rancher/5.2:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container suse/sle-micro-rancher/5.3:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Micro 5.1:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Micro 5.2:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP3:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:ftdump-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:freetype2-devel-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:freetype2-devel-32bit-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:freetype2-profile-tti35-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ft2demos-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftbench-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftdiff-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftdump-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftgamma-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftgrid-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftinspect-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftlint-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftmulti-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftstring-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftvalid-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftview-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:libfreetype6-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:freetype2-devel-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:freetype2-devel-32bit-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:freetype2-profile-tti35-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ft2demos-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftbench-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftdiff-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftdump-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftgamma-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftgrid-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftinspect-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftlint-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftmulti-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftstring-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftvalid-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftview-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:libfreetype6-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "openSUSE Leap Micro 5.2:libfreetype6-2.10.4-150000.4.12.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-27405",
+      "Description": "FreeType commit 53dfdcd8198d2b3201a23c4bad9190519ba918db was discovered to contain a segmentation violation via the function FNT_Size_Request.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-27405.html",
+          "Description": "CVE-2022-27405"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1198832",
+          "Description": "SUSE Bug 1198832"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/openjdk-devel:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container bci/openjdk:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container suse/sle-micro-rancher/5.2:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container suse/sle-micro-rancher/5.3:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Micro 5.1:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Micro 5.2:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP3:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:ftdump-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:freetype2-devel-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:freetype2-devel-32bit-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:freetype2-profile-tti35-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ft2demos-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftbench-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftdiff-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftdump-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftgamma-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftgrid-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftinspect-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftlint-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftmulti-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftstring-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftvalid-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftview-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:libfreetype6-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:freetype2-devel-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:freetype2-devel-32bit-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:freetype2-profile-tti35-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ft2demos-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftbench-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftdiff-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftdump-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftgamma-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftgrid-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftinspect-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftlint-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftmulti-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftstring-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftvalid-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftview-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:libfreetype6-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "openSUSE Leap Micro 5.2:libfreetype6-2.10.4-150000.4.12.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-27406",
+      "Description": "FreeType commit 22a0cccb4d9d002f33c1ba7a4b36812c7d4f46b5 was discovered to contain a segmentation violation via the function FT_Request_Size.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-27406.html",
+          "Description": "CVE-2022-27406"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1198823",
+          "Description": "SUSE Bug 1198823"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/openjdk-devel:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container bci/openjdk:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container suse/sle-micro-rancher/5.2:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "Container suse/sle-micro-rancher/5.3:latest:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Micro 5.1:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Micro 5.2:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:freetype2-devel-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libfreetype6-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP3:ftdump-2.10.4-150000.4.12.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP4:ftdump-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:freetype2-devel-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:freetype2-devel-32bit-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:freetype2-profile-tti35-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ft2demos-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftbench-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftdiff-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftdump-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftgamma-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftgrid-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftinspect-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftlint-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftmulti-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftstring-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftvalid-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:ftview-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:libfreetype6-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.3:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:freetype2-devel-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:freetype2-devel-32bit-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:freetype2-profile-tti35-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ft2demos-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftbench-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftdiff-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftdump-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftgamma-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftgrid-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftinspect-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftlint-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftmulti-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftstring-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftvalid-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:ftview-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:libfreetype6-2.10.4-150000.4.12.1",
+            "openSUSE Leap 15.4:libfreetype6-32bit-2.10.4-150000.4.12.1",
+            "openSUSE Leap Micro 5.2:libfreetype6-2.10.4-150000.4.12.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

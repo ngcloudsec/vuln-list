@@ -1,0 +1,117 @@
+{
+  "id": "RLSA-2022:7585",
+  "title": "Moderate: libtiff security update",
+  "issued": {
+    "date": "2022-11-13 07:51:44"
+  },
+  "updated": {
+    "date": "2022-11-08 00:00:00"
+  },
+  "severity": "SEVERITY_MODERATE",
+  "description": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nAdditional Changes:\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
+  "packages": [
+    {
+      "name": "libtiff",
+      "epoch": "0",
+      "version": "4.0.9",
+      "release": "23.el8",
+      "arch": "i686",
+      "src": "libtiff-4.0.9-23.el8.src.rpm",
+      "filename": "libtiff-4.0.9-23.el8.i686.rpm"
+    },
+    {
+      "name": "libtiff",
+      "epoch": "0",
+      "version": "4.0.9",
+      "release": "23.el8",
+      "arch": "x86_64",
+      "src": "libtiff-4.0.9-23.el8.src.rpm",
+      "filename": "libtiff-4.0.9-23.el8.x86_64.rpm"
+    },
+    {
+      "name": "libtiff-devel",
+      "epoch": "0",
+      "version": "4.0.9",
+      "release": "23.el8",
+      "arch": "i686",
+      "src": "libtiff-4.0.9-23.el8.src.rpm",
+      "filename": "libtiff-devel-4.0.9-23.el8.i686.rpm"
+    },
+    {
+      "name": "libtiff-devel",
+      "epoch": "0",
+      "version": "4.0.9",
+      "release": "23.el8",
+      "arch": "x86_64",
+      "src": "libtiff-4.0.9-23.el8.src.rpm",
+      "filename": "libtiff-devel-4.0.9-23.el8.x86_64.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-0561.json",
+      "id": "CVE-2022-0561",
+      "title": "Update information for CVE-2022-0561 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-0562.json",
+      "id": "CVE-2022-0562",
+      "title": "Update information for CVE-2022-0562 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-0865.json",
+      "id": "CVE-2022-0865",
+      "title": "Update information for CVE-2022-0865 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-0891.json",
+      "id": "CVE-2022-0891",
+      "title": "Update information for CVE-2022-0891 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-0908.json",
+      "id": "CVE-2022-0908",
+      "title": "Update information for CVE-2022-0908 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-0909.json",
+      "id": "CVE-2022-0909",
+      "title": "Update information for CVE-2022-0909 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-0924.json",
+      "id": "CVE-2022-0924",
+      "title": "Update information for CVE-2022-0924 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-1355.json",
+      "id": "CVE-2022-1355",
+      "title": "Update information for CVE-2022-1355 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-22844.json",
+      "id": "CVE-2022-22844",
+      "title": "Update information for CVE-2022-22844 is retrieved from Red Hat",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2022-0561",
+    "CVE-2022-0562",
+    "CVE-2022-0865",
+    "CVE-2022-0891",
+    "CVE-2022-0908",
+    "CVE-2022-0909",
+    "CVE-2022-0924",
+    "CVE-2022-1355",
+    "CVE-2022-22844"
+  ]
+}

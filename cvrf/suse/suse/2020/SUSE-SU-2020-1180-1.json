@@ -1,0 +1,526 @@
+{
+  "Title": "Security update for icu",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:1180-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-05-05T08:54:38Z",
+    "CurrentReleaseDate": "2020-05-05T08:54:38Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-05-05T08:54:38Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for icu",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for icu fixes the following issues:\n\n- CVE-2020-10531: Fixed integer overflow in UnicodeString:doAppend() (bsc#1166844).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libicu-doc-52.1-8.10.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-52.1-8.10.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-32bit-52.1-8.10.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-data-52.1-8.10.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu-doc-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-32bit-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-data-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu-doc-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-32bit-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-data-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu-doc-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-32bit-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-data-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu-doc-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-32bit-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-data-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu-doc-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-32bit-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-data-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu-doc-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-32bit-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-data-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu-devel-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu-devel-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu-doc-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-32bit-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-data-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu-doc-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-32bit-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-data-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu-doc-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-32bit-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-data-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu-doc-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-32bit-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-data-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu-doc-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-32bit-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-data-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu-doc-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-32bit-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-data-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu-doc-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-32bit-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-data-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu-doc-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-32bit-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-data-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu-doc-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-32bit-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-data-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "icu-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Workstation Extension 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "icu-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Workstation Extension 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu-doc-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-32bit-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libicu52_1-data-52.1-8.10.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20201180-1/",
+      "Description": "Link for SUSE-SU-2020:1180-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-May/006779.html",
+      "Description": "E-Mail link for SUSE-SU-2020:1180-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1166844",
+      "Description": "SUSE Bug 1166844"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-10531/",
+      "Description": "SUSE CVE CVE-2020-10531 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-10531",
+      "Description": "An issue was discovered in International Components for Unicode (ICU) for C/C++ through 66.1. An integer overflow, leading to a heap-based buffer overflow, exists in the UnicodeString::doAppend() function in common/unistr.cpp.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-10531.html",
+          "Description": "CVE-2020-10531"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1166844",
+          "Description": "SUSE Bug 1166844"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1175778",
+          "Description": "SUSE Bug 1175778"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "HPE Helion Openstack 8:libicu-doc-52.1-8.10.1",
+            "HPE Helion Openstack 8:libicu52_1-32bit-52.1-8.10.1",
+            "HPE Helion Openstack 8:libicu52_1-52.1-8.10.1",
+            "HPE Helion Openstack 8:libicu52_1-data-52.1-8.10.1",
+            "SUSE Enterprise Storage 5:libicu-doc-52.1-8.10.1",
+            "SUSE Enterprise Storage 5:libicu52_1-32bit-52.1-8.10.1",
+            "SUSE Enterprise Storage 5:libicu52_1-52.1-8.10.1",
+            "SUSE Enterprise Storage 5:libicu52_1-data-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP1-LTSS:libicu-doc-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP1-LTSS:libicu52_1-32bit-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP1-LTSS:libicu52_1-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP1-LTSS:libicu52_1-data-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libicu-doc-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libicu52_1-32bit-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libicu52_1-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libicu52_1-data-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:libicu-doc-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:libicu52_1-32bit-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:libicu52_1-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:libicu52_1-data-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libicu-doc-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libicu52_1-32bit-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libicu52_1-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libicu52_1-data-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:libicu-doc-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:libicu52_1-32bit-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:libicu52_1-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:libicu52_1-data-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP4:libicu-doc-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP4:libicu52_1-32bit-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP4:libicu52_1-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP4:libicu52_1-data-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP5:libicu-doc-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP5:libicu52_1-32bit-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP5:libicu52_1-52.1-8.10.1",
+            "SUSE Linux Enterprise Server 12 SP5:libicu52_1-data-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP1:libicu-doc-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP1:libicu52_1-32bit-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP1:libicu52_1-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP1:libicu52_1-data-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:libicu-doc-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:libicu52_1-32bit-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:libicu52_1-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:libicu52_1-data-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:libicu-doc-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:libicu52_1-32bit-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:libicu52_1-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:libicu52_1-data-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libicu-doc-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libicu52_1-32bit-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libicu52_1-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libicu52_1-data-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libicu-doc-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libicu52_1-32bit-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libicu52_1-52.1-8.10.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libicu52_1-data-52.1-8.10.1",
+            "SUSE Linux Enterprise Software Development Kit 12 SP4:libicu-devel-52.1-8.10.1",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:libicu-devel-52.1-8.10.1",
+            "SUSE Linux Enterprise Workstation Extension 12 SP4:icu-52.1-8.10.1",
+            "SUSE Linux Enterprise Workstation Extension 12 SP5:icu-52.1-8.10.1",
+            "SUSE OpenStack Cloud 7:libicu-doc-52.1-8.10.1",
+            "SUSE OpenStack Cloud 7:libicu52_1-32bit-52.1-8.10.1",
+            "SUSE OpenStack Cloud 7:libicu52_1-52.1-8.10.1",
+            "SUSE OpenStack Cloud 7:libicu52_1-data-52.1-8.10.1",
+            "SUSE OpenStack Cloud 8:libicu-doc-52.1-8.10.1",
+            "SUSE OpenStack Cloud 8:libicu52_1-32bit-52.1-8.10.1",
+            "SUSE OpenStack Cloud 8:libicu52_1-52.1-8.10.1",
+            "SUSE OpenStack Cloud 8:libicu52_1-data-52.1-8.10.1",
+            "SUSE OpenStack Cloud Crowbar 8:libicu-doc-52.1-8.10.1",
+            "SUSE OpenStack Cloud Crowbar 8:libicu52_1-32bit-52.1-8.10.1",
+            "SUSE OpenStack Cloud Crowbar 8:libicu52_1-52.1-8.10.1",
+            "SUSE OpenStack Cloud Crowbar 8:libicu52_1-data-52.1-8.10.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

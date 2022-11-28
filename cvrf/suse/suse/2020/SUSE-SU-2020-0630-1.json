@@ -1,0 +1,166 @@
+{
+  "Title": "Security update for ipmitool",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:0630-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-03-10T12:12:20Z",
+    "CurrentReleaseDate": "2020-03-10T12:12:20Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-03-10T12:12:20Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for ipmitool",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for ipmitool fixes the following issues:\n\n- CVE-2020-5208: Fixed multiple remote code executtion vulnerabilities (bsc#1163026).\t  \n- picmg discover messages are now DEBUG and not INFO messages (bsc#1085469).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "ipmitool-1.8.18-5.9.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ipmitool-1.8.18-5.9.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ipmitool-1.8.18-5.9.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ipmitool-1.8.18-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ipmitool-1.8.18-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ipmitool-1.8.18-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ipmitool-1.8.18-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ipmitool-1.8.18-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ipmitool-1.8.18-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ipmitool-1.8.18-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ipmitool-1.8.18-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ipmitool-1.8.18-5.9.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20200630-1/",
+      "Description": "Link for SUSE-SU-2020:0630-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-March/006594.html",
+      "Description": "E-Mail link for SUSE-SU-2020:0630-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1085469",
+      "Description": "SUSE Bug 1085469"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1163026",
+      "Description": "SUSE Bug 1163026"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-5208/",
+      "Description": "SUSE CVE CVE-2020-5208 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-5208",
+      "Description": "It's been found that multiple functions in ipmitool before 1.8.19 neglect proper checking of the data received from a remote LAN party, which may lead to buffer overflows and potentially to remote code execution on the ipmitool side. This is especially dangerous if ipmitool is run as a privileged user. This problem is fixed in version 1.8.19.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-5208.html",
+          "Description": "CVE-2020-5208"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1163026",
+          "Description": "SUSE Bug 1163026"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "HPE Helion Openstack 8:ipmitool-1.8.18-5.9.1",
+            "SUSE Enterprise Storage 5:ipmitool-1.8.18-5.9.1",
+            "SUSE Linux Enterprise Desktop 12 SP4:ipmitool-1.8.18-5.9.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:ipmitool-1.8.18-5.9.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:ipmitool-1.8.18-5.9.1",
+            "SUSE Linux Enterprise Server 12 SP4:ipmitool-1.8.18-5.9.1",
+            "SUSE Linux Enterprise Server 12 SP5:ipmitool-1.8.18-5.9.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:ipmitool-1.8.18-5.9.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:ipmitool-1.8.18-5.9.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:ipmitool-1.8.18-5.9.1",
+            "SUSE OpenStack Cloud 8:ipmitool-1.8.18-5.9.1",
+            "SUSE OpenStack Cloud Crowbar 8:ipmitool-1.8.18-5.9.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "RLSA-2020:1605",
+  "title": "Moderate: python27:2.7 security, bug fix, and enhancement update",
+  "issued": {
+    "date": "2020-04-28 00:00:00"
+  },
+  "updated": {
+    "date": "2020-04-28 00:00:00"
+  },
+  "severity": "SEVERITY_MODERATE",
+  "description": "Python is an interpreted, interactive, object-oriented programming language that supports modules, classes, exceptions, high-level dynamic data types, and dynamic typing. The python27 packages provide a stable release of Python 2.7 with a number of additional utilities and database connectors for MySQL and PostgreSQL.\nThe following packages have been upgraded to a later upstream version: python2 (2.7.17). (BZ#1759944)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nAdditional Changes:\nFor detailed information on changes in this release, see the Rocky Linux 8.2 Release Notes linked from the References section.",
+  "packages": [
+    {
+      "name": "python2-dns",
+      "epoch": "0",
+      "version": "1.15.0",
+      "release": "10.module+el8.7.0+1062+663ba31c",
+      "arch": "noarch",
+      "src": "python-dns-1.15.0-10.module+el8.7.0+1062+663ba31c.src.rpm",
+      "filename": "python2-dns-1.15.0-10.module+el8.7.0+1062+663ba31c.noarch.rpm"
+    },
+    {
+      "name": "python2-dns",
+      "epoch": "0",
+      "version": "1.15.0",
+      "release": "10.module+el8.7.0+1062+663ba31c",
+      "arch": "noarch",
+      "src": "python-dns-1.15.0-10.module+el8.7.0+1062+663ba31c.src.rpm",
+      "filename": "python2-dns-1.15.0-10.module+el8.7.0+1062+663ba31c.noarch.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2019-16935.json",
+      "id": "CVE-2019-16935",
+      "title": "Update information for CVE-2019-16935 is retrieved from Red Hat",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2019-16935"
+  ]
+}

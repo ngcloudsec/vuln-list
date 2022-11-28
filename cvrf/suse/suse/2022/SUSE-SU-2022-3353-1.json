@@ -1,0 +1,138 @@
+{
+  "Title": "Security update for permissions",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3353-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-09-23T13:23:48Z",
+    "CurrentReleaseDate": "2022-09-23T13:23:48Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-09-23T13:23:48Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for permissions",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for permissions fixes the following issues:\n\n- CVE-2022-31252: Fixed chkstat group controlled paths (bsc#1203018).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "permissions-20201225-150400.5.11.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "permissions-20201225-150400.5.11.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "permissions-20201225-150400.5.11.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "permissions-20201225-150400.5.11.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "permissions-20201225-150400.5.11.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "permissions-zypp-plugin-20201225-150400.5.11.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "permissions-20201225-150400.5.11.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "permissions-zypp-plugin-20201225-150400.5.11.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223353-1/",
+      "Description": "Link for SUSE-SU-2022:3353-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-September/012353.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3353-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1203018",
+      "Description": "SUSE Bug 1203018"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-31252/",
+      "Description": "SUSE CVE CVE-2022-31252 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-31252",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-31252.html",
+          "Description": "CVE-2022-31252"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1203018",
+          "Description": "SUSE Bug 1203018"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-SP4-CHOST-BYOS-Aliyun:permissions-20201225-150400.5.11.1",
+            "Image SLES15-SP4-CHOST-BYOS-Azure:permissions-20201225-150400.5.11.1",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:permissions-20201225-150400.5.11.1",
+            "Image SLES15-SP4-CHOST-BYOS:permissions-20201225-150400.5.11.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:permissions-20201225-150400.5.11.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:permissions-zypp-plugin-20201225-150400.5.11.1",
+            "openSUSE Leap 15.4:permissions-20201225-150400.5.11.1",
+            "openSUSE Leap 15.4:permissions-zypp-plugin-20201225-150400.5.11.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

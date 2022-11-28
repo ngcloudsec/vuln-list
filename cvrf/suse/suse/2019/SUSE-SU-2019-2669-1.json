@@ -1,0 +1,431 @@
+{
+  "Title": "Security update for libpcap",
+  "Tracking": {
+    "ID": "SUSE-SU-2019:2669-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2019-10-15T12:38:12Z",
+    "CurrentReleaseDate": "2019-10-15T12:38:12Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2019-10-15T12:38:12Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for libpcap",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for libpcap fixes the following issues:\n\n- CVE-2019-15165: Added sanity checks for PHB header length before allocating memory (bsc#1153332).\n- CVE-2018-16301: Fixed a buffer overflow (bsc#1153332).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libpcap1-1.8.1-10.3.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcpdump-4.9.2-14.14.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcpdump-4.9.2-14.14.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcpdump-4.9.2-14.14.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcpdump-4.9.2-14.14.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-32bit-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcpdump-4.9.2-14.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcpdump-4.9.2-14.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcpdump-4.9.2-14.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcpdump-4.9.2-14.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap-devel-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap-devel-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcpdump-4.9.2-14.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcpdump-4.9.2-14.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcpdump-4.9.2-14.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcpdump-4.9.2-14.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcpdump-4.9.2-14.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcpdump-4.9.2-14.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcpdump-4.9.2-14.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcpdump-4.9.2-14.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcpdump-4.9.2-14.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-32bit-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Workstation Extension 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-32bit-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Workstation Extension 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcpdump-4.9.2-14.14.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.8.1-10.3.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tcpdump-4.9.2-14.14.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20192669-1/",
+      "Description": "Link for SUSE-SU-2019:2669-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2019-October/006016.html",
+      "Description": "E-Mail link for SUSE-SU-2019:2669-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1153332",
+      "Description": "SUSE Bug 1153332"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2018-16301/",
+      "Description": "SUSE CVE CVE-2018-16301 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-15165/",
+      "Description": "SUSE CVE CVE-2019-15165 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2018-16301",
+      "Description": "The command-line argument parser in tcpdump before 4.99.0 has a buffer overflow in tcpdump.c:read_infile(). To trigger this vulnerability the attacker needs to create a 4GB file on the local filesystem and to specify the file name as the value of the -F command-line argument of tcpdump.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2018-16301.html",
+          "Description": "CVE-2018-16301"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1153098",
+          "Description": "SUSE Bug 1153098"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1153332",
+          "Description": "SUSE Bug 1153332"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1195825",
+          "Description": "SUSE Bug 1195825"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "HPE Helion Openstack 8:libpcap1-1.8.1-10.3.1",
+            "HPE Helion Openstack 8:tcpdump-4.9.2-14.14.1",
+            "SUSE Enterprise Storage 4:libpcap1-1.8.1-10.3.1",
+            "SUSE Enterprise Storage 4:tcpdump-4.9.2-14.14.1",
+            "SUSE Enterprise Storage 5:libpcap1-1.8.1-10.3.1",
+            "SUSE Enterprise Storage 5:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Desktop 12 SP4:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Desktop 12 SP4:libpcap1-32bit-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Desktop 12 SP4:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server 12 SP1-LTSS:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server 12 SP1-LTSS:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server 12 SP4:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server 12 SP4:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server 12 SP5:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server 12 SP5:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP1:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP1:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Software Development Kit 12 SP4:libpcap-devel-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:libpcap-devel-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Workstation Extension 12 SP4:libpcap1-32bit-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Workstation Extension 12 SP5:libpcap1-32bit-1.8.1-10.3.1",
+            "SUSE OpenStack Cloud 7:libpcap1-1.8.1-10.3.1",
+            "SUSE OpenStack Cloud 7:tcpdump-4.9.2-14.14.1",
+            "SUSE OpenStack Cloud 8:libpcap1-1.8.1-10.3.1",
+            "SUSE OpenStack Cloud 8:tcpdump-4.9.2-14.14.1",
+            "SUSE OpenStack Cloud Crowbar 8:libpcap1-1.8.1-10.3.1",
+            "SUSE OpenStack Cloud Crowbar 8:tcpdump-4.9.2-14.14.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2019-15165",
+      "Description": "sf-pcapng.c in libpcap before 1.9.1 does not properly validate the PHB header length before allocating memory.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-15165.html",
+          "Description": "CVE-2019-15165"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1153332",
+          "Description": "SUSE Bug 1153332"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "HPE Helion Openstack 8:libpcap1-1.8.1-10.3.1",
+            "HPE Helion Openstack 8:tcpdump-4.9.2-14.14.1",
+            "SUSE Enterprise Storage 4:libpcap1-1.8.1-10.3.1",
+            "SUSE Enterprise Storage 4:tcpdump-4.9.2-14.14.1",
+            "SUSE Enterprise Storage 5:libpcap1-1.8.1-10.3.1",
+            "SUSE Enterprise Storage 5:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Desktop 12 SP4:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Desktop 12 SP4:libpcap1-32bit-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Desktop 12 SP4:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server 12 SP1-LTSS:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server 12 SP1-LTSS:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server 12 SP4:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server 12 SP4:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server 12 SP5:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server 12 SP5:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP1:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP1:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libpcap1-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:tcpdump-4.9.2-14.14.1",
+            "SUSE Linux Enterprise Software Development Kit 12 SP4:libpcap-devel-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:libpcap-devel-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Workstation Extension 12 SP4:libpcap1-32bit-1.8.1-10.3.1",
+            "SUSE Linux Enterprise Workstation Extension 12 SP5:libpcap1-32bit-1.8.1-10.3.1",
+            "SUSE OpenStack Cloud 7:libpcap1-1.8.1-10.3.1",
+            "SUSE OpenStack Cloud 7:tcpdump-4.9.2-14.14.1",
+            "SUSE OpenStack Cloud 8:libpcap1-1.8.1-10.3.1",
+            "SUSE OpenStack Cloud 8:tcpdump-4.9.2-14.14.1",
+            "SUSE OpenStack Cloud Crowbar 8:libpcap1-1.8.1-10.3.1",
+            "SUSE OpenStack Cloud Crowbar 8:tcpdump-4.9.2-14.14.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

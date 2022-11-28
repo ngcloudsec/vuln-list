@@ -1,0 +1,1359 @@
+{
+  "Title": "Security update for libxml2",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:1750-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-05-19T13:28:58Z",
+    "CurrentReleaseDate": "2022-05-19T13:28:58Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-05-19T13:28:58Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for libxml2",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for libxml2 fixes the following issues:\n\n- CVE-2022-23308: Fixed a use-after-free of ID and IDREF attributes (bsc#1196490).\n- CVE-2022-29824: Fixed integer overflow that could have led to an out-of-bounds write in buf.c (xmlBuf*) and tree.c (xmlBuffer*) (bsc#1199132).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/golang:1.16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/golang:1.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:11",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container suse/pcp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container suse/rmt-mariadb-client:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container suse/rmt-mariadb:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container suse/rmt-nginx:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container suse/rmt-server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container suse/sle15:15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container suse/sle15:15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container suse/sle15:15.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Container suse/sle15:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Image SLES15-SP2-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Image SLES15-SP3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Image SLES15-SP3-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-32bit-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-doc-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-libxml2-python-2.9.7-150000.3.46.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20221750-1/",
+      "Description": "Link for SUSE-SU-2022:1750-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-May/011098.html",
+      "Description": "E-Mail link for SUSE-SU-2022:1750-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1196490",
+      "Description": "SUSE Bug 1196490"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1199132",
+      "Description": "SUSE Bug 1199132"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-23308/",
+      "Description": "SUSE CVE CVE-2022-23308 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-29824/",
+      "Description": "SUSE CVE CVE-2022-29824 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-23308",
+      "Description": "valid.c in libxml2 before 2.9.13 has a use-after-free of ID and IDREF attributes.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-23308.html",
+          "Description": "CVE-2022-23308"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1196490",
+          "Description": "SUSE Bug 1196490"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199098",
+          "Description": "SUSE Bug 1199098"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/dotnet-aspnet:3.1:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/dotnet-aspnet:5.0:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/dotnet-aspnet:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/dotnet-runtime:3.1:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/dotnet-runtime:5.0:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/dotnet-runtime:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/dotnet-sdk:3.1:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/dotnet-sdk:5.0:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/dotnet-sdk:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/golang:1.16:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/golang:1.17:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/golang:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/node:12:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/node:14:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/nodejs:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/openjdk-devel:11:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/openjdk:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/python:3:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/ruby:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container suse/pcp:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container suse/rmt-mariadb-client:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container suse/rmt-mariadb:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container suse/rmt-nginx:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container suse/rmt-server:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container suse/sle15:15.0:libxml2-2-2.9.7-150000.3.46.1",
+            "Container suse/sle15:15.1:libxml2-2-2.9.7-150000.3.46.1",
+            "Container suse/sle15:15.2:libxml2-2-2.9.7-150000.3.46.1",
+            "Container suse/sle15:15.3:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP2-SAP-BYOS-GCE:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP2-SAP-GCE:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-BYOS-GCE:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-GCE:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-HPC-BYOS-GCE:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-SAP-BYOS-GCE:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 6:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 6:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 6:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 6:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 6:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 6:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 7:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 7:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 7:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 7:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 7:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 7:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Micro 5.1:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Micro 5.1:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Micro 5.2:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Micro 5.2:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Micro 5.2:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP3:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15-LTSS:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15-LTSS:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Manager Proxy 4.1:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Manager Proxy 4.1:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Manager Proxy 4.1:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Manager Proxy 4.1:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Manager Proxy 4.1:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Manager Proxy 4.1:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Manager Retail Branch Server 4.1:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Manager Retail Branch Server 4.1:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Manager Retail Branch Server 4.1:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Manager Retail Branch Server 4.1:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Manager Retail Branch Server 4.1:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Manager Retail Branch Server 4.1:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Manager Server 4.1:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Manager Server 4.1:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Manager Server 4.1:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Manager Server 4.1:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Manager Server 4.1:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Manager Server 4.1:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.3:libxml2-2-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.3:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.3:libxml2-devel-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.3:libxml2-devel-32bit-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.3:libxml2-doc-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.3:libxml2-tools-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.3:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.3:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.4:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.4:python3-libxml2-python-2.9.7-150000.3.46.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-29824",
+      "Description": "In libxml2 before 2.9.14, several buffer handling functions in buf.c (xmlBuf*) and tree.c (xmlBuffer*) don't check for integer overflows. This can result in out-of-bounds memory writes. Exploitation requires a victim to open a crafted, multi-gigabyte XML file. Other software using libxml2's buffer functions, for example libxslt through 1.1.35, is affected as well.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-29824.html",
+          "Description": "CVE-2022-29824"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199132",
+          "Description": "SUSE Bug 1199132"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201030",
+          "Description": "SUSE Bug 1201030"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/dotnet-aspnet:3.1:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/dotnet-aspnet:5.0:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/dotnet-aspnet:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/dotnet-runtime:3.1:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/dotnet-runtime:5.0:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/dotnet-runtime:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/dotnet-sdk:3.1:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/dotnet-sdk:5.0:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/dotnet-sdk:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/golang:1.16:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/golang:1.17:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/golang:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/node:12:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/node:14:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/nodejs:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/openjdk-devel:11:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/openjdk:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/python:3:libxml2-2-2.9.7-150000.3.46.1",
+            "Container bci/ruby:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container suse/pcp:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container suse/rmt-mariadb-client:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container suse/rmt-mariadb:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container suse/rmt-nginx:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container suse/rmt-server:latest:libxml2-2-2.9.7-150000.3.46.1",
+            "Container suse/sle15:15.0:libxml2-2-2.9.7-150000.3.46.1",
+            "Container suse/sle15:15.1:libxml2-2-2.9.7-150000.3.46.1",
+            "Container suse/sle15:15.2:libxml2-2-2.9.7-150000.3.46.1",
+            "Container suse/sle15:15.3:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP2-SAP-BYOS-GCE:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP2-SAP-GCE:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-BYOS-GCE:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-GCE:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-HPC-BYOS-GCE:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:libxml2-2-2.9.7-150000.3.46.1",
+            "Image SLES15-SP3-SAP-BYOS-GCE:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 6:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 6:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 6:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 6:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 6:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 6:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 7:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 7:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 7:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 7:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 7:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Enterprise Storage 7:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Micro 5.1:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Micro 5.1:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Micro 5.2:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Micro 5.2:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Micro 5.2:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP3:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15-LTSS:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server 15-LTSS:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Manager Proxy 4.1:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Manager Proxy 4.1:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Manager Proxy 4.1:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Manager Proxy 4.1:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Manager Proxy 4.1:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Manager Proxy 4.1:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Manager Retail Branch Server 4.1:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Manager Retail Branch Server 4.1:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Manager Retail Branch Server 4.1:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Manager Retail Branch Server 4.1:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Manager Retail Branch Server 4.1:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Manager Retail Branch Server 4.1:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Manager Server 4.1:libxml2-2-2.9.7-150000.3.46.1",
+            "SUSE Manager Server 4.1:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "SUSE Manager Server 4.1:libxml2-devel-2.9.7-150000.3.46.1",
+            "SUSE Manager Server 4.1:libxml2-tools-2.9.7-150000.3.46.1",
+            "SUSE Manager Server 4.1:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "SUSE Manager Server 4.1:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.3:libxml2-2-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.3:libxml2-2-32bit-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.3:libxml2-devel-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.3:libxml2-devel-32bit-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.3:libxml2-doc-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.3:libxml2-tools-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.3:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.3:python3-libxml2-python-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.4:python2-libxml2-python-2.9.7-150000.3.46.1",
+            "openSUSE Leap 15.4:python3-libxml2-python-2.9.7-150000.3.46.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

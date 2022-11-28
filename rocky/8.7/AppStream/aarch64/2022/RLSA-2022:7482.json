@@ -1,0 +1,43 @@
+{
+  "id": "RLSA-2022:7482",
+  "title": "Moderate: qt5 security, bug fix, and enhancement update",
+  "issued": {
+    "date": "2022-11-13 07:50:17"
+  },
+  "updated": {
+    "date": "2022-11-08 00:00:00"
+  },
+  "severity": "SEVERITY_MODERATE",
+  "description": "The Qt5 libraries packages provide Qt 5, version 5 of the Qt cross-platform application framework.\nThe following packages have been upgraded to a later upstream version: qt5 (5.15.3). (BZ#2061377)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nAdditional Changes:\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
+  "packages": [
+    {
+      "name": "qt5-rpm-macros",
+      "epoch": "0",
+      "version": "5.15.3",
+      "release": "1.el8",
+      "arch": "noarch",
+      "src": "qt5-5.15.3-1.el8.src.rpm",
+      "filename": "qt5-rpm-macros-5.15.3-1.el8.noarch.rpm"
+    },
+    {
+      "name": "qt5-srpm-macros",
+      "epoch": "0",
+      "version": "5.15.3",
+      "release": "1.el8",
+      "arch": "noarch",
+      "src": "qt5-5.15.3-1.el8.src.rpm",
+      "filename": "qt5-srpm-macros-5.15.3-1.el8.noarch.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-25255.json",
+      "id": "CVE-2022-25255",
+      "title": "Update information for CVE-2022-25255 is retrieved from Red Hat",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2022-25255"
+  ]
+}

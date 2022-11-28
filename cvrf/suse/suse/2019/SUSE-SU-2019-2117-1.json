@@ -1,0 +1,816 @@
+{
+  "Title": "Security update for containerd, docker, docker-runc, golang-github-docker-libnetwork",
+  "Tracking": {
+    "ID": "SUSE-SU-2019:2117-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2019-08-13T12:57:00Z",
+    "CurrentReleaseDate": "2019-08-13T12:57:00Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2019-08-13T12:57:00Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for containerd, docker, docker-runc, golang-github-docker-libnetwork",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for containerd, docker, docker-runc, golang-github-docker-libnetwork fixes the following issues:\n\nDocker:\n\n- CVE-2019-14271: Fixed a code injection if the nsswitch facility dynamically loaded a library inside a chroot (bsc#1143409).\n- CVE-2019-13509: Fixed an information leak in the debug log (bsc#1142160).\n- Update to version 19.03.1-ce, see changelog at /usr/share/doc/packages/docker/CHANGELOG.md (bsc#1142413, bsc#1139649).\n\nrunc:\n\n- Use %config(noreplace) for /etc/docker/daemon.json (bsc#1138920).\n- Update to runc 425e105d5a03, which is required by Docker (bsc#1139649).\n\ncontainerd:\n\n- CVE-2019-5736: Fixed a container breakout vulnerability (bsc#1121967).\n- Update to containerd v1.2.6, which is required by docker (bsc#1139649).\n\ngolang-github-docker-libnetwork:\n\n- Update to version git.fc5a7d91d54cc98f64fc28f9e288b46a0bee756c, which is required by docker (bsc#1142413, bsc#1139649).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "containerd-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.2.6-5.16.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.2.6-5.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Containers 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Containers 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-bash-completion-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Containers 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Containers 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-runc-1.0.0rc8+gitr3826_425e105d5a03-6.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Containers 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.2.6-5.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Containers 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Containers 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-bash-completion-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Containers 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Containers 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-runc-1.0.0rc8+gitr3826_425e105d5a03-6.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Containers 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.2.6-5.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-test-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-zsh-completion-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "golang-github-docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.2.6-5.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-kubic-1.2.6-5.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-kubic-ctr-1.2.6-5.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-kubic-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-kubic-bash-completion-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-kubic-kubeadm-criconfig-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-kubic-test-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-kubic-zsh-completion-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-libnetwork-kubic-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-runc-kubic-1.0.0rc8+gitr3826_425e105d5a03-6.21.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-test-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "docker-zsh-completion-19.03.1_ce-6.26.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "golang-github-docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "golang-github-docker-libnetwork-kubic-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20192117-1/",
+      "Description": "Link for SUSE-SU-2019:2117-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2019-August/005812.html",
+      "Description": "E-Mail link for SUSE-SU-2019:2117-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1100331",
+      "Description": "SUSE Bug 1100331"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1121967",
+      "Description": "SUSE Bug 1121967"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1138920",
+      "Description": "SUSE Bug 1138920"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1139649",
+      "Description": "SUSE Bug 1139649"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1142160",
+      "Description": "SUSE Bug 1142160"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1142413",
+      "Description": "SUSE Bug 1142413"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1143409",
+      "Description": "SUSE Bug 1143409"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2018-10892/",
+      "Description": "SUSE CVE CVE-2018-10892 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-13509/",
+      "Description": "SUSE CVE CVE-2019-13509 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-14271/",
+      "Description": "SUSE CVE CVE-2019-14271 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-5736/",
+      "Description": "SUSE CVE CVE-2019-5736 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2018-10892",
+      "Description": "The default OCI linux spec in oci/defaults{_linux}.go in Docker/Moby from 1.11 to current does not block /proc/acpi pathnames. The flaw allows an attacker to modify host's hardware like enabling/disabling bluetooth or turning up/down keyboard brightness.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2018-10892.html",
+          "Description": "CVE-2018-10892"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1100331",
+          "Description": "SUSE Bug 1100331"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1100838",
+          "Description": "SUSE Bug 1100838"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-EC2-CHOST-HVM-BYOS:containerd-1.2.6-5.16.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:docker-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:containerd-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:docker-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:docker-bash-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:docker-runc-1.0.0rc8+gitr3826_425e105d5a03-6.21.2",
+            "SUSE Linux Enterprise Module for Containers 15:containerd-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Containers 15:docker-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15:docker-bash-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15:docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Containers 15:docker-runc-1.0.0rc8+gitr3826_425e105d5a03-6.21.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:containerd-ctr-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:containerd-kubic-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:containerd-kubic-ctr-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-bash-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-kubeadm-criconfig-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-test-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-zsh-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-libnetwork-kubic-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-runc-kubic-1.0.0rc8+gitr3826_425e105d5a03-6.21.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-test-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-zsh-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:golang-github-docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:golang-github-docker-libnetwork-kubic-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:containerd-ctr-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:docker-test-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:docker-zsh-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:golang-github-docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2019-13509",
+      "Description": "In Docker CE and EE before 18.09.8 (as well as Docker EE before 17.06.2-ee-23 and 18.x before 18.03.1-ee-10), Docker Engine in debug mode may sometimes add secrets to the debug log. This applies to a scenario where docker stack deploy is run to redeploy a stack that includes (non external) secrets. It potentially applies to other API users of the stack API if they resend the secret.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-13509.html",
+          "Description": "CVE-2019-13509"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1142160",
+          "Description": "SUSE Bug 1142160"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-EC2-CHOST-HVM-BYOS:containerd-1.2.6-5.16.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:docker-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:containerd-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:docker-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:docker-bash-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:docker-runc-1.0.0rc8+gitr3826_425e105d5a03-6.21.2",
+            "SUSE Linux Enterprise Module for Containers 15:containerd-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Containers 15:docker-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15:docker-bash-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15:docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Containers 15:docker-runc-1.0.0rc8+gitr3826_425e105d5a03-6.21.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:containerd-ctr-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:containerd-kubic-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:containerd-kubic-ctr-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-bash-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-kubeadm-criconfig-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-test-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-zsh-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-libnetwork-kubic-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-runc-kubic-1.0.0rc8+gitr3826_425e105d5a03-6.21.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-test-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-zsh-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:golang-github-docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:golang-github-docker-libnetwork-kubic-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:containerd-ctr-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:docker-test-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:docker-zsh-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:golang-github-docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2019-14271",
+      "Description": "In Docker 19.03.x before 19.03.1 linked against the GNU C Library (aka glibc), code injection can occur when the nsswitch facility dynamically loads a library inside a chroot that contains the contents of the container.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-14271.html",
+          "Description": "CVE-2019-14271"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1143409",
+          "Description": "SUSE Bug 1143409"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-EC2-CHOST-HVM-BYOS:containerd-1.2.6-5.16.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:docker-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:containerd-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:docker-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:docker-bash-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:docker-runc-1.0.0rc8+gitr3826_425e105d5a03-6.21.2",
+            "SUSE Linux Enterprise Module for Containers 15:containerd-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Containers 15:docker-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15:docker-bash-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15:docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Containers 15:docker-runc-1.0.0rc8+gitr3826_425e105d5a03-6.21.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:containerd-ctr-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:containerd-kubic-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:containerd-kubic-ctr-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-bash-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-kubeadm-criconfig-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-test-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-zsh-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-libnetwork-kubic-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-runc-kubic-1.0.0rc8+gitr3826_425e105d5a03-6.21.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-test-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-zsh-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:golang-github-docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:golang-github-docker-libnetwork-kubic-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:containerd-ctr-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:docker-test-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:docker-zsh-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:golang-github-docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2019-5736",
+      "Description": "runc through 1.0-rc6, as used in Docker before 18.09.2 and other products, allows attackers to overwrite the host runc binary (and consequently obtain host root access) by leveraging the ability to execute a command as root within one of these types of containers: (1) a new container with an attacker-controlled image, or (2) an existing container, to which the attacker previously had write access, that can be attached with docker exec. This occurs because of file-descriptor mishandling, related to /proc/self/exe.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-5736.html",
+          "Description": "CVE-2019-5736"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1121967",
+          "Description": "SUSE Bug 1121967"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1122185",
+          "Description": "SUSE Bug 1122185"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1173421",
+          "Description": "SUSE Bug 1173421"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-EC2-CHOST-HVM-BYOS:containerd-1.2.6-5.16.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:docker-19.03.1_ce-6.26.2",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:containerd-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:containerd-ctr-1.2.6-5.16.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:docker-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:containerd-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:docker-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:docker-bash-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Containers 15 SP1:docker-runc-1.0.0rc8+gitr3826_425e105d5a03-6.21.2",
+            "SUSE Linux Enterprise Module for Containers 15:containerd-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Containers 15:docker-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15:docker-bash-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Containers 15:docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Containers 15:docker-runc-1.0.0rc8+gitr3826_425e105d5a03-6.21.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:containerd-ctr-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:containerd-kubic-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:containerd-kubic-ctr-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-bash-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-kubeadm-criconfig-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-test-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-kubic-zsh-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-libnetwork-kubic-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-runc-kubic-1.0.0rc8+gitr3826_425e105d5a03-6.21.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-test-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:docker-zsh-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:golang-github-docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:golang-github-docker-libnetwork-kubic-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:containerd-ctr-1.2.6-5.16.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:docker-test-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:docker-zsh-completion-19.03.1_ce-6.26.2",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:golang-github-docker-libnetwork-0.7.0.1+gitr2800_fc5a7d91d54c-4.15.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

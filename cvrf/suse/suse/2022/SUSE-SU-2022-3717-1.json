@@ -1,0 +1,506 @@
+{
+  "Title": "Security update for libxml2",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3717-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-10-25T08:17:51Z",
+    "CurrentReleaseDate": "2022-10-25T08:17:51Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-10-25T08:17:51Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for libxml2",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for libxml2 fixes the following issues:\n\n  - CVE-2016-3709: Fixed possible XSS vulnerability (bsc#1201978).    \n  - CVE-2022-40303: Fixed integer overflows with XML_PARSE_HUGE (bsc#1204366).    \n  - CVE-2022-40304: Fixed dict corruption caused by entity reference cycles (bsc#1204367).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libxml2-2-2.9.4-46.59.2",
+        "RelatesToProductReference": "Container suse/sles12sp4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.4-46.59.2",
+        "RelatesToProductReference": "Container suse/sles12sp5:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-doc-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-libxml2-2.9.4-46.59.3",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-doc-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-libxml2-2.9.4-46.59.3",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-doc-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-libxml2-2.9.4-46.59.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-devel-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-doc-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-libxml2-2.9.4-46.59.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-doc-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-libxml2-2.9.4-46.59.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-doc-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-libxml2-2.9.4-46.59.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-doc-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-libxml2-2.9.4-46.59.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-2-32bit-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-doc-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxml2-tools-2.9.4-46.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-libxml2-2.9.4-46.59.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223717-1/",
+      "Description": "Link for SUSE-SU-2022:3717-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-October/012663.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3717-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1201978",
+      "Description": "SUSE Bug 1201978"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1204366",
+      "Description": "SUSE Bug 1204366"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1204367",
+      "Description": "SUSE Bug 1204367"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2016-3709/",
+      "Description": "SUSE CVE CVE-2016-3709 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-40303/",
+      "Description": "SUSE CVE CVE-2022-40303 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-40304/",
+      "Description": "SUSE CVE CVE-2022-40304 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2016-3709",
+      "Description": "Possible cross-site scripting vulnerability in libxml after commit 960f0e2.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2016-3709.html",
+          "Description": "CVE-2016-3709"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201978",
+          "Description": "SUSE Bug 1201978"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/sles12sp4:latest:libxml2-2-2.9.4-46.59.2",
+            "Container suse/sles12sp5:latest:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libxml2-doc-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libxml2-tools-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:python-libxml2-2.9.4-46.59.3",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libxml2-doc-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libxml2-tools-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:python-libxml2-2.9.4-46.59.3",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libxml2-doc-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libxml2-tools-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:python-libxml2-2.9.4-46.59.3",
+            "SUSE Linux Enterprise Server 12 SP5:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP5:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP5:libxml2-doc-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP5:libxml2-tools-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP5:python-libxml2-2.9.4-46.59.3",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libxml2-doc-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libxml2-tools-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:python-libxml2-2.9.4-46.59.3",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libxml2-doc-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libxml2-tools-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python-libxml2-2.9.4-46.59.3",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:libxml2-devel-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud 9:libxml2-2-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud 9:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud 9:libxml2-doc-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud 9:libxml2-tools-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud 9:python-libxml2-2.9.4-46.59.3",
+            "SUSE OpenStack Cloud Crowbar 9:libxml2-2-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud Crowbar 9:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud Crowbar 9:libxml2-doc-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud Crowbar 9:libxml2-tools-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud Crowbar 9:python-libxml2-2.9.4-46.59.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-40303",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-40303.html",
+          "Description": "CVE-2022-40303"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1204366",
+          "Description": "SUSE Bug 1204366"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/sles12sp4:latest:libxml2-2-2.9.4-46.59.2",
+            "Container suse/sles12sp5:latest:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libxml2-doc-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libxml2-tools-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:python-libxml2-2.9.4-46.59.3",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libxml2-doc-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libxml2-tools-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:python-libxml2-2.9.4-46.59.3",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libxml2-doc-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libxml2-tools-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:python-libxml2-2.9.4-46.59.3",
+            "SUSE Linux Enterprise Server 12 SP5:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP5:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP5:libxml2-doc-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP5:libxml2-tools-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP5:python-libxml2-2.9.4-46.59.3",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libxml2-doc-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libxml2-tools-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:python-libxml2-2.9.4-46.59.3",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libxml2-doc-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libxml2-tools-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python-libxml2-2.9.4-46.59.3",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:libxml2-devel-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud 9:libxml2-2-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud 9:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud 9:libxml2-doc-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud 9:libxml2-tools-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud 9:python-libxml2-2.9.4-46.59.3",
+            "SUSE OpenStack Cloud Crowbar 9:libxml2-2-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud Crowbar 9:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud Crowbar 9:libxml2-doc-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud Crowbar 9:libxml2-tools-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud Crowbar 9:python-libxml2-2.9.4-46.59.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-40304",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-40304.html",
+          "Description": "CVE-2022-40304"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1204367",
+          "Description": "SUSE Bug 1204367"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/sles12sp4:latest:libxml2-2-2.9.4-46.59.2",
+            "Container suse/sles12sp5:latest:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libxml2-doc-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:libxml2-tools-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:python-libxml2-2.9.4-46.59.3",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libxml2-doc-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:libxml2-tools-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:python-libxml2-2.9.4-46.59.3",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libxml2-doc-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libxml2-tools-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:python-libxml2-2.9.4-46.59.3",
+            "SUSE Linux Enterprise Server 12 SP5:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP5:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP5:libxml2-doc-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP5:libxml2-tools-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server 12 SP5:python-libxml2-2.9.4-46.59.3",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libxml2-doc-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libxml2-tools-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:python-libxml2-2.9.4-46.59.3",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libxml2-2-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libxml2-doc-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libxml2-tools-2.9.4-46.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python-libxml2-2.9.4-46.59.3",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:libxml2-devel-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud 9:libxml2-2-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud 9:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud 9:libxml2-doc-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud 9:libxml2-tools-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud 9:python-libxml2-2.9.4-46.59.3",
+            "SUSE OpenStack Cloud Crowbar 9:libxml2-2-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud Crowbar 9:libxml2-2-32bit-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud Crowbar 9:libxml2-doc-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud Crowbar 9:libxml2-tools-2.9.4-46.59.2",
+            "SUSE OpenStack Cloud Crowbar 9:python-libxml2-2.9.4-46.59.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

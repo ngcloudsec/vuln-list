@@ -1,0 +1,666 @@
+{
+  "Title": "Security update for MozillaFirefox",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3441-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-09-27T15:36:00Z",
+    "CurrentReleaseDate": "2022-09-27T15:36:00Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-09-27T15:36:00Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for MozillaFirefox",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for MozillaFirefox fixes the following issues:\n\n  Mozilla Firefox was updated from 102.2.0esr to 102.3.0esr (bsc#1203477):\n\n  - CVE-2022-40959: Fixed bypassing FeaturePolicy restrictions on transient pages.\n  - CVE-2022-40960: Fixed data-race when parsing non-UTF-8 URLs in threads.\n  - CVE-2022-40958: Fixed bypassing secure context restriction for cookies with __Host and __Secure prefix.\n  - CVE-2022-40956: Fixed content-security-policy base-uri bypass.\n  - CVE-2022-40957: Fixed incoherent instruction cache when building WASM on ARM64.\n  - CVE-2022-40962: Fixed memory safety bugs fixed in Firefox 105 and Firefox ESR 102.3.\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "MozillaFirefox-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223441-1/",
+      "Description": "Link for SUSE-SU-2022:3441-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-September/012407.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3441-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1203477",
+      "Description": "SUSE Bug 1203477"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-40956/",
+      "Description": "SUSE CVE CVE-2022-40956 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-40957/",
+      "Description": "SUSE CVE CVE-2022-40957 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-40958/",
+      "Description": "SUSE CVE CVE-2022-40958 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-40959/",
+      "Description": "SUSE CVE CVE-2022-40959 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-40960/",
+      "Description": "SUSE CVE CVE-2022-40960 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-40962/",
+      "Description": "SUSE CVE CVE-2022-40962 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-40956",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-40956.html",
+          "Description": "CVE-2022-40956"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 6:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Enterprise Storage 6:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Enterprise Storage 6:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-other-102.3.0-150000.150.59.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-40957",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-40957.html",
+          "Description": "CVE-2022-40957"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 6:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Enterprise Storage 6:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Enterprise Storage 6:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-other-102.3.0-150000.150.59.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-40958",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-40958.html",
+          "Description": "CVE-2022-40958"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 6:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Enterprise Storage 6:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Enterprise Storage 6:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-other-102.3.0-150000.150.59.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-40959",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-40959.html",
+          "Description": "CVE-2022-40959"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 6:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Enterprise Storage 6:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Enterprise Storage 6:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-other-102.3.0-150000.150.59.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-40960",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-40960.html",
+          "Description": "CVE-2022-40960"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 6:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Enterprise Storage 6:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Enterprise Storage 6:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-other-102.3.0-150000.150.59.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-40962",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-40962.html",
+          "Description": "CVE-2022-40962"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 6:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Enterprise Storage 6:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Enterprise Storage 6:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Enterprise Storage 6:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server 15-LTSS:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:MozillaFirefox-translations-other-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-devel-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-common-102.3.0-150000.150.59.2",
+            "SUSE Linux Enterprise Server for SAP Applications 15:MozillaFirefox-translations-other-102.3.0-150000.150.59.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

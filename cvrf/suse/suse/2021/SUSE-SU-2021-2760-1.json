@@ -1,0 +1,376 @@
+{
+  "Title": "Security update for c-ares",
+  "Tracking": {
+    "ID": "SUSE-SU-2021:2760-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2021-08-17T15:11:20Z",
+    "CurrentReleaseDate": "2021-08-17T15:11:20Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2021-08-17T15:11:20Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for c-ares",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for c-ares fixes the following issues:\n\nVersion update to git snapshot 1.17.1+20200724:\n\n- CVE-2021-3672: fixed missing input validation on hostnames returned by DNS servers (bsc#1188881)\n- If ares_getaddrinfo() was terminated by an ares_destroy(), it would cause crash\n- Crash in sortaddrinfo() if the list size equals 0 due to an unexpected DNS response\n- Expand number of escaped characters in DNS replies as per RFC1035 5.1 to prevent spoofing\n- Use unbuffered /dev/urandom for random data to prevent early startup performance issues\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium:1.6.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.1+20200724-3.14.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2021/suse-su-20212760-1/",
+      "Description": "Link for SUSE-SU-2021:2760-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-updates/2021-August/019883.html",
+      "Description": "E-Mail link for SUSE-SU-2021:2760-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1188881",
+      "Description": "SUSE Bug 1188881"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2021-3672/",
+      "Description": "SUSE CVE CVE-2021-3672 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2021-3672",
+      "Description": "A flaw was found in c-ares library, where a missing input validation check of host names returned by DNS (Domain Name Servers) can lead to output of wrong hostnames which might potentially lead to Domain Hijacking. The highest threat from this vulnerability is to confidentiality and integrity as well as system availability.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2021-3672.html",
+          "Description": "CVE-2021-3672"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1188881",
+          "Description": "SUSE Bug 1188881"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1193099",
+          "Description": "SUSE Bug 1193099"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/node:12:libcares2-1.17.1+20200724-3.14.1",
+            "Container bci/node:14:libcares2-1.17.1+20200724-3.14.1",
+            "Container bci/nodejs:latest:libcares2-1.17.1+20200724-3.14.1",
+            "Container caasp/v4/cilium:1.6.6:libcares2-1.17.1+20200724-3.14.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:libcares2-1.17.1+20200724-3.14.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libcares2-1.17.1+20200724-3.14.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libcares2-1.17.1+20200724-3.14.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libcares2-1.17.1+20200724-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libcares2-1.17.1+20200724-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libcares2-1.17.1+20200724-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libcares2-1.17.1+20200724-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libcares2-1.17.1+20200724-3.14.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:libcares2-1.17.1+20200724-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libcares2-1.17.1+20200724-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libcares2-1.17.1+20200724-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libcares2-1.17.1+20200724-3.14.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libcares2-1.17.1+20200724-3.14.1",
+            "SUSE Enterprise Storage 6:c-ares-devel-1.17.1+20200724-3.14.1",
+            "SUSE Enterprise Storage 6:libcares2-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:c-ares-devel-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libcares2-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:c-ares-devel-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libcares2-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:c-ares-devel-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libcares2-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:c-ares-devel-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libcares2-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:c-ares-devel-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libcares2-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:c-ares-devel-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libcares2-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:c-ares-devel-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libcares2-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:c-ares-devel-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libcares2-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise Server 15-LTSS:c-ares-devel-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libcares2-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:c-ares-devel-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libcares2-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:c-ares-devel-1.17.1+20200724-3.14.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libcares2-1.17.1+20200724-3.14.1",
+            "SUSE Manager Proxy 4.0:c-ares-devel-1.17.1+20200724-3.14.1",
+            "SUSE Manager Proxy 4.0:libcares2-1.17.1+20200724-3.14.1",
+            "SUSE Manager Retail Branch Server 4.0:c-ares-devel-1.17.1+20200724-3.14.1",
+            "SUSE Manager Retail Branch Server 4.0:libcares2-1.17.1+20200724-3.14.1",
+            "SUSE Manager Server 4.0:c-ares-devel-1.17.1+20200724-3.14.1",
+            "SUSE Manager Server 4.0:libcares2-1.17.1+20200724-3.14.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

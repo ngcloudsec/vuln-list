@@ -1,0 +1,57 @@
+{
+  "id": "RLSA-2022:7514",
+  "title": "Moderate: fribidi security update",
+  "issued": {
+    "date": "2022-11-13 07:49:01"
+  },
+  "updated": {
+    "date": "2022-11-08 00:00:00"
+  },
+  "severity": "SEVERITY_MODERATE",
+  "description": "FriBidi is a library to handle bidirectional scripts (for example Hebrew, Arabic), so that the display is done in the proper way, while the text data itself is always written in logical order.\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nAdditional Changes:\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
+  "packages": [
+    {
+      "name": "fribidi",
+      "epoch": "0",
+      "version": "1.0.4",
+      "release": "9.el8",
+      "arch": "aarch64",
+      "src": "fribidi-1.0.4-9.el8.src.rpm",
+      "filename": "fribidi-1.0.4-9.el8.aarch64.rpm"
+    },
+    {
+      "name": "fribidi-devel",
+      "epoch": "0",
+      "version": "1.0.4",
+      "release": "9.el8",
+      "arch": "aarch64",
+      "src": "fribidi-1.0.4-9.el8.src.rpm",
+      "filename": "fribidi-devel-1.0.4-9.el8.aarch64.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-25308.json",
+      "id": "CVE-2022-25308",
+      "title": "Update information for CVE-2022-25308 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-25309.json",
+      "id": "CVE-2022-25309",
+      "title": "Update information for CVE-2022-25309 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-25310.json",
+      "id": "CVE-2022-25310",
+      "title": "Update information for CVE-2022-25310 is retrieved from Red Hat",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2022-25308",
+    "CVE-2022-25309",
+    "CVE-2022-25310"
+  ]
+}

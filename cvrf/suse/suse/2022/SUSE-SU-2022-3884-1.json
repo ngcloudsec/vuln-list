@@ -1,0 +1,210 @@
+{
+  "Title": "Security update for expat",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3884-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-11-07T09:59:33Z",
+    "CurrentReleaseDate": "2022-11-07T09:59:33Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-11-07T09:59:33Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for expat",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for expat fixes the following issues:\n\n  - CVE-2022-43680: Fixed use-after free caused by overeager destruction of a shared DTD in XML_ExternalEntityParserCreate (bsc#1204708).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "Container bci/golang:1.16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "Container bci/golang:1.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "Container bci/golang:1.18",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "Container bci/python:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "Container suse/389-ds:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "Container suse/pcp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-32bit-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.4.4-150400.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223884-1/",
+      "Description": "Link for SUSE-SU-2022:3884-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-November/012821.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3884-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1204708",
+      "Description": "SUSE Bug 1204708"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-43680/",
+      "Description": "SUSE CVE CVE-2022-43680 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-43680",
+      "Description": "In libexpat through 2.4.9, there is a use-after free caused by overeager destruction of a shared DTD in XML_ExternalEntityParserCreate in out-of-memory situations.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-43680.html",
+          "Description": "CVE-2022-43680"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1204708",
+          "Description": "SUSE Bug 1204708"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:libexpat1-2.4.4-150400.3.12.1",
+            "Container bci/golang:1.16:libexpat1-2.4.4-150400.3.12.1",
+            "Container bci/golang:1.17:libexpat1-2.4.4-150400.3.12.1",
+            "Container bci/golang:1.18:libexpat1-2.4.4-150400.3.12.1",
+            "Container bci/node:14:libexpat1-2.4.4-150400.3.12.1",
+            "Container bci/nodejs:latest:libexpat1-2.4.4-150400.3.12.1",
+            "Container bci/python:3:libexpat1-2.4.4-150400.3.12.1",
+            "Container bci/python:latest:libexpat1-2.4.4-150400.3.12.1",
+            "Container suse/389-ds:latest:libexpat1-2.4.4-150400.3.12.1",
+            "Container suse/pcp:latest:libexpat1-2.4.4-150400.3.12.1",
+            "SUSE Linux Enterprise Micro 5.3:libexpat1-2.4.4-150400.3.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:expat-2.4.4-150400.3.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat-devel-2.4.4-150400.3.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat1-2.4.4-150400.3.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat1-32bit-2.4.4-150400.3.12.1",
+            "openSUSE Leap 15.4:expat-2.4.4-150400.3.12.1",
+            "openSUSE Leap 15.4:libexpat-devel-2.4.4-150400.3.12.1",
+            "openSUSE Leap 15.4:libexpat-devel-32bit-2.4.4-150400.3.12.1",
+            "openSUSE Leap 15.4:libexpat1-2.4.4-150400.3.12.1",
+            "openSUSE Leap 15.4:libexpat1-32bit-2.4.4-150400.3.12.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

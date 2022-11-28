@@ -1,0 +1,41 @@
+{
+  "id": "RLSA-2022:7700",
+  "title": "Moderate: gdisk security update",
+  "issued": {
+    "date": "2022-11-13 07:49:07"
+  },
+  "updated": {
+    "date": "2022-11-08 00:00:00"
+  },
+  "severity": "SEVERITY_MODERATE",
+  "description": "The gdisk packages provide the gdisk partitioning utility for GUID Partition Table (GPT) disks. The utility features a command-line interface similar to fdisk, direct manipulation of partition table structures, recovery tools to deal with corrupt partition tables, and the ability to convert Master Boot Record (MBR) disks to the GPT format.\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nAdditional Changes:\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
+  "packages": [
+    {
+      "name": "gdisk",
+      "epoch": "0",
+      "version": "1.0.3",
+      "release": "11.el8",
+      "arch": "x86_64",
+      "src": "gdisk-1.0.3-11.el8.src.rpm",
+      "filename": "gdisk-1.0.3-11.el8.x86_64.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2020-0256.json",
+      "id": "CVE-2020-0256",
+      "title": "Update information for CVE-2020-0256 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-0308.json",
+      "id": "CVE-2021-0308",
+      "title": "Update information for CVE-2021-0308 is retrieved from Red Hat",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2020-0256",
+    "CVE-2021-0308"
+  ]
+}

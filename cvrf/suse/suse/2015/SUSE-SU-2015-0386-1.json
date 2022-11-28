@@ -1,0 +1,1161 @@
+{
+  "Title": "Security update for Samba",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:0386-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2013-12-13T21:39:19Z",
+    "CurrentReleaseDate": "2013-12-13T21:39:19Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2013-12-13T21:39:19Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for Samba",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nThis update fixes the following security issues with Samba:\n\n    * bnc#844720: DCERPC frag_len not checked (CVE-2013-4408)\n    * bnc#853347: winbind pam security problem (CVE-2012-6150)\n    * bnc#848101: No access check verification on stream files\n      (CVE-2013-4475)\n\nAnd fixes the following non-security issues:\n\n    * bnc#853021: libsmbclient0 package description contains comments\n    * bnc#817880: rpcclient adddriver and setdrive do not set all needed\n      registry entries\n    * bnc#838472: Client trying to delete print job fails: Samba returns:\n      WERR_INVALID_PRINTER_NAME\n    * bnc#854520 and bnc#849226: various upstream fixes\n\nSecurity Issue references:\n\n    * CVE-2012-6150\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-6150\u003e\n    * CVE-2013-4408\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4408\u003e\n    * CVE-2013-4475\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4475\u003e\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "ldapsmb-1.34b-12.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libldb1-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc1-3.4.3-1.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc1-32bit-3.4.3-1.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc1-x86-3.4.3-1.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc2-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc2-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc2-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtdb1-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtdb1-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtdb1-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent0-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent0-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-doc-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-krb-printing-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ldapsmb-1.34b-12.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libldb1-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc1-3.4.3-1.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc1-32bit-3.4.3-1.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc1-x86-3.4.3-1.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc2-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc2-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc2-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtdb1-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtdb1-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtdb1-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent0-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent0-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-doc-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-krb-printing-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ldapsmb-1.34b-12.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libldb1-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc1-3.4.3-1.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc1-32bit-3.4.3-1.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc1-x86-3.4.3-1.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc2-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc2-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc2-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtdb1-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtdb1-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtdb1-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent0-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent0-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-doc-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-krb-printing-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ldapsmb-1.34b-12.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libldb1-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsmbclient0-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc1-3.4.3-1.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc1-32bit-3.4.3-1.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc1-x86-3.4.3-1.50.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc2-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc2-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtalloc2-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtdb1-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtdb1-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtdb1-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent0-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtevent0-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libwbclient0-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-doc-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-krb-printing-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-32bit-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-x86-3.6.3-0.33.39.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20150386-1/",
+      "Description": "Link for SUSE-SU-2015:0386-1"
+    },
+    {
+      "URL": "https://lists.opensuse.org/opensuse-security-announce/2015-02/msg00035.html",
+      "Description": "E-Mail link for SUSE-SU-2015:0386-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/817880",
+      "Description": "SUSE Bug 817880"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/838472",
+      "Description": "SUSE Bug 838472"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/844720",
+      "Description": "SUSE Bug 844720"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/848101",
+      "Description": "SUSE Bug 848101"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/849226",
+      "Description": "SUSE Bug 849226"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/853021",
+      "Description": "SUSE Bug 853021"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/853347",
+      "Description": "SUSE Bug 853347"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/854520",
+      "Description": "SUSE Bug 854520"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-6150/",
+      "Description": "SUSE CVE CVE-2012-6150 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-4408/",
+      "Description": "SUSE CVE CVE-2013-4408 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-4475/",
+      "Description": "SUSE CVE CVE-2013-4475 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2012-6150",
+      "Description": "The winbind_name_list_to_sid_string_list function in nsswitch/pam_winbind.c in Samba through 4.1.2 handles invalid require_membership_of group names by accepting authentication by any user, which allows remote authenticated users to bypass intended access restrictions in opportunistic circumstances by leveraging an administrator's pam_winbind configuration-file mistake.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-6150.html",
+          "Description": "CVE-2012-6150"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/844720",
+          "Description": "SUSE Bug 844720"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/853347",
+          "Description": "SUSE Bug 853347"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:ldapsmb-1.34b-12.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libldb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libsmbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libsmbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libsmbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtalloc1-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtalloc1-32bit-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtalloc1-x86-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtalloc2-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtalloc2-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtalloc2-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtdb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtdb1-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtdb1-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtevent0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtevent0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libwbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libwbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libwbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-client-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-client-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-client-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-doc-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-krb-printing-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-winbind-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-winbind-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-winbind-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:ldapsmb-1.34b-12.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libldb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libsmbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libsmbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libsmbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtalloc1-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtalloc1-32bit-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtalloc1-x86-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtalloc2-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtalloc2-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtalloc2-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtdb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtdb1-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtdb1-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtevent0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtevent0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libwbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libwbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libwbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-client-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-client-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-client-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-doc-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-krb-printing-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-winbind-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-winbind-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-winbind-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:ldapsmb-1.34b-12.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libldb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libsmbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libsmbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libsmbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtalloc1-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtalloc1-32bit-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtalloc1-x86-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtalloc2-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtalloc2-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtalloc2-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtdb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtdb1-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtdb1-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtevent0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtevent0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libwbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libwbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libwbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-client-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-client-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-client-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-doc-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-krb-printing-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-winbind-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-winbind-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-winbind-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:ldapsmb-1.34b-12.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libldb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libsmbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libsmbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libsmbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtalloc1-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtalloc1-32bit-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtalloc1-x86-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtalloc2-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtalloc2-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtalloc2-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtdb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtdb1-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtdb1-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtevent0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtevent0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libwbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libwbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libwbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-client-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-client-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-client-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-doc-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-krb-printing-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-winbind-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-winbind-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-winbind-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-x86-3.6.3-0.33.39.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2013-4408",
+      "Description": "Heap-based buffer overflow in the dcerpc_read_ncacn_packet_done function in librpc/rpc/dcerpc_util.c in winbindd in Samba 3.x before 3.6.22, 4.0.x before 4.0.13, and 4.1.x before 4.1.3 allows remote AD domain controllers to execute arbitrary code via an invalid fragment length in a DCE-RPC packet.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-4408.html",
+          "Description": "CVE-2013-4408"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/844720",
+          "Description": "SUSE Bug 844720"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/848101",
+          "Description": "SUSE Bug 848101"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/882906",
+          "Description": "SUSE Bug 882906"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:ldapsmb-1.34b-12.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libldb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libsmbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libsmbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libsmbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtalloc1-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtalloc1-32bit-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtalloc1-x86-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtalloc2-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtalloc2-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtalloc2-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtdb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtdb1-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtdb1-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtevent0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtevent0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libwbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libwbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libwbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-client-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-client-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-client-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-doc-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-krb-printing-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-winbind-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-winbind-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-winbind-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:ldapsmb-1.34b-12.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libldb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libsmbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libsmbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libsmbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtalloc1-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtalloc1-32bit-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtalloc1-x86-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtalloc2-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtalloc2-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtalloc2-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtdb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtdb1-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtdb1-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtevent0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtevent0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libwbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libwbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libwbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-client-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-client-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-client-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-doc-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-krb-printing-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-winbind-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-winbind-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-winbind-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:ldapsmb-1.34b-12.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libldb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libsmbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libsmbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libsmbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtalloc1-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtalloc1-32bit-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtalloc1-x86-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtalloc2-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtalloc2-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtalloc2-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtdb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtdb1-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtdb1-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtevent0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtevent0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libwbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libwbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libwbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-client-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-client-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-client-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-doc-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-krb-printing-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-winbind-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-winbind-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-winbind-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:ldapsmb-1.34b-12.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libldb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libsmbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libsmbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libsmbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtalloc1-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtalloc1-32bit-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtalloc1-x86-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtalloc2-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtalloc2-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtalloc2-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtdb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtdb1-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtdb1-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtevent0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtevent0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libwbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libwbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libwbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-client-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-client-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-client-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-doc-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-krb-printing-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-winbind-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-winbind-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-winbind-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-x86-3.6.3-0.33.39.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "6.8",
+        "Vector": "AV:A/AC:H/Au:N/C:C/I:C/A:C"
+      }
+    },
+    {
+      "CVE": "CVE-2013-4475",
+      "Description": "Samba 3.2.x through 3.6.x before 3.6.20, 4.0.x before 4.0.11, and 4.1.x before 4.1.1, when vfs_streams_depot or vfs_streams_xattr is enabled, allows remote attackers to bypass intended file restrictions by leveraging ACL differences between a file and an associated alternate data stream (ADS).",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-4475.html",
+          "Description": "CVE-2013-4475"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/848101",
+          "Description": "SUSE Bug 848101"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/880220",
+          "Description": "SUSE Bug 880220"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:ldapsmb-1.34b-12.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libldb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libsmbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libsmbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libsmbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtalloc1-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtalloc1-32bit-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtalloc1-x86-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtalloc2-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtalloc2-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtalloc2-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtdb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtdb1-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtdb1-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtevent0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libtevent0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libwbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libwbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:libwbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-client-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-client-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-client-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-doc-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-krb-printing-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-winbind-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-winbind-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-winbind-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:samba-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:ldapsmb-1.34b-12.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libldb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libsmbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libsmbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libsmbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtalloc1-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtalloc1-32bit-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtalloc1-x86-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtalloc2-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtalloc2-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtalloc2-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtdb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtdb1-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtdb1-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtevent0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libtevent0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libwbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libwbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:libwbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-client-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-client-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-client-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-doc-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-krb-printing-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-winbind-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-winbind-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-winbind-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server 11 SP2:samba-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:ldapsmb-1.34b-12.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libldb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libsmbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libsmbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libsmbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtalloc1-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtalloc1-32bit-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtalloc1-x86-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtalloc2-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtalloc2-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtalloc2-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtdb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtdb1-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtdb1-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtevent0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libtevent0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libwbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libwbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:libwbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-client-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-client-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-client-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-doc-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-krb-printing-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-winbind-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-winbind-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-winbind-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:samba-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:ldapsmb-1.34b-12.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libldb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libsmbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libsmbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libsmbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtalloc1-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtalloc1-32bit-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtalloc1-x86-3.4.3-1.50.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtalloc2-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtalloc2-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtalloc2-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtdb1-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtdb1-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtdb1-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtevent0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libtevent0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libwbclient0-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libwbclient0-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:libwbclient0-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-client-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-client-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-client-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-doc-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-krb-printing-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-winbind-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-winbind-32bit-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-winbind-x86-3.6.3-0.33.39.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:samba-x86-3.6.3-0.33.39.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

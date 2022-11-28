@@ -1,0 +1,156 @@
+{
+  "Title": "Security update for rubygem-loofah",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3868-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-11-04T09:08:33Z",
+    "CurrentReleaseDate": "2022-11-04T09:08:33Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-11-04T09:08:33Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for rubygem-loofah",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for rubygem-loofah fixes the following issues:\n\n  - CVE-2019-15587: Fixed issue in sanitization of crafted SVG elements (bsc#1154751).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "ruby2.5-rubygem-loofah-2.2.2-150000.4.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Availability 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-loofah-2.2.2-150000.4.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Availability 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-loofah-2.2.2-150000.4.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Availability 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-loofah-2.2.2-150000.4.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Availability 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-loofah-2.2.2-150000.4.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Availability 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-loofah-2.2.2-150000.4.6.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-loofah-doc-2.2.2-150000.4.6.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-loofah-testsuite-2.2.2-150000.4.6.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-loofah-2.2.2-150000.4.6.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-loofah-doc-2.2.2-150000.4.6.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ruby2.5-rubygem-loofah-testsuite-2.2.2-150000.4.6.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223868-1/",
+      "Description": "Link for SUSE-SU-2022:3868-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-November/012810.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3868-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1154751",
+      "Description": "SUSE Bug 1154751"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-15587/",
+      "Description": "SUSE CVE CVE-2019-15587 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-15587",
+      "Description": "In the Loofah gem for Ruby through v2.3.0 unsanitized JavaScript may occur in sanitized output when a crafted SVG element is republished.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-15587.html",
+          "Description": "CVE-2019-15587"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1154751",
+          "Description": "SUSE Bug 1154751"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise High Availability 15 SP1:ruby2.5-rubygem-loofah-2.2.2-150000.4.6.1",
+            "SUSE Linux Enterprise High Availability 15 SP2:ruby2.5-rubygem-loofah-2.2.2-150000.4.6.1",
+            "SUSE Linux Enterprise High Availability 15 SP3:ruby2.5-rubygem-loofah-2.2.2-150000.4.6.1",
+            "SUSE Linux Enterprise High Availability 15 SP4:ruby2.5-rubygem-loofah-2.2.2-150000.4.6.1",
+            "SUSE Linux Enterprise High Availability 15:ruby2.5-rubygem-loofah-2.2.2-150000.4.6.1",
+            "openSUSE Leap 15.3:ruby2.5-rubygem-loofah-2.2.2-150000.4.6.1",
+            "openSUSE Leap 15.3:ruby2.5-rubygem-loofah-doc-2.2.2-150000.4.6.1",
+            "openSUSE Leap 15.3:ruby2.5-rubygem-loofah-testsuite-2.2.2-150000.4.6.1",
+            "openSUSE Leap 15.4:ruby2.5-rubygem-loofah-2.2.2-150000.4.6.1",
+            "openSUSE Leap 15.4:ruby2.5-rubygem-loofah-doc-2.2.2-150000.4.6.1",
+            "openSUSE Leap 15.4:ruby2.5-rubygem-loofah-testsuite-2.2.2-150000.4.6.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

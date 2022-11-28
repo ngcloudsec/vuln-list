@@ -1,0 +1,565 @@
+{
+  "Title": "Security update for OpenSSL",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:0545-2",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2014-10-24T22:07:03Z",
+    "CurrentReleaseDate": "2014-10-24T22:07:03Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2014-10-24T22:07:03Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for OpenSSL",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nThis OpenSSL update fixes the following issues:\n\n    * Session Ticket Memory Leak (CVE-2014-3567)\n    * Build option no-ssl3 is incomplete (CVE-2014-3568)\n    * Add support for TLS_FALLBACK_SCSV to mitigate CVE-2014-3566 (POODLE)\n\nSecurity Issues:\n\n    * CVE-2014-3567\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3567\u003e\n    * CVE-2014-3566\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566\u003e\n    * CVE-2014-3568\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3568\u003e\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libopenssl-devel-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Manager 1.7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Manager 1.7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Manager 1.7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Manager 1.7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Manager 1.7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-doc-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Manager 1.7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-x86-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-doc-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-x86-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-doc-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-x86-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-doc-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl0_9_8-x86-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-doc-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-devel-0.9.8j-0.66.1",
+        "RelatesToProductReference": "SUSE Studio Onsite 1.3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20150545-2/",
+      "Description": "Link for SUSE-SU-2015:0545-2"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2015-March/001309.html",
+      "Description": "E-Mail link for SUSE-SU-2015:0545-2"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/892403",
+      "Description": "SUSE Bug 892403"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/901223",
+      "Description": "SUSE Bug 901223"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/901277",
+      "Description": "SUSE Bug 901277"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-3566/",
+      "Description": "SUSE CVE CVE-2014-3566 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-3567/",
+      "Description": "SUSE CVE CVE-2014-3567 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-3568/",
+      "Description": "SUSE CVE CVE-2014-3568 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2014-3566",
+      "Description": "The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other products, uses nondeterministic CBC padding, which makes it easier for man-in-the-middle attackers to obtain cleartext data via a padding-oracle attack, aka the \"POODLE\" issue.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-3566.html",
+          "Description": "CVE-2014-3566"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1011293",
+          "Description": "SUSE Bug 1011293"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1031023",
+          "Description": "SUSE Bug 1031023"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901223",
+          "Description": "SUSE Bug 901223"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901254",
+          "Description": "SUSE Bug 901254"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901277",
+          "Description": "SUSE Bug 901277"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901748",
+          "Description": "SUSE Bug 901748"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901757",
+          "Description": "SUSE Bug 901757"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901759",
+          "Description": "SUSE Bug 901759"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901889",
+          "Description": "SUSE Bug 901889"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901968",
+          "Description": "SUSE Bug 901968"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/902229",
+          "Description": "SUSE Bug 902229"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/902233",
+          "Description": "SUSE Bug 902233"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/902476",
+          "Description": "SUSE Bug 902476"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/903405",
+          "Description": "SUSE Bug 903405"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/903684",
+          "Description": "SUSE Bug 903684"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/904889",
+          "Description": "SUSE Bug 904889"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905106",
+          "Description": "SUSE Bug 905106"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/914041",
+          "Description": "SUSE Bug 914041"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:libopenssl0_9_8-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:openssl-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libopenssl0_9_8-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libopenssl0_9_8-x86-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:openssl-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:openssl-doc-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:libopenssl0_9_8-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:libopenssl0_9_8-x86-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:openssl-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:openssl-doc-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libopenssl0_9_8-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libopenssl0_9_8-x86-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:openssl-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:openssl-doc-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libopenssl0_9_8-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libopenssl0_9_8-x86-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:openssl-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:openssl-doc-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libopenssl-devel-0.9.8j-0.66.1",
+            "SUSE Manager 1.7:libopenssl0_9_8-0.9.8j-0.66.1",
+            "SUSE Manager 1.7:libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+            "SUSE Manager 1.7:libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+            "SUSE Manager 1.7:libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+            "SUSE Manager 1.7:openssl-0.9.8j-0.66.1",
+            "SUSE Manager 1.7:openssl-doc-0.9.8j-0.66.1",
+            "SUSE Studio Onsite 1.3:libopenssl-devel-0.9.8j-0.66.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "5.8",
+        "Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:P"
+      }
+    },
+    {
+      "CVE": "CVE-2014-3567",
+      "Description": "Memory leak in the tls_decrypt_ticket function in t1_lib.c in OpenSSL before 0.9.8zc, 1.0.0 before 1.0.0o, and 1.0.1 before 1.0.1j allows remote attackers to cause a denial of service (memory consumption) via a crafted session ticket that triggers an integrity-check failure.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-3567.html",
+          "Description": "CVE-2014-3567"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/877506",
+          "Description": "SUSE Bug 877506"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901277",
+          "Description": "SUSE Bug 901277"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905106",
+          "Description": "SUSE Bug 905106"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:libopenssl0_9_8-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:openssl-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libopenssl0_9_8-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libopenssl0_9_8-x86-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:openssl-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:openssl-doc-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:libopenssl0_9_8-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:libopenssl0_9_8-x86-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:openssl-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:openssl-doc-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libopenssl0_9_8-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libopenssl0_9_8-x86-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:openssl-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:openssl-doc-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libopenssl0_9_8-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libopenssl0_9_8-x86-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:openssl-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:openssl-doc-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libopenssl-devel-0.9.8j-0.66.1",
+            "SUSE Manager 1.7:libopenssl0_9_8-0.9.8j-0.66.1",
+            "SUSE Manager 1.7:libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+            "SUSE Manager 1.7:libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+            "SUSE Manager 1.7:libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+            "SUSE Manager 1.7:openssl-0.9.8j-0.66.1",
+            "SUSE Manager 1.7:openssl-doc-0.9.8j-0.66.1",
+            "SUSE Studio Onsite 1.3:libopenssl-devel-0.9.8j-0.66.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-3568",
+      "Description": "OpenSSL before 0.9.8zc, 1.0.0 before 1.0.0o, and 1.0.1 before 1.0.1j does not properly enforce the no-ssl3 build option, which allows remote attackers to bypass intended access restrictions via an SSL 3.0 handshake, related to s23_clnt.c and s23_srvr.c.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-3568.html",
+          "Description": "CVE-2014-3568"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/901277",
+          "Description": "SUSE Bug 901277"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905106",
+          "Description": "SUSE Bug 905106"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/911399",
+          "Description": "SUSE Bug 911399"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/986238",
+          "Description": "SUSE Bug 986238"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:libopenssl0_9_8-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:openssl-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libopenssl0_9_8-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libopenssl0_9_8-x86-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:openssl-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:openssl-doc-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:libopenssl0_9_8-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:libopenssl0_9_8-x86-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:openssl-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server 11 SP3:openssl-doc-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libopenssl0_9_8-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libopenssl0_9_8-x86-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:openssl-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:openssl-doc-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libopenssl0_9_8-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libopenssl0_9_8-x86-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:openssl-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:openssl-doc-0.9.8j-0.66.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libopenssl-devel-0.9.8j-0.66.1",
+            "SUSE Manager 1.7:libopenssl0_9_8-0.9.8j-0.66.1",
+            "SUSE Manager 1.7:libopenssl0_9_8-32bit-0.9.8j-0.66.1",
+            "SUSE Manager 1.7:libopenssl0_9_8-hmac-0.9.8j-0.66.1",
+            "SUSE Manager 1.7:libopenssl0_9_8-hmac-32bit-0.9.8j-0.66.1",
+            "SUSE Manager 1.7:openssl-0.9.8j-0.66.1",
+            "SUSE Manager 1.7:openssl-doc-0.9.8j-0.66.1",
+            "SUSE Studio Onsite 1.3:libopenssl-devel-0.9.8j-0.66.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

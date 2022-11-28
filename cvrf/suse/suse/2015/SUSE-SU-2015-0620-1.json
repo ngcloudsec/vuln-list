@@ -1,0 +1,1264 @@
+{
+  "Title": "Security update for MySQL",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:0620-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2014-08-19T23:58:37Z",
+    "CurrentReleaseDate": "2014-08-19T23:58:37Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2014-08-19T23:58:37Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for MySQL",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nThis MySQL update provides the following:\n\n    * upgrade to version 5.5.39, [bnc#887580]\n    * CVE's fixed: CVE-2014-2484, CVE-2014-4258, CVE-2014-4260,\n      CVE-2014-2494, CVE-2014-4238, CVE-2014-4207, CVE-2014-4233,\n      CVE-2014-4240, CVE-2014-4214, CVE-2014-4243\n\nSee also:\nhttp://www.oracle.com/technetwork/topics/security/cpujul2014-1972956.html\n\u003chttp://www.oracle.com/technetwork/topics/security/cpujul2014-1972956.html\u003e\n\nSecurity Issues:\n\n    * CVE-2014-2484\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2484\u003e\n    * CVE-2014-4258\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4258\u003e\n    * CVE-2014-4260\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4260\u003e\n    * CVE-2014-2494\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2494\u003e\n    * CVE-2014-4238\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4238\u003e\n    * CVE-2014-4207\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4207\u003e\n    * CVE-2014-4233\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4233\u003e\n    * CVE-2014-4240\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4240\u003e\n    * CVE-2014-4214\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4214\u003e\n    * CVE-2014-4243\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4243\u003e\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libmysql55client_r18-32bit-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client_r18-x86-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient_r15-32bit-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient_r15-x86-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client18-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client18-32bit-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client_r18-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client_r18-32bit-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient15-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient15-32bit-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient_r15-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient_r15-32bit-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mysql-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mysql-client-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client18-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client18-32bit-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client18-x86-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client_r18-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient15-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient15-32bit-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient15-x86-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient_r15-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mysql-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mysql-client-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mysql-tools-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client18-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client18-32bit-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client18-x86-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client_r18-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient15-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient15-32bit-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient15-x86-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient_r15-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mysql-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mysql-client-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mysql-tools-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client18-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client18-32bit-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client18-x86-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client_r18-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient15-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient15-32bit-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient15-x86-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient_r15-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mysql-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mysql-client-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mysql-tools-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client18-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client18-32bit-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client18-x86-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysql55client_r18-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient15-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient15-32bit-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient15-x86-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmysqlclient_r15-5.0.96-0.6.13",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mysql-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mysql-client-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mysql-tools-5.5.39-0.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20150620-1/",
+      "Description": "Link for SUSE-SU-2015:0620-1"
+    },
+    {
+      "URL": "https://lists.opensuse.org/opensuse-security-announce/2015-03/msg00033.html",
+      "Description": "E-Mail link for SUSE-SU-2015:0620-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/887580",
+      "Description": "SUSE Bug 887580"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-2484/",
+      "Description": "SUSE CVE CVE-2014-2484 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-2494/",
+      "Description": "SUSE CVE CVE-2014-2494 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-4207/",
+      "Description": "SUSE CVE CVE-2014-4207 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-4214/",
+      "Description": "SUSE CVE CVE-2014-4214 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-4233/",
+      "Description": "SUSE CVE CVE-2014-4233 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-4238/",
+      "Description": "SUSE CVE CVE-2014-4238 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-4240/",
+      "Description": "SUSE CVE CVE-2014-4240 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-4243/",
+      "Description": "SUSE CVE CVE-2014-4243 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-4258/",
+      "Description": "SUSE CVE CVE-2014-4258 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-4260/",
+      "Description": "SUSE CVE CVE-2014-4260 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2014-2484",
+      "Description": "Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.6.17 and earlier allows remote authenticated users to affect confidentiality, integrity, and availability via vectors related to SRFTS.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-2484.html",
+          "Description": "CVE-2014-2484"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/887580",
+          "Description": "SUSE Bug 887580"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-x86-5.0.96-0.6.13"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-2494",
+      "Description": "Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.5.37 and earlier allows remote authenticated users to affect availability via vectors related to ENARC.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-2494.html",
+          "Description": "CVE-2014-2494"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/887580",
+          "Description": "SUSE Bug 887580"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/915914",
+          "Description": "SUSE Bug 915914"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-x86-5.0.96-0.6.13"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-4207",
+      "Description": "Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.5.37 and earlier allows remote authenticated users to affect availability via vectors related to SROPTZR.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-4207.html",
+          "Description": "CVE-2014-4207"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/887580",
+          "Description": "SUSE Bug 887580"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/915914",
+          "Description": "SUSE Bug 915914"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-x86-5.0.96-0.6.13"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-4214",
+      "Description": "Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.6.17 and earlier allows remote authenticated users to affect availability via vectors related to SRSP.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-4214.html",
+          "Description": "CVE-2014-4214"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/887580",
+          "Description": "SUSE Bug 887580"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-x86-5.0.96-0.6.13"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-4233",
+      "Description": "Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.6.17 and earlier allows remote authenticated users to affect availability via vectors related to SRREP.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-4233.html",
+          "Description": "CVE-2014-4233"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/887580",
+          "Description": "SUSE Bug 887580"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-x86-5.0.96-0.6.13"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-4238",
+      "Description": "Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.6.17 and earlier allows remote authenticated users to affect availability via vectors related to SROPTZR.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-4238.html",
+          "Description": "CVE-2014-4238"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/887580",
+          "Description": "SUSE Bug 887580"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-x86-5.0.96-0.6.13"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-4240",
+      "Description": "Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.6.17 and earlier allows local users to affect confidentiality and integrity via vectors related to SRREP.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-4240.html",
+          "Description": "CVE-2014-4240"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/887580",
+          "Description": "SUSE Bug 887580"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-x86-5.0.96-0.6.13"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-4243",
+      "Description": "Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.5.35 and earlier and 5.6.15 and earlier allows remote authenticated users to affect availability via vectors related to ENFED.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-4243.html",
+          "Description": "CVE-2014-4243"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/887580",
+          "Description": "SUSE Bug 887580"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-x86-5.0.96-0.6.13"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-4258",
+      "Description": "Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.5.37 and earlier and 5.6.17 and earlier allows remote authenticated users to affect confidentiality, integrity, and availability via vectors related to SRINFOSC.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-4258.html",
+          "Description": "CVE-2014-4258"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/887580",
+          "Description": "SUSE Bug 887580"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/915914",
+          "Description": "SUSE Bug 915914"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-x86-5.0.96-0.6.13"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-4260",
+      "Description": "Unspecified vulnerability in the MySQL Server component in Oracle MySQL 5.5.37 and earlier, and 5.6.17 and earlier, allows remote authenticated users to affect integrity and availability via vectors related to SRCHAR.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-4260.html",
+          "Description": "CVE-2014-4260"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/887580",
+          "Description": "SUSE Bug 887580"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/915914",
+          "Description": "SUSE Bug 915914"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysql55client_r18-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient15-x86-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:libmysqlclient_r15-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-client-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:mysql-tools-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-32bit-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysql55client_r18-x86-5.5.39-0.7.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-32bit-5.0.96-0.6.13",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:libmysqlclient_r15-x86-5.0.96-0.6.13"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

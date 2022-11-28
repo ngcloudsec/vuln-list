@@ -1,0 +1,48 @@
+{
+  "id": "ALAS2-2022-1739",
+  "title": "Amazon Linux 2 2017.12 - ALAS2-2022-1739: medium priority package update for log4j",
+  "issued": {
+    "date": "2022-01-18 21:37"
+  },
+  "updated": {
+    "date": "2022-01-20 19:31"
+  },
+  "severity": "medium",
+  "description": "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2021-4104:\n\tA flaw was found in the Java logging library Apache Log4j in version 1.x . This allows a remote attacker to execute code on the server if the deployed application is configured to use JMSAppender. This flaw has been filed for Log4j 1.x, the corresponding flaw information for Log4j 2.x is available at: https://access.redhat.com/security/cve/CVE-2021-44228\n",
+  "packages": [
+    {
+      "name": "log4j",
+      "epoch": "0",
+      "version": "1.2.17",
+      "release": "17.amzn2",
+      "arch": "noarch",
+      "filename": "Packages/log4j-1.2.17-17.amzn2.noarch.rpm"
+    },
+    {
+      "name": "log4j-manual",
+      "epoch": "0",
+      "version": "1.2.17",
+      "release": "17.amzn2",
+      "arch": "noarch",
+      "filename": "Packages/log4j-manual-1.2.17-17.amzn2.noarch.rpm"
+    },
+    {
+      "name": "log4j-javadoc",
+      "epoch": "0",
+      "version": "1.2.17",
+      "release": "17.amzn2",
+      "arch": "noarch",
+      "filename": "Packages/log4j-javadoc-1.2.17-17.amzn2.noarch.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4104",
+      "id": "CVE-2021-4104",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2021-4104"
+  ]
+}

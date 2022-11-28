@@ -1,0 +1,179 @@
+{
+  "id": "RLSA-2022:7457",
+  "title": "Moderate: container-tools:rhel8 security, bug fix, and enhancement update",
+  "issued": {
+    "date": "2022-11-13 07:55:49"
+  },
+  "updated": {
+    "date": "2022-11-08 00:00:00"
+  },
+  "severity": "SEVERITY_MODERATE",
+  "description": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nAdditional Changes:\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
+  "packages": [
+    {
+      "name": "cockpit-podman",
+      "epoch": "0",
+      "version": "53",
+      "release": "1.module+el8.7.0+1078+e72fcd4f",
+      "arch": "noarch",
+      "src": "cockpit-podman-53-1.module+el8.7.0+1078+e72fcd4f.src.rpm",
+      "filename": "cockpit-podman-53-1.module+el8.7.0+1078+e72fcd4f.noarch.rpm"
+    },
+    {
+      "name": "conmon",
+      "epoch": "3",
+      "version": "2.1.4",
+      "release": "1.module+el8.7.0+1078+e72fcd4f",
+      "arch": "x86_64",
+      "src": "conmon-2.1.4-1.module+el8.7.0+1078+e72fcd4f.src.rpm",
+      "filename": "conmon-2.1.4-1.module+el8.7.0+1078+e72fcd4f.x86_64.rpm"
+    },
+    {
+      "name": "containernetworking-plugins",
+      "epoch": "1",
+      "version": "1.1.1",
+      "release": "3.module+el8.7.0+1078+e72fcd4f",
+      "arch": "x86_64",
+      "src": "containernetworking-plugins-1.1.1-3.module+el8.7.0+1078+e72fcd4f.src.rpm",
+      "filename": "containernetworking-plugins-1.1.1-3.module+el8.7.0+1078+e72fcd4f.x86_64.rpm"
+    },
+    {
+      "name": "crit",
+      "epoch": "0",
+      "version": "3.15",
+      "release": "3.module+el8.7.0+1078+e72fcd4f",
+      "arch": "x86_64",
+      "src": "criu-3.15-3.module+el8.7.0+1078+e72fcd4f.src.rpm",
+      "filename": "crit-3.15-3.module+el8.7.0+1078+e72fcd4f.x86_64.rpm"
+    },
+    {
+      "name": "criu",
+      "epoch": "0",
+      "version": "3.15",
+      "release": "3.module+el8.7.0+1078+e72fcd4f",
+      "arch": "x86_64",
+      "src": "criu-3.15-3.module+el8.7.0+1078+e72fcd4f.src.rpm",
+      "filename": "criu-3.15-3.module+el8.7.0+1078+e72fcd4f.x86_64.rpm"
+    },
+    {
+      "name": "criu-devel",
+      "epoch": "0",
+      "version": "3.15",
+      "release": "3.module+el8.7.0+1078+e72fcd4f",
+      "arch": "x86_64",
+      "src": "criu-3.15-3.module+el8.7.0+1078+e72fcd4f.src.rpm",
+      "filename": "criu-devel-3.15-3.module+el8.7.0+1078+e72fcd4f.x86_64.rpm"
+    },
+    {
+      "name": "criu-libs",
+      "epoch": "0",
+      "version": "3.15",
+      "release": "3.module+el8.7.0+1078+e72fcd4f",
+      "arch": "x86_64",
+      "src": "criu-3.15-3.module+el8.7.0+1078+e72fcd4f.src.rpm",
+      "filename": "criu-libs-3.15-3.module+el8.7.0+1078+e72fcd4f.x86_64.rpm"
+    },
+    {
+      "name": "crun",
+      "epoch": "0",
+      "version": "1.5",
+      "release": "1.module+el8.7.0+1078+e72fcd4f",
+      "arch": "x86_64",
+      "src": "crun-1.5-1.module+el8.7.0+1078+e72fcd4f.src.rpm",
+      "filename": "crun-1.5-1.module+el8.7.0+1078+e72fcd4f.x86_64.rpm"
+    },
+    {
+      "name": "oci-seccomp-bpf-hook",
+      "epoch": "0",
+      "version": "1.2.6",
+      "release": "1.module+el8.7.0+1078+e72fcd4f",
+      "arch": "x86_64",
+      "src": "oci-seccomp-bpf-hook-1.2.6-1.module+el8.7.0+1078+e72fcd4f.src.rpm",
+      "filename": "oci-seccomp-bpf-hook-1.2.6-1.module+el8.7.0+1078+e72fcd4f.x86_64.rpm"
+    },
+    {
+      "name": "python3-criu",
+      "epoch": "0",
+      "version": "3.15",
+      "release": "3.module+el8.7.0+1078+e72fcd4f",
+      "arch": "x86_64",
+      "src": "criu-3.15-3.module+el8.7.0+1078+e72fcd4f.src.rpm",
+      "filename": "python3-criu-3.15-3.module+el8.7.0+1078+e72fcd4f.x86_64.rpm"
+    },
+    {
+      "name": "runc",
+      "epoch": "1",
+      "version": "1.1.4",
+      "release": "1.module+el8.7.0+1078+e72fcd4f",
+      "arch": "x86_64",
+      "src": "runc-1.1.4-1.module+el8.7.0+1078+e72fcd4f.src.rpm",
+      "filename": "runc-1.1.4-1.module+el8.7.0+1078+e72fcd4f.x86_64.rpm"
+    },
+    {
+      "name": "slirp4netns",
+      "epoch": "0",
+      "version": "1.2.0",
+      "release": "2.module+el8.7.0+1078+e72fcd4f",
+      "arch": "x86_64",
+      "src": "slirp4netns-1.2.0-2.module+el8.7.0+1078+e72fcd4f.src.rpm",
+      "filename": "slirp4netns-1.2.0-2.module+el8.7.0+1078+e72fcd4f.x86_64.rpm"
+    },
+    {
+      "name": "toolbox",
+      "epoch": "0",
+      "version": "0.0.99.3",
+      "release": "0.6.module+el8.7.0+1078+e72fcd4f",
+      "arch": "x86_64",
+      "src": "toolbox-0.0.99.3-0.6.module+el8.7.0+1078+e72fcd4f.src.rpm",
+      "filename": "toolbox-0.0.99.3-0.6.module+el8.7.0+1078+e72fcd4f.x86_64.rpm"
+    },
+    {
+      "name": "toolbox-tests",
+      "epoch": "0",
+      "version": "0.0.99.3",
+      "release": "0.6.module+el8.7.0+1078+e72fcd4f",
+      "arch": "x86_64",
+      "src": "toolbox-0.0.99.3-0.6.module+el8.7.0+1078+e72fcd4f.src.rpm",
+      "filename": "toolbox-tests-0.0.99.3-0.6.module+el8.7.0+1078+e72fcd4f.x86_64.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-41190.json",
+      "id": "CVE-2021-41190",
+      "title": "Update information for CVE-2021-41190 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-1708.json",
+      "id": "CVE-2022-1708",
+      "title": "Update information for CVE-2022-1708 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-27191.json",
+      "id": "CVE-2022-27191",
+      "title": "Update information for CVE-2022-27191 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-29162.json",
+      "id": "CVE-2022-29162",
+      "title": "Update information for CVE-2022-29162 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-2990.json",
+      "id": "CVE-2022-2990",
+      "title": "Update information for CVE-2022-2990 is retrieved from Red Hat",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2021-41190",
+    "CVE-2022-1708",
+    "CVE-2022-27191",
+    "CVE-2022-29162",
+    "CVE-2022-2990"
+  ]
+}

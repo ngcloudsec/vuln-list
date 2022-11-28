@@ -1,0 +1,208 @@
+{
+  "Title": "Security update for pcre2",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:2360-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-07-12T10:01:55Z",
+    "CurrentReleaseDate": "2022-07-12T10:01:55Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-07-12T10:01:55Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for pcre2",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for pcre2 fixes the following issues:\n\n- CVE-2022-1586: Fixed unicode property matching issue. (bsc#1199232)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libpcre2-8-0-10.39-150400.4.3.1",
+        "RelatesToProductReference": "Container bci/python:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.39-150400.4.3.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-16-0-10.39-150400.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-32-0-10.39-150400.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.39-150400.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-posix2-10.39-150400.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre2-devel-10.39-150400.4.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-16-0-10.39-150400.4.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-16-0-32bit-10.39-150400.4.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-32-0-10.39-150400.4.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-32-0-32bit-10.39-150400.4.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-10.39-150400.4.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-8-0-32bit-10.39-150400.4.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-posix2-10.39-150400.4.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcre2-posix2-32bit-10.39-150400.4.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre2-devel-10.39-150400.4.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre2-devel-static-10.39-150400.4.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre2-doc-10.39-150400.4.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pcre2-tools-10.39-150400.4.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20222360-1/",
+      "Description": "Link for SUSE-SU-2022:2360-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-July/011509.html",
+      "Description": "E-Mail link for SUSE-SU-2022:2360-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1199232",
+      "Description": "SUSE Bug 1199232"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1586/",
+      "Description": "SUSE CVE CVE-2022-1586 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-1586",
+      "Description": "An out-of-bounds read vulnerability was discovered in the PCRE2 library in the compile_xclass_matchingpath() function of the pcre2_jit_compile.c file. This involves a unicode property matching issue in JIT-compiled regular expressions. The issue occurs because the character was not fully read in case-less matching within JIT.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1586.html",
+          "Description": "CVE-2022-1586"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199232",
+          "Description": "SUSE Bug 1199232"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201031",
+          "Description": "SUSE Bug 1201031"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/python:latest:libpcre2-8-0-10.39-150400.4.3.1",
+            "Container bci/ruby:latest:libpcre2-8-0-10.39-150400.4.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libpcre2-16-0-10.39-150400.4.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libpcre2-32-0-10.39-150400.4.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libpcre2-8-0-10.39-150400.4.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libpcre2-posix2-10.39-150400.4.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:pcre2-devel-10.39-150400.4.3.1",
+            "openSUSE Leap 15.4:libpcre2-16-0-10.39-150400.4.3.1",
+            "openSUSE Leap 15.4:libpcre2-16-0-32bit-10.39-150400.4.3.1",
+            "openSUSE Leap 15.4:libpcre2-32-0-10.39-150400.4.3.1",
+            "openSUSE Leap 15.4:libpcre2-32-0-32bit-10.39-150400.4.3.1",
+            "openSUSE Leap 15.4:libpcre2-8-0-10.39-150400.4.3.1",
+            "openSUSE Leap 15.4:libpcre2-8-0-32bit-10.39-150400.4.3.1",
+            "openSUSE Leap 15.4:libpcre2-posix2-10.39-150400.4.3.1",
+            "openSUSE Leap 15.4:libpcre2-posix2-32bit-10.39-150400.4.3.1",
+            "openSUSE Leap 15.4:pcre2-devel-10.39-150400.4.3.1",
+            "openSUSE Leap 15.4:pcre2-devel-static-10.39-150400.4.3.1",
+            "openSUSE Leap 15.4:pcre2-doc-10.39-150400.4.3.1",
+            "openSUSE Leap 15.4:pcre2-tools-10.39-150400.4.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

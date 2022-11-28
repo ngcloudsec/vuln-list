@@ -1,0 +1,155 @@
+{
+  "Title": "Security update for libmspack",
+  "Tracking": {
+    "ID": "SUSE-SU-2019:0748-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2019-03-26T13:36:00Z",
+    "CurrentReleaseDate": "2019-03-26T13:36:00Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2019-03-26T13:36:00Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for libmspack",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for libmspack fixes the following issues:\n\nSecurity issues fixed:\n\n- CVE-2018-18584: The CAB block input buffer was one byte too small for the maximal Quantum block, leading to an out-of-bounds write. (bsc#1113038)\n- CVE-2018-18585: chmd_read_headers accepted a filename that has '\\0' as its first or second character (such as the '/\\0' name). (bsc#1113039)\n- Fix off-by-one bounds check on CHM PMGI/PMGL chunk numbers and reject empty filenames.\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libmspack-devel-0.6-3.3.11",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libmspack0-0.6-3.3.11",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "mspack-tools-0.6-3.3.11",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20190748-1/",
+      "Description": "Link for SUSE-SU-2019:0748-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2019-March/005239.html",
+      "Description": "E-Mail link for SUSE-SU-2019:0748-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1113038",
+      "Description": "SUSE Bug 1113038"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1113039",
+      "Description": "SUSE Bug 1113039"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2018-18584/",
+      "Description": "SUSE CVE CVE-2018-18584 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2018-18585/",
+      "Description": "SUSE CVE CVE-2018-18585 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2018-18584",
+      "Description": "In mspack/cab.h in libmspack before 0.8alpha and cabextract before 1.8, the CAB block input buffer is one byte too small for the maximal Quantum block, leading to an out-of-bounds write.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2018-18584.html",
+          "Description": "CVE-2018-18584"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1113038",
+          "Description": "SUSE Bug 1113038"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1113039",
+          "Description": "SUSE Bug 1113039"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Basesystem 15:libmspack-devel-0.6-3.3.11",
+            "SUSE Linux Enterprise Module for Basesystem 15:libmspack0-0.6-3.3.11",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:mspack-tools-0.6-3.3.11"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2018-18585",
+      "Description": "chmd_read_headers in mspack/chmd.c in libmspack before 0.8alpha accepts a filename that has '\\0' as its first or second character (such as the \"/\\0\" name).",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2018-18585.html",
+          "Description": "CVE-2018-18585"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1113038",
+          "Description": "SUSE Bug 1113038"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1113039",
+          "Description": "SUSE Bug 1113039"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Basesystem 15:libmspack-devel-0.6-3.3.11",
+            "SUSE Linux Enterprise Module for Basesystem 15:libmspack0-0.6-3.3.11",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:mspack-tools-0.6-3.3.11"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

@@ -1,0 +1,1176 @@
+{
+  "Title": "Security update for zlib",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:2947-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-08-31T07:16:54Z",
+    "CurrentReleaseDate": "2022-08-31T07:16:54Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-08-31T07:16:54Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for zlib",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for zlib fixes the following issues:\n\n- CVE-2022-37434: Fixed heap-based buffer over-read or buffer overflow via large gzip header extra field (bsc#1202175).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "Container bci/bci-minimal:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "Container bci/golang:1.16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "Container bci/golang:1.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "Container suse/pcp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "Container suse/sle15:15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "Container suse/sle15:15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "Container suse/sle15:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libminizip1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libz1-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "minizip-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zlib-devel-static-32bit-1.2.11-150000.3.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20222947-1/",
+      "Description": "Link for SUSE-SU-2022:2947-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-August/012012.html",
+      "Description": "E-Mail link for SUSE-SU-2022:2947-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1202175",
+      "Description": "SUSE Bug 1202175"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-37434/",
+      "Description": "SUSE CVE CVE-2022-37434 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-37434",
+      "Description": "zlib through 1.2.12 has a heap-based buffer over-read or buffer overflow in inflate in inflate.c via a large gzip header extra field. NOTE: only applications that call inflateGetHeader are affected. Some common applications bundle the affected zlib source code but may be unable to call inflateGetHeader (e.g., see the nodejs/node reference).",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-37434.html",
+          "Description": "CVE-2022-37434"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1202175",
+          "Description": "SUSE Bug 1202175"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:libz1-1.2.11-150000.3.33.1",
+            "Container bci/bci-minimal:latest:libz1-1.2.11-150000.3.33.1",
+            "Container bci/dotnet-sdk:3.1:libz1-1.2.11-150000.3.33.1",
+            "Container bci/golang:1.16:libz1-1.2.11-150000.3.33.1",
+            "Container bci/golang:1.17:libz1-1.2.11-150000.3.33.1",
+            "Container bci/golang:latest:libz1-1.2.11-150000.3.33.1",
+            "Container bci/node:14:libz1-1.2.11-150000.3.33.1",
+            "Container suse/pcp:latest:libz1-1.2.11-150000.3.33.1",
+            "Container suse/sle-micro-rancher/5.2:latest:libz1-1.2.11-150000.3.33.1",
+            "Container suse/sle-micro-rancher/5.3:latest:libz1-1.2.11-150000.3.33.1",
+            "Container suse/sle15:15.0:libz1-1.2.11-150000.3.33.1",
+            "Container suse/sle15:15.1:libz1-1.2.11-150000.3.33.1",
+            "Container suse/sle15:15.3:libz1-1.2.11-150000.3.33.1",
+            "SUSE Enterprise Storage 6:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Enterprise Storage 6:libz1-1.2.11-150000.3.33.1",
+            "SUSE Enterprise Storage 6:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Enterprise Storage 6:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Enterprise Storage 6:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Enterprise Storage 6:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Enterprise Storage 6:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Enterprise Storage 7:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Enterprise Storage 7:libz1-1.2.11-150000.3.33.1",
+            "SUSE Enterprise Storage 7:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Enterprise Storage 7:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Enterprise Storage 7:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Enterprise Storage 7:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Enterprise Storage 7:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libz1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libz1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libz1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libz1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libz1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libz1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Micro 5.1:libz1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Micro 5.1:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Micro 5.2:libz1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libz1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libz1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libz1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libz1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libz1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libz1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libz1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15-LTSS:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15-LTSS:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15-LTSS:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server 15-LTSS:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libz1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libz1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libz1-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Manager Proxy 4.1:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Manager Proxy 4.1:libz1-1.2.11-150000.3.33.1",
+            "SUSE Manager Proxy 4.1:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Manager Proxy 4.1:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Manager Proxy 4.1:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Manager Proxy 4.1:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Manager Proxy 4.1:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Manager Retail Branch Server 4.1:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Manager Retail Branch Server 4.1:libz1-1.2.11-150000.3.33.1",
+            "SUSE Manager Retail Branch Server 4.1:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Manager Retail Branch Server 4.1:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Manager Retail Branch Server 4.1:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Manager Retail Branch Server 4.1:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Manager Retail Branch Server 4.1:zlib-devel-static-1.2.11-150000.3.33.1",
+            "SUSE Manager Server 4.1:libminizip1-1.2.11-150000.3.33.1",
+            "SUSE Manager Server 4.1:libz1-1.2.11-150000.3.33.1",
+            "SUSE Manager Server 4.1:libz1-32bit-1.2.11-150000.3.33.1",
+            "SUSE Manager Server 4.1:minizip-devel-1.2.11-150000.3.33.1",
+            "SUSE Manager Server 4.1:zlib-devel-1.2.11-150000.3.33.1",
+            "SUSE Manager Server 4.1:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "SUSE Manager Server 4.1:zlib-devel-static-1.2.11-150000.3.33.1",
+            "openSUSE Leap 15.3:libminizip1-1.2.11-150000.3.33.1",
+            "openSUSE Leap 15.3:libminizip1-32bit-1.2.11-150000.3.33.1",
+            "openSUSE Leap 15.3:libz1-1.2.11-150000.3.33.1",
+            "openSUSE Leap 15.3:libz1-32bit-1.2.11-150000.3.33.1",
+            "openSUSE Leap 15.3:minizip-devel-1.2.11-150000.3.33.1",
+            "openSUSE Leap 15.3:zlib-devel-1.2.11-150000.3.33.1",
+            "openSUSE Leap 15.3:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "openSUSE Leap 15.3:zlib-devel-static-1.2.11-150000.3.33.1",
+            "openSUSE Leap 15.3:zlib-devel-static-32bit-1.2.11-150000.3.33.1",
+            "openSUSE Leap 15.4:libminizip1-1.2.11-150000.3.33.1",
+            "openSUSE Leap 15.4:libminizip1-32bit-1.2.11-150000.3.33.1",
+            "openSUSE Leap 15.4:libz1-1.2.11-150000.3.33.1",
+            "openSUSE Leap 15.4:libz1-32bit-1.2.11-150000.3.33.1",
+            "openSUSE Leap 15.4:minizip-devel-1.2.11-150000.3.33.1",
+            "openSUSE Leap 15.4:zlib-devel-1.2.11-150000.3.33.1",
+            "openSUSE Leap 15.4:zlib-devel-32bit-1.2.11-150000.3.33.1",
+            "openSUSE Leap 15.4:zlib-devel-static-1.2.11-150000.3.33.1",
+            "openSUSE Leap 15.4:zlib-devel-static-32bit-1.2.11-150000.3.33.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

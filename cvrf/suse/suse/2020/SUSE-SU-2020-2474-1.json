@@ -1,0 +1,240 @@
+{
+  "Title": "Security update for libX11",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:2474-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-09-03T10:10:36Z",
+    "CurrentReleaseDate": "2020-09-03T10:10:36Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-09-03T10:10:36Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for libX11",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for libX11 fixes the following issues:\n\n- CVE-2020-14363: Fix an integer overflow in init_om() (bsc#1175239).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libX11-6-1.6.5-3.12.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.5-3.12.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.5-3.12.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.5-3.12.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.5-3.12.1",
+        "RelatesToProductReference": "Container ingress-nginx-controller:0.15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.5-3.12.1",
+        "RelatesToProductReference": "Container ingress-nginx-controller:0.15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.5-3.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-launcher:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.5-3.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-launcher:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.5-3.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-launcher:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.5-3.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/libguestfs-tools:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.5-3.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/libguestfs-tools:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.5-3.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-launcher:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.5-3.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-launcher:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.5-3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-32bit-1.6.5-3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.5-3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-devel-1.6.5-3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.5-3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-32bit-1.6.5-3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-1.6.5-3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-6-32bit-1.6.5-3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-data-1.6.5-3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-devel-1.6.5-3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-1.6.5-3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libX11-xcb1-32bit-1.6.5-3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20202474-1/",
+      "Description": "Link for SUSE-SU-2020:2474-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-September/007343.html",
+      "Description": "E-Mail link for SUSE-SU-2020:2474-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1175239",
+      "Description": "SUSE Bug 1175239"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-14363/",
+      "Description": "SUSE CVE CVE-2020-14363 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-14363",
+      "Description": "An integer overflow vulnerability leading to a double-free was found in libX11. This flaw allows a local privileged attacker to cause an application compiled with libX11 to crash, or in some cases, result in arbitrary code execution. The highest threat from this flaw is to confidentiality, integrity as well as system availability.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-14363.html",
+          "Description": "CVE-2020-14363"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1175239",
+          "Description": "SUSE Bug 1175239"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/openjdk-devel:latest:libX11-6-1.6.5-3.12.1",
+            "Container bci/openjdk-devel:latest:libX11-data-1.6.5-3.12.1",
+            "Container bci/openjdk:latest:libX11-6-1.6.5-3.12.1",
+            "Container bci/openjdk:latest:libX11-data-1.6.5-3.12.1",
+            "Container ingress-nginx-controller:0.15.0:libX11-6-1.6.5-3.12.1",
+            "Container ingress-nginx-controller:0.15.0:libX11-data-1.6.5-3.12.1",
+            "Container suse/sles/15.2/virt-launcher:0.38.1:libX11-6-1.6.5-3.12.1",
+            "Container suse/sles/15.2/virt-launcher:0.38.1:libX11-data-1.6.5-3.12.1",
+            "Container suse/sles/15.2/virt-launcher:0.38.1:libX11-xcb1-1.6.5-3.12.1",
+            "Container suse/sles/15.3/libguestfs-tools:0.45.0:libX11-6-1.6.5-3.12.1",
+            "Container suse/sles/15.3/libguestfs-tools:0.45.0:libX11-data-1.6.5-3.12.1",
+            "Container suse/sles/15.3/virt-launcher:0.45.0:libX11-6-1.6.5-3.12.1",
+            "Container suse/sles/15.3/virt-launcher:0.45.0:libX11-data-1.6.5-3.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libX11-6-1.6.5-3.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libX11-6-32bit-1.6.5-3.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libX11-data-1.6.5-3.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libX11-devel-1.6.5-3.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libX11-xcb1-1.6.5-3.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libX11-xcb1-32bit-1.6.5-3.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libX11-6-1.6.5-3.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libX11-6-32bit-1.6.5-3.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libX11-data-1.6.5-3.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libX11-devel-1.6.5-3.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libX11-xcb1-1.6.5-3.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libX11-xcb1-32bit-1.6.5-3.12.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

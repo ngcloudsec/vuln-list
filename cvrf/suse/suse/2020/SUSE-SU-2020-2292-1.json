@@ -1,0 +1,468 @@
+{
+  "Title": "Security update for SUSE Manager Proxy 3.2",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:2292-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-08-21T12:32:09Z",
+    "CurrentReleaseDate": "2020-08-21T12:32:09Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-08-21T12:32:09Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for SUSE Manager Proxy 3.2",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nThis update fixes the following issues:\n\nrelease-notes-susemanager-proxy:\n\n- Update to 3.2.15\n- Bugs mentioned\n  bsc#1174965, bsc#1170331, bsc#1159184, bsc#1171169, bsc#1166284, bsc#1174768, bsc#1172831, bsc#1172462\n\nspacewalk-backend:\n\n- Fix issues importing RPM packages with long RPM headers (bsc#1174965)\n- Do not make mgr-inter-sync to crash if there are non-ASCII\n  characters on an exception message (bsc#1170331)\n- Validate cached package entries on ISS slave (bsc#1159184)\n\nspacewalk-client-tools:\n\n- Do not crash 'mgr-update-status' because 'long' type is not defined in Python 3\n\nspacewalk-proxy-installer:\n\n- Do not cache metadata of the bootstrap repositories (bsc#1171169)\n- Move vital proxy templates to a safe place outside of docu (bsc#1166284)\n\nspacewalk-web:\n\n- Fix saving of formulas (bsc#1174768)\n- Upgrade jQuery and adapt the code - CVE-2020-11022 (bsc#1172831)\n\nzypp-plugin-spacewalk:\n\n- Prevent issue with non-ASCII characters in Python 2 systems (bsc#1172462)\n\nHow to apply this update:\n1. Log in as root user to the SUSE Manager proxy.\n2. Stop the proxy service:\nspacewalk-proxy stop\n3. Apply the patch using either zypper patch or YaST Online Update.\n4. Start the Spacewalk service:\nspacewalk-proxy start\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "python2-spacewalk-check-2.8.22.8-3.15.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-spacewalk-client-setup-2.8.22.8-3.15.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-spacewalk-client-tools-2.8.22.8-3.15.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-zypp-plugin-spacewalk-1.0.7-3.13.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "release-notes-susemanager-proxy-3.2.15-0.16.47.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-backend-2.8.57.23-3.51.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-backend-libs-2.8.57.23-3.51.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-base-minimal-2.8.7.24-3.48.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-base-minimal-config-2.8.7.24-3.48.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-check-2.8.22.8-3.15.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-client-setup-2.8.22.8-3.15.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-client-tools-2.8.22.8-3.15.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-proxy-installer-2.8.6.8-3.18.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "susemanager-web-libs-2.8.7.24-3.48.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zypp-plugin-spacewalk-1.0.7-3.13.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-formula-0.1.1584363976.36bce64-3.6.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "branch-network-formula-0.1.1584363976.36bce64-3.9.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "py26-compat-salt-2016.11.10-6.38.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-susemanager-retail-1.0.1584363976.36bce64-2.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-spacewalk-client-tools-2.8.22.8-3.15.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "release-notes-susemanager-3.2.15-6.61.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-backend-2.8.57.23-3.51.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-backend-app-2.8.57.23-3.51.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-backend-applet-2.8.57.23-3.51.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-backend-config-files-2.8.57.23-3.51.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-backend-config-files-common-2.8.57.23-3.51.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-backend-config-files-tool-2.8.57.23-3.51.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-backend-iss-2.8.57.23-3.51.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-backend-iss-export-2.8.57.23-3.51.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-backend-libs-2.8.57.23-3.51.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-backend-package-push-server-2.8.57.23-3.51.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-backend-server-2.8.57.23-3.51.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-backend-sql-2.8.57.23-3.51.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-backend-sql-oracle-2.8.57.23-3.51.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-backend-sql-postgresql-2.8.57.23-3.51.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-backend-tools-2.8.57.23-3.51.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-backend-xml-export-libs-2.8.57.23-3.51.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-backend-xmlrpc-2.8.57.23-3.51.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-base-2.8.7.24-3.48.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-base-minimal-2.8.7.24-3.48.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-base-minimal-config-2.8.7.24-3.48.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-client-tools-2.8.22.8-3.15.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-html-2.8.7.24-3.48.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-java-2.8.78.29-3.50.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-java-config-2.8.78.29-3.50.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-java-lib-2.8.78.29-3.50.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-java-oracle-2.8.78.29-3.50.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-java-postgresql-2.8.78.29-3.50.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-taskomatic-2.8.78.29-3.50.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "spacewalk-utils-2.8.18.7-3.15.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "susemanager-3.2.24-3.43.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "susemanager-frontend-libs-3.2.5-3.13.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "susemanager-retail-tools-1.0.1584363976.36bce64-2.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "susemanager-schema-3.2.24-3.40.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "susemanager-sls-3.2.31-3.47.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "susemanager-tools-3.2.24-3.43.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "susemanager-web-libs-2.8.7.24-3.48.1",
+        "RelatesToProductReference": "SUSE Manager Server 3.2",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20202292-1/",
+      "Description": "Link for SUSE-SU-2020:2292-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-August/007286.html",
+      "Description": "E-Mail link for SUSE-SU-2020:2292-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1159184",
+      "Description": "SUSE Bug 1159184"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1166284",
+      "Description": "SUSE Bug 1166284"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1170331",
+      "Description": "SUSE Bug 1170331"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1171169",
+      "Description": "SUSE Bug 1171169"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1172462",
+      "Description": "SUSE Bug 1172462"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1172831",
+      "Description": "SUSE Bug 1172831"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1174768",
+      "Description": "SUSE Bug 1174768"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1174965",
+      "Description": "SUSE Bug 1174965"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-11022/",
+      "Description": "SUSE CVE CVE-2020-11022 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-11022",
+      "Description": "In jQuery versions greater than or equal to 1.2 and before 3.5.0, passing HTML from untrusted sources - even after sanitizing it - to one of jQuery's DOM manipulation methods (i.e. .html(), .append(), and others) may execute untrusted code. This problem is patched in jQuery 3.5.0.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-11022.html",
+          "Description": "CVE-2020-11022"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1173090",
+          "Description": "SUSE Bug 1173090"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1178434",
+          "Description": "SUSE Bug 1178434"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1190663",
+          "Description": "SUSE Bug 1190663"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Manager Proxy 3.2:python2-spacewalk-check-2.8.22.8-3.15.1",
+            "SUSE Manager Proxy 3.2:python2-spacewalk-client-setup-2.8.22.8-3.15.1",
+            "SUSE Manager Proxy 3.2:python2-spacewalk-client-tools-2.8.22.8-3.15.1",
+            "SUSE Manager Proxy 3.2:python2-zypp-plugin-spacewalk-1.0.7-3.13.1",
+            "SUSE Manager Proxy 3.2:release-notes-susemanager-proxy-3.2.15-0.16.47.1",
+            "SUSE Manager Proxy 3.2:spacewalk-backend-2.8.57.23-3.51.1",
+            "SUSE Manager Proxy 3.2:spacewalk-backend-libs-2.8.57.23-3.51.1",
+            "SUSE Manager Proxy 3.2:spacewalk-base-minimal-2.8.7.24-3.48.1",
+            "SUSE Manager Proxy 3.2:spacewalk-base-minimal-config-2.8.7.24-3.48.1",
+            "SUSE Manager Proxy 3.2:spacewalk-check-2.8.22.8-3.15.1",
+            "SUSE Manager Proxy 3.2:spacewalk-client-setup-2.8.22.8-3.15.1",
+            "SUSE Manager Proxy 3.2:spacewalk-client-tools-2.8.22.8-3.15.1",
+            "SUSE Manager Proxy 3.2:spacewalk-proxy-installer-2.8.6.8-3.18.1",
+            "SUSE Manager Proxy 3.2:susemanager-web-libs-2.8.7.24-3.48.1",
+            "SUSE Manager Proxy 3.2:zypp-plugin-spacewalk-1.0.7-3.13.1",
+            "SUSE Manager Server 3.2:bind-formula-0.1.1584363976.36bce64-3.6.1",
+            "SUSE Manager Server 3.2:branch-network-formula-0.1.1584363976.36bce64-3.9.1",
+            "SUSE Manager Server 3.2:py26-compat-salt-2016.11.10-6.38.1",
+            "SUSE Manager Server 3.2:python-susemanager-retail-1.0.1584363976.36bce64-2.12.1",
+            "SUSE Manager Server 3.2:python2-spacewalk-client-tools-2.8.22.8-3.15.1",
+            "SUSE Manager Server 3.2:release-notes-susemanager-3.2.15-6.61.1",
+            "SUSE Manager Server 3.2:spacewalk-backend-2.8.57.23-3.51.1",
+            "SUSE Manager Server 3.2:spacewalk-backend-app-2.8.57.23-3.51.1",
+            "SUSE Manager Server 3.2:spacewalk-backend-applet-2.8.57.23-3.51.1",
+            "SUSE Manager Server 3.2:spacewalk-backend-config-files-2.8.57.23-3.51.1",
+            "SUSE Manager Server 3.2:spacewalk-backend-config-files-common-2.8.57.23-3.51.1",
+            "SUSE Manager Server 3.2:spacewalk-backend-config-files-tool-2.8.57.23-3.51.1",
+            "SUSE Manager Server 3.2:spacewalk-backend-iss-2.8.57.23-3.51.1",
+            "SUSE Manager Server 3.2:spacewalk-backend-iss-export-2.8.57.23-3.51.1",
+            "SUSE Manager Server 3.2:spacewalk-backend-libs-2.8.57.23-3.51.1",
+            "SUSE Manager Server 3.2:spacewalk-backend-package-push-server-2.8.57.23-3.51.1",
+            "SUSE Manager Server 3.2:spacewalk-backend-server-2.8.57.23-3.51.1",
+            "SUSE Manager Server 3.2:spacewalk-backend-sql-2.8.57.23-3.51.1",
+            "SUSE Manager Server 3.2:spacewalk-backend-sql-oracle-2.8.57.23-3.51.1",
+            "SUSE Manager Server 3.2:spacewalk-backend-sql-postgresql-2.8.57.23-3.51.1",
+            "SUSE Manager Server 3.2:spacewalk-backend-tools-2.8.57.23-3.51.1",
+            "SUSE Manager Server 3.2:spacewalk-backend-xml-export-libs-2.8.57.23-3.51.1",
+            "SUSE Manager Server 3.2:spacewalk-backend-xmlrpc-2.8.57.23-3.51.1",
+            "SUSE Manager Server 3.2:spacewalk-base-2.8.7.24-3.48.1",
+            "SUSE Manager Server 3.2:spacewalk-base-minimal-2.8.7.24-3.48.1",
+            "SUSE Manager Server 3.2:spacewalk-base-minimal-config-2.8.7.24-3.48.1",
+            "SUSE Manager Server 3.2:spacewalk-client-tools-2.8.22.8-3.15.1",
+            "SUSE Manager Server 3.2:spacewalk-html-2.8.7.24-3.48.1",
+            "SUSE Manager Server 3.2:spacewalk-java-2.8.78.29-3.50.1",
+            "SUSE Manager Server 3.2:spacewalk-java-config-2.8.78.29-3.50.1",
+            "SUSE Manager Server 3.2:spacewalk-java-lib-2.8.78.29-3.50.1",
+            "SUSE Manager Server 3.2:spacewalk-java-oracle-2.8.78.29-3.50.1",
+            "SUSE Manager Server 3.2:spacewalk-java-postgresql-2.8.78.29-3.50.1",
+            "SUSE Manager Server 3.2:spacewalk-taskomatic-2.8.78.29-3.50.1",
+            "SUSE Manager Server 3.2:spacewalk-utils-2.8.18.7-3.15.1",
+            "SUSE Manager Server 3.2:susemanager-3.2.24-3.43.1",
+            "SUSE Manager Server 3.2:susemanager-frontend-libs-3.2.5-3.13.1",
+            "SUSE Manager Server 3.2:susemanager-retail-tools-1.0.1584363976.36bce64-2.12.1",
+            "SUSE Manager Server 3.2:susemanager-schema-3.2.24-3.40.1",
+            "SUSE Manager Server 3.2:susemanager-sls-3.2.31-3.47.1",
+            "SUSE Manager Server 3.2:susemanager-tools-3.2.24-3.43.1",
+            "SUSE Manager Server 3.2:susemanager-web-libs-2.8.7.24-3.48.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

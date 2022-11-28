@@ -1,0 +1,216 @@
+{
+  "Title": "Security update for tar",
+  "Tracking": {
+    "ID": "SUSE-SU-2021:0974-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2021-03-29T17:31:31Z",
+    "CurrentReleaseDate": "2021-03-29T17:31:31Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2021-03-29T17:31:31Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for tar",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for tar fixes the following issues:\n\nCVE-2021-20193: Memory leak in read_header() in list.c (bsc#1181131)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "tar-1.30-3.6.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-importer:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.30-3.6.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-uploadserver:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.30-3.6.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/libguestfs-tools:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.30-3.6.1",
+        "RelatesToProductReference": "Container trento/trento-web:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.30-3.6.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.30-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.30-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.30-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.30-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.30-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.30-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.30-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.30-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.30-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.30-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.30-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.30-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.30-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-lang-1.30-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-rmt-1.30-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.30-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.0",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2021/suse-su-20210974-1/",
+      "Description": "Link for SUSE-SU-2021:0974-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2021-March/008563.html",
+      "Description": "E-Mail link for SUSE-SU-2021:0974-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1181131",
+      "Description": "SUSE Bug 1181131"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2021-20193/",
+      "Description": "SUSE CVE CVE-2021-20193 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2021-20193",
+      "Description": "A flaw was found in the src/list.c of tar 1.33 and earlier. This flaw allows an attacker who can submit a crafted input file to tar to cause uncontrolled consumption of memory. The highest threat from this vulnerability is to system availability.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "low"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2021-20193.html",
+          "Description": "CVE-2021-20193"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1181131",
+          "Description": "SUSE Bug 1181131"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/sles/15.3/cdi-importer:1.37.1:tar-1.30-3.6.1",
+            "Container suse/sles/15.3/cdi-uploadserver:1.37.1:tar-1.30-3.6.1",
+            "Container suse/sles/15.3/libguestfs-tools:0.45.0:tar-1.30-3.6.1",
+            "Container trento/trento-web:latest:tar-1.30-3.6.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:tar-1.30-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:tar-1.30-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:tar-1.30-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:tar-1.30-3.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:tar-1.30-3.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:tar-1.30-3.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:tar-1.30-3.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:tar-1.30-3.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:tar-1.30-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:tar-1.30-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:tar-1.30-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:tar-1.30-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:tar-1.30-3.6.1",
+            "SUSE Linux Enterprise Micro 5.0:tar-1.30-3.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:tar-1.30-3.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:tar-lang-1.30-3.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:tar-rmt-1.30-3.6.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

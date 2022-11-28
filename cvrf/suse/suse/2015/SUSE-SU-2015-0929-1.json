@@ -1,0 +1,159 @@
+{
+  "Title": "Security update for KVM",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:0929-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2012-01-16T15:58:56Z",
+    "CurrentReleaseDate": "2012-01-16T15:58:56Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2012-01-16T15:58:56Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for KVM",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nThe following vulnerabilities have been fixed in KVM:\n\n    * buffer overflow in e1000 device emulation (CVE-2012-0029)\n    * missing initgroups() for -runas (CVE-2011-2527)\n\nSecurity Issue references:\n\n    * CVE-2011-2527\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2527\u003e\n    * CVE-2012-0029\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0029\u003e\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "kvm-0.12.5-1.20.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kvm-0.12.5-1.20.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kvm-0.12.5-1.20.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20150929-1/",
+      "Description": "Link for SUSE-SU-2015:0929-1"
+    },
+    {
+      "URL": "https://lists.opensuse.org/opensuse-security-announce/2015-05/msg00021.html",
+      "Description": "E-Mail link for SUSE-SU-2015:0929-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/695510",
+      "Description": "SUSE Bug 695510"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/705304",
+      "Description": "SUSE Bug 705304"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/740165",
+      "Description": "SUSE Bug 740165"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2011-2527/",
+      "Description": "SUSE CVE CVE-2011-2527 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-0029/",
+      "Description": "SUSE CVE CVE-2012-0029 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2011-2527",
+      "Description": "The change_process_uid function in os-posix.c in Qemu 0.14.0 and earlier does not properly drop group privileges when the -runas option is used, which allows local guest users to access restricted files on the host.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2011-2527.html",
+          "Description": "CVE-2011-2527"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/705304",
+          "Description": "SUSE Bug 705304"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kvm-0.12.5-1.20.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kvm-0.12.5-1.20.1",
+            "SUSE Linux Enterprise Server 11 SP1:kvm-0.12.5-1.20.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2012-0029",
+      "Description": "Heap-based buffer overflow in the process_tx_desc function in the e1000 emulation (hw/e1000.c) in qemu-kvm 0.12, and possibly other versions, allows guest OS users to cause a denial of service (QEMU crash) and possibly execute arbitrary code via crafted legacy mode packets.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-0029.html",
+          "Description": "CVE-2012-0029"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/740165",
+          "Description": "SUSE Bug 740165"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/747331",
+          "Description": "SUSE Bug 747331"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/757537",
+          "Description": "SUSE Bug 757537"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:kvm-0.12.5-1.20.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:kvm-0.12.5-1.20.1",
+            "SUSE Linux Enterprise Server 11 SP1:kvm-0.12.5-1.20.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

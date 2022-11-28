@@ -1,0 +1,264 @@
+{
+  "Title": "Security update for c-ares",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:3478-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-11-23T08:33:23Z",
+    "CurrentReleaseDate": "2020-11-23T08:33:23Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-11-23T08:33:23Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for c-ares",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for c-ares fixes the following issues:\n\n- Version update to 1.17.0\n  * CVE-2020-8277: Fixed a Denial of Service through DNS request (bsc#1178882)\n  * For further details see https://c-ares.haxx.se/changelog.html\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium:1.6.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.0-3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.0-3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.0-3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.0-3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.0-3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "c-ares-devel-1.17.0-3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcares2-1.17.0-3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20203478-1/",
+      "Description": "Link for SUSE-SU-2020:3478-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-November/007840.html",
+      "Description": "E-Mail link for SUSE-SU-2020:3478-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1178882",
+      "Description": "SUSE Bug 1178882"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-8277/",
+      "Description": "SUSE CVE CVE-2020-8277 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-8277",
+      "Description": "A Node.js application that allows an attacker to trigger a DNS request for a host of their choice could trigger a Denial of Service in versions \u003c 15.2.1, \u003c 14.15.1, and \u003c 12.19.1 by getting the application to resolve a DNS record with a larger number of responses. This is fixed in 15.2.1, 14.15.1, and 12.19.1.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-8277.html",
+          "Description": "CVE-2020-8277"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1178882",
+          "Description": "SUSE Bug 1178882"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/node:12:libcares2-1.17.0-3.8.1",
+            "Container bci/node:14:libcares2-1.17.0-3.8.1",
+            "Container bci/nodejs:latest:libcares2-1.17.0-3.8.1",
+            "Container caasp/v4/cilium:1.6.6:libcares2-1.17.0-3.8.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:libcares2-1.17.0-3.8.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libcares2-1.17.0-3.8.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libcares2-1.17.0-3.8.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libcares2-1.17.0-3.8.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libcares2-1.17.0-3.8.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libcares2-1.17.0-3.8.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libcares2-1.17.0-3.8.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libcares2-1.17.0-3.8.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:libcares2-1.17.0-3.8.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libcares2-1.17.0-3.8.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libcares2-1.17.0-3.8.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libcares2-1.17.0-3.8.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libcares2-1.17.0-3.8.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:c-ares-devel-1.17.0-3.8.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libcares2-1.17.0-3.8.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:c-ares-devel-1.17.0-3.8.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libcares2-1.17.0-3.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:c-ares-devel-1.17.0-3.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libcares2-1.17.0-3.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:c-ares-devel-1.17.0-3.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libcares2-1.17.0-3.8.1",
+            "SUSE Linux Enterprise Server 15-LTSS:c-ares-devel-1.17.0-3.8.1",
+            "SUSE Linux Enterprise Server 15-LTSS:libcares2-1.17.0-3.8.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:c-ares-devel-1.17.0-3.8.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libcares2-1.17.0-3.8.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

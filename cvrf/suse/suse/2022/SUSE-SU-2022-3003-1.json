@@ -1,0 +1,144 @@
+{
+  "Title": "Security update for curl",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3003-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-09-02T13:01:50Z",
+    "CurrentReleaseDate": "2022-09-02T13:01:50Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-09-02T13:01:50Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for curl",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for curl fixes the following issues:\n\n- CVE-2022-35252: Fixed a potential injection of control characters\n  into cookies, which could be exploited by sister sites to cause a\n  denial of service (bsc#1202593).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "curl-7.79.1-150400.5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-7.79.1-150400.5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.79.1-150400.5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-7.79.1-150400.5.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.79.1-150400.5.6.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-7.79.1-150400.5.6.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-32bit-7.79.1-150400.5.6.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.79.1-150400.5.6.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-7.79.1-150400.5.6.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223003-1/",
+      "Description": "Link for SUSE-SU-2022:3003-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-September/012069.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3003-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1202593",
+      "Description": "SUSE Bug 1202593"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-35252/",
+      "Description": "SUSE CVE CVE-2022-35252 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-35252",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "low"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-35252.html",
+          "Description": "CVE-2022-35252"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1202593",
+          "Description": "SUSE Bug 1202593"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:curl-7.79.1-150400.5.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libcurl-devel-7.79.1-150400.5.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libcurl4-32bit-7.79.1-150400.5.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libcurl4-7.79.1-150400.5.6.1",
+            "openSUSE Leap 15.4:curl-7.79.1-150400.5.6.1",
+            "openSUSE Leap 15.4:libcurl-devel-32bit-7.79.1-150400.5.6.1",
+            "openSUSE Leap 15.4:libcurl-devel-7.79.1-150400.5.6.1",
+            "openSUSE Leap 15.4:libcurl4-32bit-7.79.1-150400.5.6.1",
+            "openSUSE Leap 15.4:libcurl4-7.79.1-150400.5.6.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

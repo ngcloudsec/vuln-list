@@ -1,0 +1,83 @@
+{
+  "id": "RLSA-2022:5095",
+  "title": "Important: grub2, mokutil, shim, and shim-unsigned-x64 security update",
+  "issued": {
+    "date": "2022-06-16 00:00:00"
+  },
+  "updated": {
+    "date": "2022-06-16 00:00:00"
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "description": "The grub2 packages provide version 2 of the Grand Unified Boot Loader (GRUB), a highly configurable and customizable boot loader with modular architecture. The packages support a variety of kernel formats, file systems, computer architectures, and hardware devices.\nThe shim package contains a first-stage UEFI boot loader that handles chaining to a trusted full boot loader under secure boot environments.\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "packages": [
+    {
+      "name": "shim-aa64",
+      "epoch": "0",
+      "version": "15.6",
+      "release": "1.el8",
+      "arch": "aarch64",
+      "src": "shim-15.6-1.el8.src.rpm",
+      "filename": "shim-aa64-15.6-1.el8.aarch64.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-3695.json",
+      "id": "CVE-2021-3695",
+      "title": "Update information for CVE-2021-3695 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-3696.json",
+      "id": "CVE-2021-3696",
+      "title": "Update information for CVE-2021-3696 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-3697.json",
+      "id": "CVE-2021-3697",
+      "title": "Update information for CVE-2021-3697 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-28733.json",
+      "id": "CVE-2022-28733",
+      "title": "Update information for CVE-2022-28733 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-28734.json",
+      "id": "CVE-2022-28734",
+      "title": "Update information for CVE-2022-28734 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-28735.json",
+      "id": "CVE-2022-28735",
+      "title": "Update information for CVE-2022-28735 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-28736.json",
+      "id": "CVE-2022-28736",
+      "title": "Update information for CVE-2022-28736 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-28737.json",
+      "id": "CVE-2022-28737",
+      "title": "Update information for CVE-2022-28737 is retrieved from Red Hat",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2021-3695",
+    "CVE-2021-3696",
+    "CVE-2021-3697",
+    "CVE-2022-28733",
+    "CVE-2022-28734",
+    "CVE-2022-28735",
+    "CVE-2022-28736",
+    "CVE-2022-28737"
+  ]
+}

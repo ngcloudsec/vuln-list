@@ -1,0 +1,184 @@
+{
+  "Title": "Security update for the Linux Kernel (Live Patch 7 for SLE 15 SP3)",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3061-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-09-05T15:33:00Z",
+    "CurrentReleaseDate": "2022-09-05T15:33:00Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-09-05T15:33:00Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for the Linux Kernel (Live Patch 7 for SLE 15 SP3)",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for the Linux Kernel 5.3.18-59_27 fixes several issues.\n\nThe following security issues were fixed:\n- CVE-2020-36516: Fixed an off-path attack via mixed IPID assignment method with the hash-based IPID assignment policy to inject data into a victim's TCP session or terminate that session (bsc#1196867).\n- CVE-2022-36946: Fixed a remote denial of service attack inside nfqnl_mangle in net/netfilter/nfnetlink_queue.c, in the case of an nf_queue verdict with a one-byte nfta_payload attribute, an skb_pull can encounter a negative length (bsc#1201941).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "kgraft-patch-4_12_14-95_83-default-13-2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Live Patching 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kgraft-patch-4_12_14-122_88-default-16-2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Live Patching 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-livepatch-4_12_14-150_78-default-13-150000.2.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Live Patching 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-livepatch-4_12_14-197_102-default-13-150100.2.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Live Patching 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-livepatch-5_3_18-24_86-default-16-150200.2.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Live Patching 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-livepatch-5_3_18-59_27-default-16-150300.2.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Live Patching 15 SP3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223061-1/",
+      "Description": "Link for SUSE-SU-2022:3061-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-September/012117.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3061-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1196867",
+      "Description": "SUSE Bug 1196867"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1201941",
+      "Description": "SUSE Bug 1201941"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-36516/",
+      "Description": "SUSE CVE CVE-2020-36516 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-36946/",
+      "Description": "SUSE CVE CVE-2022-36946 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-36516",
+      "Description": "An issue was discovered in the Linux kernel through 5.16.11. The mixed IPID assignment method with the hash-based IPID assignment policy allows an off-path attacker to inject data into a victim's TCP session or terminate that session.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-36516.html",
+          "Description": "CVE-2020-36516"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1196616",
+          "Description": "SUSE Bug 1196616"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1196867",
+          "Description": "SUSE Bug 1196867"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Live Patching 12 SP4:kgraft-patch-4_12_14-95_83-default-13-2.3",
+            "SUSE Linux Enterprise Live Patching 12 SP5:kgraft-patch-4_12_14-122_88-default-16-2.3",
+            "SUSE Linux Enterprise Module for Live Patching 15 SP1:kernel-livepatch-4_12_14-197_102-default-13-150100.2.2",
+            "SUSE Linux Enterprise Module for Live Patching 15 SP2:kernel-livepatch-5_3_18-24_86-default-16-150200.2.2",
+            "SUSE Linux Enterprise Module for Live Patching 15 SP3:kernel-livepatch-5_3_18-59_27-default-16-150300.2.2",
+            "SUSE Linux Enterprise Module for Live Patching 15:kernel-livepatch-4_12_14-150_78-default-13-150000.2.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-36946",
+      "Description": "nfqnl_mangle in net/netfilter/nfnetlink_queue.c in the Linux kernel through 5.18.14 allows remote attackers to cause a denial of service (panic) because, in the case of an nf_queue verdict with a one-byte nfta_payload attribute, an skb_pull can encounter a negative skb-\u003elen.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-36946.html",
+          "Description": "CVE-2022-36946"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201940",
+          "Description": "SUSE Bug 1201940"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201941",
+          "Description": "SUSE Bug 1201941"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1202312",
+          "Description": "SUSE Bug 1202312"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1202874",
+          "Description": "SUSE Bug 1202874"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Live Patching 12 SP4:kgraft-patch-4_12_14-95_83-default-13-2.3",
+            "SUSE Linux Enterprise Live Patching 12 SP5:kgraft-patch-4_12_14-122_88-default-16-2.3",
+            "SUSE Linux Enterprise Module for Live Patching 15 SP1:kernel-livepatch-4_12_14-197_102-default-13-150100.2.2",
+            "SUSE Linux Enterprise Module for Live Patching 15 SP2:kernel-livepatch-5_3_18-24_86-default-16-150200.2.2",
+            "SUSE Linux Enterprise Module for Live Patching 15 SP3:kernel-livepatch-5_3_18-59_27-default-16-150300.2.2",
+            "SUSE Linux Enterprise Module for Live Patching 15:kernel-livepatch-4_12_14-150_78-default-13-150000.2.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

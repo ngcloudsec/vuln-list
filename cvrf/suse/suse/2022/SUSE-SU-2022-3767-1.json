@@ -1,0 +1,282 @@
+{
+  "Title": "Recommended update for bind",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3767-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-10-26T09:49:55Z",
+    "CurrentReleaseDate": "2022-10-26T09:49:55Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-10-26T09:49:55Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Recommended update for bind",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for bind fixes the following issues:\n\nUpdate to release 9.16.33:\n\n- CVE-2022-2795: Fixed potential performance degredation due to missing database lookup limits when processing large delegations (bsc#1203614).\n- CVE-2022-3080: Fixed assertion failure when there was a stale CNAME in the cache for the incoming query and the stale-answer-client-timeout option is set to 0 (bsc#1203618).\n- CVE-2022-38177: Fixed a memory leak that could be externally triggered in the DNSSEC verification code for the ECDSA algorithm (bsc#1203619).\n- CVE-2022-38178: Fixed memory leaks that could be externally triggered in the DNSSEC verification code for the EdDSA algorithm (bsc#1203620).\n\n- Add systemd drop-in directory for named service (bsc#1201689).\n- Add modified createNamedConfInclude script and README-bind.chrootenv (bsc#1203250).\n\n- Feature Changes:\n  - Response Rate Limiting (RRL) code now treats all QNAMEs that are\n  subject to wildcard processing within a given zone as the same\n  name, to prevent circumventing the limits enforced by RRL.\n\n  - Zones using dnssec-policy now require dynamic DNS or\n  inline-signing to be configured explicitly.\n\n  - A backward-compatible approach was implemented for encoding\n  internationalized domain names (IDN) in dig and converting the\n  domain to IDNA2008 form; if that fails,\n  BIND tries an IDNA2003 conversion.\n\n  - The DNSSEC algorithms RSASHA1 and NSEC3RSASHA1 are now automatically\n  disabled on systems where they are disallowed by the security policy.\n  Primary zones using those algorithms need to be migrated to new algorithms\n  prior to running on these systems, as graceful migration to different DNSSEC\n  algorithms is not possible when RSASHA1 is disallowed by the operating system.\n\n  - Log messages related to fetch limiting have been improved to provide\n  more complete information. Specifically, the final counts of allowed\n  and spilled fetches are now logged before the counter object is destroyed.\n\n  - Non-dynamic zones that inherit dnssec-policy from the view or options\n  blocks were not marked as inline-signed and therefore never scheduled\n  to be re-signed. This has been fixed.\n\n  - The old max-zone-ttl zone option was meant to be superseded by\n  the max-zone-ttl option in dnssec-policy; however, the latter option\n  was not fully effective. This has been corrected: zones no longer load\n  if they contain TTLs greater than the limit configured in dnssec-policy.\n  For zones with both the old max-zone-ttl option and dnssec-policy\n  configured, the old option is ignored, and a warning is generated.\n\n  - rndc dumpdb -expired was fixed to include expired RRsets,\n  even if stale-cache-enable is set to no and the cache-cleaning time \n  window has passed. (jsc#SLE-24600)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "bind-utils-9.16.33-150400.5.11.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.33-150400.5.11.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-9.16.33-150400.5.11.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-doc-9.16.33-150400.5.11.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Server Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-9.16.33-150400.5.11.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-doc-9.16.33-150400.5.11.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.16.33-150400.5.11.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-bind-9.16.33-150400.5.11.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223767-1/",
+      "Description": "Link for SUSE-SU-2022:3767-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-October/012698.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3767-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1201689",
+      "Description": "SUSE Bug 1201689"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1203250",
+      "Description": "SUSE Bug 1203250"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1203614",
+      "Description": "SUSE Bug 1203614"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1203618",
+      "Description": "SUSE Bug 1203618"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1203619",
+      "Description": "SUSE Bug 1203619"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1203620",
+      "Description": "SUSE Bug 1203620"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-2795/",
+      "Description": "SUSE CVE CVE-2022-2795 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-3080/",
+      "Description": "SUSE CVE CVE-2022-3080 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-38177/",
+      "Description": "SUSE CVE CVE-2022-38177 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-38178/",
+      "Description": "SUSE CVE CVE-2022-38178 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-2795",
+      "Description": "By flooding the target resolver with queries exploiting this flaw an attacker can significantly impair the resolver's performance, effectively denying legitimate clients access to the DNS resolution service.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-2795.html",
+          "Description": "CVE-2022-2795"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1203614",
+          "Description": "SUSE Bug 1203614"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:bind-utils-9.16.33-150400.5.11.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-bind-9.16.33-150400.5.11.1",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:bind-9.16.33-150400.5.11.1",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:bind-doc-9.16.33-150400.5.11.1",
+            "openSUSE Leap 15.4:bind-9.16.33-150400.5.11.1",
+            "openSUSE Leap 15.4:bind-doc-9.16.33-150400.5.11.1",
+            "openSUSE Leap 15.4:bind-utils-9.16.33-150400.5.11.1",
+            "openSUSE Leap 15.4:python3-bind-9.16.33-150400.5.11.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-3080",
+      "Description": "By sending specific queries to the resolver, an attacker can cause named to crash.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-3080.html",
+          "Description": "CVE-2022-3080"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1203618",
+          "Description": "SUSE Bug 1203618"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:bind-utils-9.16.33-150400.5.11.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-bind-9.16.33-150400.5.11.1",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:bind-9.16.33-150400.5.11.1",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:bind-doc-9.16.33-150400.5.11.1",
+            "openSUSE Leap 15.4:bind-9.16.33-150400.5.11.1",
+            "openSUSE Leap 15.4:bind-doc-9.16.33-150400.5.11.1",
+            "openSUSE Leap 15.4:bind-utils-9.16.33-150400.5.11.1",
+            "openSUSE Leap 15.4:python3-bind-9.16.33-150400.5.11.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-38177",
+      "Description": "By spoofing the target resolver with responses that have a malformed ECDSA signature, an attacker can trigger a small memory leak. It is possible to gradually erode available memory to the point where named crashes for lack of resources.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-38177.html",
+          "Description": "CVE-2022-38177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1203619",
+          "Description": "SUSE Bug 1203619"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1204101",
+          "Description": "SUSE Bug 1204101"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:bind-utils-9.16.33-150400.5.11.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-bind-9.16.33-150400.5.11.1",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:bind-9.16.33-150400.5.11.1",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:bind-doc-9.16.33-150400.5.11.1",
+            "openSUSE Leap 15.4:bind-9.16.33-150400.5.11.1",
+            "openSUSE Leap 15.4:bind-doc-9.16.33-150400.5.11.1",
+            "openSUSE Leap 15.4:bind-utils-9.16.33-150400.5.11.1",
+            "openSUSE Leap 15.4:python3-bind-9.16.33-150400.5.11.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-38178",
+      "Description": "By spoofing the target resolver with responses that have a malformed EdDSA signature, an attacker can trigger a small memory leak. It is possible to gradually erode available memory to the point where named crashes for lack of resources.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-38178.html",
+          "Description": "CVE-2022-38178"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1203620",
+          "Description": "SUSE Bug 1203620"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:bind-utils-9.16.33-150400.5.11.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:python3-bind-9.16.33-150400.5.11.1",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:bind-9.16.33-150400.5.11.1",
+            "SUSE Linux Enterprise Module for Server Applications 15 SP4:bind-doc-9.16.33-150400.5.11.1",
+            "openSUSE Leap 15.4:bind-9.16.33-150400.5.11.1",
+            "openSUSE Leap 15.4:bind-doc-9.16.33-150400.5.11.1",
+            "openSUSE Leap 15.4:bind-utils-9.16.33-150400.5.11.1",
+            "openSUSE Leap 15.4:python3-bind-9.16.33-150400.5.11.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

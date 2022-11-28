@@ -1,0 +1,252 @@
+{
+  "Title": "Security update for bind",
+  "Tracking": {
+    "ID": "SUSE-SU-2021:3657-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2021-11-11T10:38:12Z",
+    "CurrentReleaseDate": "2021-11-11T10:38:12Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2021-11-11T10:38:12Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for bind",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for bind fixes the following issues:\n\n- CVE-2021-25219: Fixed lame cache that could have been abused to severely degrade resolver performance (bsc#1192146).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "bind-devel-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-chrootenv-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-doc-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-161-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1110-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs161-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1107-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1107-32bit-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc161-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg163-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblwres161-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-bind-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-chrootenv-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-doc-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libbind9-161-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libdns1110-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libirs161-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1107-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisc1107-32bit-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccc161-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libisccfg163-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblwres161-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-bind-9.11.22-3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2021/suse-su-20213657-1/",
+      "Description": "Link for SUSE-SU-2021:3657-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2021-November/009721.html",
+      "Description": "E-Mail link for SUSE-SU-2021:3657-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1192146",
+      "Description": "SUSE Bug 1192146"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2021-25219/",
+      "Description": "SUSE CVE CVE-2021-25219 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2021-25219",
+      "Description": "In BIND 9.3.0 -\u003e 9.11.35, 9.12.0 -\u003e 9.16.21, and versions 9.9.3-S1 -\u003e 9.11.35-S1 and 9.16.8-S1 -\u003e 9.16.21-S1 of BIND Supported Preview Edition, as well as release versions 9.17.0 -\u003e 9.17.18 of the BIND 9.17 development branch, exploitation of broken authoritative servers using a flaw in response processing can cause degradation in BIND resolver performance. The way the lame cache is currently designed makes it possible for its internal data structures to grow almost infinitely, which may cause significant delays in client query processing.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2021-25219.html",
+          "Description": "CVE-2021-25219"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1192146",
+          "Description": "SUSE Bug 1192146"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 12 SP5:bind-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server 12 SP5:bind-chrootenv-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server 12 SP5:bind-doc-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server 12 SP5:bind-utils-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server 12 SP5:libbind9-161-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server 12 SP5:libdns1110-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server 12 SP5:libirs161-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server 12 SP5:libisc1107-32bit-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server 12 SP5:libisc1107-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server 12 SP5:libisccc161-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server 12 SP5:libisccfg163-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server 12 SP5:liblwres161-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server 12 SP5:python-bind-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:bind-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:bind-chrootenv-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:bind-doc-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:bind-utils-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libbind9-161-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libdns1110-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libirs161-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libisc1107-32bit-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libisc1107-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libisccc161-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libisccfg163-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:liblwres161-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python-bind-9.11.22-3.37.1",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:bind-devel-9.11.22-3.37.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

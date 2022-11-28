@@ -1,0 +1,285 @@
+{
+  "Title": "Security update for patch",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:1925-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-06-02T12:35:31Z",
+    "CurrentReleaseDate": "2022-06-02T12:35:31Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-06-02T12:35:31Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for patch",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for patch fixes the following issues:\n\nSecurity issues fixed:\n\n- CVE-2019-13636: Fixed follow symlinks unless --follow-symlinks is given. This increases the security against malicious patches (bsc#1142041).\n- CVE-2018-6952: Fixed swapping fakelines in pch_swap. This bug was causing a double free leading to a crash (bsc#1080985).\n\nBugfixes:\n\n- Abort when cleaning up fails. This bug could cause an infinite loop when a patch wouldn't apply, leading to a segmentation fault (bsc#1111572).\n- Pass the correct stat to backup files. This bug would occasionally cause backup files to be missing when all hunks failed to apply (bsc#1198106).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-httpd:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "patch-2.7.6-150000.5.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20221925-1/",
+      "Description": "Link for SUSE-SU-2022:1925-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-June/011225.html",
+      "Description": "E-Mail link for SUSE-SU-2022:1925-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1080985",
+      "Description": "SUSE Bug 1080985"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1111572",
+      "Description": "SUSE Bug 1111572"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1142041",
+      "Description": "SUSE Bug 1142041"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1198106",
+      "Description": "SUSE Bug 1198106"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2018-6952/",
+      "Description": "SUSE CVE CVE-2018-6952 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-13636/",
+      "Description": "SUSE CVE CVE-2019-13636 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2018-6952",
+      "Description": "A double free exists in the another_hunk function in pch.c in GNU patch through 2.7.6.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2018-6952.html",
+          "Description": "CVE-2018-6952"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1080985",
+          "Description": "SUSE Bug 1080985"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1167721",
+          "Description": "SUSE Bug 1167721"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/manager/4.3/proxy-httpd:latest:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-SAP-Azure:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-SAP-EC2:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-SAP-GCE:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-SAP:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-SAPCAL-Azure:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-SAPCAL-EC2:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-SAPCAL-GCE:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-SAPCAL:patch-2.7.6-150000.5.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:patch-2.7.6-150000.5.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:patch-2.7.6-150000.5.3.1",
+            "openSUSE Leap 15.3:patch-2.7.6-150000.5.3.1",
+            "openSUSE Leap 15.4:patch-2.7.6-150000.5.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2019-13636",
+      "Description": "In GNU patch through 2.7.6, the following of symlinks is mishandled in certain cases other than input files. This affects inp.c and util.c.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-13636.html",
+          "Description": "CVE-2019-13636"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1142041",
+          "Description": "SUSE Bug 1142041"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/manager/4.3/proxy-httpd:latest:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-Manager-Proxy-4-3-BYOS:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-SAP-Azure:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-SAP-EC2:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-SAP-GCE:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-SAP:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-SAPCAL-Azure:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-SAPCAL-EC2:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-SAPCAL-GCE:patch-2.7.6-150000.5.3.1",
+            "Image SLES15-SP4-SAPCAL:patch-2.7.6-150000.5.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:patch-2.7.6-150000.5.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:patch-2.7.6-150000.5.3.1",
+            "openSUSE Leap 15.3:patch-2.7.6-150000.5.3.1",
+            "openSUSE Leap 15.4:patch-2.7.6-150000.5.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

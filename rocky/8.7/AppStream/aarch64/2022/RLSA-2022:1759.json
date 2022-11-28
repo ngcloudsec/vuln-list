@@ -1,0 +1,869 @@
+{
+  "id": "RLSA-2022:1759",
+  "title": "Moderate: virt:rhel and virt-devel:rhel security, bug fix, and enhancement update",
+  "issued": {
+    "date": "2022-05-10 00:00:00"
+  },
+  "updated": {
+    "date": "2022-05-10 00:00:00"
+  },
+  "severity": "SEVERITY_MODERATE",
+  "description": "Kernel-based Virtual Machine (KVM) offers a full virtualization solution for Linux on numerous hardware platforms. The virt:rhel module contains packages which provide user-space components used to run virtual machines using KVM. The packages also provide APIs for managing and interacting with the virtualized systems.\nThe following packages have been upgraded to a later upstream version: qemu-kvm (6.2.0), libvirt (8.0.0), libvirt-python (8.0.0), perl-Sys-Virt (8.0.0), seabios (1.15.0), libtpms (0.9.1). (BZ#1997410, BZ#2012802, BZ#2012806, BZ#2012813, BZ#2018392, BZ#2027716, BZ#2029355)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nAdditional Changes:\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
+  "packages": [
+    {
+      "name": "nbdkit",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-bash-completion",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "noarch",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-bash-completion-1.24.0-4.module+el8.6.0+847+b490afdd.noarch.rpm"
+    },
+    {
+      "name": "nbdkit-basic-filters",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-basic-filters-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-basic-plugins",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-basic-plugins-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-curl-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-curl-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-devel",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-devel-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-example-plugins",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-example-plugins-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-gzip-filter",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-gzip-filter-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-gzip-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-gzip-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-linuxdisk-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-linuxdisk-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-nbd-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-nbd-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-python-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-python-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-server",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-server-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-ssh-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-ssh-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-tar-filter",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-tar-filter-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-tar-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-tar-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-tmpdisk-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-tmpdisk-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-xz-filter",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-xz-filter-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-bash-completion",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "noarch",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-bash-completion-1.24.0-4.module+el8.6.0+847+b490afdd.noarch.rpm"
+    },
+    {
+      "name": "nbdkit-basic-filters",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-basic-filters-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-basic-plugins",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-basic-plugins-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-curl-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-curl-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-devel",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-devel-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-example-plugins",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-example-plugins-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-gzip-filter",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-gzip-filter-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-gzip-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-gzip-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-linuxdisk-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-linuxdisk-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-nbd-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-nbd-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-python-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-python-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-server",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-server-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-ssh-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-ssh-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-tar-filter",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-tar-filter-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-tar-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-tar-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-tmpdisk-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-tmpdisk-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-xz-filter",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-xz-filter-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-bash-completion",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "noarch",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-bash-completion-1.24.0-4.module+el8.6.0+847+b490afdd.noarch.rpm"
+    },
+    {
+      "name": "nbdkit-basic-filters",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-basic-filters-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-basic-plugins",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-basic-plugins-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-curl-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-curl-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-devel",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-devel-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-example-plugins",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-example-plugins-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-gzip-filter",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-gzip-filter-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-gzip-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-gzip-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-linuxdisk-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-linuxdisk-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-nbd-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-nbd-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-python-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-python-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-server",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-server-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-ssh-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-ssh-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-tar-filter",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-tar-filter-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-tar-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-tar-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-tmpdisk-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-tmpdisk-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-xz-filter",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-xz-filter-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-bash-completion",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "noarch",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-bash-completion-1.24.0-4.module+el8.6.0+847+b490afdd.noarch.rpm"
+    },
+    {
+      "name": "nbdkit-basic-filters",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-basic-filters-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-basic-plugins",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-basic-plugins-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-curl-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-curl-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-devel",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-devel-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-example-plugins",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-example-plugins-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-gzip-filter",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-gzip-filter-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-gzip-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-gzip-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-linuxdisk-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-linuxdisk-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-nbd-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-nbd-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-python-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-python-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-server",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-server-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-ssh-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-ssh-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-tar-filter",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-tar-filter-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-tar-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-tar-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-tmpdisk-plugin",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-tmpdisk-plugin-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    },
+    {
+      "name": "nbdkit-xz-filter",
+      "epoch": "0",
+      "version": "1.24.0",
+      "release": "4.module+el8.6.0+847+b490afdd",
+      "arch": "aarch64",
+      "src": "nbdkit-1.24.0-4.module+el8.6.0+847+b490afdd.src.rpm",
+      "filename": "nbdkit-xz-filter-1.24.0-4.module+el8.6.0+847+b490afdd.aarch64.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-20196.json",
+      "id": "CVE-2021-20196",
+      "title": "Update information for CVE-2021-20196 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-33285.json",
+      "id": "CVE-2021-33285",
+      "title": "Update information for CVE-2021-33285 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-33286.json",
+      "id": "CVE-2021-33286",
+      "title": "Update information for CVE-2021-33286 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-33287.json",
+      "id": "CVE-2021-33287",
+      "title": "Update information for CVE-2021-33287 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-33289.json",
+      "id": "CVE-2021-33289",
+      "title": "Update information for CVE-2021-33289 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-35266.json",
+      "id": "CVE-2021-35266",
+      "title": "Update information for CVE-2021-35266 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-35267.json",
+      "id": "CVE-2021-35267",
+      "title": "Update information for CVE-2021-35267 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-35268.json",
+      "id": "CVE-2021-35268",
+      "title": "Update information for CVE-2021-35268 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-35269.json",
+      "id": "CVE-2021-35269",
+      "title": "Update information for CVE-2021-35269 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-3622.json",
+      "id": "CVE-2021-3622",
+      "title": "Update information for CVE-2021-3622 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-3716.json",
+      "id": "CVE-2021-3716",
+      "title": "Update information for CVE-2021-3716 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-3748.json",
+      "id": "CVE-2021-3748",
+      "title": "Update information for CVE-2021-3748 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-39251.json",
+      "id": "CVE-2021-39251",
+      "title": "Update information for CVE-2021-39251 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-39252.json",
+      "id": "CVE-2021-39252",
+      "title": "Update information for CVE-2021-39252 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-39253.json",
+      "id": "CVE-2021-39253",
+      "title": "Update information for CVE-2021-39253 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-39254.json",
+      "id": "CVE-2021-39254",
+      "title": "Update information for CVE-2021-39254 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-39255.json",
+      "id": "CVE-2021-39255",
+      "title": "Update information for CVE-2021-39255 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-39256.json",
+      "id": "CVE-2021-39256",
+      "title": "Update information for CVE-2021-39256 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-39257.json",
+      "id": "CVE-2021-39257",
+      "title": "Update information for CVE-2021-39257 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-39258.json",
+      "id": "CVE-2021-39258",
+      "title": "Update information for CVE-2021-39258 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-39259.json",
+      "id": "CVE-2021-39259",
+      "title": "Update information for CVE-2021-39259 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-39260.json",
+      "id": "CVE-2021-39260",
+      "title": "Update information for CVE-2021-39260 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-39261.json",
+      "id": "CVE-2021-39261",
+      "title": "Update information for CVE-2021-39261 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-39262.json",
+      "id": "CVE-2021-39262",
+      "title": "Update information for CVE-2021-39262 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-39263.json",
+      "id": "CVE-2021-39263",
+      "title": "Update information for CVE-2021-39263 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-3975.json",
+      "id": "CVE-2021-3975",
+      "title": "Update information for CVE-2021-3975 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-4145.json",
+      "id": "CVE-2021-4145",
+      "title": "Update information for CVE-2021-4145 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2021-4158.json",
+      "id": "CVE-2021-4158",
+      "title": "Update information for CVE-2021-4158 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-0485.json",
+      "id": "CVE-2022-0485",
+      "title": "Update information for CVE-2022-0485 is retrieved from Red Hat",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2021-20196",
+    "CVE-2021-33285",
+    "CVE-2021-33286",
+    "CVE-2021-33287",
+    "CVE-2021-33289",
+    "CVE-2021-35266",
+    "CVE-2021-35267",
+    "CVE-2021-35268",
+    "CVE-2021-35269",
+    "CVE-2021-3622",
+    "CVE-2021-3716",
+    "CVE-2021-3748",
+    "CVE-2021-39251",
+    "CVE-2021-39252",
+    "CVE-2021-39253",
+    "CVE-2021-39254",
+    "CVE-2021-39255",
+    "CVE-2021-39256",
+    "CVE-2021-39257",
+    "CVE-2021-39258",
+    "CVE-2021-39259",
+    "CVE-2021-39260",
+    "CVE-2021-39261",
+    "CVE-2021-39262",
+    "CVE-2021-39263",
+    "CVE-2021-3975",
+    "CVE-2021-4145",
+    "CVE-2021-4158",
+    "CVE-2022-0485"
+  ]
+}

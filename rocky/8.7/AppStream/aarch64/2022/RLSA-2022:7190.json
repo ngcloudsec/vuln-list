@@ -1,0 +1,55 @@
+{
+  "id": "RLSA-2022:7190",
+  "title": "Important: thunderbird security update",
+  "issued": {
+    "date": "2022-11-07 19:38:06"
+  },
+  "updated": {
+    "date": "2022-10-25 00:00:00"
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\nThis update upgrades Thunderbird to version 102.4.0.\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "packages": [
+    {
+      "name": "thunderbird",
+      "epoch": "0",
+      "version": "102.4.0",
+      "release": "1.el8_6.0.1",
+      "arch": "aarch64",
+      "src": "thunderbird-102.4.0-1.el8_6.0.1.src.rpm",
+      "filename": "thunderbird-102.4.0-1.el8_6.0.1.aarch64.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-39236.json",
+      "id": "CVE-2022-39236",
+      "title": "Update information for CVE-2022-39236 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-39249.json",
+      "id": "CVE-2022-39249",
+      "title": "Update information for CVE-2022-39249 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-39250.json",
+      "id": "CVE-2022-39250",
+      "title": "Update information for CVE-2022-39250 is retrieved from Red Hat",
+      "type": "cve"
+    },
+    {
+      "href": "https://access.redhat.com/hydra/rest/securitydata/cve/CVE-2022-39251.json",
+      "id": "CVE-2022-39251",
+      "title": "Update information for CVE-2022-39251 is retrieved from Red Hat",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2022-39236",
+    "CVE-2022-39249",
+    "CVE-2022-39250",
+    "CVE-2022-39251"
+  ]
+}

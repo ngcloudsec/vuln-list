@@ -1,0 +1,144 @@
+{
+  "Title": "Security update for libarchive",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:4209-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-11-23T16:36:54Z",
+    "CurrentReleaseDate": "2022-11-23T16:36:54Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-11-23T16:36:54Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for libarchive",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for libarchive fixes the following issues:\n\n- CVE-2022-36227: Fixed potential NULL pointer dereference in __archive_write_allocate_filter() (bsc#1205629).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libarchive13-3.5.1-150400.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libarchive-devel-3.5.1-150400.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libarchive13-3.5.1-150400.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bsdtar-3.5.1-150400.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libarchive13-3.5.1-150400.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bsdtar-3.5.1-150400.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libarchive-devel-3.5.1-150400.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libarchive13-3.5.1-150400.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libarchive13-32bit-3.5.1-150400.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20224209-1/",
+      "Description": "Link for SUSE-SU-2022:4209-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-November/013094.html",
+      "Description": "E-Mail link for SUSE-SU-2022:4209-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1205629",
+      "Description": "SUSE Bug 1205629"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-36227/",
+      "Description": "SUSE CVE CVE-2022-36227 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-36227",
+      "Description": "In libarchive 3.6.1, the software does not check for an error after calling calloc function that can return with a NULL pointer if the function fails, which leads to a resultant NULL pointer dereference or, in some cases, even arbitrary code execution.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "low"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-36227.html",
+          "Description": "CVE-2022-36227"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1205629",
+          "Description": "SUSE Bug 1205629"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Micro 5.3:libarchive13-3.5.1-150400.3.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libarchive-devel-3.5.1-150400.3.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libarchive13-3.5.1-150400.3.12.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:bsdtar-3.5.1-150400.3.12.1",
+            "openSUSE Leap 15.4:bsdtar-3.5.1-150400.3.12.1",
+            "openSUSE Leap 15.4:libarchive-devel-3.5.1-150400.3.12.1",
+            "openSUSE Leap 15.4:libarchive13-3.5.1-150400.3.12.1",
+            "openSUSE Leap 15.4:libarchive13-32bit-3.5.1-150400.3.12.1",
+            "openSUSE Leap Micro 5.3:libarchive13-3.5.1-150400.3.12.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

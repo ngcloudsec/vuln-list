@@ -1,0 +1,1170 @@
+{
+  "Title": "Recommended update for glibc",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:0551-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2012-04-13T02:02:23Z",
+    "CurrentReleaseDate": "2012-04-13T02:02:23Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2012-04-13T02:02:23Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Recommended update for glibc",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nThis update for glibc includes the following changes:\n\n    * Fix sed not parsing correctly double-byte Japanese characters.\n    * Fix format string protection bypass via 'nargs' integer overflow.\n    * Fix an assertion error in DNS query.\n    * Fix a vi_VN.tcvn locale problem.\n    * Fix crash in libpthread on heavy thread usage.\n    * Fix IPv6-localhost cannot be resolved as an IPv4 address.\n\nIn addition, the following minor security fix is also included:\n\n    * Fix an integer overflow flaw in the format string protection\n      mechanism offered by FORTIFY_SOURCE. (CVE-2012-0864\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0864\u003e )\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "glibc-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-html-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-html-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-html-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-html-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-html-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-i18ndata-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-i18ndata-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-i18ndata-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-i18ndata-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-i18ndata-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-info-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-info-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-info-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-info-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-info-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-x86-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-x86-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-x86-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-x86-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-x86-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-32bit-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-x86-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-x86-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-x86-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-x86-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-x86-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-x86-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-x86-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-x86-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-x86-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-x86-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxcrypt-3.0.3-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxcrypt-3.0.3-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxcrypt-3.0.3-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxcrypt-3.0.3-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxcrypt-3.0.3-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxcrypt-32bit-3.0.3-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxcrypt-32bit-3.0.3-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxcrypt-32bit-3.0.3-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxcrypt-32bit-3.0.3-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxcrypt-32bit-3.0.3-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nscd-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nscd-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nscd-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nscd-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nscd-2.11.1-0.38.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pam-modules-11-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pam-modules-11-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pam-modules-11-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pam-modules-11-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pam-modules-11-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pam-modules-32bit-11-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pam-modules-32bit-11-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pam-modules-32bit-11-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pam-modules-32bit-11-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pam-modules-32bit-11-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pwdutils-3.2.8-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pwdutils-3.2.8-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pwdutils-3.2.8-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pwdutils-3.2.8-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pwdutils-3.2.8-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pwdutils-plugin-audit-3.2.8-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pwdutils-plugin-audit-3.2.8-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pwdutils-plugin-audit-3.2.8-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pwdutils-plugin-audit-3.2.8-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "pwdutils-plugin-audit-3.2.8-0.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-devel-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-html-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-html-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-html-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-html-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-html-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-i18ndata-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-i18ndata-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-i18ndata-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-i18ndata-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-i18ndata-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-info-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-info-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-info-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-info-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-info-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-locale-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-32bit-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-profile-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "glibc-x86-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nscd-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nscd-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nscd-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nscd-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nscd-2.11.3-17.45.49.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP2",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20150551-1/",
+      "Description": "Link for SUSE-SU-2015:0551-1"
+    },
+    {
+      "URL": "http://lists.suse.com/pipermail/sle-security-updates/2015-March/001305.html",
+      "Description": "E-Mail link for SUSE-SU-2015:0551-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2012-0864",
+      "Description": "Integer overflow in the vfprintf function in stdio-common/vfprintf.c in glibc 2.14 and other versions allows context-dependent attackers to bypass the FORTIFY_SOURCE protection mechanism, conduct format string attacks, and write to arbitrary memory via a large number of arguments.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-0864.html",
+          "Description": "CVE-2012-0864"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/747768",
+          "Description": "SUSE Bug 747768"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/826666",
+          "Description": "SUSE Bug 826666"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/920055",
+          "Description": "SUSE Bug 920055"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-devel-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-devel-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-html-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-i18ndata-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-info-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-locale-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-locale-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-locale-x86-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-profile-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-profile-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-profile-x86-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:glibc-x86-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libxcrypt-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:libxcrypt-32bit-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:nscd-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pam-modules-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pam-modules-32bit-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pwdutils-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:pwdutils-plugin-audit-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-devel-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-devel-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-html-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-i18ndata-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-info-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-locale-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-locale-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-locale-x86-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-profile-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-profile-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-profile-x86-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:glibc-x86-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libxcrypt-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:libxcrypt-32bit-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:nscd-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pam-modules-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pam-modules-32bit-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pwdutils-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:pwdutils-plugin-audit-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1:glibc-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1:glibc-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1:glibc-devel-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1:glibc-devel-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1:glibc-html-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1:glibc-i18ndata-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1:glibc-info-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1:glibc-locale-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1:glibc-locale-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1:glibc-locale-x86-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1:glibc-profile-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1:glibc-profile-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1:glibc-profile-x86-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1:glibc-x86-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1:libxcrypt-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1:libxcrypt-32bit-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1:nscd-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server 11 SP1:pam-modules-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1:pam-modules-32bit-11-1.18.1",
+            "SUSE Linux Enterprise Server 11 SP1:pwdutils-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP1:pwdutils-plugin-audit-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:nscd-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server 11 SP2:nscd-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:glibc-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:glibc-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:glibc-devel-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:glibc-devel-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:glibc-html-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:glibc-i18ndata-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:glibc-info-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:glibc-locale-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:glibc-locale-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:glibc-locale-x86-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:glibc-profile-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:glibc-profile-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:glibc-profile-x86-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:glibc-x86-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:libxcrypt-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:libxcrypt-32bit-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:nscd-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:pam-modules-11-1.18.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:pam-modules-32bit-11-1.18.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:pwdutils-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS:pwdutils-plugin-audit-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:glibc-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:glibc-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:glibc-devel-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:glibc-devel-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:glibc-html-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:glibc-i18ndata-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:glibc-info-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:glibc-locale-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:glibc-locale-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:glibc-locale-x86-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:glibc-profile-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:glibc-profile-32bit-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:glibc-profile-x86-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:glibc-x86-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:libxcrypt-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:libxcrypt-32bit-3.0.3-0.4.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:nscd-2.11.1-0.38.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:pam-modules-11-1.18.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:pam-modules-32bit-11-1.18.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:pwdutils-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA:pwdutils-plugin-audit-3.2.8-0.4.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2-LTSS:nscd-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:nscd-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:glibc-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:glibc-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:glibc-devel-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:glibc-devel-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:glibc-html-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:glibc-i18ndata-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:glibc-info-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:glibc-locale-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:glibc-locale-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:glibc-locale-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:glibc-profile-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:glibc-profile-32bit-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:glibc-profile-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:glibc-x86-2.11.3-17.45.49.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP2:nscd-2.11.3-17.45.49.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

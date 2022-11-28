@@ -1,0 +1,220 @@
+{
+  "Title": "Security update for bind",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:0480-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2012-07-30T15:05:37Z",
+    "CurrentReleaseDate": "2012-07-30T15:05:37Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2012-07-30T15:05:37Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for bind",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nThe bind nameserver was updated to fix a crash (denial of service) during \nhigh DNSSEC validation load (CVE-2012-3817)\n\nSecurity Issues:\n\n    * CVE-2012-3817\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-3817\u003e\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "bind-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-chrootenv-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-doc-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-libs-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-libs-32bit-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-libs-x86-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-chrootenv-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-doc-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-libs-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-libs-32bit-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-libs-x86-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-chrootenv-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-doc-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-libs-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-libs-32bit-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-libs-x86-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "bind-utils-9.6ESVR7P2-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20150480-1/",
+      "Description": "Link for SUSE-SU-2015:0480-1"
+    },
+    {
+      "URL": "https://lists.opensuse.org/opensuse-security-announce/2015-03/msg00009.html",
+      "Description": "E-Mail link for SUSE-SU-2015:0480-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/772945",
+      "Description": "SUSE Bug 772945"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2012-3817/",
+      "Description": "SUSE CVE CVE-2012-3817 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2012-3817",
+      "Description": "ISC BIND 9.4.x, 9.5.x, 9.6.x, and 9.7.x before 9.7.6-P2; 9.8.x before 9.8.3-P2; 9.9.x before 9.9.1-P2; and 9.6-ESV before 9.6-ESV-R7-P2, when DNSSEC validation is enabled, does not properly initialize the failing-query cache, which allows remote attackers to cause a denial of service (assertion failure and daemon exit) by sending many queries.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2012-3817.html",
+          "Description": "CVE-2012-3817"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/772945",
+          "Description": "SUSE Bug 772945"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/792926",
+          "Description": "SUSE Bug 792926"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:bind-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:bind-chrootenv-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:bind-doc-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:bind-libs-32bit-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:bind-libs-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:bind-libs-x86-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-LTSS:bind-utils-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:bind-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:bind-chrootenv-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:bind-doc-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:bind-libs-32bit-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:bind-libs-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:bind-libs-x86-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1-TERADATA:bind-utils-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:bind-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:bind-chrootenv-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:bind-doc-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:bind-libs-32bit-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:bind-libs-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:bind-libs-x86-9.6ESVR7P2-0.3.1",
+            "SUSE Linux Enterprise Server 11 SP1:bind-utils-9.6ESVR7P2-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

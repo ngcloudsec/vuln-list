@@ -1,0 +1,506 @@
+{
+  "Title": "Security update for expat",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:2294-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-07-06T11:34:18Z",
+    "CurrentReleaseDate": "2022-07-06T11:34:18Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-07-06T11:34:18Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for expat",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for expat fixes the following issues:\n\n- CVE-2022-25236: Fixed possible namespace-separator characters insertion into namespace URIs (bsc#1196025).\n- Fixed a regression caused by the patch for CVE-2022-25236 (bsc#1196784).\n- CVE-2022-25235: Fixed UTF-8 character validation in a certain context (bsc#1196026).\n- CVE-2022-25313: Fixed stack exhaustion in build_model() via uncontrolled recursion (bsc#1196168).\n- CVE-2022-25314: Fixed integer overflow in copyString (bsc#1196169).\n- CVE-2022-25315: Fixed integer overflow in storeRawNames (bsc#1196171).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "Container bci/golang:1.16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "Container bci/golang:1.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "Container bci/python:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "Container suse/389-ds:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-32bit-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.4.4-150400.3.6.9",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20222294-1/",
+      "Description": "Link for SUSE-SU-2022:2294-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-July/011419.html",
+      "Description": "E-Mail link for SUSE-SU-2022:2294-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1196025",
+      "Description": "SUSE Bug 1196025"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1196026",
+      "Description": "SUSE Bug 1196026"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1196168",
+      "Description": "SUSE Bug 1196168"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1196169",
+      "Description": "SUSE Bug 1196169"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1196171",
+      "Description": "SUSE Bug 1196171"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1196784",
+      "Description": "SUSE Bug 1196784"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-25235/",
+      "Description": "SUSE CVE CVE-2022-25235 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-25236/",
+      "Description": "SUSE CVE CVE-2022-25236 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-25313/",
+      "Description": "SUSE CVE CVE-2022-25313 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-25314/",
+      "Description": "SUSE CVE CVE-2022-25314 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-25315/",
+      "Description": "SUSE CVE CVE-2022-25315 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-25235",
+      "Description": "xmltok_impl.c in Expat (aka libexpat) before 2.4.5 lacks certain validation of encoding, such as checks for whether a UTF-8 character is valid in a certain context.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-25235.html",
+          "Description": "CVE-2022-25235"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1196026",
+          "Description": "SUSE Bug 1196026"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1197217",
+          "Description": "SUSE Bug 1197217"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1198587",
+          "Description": "SUSE Bug 1198587"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200038",
+          "Description": "SUSE Bug 1200038"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200198",
+          "Description": "SUSE Bug 1200198"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/golang:1.16:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/golang:1.17:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/golang:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/nodejs:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/openjdk-devel:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/openjdk:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/python:3:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/python:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/ruby:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container suse/389-ds:latest:libexpat1-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:expat-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat-devel-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat1-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat1-32bit-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:expat-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat-devel-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat-devel-32bit-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat1-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat1-32bit-2.4.4-150400.3.6.9"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-25236",
+      "Description": "xmlparse.c in Expat (aka libexpat) before 2.4.5 allows attackers to insert namespace-separator characters into namespace URIs.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-25236.html",
+          "Description": "CVE-2022-25236"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1196025",
+          "Description": "SUSE Bug 1196025"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1196784",
+          "Description": "SUSE Bug 1196784"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1197217",
+          "Description": "SUSE Bug 1197217"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200038",
+          "Description": "SUSE Bug 1200038"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200198",
+          "Description": "SUSE Bug 1200198"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/golang:1.16:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/golang:1.17:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/golang:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/nodejs:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/openjdk-devel:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/openjdk:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/python:3:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/python:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/ruby:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container suse/389-ds:latest:libexpat1-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:expat-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat-devel-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat1-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat1-32bit-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:expat-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat-devel-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat-devel-32bit-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat1-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat1-32bit-2.4.4-150400.3.6.9"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-25313",
+      "Description": "In Expat (aka libexpat) before 2.4.5, an attacker can trigger stack exhaustion in build_model via a large nesting depth in the DTD element.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-25313.html",
+          "Description": "CVE-2022-25313"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1196168",
+          "Description": "SUSE Bug 1196168"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/golang:1.16:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/golang:1.17:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/golang:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/nodejs:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/openjdk-devel:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/openjdk:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/python:3:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/python:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/ruby:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container suse/389-ds:latest:libexpat1-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:expat-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat-devel-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat1-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat1-32bit-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:expat-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat-devel-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat-devel-32bit-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat1-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat1-32bit-2.4.4-150400.3.6.9"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-25314",
+      "Description": "In Expat (aka libexpat) before 2.4.5, there is an integer overflow in copyString.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-25314.html",
+          "Description": "CVE-2022-25314"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1196169",
+          "Description": "SUSE Bug 1196169"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1197217",
+          "Description": "SUSE Bug 1197217"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1198587",
+          "Description": "SUSE Bug 1198587"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199096",
+          "Description": "SUSE Bug 1199096"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200038",
+          "Description": "SUSE Bug 1200038"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200198",
+          "Description": "SUSE Bug 1200198"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/golang:1.16:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/golang:1.17:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/golang:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/nodejs:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/openjdk-devel:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/openjdk:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/python:3:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/python:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/ruby:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container suse/389-ds:latest:libexpat1-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:expat-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat-devel-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat1-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat1-32bit-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:expat-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat-devel-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat-devel-32bit-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat1-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat1-32bit-2.4.4-150400.3.6.9"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-25315",
+      "Description": "In Expat (aka libexpat) before 2.4.5, there is an integer overflow in storeRawNames.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-25315.html",
+          "Description": "CVE-2022-25315"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1196171",
+          "Description": "SUSE Bug 1196171"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1197217",
+          "Description": "SUSE Bug 1197217"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1198587",
+          "Description": "SUSE Bug 1198587"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200038",
+          "Description": "SUSE Bug 1200038"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200198",
+          "Description": "SUSE Bug 1200198"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/golang:1.16:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/golang:1.17:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/golang:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/nodejs:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/openjdk-devel:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/openjdk:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/python:3:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/python:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container bci/ruby:latest:libexpat1-2.4.4-150400.3.6.9",
+            "Container suse/389-ds:latest:libexpat1-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:expat-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat-devel-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat1-2.4.4-150400.3.6.9",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libexpat1-32bit-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:expat-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat-devel-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat-devel-32bit-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat1-2.4.4-150400.3.6.9",
+            "openSUSE Leap 15.4:libexpat1-32bit-2.4.4-150400.3.6.9"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

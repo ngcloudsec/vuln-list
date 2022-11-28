@@ -1,0 +1,246 @@
+{
+  "Title": "Security update for python-setuptools",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:3566-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-11-30T15:56:57Z",
+    "CurrentReleaseDate": "2020-11-30T15:56:57Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-11-30T15:56:57Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for python-setuptools",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for python-setuptools fixes the following issues:\n\n- Fixed a directory traversal in _download_http_url() (bsc#1176262 CVE-2019-20916)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Container caasp/v4.5/389-ds:1.4.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Container caasp/v4.5/k8s-sidecar:0.1.75",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Container caasp/v4/389-ds:1.4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Container caasp/v4/k8s-sidecar:0.1.75",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Container ses/6/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Container ses/6/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Container ses/7/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-launcher:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Container trento/trento-runner:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-setuptools-40.5.0-6.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP2",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20203566-1/",
+      "Description": "Link for SUSE-SU-2020:3566-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-November/007890.html",
+      "Description": "E-Mail link for SUSE-SU-2020:3566-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1176262",
+      "Description": "SUSE Bug 1176262"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-20916/",
+      "Description": "SUSE CVE CVE-2019-20916 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-20916",
+      "Description": "The pip package before 19.2 for Python allows Directory Traversal when a URL is given in an install command, because a Content-Disposition header can have ../ in a filename, as demonstrated by overwriting the /root/.ssh/authorized_keys file. This occurs in _download_http_url in _internal/download.py.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-20916.html",
+          "Description": "CVE-2019-20916"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1176262",
+          "Description": "SUSE Bug 1176262"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container caasp/v4.5/389-ds:1.4.3:python3-setuptools-40.5.0-6.3.1",
+            "Container caasp/v4.5/k8s-sidecar:0.1.75:python3-setuptools-40.5.0-6.3.1",
+            "Container caasp/v4/389-ds:1.4.2:python3-setuptools-40.5.0-6.3.1",
+            "Container caasp/v4/k8s-sidecar:0.1.75:python3-setuptools-40.5.0-6.3.1",
+            "Container ses/6/cephcsi/cephcsi:latest:python3-setuptools-40.5.0-6.3.1",
+            "Container ses/6/rook/ceph:latest:python3-setuptools-40.5.0-6.3.1",
+            "Container ses/7/cephcsi/cephcsi:latest:python3-setuptools-40.5.0-6.3.1",
+            "Container ses/7/rook/ceph:latest:python3-setuptools-40.5.0-6.3.1",
+            "Container suse/sles/15.3/virt-launcher:0.45.0:python3-setuptools-40.5.0-6.3.1",
+            "Container trento/trento-runner:latest:python3-setuptools-40.5.0-6.3.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:python3-setuptools-40.5.0-6.3.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:python3-setuptools-40.5.0-6.3.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:python3-setuptools-40.5.0-6.3.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:python3-setuptools-40.5.0-6.3.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:python3-setuptools-40.5.0-6.3.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:python3-setuptools-40.5.0-6.3.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:python3-setuptools-40.5.0-6.3.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:python3-setuptools-40.5.0-6.3.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:python3-setuptools-40.5.0-6.3.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:python3-setuptools-40.5.0-6.3.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:python3-setuptools-40.5.0-6.3.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:python3-setuptools-40.5.0-6.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:python3-setuptools-40.5.0-6.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:python3-setuptools-40.5.0-6.3.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP1:python2-setuptools-40.5.0-6.3.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP2:python2-setuptools-40.5.0-6.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

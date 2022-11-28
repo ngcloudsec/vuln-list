@@ -1,0 +1,214 @@
+{
+  "Title": "Security update for sudo",
+  "Tracking": {
+    "ID": "SUSE-SU-2019:2656-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2019-10-14T15:02:30Z",
+    "CurrentReleaseDate": "2019-10-14T15:02:30Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2019-10-14T15:02:30Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for sudo",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for sudo fixes the following issue:\n\n- CVE-2019-14287: Fixed an issue where a user with sudo privileges \n  that allowed them to run commands with an arbitrary uid, could \n  run commands as root, despite being forbidden to do so in sudoers\n  (bsc#1153674).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "sudo-1.8.22-4.6.1",
+        "RelatesToProductReference": "Container ses/6/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.8.22-4.6.1",
+        "RelatesToProductReference": "Container ses/6/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.8.22-4.6.1",
+        "RelatesToProductReference": "Container ses/7/ceph/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.8.22-4.6.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.8.22-4.6.1",
+        "RelatesToProductReference": "Container ses/7/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.8.22-4.6.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.8.22-4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.8.22-4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.8.22-4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.8.22-4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.8.22-4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.8.22-4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.8.22-4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.8.22-4.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.8.22-4.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-devel-1.8.22-4.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.8.22-4.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-devel-1.8.22-4.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-test-1.8.22-4.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-test-1.8.22-4.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20192656-1/",
+      "Description": "Link for SUSE-SU-2019:2656-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20192656-1.html",
+      "Description": "E-Mail link for SUSE-SU-2019:2656-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1153674",
+      "Description": "SUSE Bug 1153674"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-14287/",
+      "Description": "SUSE CVE CVE-2019-14287 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-14287",
+      "Description": "In Sudo before 1.8.28, an attacker with access to a Runas ALL sudoer account can bypass certain policy blacklists and session PAM modules, and can cause incorrect logging, by invoking sudo with a crafted user ID. For example, this allows bypass of !root configuration, and USER= logging, for a \"sudo -u \\#$((0xffffffff))\" command.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-14287.html",
+          "Description": "CVE-2019-14287"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1153674",
+          "Description": "SUSE Bug 1153674"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1156093",
+          "Description": "SUSE Bug 1156093"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container ses/6/cephcsi/cephcsi:latest:sudo-1.8.22-4.6.1",
+            "Container ses/6/rook/ceph:latest:sudo-1.8.22-4.6.1",
+            "Container ses/7/ceph/ceph:latest:sudo-1.8.22-4.6.1",
+            "Container ses/7/cephcsi/cephcsi:latest:sudo-1.8.22-4.6.1",
+            "Container ses/7/rook/ceph:latest:sudo-1.8.22-4.6.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:sudo-1.8.22-4.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:sudo-1.8.22-4.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:sudo-1.8.22-4.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:sudo-1.8.22-4.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:sudo-1.8.22-4.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:sudo-1.8.22-4.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:sudo-1.8.22-4.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:sudo-1.8.22-4.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:sudo-1.8.22-4.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:sudo-1.8.22-4.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:sudo-devel-1.8.22-4.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:sudo-1.8.22-4.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:sudo-devel-1.8.22-4.6.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:sudo-test-1.8.22-4.6.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:sudo-test-1.8.22-4.6.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

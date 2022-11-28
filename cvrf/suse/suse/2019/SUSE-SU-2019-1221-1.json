@@ -1,0 +1,148 @@
+{
+  "Title": "Security update for libxslt",
+  "Tracking": {
+    "ID": "SUSE-SU-2019:1221-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2019-05-13T11:28:45Z",
+    "CurrentReleaseDate": "2019-05-13T11:28:45Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2019-05-13T11:28:45Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for libxslt",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for libxslt fixes the following issues:\n\nSecurity issue fixed:\n\n- CVE-2019-11068: Fixed a protection mechanism bypass where callers of \n  xsltCheckRead() and xsltCheckWrite() would permit access upon receiving an\n  error (bsc#1132160).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libxslt1-1.1.32-3.3.1",
+        "RelatesToProductReference": "Container ingress-nginx-controller:0.15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxslt1-1.1.32-3.3.1",
+        "RelatesToProductReference": "Container ses/7/ceph/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxslt1-1.1.32-3.3.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxslt1-1.1.32-3.3.1",
+        "RelatesToProductReference": "Container ses/7/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxslt1-1.1.32-3.3.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/libguestfs-tools:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxslt-devel-1.1.32-3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxslt-tools-1.1.32-3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxslt1-1.1.32-3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxslt-python-1.1.32-3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20191221-1/",
+      "Description": "Link for SUSE-SU-2019:1221-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2019-May/005447.html",
+      "Description": "E-Mail link for SUSE-SU-2019:1221-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1132160",
+      "Description": "SUSE Bug 1132160"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-11068/",
+      "Description": "SUSE CVE CVE-2019-11068 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-11068",
+      "Description": "libxslt through 1.1.33 allows bypass of a protection mechanism because callers of xsltCheckRead and xsltCheckWrite permit access even upon receiving a -1 error code. xsltCheckRead can return -1 for a crafted URL that is not actually invalid and is subsequently loaded.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-11068.html",
+          "Description": "CVE-2019-11068"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1132160",
+          "Description": "SUSE Bug 1132160"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1154212",
+          "Description": "SUSE Bug 1154212"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container ingress-nginx-controller:0.15.0:libxslt1-1.1.32-3.3.1",
+            "Container ses/7/ceph/ceph:latest:libxslt1-1.1.32-3.3.1",
+            "Container ses/7/cephcsi/cephcsi:latest:libxslt1-1.1.32-3.3.1",
+            "Container ses/7/rook/ceph:latest:libxslt1-1.1.32-3.3.1",
+            "Container suse/sles/15.3/libguestfs-tools:0.45.0:libxslt1-1.1.32-3.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libxslt-devel-1.1.32-3.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libxslt-tools-1.1.32-3.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libxslt1-1.1.32-3.3.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:libxslt-python-1.1.32-3.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

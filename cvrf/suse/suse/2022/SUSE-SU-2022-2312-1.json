@@ -1,0 +1,282 @@
+{
+  "Title": "Security update for openssl-1_1",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:2312-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-07-06T13:17:03Z",
+    "CurrentReleaseDate": "2022-07-06T13:17:03Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-07-06T13:17:03Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for openssl-1_1",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for openssl-1_1 fixes the following issues:\n\n- CVE-2022-2097: Fixed partial missing encryption in AES OCB mode (bsc#1201099).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-32bit-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-32bit-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl1_1-hmac-32bit-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "openssl-1_1-1.1.1d-2.69.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20222312-1/",
+      "Description": "Link for SUSE-SU-2022:2312-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-July/011420.html",
+      "Description": "E-Mail link for SUSE-SU-2022:2312-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1201099",
+      "Description": "SUSE Bug 1201099"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-2097/",
+      "Description": "SUSE CVE CVE-2022-2097 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-2097",
+      "Description": "AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implementation will not encrypt the entirety of the data under some circumstances. This could reveal sixteen bytes of data that was preexisting in the memory that wasn't written. In the special case of \"in place\" encryption, sixteen bytes of the plaintext would be revealed. Since OpenSSL does not support OCB based cipher suites for TLS and DTLS, they are both unaffected. Fixed in OpenSSL 3.0.5 (Affected 3.0.0-3.0.4). Fixed in OpenSSL 1.1.1q (Affected 1.1.1-1.1.1p).",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-2097.html",
+          "Description": "CVE-2022-2097"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201099",
+          "Description": "SUSE Bug 1201099"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libopenssl1_1-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libopenssl1_1-32bit-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libopenssl1_1-hmac-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:libopenssl1_1-hmac-32bit-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:openssl-1_1-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Server 12 SP5:libopenssl1_1-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Server 12 SP5:libopenssl1_1-32bit-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Server 12 SP5:libopenssl1_1-hmac-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Server 12 SP5:libopenssl1_1-hmac-32bit-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Server 12 SP5:openssl-1_1-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libopenssl1_1-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libopenssl1_1-32bit-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libopenssl1_1-hmac-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:libopenssl1_1-hmac-32bit-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:openssl-1_1-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libopenssl1_1-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libopenssl1_1-32bit-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libopenssl1_1-hmac-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libopenssl1_1-hmac-32bit-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:openssl-1_1-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:libopenssl-1_1-devel-1.1.1d-2.69.1",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:libopenssl-1_1-devel-32bit-1.1.1d-2.69.1",
+            "SUSE OpenStack Cloud 9:libopenssl1_1-1.1.1d-2.69.1",
+            "SUSE OpenStack Cloud 9:libopenssl1_1-32bit-1.1.1d-2.69.1",
+            "SUSE OpenStack Cloud 9:libopenssl1_1-hmac-1.1.1d-2.69.1",
+            "SUSE OpenStack Cloud 9:libopenssl1_1-hmac-32bit-1.1.1d-2.69.1",
+            "SUSE OpenStack Cloud 9:openssl-1_1-1.1.1d-2.69.1",
+            "SUSE OpenStack Cloud Crowbar 9:libopenssl1_1-1.1.1d-2.69.1",
+            "SUSE OpenStack Cloud Crowbar 9:libopenssl1_1-32bit-1.1.1d-2.69.1",
+            "SUSE OpenStack Cloud Crowbar 9:libopenssl1_1-hmac-1.1.1d-2.69.1",
+            "SUSE OpenStack Cloud Crowbar 9:libopenssl1_1-hmac-32bit-1.1.1d-2.69.1",
+            "SUSE OpenStack Cloud Crowbar 9:openssl-1_1-1.1.1d-2.69.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

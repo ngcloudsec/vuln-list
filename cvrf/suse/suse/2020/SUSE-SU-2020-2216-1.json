@@ -1,0 +1,168 @@
+{
+  "Title": "Security update for python36",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:2216-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-08-12T13:15:53Z",
+    "CurrentReleaseDate": "2020-08-12T13:15:53Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-08-12T13:15:53Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for python36",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for python36 fixes the following issues:\n\n- CVE-2019-20907, bsc#1174091: avoiding possible infinite loop in specifically crafted tarball.\n- CVE-2020-14422, bsc#1173274: where hash collisions in IPv4Interface and IPv6Interface could lead to DOS.\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.10-4.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python36-3.6.10-4.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python36-base-3.6.10-4.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpython3_6m1_0-3.6.10-4.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python36-3.6.10-4.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python36-base-3.6.10-4.17.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20202216-1/",
+      "Description": "Link for SUSE-SU-2020:2216-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-August/007260.html",
+      "Description": "E-Mail link for SUSE-SU-2020:2216-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1173274",
+      "Description": "SUSE Bug 1173274"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1174091",
+      "Description": "SUSE Bug 1174091"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-20907/",
+      "Description": "SUSE CVE CVE-2019-20907 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-14422/",
+      "Description": "SUSE CVE CVE-2020-14422 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-20907",
+      "Description": "In Lib/tarfile.py in Python through 3.8.3, an attacker is able to craft a TAR archive leading to an infinite loop when opened by tarfile.open, because _proc_pax lacks header validation.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-20907.html",
+          "Description": "CVE-2019-20907"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1174091",
+          "Description": "SUSE Bug 1174091"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 12 SP5:libpython3_6m1_0-3.6.10-4.17.1",
+            "SUSE Linux Enterprise Server 12 SP5:python36-3.6.10-4.17.1",
+            "SUSE Linux Enterprise Server 12 SP5:python36-base-3.6.10-4.17.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libpython3_6m1_0-3.6.10-4.17.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python36-3.6.10-4.17.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python36-base-3.6.10-4.17.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2020-14422",
+      "Description": "Lib/ipaddress.py in Python through 3.8.3 improperly computes hash values in the IPv4Interface and IPv6Interface classes, which might allow a remote attacker to cause a denial of service if an application is affected by the performance of a dictionary containing IPv4Interface or IPv6Interface objects, and this attacker can cause many dictionary entries to be created. This is fixed in: v3.5.10, v3.5.10rc1; v3.6.12; v3.7.9; v3.8.4, v3.8.4rc1, v3.8.5, v3.8.6, v3.8.6rc1; v3.9.0, v3.9.0b4, v3.9.0b5, v3.9.0rc1, v3.9.0rc2.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-14422.html",
+          "Description": "CVE-2020-14422"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1173274",
+          "Description": "SUSE Bug 1173274"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 12 SP5:libpython3_6m1_0-3.6.10-4.17.1",
+            "SUSE Linux Enterprise Server 12 SP5:python36-3.6.10-4.17.1",
+            "SUSE Linux Enterprise Server 12 SP5:python36-base-3.6.10-4.17.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:libpython3_6m1_0-3.6.10-4.17.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python36-3.6.10-4.17.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python36-base-3.6.10-4.17.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

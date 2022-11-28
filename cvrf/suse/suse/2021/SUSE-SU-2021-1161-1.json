@@ -1,0 +1,174 @@
+{
+  "Title": "Security update for cifs-utils",
+  "Tracking": {
+    "ID": "SUSE-SU-2021:1161-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2021-04-13T09:36:00Z",
+    "CurrentReleaseDate": "2021-04-13T09:36:00Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2021-04-13T09:36:00Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for cifs-utils",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for cifs-utils fixes the following issues:\n\n- CVE-2021-20208: Fixed a potential kerberos auth leak escaping from container (bsc#1183239)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "cifs-utils-6.9-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cifs-utils-6.9-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cifs-utils-6.9-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cifs-utils-6.9-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cifs-utils-6.9-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cifs-utils-6.9-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cifs-utils-6.9-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cifs-utils-6.9-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cifs-utils-6.9-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cifs-utils-6.9-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cifs-utils-6.9-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cifs-utils-6.9-5.9.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cifs-utils-6.9-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cifs-utils-devel-6.9-5.9.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2021/suse-su-20211161-1/",
+      "Description": "Link for SUSE-SU-2021:1161-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2021-April/008615.html",
+      "Description": "E-Mail link for SUSE-SU-2021:1161-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1183239",
+      "Description": "SUSE Bug 1183239"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2021-20208/",
+      "Description": "SUSE CVE CVE-2021-20208 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2021-20208",
+      "Description": "A flaw was found in cifs-utils in versions before 6.13. A user when mounting a krb5 CIFS file system from within a container can use Kerberos credentials of the host. The highest threat from this vulnerability is to data confidentiality and integrity.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2021-20208.html",
+          "Description": "CVE-2021-20208"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1183239",
+          "Description": "SUSE Bug 1183239"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-SP1-CHOST-BYOS-Azure:cifs-utils-6.9-5.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:cifs-utils-6.9-5.9.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:cifs-utils-6.9-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:cifs-utils-6.9-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:cifs-utils-6.9-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:cifs-utils-6.9-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:cifs-utils-6.9-5.9.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:cifs-utils-6.9-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:cifs-utils-6.9-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:cifs-utils-6.9-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:cifs-utils-6.9-5.9.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:cifs-utils-6.9-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:cifs-utils-6.9-5.9.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:cifs-utils-devel-6.9-5.9.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

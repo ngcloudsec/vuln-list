@@ -1,0 +1,606 @@
+{
+  "Title": "Security update for dpkg",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:4081-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-11-18T14:41:19Z",
+    "CurrentReleaseDate": "2022-11-18T14:41:19Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-11-18T14:41:19Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for dpkg",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for dpkg fixes the following issues:\n\n- CVE-2022-1664: Fixed a directory traversal vulnerability in Dpkg::Source::Archive (bsc#1199944).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "Container suse/pcp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-lang-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-devel-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "dpkg-lang-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "update-alternatives-1.19.0.4-150000.4.4.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20224081-1/",
+      "Description": "Link for SUSE-SU-2022:4081-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-November/012992.html",
+      "Description": "E-Mail link for SUSE-SU-2022:4081-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1199944",
+      "Description": "SUSE Bug 1199944"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1664/",
+      "Description": "SUSE CVE CVE-2022-1664 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-1664",
+      "Description": "Dpkg::Source::Archive in dpkg, the Debian package management system, before version 1.21.8, 1.20.10, 1.19.8, 1.18.26 is prone to a directory traversal vulnerability. When extracting untrusted source packages in v2 and v3 source package formats that include a debian.tar, the in-place extraction can lead to directory traversal situations on specially crafted orig.tar and debian.tar tarballs.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "low"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1664.html",
+          "Description": "CVE-2022-1664"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199944",
+          "Description": "SUSE Bug 1199944"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/pcp:latest:update-alternatives-1.19.0.4-150000.4.4.1",
+            "Container suse/sle-micro-rancher/5.2:latest:update-alternatives-1.19.0.4-150000.4.4.1",
+            "Container suse/sle-micro-rancher/5.3:latest:update-alternatives-1.19.0.4-150000.4.4.1",
+            "Image SLES15-SP4-CHOST-BYOS-Aliyun:update-alternatives-1.19.0.4-150000.4.4.1",
+            "Image SLES15-SP4-CHOST-BYOS-Azure:update-alternatives-1.19.0.4-150000.4.4.1",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:update-alternatives-1.19.0.4-150000.4.4.1",
+            "Image SLES15-SP4-CHOST-BYOS-GCE:update-alternatives-1.19.0.4-150000.4.4.1",
+            "Image SLES15-SP4-CHOST-BYOS:update-alternatives-1.19.0.4-150000.4.4.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:update-alternatives-1.19.0.4-150000.4.4.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Enterprise Storage 6:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Enterprise Storage 6:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Enterprise Storage 6:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Enterprise Storage 7:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Enterprise Storage 7:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Enterprise Storage 7:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Micro 5.1:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Micro 5.2:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Micro 5.3:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP3:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Module for Development Tools 15 SP4:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server 15-LTSS:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server 15-LTSS:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server 15-LTSS:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Manager Proxy 4.1:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Manager Proxy 4.1:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Manager Proxy 4.1:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Manager Retail Branch Server 4.1:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Manager Retail Branch Server 4.1:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Manager Retail Branch Server 4.1:update-alternatives-1.19.0.4-150000.4.4.1",
+            "SUSE Manager Server 4.1:dpkg-1.19.0.4-150000.4.4.1",
+            "SUSE Manager Server 4.1:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "SUSE Manager Server 4.1:update-alternatives-1.19.0.4-150000.4.4.1",
+            "openSUSE Leap 15.3:dpkg-1.19.0.4-150000.4.4.1",
+            "openSUSE Leap 15.3:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "openSUSE Leap 15.3:dpkg-lang-1.19.0.4-150000.4.4.1",
+            "openSUSE Leap 15.3:update-alternatives-1.19.0.4-150000.4.4.1",
+            "openSUSE Leap 15.4:dpkg-1.19.0.4-150000.4.4.1",
+            "openSUSE Leap 15.4:dpkg-devel-1.19.0.4-150000.4.4.1",
+            "openSUSE Leap 15.4:dpkg-lang-1.19.0.4-150000.4.4.1",
+            "openSUSE Leap 15.4:update-alternatives-1.19.0.4-150000.4.4.1",
+            "openSUSE Leap Micro 5.2:update-alternatives-1.19.0.4-150000.4.4.1",
+            "openSUSE Leap Micro 5.3:update-alternatives-1.19.0.4-150000.4.4.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

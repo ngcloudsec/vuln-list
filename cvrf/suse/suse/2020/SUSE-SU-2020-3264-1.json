@@ -1,0 +1,370 @@
+{
+  "Title": "Security update for zeromq",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:3264-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-11-10T08:50:40Z",
+    "CurrentReleaseDate": "2020-11-10T08:50:40Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-11-10T08:50:40Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for zeromq",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for zeromq fixes the following issues:\n\n- CVE-2020-15166: Fixed the possibility of unauthenticated clients causing a denial-of-service (bsc#1176116).\n- Fixed a heap overflow when receiving malformed ZMTP v1 packets (bsc#1176256)\n- Fixed a memory leak in client induced by malicious server(s) without CURVE/ZAP (bsc#1176257)\n- Fixed memory leak when processing PUB messages with metadata (bsc#1176259)\n- Fixed a stack overflow in PUB/XPUB subscription store (bsc#1176258)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libunwind-1.2.1-4.2.3",
+        "RelatesToProductReference": "Container caasp/v4/cilium:1.6.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-1.2.1-4.2.3",
+        "RelatesToProductReference": "Container ses/6/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-1.2.1-4.2.3",
+        "RelatesToProductReference": "Container ses/6/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-1.2.1-4.2.3",
+        "RelatesToProductReference": "Container ses/7/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-1.2.1-4.2.3",
+        "RelatesToProductReference": "Container ses/7/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-1.2.1-4.2.3",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-launcher:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-32bit-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-devel-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libzmq5-4.2.3-3.15.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libzmq5-32bit-4.2.3-3.15.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zeromq-devel-4.2.3-3.15.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-32bit-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-devel-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libzmq5-4.2.3-3.15.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libzmq5-32bit-4.2.3-3.15.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zeromq-devel-4.2.3-3.15.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-32bit-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for additional PackageHub packages 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-32bit-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for additional PackageHub packages 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-32bit-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-devel-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libzmq5-4.2.3-3.15.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libzmq5-32bit-4.2.3-3.15.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zeromq-devel-4.2.3-3.15.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-32bit-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-devel-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libzmq5-4.2.3-3.15.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libzmq5-32bit-4.2.3-3.15.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zeromq-devel-4.2.3-3.15.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-32bit-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-devel-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libzmq5-4.2.3-3.15.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libzmq5-32bit-4.2.3-3.15.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zeromq-devel-4.2.3-3.15.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-32bit-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libunwind-devel-1.2.1-4.2.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libzmq5-4.2.3-3.15.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libzmq5-32bit-4.2.3-3.15.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "zeromq-devel-4.2.3-3.15.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20203264-1/",
+      "Description": "Link for SUSE-SU-2020:3264-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-November/007741.html",
+      "Description": "E-Mail link for SUSE-SU-2020:3264-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1176116",
+      "Description": "SUSE Bug 1176116"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1176256",
+      "Description": "SUSE Bug 1176256"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1176257",
+      "Description": "SUSE Bug 1176257"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1176258",
+      "Description": "SUSE Bug 1176258"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1176259",
+      "Description": "SUSE Bug 1176259"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-15166/",
+      "Description": "SUSE CVE CVE-2020-15166 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-15166",
+      "Description": "In ZeroMQ before version 4.3.3, there is a denial-of-service vulnerability. Users with TCP transport public endpoints, even with CURVE/ZAP enabled, are impacted. If a raw TCP socket is opened and connected to an endpoint that is fully configured with CURVE/ZAP, legitimate clients will not be able to exchange any message. Handshakes complete successfully, and messages are delivered to the library, but the server application never receives them. This is patched in version 4.3.3.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-15166.html",
+          "Description": "CVE-2020-15166"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1176116",
+          "Description": "SUSE Bug 1176116"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container caasp/v4/cilium:1.6.6:libunwind-1.2.1-4.2.3",
+            "Container ses/6/cephcsi/cephcsi:latest:libunwind-1.2.1-4.2.3",
+            "Container ses/6/rook/ceph:latest:libunwind-1.2.1-4.2.3",
+            "Container ses/7/cephcsi/cephcsi:latest:libunwind-1.2.1-4.2.3",
+            "Container ses/7/rook/ceph:latest:libunwind-1.2.1-4.2.3",
+            "Container suse/sles/15.2/virt-launcher:0.38.1:libunwind-1.2.1-4.2.3",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libunwind-1.2.1-4.2.3",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libunwind-32bit-1.2.1-4.2.3",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libunwind-devel-1.2.1-4.2.3",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libzmq5-32bit-4.2.3-3.15.4",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:libzmq5-4.2.3-3.15.4",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:zeromq-devel-4.2.3-3.15.4",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libunwind-1.2.1-4.2.3",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libunwind-32bit-1.2.1-4.2.3",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libunwind-devel-1.2.1-4.2.3",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libzmq5-32bit-4.2.3-3.15.4",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:libzmq5-4.2.3-3.15.4",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:zeromq-devel-4.2.3-3.15.4",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libunwind-1.2.1-4.2.3",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libunwind-32bit-1.2.1-4.2.3",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libunwind-devel-1.2.1-4.2.3",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libzmq5-32bit-4.2.3-3.15.4",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libzmq5-4.2.3-3.15.4",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:zeromq-devel-4.2.3-3.15.4",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libunwind-1.2.1-4.2.3",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libunwind-32bit-1.2.1-4.2.3",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libunwind-devel-1.2.1-4.2.3",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libzmq5-32bit-4.2.3-3.15.4",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:libzmq5-4.2.3-3.15.4",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:zeromq-devel-4.2.3-3.15.4",
+            "SUSE Linux Enterprise Module for additional PackageHub packages 15 SP1:libunwind-32bit-1.2.1-4.2.3",
+            "SUSE Linux Enterprise Module for additional PackageHub packages 15 SP2:libunwind-32bit-1.2.1-4.2.3",
+            "SUSE Linux Enterprise Server 15-LTSS:libunwind-1.2.1-4.2.3",
+            "SUSE Linux Enterprise Server 15-LTSS:libunwind-32bit-1.2.1-4.2.3",
+            "SUSE Linux Enterprise Server 15-LTSS:libunwind-devel-1.2.1-4.2.3",
+            "SUSE Linux Enterprise Server 15-LTSS:libzmq5-32bit-4.2.3-3.15.4",
+            "SUSE Linux Enterprise Server 15-LTSS:libzmq5-4.2.3-3.15.4",
+            "SUSE Linux Enterprise Server 15-LTSS:zeromq-devel-4.2.3-3.15.4",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libunwind-1.2.1-4.2.3",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libunwind-32bit-1.2.1-4.2.3",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libunwind-devel-1.2.1-4.2.3",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libzmq5-32bit-4.2.3-3.15.4",
+            "SUSE Linux Enterprise Server for SAP Applications 15:libzmq5-4.2.3-3.15.4",
+            "SUSE Linux Enterprise Server for SAP Applications 15:zeromq-devel-4.2.3-3.15.4"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

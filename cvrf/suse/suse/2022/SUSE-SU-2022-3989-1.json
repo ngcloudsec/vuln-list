@@ -1,0 +1,114 @@
+{
+  "Title": "Security update for nodejs12",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3989-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-11-15T11:59:04Z",
+    "CurrentReleaseDate": "2022-11-15T11:59:04Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-11-15T11:59:04Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for nodejs12",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for nodejs12 fixes the following issues:\n\n- CVE-2022-43548: Fixed DNS rebinding in --inspect via invalid octal IP address (bsc#1205119).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "nodejs12-12.22.12-1.57.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Web Scripting 12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nodejs12-devel-12.22.12-1.57.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Web Scripting 12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nodejs12-docs-12.22.12-1.57.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Web Scripting 12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "npm12-12.22.12-1.57.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Web Scripting 12",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223989-1/",
+      "Description": "Link for SUSE-SU-2022:3989-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-November/012924.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3989-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1205119",
+      "Description": "SUSE Bug 1205119"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-43548/",
+      "Description": "SUSE CVE CVE-2022-43548 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-43548",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-43548.html",
+          "Description": "CVE-2022-43548"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1205119",
+          "Description": "SUSE Bug 1205119"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Module for Web Scripting 12:nodejs12-12.22.12-1.57.1",
+            "SUSE Linux Enterprise Module for Web Scripting 12:nodejs12-devel-12.22.12-1.57.1",
+            "SUSE Linux Enterprise Module for Web Scripting 12:nodejs12-docs-12.22.12-1.57.1",
+            "SUSE Linux Enterprise Module for Web Scripting 12:npm12-12.22.12-1.57.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

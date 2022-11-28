@@ -1,0 +1,262 @@
+{
+  "id": "ALAS2-2020-1495",
+  "title": "Amazon Linux 2 2017.12 - ALAS2-2020-1495: medium priority package update for kernel",
+  "issued": {
+    "date": "2020-09-28 20:57"
+  },
+  "updated": {
+    "date": "2020-09-30 21:34"
+  },
+  "severity": "medium",
+  "description": "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2020-25285:\n\tA race condition between hugetlb sysctl handlers in mm/hugetlb.c in the Linux kernel before 5.8.8 could be used by local attackers to corrupt memory, cause a NULL pointer dereference, or possibly have unspecified other impact, aka CID-17743798d812.\n1882591: CVE-2020-25285 kernel: race condition between hugetlb sysctl handlers in mm/hugetlb.c\n\nCVE-2020-25212:\n\tA TOCTOU mismatch in the NFS client code in the Linux kernel before 5.8.3 could be used by local attackers to corrupt memory or possibly have unspecified other impact because a size check is in fs/nfs/nfs4proc.c instead of fs/nfs/nfs4xdr.c, aka CID-b4487b935452.\n1877575: CVE-2020-25212 kernel: TOCTOU mismatch in the NFS client code\n\nCVE-2020-25211:\n\tIn the Linux kernel through 5.8.7, local attackers able to inject conntrack netlink configuration could overflow a local buffer, causing crashes or triggering use of incorrect protocol numbers in ctnetlink_parse_tuple_filter in net/netfilter/nf_conntrack_netlink.c, aka CID-1cc5ef91d2ff.\n1877571: CVE-2020-25211 kernel: Local buffer overflow in ctnetlink_parse_tuple_filter in net/netfilter/nf_conntrack_netlink.c\n\nCVE-2020-14331:\n\tA flaw was found in the Linux kernel's implementation of the invert video code on VGA consoles when a local attacker attempts to resize the console, calling an ioctl VT_RESIZE, which causes an out-of-bounds write to occur. This flaw allows a local user with access to the VGA console to crash the system, potentially escalating their privileges on the system. The highest threat from this vulnerability is to data confidentiality and integrity as well as system availability.\n99999: \nCVE-2020-14331 kernel: kernel: buffer over write in vgacon_scroll\n\nCVE-2020-14314:\n\tA memory out-of-bounds read flaw was found in the Linux kernel before 5.9-rc2 with the ext3/ext4 file system, in the way it accesses a directory with broken indexing. This flaw allows a local user to crash the system if the directory exists. The highest threat from this vulnerability is to system availability.\n1853922: CVE-2020-14314 kernel: buffer uses out of index in ext3/4 filesystem\n\nCVE-2019-19448:\n\tIn the Linux kernel 5.0.21 and 5.3.11, mounting a crafted btrfs filesystem image, performing some operations, and then making a syncfs system call can lead to a use-after-free in try_merge_free_space in fs/btrfs/free-space-cache.c because the pointer to a left data structure can be the same as the pointer to a right data structure.\n1781674: CVE-2019-19448 kernel: mounting a crafted btrfs filesystem image, performing some operations, and then making a syncfs system call can lead to a use-after-free in try_merge_free_space in fs/btrfs/free-space-cache.c\n",
+  "packages": [
+    {
+      "name": "kernel",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/kernel-4.14.198-152.320.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "kernel-headers",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/kernel-headers-4.14.198-152.320.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "kernel-debuginfo-common-aarch64",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/kernel-debuginfo-common-aarch64-4.14.198-152.320.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "perf",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/perf-4.14.198-152.320.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "perf-debuginfo",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/perf-debuginfo-4.14.198-152.320.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "python-perf",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/python-perf-4.14.198-152.320.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "python-perf-debuginfo",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/python-perf-debuginfo-4.14.198-152.320.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "kernel-tools",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/kernel-tools-4.14.198-152.320.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "kernel-tools-devel",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/kernel-tools-devel-4.14.198-152.320.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "kernel-tools-debuginfo",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/kernel-tools-debuginfo-4.14.198-152.320.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "kernel-devel",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/kernel-devel-4.14.198-152.320.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "kernel-debuginfo",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/kernel-debuginfo-4.14.198-152.320.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "kernel",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-4.14.198-152.320.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "kernel-headers",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-headers-4.14.198-152.320.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "kernel-debuginfo-common-x86_64",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-debuginfo-common-x86_64-4.14.198-152.320.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "perf",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/perf-4.14.198-152.320.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "perf-debuginfo",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/perf-debuginfo-4.14.198-152.320.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "python-perf",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/python-perf-4.14.198-152.320.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "python-perf-debuginfo",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/python-perf-debuginfo-4.14.198-152.320.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "kernel-tools",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-tools-4.14.198-152.320.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "kernel-tools-devel",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-tools-devel-4.14.198-152.320.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "kernel-tools-debuginfo",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-tools-debuginfo-4.14.198-152.320.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "kernel-devel",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-devel-4.14.198-152.320.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "kernel-debuginfo",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-debuginfo-4.14.198-152.320.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "kernel-livepatch-4.14.198-152.320",
+      "epoch": "0",
+      "version": "1.0",
+      "release": "0.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-livepatch-4.14.198-152.320-1.0-0.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "kernel-headers",
+      "epoch": "0",
+      "version": "4.14.198",
+      "release": "152.320.amzn2",
+      "arch": "i686",
+      "filename": "Packages/kernel-headers-4.14.198-152.320.amzn2.i686.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19448",
+      "id": "CVE-2019-19448",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14314",
+      "id": "CVE-2020-14314",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14331",
+      "id": "CVE-2020-14331",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25211",
+      "id": "CVE-2020-25211",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25212",
+      "id": "CVE-2020-25212",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25285",
+      "id": "CVE-2020-25285",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2019-19448",
+    "CVE-2020-14314",
+    "CVE-2020-14331",
+    "CVE-2020-25211",
+    "CVE-2020-25212",
+    "CVE-2020-25285"
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "Title": "Security update for wireshark",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:1098-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2014-11-14T12:53:20Z",
+    "CurrentReleaseDate": "2014-11-14T12:53:20Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2014-11-14T12:53:20Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for wireshark",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nwireshark has been updated to version 1.10.11 to fix five security issues.\n\nThese security issues have been fixed:\n\n    * SigComp UDVM buffer overflow (CVE-2014-8710).\n    * AMQP dissector crash (CVE-2014-8711).\n    * NCP dissector crashes (CVE-2014-8712, CVE-2014-8713).\n    * TN5250 infinite loops (CVE-2014-8714).\n\nThis non-security issue has been fixed:\n\n    * enable zlib (bnc#899303).\n\nFurther bug fixes and updated protocol support as listed in:\n\nhttps://www.wireshark.org/docs/relnotes/wireshark-1.10.11.html\n\u003chttps://www.wireshark.org/docs/relnotes/wireshark-1.10.11.html\u003e\n\nSecurity Issues:\n\n    * CVE-2014-8711\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8711\u003e\n    * CVE-2014-8710\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8710\u003e\n    * CVE-2014-8714\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8714\u003e\n    * CVE-2014-8712\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8712\u003e\n    * CVE-2014-8713\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8713\u003e\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "wireshark-1.10.11-0.2.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wireshark-devel-1.10.11-0.2.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wireshark-1.10.11-0.2.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wireshark-1.10.11-0.2.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wireshark-1.10.11-0.2.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP3-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wireshark-1.10.11-0.2.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "wireshark-1.10.11-0.2.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for VMWare 11 SP3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20151098-1/",
+      "Description": "Link for SUSE-SU-2015:1098-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2015-June/001448.html",
+      "Description": "E-Mail link for SUSE-SU-2015:1098-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/899303",
+      "Description": "SUSE Bug 899303"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/905245",
+      "Description": "SUSE Bug 905245"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/905246",
+      "Description": "SUSE Bug 905246"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/905247",
+      "Description": "SUSE Bug 905247"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/905248",
+      "Description": "SUSE Bug 905248"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-8710/",
+      "Description": "SUSE CVE CVE-2014-8710 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-8711/",
+      "Description": "SUSE CVE CVE-2014-8711 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-8712/",
+      "Description": "SUSE CVE CVE-2014-8712 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-8713/",
+      "Description": "SUSE CVE CVE-2014-8713 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-8714/",
+      "Description": "SUSE CVE CVE-2014-8714 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2014-8710",
+      "Description": "The decompress_sigcomp_message function in epan/sigcomp-udvm.c in the SigComp UDVM dissector in Wireshark 1.10.x before 1.10.11 allows remote attackers to cause a denial of service (buffer over-read and application crash) via a crafted packet.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-8710.html",
+          "Description": "CVE-2014-8710"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905246",
+          "Description": "SUSE Bug 905246"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:wireshark-devel-1.10.11-0.2.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-8711",
+      "Description": "Multiple integer overflows in epan/dissectors/packet-amqp.c in the AMQP dissector in Wireshark 1.10.x before 1.10.11 and 1.12.x before 1.12.2 allow remote attackers to cause a denial of service (application crash) via a crafted amqp_0_10 PDU in a packet.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-8711.html",
+          "Description": "CVE-2014-8711"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905245",
+          "Description": "SUSE Bug 905245"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:wireshark-devel-1.10.11-0.2.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-8712",
+      "Description": "The build_expert_data function in epan/dissectors/packet-ncp2222.inc in the NCP dissector in Wireshark 1.10.x before 1.10.11 and 1.12.x before 1.12.2 does not properly initialize a data structure, which allows remote attackers to cause a denial of service (application crash) via a crafted packet.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-8712.html",
+          "Description": "CVE-2014-8712"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905248",
+          "Description": "SUSE Bug 905248"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:wireshark-devel-1.10.11-0.2.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-8713",
+      "Description": "Stack-based buffer overflow in the build_expert_data function in epan/dissectors/packet-ncp2222.inc in the NCP dissector in Wireshark 1.10.x before 1.10.11 and 1.12.x before 1.12.2 allows remote attackers to cause a denial of service (application crash) via a crafted packet.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-8713.html",
+          "Description": "CVE-2014-8713"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905248",
+          "Description": "SUSE Bug 905248"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:wireshark-devel-1.10.11-0.2.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-8714",
+      "Description": "The dissect_write_structured_field function in epan/dissectors/packet-tn5250.c in the TN5250 dissector in Wireshark 1.10.x before 1.10.11 and 1.12.x before 1.12.2 allows remote attackers to cause a denial of service (infinite loop) via a crafted packet.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-8714.html",
+          "Description": "CVE-2014-8714"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905247",
+          "Description": "SUSE Bug 905247"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server 11 SP3-TERADATA:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Server for VMWare 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:wireshark-1.10.11-0.2.1",
+            "SUSE Linux Enterprise Software Development Kit 11 SP3:wireshark-devel-1.10.11-0.2.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "Title": "Security update for libjpeg-turbo",
+  "Tracking": {
+    "ID": "SUSE-SU-2019:2971-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2019-11-14T11:02:34Z",
+    "CurrentReleaseDate": "2019-11-14T11:02:34Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2019-11-14T11:02:34Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for libjpeg-turbo",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for libjpeg-turbo fixes the following issues:\n\n- CVE-2019-2201: Several integer overflow issues and subsequent segfaults occurred in libjpeg-turbo,\n  when attempting to compress or decompress gigapixel images. [bsc#1156402]\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libjpeg8-8.1.2-5.12.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg8-8.1.2-5.12.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg8-8.1.2-5.12.1",
+        "RelatesToProductReference": "Container ingress-nginx-controller:0.15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg8-8.1.2-5.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-launcher:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg8-8.1.2-5.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/libguestfs-tools:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg8-8.1.2-5.12.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-launcher:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg62-62.2.0-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg62-devel-62.2.0-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg8-8.1.2-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg8-devel-8.1.2-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libturbojpeg0-8.1.2-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg62-62.2.0-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg62-devel-62.2.0-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg8-8.1.2-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg8-devel-8.1.2-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libturbojpeg0-8.1.2-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg8-32bit-8.1.2-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg8-32bit-8.1.2-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg-turbo-1.5.3-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg62-turbo-1.5.3-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg-turbo-1.5.3-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg62-32bit-62.2.0-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg62-devel-32bit-62.2.0-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg62-turbo-1.5.3-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg8-devel-32bit-8.1.2-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libturbojpeg0-32bit-8.1.2-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libjpeg-turbo-1.5.3-5.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for additional PackageHub packages 15",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20192971-1/",
+      "Description": "Link for SUSE-SU-2019:2971-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2019-November/006138.html",
+      "Description": "E-Mail link for SUSE-SU-2019:2971-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1156402",
+      "Description": "SUSE Bug 1156402"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-2201/",
+      "Description": "SUSE CVE CVE-2019-2201 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-2201",
+      "Description": "In generate_jsimd_ycc_rgb_convert_neon of jsimd_arm64_neon.S, there is a possible out of bounds write due to a missing bounds check. This could lead to remote code execution in an unprivileged process with no additional execution privileges needed. User interaction is needed for exploitation.Product: AndroidVersions: Android-8.0 Android-8.1 Android-9 Android-10Android ID: A-120551338",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-2201.html",
+          "Description": "CVE-2019-2201"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1156402",
+          "Description": "SUSE Bug 1156402"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/openjdk-devel:latest:libjpeg8-8.1.2-5.12.1",
+            "Container bci/openjdk:latest:libjpeg8-8.1.2-5.12.1",
+            "Container ingress-nginx-controller:0.15.0:libjpeg8-8.1.2-5.12.1",
+            "Container suse/sles/15.2/virt-launcher:0.38.1:libjpeg8-8.1.2-5.12.1",
+            "Container suse/sles/15.3/libguestfs-tools:0.45.0:libjpeg8-8.1.2-5.12.1",
+            "Container suse/sles/15.3/virt-launcher:0.45.0:libjpeg8-8.1.2-5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libjpeg62-62.2.0-5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libjpeg62-devel-62.2.0-5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libjpeg8-8.1.2-5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libjpeg8-devel-8.1.2-5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libturbojpeg0-8.1.2-5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libjpeg62-62.2.0-5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libjpeg62-devel-62.2.0-5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libjpeg8-8.1.2-5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libjpeg8-devel-8.1.2-5.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libturbojpeg0-8.1.2-5.12.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP1:libjpeg8-32bit-8.1.2-5.12.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15:libjpeg8-32bit-8.1.2-5.12.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libjpeg-turbo-1.5.3-5.12.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libjpeg62-32bit-62.2.0-5.12.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libjpeg62-devel-32bit-62.2.0-5.12.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libjpeg62-turbo-1.5.3-5.12.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libjpeg8-devel-32bit-8.1.2-5.12.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libturbojpeg0-32bit-8.1.2-5.12.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:libjpeg-turbo-1.5.3-5.12.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15:libjpeg62-turbo-1.5.3-5.12.1",
+            "SUSE Linux Enterprise Module for additional PackageHub packages 15:libjpeg-turbo-1.5.3-5.12.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

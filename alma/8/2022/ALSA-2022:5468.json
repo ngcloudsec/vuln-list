@@ -1,0 +1,74 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2022:5468",
+  "description": "PHP is an HTML-embedded scripting language commonly used with the Apache HTTP Server.\nSecurity Fix(es):\n* php: password of excessive length triggers buffer overflow leading to RCE (CVE-2022-31626)\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1656547200000
+  },
+  "pkglist": {
+    "name": "almalinux-8-for-i686-appstream-rpms__8_6_default",
+    "shortname": "almalinux-8-for-i686-appstream-rpms__8_6_default",
+    "packages": [
+      {
+        "name": "php-pear",
+        "version": "1.10.13",
+        "release": "1.module_el8.6.0+3268+b150a051",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "php-pear-1.10.13-1.module_el8.6.0+3268+b150a051.src.rpm",
+        "filename": "php-pear-1.10.13-1.module_el8.6.0+3268+b150a051.noarch.rpm",
+        "sum": "0cce4d216b43c4b38de6e0f49d7e0705d81c35d448903204b93b913865a2007c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {
+      "stream": "7.4",
+      "name": "php",
+      "version": 8060020220915081947,
+      "arch": "i686",
+      "context": "a4870ff1"
+    }
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2022:5468",
+      "type": "rhsa",
+      "id": "RHSA-2022:5468",
+      "title": "RHSA-2022:5468"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2022-31626",
+      "type": "cve",
+      "id": "CVE-2022-31626",
+      "title": "CVE-2022-31626"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2098523",
+      "type": "bugzilla",
+      "id": "2098523",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2022-5468.html",
+      "type": "self",
+      "id": "ALSA-2022:5468",
+      "title": "ALSA-2022:5468"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2022 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "php:8.0 security update",
+  "title": "ALSA-2022:5468: php:8.0 security update (Important)",
+  "type": "security",
+  "updated_date": {
+    "$date": 1669241970000
+  },
+  "version": "1"
+}

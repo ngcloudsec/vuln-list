@@ -1,0 +1,61 @@
+[
+  {
+    "Architecture": [
+      "amd64 i386 all"
+    ],
+    "Binary": [
+      "virtualbox-qt, virtualbox, virtualbox-dbg, virtualbox-dkms, virtualbox-source, virtualbox-guest-dkms, virtualbox-guest-source, virtualbox-guest-x11, virtualbox-guest-utils"
+    ],
+    "Build-Depends": [
+      "bzip2, debhelper (\u003e= 9), default-jdk, dh-python, dkms (\u003e= 2.1.1.1), docbook-xml, docbook-xsl, dpkg-dev (\u003e= 1.15.6~), g++-multilib, genisoimage, gsoap (\u003e= 2.8.16), iasl, imagemagick, kbuild (\u003e= 1:0.1.9998svn2695), libasound2-dev, libcap-dev, libcurl4-gnutls-dev, libdevmapper-dev, libdrm-dev, libgl1-mesa-dev, libglu1-mesa-dev, libidl-dev, libpam0g-dev, libpixman-1-dev, libpng-dev, libpulse-dev, libqt4-dev (\u003e= 4.4.0), libqt4-network (\u003e= 4.4.0), libqt4-opengl-dev (\u003e= 4.4.0), libsdl1.2-dev, libssl-dev, libvncserver-dev, libvpx-dev, libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxi-dev, libxinerama-dev, libxml2-dev, libxmu-dev, libxrandr-dev, libxrender-dev, libxslt1-dev, libxt-dev, lsb-release, lynx-cur, makeself, module-assistant, python-dev (\u003e= 2.6.6-3~), texlive-fonts-extra, texlive-fonts-recommended, texlive-latex-extra, texlive-latex-recommended, uuid-dev, x11proto-gl-dev, x11proto-xf86dri-dev, xserver-xorg-dev, xsltproc, yasm (\u003e= 0.7.0), zlib1g-dev"
+    ],
+    "Checksums-Sha1": [
+      "686d044b04e48816db96db89b425f3758ba80e26 3696 virtualbox_4.3.36-dfsg-1+deb8u1.dsc b458c3c7ce0f1e9081dbcde9e39325653962a449 47713148 virtualbox_4.3.36-dfsg.orig.tar.xz 55a72ca9a4ddcd19fa983b31f2a519273eea51b8 75292 virtualbox_4.3.36-dfsg-1+deb8u1.debian.tar.xz"
+    ],
+    "Checksums-Sha256": [
+      "f5703f0247ad06c375f529ace969cee15627a4d670fc948f13e8c9ebef1f9710 3696 virtualbox_4.3.36-dfsg-1+deb8u1.dsc 09e7159d4e406ec9f0834e680bb4f3651519a5bbf535c8cc83fb635c2fd96f39 47713148 virtualbox_4.3.36-dfsg.orig.tar.xz d06cd6dde60e6cdfb44ac03feede7ce10bc6e720a38781cb2c9d84b0f7099bae 75292 virtualbox_4.3.36-dfsg-1+deb8u1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/contrib/v/virtualbox"
+    ],
+    "Files": [
+      "a21ddb4a21ad729519508d28b14e20b5 3696 virtualbox_4.3.36-dfsg-1+deb8u1.dsc 1423337a5a9970dda72e60fcaa0f8d05 47713148 virtualbox_4.3.36-dfsg.orig.tar.xz 8010c3b4e28f7910e44d9ec9ea9376ef 75292 virtualbox_4.3.36-dfsg-1+deb8u1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "http://www.virtualbox.org/"
+    ],
+    "Maintainer": [
+      "Debian Virtualbox Team \u003cpkg-virtualbox-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "virtualbox"
+    ],
+    "Package-List": [
+      "virtualbox deb contrib/misc optional arch=amd64,i386 virtualbox-dbg deb contrib/debug extra arch=amd64,i386 virtualbox-dkms deb contrib/kernel optional arch=all virtualbox-guest-dkms deb contrib/kernel optional arch=all virtualbox-guest-source deb contrib/kernel optional arch=all virtualbox-guest-utils deb contrib/misc optional arch=amd64,i386 virtualbox-guest-x11 deb contrib/x11 optional arch=amd64,i386 virtualbox-qt deb contrib/misc optional arch=amd64,i386 virtualbox-source deb contrib/kernel optional arch=all"
+    ],
+    "Priority": [
+      "source"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "3.9.6"
+    ],
+    "Uploaders": [
+      "Ritesh Raj Sarraf \u003crrs@debian.org\u003e, Gianfranco Costamagna \u003clocutusofborg@debian.org\u003e"
+    ],
+    "Vcs-Browser": [
+      "http://anonscm.debian.org/gitweb/?p=pkg-virtualbox/virtualbox.git"
+    ],
+    "Vcs-Git": [
+      "git://anonscm.debian.org/pkg-virtualbox/virtualbox.git"
+    ],
+    "Version": [
+      "4.3.36-dfsg-1+deb8u1"
+    ]
+  }
+]

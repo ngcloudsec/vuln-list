@@ -1,0 +1,43 @@
+{
+  "Header": {
+    "Original": "[20 Jul 2005] DSA-763-1 zlib - buffer overflow",
+    "Line": 15728,
+    "ID": "DSA-763-1",
+    "Description": "zlib - buffer overflow"
+  },
+  "Annotations": [
+    {
+      "Original": "{CVE-2005-1849}",
+      "Line": 15729,
+      "Type": "xref",
+      "Bugs": [
+        "CVE-2005-1849"
+      ]
+    },
+    {
+      "Original": "[woody] - zlib \u003cnot-affected\u003e (vulnerable code introduced later)",
+      "Line": 15730,
+      "Type": "package",
+      "Release": "woody",
+      "Package": "zlib",
+      "Kind": "not-affected",
+      "Description": "vulnerable code introduced later"
+    },
+    {
+      "Original": "[sarge] - zlib 1:1.2.2-4.sarge.2 (medium)",
+      "Line": 15731,
+      "Type": "package",
+      "Release": "sarge",
+      "Package": "zlib",
+      "Kind": "fixed",
+      "Version": "1:1.2.2-4.sarge.2",
+      "Severity": "medium"
+    },
+    {
+      "Original": "NOTE: not fixed in testing at time of DSA (only 1/2 days old, not built on s390)",
+      "Line": 15732,
+      "Type": "NOTE",
+      "Description": "not fixed in testing at time of DSA (only 1/2 days old, not built on s390)"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "Title": "Security update for less",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:2687-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-09-21T08:55:03Z",
+    "CurrentReleaseDate": "2020-09-21T08:55:03Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-09-21T08:55:03Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for less",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for less fixes the following issues:\n\nSecurity issue fixed:\n\n- CVE-2014-9488: Malformed UTF-8 data could have caused an out of bounds read in \n  the UTF-8 decoding routines, causing an invalid read access (bsc#921719).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "less-458-7.3.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "less-458-7.3.3",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20202687-1/",
+      "Description": "Link for SUSE-SU-2020:2687-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-September/007445.html",
+      "Description": "E-Mail link for SUSE-SU-2020:2687-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/921719",
+      "Description": "SUSE Bug 921719"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-9488/",
+      "Description": "SUSE CVE CVE-2014-9488 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2014-9488",
+      "Description": "The is_utf8_well_formed function in GNU less before 475 allows remote attackers to have unspecified impact via malformed UTF-8 characters, which triggers an out-of-bounds read.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-9488.html",
+          "Description": "CVE-2014-9488"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/921719",
+          "Description": "SUSE Bug 921719"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 12 SP5:less-458-7.3.3",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:less-458-7.3.3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

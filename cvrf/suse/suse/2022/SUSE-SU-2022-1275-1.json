@@ -1,0 +1,204 @@
+{
+  "Title": "Security update for gzip",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:1275-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-04-20T07:17:05Z",
+    "CurrentReleaseDate": "2022-04-20T07:17:05Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-04-20T07:17:05Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for gzip",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for gzip fixes the following issues:\n\n- CVE-2022-1271: Fixed an incorrect escaping of malicious filenames (ZDI-CAN-16587). (bsc#1198062)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "gzip-1.6-9.6.2",
+        "RelatesToProductReference": "Container suse/sles12sp3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.6-9.6.2",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.6-9.6.2",
+        "RelatesToProductReference": "Image SLES12-SP4-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.6-9.6.2",
+        "RelatesToProductReference": "Image SLES12-SP4-EC2-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.6-9.6.2",
+        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.6-9.6.2",
+        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.6-9.6.2",
+        "RelatesToProductReference": "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.6-9.6.2",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.6-9.6.2",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.6-9.6.2",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.6-9.6.2",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.6-9.6.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.6-9.6.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.6-9.6.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.6-9.6.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.6-9.6.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gzip-1.6-9.6.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20221275-1/",
+      "Description": "Link for SUSE-SU-2022:1275-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-April/010766.html",
+      "Description": "E-Mail link for SUSE-SU-2022:1275-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1198062",
+      "Description": "SUSE Bug 1198062"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-1271/",
+      "Description": "SUSE CVE CVE-2022-1271 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-1271",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-1271.html",
+          "Description": "CVE-2022-1271"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1198062",
+          "Description": "SUSE Bug 1198062"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1198812",
+          "Description": "SUSE Bug 1198812"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199107",
+          "Description": "SUSE Bug 1199107"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1199108",
+          "Description": "SUSE Bug 1199108"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/sles12sp3:latest:gzip-1.6-9.6.2",
+            "HPE Helion Openstack 8:gzip-1.6-9.6.2",
+            "Image SLES12-SP4-Azure-BYOS:gzip-1.6-9.6.2",
+            "Image SLES12-SP4-EC2-HVM-BYOS:gzip-1.6-9.6.2",
+            "Image SLES12-SP4-SAP-Azure-BYOS:gzip-1.6-9.6.2",
+            "Image SLES12-SP4-SAP-Azure-LI-BYOS-Production:gzip-1.6-9.6.2",
+            "Image SLES12-SP4-SAP-Azure-VLI-BYOS-Production:gzip-1.6-9.6.2",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:gzip-1.6-9.6.2",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:gzip-1.6-9.6.2",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:gzip-1.6-9.6.2",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:gzip-1.6-9.6.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:gzip-1.6-9.6.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:gzip-1.6-9.6.2",
+            "SUSE OpenStack Cloud 8:gzip-1.6-9.6.2",
+            "SUSE OpenStack Cloud 9:gzip-1.6-9.6.2",
+            "SUSE OpenStack Cloud Crowbar 8:gzip-1.6-9.6.2",
+            "SUSE OpenStack Cloud Crowbar 9:gzip-1.6-9.6.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

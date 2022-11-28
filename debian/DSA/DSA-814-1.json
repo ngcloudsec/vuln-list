@@ -1,0 +1,43 @@
+{
+  "Header": {
+    "Original": "[15 Sep 2005] DSA-814-1 lm-sensors - insecure temporary file",
+    "Line": 15490,
+    "ID": "DSA-814-1",
+    "Description": "lm-sensors - insecure temporary file"
+  },
+  "Annotations": [
+    {
+      "Original": "{CVE-2005-2672}",
+      "Line": 15491,
+      "Type": "xref",
+      "Bugs": [
+        "CVE-2005-2672"
+      ]
+    },
+    {
+      "Original": "[sarge] - lm-sensors 1:2.9.1-1sarge2 (bug #324193)",
+      "Line": 15492,
+      "Type": "package",
+      "Release": "sarge",
+      "Package": "lm-sensors",
+      "Kind": "fixed",
+      "Version": "1:2.9.1-1sarge2",
+      "BugNo": 324193
+    },
+    {
+      "Original": "[woody] - lm-sensors \u003cnot-affected\u003e (according to DSA)",
+      "Line": 15493,
+      "Type": "package",
+      "Release": "woody",
+      "Package": "lm-sensors",
+      "Kind": "not-affected",
+      "Description": "according to DSA"
+    },
+    {
+      "Original": "NOTE: not fixed in testing at time of DSA (waiting on rrdtool, which is waiting on perl)",
+      "Line": 15494,
+      "Type": "NOTE",
+      "Description": "not fixed in testing at time of DSA (waiting on rrdtool, which is waiting on perl)"
+    }
+  ]
+}

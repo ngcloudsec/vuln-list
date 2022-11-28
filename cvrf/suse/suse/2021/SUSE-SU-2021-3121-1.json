@@ -1,0 +1,118 @@
+{
+  "Title": "Security update for crmsh",
+  "Tracking": {
+    "ID": "SUSE-SU-2021:3121-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2021-09-16T17:43:44Z",
+    "CurrentReleaseDate": "2021-09-16T17:43:44Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2021-09-16T17:43:44Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for crmsh",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for crmsh fixes the following issues:\n\n- CVE-2020-35459: Fixed usage of utils.mkdirp instead of system mkdir command (bsc#1179999).\n\n- Fixed usage to collect ra trace files (bsc#1189641).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "crmsh-4.1.1+git.1630047134.803a70f2-2.65.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Availability 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "crmsh-scripts-4.1.1+git.1630047134.803a70f2-2.65.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Availability 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "crmsh-4.1.1+git.1630047134.803a70f2-2.65.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Availability 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "crmsh-scripts-4.1.1+git.1630047134.803a70f2-2.65.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Availability 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2021/suse-su-20213121-1/",
+      "Description": "Link for SUSE-SU-2021:3121-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2021-September/009458.html",
+      "Description": "E-Mail link for SUSE-SU-2021:3121-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1179999",
+      "Description": "SUSE Bug 1179999"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1189641",
+      "Description": "SUSE Bug 1189641"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-35459/",
+      "Description": "SUSE CVE CVE-2020-35459 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-35459",
+      "Description": "An issue was discovered in ClusterLabs crmsh through 4.2.1. Local attackers able to call \"crm history\" (when \"crm\" is run) were able to execute commands via shell code injection to the crm history commandline, potentially allowing escalation of privileges.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-35459.html",
+          "Description": "CVE-2020-35459"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1179999",
+          "Description": "SUSE Bug 1179999"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise High Availability 12 SP4:crmsh-4.1.1+git.1630047134.803a70f2-2.65.1",
+            "SUSE Linux Enterprise High Availability 12 SP4:crmsh-scripts-4.1.1+git.1630047134.803a70f2-2.65.1",
+            "SUSE Linux Enterprise High Availability 12 SP5:crmsh-4.1.1+git.1630047134.803a70f2-2.65.1",
+            "SUSE Linux Enterprise High Availability 12 SP5:crmsh-scripts-4.1.1+git.1630047134.803a70f2-2.65.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

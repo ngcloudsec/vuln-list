@@ -1,0 +1,208 @@
+{
+  "Title": "Security update for python-urllib3",
+  "Tracking": {
+    "ID": "SUSE-SU-2021:3251-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2021-09-29T07:32:45Z",
+    "CurrentReleaseDate": "2021-09-29T07:32:45Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2021-09-29T07:32:45Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for python-urllib3",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nThis update for python-urllib3 fixes the following security issue:\n\n- CVE-2020-26137: A CRLF injection via HTTP request method was fixed (bsc#1177120)\n\nNote that this was fixed in a previous version update to 1.25.9, this update just complements the tracking.\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "python3-urllib3-1.25.10-3.31.2",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-urllib3-1.25.10-3.31.2",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-urllib3-1.25.10-3.31.2",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-urllib3-1.25.10-3.31.2",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-urllib3-1.25.10-3.31.2",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-urllib3-1.25.10-3.31.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Public Cloud 12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-urllib3-1.25.10-3.31.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Public Cloud 12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-urllib3-1.25.10-3.31.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-urllib3-1.25.10-3.31.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-urllib3-1.25.10-3.31.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-urllib3-1.25.10-3.31.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-urllib3-1.25.10-3.31.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-urllib3-1.25.10-3.31.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-urllib3-1.25.10-3.31.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-urllib3-1.25.10-3.31.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-urllib3-1.25.10-3.31.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python-urllib3-1.25.10-3.31.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-urllib3-1.25.10-3.31.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-urllib3-1.25.10-3.31.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Workstation Extension 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2021/suse-su-20213251-1/",
+      "Description": "Link for SUSE-SU-2021:3251-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2021-September/009517.html",
+      "Description": "E-Mail link for SUSE-SU-2021:3251-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1177120",
+      "Description": "SUSE Bug 1177120"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-26137/",
+      "Description": "SUSE CVE CVE-2020-26137 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-26137",
+      "Description": "urllib3 before 1.25.9 allows CRLF injection if the attacker controls the HTTP request method, as demonstrated by inserting CR and LF control characters in the first argument of putrequest(). NOTE: this is similar to CVE-2020-26116.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-26137.html",
+          "Description": "CVE-2020-26137"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1177120",
+          "Description": "SUSE Bug 1177120"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1177211",
+          "Description": "SUSE Bug 1177211"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "HPE Helion Openstack 8:python3-urllib3-1.25.10-3.31.2",
+            "SUSE Linux Enterprise Module for Public Cloud 12:python-urllib3-1.25.10-3.31.2",
+            "SUSE Linux Enterprise Module for Public Cloud 12:python3-urllib3-1.25.10-3.31.2",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:python3-urllib3-1.25.10-3.31.2",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:python3-urllib3-1.25.10-3.31.2",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:python3-urllib3-1.25.10-3.31.2",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:python3-urllib3-1.25.10-3.31.2",
+            "SUSE Linux Enterprise Server 12 SP5:python-urllib3-1.25.10-3.31.2",
+            "SUSE Linux Enterprise Server 12 SP5:python3-urllib3-1.25.10-3.31.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:python3-urllib3-1.25.10-3.31.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:python3-urllib3-1.25.10-3.31.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python-urllib3-1.25.10-3.31.2",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:python3-urllib3-1.25.10-3.31.2",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:python3-urllib3-1.25.10-3.31.2",
+            "SUSE Linux Enterprise Workstation Extension 12 SP5:python3-urllib3-1.25.10-3.31.2",
+            "SUSE OpenStack Cloud 8:python3-urllib3-1.25.10-3.31.2",
+            "SUSE OpenStack Cloud 9:python3-urllib3-1.25.10-3.31.2",
+            "SUSE OpenStack Cloud Crowbar 8:python3-urllib3-1.25.10-3.31.2",
+            "SUSE OpenStack Cloud Crowbar 9:python3-urllib3-1.25.10-3.31.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

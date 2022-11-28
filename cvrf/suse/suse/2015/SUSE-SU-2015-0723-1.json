@@ -1,0 +1,703 @@
+{
+  "Title": "Security update for flash-player",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:0723-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2014-11-14T12:52:02Z",
+    "CurrentReleaseDate": "2014-11-14T12:52:02Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2014-11-14T12:52:02Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for flash-player",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nflash-player was updated to version 11.2.202.418 to fix 18 security issues:\n\n    * Memory corruption vulnerabilities that could lead to code execution\n      (CVE-2014-0576, CVE-2014-0581, CVE-2014-8440, CVE-2014-8441).\n    * Use-after-free vulnerabilities that could lead to code execution\n      (CVE-2014-0573, CVE-2014-0588, CVE-2014-8438).\n    * A double free vulnerability that could lead to code execution\n      (CVE-2014-0574).\n    * Type confusion vulnerabilities that could lead to code execution\n      (CVE-2014-0577, CVE-2014-0584, CVE-2014-0585, CVE-2014-0586,\n      CVE-2014-0590).\n    * Heap buffer overflow vulnerabilities that could lead to code\n      execution (CVE-2014-0582, CVE-2014-0589).\n    * An information disclosure vulnerability that could be exploited to\n      disclose session tokens (CVE-2014-8437).\n    * A heap buffer overflow vulnerability that could be exploited to\n      perform privilege escalation from low to medium integrity level\n      (CVE-2014-0583).\n    * A permission issue that could be exploited to perform privilege\n      escalation from low to medium integrity level (CVE-2014-8442).\n\nFurther information can be found at \nhttp://helpx.adobe.com/security/products/flash-player/apsb14-24.html\n\u003chttp://helpx.adobe.com/security/products/flash-player/apsb14-24.html\u003e .\n\nSecurity Issues:\n\n    * CVE-2014-0576\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0576\u003e\n    * CVE-2014-0581\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0581\u003e\n    * CVE-2014-8440\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8440\u003e\n    * CVE-2014-8441\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8441\u003e\n    * CVE-2014-0573\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0573\u003e\n    * CVE-2014-0588\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0588\u003e\n    * CVE-2014-8438\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8438\u003e\n    * CVE-2014-0574\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0574\u003e\n    * CVE-2014-0577\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0577\u003e\n    * CVE-2014-0584\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0584\u003e\n    * CVE-2014-0585\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0585\u003e\n    * CVE-2014-0586\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0586\u003e\n    * CVE-2014-0590\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0590\u003e\n    * CVE-2014-0582\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0582\u003e\n    * CVE-2014-0589\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0589\u003e\n    * CVE-2014-8437\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8437\u003e\n    * CVE-2014-0583\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0583\u003e\n    * CVE-2014-8442\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8442\u003e\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "flash-player-11.2.202.418-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "flash-player-gnome-11.2.202.418-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "flash-player-kde4-11.2.202.418-0.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 11 SP3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20150723-1/",
+      "Description": "Link for SUSE-SU-2015:0723-1"
+    },
+    {
+      "URL": "https://lists.opensuse.org/opensuse-security-announce/2015-04/msg00012.html",
+      "Description": "E-Mail link for SUSE-SU-2015:0723-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/905032",
+      "Description": "SUSE Bug 905032"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-0573/",
+      "Description": "SUSE CVE CVE-2014-0573 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-0574/",
+      "Description": "SUSE CVE CVE-2014-0574 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-0576/",
+      "Description": "SUSE CVE CVE-2014-0576 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-0577/",
+      "Description": "SUSE CVE CVE-2014-0577 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-0581/",
+      "Description": "SUSE CVE CVE-2014-0581 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-0582/",
+      "Description": "SUSE CVE CVE-2014-0582 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-0583/",
+      "Description": "SUSE CVE CVE-2014-0583 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-0584/",
+      "Description": "SUSE CVE CVE-2014-0584 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-0585/",
+      "Description": "SUSE CVE CVE-2014-0585 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-0586/",
+      "Description": "SUSE CVE CVE-2014-0586 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-0588/",
+      "Description": "SUSE CVE CVE-2014-0588 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-0589/",
+      "Description": "SUSE CVE CVE-2014-0589 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-0590/",
+      "Description": "SUSE CVE CVE-2014-0590 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-8437/",
+      "Description": "SUSE CVE CVE-2014-8437 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-8438/",
+      "Description": "SUSE CVE CVE-2014-8438 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-8440/",
+      "Description": "SUSE CVE CVE-2014-8440 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-8441/",
+      "Description": "SUSE CVE CVE-2014-8441 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2014-8442/",
+      "Description": "SUSE CVE CVE-2014-8442 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2014-0573",
+      "Description": "Use-after-free vulnerability in Adobe Flash Player before 13.0.0.252 and 14.x and 15.x before 15.0.0.223 on Windows and OS X and before 11.2.202.418 on Linux, Adobe AIR before 15.0.0.356, Adobe AIR SDK before 15.0.0.356, and Adobe AIR SDK \u0026 Compiler before 15.0.0.356 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2014-0588 and CVE-2014-8438.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-0573.html",
+          "Description": "CVE-2014-0573"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905032",
+          "Description": "SUSE Bug 905032"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-gnome-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-kde4-11.2.202.418-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-0574",
+      "Description": "Double free vulnerability in Adobe Flash Player before 13.0.0.252 and 14.x and 15.x before 15.0.0.223 on Windows and OS X and before 11.2.202.418 on Linux, Adobe AIR before 15.0.0.356, Adobe AIR SDK before 15.0.0.356, and Adobe AIR SDK \u0026 Compiler before 15.0.0.356 allows attackers to execute arbitrary code via unspecified vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-0574.html",
+          "Description": "CVE-2014-0574"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905032",
+          "Description": "SUSE Bug 905032"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-gnome-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-kde4-11.2.202.418-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-0576",
+      "Description": "Adobe Flash Player before 13.0.0.252 and 14.x and 15.x before 15.0.0.223 on Windows and OS X and before 11.2.202.418 on Linux, Adobe AIR before 15.0.0.356, Adobe AIR SDK before 15.0.0.356, and Adobe AIR SDK \u0026 Compiler before 15.0.0.356 allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2014-0581, CVE-2014-8440, and CVE-2014-8441.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-0576.html",
+          "Description": "CVE-2014-0576"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905032",
+          "Description": "SUSE Bug 905032"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-gnome-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-kde4-11.2.202.418-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-0577",
+      "Description": "Adobe Flash Player before 13.0.0.252 and 14.x and 15.x before 15.0.0.223 on Windows and OS X and before 11.2.202.418 on Linux, Adobe AIR before 15.0.0.356, Adobe AIR SDK before 15.0.0.356, and Adobe AIR SDK \u0026 Compiler before 15.0.0.356 allow attackers to execute arbitrary code by leveraging an unspecified \"type confusion,\" a different vulnerability than CVE-2014-0584, CVE-2014-0585, CVE-2014-0586, and CVE-2014-0590.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-0577.html",
+          "Description": "CVE-2014-0577"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905032",
+          "Description": "SUSE Bug 905032"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-gnome-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-kde4-11.2.202.418-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-0581",
+      "Description": "Adobe Flash Player before 13.0.0.252 and 14.x and 15.x before 15.0.0.223 on Windows and OS X and before 11.2.202.418 on Linux, Adobe AIR before 15.0.0.356, Adobe AIR SDK before 15.0.0.356, and Adobe AIR SDK \u0026 Compiler before 15.0.0.356 allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2014-0576, CVE-2014-8440, and CVE-2014-8441.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-0581.html",
+          "Description": "CVE-2014-0581"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905032",
+          "Description": "SUSE Bug 905032"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-gnome-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-kde4-11.2.202.418-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-0582",
+      "Description": "Heap-based buffer overflow in Adobe Flash Player before 13.0.0.252 and 14.x and 15.x before 15.0.0.223 on Windows and OS X and before 11.2.202.418 on Linux, Adobe AIR before 15.0.0.356, Adobe AIR SDK before 15.0.0.356, and Adobe AIR SDK \u0026 Compiler before 15.0.0.356 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2014-0589.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-0582.html",
+          "Description": "CVE-2014-0582"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905032",
+          "Description": "SUSE Bug 905032"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-gnome-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-kde4-11.2.202.418-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-0583",
+      "Description": "Heap-based buffer overflow in Adobe Flash Player before 13.0.0.252 and 14.x and 15.x before 15.0.0.223 on Windows and OS X and before 11.2.202.418 on Linux, Adobe AIR before 15.0.0.356, Adobe AIR SDK before 15.0.0.356, and Adobe AIR SDK \u0026 Compiler before 15.0.0.356 allows attackers to complete a transition from Low Integrity to Medium Integrity via unspecified vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-0583.html",
+          "Description": "CVE-2014-0583"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905032",
+          "Description": "SUSE Bug 905032"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-gnome-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-kde4-11.2.202.418-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-0584",
+      "Description": "Adobe Flash Player before 13.0.0.252 and 14.x and 15.x before 15.0.0.223 on Windows and OS X and before 11.2.202.418 on Linux, Adobe AIR before 15.0.0.356, Adobe AIR SDK before 15.0.0.356, and Adobe AIR SDK \u0026 Compiler before 15.0.0.356 allow attackers to execute arbitrary code by leveraging an unspecified \"type confusion,\" a different vulnerability than CVE-2014-0577, CVE-2014-0585, CVE-2014-0586, and CVE-2014-0590.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-0584.html",
+          "Description": "CVE-2014-0584"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905032",
+          "Description": "SUSE Bug 905032"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-gnome-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-kde4-11.2.202.418-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-0585",
+      "Description": "Adobe Flash Player before 13.0.0.252 and 14.x and 15.x before 15.0.0.223 on Windows and OS X and before 11.2.202.418 on Linux, Adobe AIR before 15.0.0.356, Adobe AIR SDK before 15.0.0.356, and Adobe AIR SDK \u0026 Compiler before 15.0.0.356 allow attackers to execute arbitrary code by leveraging an unspecified \"type confusion,\" a different vulnerability than CVE-2014-0577, CVE-2014-0584, CVE-2014-0586, and CVE-2014-0590.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-0585.html",
+          "Description": "CVE-2014-0585"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905032",
+          "Description": "SUSE Bug 905032"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-gnome-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-kde4-11.2.202.418-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-0586",
+      "Description": "Adobe Flash Player before 13.0.0.252 and 14.x and 15.x before 15.0.0.223 on Windows and OS X and before 11.2.202.418 on Linux, Adobe AIR before 15.0.0.356, Adobe AIR SDK before 15.0.0.356, and Adobe AIR SDK \u0026 Compiler before 15.0.0.356 allow attackers to execute arbitrary code by leveraging an unspecified \"type confusion,\" a different vulnerability than CVE-2014-0577, CVE-2014-0584, CVE-2014-0585, and CVE-2014-0590.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-0586.html",
+          "Description": "CVE-2014-0586"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905032",
+          "Description": "SUSE Bug 905032"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-gnome-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-kde4-11.2.202.418-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-0588",
+      "Description": "Use-after-free vulnerability in Adobe Flash Player before 13.0.0.252 and 14.x and 15.x before 15.0.0.223 on Windows and OS X and before 11.2.202.418 on Linux, Adobe AIR before 15.0.0.356, Adobe AIR SDK before 15.0.0.356, and Adobe AIR SDK \u0026 Compiler before 15.0.0.356 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2014-0573 and CVE-2014-8438.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-0588.html",
+          "Description": "CVE-2014-0588"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905032",
+          "Description": "SUSE Bug 905032"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-gnome-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-kde4-11.2.202.418-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-0589",
+      "Description": "Heap-based buffer overflow in Adobe Flash Player before 13.0.0.252 and 14.x and 15.x before 15.0.0.223 on Windows and OS X and before 11.2.202.418 on Linux, Adobe AIR before 15.0.0.356, Adobe AIR SDK before 15.0.0.356, and Adobe AIR SDK \u0026 Compiler before 15.0.0.356 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2014-0582.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-0589.html",
+          "Description": "CVE-2014-0589"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905032",
+          "Description": "SUSE Bug 905032"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-gnome-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-kde4-11.2.202.418-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-0590",
+      "Description": "Adobe Flash Player before 13.0.0.252 and 14.x and 15.x before 15.0.0.223 on Windows and OS X and before 11.2.202.418 on Linux, Adobe AIR before 15.0.0.356, Adobe AIR SDK before 15.0.0.356, and Adobe AIR SDK \u0026 Compiler before 15.0.0.356 allow attackers to execute arbitrary code by leveraging an unspecified \"type confusion,\" a different vulnerability than CVE-2014-0577, CVE-2014-0584, CVE-2014-0585, and CVE-2014-0586.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-0590.html",
+          "Description": "CVE-2014-0590"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905032",
+          "Description": "SUSE Bug 905032"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-gnome-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-kde4-11.2.202.418-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-8437",
+      "Description": "Adobe Flash Player before 13.0.0.252 and 14.x and 15.x before 15.0.0.223 on Windows and OS X and before 11.2.202.418 on Linux, Adobe AIR before 15.0.0.356, Adobe AIR SDK before 15.0.0.356, and Adobe AIR SDK \u0026 Compiler before 15.0.0.356 allow remote attackers to discover session tokens via unspecified vectors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-8437.html",
+          "Description": "CVE-2014-8437"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905032",
+          "Description": "SUSE Bug 905032"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-gnome-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-kde4-11.2.202.418-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-8438",
+      "Description": "Use-after-free vulnerability in Adobe Flash Player before 13.0.0.252 and 14.x and 15.x before 15.0.0.223 on Windows and OS X and before 11.2.202.418 on Linux, Adobe AIR before 15.0.0.356, Adobe AIR SDK before 15.0.0.356, and Adobe AIR SDK \u0026 Compiler before 15.0.0.356 allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2014-0573 and CVE-2014-0588.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-8438.html",
+          "Description": "CVE-2014-8438"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905032",
+          "Description": "SUSE Bug 905032"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-gnome-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-kde4-11.2.202.418-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-8440",
+      "Description": "Adobe Flash Player before 13.0.0.252 and 14.x and 15.x before 15.0.0.223 on Windows and OS X and before 11.2.202.418 on Linux, Adobe AIR before 15.0.0.356, Adobe AIR SDK before 15.0.0.356, and Adobe AIR SDK \u0026 Compiler before 15.0.0.356 allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2014-0576, CVE-2014-0581, and CVE-2014-8441.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-8440.html",
+          "Description": "CVE-2014-8440"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905032",
+          "Description": "SUSE Bug 905032"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-gnome-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-kde4-11.2.202.418-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-8441",
+      "Description": "Adobe Flash Player before 13.0.0.252 and 14.x and 15.x before 15.0.0.223 on Windows and OS X and before 11.2.202.418 on Linux, Adobe AIR before 15.0.0.356, Adobe AIR SDK before 15.0.0.356, and Adobe AIR SDK \u0026 Compiler before 15.0.0.356 allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2014-0576, CVE-2014-0581, and CVE-2014-8440.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-8441.html",
+          "Description": "CVE-2014-8441"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905032",
+          "Description": "SUSE Bug 905032"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-gnome-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-kde4-11.2.202.418-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2014-8442",
+      "Description": "Adobe Flash Player before 13.0.0.252 and 14.x and 15.x before 15.0.0.223 on Windows and OS X and before 11.2.202.418 on Linux, Adobe AIR before 15.0.0.356, Adobe AIR SDK before 15.0.0.356, and Adobe AIR SDK \u0026 Compiler before 15.0.0.356 allow attackers to complete a transition from Low Integrity to Medium Integrity by leveraging incorrect permissions.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2014-8442.html",
+          "Description": "CVE-2014-8442"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/905032",
+          "Description": "SUSE Bug 905032"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-gnome-11.2.202.418-0.3.1",
+            "SUSE Linux Enterprise Desktop 11 SP3:flash-player-kde4-11.2.202.418-0.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "Title": "Security update for expat",
+  "Tracking": {
+    "ID": "SUSE-SU-2019:2429-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2019-09-23T07:28:46Z",
+    "CurrentReleaseDate": "2019-09-23T07:28:46Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2019-09-23T07:28:46Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for expat",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for expat fixes the following issues:\n\nSecurity issues fixed:\n\n- CVE-2019-15903: Fixed heap-based buffer over-read caused by crafted XML input. (bsc#1149429)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4.5/389-ds:1.4.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4.5/cilium:1.7.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4.5/curl:7.66.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4.5/etcd:3.4.13",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4.5/istio-base:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4.5/istio-pilot:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4.5/istio-proxyv2:beta",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4.5/k8s-sidecar:0.1.75",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-controller-manager:v1.18.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4.5/kube-proxy:v1.18.20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4.5/prometheus-alertmanager:0.16.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4.5/prometheus-node-exporter:1.0.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4.5/prometheus-pushgateway:0.6.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4.5/prometheus-server:2.18.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4.5/rsyslog:8.39.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4.5/skuba-tooling:0.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4/389-ds:1.4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4/cilium:1.6.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4/etcd:3.4.13",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4/hyperkube:v1.17.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4/k8s-sidecar:0.1.75",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-alertmanager:0.16.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-pushgateway:0.6.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4/prometheus-server:2.7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4/rsyslog:8.39.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container caasp/v4/skuba-tooling:0.1.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container ingress-nginx-controller:0.15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container ses/6/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container ses/6/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container ses/7/ceph/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container ses/7/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container ses/7/prometheus-webhook-snmp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container ses/7/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-handler:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container suse/sles/15.2/virt-launcher:0.38.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-importer:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/cdi-uploadserver:1.37.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/libguestfs-tools:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-handler:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container suse/sles/15.3/virt-launcher:0.45.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container trento/trento-db:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Container trento/trento-runner:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Image SLES15-EC2-CHOST-HVM-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP1-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-OpenStack",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.2.5-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.2.5-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.2.5-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.2.5-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-32bit-2.2.5-3.6.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2019/suse-su-20192429-1/",
+      "Description": "Link for SUSE-SU-2019:2429-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2019-September/005950.html",
+      "Description": "E-Mail link for SUSE-SU-2019:2429-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1149429",
+      "Description": "SUSE Bug 1149429"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2019-15903/",
+      "Description": "SUSE CVE CVE-2019-15903 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2019-15903",
+      "Description": "In libexpat before 2.2.8, crafted XML input could fool the parser into changing from DTD parsing to document parsing too early; a consecutive call to XML_GetCurrentLineNumber (or XML_GetCurrentColumnNumber) then resulted in a heap-based buffer over-read.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2019-15903.html",
+          "Description": "CVE-2019-15903"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1149429",
+          "Description": "SUSE Bug 1149429"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1154738",
+          "Description": "SUSE Bug 1154738"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1154806",
+          "Description": "SUSE Bug 1154806"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:libexpat1-2.2.5-3.6.1",
+            "Container bci/node:12:libexpat1-2.2.5-3.6.1",
+            "Container bci/node:14:libexpat1-2.2.5-3.6.1",
+            "Container bci/nodejs:latest:libexpat1-2.2.5-3.6.1",
+            "Container bci/openjdk-devel:latest:libexpat1-2.2.5-3.6.1",
+            "Container bci/openjdk:latest:libexpat1-2.2.5-3.6.1",
+            "Container bci/ruby:latest:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4.5/389-ds:1.4.3:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4.5/cilium:1.7.6:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4.5/curl:7.66.0:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4.5/etcd:3.4.13:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4.5/istio-base:beta:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4.5/istio-pilot:beta:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4.5/istio-proxyv2:beta:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4.5/k8s-sidecar:0.1.75:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4.5/kube-controller-manager:v1.18.20:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4.5/kube-proxy:v1.18.20:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4.5/prometheus-alertmanager:0.16.2:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4.5/prometheus-node-exporter:1.0.1:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4.5/prometheus-pushgateway:0.6.0:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4.5/prometheus-server:2.18.0:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4.5/rsyslog:8.39.0:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4.5/skuba-tooling:0.1.0:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4/389-ds:1.4.2:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4/cilium:1.6.6:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4/etcd:3.4.13:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4/hyperkube:v1.17.17:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4/k8s-sidecar:0.1.75:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4/prometheus-alertmanager:0.16.2:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4/prometheus-pushgateway:0.6.0:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4/prometheus-server:2.7.1:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4/rsyslog:8.39.0:libexpat1-2.2.5-3.6.1",
+            "Container caasp/v4/skuba-tooling:0.1.0:libexpat1-2.2.5-3.6.1",
+            "Container ingress-nginx-controller:0.15.0:libexpat1-2.2.5-3.6.1",
+            "Container ses/6/cephcsi/cephcsi:latest:libexpat1-2.2.5-3.6.1",
+            "Container ses/6/rook/ceph:latest:libexpat1-2.2.5-3.6.1",
+            "Container ses/7/ceph/ceph:latest:libexpat1-2.2.5-3.6.1",
+            "Container ses/7/ceph/grafana:latest:libexpat1-2.2.5-3.6.1",
+            "Container ses/7/cephcsi/cephcsi:latest:libexpat1-2.2.5-3.6.1",
+            "Container ses/7/prometheus-webhook-snmp:latest:libexpat1-2.2.5-3.6.1",
+            "Container ses/7/rook/ceph:latest:libexpat1-2.2.5-3.6.1",
+            "Container suse/sles/15.2/virt-handler:0.38.1:libexpat1-2.2.5-3.6.1",
+            "Container suse/sles/15.2/virt-launcher:0.38.1:libexpat1-2.2.5-3.6.1",
+            "Container suse/sles/15.3/cdi-importer:1.37.1:libexpat1-2.2.5-3.6.1",
+            "Container suse/sles/15.3/cdi-uploadserver:1.37.1:libexpat1-2.2.5-3.6.1",
+            "Container suse/sles/15.3/libguestfs-tools:0.45.0:libexpat1-2.2.5-3.6.1",
+            "Container suse/sles/15.3/virt-handler:0.45.0:libexpat1-2.2.5-3.6.1",
+            "Container suse/sles/15.3/virt-launcher:0.45.0:libexpat1-2.2.5-3.6.1",
+            "Container trento/trento-db:latest:libexpat1-2.2.5-3.6.1",
+            "Container trento/trento-runner:latest:libexpat1-2.2.5-3.6.1",
+            "Image SLES15-EC2-CHOST-HVM-BYOS:libexpat1-2.2.5-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-Azure:libexpat1-2.2.5-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-EC2:libexpat1-2.2.5-3.6.1",
+            "Image SLES15-SP1-CHOST-BYOS-GCE:libexpat1-2.2.5-3.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:libexpat1-2.2.5-3.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:libexpat1-2.2.5-3.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:libexpat1-2.2.5-3.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-GCE:libexpat1-2.2.5-3.6.1",
+            "Image SLES15-SP2-CHOST-BYOS-OpenStack:libexpat1-2.2.5-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:libexpat1-2.2.5-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:libexpat1-2.2.5-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:libexpat1-2.2.5-3.6.1",
+            "Image SLES15-SP3-CHOST-BYOS-GCE:libexpat1-2.2.5-3.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:expat-2.2.5-3.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libexpat-devel-2.2.5-3.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libexpat1-2.2.5-3.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP1:libexpat1-32bit-2.2.5-3.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:expat-2.2.5-3.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libexpat-devel-2.2.5-3.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libexpat1-2.2.5-3.6.1",
+            "SUSE Linux Enterprise Module for Basesystem 15:libexpat1-32bit-2.2.5-3.6.1",
+            "SUSE Linux Enterprise Module for Open Buildservice Development Tools 15 SP1:libexpat-devel-32bit-2.2.5-3.6.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

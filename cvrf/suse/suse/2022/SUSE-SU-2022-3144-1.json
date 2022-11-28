@@ -1,0 +1,330 @@
+{
+  "Title": "Security update for gpg2",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3144-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-09-07T09:05:18Z",
+    "CurrentReleaseDate": "2022-09-07T09:05:18Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-09-07T09:05:18Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for gpg2",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for gpg2 fixes the following issues:\n\n- CVE-2022-34903: Fixed a potential signature forgery via injection\n  into the status line when certain unusual conditions are met (bsc#1201225).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "Container suse/sle15:15.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "Container suse/sle15:15.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gpg2-lang-2.2.5-150000.4.22.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223144-1/",
+      "Description": "Link for SUSE-SU-2022:3144-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-September/012160.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3144-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1201225",
+      "Description": "SUSE Bug 1201225"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-34903/",
+      "Description": "SUSE CVE CVE-2022-34903 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-34903",
+      "Description": "GnuPG through 2.3.6, in unusual situations where an attacker possesses any secret-key information from a victim's keyring and other constraints (e.g., use of GPGME) are met, allows signature forgery via injection into the status line.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-34903.html",
+          "Description": "CVE-2022-34903"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201225",
+          "Description": "SUSE Bug 1201225"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/sle15:15.0:gpg2-2.2.5-150000.4.22.1",
+            "Container suse/sle15:15.1:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Enterprise Storage 6:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Enterprise Storage 6:gpg2-lang-2.2.5-150000.4.22.1",
+            "SUSE Enterprise Storage 7:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Enterprise Storage 7:gpg2-lang-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:gpg2-lang-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:gpg2-lang-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:gpg2-lang-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:gpg2-lang-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:gpg2-lang-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:gpg2-lang-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:gpg2-lang-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:gpg2-lang-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:gpg2-lang-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:gpg2-lang-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise Server 15-LTSS:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise Server 15-LTSS:gpg2-lang-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:gpg2-lang-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:gpg2-lang-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:gpg2-lang-2.2.5-150000.4.22.1",
+            "SUSE Manager Proxy 4.1:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Manager Proxy 4.1:gpg2-lang-2.2.5-150000.4.22.1",
+            "SUSE Manager Retail Branch Server 4.1:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Manager Retail Branch Server 4.1:gpg2-lang-2.2.5-150000.4.22.1",
+            "SUSE Manager Server 4.1:gpg2-2.2.5-150000.4.22.1",
+            "SUSE Manager Server 4.1:gpg2-lang-2.2.5-150000.4.22.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

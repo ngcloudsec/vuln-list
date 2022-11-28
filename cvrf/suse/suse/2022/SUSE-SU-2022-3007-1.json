@@ -1,0 +1,354 @@
+{
+  "Title": "Security update for MozillaFirefox",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:3007-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-09-02T15:03:08Z",
+    "CurrentReleaseDate": "2022-09-02T15:03:08Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-09-02T15:03:08Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for MozillaFirefox",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for MozillaFirefox fixes the following issues:\n\nFirefox Extended Support Release 91.13.0 ESR (bsc#1202645):\n\n- CVE-2022-38472: Fixed a potential address bar spoofing via XSLT error handling.\n- CVE-2022-38473: Fixed an issue where cross-origin XSLT documents could inherit the parent's permissions.\n- CVE-2022-38478: Fixed various memory safety issues.\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "MozillaFirefox-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 9",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-devel-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaFirefox-translations-common-91.13.0-112.127.4",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20223007-1/",
+      "Description": "Link for SUSE-SU-2022:3007-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-September/012071.html",
+      "Description": "E-Mail link for SUSE-SU-2022:3007-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1202645",
+      "Description": "SUSE Bug 1202645"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-38472/",
+      "Description": "SUSE CVE CVE-2022-38472 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-38473/",
+      "Description": "SUSE CVE CVE-2022-38473 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-38478/",
+      "Description": "SUSE CVE CVE-2022-38478 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-38472",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-38472.html",
+          "Description": "CVE-2022-38472"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1202645",
+          "Description": "SUSE Bug 1202645"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 12 SP2-BCL:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP5:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP5:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP5:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE OpenStack Cloud 9:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE OpenStack Cloud 9:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE OpenStack Cloud 9:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-91.13.0-112.127.4"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-38473",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-38473.html",
+          "Description": "CVE-2022-38473"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1202645",
+          "Description": "SUSE Bug 1202645"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 12 SP2-BCL:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP5:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP5:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP5:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE OpenStack Cloud 9:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE OpenStack Cloud 9:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE OpenStack Cloud 9:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-91.13.0-112.127.4"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-38478",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-38478.html",
+          "Description": "CVE-2022-38478"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1202645",
+          "Description": "SUSE Bug 1202645"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 12 SP2-BCL:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP4-LTSS:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP5:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP5:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server 12 SP5:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE OpenStack Cloud 9:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE OpenStack Cloud 9:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE OpenStack Cloud 9:MozillaFirefox-translations-common-91.13.0-112.127.4",
+            "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-91.13.0-112.127.4",
+            "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-devel-91.13.0-112.127.4",
+            "SUSE OpenStack Cloud Crowbar 9:MozillaFirefox-translations-common-91.13.0-112.127.4"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

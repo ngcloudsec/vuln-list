@@ -1,0 +1,180 @@
+{
+  "Title": "Security update for python-Babel",
+  "Tracking": {
+    "ID": "SUSE-SU-2021:3945-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2021-12-06T13:57:01Z",
+    "CurrentReleaseDate": "2021-12-06T13:57:01Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2021-12-06T13:57:01Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for python-Babel",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for python-Babel fixes the following issues:\n\n- CVE-2021-42771: Fixed relative path traversal that may lead to arbitrary locale files loading and arbitrary code execution (bsc#1185768).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "python3-Babel-2.8.0-3.3.1",
+        "RelatesToProductReference": "Container ses/7/cephcsi/cephcsi:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-Babel-2.8.0-3.3.1",
+        "RelatesToProductReference": "Container ses/7/rook/ceph:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-Babel-2.8.0-3.3.1",
+        "RelatesToProductReference": "Container trento/trento-runner:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-Babel-2.8.0-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-Babel-2.8.0-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-Babel-2.8.0-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP2-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-Babel-2.8.0-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-Babel-2.8.0-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-Babel-2.8.0-3.3.1",
+        "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-Babel-2.8.0-3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-Babel-2.8.0-3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-Babel-2.8.0-3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python2-Babel-2.8.0-3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-Babel-2.8.0-3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python3-Babel-2.8.0-3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2021/suse-su-20213945-1/",
+      "Description": "Link for SUSE-SU-2021:3945-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2021-December/009858.html",
+      "Description": "E-Mail link for SUSE-SU-2021:3945-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1185768",
+      "Description": "SUSE Bug 1185768"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2021-42771/",
+      "Description": "SUSE CVE CVE-2021-42771 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2021-42771",
+      "Description": "Babel.Locale in Babel before 2.9.1 allows attackers to load arbitrary locale .dat files (containing serialized Python objects) via directory traversal, leading to code execution.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2021-42771.html",
+          "Description": "CVE-2021-42771"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1185768",
+          "Description": "SUSE Bug 1185768"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container ses/7/cephcsi/cephcsi:latest:python3-Babel-2.8.0-3.3.1",
+            "Container ses/7/rook/ceph:latest:python3-Babel-2.8.0-3.3.1",
+            "Container trento/trento-runner:latest:python3-Babel-2.8.0-3.3.1",
+            "Image SLES15-SP2-CHOST-BYOS-Aliyun:python3-Babel-2.8.0-3.3.1",
+            "Image SLES15-SP2-CHOST-BYOS-Azure:python3-Babel-2.8.0-3.3.1",
+            "Image SLES15-SP2-CHOST-BYOS-EC2:python3-Babel-2.8.0-3.3.1",
+            "Image SLES15-SP3-CHOST-BYOS-Aliyun:python3-Babel-2.8.0-3.3.1",
+            "Image SLES15-SP3-CHOST-BYOS-Azure:python3-Babel-2.8.0-3.3.1",
+            "Image SLES15-SP3-CHOST-BYOS-EC2:python3-Babel-2.8.0-3.3.1",
+            "SUSE Linux Enterprise Micro 5.0:python3-Babel-2.8.0-3.3.1",
+            "SUSE Linux Enterprise Micro 5.1:python3-Babel-2.8.0-3.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP2:python3-Babel-2.8.0-3.3.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:python3-Babel-2.8.0-3.3.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP2:python2-Babel-2.8.0-3.3.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP3:python2-Babel-2.8.0-3.3.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

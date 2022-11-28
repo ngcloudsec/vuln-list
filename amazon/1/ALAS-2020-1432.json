@@ -1,0 +1,328 @@
+{
+  "id": "ALAS-2020-1432",
+  "title": "Amazon Linux AMI 2014.03 - ALAS-2020-1432: medium priority package update for python34 python36 python35",
+  "issued": {
+    "date": "2020-09-03 22:08"
+  },
+  "updated": {
+    "date": "2020-09-04 04:15"
+  },
+  "severity": "medium",
+  "description": "Package updates are available for Amazon Linux AMI that fix the following vulnerabilities:\nCVE-2020-14422:\n\tLib/ipaddress.py in Python through 3.8.3 improperly computes hash values in the IPv4Interface and IPv6Interface classes, which might allow a remote attacker to cause a denial of service if an application is affected by the performance of a dictionary containing IPv4Interface or IPv6Interface objects, and this attacker can cause many dictionary entries to be created.\n1854926: CVE-2020-14422 python: DoS via inefficiency in IPv{4,6}Interface classes\n",
+  "packages": [
+    {
+      "name": "python34-tools",
+      "epoch": "0",
+      "version": "3.4.10",
+      "release": "1.52.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/python34-tools-3.4.10-1.52.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "python34-test",
+      "epoch": "0",
+      "version": "3.4.10",
+      "release": "1.52.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/python34-test-3.4.10-1.52.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "python34-debuginfo",
+      "epoch": "0",
+      "version": "3.4.10",
+      "release": "1.52.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/python34-debuginfo-3.4.10-1.52.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "python34-devel",
+      "epoch": "0",
+      "version": "3.4.10",
+      "release": "1.52.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/python34-devel-3.4.10-1.52.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "python34-libs",
+      "epoch": "0",
+      "version": "3.4.10",
+      "release": "1.52.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/python34-libs-3.4.10-1.52.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "python34",
+      "epoch": "0",
+      "version": "3.4.10",
+      "release": "1.52.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/python34-3.4.10-1.52.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "python34-libs",
+      "epoch": "0",
+      "version": "3.4.10",
+      "release": "1.52.amzn1",
+      "arch": "i686",
+      "filename": "Packages/python34-libs-3.4.10-1.52.amzn1.i686.rpm"
+    },
+    {
+      "name": "python34-tools",
+      "epoch": "0",
+      "version": "3.4.10",
+      "release": "1.52.amzn1",
+      "arch": "i686",
+      "filename": "Packages/python34-tools-3.4.10-1.52.amzn1.i686.rpm"
+    },
+    {
+      "name": "python34",
+      "epoch": "0",
+      "version": "3.4.10",
+      "release": "1.52.amzn1",
+      "arch": "i686",
+      "filename": "Packages/python34-3.4.10-1.52.amzn1.i686.rpm"
+    },
+    {
+      "name": "python34-devel",
+      "epoch": "0",
+      "version": "3.4.10",
+      "release": "1.52.amzn1",
+      "arch": "i686",
+      "filename": "Packages/python34-devel-3.4.10-1.52.amzn1.i686.rpm"
+    },
+    {
+      "name": "python34-test",
+      "epoch": "0",
+      "version": "3.4.10",
+      "release": "1.52.amzn1",
+      "arch": "i686",
+      "filename": "Packages/python34-test-3.4.10-1.52.amzn1.i686.rpm"
+    },
+    {
+      "name": "python34-debuginfo",
+      "epoch": "0",
+      "version": "3.4.10",
+      "release": "1.52.amzn1",
+      "arch": "i686",
+      "filename": "Packages/python34-debuginfo-3.4.10-1.52.amzn1.i686.rpm"
+    },
+    {
+      "name": "python35-test",
+      "epoch": "0",
+      "version": "3.5.9",
+      "release": "1.28.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/python35-test-3.5.9-1.28.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "python35-libs",
+      "epoch": "0",
+      "version": "3.5.9",
+      "release": "1.28.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/python35-libs-3.5.9-1.28.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "python35",
+      "epoch": "0",
+      "version": "3.5.9",
+      "release": "1.28.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/python35-3.5.9-1.28.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "python35-tools",
+      "epoch": "0",
+      "version": "3.5.9",
+      "release": "1.28.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/python35-tools-3.5.9-1.28.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "python35-devel",
+      "epoch": "0",
+      "version": "3.5.9",
+      "release": "1.28.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/python35-devel-3.5.9-1.28.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "python35-debuginfo",
+      "epoch": "0",
+      "version": "3.5.9",
+      "release": "1.28.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/python35-debuginfo-3.5.9-1.28.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "python35-tools",
+      "epoch": "0",
+      "version": "3.5.9",
+      "release": "1.28.amzn1",
+      "arch": "i686",
+      "filename": "Packages/python35-tools-3.5.9-1.28.amzn1.i686.rpm"
+    },
+    {
+      "name": "python35",
+      "epoch": "0",
+      "version": "3.5.9",
+      "release": "1.28.amzn1",
+      "arch": "i686",
+      "filename": "Packages/python35-3.5.9-1.28.amzn1.i686.rpm"
+    },
+    {
+      "name": "python35-libs",
+      "epoch": "0",
+      "version": "3.5.9",
+      "release": "1.28.amzn1",
+      "arch": "i686",
+      "filename": "Packages/python35-libs-3.5.9-1.28.amzn1.i686.rpm"
+    },
+    {
+      "name": "python35-debuginfo",
+      "epoch": "0",
+      "version": "3.5.9",
+      "release": "1.28.amzn1",
+      "arch": "i686",
+      "filename": "Packages/python35-debuginfo-3.5.9-1.28.amzn1.i686.rpm"
+    },
+    {
+      "name": "python35-devel",
+      "epoch": "0",
+      "version": "3.5.9",
+      "release": "1.28.amzn1",
+      "arch": "i686",
+      "filename": "Packages/python35-devel-3.5.9-1.28.amzn1.i686.rpm"
+    },
+    {
+      "name": "python35-test",
+      "epoch": "0",
+      "version": "3.5.9",
+      "release": "1.28.amzn1",
+      "arch": "i686",
+      "filename": "Packages/python35-test-3.5.9-1.28.amzn1.i686.rpm"
+    },
+    {
+      "name": "python36-test",
+      "epoch": "0",
+      "version": "3.6.12",
+      "release": "1.19.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/python36-test-3.6.12-1.19.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "python36-devel",
+      "epoch": "0",
+      "version": "3.6.12",
+      "release": "1.19.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/python36-devel-3.6.12-1.19.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "python36",
+      "epoch": "0",
+      "version": "3.6.12",
+      "release": "1.19.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/python36-3.6.12-1.19.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "python36-debuginfo",
+      "epoch": "0",
+      "version": "3.6.12",
+      "release": "1.19.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/python36-debuginfo-3.6.12-1.19.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "python36-debug",
+      "epoch": "0",
+      "version": "3.6.12",
+      "release": "1.19.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/python36-debug-3.6.12-1.19.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "python36-tools",
+      "epoch": "0",
+      "version": "3.6.12",
+      "release": "1.19.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/python36-tools-3.6.12-1.19.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "python36-libs",
+      "epoch": "0",
+      "version": "3.6.12",
+      "release": "1.19.amzn1",
+      "arch": "x86_64",
+      "filename": "Packages/python36-libs-3.6.12-1.19.amzn1.x86_64.rpm"
+    },
+    {
+      "name": "python36-tools",
+      "epoch": "0",
+      "version": "3.6.12",
+      "release": "1.19.amzn1",
+      "arch": "i686",
+      "filename": "Packages/python36-tools-3.6.12-1.19.amzn1.i686.rpm"
+    },
+    {
+      "name": "python36",
+      "epoch": "0",
+      "version": "3.6.12",
+      "release": "1.19.amzn1",
+      "arch": "i686",
+      "filename": "Packages/python36-3.6.12-1.19.amzn1.i686.rpm"
+    },
+    {
+      "name": "python36-debug",
+      "epoch": "0",
+      "version": "3.6.12",
+      "release": "1.19.amzn1",
+      "arch": "i686",
+      "filename": "Packages/python36-debug-3.6.12-1.19.amzn1.i686.rpm"
+    },
+    {
+      "name": "python36-test",
+      "epoch": "0",
+      "version": "3.6.12",
+      "release": "1.19.amzn1",
+      "arch": "i686",
+      "filename": "Packages/python36-test-3.6.12-1.19.amzn1.i686.rpm"
+    },
+    {
+      "name": "python36-libs",
+      "epoch": "0",
+      "version": "3.6.12",
+      "release": "1.19.amzn1",
+      "arch": "i686",
+      "filename": "Packages/python36-libs-3.6.12-1.19.amzn1.i686.rpm"
+    },
+    {
+      "name": "python36-debuginfo",
+      "epoch": "0",
+      "version": "3.6.12",
+      "release": "1.19.amzn1",
+      "arch": "i686",
+      "filename": "Packages/python36-debuginfo-3.6.12-1.19.amzn1.i686.rpm"
+    },
+    {
+      "name": "python36-devel",
+      "epoch": "0",
+      "version": "3.6.12",
+      "release": "1.19.amzn1",
+      "arch": "i686",
+      "filename": "Packages/python36-devel-3.6.12-1.19.amzn1.i686.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14422",
+      "id": "CVE-2020-14422",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2020-14422"
+  ]
+}

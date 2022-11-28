@@ -1,0 +1,132 @@
+{
+  "Title": "Security update for KVM",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:0943-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2013-06-24T20:56:39Z",
+    "CurrentReleaseDate": "2013-06-24T20:56:39Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2013-06-24T20:56:39Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for KVM",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nThis update fixes a file permission issue with qga (the QEMU Guest Agent) \nfrom the qemu/kvm package and includes several bug-fixes.\n\n(bnc#818182) (CVE-2013-2007) (bnc#786813) (bnc#725008) (bnc#712137) \n(bnc#824340)\n\nSecurity Issues:\n\n    * CVE-2013-2007\n      \u003chttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2007\u003e\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "kvm-0.15.1-0.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kvm-0.15.1-0.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kvm-0.15.1-0.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP2",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20150943-1/",
+      "Description": "Link for SUSE-SU-2015:0943-1"
+    },
+    {
+      "URL": "https://lists.opensuse.org/opensuse-security-announce/2015-05/msg00024.html",
+      "Description": "E-Mail link for SUSE-SU-2015:0943-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/712137",
+      "Description": "SUSE Bug 712137"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/725008",
+      "Description": "SUSE Bug 725008"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/786813",
+      "Description": "SUSE Bug 786813"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/818182",
+      "Description": "SUSE Bug 818182"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/824340",
+      "Description": "SUSE Bug 824340"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2013-2007/",
+      "Description": "SUSE CVE CVE-2013-2007 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2013-2007",
+      "Description": "The qemu guest agent in Qemu 1.4.1 and earlier, as used by Xen, when started in daemon mode, uses weak permissions for certain files, which allows local users to read and write to these files.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2013-2007.html",
+          "Description": "CVE-2013-2007"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/818181",
+          "Description": "SUSE Bug 818181"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/818182",
+          "Description": "SUSE Bug 818182"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/818183",
+          "Description": "SUSE Bug 818183"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Server 11 SP2-LTSS:kvm-0.15.1-0.27.1",
+            "SUSE Linux Enterprise Server 11 SP2:kvm-0.15.1-0.27.1",
+            "SUSE Linux Enterprise Server for SAP Applications 11 SP2:kvm-0.15.1-0.27.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

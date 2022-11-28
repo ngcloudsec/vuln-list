@@ -1,0 +1,103 @@
+{
+  "Title": "Recommended update for ntp",
+  "Tracking": {
+    "ID": "SUSE-SU-2015:0259-3",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2011-12-20T21:29:36Z",
+    "CurrentReleaseDate": "2011-12-20T21:29:36Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2011-12-20T21:29:36Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Recommended update for ntp",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nThis update fixes the following issue for ntp:\n\n    * 734467: The post installation script of ntp removes\n      /etc/sysconfig/ntp\n    * 730374: Hardware Clock does not get synchronized\n\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "ntp-4.2.4p8-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ntp-4.2.4p8-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ntp-4.2.4p8-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ntp-4.2.4p8-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ntp-4.2.4p8-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ntp-doc-4.2.4p8-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ntp-doc-4.2.4p8-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ntp-doc-4.2.4p8-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ntp-doc-4.2.4p8-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ntp-doc-4.2.4p8-1.18.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 11 SP1-TERADATA",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2015/suse-su-20150259-3/",
+      "Description": "Link for SUSE-SU-2015:0259-3"
+    },
+    {
+      "URL": "http://lists.opensuse.org/opensuse-security-announce/2015-02/msg00019.html",
+      "Description": "E-Mail link for SUSE-SU-2015:0259-3"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    }
+  ],
+  "Vulnerabilities": null
+}

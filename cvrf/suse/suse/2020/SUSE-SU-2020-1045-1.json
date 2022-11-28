@@ -1,0 +1,526 @@
+{
+  "Title": "Security update for cups",
+  "Tracking": {
+    "ID": "SUSE-SU-2020:1045-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2020-04-23T09:32:47Z",
+    "CurrentReleaseDate": "2020-04-23T09:32:47Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2020-04-23T09:32:47Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for cups",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for cups fixes the following issues:\n\n- CVE-2020-3898: Fixed a heap buffer overflow in ppdFindOption() (bsc#1168422).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "cups-1.7.5-20.29.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-client-1.7.5-20.29.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-1.7.5-20.29.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-32bit-1.7.5-20.29.1",
+        "RelatesToProductReference": "HPE Helion Openstack 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-client-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-32bit-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-client-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-32bit-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-client-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-32bit-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE OpenStack Cloud Crowbar 8",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-client-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-32bit-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-client-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-32bit-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-client-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-32bit-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-ddk-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-devel-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-ddk-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-devel-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Software Development Kit 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-client-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-32bit-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-client-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-32bit-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-client-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-32bit-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-client-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-32bit-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-client-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-32bit-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP3-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-client-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-32bit-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-client-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-32bit-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-client-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-32bit-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-client-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-32bit-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-client-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "cups-libs-32bit-1.7.5-20.29.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2020/suse-su-20201045-1/",
+      "Description": "Link for SUSE-SU-2020:1045-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2020-April/006730.html",
+      "Description": "E-Mail link for SUSE-SU-2020:1045-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1168422",
+      "Description": "SUSE Bug 1168422"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2020-3898/",
+      "Description": "SUSE CVE CVE-2020-3898 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2020-3898",
+      "Description": "A memory corruption issue was addressed with improved validation. This issue is fixed in macOS Catalina 10.15.4. An application may be able to gain elevated privileges.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2020-3898.html",
+          "Description": "CVE-2020-3898"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1168422",
+          "Description": "SUSE Bug 1168422"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1170671",
+          "Description": "SUSE Bug 1170671"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "HPE Helion Openstack 8:cups-1.7.5-20.29.1",
+            "HPE Helion Openstack 8:cups-client-1.7.5-20.29.1",
+            "HPE Helion Openstack 8:cups-libs-1.7.5-20.29.1",
+            "HPE Helion Openstack 8:cups-libs-32bit-1.7.5-20.29.1",
+            "SUSE Enterprise Storage 5:cups-1.7.5-20.29.1",
+            "SUSE Enterprise Storage 5:cups-client-1.7.5-20.29.1",
+            "SUSE Enterprise Storage 5:cups-libs-1.7.5-20.29.1",
+            "SUSE Enterprise Storage 5:cups-libs-32bit-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP1-LTSS:cups-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP1-LTSS:cups-client-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP1-LTSS:cups-libs-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP1-LTSS:cups-libs-32bit-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:cups-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:cups-client-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:cups-libs-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP2-BCL:cups-libs-32bit-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:cups-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:cups-client-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:cups-libs-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP2-LTSS:cups-libs-32bit-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:cups-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:cups-client-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:cups-libs-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP3-BCL:cups-libs-32bit-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:cups-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:cups-client-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:cups-libs-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP3-LTSS:cups-libs-32bit-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP4:cups-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP4:cups-client-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP4:cups-libs-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP4:cups-libs-32bit-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP5:cups-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP5:cups-client-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP5:cups-libs-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server 12 SP5:cups-libs-32bit-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP1:cups-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP1:cups-client-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP1:cups-libs-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP1:cups-libs-32bit-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:cups-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:cups-client-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:cups-libs-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP2:cups-libs-32bit-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:cups-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:cups-client-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:cups-libs-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP3:cups-libs-32bit-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:cups-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:cups-client-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:cups-libs-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP4:cups-libs-32bit-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:cups-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:cups-client-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:cups-libs-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Server for SAP Applications 12 SP5:cups-libs-32bit-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Software Development Kit 12 SP4:cups-ddk-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Software Development Kit 12 SP4:cups-devel-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:cups-ddk-1.7.5-20.29.1",
+            "SUSE Linux Enterprise Software Development Kit 12 SP5:cups-devel-1.7.5-20.29.1",
+            "SUSE OpenStack Cloud 7:cups-1.7.5-20.29.1",
+            "SUSE OpenStack Cloud 7:cups-client-1.7.5-20.29.1",
+            "SUSE OpenStack Cloud 7:cups-libs-1.7.5-20.29.1",
+            "SUSE OpenStack Cloud 7:cups-libs-32bit-1.7.5-20.29.1",
+            "SUSE OpenStack Cloud 8:cups-1.7.5-20.29.1",
+            "SUSE OpenStack Cloud 8:cups-client-1.7.5-20.29.1",
+            "SUSE OpenStack Cloud 8:cups-libs-1.7.5-20.29.1",
+            "SUSE OpenStack Cloud 8:cups-libs-32bit-1.7.5-20.29.1",
+            "SUSE OpenStack Cloud Crowbar 8:cups-1.7.5-20.29.1",
+            "SUSE OpenStack Cloud Crowbar 8:cups-client-1.7.5-20.29.1",
+            "SUSE OpenStack Cloud Crowbar 8:cups-libs-1.7.5-20.29.1",
+            "SUSE OpenStack Cloud Crowbar 8:cups-libs-32bit-1.7.5-20.29.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

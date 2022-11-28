@@ -1,0 +1,511 @@
+{
+  "Title": "Security update for curl",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:2327-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-07-07T13:06:19Z",
+    "CurrentReleaseDate": "2022-07-07T13:06:19Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-07-07T13:06:19Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for curl",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for curl fixes the following issues:\n\n- CVE-2022-32206: HTTP compression denial of service (bsc#1200735)\n- CVE-2022-32208: FTP-KRB bad message verification (bsc#1200737)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "Container bci/bci-init:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "Container bci/node:12",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "Container suse/sle15:15.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "Container suse/sle15:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-32bit-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-7.66.0-150200.4.36.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20222327-1/",
+      "Description": "Link for SUSE-SU-2022:2327-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-July/011473.html",
+      "Description": "E-Mail link for SUSE-SU-2022:2327-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1200735",
+      "Description": "SUSE Bug 1200735"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1200737",
+      "Description": "SUSE Bug 1200737"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-32206/",
+      "Description": "SUSE CVE CVE-2022-32206 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-32208/",
+      "Description": "SUSE CVE CVE-2022-32208 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-32206",
+      "Description": "curl \u003c 7.84.0 supports \"chained\" HTTP compression algorithms, meaning that a serverresponse can be compressed multiple times and potentially with different algorithms. The number of acceptable \"links\" in this \"decompression chain\" was unbounded, allowing a malicious server to insert a virtually unlimited number of compression steps.The use of such a decompression chain could result in a \"malloc bomb\", makingcurl end up spending enormous amounts of allocated heap memory, or trying toand returning out of memory errors.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-32206.html",
+          "Description": "CVE-2022-32206"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200735",
+          "Description": "SUSE Bug 1200735"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:15.3:libcurl4-7.66.0-150200.4.36.1",
+            "Container bci/node:12:libcurl4-7.66.0-150200.4.36.1",
+            "Container bci/python:3:curl-7.66.0-150200.4.36.1",
+            "Container bci/python:3:libcurl4-7.66.0-150200.4.36.1",
+            "Container suse/sle15:15.2:libcurl4-7.66.0-150200.4.36.1",
+            "Container suse/sle15:15.3:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Enterprise Storage 7:curl-7.66.0-150200.4.36.1",
+            "SUSE Enterprise Storage 7:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Enterprise Storage 7:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Enterprise Storage 7:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:curl-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:curl-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Micro 5.1:curl-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Micro 5.1:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Micro 5.2:curl-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Micro 5.2:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:curl-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:curl-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:curl-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:curl-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Manager Proxy 4.1:curl-7.66.0-150200.4.36.1",
+            "SUSE Manager Proxy 4.1:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Manager Proxy 4.1:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Manager Proxy 4.1:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Manager Retail Branch Server 4.1:curl-7.66.0-150200.4.36.1",
+            "SUSE Manager Retail Branch Server 4.1:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Manager Retail Branch Server 4.1:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Manager Retail Branch Server 4.1:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Manager Server 4.1:curl-7.66.0-150200.4.36.1",
+            "SUSE Manager Server 4.1:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Manager Server 4.1:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Manager Server 4.1:libcurl4-7.66.0-150200.4.36.1",
+            "openSUSE Leap 15.3:curl-7.66.0-150200.4.36.1",
+            "openSUSE Leap 15.3:libcurl-devel-32bit-7.66.0-150200.4.36.1",
+            "openSUSE Leap 15.3:libcurl-devel-7.66.0-150200.4.36.1",
+            "openSUSE Leap 15.3:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "openSUSE Leap 15.3:libcurl4-7.66.0-150200.4.36.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-32208",
+      "Description": "When curl \u003c 7.84.0 does FTP transfers secured by krb5, it handles message verification failures wrongly. This flaw makes it possible for a Man-In-The-Middle attack to go unnoticed and even allows it to inject data to the client.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-32208.html",
+          "Description": "CVE-2022-32208"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1200737",
+          "Description": "SUSE Bug 1200737"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:15.3:libcurl4-7.66.0-150200.4.36.1",
+            "Container bci/node:12:libcurl4-7.66.0-150200.4.36.1",
+            "Container bci/python:3:curl-7.66.0-150200.4.36.1",
+            "Container bci/python:3:libcurl4-7.66.0-150200.4.36.1",
+            "Container suse/sle15:15.2:libcurl4-7.66.0-150200.4.36.1",
+            "Container suse/sle15:15.3:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Enterprise Storage 7:curl-7.66.0-150200.4.36.1",
+            "SUSE Enterprise Storage 7:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Enterprise Storage 7:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Enterprise Storage 7:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:curl-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:curl-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Micro 5.1:curl-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Micro 5.1:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Micro 5.2:curl-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Micro 5.2:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:curl-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:curl-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:curl-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:curl-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Manager Proxy 4.1:curl-7.66.0-150200.4.36.1",
+            "SUSE Manager Proxy 4.1:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Manager Proxy 4.1:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Manager Proxy 4.1:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Manager Retail Branch Server 4.1:curl-7.66.0-150200.4.36.1",
+            "SUSE Manager Retail Branch Server 4.1:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Manager Retail Branch Server 4.1:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Manager Retail Branch Server 4.1:libcurl4-7.66.0-150200.4.36.1",
+            "SUSE Manager Server 4.1:curl-7.66.0-150200.4.36.1",
+            "SUSE Manager Server 4.1:libcurl-devel-7.66.0-150200.4.36.1",
+            "SUSE Manager Server 4.1:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "SUSE Manager Server 4.1:libcurl4-7.66.0-150200.4.36.1",
+            "openSUSE Leap 15.3:curl-7.66.0-150200.4.36.1",
+            "openSUSE Leap 15.3:libcurl-devel-32bit-7.66.0-150200.4.36.1",
+            "openSUSE Leap 15.3:libcurl-devel-7.66.0-150200.4.36.1",
+            "openSUSE Leap 15.3:libcurl4-32bit-7.66.0-150200.4.36.1",
+            "openSUSE Leap 15.3:libcurl4-7.66.0-150200.4.36.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

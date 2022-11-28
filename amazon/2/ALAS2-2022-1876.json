@@ -1,0 +1,262 @@
+{
+  "id": "ALAS2-2022-1876",
+  "title": "Amazon Linux 2 2017.12 - ALAS2-2022-1876: important priority package update for kernel",
+  "issued": {
+    "date": "2022-10-31 19:40"
+  },
+  "updated": {
+    "date": "2022-11-10 19:08"
+  },
+  "severity": "important",
+  "description": "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2022-40768:\n\tdrivers/scsi/stex.c in the Linux kernel through 5.19.9 allows local users to obtain sensitive information from kernel memory because stex_queuecommand_lck lacks a memset for the PASSTHRU_CMD case.\n\nCVE-2022-39842:\n\tAn issue was discovered in the Linux kernel before 5.19. In pxa3xx_gcu_write in drivers/video/fbdev/pxa3xx-gcu.c, the count parameter has a type conflict of size_t versus int, causing an integer overflow and bypassing the size check. After that, because it is used as the third argument to copy_from_user(), a heap overflow may occur.\n\nCVE-2022-3649:\n\tA vulnerability was found in Linux Kernel. It has been classified as problematic. Affected is the function nilfs_new_inode of the file fs/nilfs2/inode.c of the component BPF. The manipulation leads to use after free. It is possible to launch the attack remotely. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-211992.\n\nCVE-2022-3646:\n\tA vulnerability, which was classified as problematic, has been found in Linux Kernel. This issue affects the function nilfs_attach_log_writer of the file fs/nilfs2/segment.c of the component BPF. The manipulation leads to memory leak. The attack may be initiated remotely. It is recommended to apply a patch to fix this issue. The identifier VDB-211961 was assigned to this vulnerability.\n\nCVE-2022-3621:\n\tA vulnerability was found in Linux Kernel. It has been classified as problematic. Affected is the function nilfs_bmap_lookup_at_level of the file fs/nilfs2/inode.c of the component nilfs2. The manipulation leads to null pointer dereference. It is possible to launch the attack remotely. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-211920.\n\nCVE-2022-3594:\n\tA vulnerability was found in Linux Kernel. It has been declared as problematic. Affected by this vulnerability is the function intr_callback of the file drivers/net/usb/r8152.c of the component BPF. The manipulation leads to logging of excessive data. The attack can be launched remotely. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-211363.\n",
+  "packages": [
+    {
+      "name": "kernel",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-4.14.296-222.539.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "kernel-headers",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-headers-4.14.296-222.539.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "kernel-debuginfo-common-x86_64",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-debuginfo-common-x86_64-4.14.296-222.539.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "perf",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/perf-4.14.296-222.539.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "perf-debuginfo",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/perf-debuginfo-4.14.296-222.539.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "python-perf",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/python-perf-4.14.296-222.539.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "python-perf-debuginfo",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/python-perf-debuginfo-4.14.296-222.539.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "kernel-tools",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-tools-4.14.296-222.539.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "kernel-tools-devel",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-tools-devel-4.14.296-222.539.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "kernel-tools-debuginfo",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-tools-debuginfo-4.14.296-222.539.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "kernel-devel",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-devel-4.14.296-222.539.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "kernel-debuginfo",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-debuginfo-4.14.296-222.539.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "kernel-livepatch-4.14.296-222.539",
+      "epoch": "0",
+      "version": "1.0",
+      "release": "0.amzn2",
+      "arch": "x86_64",
+      "filename": "Packages/kernel-livepatch-4.14.296-222.539-1.0-0.amzn2.x86_64.rpm"
+    },
+    {
+      "name": "kernel-headers",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "i686",
+      "filename": "Packages/kernel-headers-4.14.296-222.539.amzn2.i686.rpm"
+    },
+    {
+      "name": "kernel",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/kernel-4.14.296-222.539.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "kernel-headers",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/kernel-headers-4.14.296-222.539.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "kernel-debuginfo-common-aarch64",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/kernel-debuginfo-common-aarch64-4.14.296-222.539.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "perf",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/perf-4.14.296-222.539.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "perf-debuginfo",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/perf-debuginfo-4.14.296-222.539.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "python-perf",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/python-perf-4.14.296-222.539.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "python-perf-debuginfo",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/python-perf-debuginfo-4.14.296-222.539.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "kernel-tools",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/kernel-tools-4.14.296-222.539.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "kernel-tools-devel",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/kernel-tools-devel-4.14.296-222.539.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "kernel-tools-debuginfo",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/kernel-tools-debuginfo-4.14.296-222.539.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "kernel-devel",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/kernel-devel-4.14.296-222.539.amzn2.aarch64.rpm"
+    },
+    {
+      "name": "kernel-debuginfo",
+      "epoch": "0",
+      "version": "4.14.296",
+      "release": "222.539.amzn2",
+      "arch": "aarch64",
+      "filename": "Packages/kernel-debuginfo-4.14.296-222.539.amzn2.aarch64.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3594",
+      "id": "CVE-2022-3594",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3621",
+      "id": "CVE-2022-3621",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3646",
+      "id": "CVE-2022-3646",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3649",
+      "id": "CVE-2022-3649",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-39842",
+      "id": "CVE-2022-39842",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40768",
+      "id": "CVE-2022-40768",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2022-3594",
+    "CVE-2022-3621",
+    "CVE-2022-3646",
+    "CVE-2022-3649",
+    "CVE-2022-39842",
+    "CVE-2022-40768"
+  ]
+}

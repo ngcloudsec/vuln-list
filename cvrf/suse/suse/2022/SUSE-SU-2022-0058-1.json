@@ -1,0 +1,151 @@
+{
+  "Title": "Security update for MozillaThunderbird",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:0058-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-01-12T08:20:26Z",
+    "CurrentReleaseDate": "2022-01-12T08:20:26Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-01-12T08:20:26Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for MozillaThunderbird",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for MozillaThunderbird fixes the following issues:\n\n- Mozilla Thunderbird 91.4.1\n- CVE-2021-4126: OpenPGP signature status doesn't consider additional message content. (bsc#1194215)\n- CVE-2021-44538: Matrix chat library libolm bundled with Thunderbird vulnerable to a buffer overflow. (bsc#1194020)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "MozillaThunderbird-91.4.1-8.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Workstation Extension 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaThunderbird-translations-common-91.4.1-8.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Workstation Extension 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "MozillaThunderbird-translations-other-91.4.1-8.48.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Workstation Extension 15 SP3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20220058-1/",
+      "Description": "Link for SUSE-SU-2022:0058-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-January/009996.html",
+      "Description": "E-Mail link for SUSE-SU-2022:0058-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1194020",
+      "Description": "SUSE Bug 1194020"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1194215",
+      "Description": "SUSE Bug 1194215"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2021-4126/",
+      "Description": "SUSE CVE CVE-2021-4126 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2021-44538/",
+      "Description": "SUSE CVE CVE-2021-44538 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2021-4126",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2021-4126.html",
+          "Description": "CVE-2021-4126"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1194215",
+          "Description": "SUSE Bug 1194215"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Workstation Extension 15 SP3:MozillaThunderbird-91.4.1-8.48.1",
+            "SUSE Linux Enterprise Workstation Extension 15 SP3:MozillaThunderbird-translations-common-91.4.1-8.48.1",
+            "SUSE Linux Enterprise Workstation Extension 15 SP3:MozillaThunderbird-translations-other-91.4.1-8.48.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2021-44538",
+      "Description": "The olm_session_describe function in Matrix libolm before 3.2.7 is vulnerable to a buffer overflow. The Olm session object represents a cryptographic channel between two parties. Therefore, its state is partially controllable by the remote party of the channel. Attackers can construct a crafted sequence of messages to manipulate the state of the receiver's session in such a way that, for some buffer sizes, a buffer overflow happens on a call to olm_session_describe. Furthermore, safe buffer sizes were undocumented. The overflow content is partially controllable by the attacker and limited to ASCII spaces and digits. The known affected products are Element Web And SchildiChat Web.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2021-44538.html",
+          "Description": "CVE-2021-44538"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1194020",
+          "Description": "SUSE Bug 1194020"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1194215",
+          "Description": "SUSE Bug 1194215"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Linux Enterprise Workstation Extension 15 SP3:MozillaThunderbird-91.4.1-8.48.1",
+            "SUSE Linux Enterprise Workstation Extension 15 SP3:MozillaThunderbird-translations-common-91.4.1-8.48.1",
+            "SUSE Linux Enterprise Workstation Extension 15 SP3:MozillaThunderbird-translations-other-91.4.1-8.48.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}
