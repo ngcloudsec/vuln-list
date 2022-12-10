@@ -15332,6 +15332,62 @@
   },
   {
     "Architecture": [
+      "all"
+    ],
+    "Binary": [
+      "libhsqldb-java, libhsqldb-java-doc, hsqldb-utils"
+    ],
+    "Build-Depends": [
+      "ant, debhelper (\u003e= 11), default-jdk, javahelper, libservlet3.1-java, maven-repo-helper"
+    ],
+    "Checksums-Sha256": [
+      "e7c57918da382e59557e630ae8b9a0aad175d290b47a6f5a87e5345fbc60c559 2264 hsqldb_2.4.1-2+deb10u1.dsc 250ec3165909ad8828745f492745bd0971b08d56e92c18021802e9c510ecd385 3439220 hsqldb_2.4.1.orig.tar.xz 3ca9e81879b0069d41c3be3b936acb186ee9d14d7b73153dc4b911e69661097f 11860 hsqldb_2.4.1-2+deb10u1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/main/h/hsqldb"
+    ],
+    "Files": [
+      "948503d612470ad4fdfe08b1ed1f2541 2264 hsqldb_2.4.1-2+deb10u1.dsc 43dcaf94f55df5ce138105e94586ea64 3439220 hsqldb_2.4.1.orig.tar.xz 64de275c8594b82369ad477a77336457 11860 hsqldb_2.4.1-2+deb10u1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "http://hsqldb.org/"
+    ],
+    "Maintainer": [
+      "Debian Java Maintainers \u003cpkg-java-maintainers@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "hsqldb"
+    ],
+    "Package-List": [
+      "hsqldb-utils deb database optional arch=all libhsqldb-java deb java optional arch=all libhsqldb-java-doc deb doc optional arch=all"
+    ],
+    "Priority": [
+      "extra"
+    ],
+    "Section": [
+      "libs"
+    ],
+    "Standards-Version": [
+      "4.2.1"
+    ],
+    "Uploaders": [
+      "Markus Koschany \u003capo@debian.org\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/java-team/hsqldb"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/java-team/hsqldb.git"
+    ],
+    "Version": [
+      "2.4.1-2+deb10u1"
+    ]
+  },
+  {
+    "Architecture": [
       "any all"
     ],
     "Binary": [
