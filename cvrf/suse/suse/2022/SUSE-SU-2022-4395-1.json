@@ -1,0 +1,1178 @@
+{
+  "Title": "Security update for samba",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:4395-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-12-09T10:03:00Z",
+    "CurrentReleaseDate": "2022-12-09T10:03:00Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-12-09T10:03:00Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for samba",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for samba fixes the following issues:\n\nVersion update to 4.15.12.\n\nSecurity issues fixed:\n\n- CVE-2022-2031: Fixed AD users that could have bypassed certain restrictions associated with changing passwords (bsc#1201495).\n- CVE-2022-32742: Fixed SMB1 code that does not correctly verify SMB1write, SMB1write_and_close, SMB1write_and_unlock lengths (bsc#1201496).\n- CVE-2022-32744: Fixed AD users that could have forged password change requests for any user (bsc#1201493).\n- CVE-2022-32745: Fixed AD users that could have crashed the server process with an LDAP add or modify request (bsc#1201492).\n- CVE-2022-32746: Fixed a use-after-free occurring in database audit logging (bsc#1201490).\n- CVE-2022-3437: Fixed buffer overflow in Heimdal unwrap_des3() (bsc#1204254).\n- CVE-2022-42898: Fixed Samba buffer overflow vulnerabilities on 32-bit systems (bsc#1205126).\n\nBug fixes:\n\n- Install a systemd drop-in file for named service to allow read/write access to the DLZ directory (bsc#1201689).\n- Possible use after free of connection_struct when iterating smbd_server_connection-\u003econnections (bsc#1200102).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libsamba-policy-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-policy-python3-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-policy0-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-ad-dc-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-ad-dc-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-devel-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-dsdb-modules-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-gpupdate-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-ldb-ldap-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-tool-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-ad-dc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 2 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Availability 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ctdb-pcp-pmda-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-policy-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-policy-python3-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-policy0-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-policy0-python3-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsamba-policy0-python3-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-ad-dc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-ad-dc-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-ad-dc-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-client-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-devel-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-doc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-dsdb-modules-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-gpupdate-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-ldb-ldap-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-python3-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-libs-python3-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-test-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-tool-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "samba-winbind-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20224395-1/",
+      "Description": "Link for SUSE-SU-2022:4395-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-December/013212.html",
+      "Description": "E-Mail link for SUSE-SU-2022:4395-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1200102",
+      "Description": "SUSE Bug 1200102"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1201490",
+      "Description": "SUSE Bug 1201490"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1201492",
+      "Description": "SUSE Bug 1201492"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1201493",
+      "Description": "SUSE Bug 1201493"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1201495",
+      "Description": "SUSE Bug 1201495"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1201496",
+      "Description": "SUSE Bug 1201496"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1201689",
+      "Description": "SUSE Bug 1201689"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1204254",
+      "Description": "SUSE Bug 1204254"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1205126",
+      "Description": "SUSE Bug 1205126"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-2031/",
+      "Description": "SUSE CVE CVE-2022-2031 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-32742/",
+      "Description": "SUSE CVE CVE-2022-32742 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-32744/",
+      "Description": "SUSE CVE CVE-2022-32744 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-32745/",
+      "Description": "SUSE CVE CVE-2022-32745 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-32746/",
+      "Description": "SUSE CVE CVE-2022-32746 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-3437/",
+      "Description": "SUSE CVE CVE-2022-3437 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-42898/",
+      "Description": "SUSE CVE CVE-2022-42898 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-2031",
+      "Description": "A flaw was found in Samba. The security vulnerability occurs when KDC and the kpasswd service share a single account and set of keys, allowing them to decrypt each other's tickets. A user who has been requested to change their password, can exploit this flaw to obtain and use tickets to other services.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-2031.html",
+          "Description": "CVE-2022-2031"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201495",
+          "Description": "SUSE Bug 1201495"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1202815",
+          "Description": "SUSE Bug 1202815"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1202999",
+          "Description": "SUSE Bug 1202999"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1205061",
+          "Description": "SUSE Bug 1205061"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise High Availability 15 SP3:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Micro 5.2:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy-python3-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy0-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ad-dc-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ad-dc-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-devel-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-dsdb-modules-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-gpupdate-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ldb-ldap-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-tool-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP3:samba-ad-dc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:ctdb-pcp-pmda-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy-python3-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-devel-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-doc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-dsdb-modules-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-gpupdate-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ldb-ldap-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-test-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-tool-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap Micro 5.2:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-32742",
+      "Description": "A flaw was found in Samba. Some SMB1 write requests were not correctly range-checked to ensure the client had sent enough data to fulfill the write, allowing server memory contents to be written into the file (or printer) instead of client-supplied data. The client cannot control the area of the server memory written to the file (or printer).",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-32742.html",
+          "Description": "CVE-2022-32742"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1202815",
+          "Description": "SUSE Bug 1202815"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise High Availability 15 SP3:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Micro 5.2:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy-python3-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy0-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ad-dc-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ad-dc-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-devel-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-dsdb-modules-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-gpupdate-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ldb-ldap-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-tool-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP3:samba-ad-dc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:ctdb-pcp-pmda-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy-python3-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-devel-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-doc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-dsdb-modules-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-gpupdate-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ldb-ldap-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-test-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-tool-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap Micro 5.2:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-32744",
+      "Description": "A flaw was found in Samba. The KDC accepts kpasswd requests encrypted with any key known to it. By encrypting forged kpasswd requests with its own key, a user can change other users' passwords, enabling full domain takeover.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-32744.html",
+          "Description": "CVE-2022-32744"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201493",
+          "Description": "SUSE Bug 1201493"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1202815",
+          "Description": "SUSE Bug 1202815"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise High Availability 15 SP3:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Micro 5.2:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy-python3-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy0-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ad-dc-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ad-dc-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-devel-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-dsdb-modules-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-gpupdate-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ldb-ldap-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-tool-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP3:samba-ad-dc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:ctdb-pcp-pmda-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy-python3-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-devel-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-doc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-dsdb-modules-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-gpupdate-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ldb-ldap-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-test-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-tool-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap Micro 5.2:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-32745",
+      "Description": "A flaw was found in Samba. Samba AD users can cause the server to access uninitialized data with an LDAP add or modify the request, usually resulting in a segmentation fault.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-32745.html",
+          "Description": "CVE-2022-32745"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201492",
+          "Description": "SUSE Bug 1201492"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise High Availability 15 SP3:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Micro 5.2:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy-python3-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy0-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ad-dc-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ad-dc-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-devel-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-dsdb-modules-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-gpupdate-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ldb-ldap-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-tool-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP3:samba-ad-dc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:ctdb-pcp-pmda-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy-python3-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-devel-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-doc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-dsdb-modules-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-gpupdate-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ldb-ldap-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-test-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-tool-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap Micro 5.2:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-32746",
+      "Description": "A flaw was found in the Samba AD LDAP server. The AD DC database audit logging module can access LDAP message values freed by a preceding database module, resulting in a use-after-free issue. This issue is only possible when modifying certain privileged attributes, such as userAccountControl.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-32746.html",
+          "Description": "CVE-2022-32746"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1201490",
+          "Description": "SUSE Bug 1201490"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise High Availability 15 SP3:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Micro 5.2:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy-python3-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy0-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ad-dc-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ad-dc-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-devel-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-dsdb-modules-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-gpupdate-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ldb-ldap-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-tool-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP3:samba-ad-dc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:ctdb-pcp-pmda-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy-python3-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-devel-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-doc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-dsdb-modules-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-gpupdate-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ldb-ldap-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-test-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-tool-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap Micro 5.2:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-3437",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-3437.html",
+          "Description": "CVE-2022-3437"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1204254",
+          "Description": "SUSE Bug 1204254"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1205667",
+          "Description": "SUSE Bug 1205667"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise High Availability 15 SP3:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Micro 5.2:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy-python3-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy0-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ad-dc-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ad-dc-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-devel-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-dsdb-modules-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-gpupdate-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ldb-ldap-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-tool-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP3:samba-ad-dc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:ctdb-pcp-pmda-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy-python3-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-devel-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-doc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-dsdb-modules-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-gpupdate-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ldb-ldap-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-test-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-tool-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap Micro 5.2:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-42898",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-42898.html",
+          "Description": "CVE-2022-42898"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1205126",
+          "Description": "SUSE Bug 1205126"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1205667",
+          "Description": "SUSE Bug 1205667"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Enterprise Storage 7.1:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise High Availability 15 SP3:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Micro 5.2:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy-python3-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:libsamba-policy0-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ad-dc-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ad-dc-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-devel-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-dsdb-modules-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-gpupdate-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-ldb-ldap-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-tool-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP3:samba-winbind-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "SUSE Linux Enterprise Module for Python 2 15 SP3:samba-ad-dc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:ctdb-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:ctdb-pcp-pmda-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy-python3-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:libsamba-policy0-python3-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ad-dc-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ceph-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-devel-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-devel-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-doc-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-dsdb-modules-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-gpupdate-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-ldb-ldap-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-libs-python3-64bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-python3-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-test-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-tool-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-libs-32bit-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap 15.3:samba-winbind-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1",
+            "openSUSE Leap Micro 5.2:samba-client-libs-4.15.12+git.535.7750e5c95ef-150300.3.43.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}
