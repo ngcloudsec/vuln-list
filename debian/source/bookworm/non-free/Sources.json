@@ -10910,16 +10910,16 @@
       "nvidia-tesla-450-driver, nvidia-tesla-450-alternative, nvidia-tesla-450-kernel-support, nvidia-tesla-450-kernel-dkms, nvidia-tesla-450-kernel-source, xserver-xorg-video-nvidia-tesla-450, nvidia-tesla-450-driver-bin, libnvidia-tesla-450-cfg1, nvidia-tesla-450-driver-libs, libglx-nvidia-tesla-450-0, libgl1-nvidia-tesla-450-glvnd-glx, libnvidia-tesla-450-glcore, libegl-nvidia-tesla-450-0, libgles-nvidia-tesla-450-1, libgles-nvidia-tesla-450-2, libnvidia-tesla-450-eglcore, nvidia-tesla-450-egl-icd, nvidia-tesla-450-vdpau-driver, nvidia-tesla-450-vulkan-icd, libnvidia-tesla-450-glvkspirv, libnvidia-tesla-450-cbl, libnvidia-tesla-450-rtcore, nvidia-tesla-450-smi, libnvidia-tesla-450-ml1, libnvidia-tesla-450-cuda1, libnvidia-tesla-450-compiler, libnvidia-tesla-450-ptxjitcompiler1, libnvidia-tesla-450-nvcuvid1, libnvidia-tesla-450-encode1, libnvidia-tesla-450-ifr1, libnvidia-tesla-450-fbc1, libnvidia-tesla-450-nvoptix1, libnvidia-tesla-450-opticalflow1, libnvidia-tesla-450-allocator1, libnvidia-tesla-450-ngx1, nvidia-tesla-450-opencl-icd"
     ],
     "Build-Depends": [
-      "debhelper-compat (= 13), dh-sequence-dkms, dh-exec, libvulkan1 (\u003e= 1.0.42), libxext6, po-debconf, quilt, xz-utils, libglvnd-dev"
+      "debhelper-compat (= 13), dh-sequence-dkms, dh-exec, libvulkan1 (\u003e= 1.0.42), libxext6, po-debconf, quilt, xz-utils, linux-headers-amd64 [amd64] \u003c!nocheck\u003e, linux-headers-arm64 [arm64] \u003c!nocheck\u003e, linux-headers-powerpc64le [ppc64el] \u003c!nocheck\u003e, libglvnd-dev"
     ],
     "Checksums-Sha256": [
-      "e293124a85e0aafa6b841b5439b5f0b8b4f45c08ab55f0c901de4475bd747b15 7799 nvidia-graphics-drivers-tesla-450_450.203.03-2.dsc 5c13523914b300bd3253764b84ef076e1955708d3418ba00d75493df3a0f5bf3 141913350 nvidia-graphics-drivers-tesla-450_450.203.03.orig-amd64.tar.gz ae2f514090328b02c8bddd53eb53d1c3b718b5bfdac3a4c58c66af8634ffd028 80530082 nvidia-graphics-drivers-tesla-450_450.203.03.orig-arm64.tar.gz c33c91c843a3644582ec89c1492d72bba2733544b9de46505ea21b8db0553f42 40950888 nvidia-graphics-drivers-tesla-450_450.203.03.orig-ppc64el.tar.gz 8325e9224d5c59e24f6e87e3fc3b20b01c8b975b1780fa92af977bf94d2fe27e 140 nvidia-graphics-drivers-tesla-450_450.203.03.orig.tar.gz 36c1ca74a90ba041c09de80813483bb5f7c8bd7f25c1e2cea9f2a4d9ac333b33 205748 nvidia-graphics-drivers-tesla-450_450.203.03-2.debian.tar.xz"
+      "a24f1ff385886d0ca890f8d825bfbb262d9e98a1bf58c94a921c174089b63e46 7936 nvidia-graphics-drivers-tesla-450_450.216.04-1.dsc ed7918b2fef58252378e4aa6acc27bffaea6cffd109ebff7ec5dfdfef6424c56 141693624 nvidia-graphics-drivers-tesla-450_450.216.04.orig-amd64.tar.gz b859ba38bf8e6550c5bc472d3c457e5834b74caa01dc2d7068e19c2a0ddaab6a 80547450 nvidia-graphics-drivers-tesla-450_450.216.04.orig-arm64.tar.gz da6bff9f799646863a6eb4b61d7072de73460a0ab2c0b54fa5b99bbcdece867e 41034894 nvidia-graphics-drivers-tesla-450_450.216.04.orig-ppc64el.tar.gz db0230cc1ca29efdd78fe862d1821b4afd13bd7c9fac960d624d5505db58384f 140 nvidia-graphics-drivers-tesla-450_450.216.04.orig.tar.gz 5238bdbf1edf7daded77480295ae5ce4ba941fb52fd286e2b2c6501b1377dc83 201380 nvidia-graphics-drivers-tesla-450_450.216.04-1.debian.tar.xz"
     ],
     "Directory": [
       "pool/non-free/n/nvidia-graphics-drivers-tesla-450"
     ],
     "Files": [
-      "fd7b24a9d279cccd314b1dd7c8c2b8d3 7799 nvidia-graphics-drivers-tesla-450_450.203.03-2.dsc 3e4158d2a09577adc9dba5824d4436f8 141913350 nvidia-graphics-drivers-tesla-450_450.203.03.orig-amd64.tar.gz 8507e3cc4659311bf3a074b5d878fa83 80530082 nvidia-graphics-drivers-tesla-450_450.203.03.orig-arm64.tar.gz d1ec2de96a3c0d31ee384dc9b2808696 40950888 nvidia-graphics-drivers-tesla-450_450.203.03.orig-ppc64el.tar.gz 24dbab2dc140d01d64925e23534f4b69 140 nvidia-graphics-drivers-tesla-450_450.203.03.orig.tar.gz 65d85b354b204061e21c0aae2e2838f2 205748 nvidia-graphics-drivers-tesla-450_450.203.03-2.debian.tar.xz"
+      "af668653beb01cd169c31a844a199dcc 7936 nvidia-graphics-drivers-tesla-450_450.216.04-1.dsc c926be2c06bff1246ddb3460aa2c8901 141693624 nvidia-graphics-drivers-tesla-450_450.216.04.orig-amd64.tar.gz 23c039e95c30bdd45e4a5ff7b0a3b716 80547450 nvidia-graphics-drivers-tesla-450_450.216.04.orig-arm64.tar.gz 97009f35817af549d8bec52c9863ffbe 41034894 nvidia-graphics-drivers-tesla-450_450.216.04.orig-ppc64el.tar.gz 177953e80f65164b24e3db42976193cf 140 nvidia-graphics-drivers-tesla-450_450.216.04.orig.tar.gz e8259ba47c445dec1c0eaf9de589f32e 201380 nvidia-graphics-drivers-tesla-450_450.216.04-1.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -10949,7 +10949,7 @@
       "autopkgtest, autopkgtest-pkg-dkms"
     ],
     "Testsuite-Triggers": [
-      "linux-headers-686, linux-headers-686-pae, linux-headers-amd64, linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, linux-headers-cloud-amd64, linux-headers-cloud-arm64, linux-headers-powerpc64le, linux-headers-rt-686-pae, linux-headers-rt-amd64, linux-headers-rt-arm64, linux-headers-rt-armmp, module-assistant"
+      "linux-doc, linux-headers-686, linux-headers-686-pae, linux-headers-amd64, linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, linux-headers-cloud-amd64, linux-headers-cloud-arm64, linux-headers-powerpc64le, linux-headers-rt-686-pae, linux-headers-rt-amd64, linux-headers-rt-arm64, linux-headers-rt-armmp, module-assistant"
     ],
     "Uploaders": [
       "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
@@ -10958,10 +10958,10 @@
       "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers"
     ],
     "Vcs-Git": [
-      "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers.git -b tesla-450/master"
+      "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers.git -b tesla-450/main"
     ],
     "Version": [
-      "450.203.03-2"
+      "450.216.04-1"
     ]
   },
   {
