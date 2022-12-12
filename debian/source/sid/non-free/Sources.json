@@ -14935,6 +14935,74 @@
   },
   {
     "Architecture": [
+      "any all"
+    ],
+    "Autobuild": [
+      "yes"
+    ],
+    "Binary": [
+      "libtestu01-0, testu01-data, libtestu01-0-dev, libtestu01-0-dev-common, testu01-doc, testu01-bin"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 12), gnulib, libtool, cproto, libgmp-dev"
+    ],
+    "Build-Depends-Indep": [
+      "texlive-latex-base, texlive-latex-recommended, texlive-latex-extra"
+    ],
+    "Checksums-Sha256": [
+      "e0d3ef8647f6ffe8419c86bf2db4a5b29c366492fe3dbccd324bf41ca597416b 3267 testu01_1.2.3+ds1-2.dsc b4b6323170d7cbb4fa0e1131cb849edefb4cd1a651093b5d9aa017ad22d198dd 575080 testu01_1.2.3+ds1.orig.tar.xz 51dfecdda751482a3b803ede1db03a5e318bda05f822324e03890ce6f1b47b22 12617456 testu01_1.2.3+ds1-2.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/non-free/t/testu01"
+    ],
+    "Files": [
+      "dcb5fb2a461ec625523120f824c5ea46 3267 testu01_1.2.3+ds1-2.dsc 86cdd4a5f9d939bdf9193e81e7f74e58 575080 testu01_1.2.3+ds1.orig.tar.xz 918b468b73ec67a8603b4b43735b2c8e 12617456 testu01_1.2.3+ds1-2.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "http://simul.iro.umontreal.ca/testu01/tu01.html"
+    ],
+    "Maintainer": [
+      "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "testu01"
+    ],
+    "Package-List": [
+      "libtestu01-0 deb non-free/libs optional arch=any libtestu01-0-dev deb non-free/libdevel optional arch=any libtestu01-0-dev-common deb non-free/libdevel optional arch=all testu01-bin deb non-free/math optional arch=any testu01-data deb non-free/math optional arch=all testu01-doc deb non-free/doc optional arch=all"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "non-free/misc"
+    ],
+    "Standards-Version": [
+      "4.6.1"
+    ],
+    "Testsuite": [
+      "autopkgtest"
+    ],
+    "Testsuite-Triggers": [
+      "build-essential"
+    ],
+    "Uploaders": [
+      "Jerome Benoit \u003ccalculus@rezozer.net\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/science-team/testu01"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/science-team/testu01.git"
+    ],
+    "Version": [
+      "1.2.3+ds1-2"
+    ]
+  },
+  {
+    "Architecture": [
       "all"
     ],
     "Autobuild": [
