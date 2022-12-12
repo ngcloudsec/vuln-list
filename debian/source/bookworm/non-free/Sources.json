@@ -10975,16 +10975,16 @@
       "nvidia-tesla-460-driver, nvidia-tesla-460-alternative, nvidia-tesla-460-kernel-support, nvidia-tesla-460-kernel-dkms, nvidia-tesla-460-kernel-source, xserver-xorg-video-nvidia-tesla-460, nvidia-tesla-460-driver-bin, libnvidia-tesla-460-cfg1, nvidia-tesla-460-driver-libs, libglx-nvidia-tesla-460-0, libgl1-nvidia-tesla-460-glvnd-glx, libnvidia-tesla-460-glcore, libegl-nvidia-tesla-460-0, libgles-nvidia-tesla-460-1, libgles-nvidia-tesla-460-2, libnvidia-tesla-460-eglcore, nvidia-tesla-460-egl-icd, nvidia-tesla-460-vdpau-driver, nvidia-tesla-460-vulkan-icd, libnvidia-tesla-460-glvkspirv, libnvidia-tesla-460-cbl, libnvidia-tesla-460-rtcore, nvidia-tesla-460-smi, libnvidia-tesla-460-ml1, libnvidia-tesla-460-cuda1, libnvidia-tesla-460-compiler, libnvidia-tesla-460-ptxjitcompiler1, libnvidia-tesla-460-nvcuvid1, libnvidia-tesla-460-encode1, libnvidia-tesla-460-ifr1, libnvidia-tesla-460-fbc1, libnvidia-tesla-460-nvoptix1, libnvidia-tesla-460-opticalflow1, libnvidia-tesla-460-allocator1, libnvidia-tesla-460-ngx1, nvidia-tesla-460-opencl-icd"
     ],
     "Build-Depends": [
-      "debhelper-compat (= 13), dh-sequence-dkms, dh-exec, libvulkan1 (\u003e= 1.0.42), libxext6, po-debconf, quilt, xz-utils, libglvnd-dev"
+      "debhelper-compat (= 13), dh-sequence-dkms, dh-exec, libvulkan1 (\u003e= 1.0.42), libxext6, po-debconf, quilt, xz-utils, linux-headers-amd64 [amd64] \u003c!nocheck\u003e, linux-headers-arm64 [arm64] \u003c!nocheck\u003e, linux-headers-powerpc64le [ppc64el] \u003c!nocheck\u003e, libglvnd-dev"
     ],
     "Checksums-Sha256": [
-      "ed303e37848bfae515c7cb1bafbf27ae6b7a9a73bcd5d1968242bbd532825c36 7810 nvidia-graphics-drivers-tesla-460_460.106.00-8.dsc 835a24e612ae6e60615d99eeb62c4012489fc06b4de751a9fd7e1d2b1ff5db5e 179923254 nvidia-graphics-drivers-tesla-460_460.106.00.orig-amd64.tar.gz 8863aa4d73b558cb81379d8640abc0916b978b70413be02cc6fd2498bdbcabb4 112062876 nvidia-graphics-drivers-tesla-460_460.106.00.orig-arm64.tar.gz 7c5e3c12edeff5571bdebb8ae04d76943357ba5ada61fd8c77f560873fc35461 57185874 nvidia-graphics-drivers-tesla-460_460.106.00.orig-ppc64el.tar.gz e277811f76b42696e17b6b6cb3e2387766d10a24bc3dab561ba1f4d3e9c07b0c 139 nvidia-graphics-drivers-tesla-460_460.106.00.orig.tar.gz 8ee838824371eab23af1154bc553090cde1fd98428fb1e31bb4be31aebf7c033 218972 nvidia-graphics-drivers-tesla-460_460.106.00-8.debian.tar.xz"
+      "a0b3d2da985ecfb9d925ef101801220a21af7765a58a3e9dfa5ef6773e75fd8a 7949 nvidia-graphics-drivers-tesla-460_460.106.00-9.dsc 835a24e612ae6e60615d99eeb62c4012489fc06b4de751a9fd7e1d2b1ff5db5e 179923254 nvidia-graphics-drivers-tesla-460_460.106.00.orig-amd64.tar.gz 8863aa4d73b558cb81379d8640abc0916b978b70413be02cc6fd2498bdbcabb4 112062876 nvidia-graphics-drivers-tesla-460_460.106.00.orig-arm64.tar.gz 7c5e3c12edeff5571bdebb8ae04d76943357ba5ada61fd8c77f560873fc35461 57185874 nvidia-graphics-drivers-tesla-460_460.106.00.orig-ppc64el.tar.gz e277811f76b42696e17b6b6cb3e2387766d10a24bc3dab561ba1f4d3e9c07b0c 139 nvidia-graphics-drivers-tesla-460_460.106.00.orig.tar.gz 607f34d0ff6f6d615652a6a8a1e1dc5cab82aa8026b68d73cbfac472f1ba770e 216664 nvidia-graphics-drivers-tesla-460_460.106.00-9.debian.tar.xz"
     ],
     "Directory": [
       "pool/non-free/n/nvidia-graphics-drivers-tesla-460"
     ],
     "Files": [
-      "f47a08b7e3883ce9903614f85bed4dc8 7810 nvidia-graphics-drivers-tesla-460_460.106.00-8.dsc 0450c74ad08abbc2c28240a7e1da1b78 179923254 nvidia-graphics-drivers-tesla-460_460.106.00.orig-amd64.tar.gz c58a7ad0ade0a5df156e249629c3735e 112062876 nvidia-graphics-drivers-tesla-460_460.106.00.orig-arm64.tar.gz 41d19569d0fa26363469f38dd195d85e 57185874 nvidia-graphics-drivers-tesla-460_460.106.00.orig-ppc64el.tar.gz 1561b9518bccfd439120b23e35b1e112 139 nvidia-graphics-drivers-tesla-460_460.106.00.orig.tar.gz 5cd8505be18628391cace04e44da05c5 218972 nvidia-graphics-drivers-tesla-460_460.106.00-8.debian.tar.xz"
+      "c52c87b0cbfe9e73794a50d29678f5e8 7949 nvidia-graphics-drivers-tesla-460_460.106.00-9.dsc 0450c74ad08abbc2c28240a7e1da1b78 179923254 nvidia-graphics-drivers-tesla-460_460.106.00.orig-amd64.tar.gz c58a7ad0ade0a5df156e249629c3735e 112062876 nvidia-graphics-drivers-tesla-460_460.106.00.orig-arm64.tar.gz 41d19569d0fa26363469f38dd195d85e 57185874 nvidia-graphics-drivers-tesla-460_460.106.00.orig-ppc64el.tar.gz 1561b9518bccfd439120b23e35b1e112 139 nvidia-graphics-drivers-tesla-460_460.106.00.orig.tar.gz 05e6bf9eacd74fe5f0f89c3ecf4e20de 216664 nvidia-graphics-drivers-tesla-460_460.106.00-9.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -11014,7 +11014,7 @@
       "autopkgtest, autopkgtest-pkg-dkms"
     ],
     "Testsuite-Triggers": [
-      "linux-headers-686, linux-headers-686-pae, linux-headers-amd64, linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, linux-headers-cloud-amd64, linux-headers-cloud-arm64, linux-headers-powerpc64le, linux-headers-rt-686-pae, linux-headers-rt-amd64, linux-headers-rt-arm64, linux-headers-rt-armmp, module-assistant"
+      "linux-doc, linux-headers-686, linux-headers-686-pae, linux-headers-amd64, linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, linux-headers-cloud-amd64, linux-headers-cloud-arm64, linux-headers-powerpc64le, linux-headers-rt-686-pae, linux-headers-rt-amd64, linux-headers-rt-arm64, linux-headers-rt-armmp, module-assistant"
     ],
     "Uploaders": [
       "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
@@ -11026,7 +11026,7 @@
       "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers.git -b tesla-460/transition-470"
     ],
     "Version": [
-      "460.106.00-8"
+      "460.106.00-9"
     ]
   },
   {
