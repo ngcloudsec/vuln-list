@@ -8,9 +8,45 @@
     "$date": 1664841600000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
     "packages": [
+      {
+        "name": "libecap",
+        "version": "1.0.1",
+        "release": "2.module_el8.6.0+2741+01592ae8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.src.rpm",
+        "filename": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.x86_64.rpm",
+        "sum": "1cbc8a0c82dbc6330bd8880c0db4cdc3ef8d59ecafa7ded1aa5431d18933a432",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libecap-devel",
+        "version": "1.0.1",
+        "release": "2.module_el8.6.0+2741+01592ae8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.src.rpm",
+        "filename": "libecap-devel-1.0.1-2.module_el8.6.0+2741+01592ae8.x86_64.rpm",
+        "sum": "4d62ea1c65382c3acfe697af449cc2c673d03660a3a39f6c0b1e71e09f5fe8df",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "squid",
+        "version": "4.15",
+        "release": "3.module_el8.6.0+3275+7a670b72.2",
+        "epoch": "7",
+        "arch": "x86_64",
+        "src": "squid-4.15-3.module_el8.6.0+3275+7a670b72.2.src.rpm",
+        "filename": "squid-4.15-3.module_el8.6.0+3275+7a670b72.2.x86_64.rpm",
+        "sum": "689104156e95d5b11bd792e50cceae02dba615169650bf4f179a7d8086f1b9b8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "libecap-devel",
         "version": "1.0.1",
@@ -84,42 +120,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libecap",
-        "version": "1.0.1",
-        "release": "2.module_el8.6.0+2741+01592ae8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.src.rpm",
-        "filename": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.x86_64.rpm",
-        "sum": "1cbc8a0c82dbc6330bd8880c0db4cdc3ef8d59ecafa7ded1aa5431d18933a432",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libecap-devel",
-        "version": "1.0.1",
-        "release": "2.module_el8.6.0+2741+01592ae8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libecap-1.0.1-2.module_el8.6.0+2741+01592ae8.src.rpm",
-        "filename": "libecap-devel-1.0.1-2.module_el8.6.0+2741+01592ae8.x86_64.rpm",
-        "sum": "4d62ea1c65382c3acfe697af449cc2c673d03660a3a39f6c0b1e71e09f5fe8df",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "squid",
-        "version": "4.15",
-        "release": "3.module_el8.6.0+3275+7a670b72.2",
-        "epoch": "7",
-        "arch": "x86_64",
-        "src": "squid-4.15-3.module_el8.6.0+3275+7a670b72.2.src.rpm",
-        "filename": "squid-4.15-3.module_el8.6.0+3275+7a670b72.2.x86_64.rpm",
-        "sum": "689104156e95d5b11bd792e50cceae02dba615169650bf4f179a7d8086f1b9b8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "squid",
         "version": "4.15",
         "release": "3.module_el8.6.0+3275+7a670b72.2",
@@ -159,8 +159,8 @@
     "module": {
       "stream": "4",
       "name": "squid",
-      "version": 8060020220408134403,
-      "arch": "aarch64",
+      "version": 8060020220408134354,
+      "arch": "x86_64",
       "context": "9edba152"
     }
   },

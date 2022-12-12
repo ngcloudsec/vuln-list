@@ -8,33 +8,9 @@
     "$date": 1588064837000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
     "packages": [
-      {
-        "name": "liblouis",
-        "version": "2.6.2",
-        "release": "21.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "liblouis-2.6.2-21.el8.src.rpm",
-        "filename": "liblouis-2.6.2-21.el8.aarch64.rpm",
-        "sum": "46e2d605266a930a88775aefdb1b13c49fc319caa901a2ee370998cef8598702",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-louis",
-        "version": "2.6.2",
-        "release": "21.el8",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "liblouis-2.6.2-21.el8.src.rpm",
-        "filename": "python3-louis-2.6.2-21.el8.noarch.rpm",
-        "sum": "c4e903f72e4f8063babcb656b929ceea92795de1cc3c5b1e8efcff9f60ae00a7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "liblouis",
         "version": "2.6.2",
@@ -60,6 +36,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "python3-louis",
+        "version": "2.6.2",
+        "release": "21.el8",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "liblouis-2.6.2-21.el8.src.rpm",
+        "filename": "python3-louis-2.6.2-21.el8.noarch.rpm",
+        "sum": "c4e903f72e4f8063babcb656b929ceea92795de1cc3c5b1e8efcff9f60ae00a7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "liblouis",
+        "version": "2.6.2",
+        "release": "21.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "liblouis-2.6.2-21.el8.src.rpm",
+        "filename": "liblouis-2.6.2-21.el8.aarch64.rpm",
+        "sum": "46e2d605266a930a88775aefdb1b13c49fc319caa901a2ee370998cef8598702",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "liblouis",
         "version": "2.6.2",
         "release": "21.el8",
@@ -76,12 +76,6 @@
   },
   "pushcount": "3",
   "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2020-1708.html",
-      "type": "self",
-      "id": "ALSA-2020-1708",
-      "title": "ALSA-2020-1708"
-    },
     {
       "href": "https://vulners.com/cve/CVE-2018-11577",
       "type": "cve",
@@ -108,7 +102,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -116,7 +110,7 @@
   "title": "Moderate: liblouis security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1588064827000
+    "$date": 1636712455000
   },
   "version": "1"
 }

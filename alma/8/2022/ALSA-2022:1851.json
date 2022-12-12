@@ -8,9 +8,33 @@
     "$date": 1652169876000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_pki-core",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_pki-core",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_pki-core",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_pki-core",
     "packages": [
+      {
+        "name": "pki-symkey",
+        "version": "10.12.0",
+        "release": "2.module_el8.6.0+2764+9fc58d50",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "pki-core-10.12.0-2.module_el8.6.0+2764+9fc58d50.src.rpm",
+        "filename": "pki-symkey-10.12.0-2.module_el8.6.0+2764+9fc58d50.x86_64.rpm",
+        "sum": "3489de999415095da23d87155d8381c3db7ba199f636a24f738f80900762621a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "jss-javadoc",
+        "version": "4.9.3",
+        "release": "1.module_el8.6.0+2764+9fc58d50",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "jss-4.9.3-1.module_el8.6.0+2764+9fc58d50.src.rpm",
+        "filename": "jss-javadoc-4.9.3-1.module_el8.6.0+2764+9fc58d50.x86_64.rpm",
+        "sum": "3c10fbf67ea7f7cec5585da33382eaaf0174d16987ef5c0066fe209a14525924",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "python3-pki",
         "version": "10.12.0",
@@ -24,18 +48,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "pki-symkey",
-        "version": "10.12.0",
-        "release": "2.module_el8.6.0+2764+9fc58d50",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pki-core-10.12.0-2.module_el8.6.0+2764+9fc58d50.src.rpm",
-        "filename": "pki-symkey-10.12.0-2.module_el8.6.0+2764+9fc58d50.aarch64.rpm",
-        "sum": "754ae0000cc55d571a30a570f792a6b20443af21f3f9b760403a74e3f40f184d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "pki-ca",
         "version": "10.12.0",
         "release": "2.module_el8.6.0+2764+9fc58d50",
@@ -44,18 +56,6 @@
         "src": "pki-core-10.12.0-2.module_el8.6.0+2764+9fc58d50.src.rpm",
         "filename": "pki-ca-10.12.0-2.module_el8.6.0+2764+9fc58d50.noarch.rpm",
         "sum": "7ba1883c37a185d25bbc5f244c5b2e0782a7393ef733f7f8c8f6354054422277",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "jss",
-        "version": "4.9.3",
-        "release": "1.module_el8.6.0+2764+9fc58d50",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "jss-4.9.3-1.module_el8.6.0+2764+9fc58d50.src.rpm",
-        "filename": "jss-4.9.3-1.module_el8.6.0+2764+9fc58d50.aarch64.rpm",
-        "sum": "95a1f0f2cbe4b71f3f2a1ac877cdd5e293b7bb492830411dc5616269380673f3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -132,6 +132,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "pki-tools",
+        "version": "10.12.0",
+        "release": "2.module_el8.6.0+2764+9fc58d50",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "pki-core-10.12.0-2.module_el8.6.0+2764+9fc58d50.src.rpm",
+        "filename": "pki-tools-10.12.0-2.module_el8.6.0+2764+9fc58d50.x86_64.rpm",
+        "sum": "cb347016912336e4ed697f33fe554e1d9152d1ba06b830b7184e893687b24d36",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "ldapjdk",
         "version": "4.23.0",
         "release": "1.module_el8.6.0+2764+9fc58d50",
@@ -140,6 +152,54 @@
         "src": "ldapjdk-4.23.0-1.module_el8.6.0+2764+9fc58d50.src.rpm",
         "filename": "ldapjdk-4.23.0-1.module_el8.6.0+2764+9fc58d50.noarch.rpm",
         "sum": "de1e2e09a143951bae67fb4914e55ad4f04335d7681f9afdda4125416e3e9c63",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pki-base",
+        "version": "10.12.0",
+        "release": "2.module_el8.6.0+2764+9fc58d50",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "pki-core-10.12.0-2.module_el8.6.0+2764+9fc58d50.src.rpm",
+        "filename": "pki-base-10.12.0-2.module_el8.6.0+2764+9fc58d50.noarch.rpm",
+        "sum": "f0be774b87d6c4479be3b646e9e1c8765bca08224dc930d14bf22147dcc628ad",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "jss",
+        "version": "4.9.3",
+        "release": "1.module_el8.6.0+2764+9fc58d50",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "jss-4.9.3-1.module_el8.6.0+2764+9fc58d50.src.rpm",
+        "filename": "jss-4.9.3-1.module_el8.6.0+2764+9fc58d50.x86_64.rpm",
+        "sum": "f43d644f34ace5d3c901b6b55726f01b6f73aad4dc97043f37e25a04f9147b72",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pki-symkey",
+        "version": "10.12.0",
+        "release": "2.module_el8.6.0+2764+9fc58d50",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pki-core-10.12.0-2.module_el8.6.0+2764+9fc58d50.src.rpm",
+        "filename": "pki-symkey-10.12.0-2.module_el8.6.0+2764+9fc58d50.aarch64.rpm",
+        "sum": "754ae0000cc55d571a30a570f792a6b20443af21f3f9b760403a74e3f40f184d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "jss",
+        "version": "4.9.3",
+        "release": "1.module_el8.6.0+2764+9fc58d50",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "jss-4.9.3-1.module_el8.6.0+2764+9fc58d50.src.rpm",
+        "filename": "jss-4.9.3-1.module_el8.6.0+2764+9fc58d50.aarch64.rpm",
+        "sum": "95a1f0f2cbe4b71f3f2a1ac877cdd5e293b7bb492830411dc5616269380673f3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -164,66 +224,6 @@
         "src": "jss-4.9.3-1.module_el8.6.0+2764+9fc58d50.src.rpm",
         "filename": "jss-javadoc-4.9.3-1.module_el8.6.0+2764+9fc58d50.aarch64.rpm",
         "sum": "eb9960f910d85e4001435c6acff209fd93410307b834c1c2f0d36b510e7e4fb8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pki-base",
-        "version": "10.12.0",
-        "release": "2.module_el8.6.0+2764+9fc58d50",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "pki-core-10.12.0-2.module_el8.6.0+2764+9fc58d50.src.rpm",
-        "filename": "pki-base-10.12.0-2.module_el8.6.0+2764+9fc58d50.noarch.rpm",
-        "sum": "f0be774b87d6c4479be3b646e9e1c8765bca08224dc930d14bf22147dcc628ad",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pki-symkey",
-        "version": "10.12.0",
-        "release": "2.module_el8.6.0+2764+9fc58d50",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "pki-core-10.12.0-2.module_el8.6.0+2764+9fc58d50.src.rpm",
-        "filename": "pki-symkey-10.12.0-2.module_el8.6.0+2764+9fc58d50.x86_64.rpm",
-        "sum": "3489de999415095da23d87155d8381c3db7ba199f636a24f738f80900762621a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "jss-javadoc",
-        "version": "4.9.3",
-        "release": "1.module_el8.6.0+2764+9fc58d50",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "jss-4.9.3-1.module_el8.6.0+2764+9fc58d50.src.rpm",
-        "filename": "jss-javadoc-4.9.3-1.module_el8.6.0+2764+9fc58d50.x86_64.rpm",
-        "sum": "3c10fbf67ea7f7cec5585da33382eaaf0174d16987ef5c0066fe209a14525924",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pki-tools",
-        "version": "10.12.0",
-        "release": "2.module_el8.6.0+2764+9fc58d50",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "pki-core-10.12.0-2.module_el8.6.0+2764+9fc58d50.src.rpm",
-        "filename": "pki-tools-10.12.0-2.module_el8.6.0+2764+9fc58d50.x86_64.rpm",
-        "sum": "cb347016912336e4ed697f33fe554e1d9152d1ba06b830b7184e893687b24d36",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "jss",
-        "version": "4.9.3",
-        "release": "1.module_el8.6.0+2764+9fc58d50",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "jss-4.9.3-1.module_el8.6.0+2764+9fc58d50.src.rpm",
-        "filename": "jss-4.9.3-1.module_el8.6.0+2764+9fc58d50.x86_64.rpm",
-        "sum": "f43d644f34ace5d3c901b6b55726f01b6f73aad4dc97043f37e25a04f9147b72",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -279,8 +279,8 @@
     "module": {
       "stream": "10.6",
       "name": "pki-core",
-      "version": 8060020220420152312,
-      "arch": "aarch64",
+      "version": 8060020220420152306,
+      "arch": "x86_64",
       "context": "338751f5"
     }
   },

@@ -8,21 +8,9 @@
     "$date": 1621318114000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_httpd",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_httpd",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_httpd",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_httpd",
     "packages": [
-      {
-        "name": "mod_md",
-        "version": "2.0.8",
-        "release": "8.module_el8.6.0+2872+fe0ff7aa",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.src.rpm",
-        "filename": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.aarch64.rpm",
-        "sum": "2678c086cc5a3b9b6f20f73891c8d84235646307efa87d482c5f95d828da9f4e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "mod_md",
         "version": "2.0.8",
@@ -64,6 +52,18 @@
         "version": "2.0.8",
         "release": "8.module_el8.6.0+2872+fe0ff7aa",
         "epoch": "1",
+        "arch": "aarch64",
+        "src": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.src.rpm",
+        "filename": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.aarch64.rpm",
+        "sum": "2678c086cc5a3b9b6f20f73891c8d84235646307efa87d482c5f95d828da9f4e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mod_md",
+        "version": "2.0.8",
+        "release": "8.module_el8.6.0+2872+fe0ff7aa",
+        "epoch": "1",
         "arch": "ppc64le",
         "src": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.src.rpm",
         "filename": "mod_md-2.0.8-8.module_el8.6.0+2872+fe0ff7aa.ppc64le.rpm",
@@ -75,19 +75,13 @@
     "module": {
       "stream": "2.4",
       "name": "httpd",
-      "version": 8060020220622110449,
-      "arch": "aarch64",
-      "context": "9edba152"
+      "version": 8050020220125203920,
+      "arch": "x86_64",
+      "context": "c5368500"
     }
   },
   "pushcount": "3",
   "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2021-1809.html",
-      "type": "self",
-      "id": "ALSA-2021-1809",
-      "title": "ALSA-2021-1809"
-    },
     {
       "href": "https://vulners.com/cve/CVE-2018-17199",
       "type": "cve",
@@ -116,7 +110,7 @@
   "title": "Moderate: httpd:2.4 security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1621318098000
+    "$date": 1643182044000
   },
   "version": "1"
 }

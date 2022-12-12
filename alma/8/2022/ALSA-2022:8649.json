@@ -8,9 +8,57 @@
     "$date": 1669593600000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_7_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_7_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_7_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_7_default",
     "packages": [
+      {
+        "name": "varnish-docs",
+        "version": "6.0.8",
+        "release": "2.module_el8.7.0+3353+b11d8f2f.1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.src.rpm",
+        "filename": "varnish-docs-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.x86_64.rpm",
+        "sum": "0980977288ae31920afc52b79edf8ffc2ae38363d0ed089e9abf118471e886e0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "varnish-devel",
+        "version": "6.0.8",
+        "release": "2.module_el8.7.0+3353+b11d8f2f.1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.src.rpm",
+        "filename": "varnish-devel-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.x86_64.rpm",
+        "sum": "7c0818acce73a831fad658869039d9298f05388aa2385f6b3dfbefcfbfc95789",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "varnish",
+        "version": "6.0.8",
+        "release": "2.module_el8.7.0+3353+b11d8f2f.1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.src.rpm",
+        "filename": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.x86_64.rpm",
+        "sum": "cfdb9d3e05cf91f16bd6eb5f5fc3093914b9a5257a11a4073fe6f3c99a5392a5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "varnish-modules",
+        "version": "0.15.0",
+        "release": "6.module_el8.5.0+2620+03a0c2cc",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "varnish-modules-0.15.0-6.module_el8.5.0+2620+03a0c2cc.src.rpm",
+        "filename": "Packages/varnish-modules-0.15.0-6.module_el8.5.0+2620+03a0c2cc.x86_64.rpm",
+        "sum": "d14528a6c5a830869b9cbd412cf7f902c031ee49f71e422df6dc81124b0f3440",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "varnish-modules",
         "version": "0.15.0",
@@ -112,54 +160,6 @@
         "version": "6.0.8",
         "release": "2.module_el8.7.0+3353+b11d8f2f.1",
         "epoch": "0",
-        "arch": "x86_64",
-        "src": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.src.rpm",
-        "filename": "varnish-docs-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.x86_64.rpm",
-        "sum": "0980977288ae31920afc52b79edf8ffc2ae38363d0ed089e9abf118471e886e0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "varnish-devel",
-        "version": "6.0.8",
-        "release": "2.module_el8.7.0+3353+b11d8f2f.1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.src.rpm",
-        "filename": "varnish-devel-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.x86_64.rpm",
-        "sum": "7c0818acce73a831fad658869039d9298f05388aa2385f6b3dfbefcfbfc95789",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "varnish",
-        "version": "6.0.8",
-        "release": "2.module_el8.7.0+3353+b11d8f2f.1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.src.rpm",
-        "filename": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.x86_64.rpm",
-        "sum": "cfdb9d3e05cf91f16bd6eb5f5fc3093914b9a5257a11a4073fe6f3c99a5392a5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "varnish-modules",
-        "version": "0.15.0",
-        "release": "6.module_el8.5.0+2620+03a0c2cc",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "varnish-modules-0.15.0-6.module_el8.5.0+2620+03a0c2cc.src.rpm",
-        "filename": "Packages/varnish-modules-0.15.0-6.module_el8.5.0+2620+03a0c2cc.x86_64.rpm",
-        "sum": "d14528a6c5a830869b9cbd412cf7f902c031ee49f71e422df6dc81124b0f3440",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "varnish-docs",
-        "version": "6.0.8",
-        "release": "2.module_el8.7.0+3353+b11d8f2f.1",
-        "epoch": "0",
         "arch": "ppc64le",
         "src": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.src.rpm",
         "filename": "varnish-docs-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.ppc64le.rpm",
@@ -208,7 +208,7 @@
       "stream": "6",
       "name": "varnish",
       "version": 8070020221128103530,
-      "arch": "aarch64",
+      "arch": "x86_64",
       "context": "9edba152"
     }
   },

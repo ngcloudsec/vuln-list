@@ -8,9 +8,21 @@
     "$date": 1667865600000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
     "packages": [
+      {
+        "name": "weldr-client",
+        "version": "35.5",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "weldr-client-35.5-4.el8.src.rpm",
+        "filename": "weldr-client-35.5-4.el8.x86_64.rpm",
+        "sum": "1d41da7c3a44d1ff530c740cba5b48f3f2fa991a51ec1279fe825da7f7538f1c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "weldr-client",
         "version": "35.5",
@@ -32,18 +44,6 @@
         "src": "weldr-client-35.5-4.el8.src.rpm",
         "filename": "weldr-client-35.5-4.el8.s390x.rpm",
         "sum": "24c1cf0ea1902a1787c2b9068a7749f2357a242b809d5680a6ed46a506abee47",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "weldr-client",
-        "version": "35.5",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "weldr-client-35.5-4.el8.src.rpm",
-        "filename": "weldr-client-35.5-4.el8.x86_64.rpm",
-        "sum": "1d41da7c3a44d1ff530c740cba5b48f3f2fa991a51ec1279fe825da7f7538f1c",
         "sum_type": 5,
         "reboot_suggested": 0
       },

@@ -8,69 +8,9 @@
     "$date": 1659484800000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-baseos-rpms__8_6_default",
-    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_6_default",
+    "name": "almalinux-8-for-x86_64-baseos-rpms__8_6_default",
+    "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_6_default",
     "packages": [
-      {
-        "name": "pcre2",
-        "version": "10.32",
-        "release": "3.el8_6",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pcre2-10.32-3.el8_6.src.rpm",
-        "filename": "pcre2-10.32-3.el8_6.aarch64.rpm",
-        "sum": "0428a49605bb6b3c549cf8d58f1c336a902a48f875e0989de6ff62832f382930",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcre2-devel",
-        "version": "10.32",
-        "release": "3.el8_6",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pcre2-10.32-3.el8_6.src.rpm",
-        "filename": "pcre2-devel-10.32-3.el8_6.aarch64.rpm",
-        "sum": "3ecc571c24f48236cee64df63b53ca927ab0a3c0756b85d3cd64e4dc5c49ff1a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcre2-utf16",
-        "version": "10.32",
-        "release": "3.el8_6",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pcre2-10.32-3.el8_6.src.rpm",
-        "filename": "pcre2-utf16-10.32-3.el8_6.aarch64.rpm",
-        "sum": "98d179c79c1342ba288cda410e579de2cb22b24758c60b056006c844fd460df3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcre2-utf32",
-        "version": "10.32",
-        "release": "3.el8_6",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pcre2-10.32-3.el8_6.src.rpm",
-        "filename": "pcre2-utf32-10.32-3.el8_6.aarch64.rpm",
-        "sum": "b1b0bc882188218a5b1ce4ed84d2d1d2ce7b70f64cbb9785b684bb5b8252145e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcre2-tools",
-        "version": "10.32",
-        "release": "3.el8_6",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pcre2-10.32-3.el8_6.src.rpm",
-        "filename": "pcre2-tools-10.32-3.el8_6.aarch64.rpm",
-        "sum": "b83f2a769ae327ac73de2b794070bec2b48add10aae48556a9980274ce20eb73",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "pcre2-utf32",
         "version": "10.32",
@@ -180,6 +120,66 @@
         "reboot_suggested": 0
       },
       {
+        "name": "pcre2",
+        "version": "10.32",
+        "release": "3.el8_6",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pcre2-10.32-3.el8_6.src.rpm",
+        "filename": "pcre2-10.32-3.el8_6.aarch64.rpm",
+        "sum": "0428a49605bb6b3c549cf8d58f1c336a902a48f875e0989de6ff62832f382930",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcre2-devel",
+        "version": "10.32",
+        "release": "3.el8_6",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pcre2-10.32-3.el8_6.src.rpm",
+        "filename": "pcre2-devel-10.32-3.el8_6.aarch64.rpm",
+        "sum": "3ecc571c24f48236cee64df63b53ca927ab0a3c0756b85d3cd64e4dc5c49ff1a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcre2-utf16",
+        "version": "10.32",
+        "release": "3.el8_6",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pcre2-10.32-3.el8_6.src.rpm",
+        "filename": "pcre2-utf16-10.32-3.el8_6.aarch64.rpm",
+        "sum": "98d179c79c1342ba288cda410e579de2cb22b24758c60b056006c844fd460df3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcre2-utf32",
+        "version": "10.32",
+        "release": "3.el8_6",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pcre2-10.32-3.el8_6.src.rpm",
+        "filename": "pcre2-utf32-10.32-3.el8_6.aarch64.rpm",
+        "sum": "b1b0bc882188218a5b1ce4ed84d2d1d2ce7b70f64cbb9785b684bb5b8252145e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcre2-tools",
+        "version": "10.32",
+        "release": "3.el8_6",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pcre2-10.32-3.el8_6.src.rpm",
+        "filename": "pcre2-tools-10.32-3.el8_6.aarch64.rpm",
+        "sum": "b83f2a769ae327ac73de2b794070bec2b48add10aae48556a9980274ce20eb73",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "pcre2-tools",
         "version": "10.32",
         "release": "3.el8_6",
@@ -278,7 +278,7 @@
   "title": "Moderate: pcre2 security update",
   "type": "security",
   "updated_date": {
-    "$date": 1660153598000
+    "$date": 1660153601000
   },
   "version": "1"
 }

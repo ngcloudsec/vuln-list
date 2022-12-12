@@ -40,10 +40,10 @@
         "version": "1.3.5",
         "release": "8.el8_6",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "libksba-1.3.5-8.el8_6.src.rpm",
-        "filename": "libksba-1.3.5-8.el8_6.aarch64.rpm",
-        "sum": "c8c5d4aa8fb9004cecedb2a3b8f27cf7b7219b49718f7971bb4e2b8f758c227d",
+        "filename": "libksba-1.3.5-8.el8_6.x86_64.rpm",
+        "sum": "f67bb93fdfbae6451b7605e60304e333a1ddd3a28d8142ccf439fb3ad1027804",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +52,10 @@
         "version": "1.3.5",
         "release": "8.el8_6",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "libksba-1.3.5-8.el8_6.src.rpm",
-        "filename": "libksba-1.3.5-8.el8_6.x86_64.rpm",
-        "sum": "f67bb93fdfbae6451b7605e60304e333a1ddd3a28d8142ccf439fb3ad1027804",
+        "filename": "libksba-1.3.5-8.el8_6.aarch64.rpm",
+        "sum": "c8c5d4aa8fb9004cecedb2a3b8f27cf7b7219b49718f7971bb4e2b8f758c227d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -96,18 +96,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libksba",
-        "version": "1.3.5",
-        "release": "8.el8_6",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "libksba-1.3.5-8.el8_6.src.rpm",
-        "filename": "libksba-1.3.5-8.el8_6.s390x.rpm",
-        "sum": "597aff0b25212c02ff6443cd03352098cba7d33ae6b4f1bb2e0c628f2449ff17",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libksba-devel",
         "version": "1.3.5",
         "release": "8.el8_6",
@@ -116,6 +104,18 @@
         "src": "libksba-1.3.5-8.el8_6.src.rpm",
         "filename": "libksba-devel-1.3.5-8.el8_6.ppc64le.rpm",
         "sum": "ead7391101601c2ae9035dbebfac45c730fccac76a7ad5de032de2b72db528d6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libksba",
+        "version": "1.3.5",
+        "release": "8.el8_6",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "libksba-1.3.5-8.el8_6.src.rpm",
+        "filename": "libksba-1.3.5-8.el8_6.s390x.rpm",
+        "sum": "597aff0b25212c02ff6443cd03352098cba7d33ae6b4f1bb2e0c628f2449ff17",
         "sum_type": 5,
         "reboot_suggested": 0
       },

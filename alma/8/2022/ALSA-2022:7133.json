@@ -8,9 +8,81 @@
     "$date": 1666656000000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
     "packages": [
+      {
+        "name": "389-ds-base-libs",
+        "version": "1.4.3.28",
+        "release": "8.module_el8.6.0+3338+ebccfef1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "389-ds-base-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.src.rpm",
+        "filename": "389-ds-base-libs-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.x86_64.rpm",
+        "sum": "1885af75df0c2f04dca306bca3c4d11e8e6dbf9a58525921af0cbf2e52e7744a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "389-ds-base",
+        "version": "1.4.3.28",
+        "release": "8.module_el8.6.0+3338+ebccfef1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "389-ds-base-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.src.rpm",
+        "filename": "389-ds-base-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.x86_64.rpm",
+        "sum": "24fb8b76735b0e41fea9aaa4d3ad25468851aa33eb3dd230d74516cb961cf462",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "389-ds-base-devel",
+        "version": "1.4.3.28",
+        "release": "8.module_el8.6.0+3338+ebccfef1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "389-ds-base-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.src.rpm",
+        "filename": "389-ds-base-devel-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.x86_64.rpm",
+        "sum": "54c203f5436de5f88fbf843f5d5e202935baca014fb4a7c2b41071bb6c53fe0d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-lib389",
+        "version": "1.4.3.28",
+        "release": "8.module_el8.6.0+3338+ebccfef1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "389-ds-base-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.src.rpm",
+        "filename": "python3-lib389-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.noarch.rpm",
+        "sum": "ad27dbe393632d3bdc415966769b94d6fd3ecba26b698633204a8312639c179d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "389-ds-base-legacy-tools",
+        "version": "1.4.3.28",
+        "release": "8.module_el8.6.0+3338+ebccfef1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "389-ds-base-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.src.rpm",
+        "filename": "389-ds-base-legacy-tools-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.x86_64.rpm",
+        "sum": "e4bd2ac45704cda8f732799cdf698d6bb3678b556eb6166f59a4ed0497df6054",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "389-ds-base-snmp",
+        "version": "1.4.3.28",
+        "release": "8.module_el8.6.0+3338+ebccfef1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "389-ds-base-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.src.rpm",
+        "filename": "389-ds-base-snmp-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.x86_64.rpm",
+        "sum": "f99466aee89635ce5bc004c91ab68e2cc79832ca292881acd9d7d2dfaa66f55b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "389-ds-base-legacy-tools",
         "version": "1.4.3.28",
@@ -32,18 +104,6 @@
         "src": "389-ds-base-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.src.rpm",
         "filename": "389-ds-base-snmp-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.aarch64.rpm",
         "sum": "95d0c7b8f3c380952c567f8b8e81d99a950fb939f0a683ca2f124055c577afbf",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-lib389",
-        "version": "1.4.3.28",
-        "release": "8.module_el8.6.0+3338+ebccfef1",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "389-ds-base-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.src.rpm",
-        "filename": "python3-lib389-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.noarch.rpm",
-        "sum": "ad27dbe393632d3bdc415966769b94d6fd3ecba26b698633204a8312639c179d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -148,66 +208,6 @@
         "version": "1.4.3.28",
         "release": "8.module_el8.6.0+3338+ebccfef1",
         "epoch": "0",
-        "arch": "x86_64",
-        "src": "389-ds-base-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.src.rpm",
-        "filename": "389-ds-base-libs-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.x86_64.rpm",
-        "sum": "1885af75df0c2f04dca306bca3c4d11e8e6dbf9a58525921af0cbf2e52e7744a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "389-ds-base",
-        "version": "1.4.3.28",
-        "release": "8.module_el8.6.0+3338+ebccfef1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "389-ds-base-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.src.rpm",
-        "filename": "389-ds-base-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.x86_64.rpm",
-        "sum": "24fb8b76735b0e41fea9aaa4d3ad25468851aa33eb3dd230d74516cb961cf462",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "389-ds-base-devel",
-        "version": "1.4.3.28",
-        "release": "8.module_el8.6.0+3338+ebccfef1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "389-ds-base-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.src.rpm",
-        "filename": "389-ds-base-devel-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.x86_64.rpm",
-        "sum": "54c203f5436de5f88fbf843f5d5e202935baca014fb4a7c2b41071bb6c53fe0d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "389-ds-base-legacy-tools",
-        "version": "1.4.3.28",
-        "release": "8.module_el8.6.0+3338+ebccfef1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "389-ds-base-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.src.rpm",
-        "filename": "389-ds-base-legacy-tools-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.x86_64.rpm",
-        "sum": "e4bd2ac45704cda8f732799cdf698d6bb3678b556eb6166f59a4ed0497df6054",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "389-ds-base-snmp",
-        "version": "1.4.3.28",
-        "release": "8.module_el8.6.0+3338+ebccfef1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "389-ds-base-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.src.rpm",
-        "filename": "389-ds-base-snmp-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.x86_64.rpm",
-        "sum": "f99466aee89635ce5bc004c91ab68e2cc79832ca292881acd9d7d2dfaa66f55b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "389-ds-base-libs",
-        "version": "1.4.3.28",
-        "release": "8.module_el8.6.0+3338+ebccfef1",
-        "epoch": "0",
         "arch": "ppc64le",
         "src": "389-ds-base-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.src.rpm",
         "filename": "389-ds-base-libs-1.4.3.28-8.module_el8.6.0+3338+ebccfef1.ppc64le.rpm",
@@ -268,7 +268,7 @@
       "stream": "1.4",
       "name": "389-ds",
       "version": 8060020221025134811,
-      "arch": "aarch64",
+      "arch": "x86_64",
       "context": "17499975"
     }
   },

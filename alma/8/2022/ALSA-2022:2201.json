@@ -8,9 +8,21 @@
     "$date": 1652275406000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
-    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
+    "name": "almalinux-8-for-x86_64-baseos-rpms__8_0_default",
+    "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_0_default",
     "packages": [
+      {
+        "name": "rsync",
+        "version": "3.1.3",
+        "release": "14.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "rsync-3.1.3-14.el8.src.rpm",
+        "filename": "rsync-3.1.3-14.el8.x86_64.rpm",
+        "sum": "1147793d1599e5da2eda9e2d8cc48dfca66893b9a536b464fd0eeac3fb1e84c8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "rsync-daemon",
         "version": "3.1.3",
@@ -28,10 +40,10 @@
         "version": "3.1.3",
         "release": "14.el8_6.2",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "rsync-3.1.3-14.el8_6.2.src.rpm",
-        "filename": "rsync-3.1.3-14.el8_6.2.aarch64.rpm",
-        "sum": "7acdd1ad3896cdfa979b3cd40f967a202b5ca71538eeccaf9a11b1acdbd307da",
+        "filename": "rsync-3.1.3-14.el8_6.2.x86_64.rpm",
+        "sum": "8bfca13f5b4a4ff3c1a23ce681daf260a95bc8b82deddaf61642a1d68b1d1170",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -50,36 +62,24 @@
       {
         "name": "rsync",
         "version": "3.1.3",
+        "release": "14.el8_6.2",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "rsync-3.1.3-14.el8_6.2.src.rpm",
+        "filename": "rsync-3.1.3-14.el8_6.2.aarch64.rpm",
+        "sum": "7acdd1ad3896cdfa979b3cd40f967a202b5ca71538eeccaf9a11b1acdbd307da",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rsync",
+        "version": "3.1.3",
         "release": "14.el8",
         "epoch": "0",
         "arch": "aarch64",
         "src": "rsync-3.1.3-14.el8.src.rpm",
         "filename": "rsync-3.1.3-14.el8.aarch64.rpm",
         "sum": "dc33b851ec232d80ed55d4307547c54b31034aa261180e6363592d8d97c92445",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rsync",
-        "version": "3.1.3",
-        "release": "14.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "rsync-3.1.3-14.el8.src.rpm",
-        "filename": "rsync-3.1.3-14.el8.x86_64.rpm",
-        "sum": "1147793d1599e5da2eda9e2d8cc48dfca66893b9a536b464fd0eeac3fb1e84c8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rsync",
-        "version": "3.1.3",
-        "release": "14.el8_6.2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "rsync-3.1.3-14.el8_6.2.src.rpm",
-        "filename": "rsync-3.1.3-14.el8_6.2.x86_64.rpm",
-        "sum": "8bfca13f5b4a4ff3c1a23ce681daf260a95bc8b82deddaf61642a1d68b1d1170",
         "sum_type": 5,
         "reboot_suggested": 0
       },

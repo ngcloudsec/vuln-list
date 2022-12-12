@@ -8,45 +8,9 @@
     "$date": 1621317133000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
-    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
     "packages": [
-      {
-        "name": "brotli",
-        "version": "1.0.6",
-        "release": "3.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "brotli-1.0.6-3.el8.src.rpm",
-        "filename": "brotli-1.0.6-3.el8.aarch64.rpm",
-        "sum": "4f1c53745875ba074eca370037ab222a48c77afe8936cf1df849a1f061f84b20",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-brotli",
-        "version": "1.0.6",
-        "release": "3.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "brotli-1.0.6-3.el8.src.rpm",
-        "filename": "python3-brotli-1.0.6-3.el8.aarch64.rpm",
-        "sum": "612a49ef38c968589b593304d1d1ae282b68ede40ec6be9204a242db9b1dffb2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "brotli-devel",
-        "version": "1.0.6",
-        "release": "3.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "brotli-1.0.6-3.el8.src.rpm",
-        "filename": "brotli-devel-1.0.6-3.el8.aarch64.rpm",
-        "sum": "91f015d4debec8b39d7b3da09412274dd6ddb226518590d7947d63b21ed935d8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "brotli-devel",
         "version": "1.0.6",
@@ -100,6 +64,42 @@
         "version": "1.0.6",
         "release": "3.el8",
         "epoch": "0",
+        "arch": "aarch64",
+        "src": "brotli-1.0.6-3.el8.src.rpm",
+        "filename": "brotli-1.0.6-3.el8.aarch64.rpm",
+        "sum": "4f1c53745875ba074eca370037ab222a48c77afe8936cf1df849a1f061f84b20",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-brotli",
+        "version": "1.0.6",
+        "release": "3.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "brotli-1.0.6-3.el8.src.rpm",
+        "filename": "python3-brotli-1.0.6-3.el8.aarch64.rpm",
+        "sum": "612a49ef38c968589b593304d1d1ae282b68ede40ec6be9204a242db9b1dffb2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "brotli-devel",
+        "version": "1.0.6",
+        "release": "3.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "brotli-1.0.6-3.el8.src.rpm",
+        "filename": "brotli-devel-1.0.6-3.el8.aarch64.rpm",
+        "sum": "91f015d4debec8b39d7b3da09412274dd6ddb226518590d7947d63b21ed935d8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "brotli",
+        "version": "1.0.6",
+        "release": "3.el8",
+        "epoch": "0",
         "arch": "ppc64le",
         "src": "brotli-1.0.6-3.el8.src.rpm",
         "filename": "brotli-1.0.6-3.el8.ppc64le.rpm",
@@ -137,12 +137,6 @@
   "pushcount": "2",
   "references": [
     {
-      "href": "https://errata.almalinux.org/8/ALSA-2021-1702.html",
-      "type": "self",
-      "id": "ALSA-2021-1702",
-      "title": "ALSA-2021-1702"
-    },
-    {
       "href": "https://vulners.com/cve/CVE-2020-8927",
       "type": "cve",
       "id": "CVE-2020-8927",
@@ -150,7 +144,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -158,7 +152,7 @@
   "title": "Moderate: brotli security update",
   "type": "security",
   "updated_date": {
-    "$date": 1621317114000
+    "$date": 1636712456000
   },
   "version": "1"
 }

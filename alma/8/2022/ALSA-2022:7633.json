@@ -8,9 +8,33 @@
     "$date": 1667865600000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
     "packages": [
+      {
+        "name": "dnsmasq",
+        "version": "2.79",
+        "release": "24.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "dnsmasq-2.79-24.el8.src.rpm",
+        "filename": "dnsmasq-2.79-24.el8.x86_64.rpm",
+        "sum": "4e96e2c0d6bf29f3827d310ce92618e7b13d9f6a95c5ddeec15d859e1731ece6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "dnsmasq-utils",
+        "version": "2.79",
+        "release": "24.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "dnsmasq-2.79-24.el8.src.rpm",
+        "filename": "dnsmasq-utils-2.79-24.el8.x86_64.rpm",
+        "sum": "6384ed12c6879918a92bb14b6d13fd86ec9348d0810f05660cea3568fdd25c10",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "dnsmasq-utils",
         "version": "2.79",
@@ -56,30 +80,6 @@
         "src": "dnsmasq-2.79-24.el8.src.rpm",
         "filename": "dnsmasq-2.79-24.el8.s390x.rpm",
         "sum": "7ab6c0405df447b1cbe38aa24d306b8c74443e5ffb8c36020153c698a663264b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "dnsmasq",
-        "version": "2.79",
-        "release": "24.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "dnsmasq-2.79-24.el8.src.rpm",
-        "filename": "dnsmasq-2.79-24.el8.x86_64.rpm",
-        "sum": "4e96e2c0d6bf29f3827d310ce92618e7b13d9f6a95c5ddeec15d859e1731ece6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "dnsmasq-utils",
-        "version": "2.79",
-        "release": "24.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "dnsmasq-2.79-24.el8.src.rpm",
-        "filename": "dnsmasq-utils-2.79-24.el8.x86_64.rpm",
-        "sum": "6384ed12c6879918a92bb14b6d13fd86ec9348d0810f05660cea3568fdd25c10",
         "sum_type": 5,
         "reboot_suggested": 0
       },

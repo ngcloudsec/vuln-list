@@ -8,33 +8,9 @@
     "$date": 1656547200000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-baseos-rpms__8_6_default",
-    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_6_default",
+    "name": "almalinux-8-for-x86_64-baseos-rpms__8_6_default",
+    "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_6_default",
     "packages": [
-      {
-        "name": "libgcrypt-devel",
-        "version": "1.8.5",
-        "release": "7.el8_6",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libgcrypt-1.8.5-7.el8_6.src.rpm",
-        "filename": "libgcrypt-devel-1.8.5-7.el8_6.aarch64.rpm",
-        "sum": "21b82730c587a9db222063de38f44c5e2bebdcd8ecb81f53878343bf1bf17ead",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libgcrypt",
-        "version": "1.8.5",
-        "release": "7.el8_6",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libgcrypt-1.8.5-7.el8_6.src.rpm",
-        "filename": "libgcrypt-1.8.5-7.el8_6.aarch64.rpm",
-        "sum": "dd7baa83a1a02ac7f5e56592c57b8f7e516543c9db0c40c1500945adc4da3eb0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "libgcrypt-devel",
         "version": "1.8.5",
@@ -88,6 +64,30 @@
         "version": "1.8.5",
         "release": "7.el8_6",
         "epoch": "0",
+        "arch": "aarch64",
+        "src": "libgcrypt-1.8.5-7.el8_6.src.rpm",
+        "filename": "libgcrypt-devel-1.8.5-7.el8_6.aarch64.rpm",
+        "sum": "21b82730c587a9db222063de38f44c5e2bebdcd8ecb81f53878343bf1bf17ead",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libgcrypt",
+        "version": "1.8.5",
+        "release": "7.el8_6",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libgcrypt-1.8.5-7.el8_6.src.rpm",
+        "filename": "libgcrypt-1.8.5-7.el8_6.aarch64.rpm",
+        "sum": "dd7baa83a1a02ac7f5e56592c57b8f7e516543c9db0c40c1500945adc4da3eb0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libgcrypt-devel",
+        "version": "1.8.5",
+        "release": "7.el8_6",
+        "epoch": "0",
         "arch": "ppc64le",
         "src": "libgcrypt-1.8.5-7.el8_6.src.rpm",
         "filename": "libgcrypt-devel-1.8.5-7.el8_6.ppc64le.rpm",
@@ -116,13 +116,13 @@
       "href": "https://access.redhat.com/errata/RHSA-2022:5311",
       "type": "rhsa",
       "id": "RHSA-2022:5311",
-      "title": ""
+      "title": "RHSA-2022:5311"
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2021-40528",
       "type": "cve",
       "id": "CVE-2021-40528",
-      "title": ""
+      "title": "CVE-2021-40528"
     },
     {
       "href": "https://bugzilla.redhat.com/2002816",
@@ -146,7 +146,7 @@
   "title": "Moderate: libgcrypt security update",
   "type": "security",
   "updated_date": {
-    "$date": 1658425346000
+    "$date": 1658425354000
   },
   "version": "1"
 }

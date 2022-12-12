@@ -8,9 +8,45 @@
     "$date": 1663027200000
   },
   "pkglist": {
-    "name": "almalinux-8-for-i686-appstream-rpms__8_6_default",
-    "shortname": "almalinux-8-for-i686-appstream-rpms__8_6_default",
+    "name": "almalinux-8-for-i686-baseos-rpms__8_6_default",
+    "shortname": "almalinux-8-for-i686-baseos-rpms__8_6_default",
     "packages": [
+      {
+        "name": "python3-libs",
+        "version": "3.6.8",
+        "release": "47.el8_6.alma",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
+        "filename": "python3-libs-3.6.8-47.el8_6.alma.i686.rpm",
+        "sum": "3fcb4b16111965ebaf297da6efa024ea3385dcf07cb476c10fb9fe231355e666",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "platform-python",
+        "version": "3.6.8",
+        "release": "47.el8_6.alma",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
+        "filename": "platform-python-3.6.8-47.el8_6.alma.i686.rpm",
+        "sum": "551171b1f1bef7a2c000b7aece127ea74ec3ebef3c7b6e8370d02af08a596a7b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-test",
+        "version": "3.6.8",
+        "release": "47.el8_6.alma",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
+        "filename": "python3-test-3.6.8-47.el8_6.alma.i686.rpm",
+        "sum": "8b44fbcfbe8510211d4223da7f587b4e53b432e8c745091eb467fe905cbc61e2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "python3-tkinter",
         "version": "3.6.8",
@@ -60,26 +96,26 @@
         "reboot_suggested": 0
       },
       {
-        "name": "python3-libs",
-        "version": "3.6.8",
-        "release": "47.el8_6.alma",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
-        "filename": "python3-libs-3.6.8-47.el8_6.alma.i686.rpm",
-        "sum": "3fcb4b16111965ebaf297da6efa024ea3385dcf07cb476c10fb9fe231355e666",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "platform-python",
         "version": "3.6.8",
         "release": "47.el8_6.alma",
         "epoch": "0",
-        "arch": "i686",
+        "arch": "x86_64",
         "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
-        "filename": "platform-python-3.6.8-47.el8_6.alma.i686.rpm",
-        "sum": "551171b1f1bef7a2c000b7aece127ea74ec3ebef3c7b6e8370d02af08a596a7b",
+        "filename": "platform-python-3.6.8-47.el8_6.alma.x86_64.rpm",
+        "sum": "3bc8456c28addf396cd5e5f470999321b649c5f31d42e24fb0fe5ef49b878871",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-libs",
+        "version": "3.6.8",
+        "release": "47.el8_6.alma",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
+        "filename": "python3-libs-3.6.8-47.el8_6.alma.x86_64.rpm",
+        "sum": "60a11fa891bbf8420cc167a779478aabf701d09e8b52e2db146cbf23ef484c77",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -88,10 +124,10 @@
         "version": "3.6.8",
         "release": "47.el8_6.alma",
         "epoch": "0",
-        "arch": "i686",
+        "arch": "x86_64",
         "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
-        "filename": "python3-test-3.6.8-47.el8_6.alma.i686.rpm",
-        "sum": "8b44fbcfbe8510211d4223da7f587b4e53b432e8c745091eb467fe905cbc61e2",
+        "filename": "python3-test-3.6.8-47.el8_6.alma.x86_64.rpm",
+        "sum": "af2792c5653f38cffbc543959e476b04e97f009ef7e7b3d5692c3600babb3691",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -132,14 +168,26 @@
         "reboot_suggested": 0
       },
       {
+        "name": "python3-test",
+        "version": "3.6.8",
+        "release": "47.el8_6.alma",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
+        "filename": "python3-test-3.6.8-47.el8_6.alma.ppc64le.rpm",
+        "sum": "4c24119107f4717b598609b35bdc98c98520e95045cad743be9ed5530738e07e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "platform-python",
         "version": "3.6.8",
         "release": "47.el8_6.alma",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "ppc64le",
         "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
-        "filename": "platform-python-3.6.8-47.el8_6.alma.x86_64.rpm",
-        "sum": "3bc8456c28addf396cd5e5f470999321b649c5f31d42e24fb0fe5ef49b878871",
+        "filename": "platform-python-3.6.8-47.el8_6.alma.ppc64le.rpm",
+        "sum": "851c968ee32600373b42ee1e4fffc853f0e44f2e69cf6ebad83bc0efe1d05c7b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -148,22 +196,58 @@
         "version": "3.6.8",
         "release": "47.el8_6.alma",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "ppc64le",
         "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
-        "filename": "python3-libs-3.6.8-47.el8_6.alma.x86_64.rpm",
-        "sum": "60a11fa891bbf8420cc167a779478aabf701d09e8b52e2db146cbf23ef484c77",
+        "filename": "python3-libs-3.6.8-47.el8_6.alma.ppc64le.rpm",
+        "sum": "ee6f374f455f4fab9452d2a62cc8e6eec00e203a133495d0b83866762c8f48de",
         "sum_type": 5,
         "reboot_suggested": 0
       },
       {
-        "name": "python3-test",
+        "name": "python3-idle",
         "version": "3.6.8",
         "release": "47.el8_6.alma",
         "epoch": "0",
         "arch": "x86_64",
         "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
-        "filename": "python3-test-3.6.8-47.el8_6.alma.x86_64.rpm",
-        "sum": "af2792c5653f38cffbc543959e476b04e97f009ef7e7b3d5692c3600babb3691",
+        "filename": "python3-idle-3.6.8-47.el8_6.alma.x86_64.rpm",
+        "sum": "46d0c038b90b7b0da2fad59df4c7455d4c4a44e40741dda5e880c28ba36b86f0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-tkinter",
+        "version": "3.6.8",
+        "release": "47.el8_6.alma",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
+        "filename": "python3-tkinter-3.6.8-47.el8_6.alma.x86_64.rpm",
+        "sum": "52d68a1f56acb54eade401a10943c750e911ce609e8189989d751c23203cdc4e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "platform-python-devel",
+        "version": "3.6.8",
+        "release": "47.el8_6.alma",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
+        "filename": "platform-python-devel-3.6.8-47.el8_6.alma.x86_64.rpm",
+        "sum": "77b7a173a9c1afc7bb94900def81b77bd52b4c6b29b2bd452349d3ad4b5f424f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "platform-python-debug",
+        "version": "3.6.8",
+        "release": "47.el8_6.alma",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
+        "filename": "platform-python-debug-3.6.8-47.el8_6.alma.x86_64.rpm",
+        "sum": "f87a53b3f40fa63009352c9b03455ceedc4764b4cd2d8aba325bdb3d66547c8d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -212,42 +296,6 @@
         "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
         "filename": "platform-python-debug-3.6.8-47.el8_6.alma.aarch64.rpm",
         "sum": "e9e64ed9a2396a65605b6366967d706c7d4dd738802004651ba233ebd42ae423",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-test",
-        "version": "3.6.8",
-        "release": "47.el8_6.alma",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
-        "filename": "python3-test-3.6.8-47.el8_6.alma.ppc64le.rpm",
-        "sum": "4c24119107f4717b598609b35bdc98c98520e95045cad743be9ed5530738e07e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "platform-python",
-        "version": "3.6.8",
-        "release": "47.el8_6.alma",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
-        "filename": "platform-python-3.6.8-47.el8_6.alma.ppc64le.rpm",
-        "sum": "851c968ee32600373b42ee1e4fffc853f0e44f2e69cf6ebad83bc0efe1d05c7b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-libs",
-        "version": "3.6.8",
-        "release": "47.el8_6.alma",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
-        "filename": "python3-libs-3.6.8-47.el8_6.alma.ppc64le.rpm",
-        "sum": "ee6f374f455f4fab9452d2a62cc8e6eec00e203a133495d0b83866762c8f48de",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -332,54 +380,6 @@
         "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
         "filename": "platform-python-devel-3.6.8-47.el8_6.alma.s390x.rpm",
         "sum": "dcb6292d0b306af654efffc3a1b68f6b3d20ca9f4754d682ea835ba0fca3fd44",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-idle",
-        "version": "3.6.8",
-        "release": "47.el8_6.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
-        "filename": "python3-idle-3.6.8-47.el8_6.alma.x86_64.rpm",
-        "sum": "46d0c038b90b7b0da2fad59df4c7455d4c4a44e40741dda5e880c28ba36b86f0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-tkinter",
-        "version": "3.6.8",
-        "release": "47.el8_6.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
-        "filename": "python3-tkinter-3.6.8-47.el8_6.alma.x86_64.rpm",
-        "sum": "52d68a1f56acb54eade401a10943c750e911ce609e8189989d751c23203cdc4e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "platform-python-devel",
-        "version": "3.6.8",
-        "release": "47.el8_6.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
-        "filename": "platform-python-devel-3.6.8-47.el8_6.alma.x86_64.rpm",
-        "sum": "77b7a173a9c1afc7bb94900def81b77bd52b4c6b29b2bd452349d3ad4b5f424f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "platform-python-debug",
-        "version": "3.6.8",
-        "release": "47.el8_6.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python3-3.6.8-47.el8_6.alma.src.rpm",
-        "filename": "platform-python-debug-3.6.8-47.el8_6.alma.x86_64.rpm",
-        "sum": "f87a53b3f40fa63009352c9b03455ceedc4764b4cd2d8aba325bdb3d66547c8d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -482,7 +482,7 @@
   "title": "Moderate: python3 security update",
   "type": "security",
   "updated_date": {
-    "$date": 1665135100000
+    "$date": 1668450078000
   },
   "version": "1"
 }
