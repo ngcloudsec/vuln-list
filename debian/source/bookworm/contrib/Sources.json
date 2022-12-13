@@ -3864,13 +3864,13 @@
       "debhelper-compat (= 12), appstream, dh-sequence-python3, meson"
     ],
     "Checksums-Sha256": [
-      "3c342da43d75af834b27a4c8e4ab091314be25eb6ea96ea2c1ac9840d76a10fe 1961 lutris_0.5.11-1.dsc ca2785e00adf68ff5e7355426c18ec7ebc03faff2bca0e18d8d1a3c671c56dc2 1129541 lutris_0.5.11.orig.tar.gz 31a3e6bf3baa5ff293ad2eca7b691b00ceb8ef7b921a8981aee2d75ebdbe80b6 2572 lutris_0.5.11-1.debian.tar.xz"
+      "203208d6e9b32c40a9e06576fc78110ac5f357f307ad82d3f37d06f36bef81f7 1924 lutris_0.5.12-1.dsc 092f56729ca558188f7adcdbb75945a2e9bbf573f3e09323b7cb8f0db11d664a 1141899 lutris_0.5.12.orig.tar.gz 1d618d768e03a5fa253b2c92f175874fd08ddaa66511317236088b8b88646350 2580 lutris_0.5.12-1.debian.tar.xz"
     ],
     "Directory": [
       "pool/contrib/l/lutris"
     ],
     "Files": [
-      "1dc4c78f06741b3b77710e427926c0ee 1961 lutris_0.5.11-1.dsc 99fb42814fa8c6200156f3e2648cdae6 1129541 lutris_0.5.11.orig.tar.gz e5daf968395c97126b46947809ee5267 2572 lutris_0.5.11-1.debian.tar.xz"
+      "17b4615b3f5068a8f3fcee50f1e447e6 1924 lutris_0.5.12-1.dsc f6f6912f9d182866862b4157e7486084 1141899 lutris_0.5.12.orig.tar.gz bd6ca59bfa4ecb230f5f08c9c35c076b 2580 lutris_0.5.12-1.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -3906,7 +3906,7 @@
       "https://salsa.debian.org/games-team/lutris.git"
     ],
     "Version": [
-      "0.5.11-1"
+      "0.5.12-1"
     ]
   },
   {
@@ -4303,13 +4303,13 @@
       "debhelper-compat (= 13), hardlink"
     ],
     "Checksums-Sha256": [
-      "ee6a42360651d931f51f1e79d63ade1fca6be9f4c42b74572456e636f134c3de 2253 nvidia-cuda-samples_11.4.1~dfsg-1.dsc 4da4425e2454762c36081d3824e77bc2d1a9f929e1a383549ae598088881399b 2633104 nvidia-cuda-samples_11.4.1~dfsg.orig.tar.xz 7c93d293f8d37da4fa8c9089ac3b7b6e1800be319e8c25c66f64717f76af9666 5444 nvidia-cuda-samples_11.4.1~dfsg-1.debian.tar.xz"
+      "3e62185119215d7de707625303c6e97172e8d033fc0ec9edfab32ac0a0402349 2287 nvidia-cuda-samples_11.4.1~dfsg-2.dsc 4da4425e2454762c36081d3824e77bc2d1a9f929e1a383549ae598088881399b 2633104 nvidia-cuda-samples_11.4.1~dfsg.orig.tar.xz 22614ee1782ba3b38ca6ee6a2afdadfc4034510611072753ff3ddce7f63a862b 6036 nvidia-cuda-samples_11.4.1~dfsg-2.debian.tar.xz"
     ],
     "Directory": [
       "pool/contrib/n/nvidia-cuda-samples"
     ],
     "Files": [
-      "35f7d09cb83f026414f128922e87c698 2253 nvidia-cuda-samples_11.4.1~dfsg-1.dsc 4246fb77c94de0ce00e72547535a33ca 2633104 nvidia-cuda-samples_11.4.1~dfsg.orig.tar.xz d6944fad4ede4108a71444f3d7b64593 5444 nvidia-cuda-samples_11.4.1~dfsg-1.debian.tar.xz"
+      "0683891aaa3e34b6e6a3b8264a0bc43d 2287 nvidia-cuda-samples_11.4.1~dfsg-2.dsc 4246fb77c94de0ce00e72547535a33ca 2633104 nvidia-cuda-samples_11.4.1~dfsg.orig.tar.xz 7124ebf25f7097b7ecbfc13b3b296459 6036 nvidia-cuda-samples_11.4.1~dfsg-2.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -4339,7 +4339,7 @@
       "autopkgtest"
     ],
     "Testsuite-Triggers": [
-      "g++-10, g++-11, make, nvidia-cuda-toolkit, nvidia-cuda-toolkit-gcc"
+      "cmake, g++, g++-10, g++-11, make, nvidia-cuda-toolkit, nvidia-cuda-toolkit-gcc, nvidia-openjdk-8-jre"
     ],
     "Uploaders": [
       "Andreas Beckmann \u003canbe@debian.org\u003e,"
@@ -4351,7 +4351,7 @@
       "https://salsa.debian.org/nvidia-team/nvidia-cuda-samples.git"
     ],
     "Version": [
-      "11.4.1~dfsg-1"
+      "11.4.1~dfsg-2"
     ]
   },
   {
