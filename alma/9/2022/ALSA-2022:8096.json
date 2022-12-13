@@ -8,8 +8,8 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-i686-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
     "packages": [
       {
         "name": "redis-doc",
@@ -24,6 +24,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "redis",
+        "version": "6.2.7",
+        "release": "1.el9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "redis-6.2.7-1.el9.src.rpm",
+        "filename": "redis-6.2.7-1.el9.x86_64.rpm",
+        "sum": "57a9f6a8531b7d443cba4c73032962da474d5cbc35e93ca9ab28929c32c45c68",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "redis-devel",
+        "version": "6.2.7",
+        "release": "1.el9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "redis-6.2.7-1.el9.src.rpm",
+        "filename": "redis-devel-6.2.7-1.el9.x86_64.rpm",
+        "sum": "61d0783787f472866d8adf69d7ceeb80bba0f42165675efedf4f2d22bada5f9c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "redis-devel",
         "version": "6.2.7",
         "release": "1.el9",
@@ -32,6 +56,30 @@
         "src": "redis-6.2.7-1.el9.src.rpm",
         "filename": "redis-devel-6.2.7-1.el9.i686.rpm",
         "sum": "7aa3e793576437268a42d168c4febef9a03d425b0d5375e0d73f189024e16528",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "redis-devel",
+        "version": "6.2.7",
+        "release": "1.el9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "redis-6.2.7-1.el9.src.rpm",
+        "filename": "redis-devel-6.2.7-1.el9.ppc64le.rpm",
+        "sum": "3b5b16457800b143b53efc37c9c80ce11d2d95f3268c84bc6d51ac07202cf96e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "redis",
+        "version": "6.2.7",
+        "release": "1.el9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "redis-6.2.7-1.el9.src.rpm",
+        "filename": "redis-6.2.7-1.el9.ppc64le.rpm",
+        "sum": "9faf550f0f705ba4475994be1dfd83638f8dcd273dce46b74525dd25dbc2c2f0",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -64,30 +112,6 @@
         "version": "6.2.7",
         "release": "1.el9",
         "epoch": "0",
-        "arch": "x86_64",
-        "src": "redis-6.2.7-1.el9.src.rpm",
-        "filename": "redis-6.2.7-1.el9.x86_64.rpm",
-        "sum": "57a9f6a8531b7d443cba4c73032962da474d5cbc35e93ca9ab28929c32c45c68",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "redis-devel",
-        "version": "6.2.7",
-        "release": "1.el9",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "redis-6.2.7-1.el9.src.rpm",
-        "filename": "redis-devel-6.2.7-1.el9.x86_64.rpm",
-        "sum": "61d0783787f472866d8adf69d7ceeb80bba0f42165675efedf4f2d22bada5f9c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "redis",
-        "version": "6.2.7",
-        "release": "1.el9",
-        "epoch": "0",
         "arch": "aarch64",
         "src": "redis-6.2.7-1.el9.src.rpm",
         "filename": "redis-6.2.7-1.el9.aarch64.rpm",
@@ -104,30 +128,6 @@
         "src": "redis-6.2.7-1.el9.src.rpm",
         "filename": "redis-devel-6.2.7-1.el9.aarch64.rpm",
         "sum": "ce8c061d66961a97d2fba567733884e17f854e687a024db00b2b1892634f3954",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "redis-devel",
-        "version": "6.2.7",
-        "release": "1.el9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "redis-6.2.7-1.el9.src.rpm",
-        "filename": "redis-devel-6.2.7-1.el9.ppc64le.rpm",
-        "sum": "3b5b16457800b143b53efc37c9c80ce11d2d95f3268c84bc6d51ac07202cf96e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "redis",
-        "version": "6.2.7",
-        "release": "1.el9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "redis-6.2.7-1.el9.src.rpm",
-        "filename": "redis-6.2.7-1.el9.ppc64le.rpm",
-        "sum": "9faf550f0f705ba4475994be1dfd83638f8dcd273dce46b74525dd25dbc2c2f0",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -182,7 +182,7 @@
   "title": "Low: redis security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1668745089000
+    "$date": 1668776824000
   },
   "version": "1"
 }

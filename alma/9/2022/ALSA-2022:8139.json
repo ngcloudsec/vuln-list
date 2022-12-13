@@ -8,8 +8,8 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-i686-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
     "packages": [
       {
         "name": "wavpack",
@@ -20,18 +20,6 @@
         "src": "wavpack-5.4.0-5.el9.src.rpm",
         "filename": "wavpack-5.4.0-5.el9.i686.rpm",
         "sum": "858d8163497a415f7d9d7404dbbd0a5d014267c8c5198a2f18bf4fc03069e38a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "wavpack",
-        "version": "5.4.0",
-        "release": "5.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "wavpack-5.4.0-5.el9.src.rpm",
-        "filename": "wavpack-5.4.0-5.el9.s390x.rpm",
-        "sum": "42c0892cc8d512cd8bc519bccb6f83e6755c93847e154f71e22d57c4a1f50c74",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +40,10 @@
         "version": "5.4.0",
         "release": "5.el9",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "wavpack-5.4.0-5.el9.src.rpm",
-        "filename": "wavpack-5.4.0-5.el9.aarch64.rpm",
-        "sum": "9cdc78fe997b54adfc0903d593063b8ad4d4a7a3ba161b561e644e79e02c6a88",
+        "filename": "wavpack-5.4.0-5.el9.ppc64le.rpm",
+        "sum": "2daac54838e69fa9bc26e03ebbd756a5eade0a9c5e66e126cbdf3839ab8a87fe",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -64,10 +52,22 @@
         "version": "5.4.0",
         "release": "5.el9",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "s390x",
         "src": "wavpack-5.4.0-5.el9.src.rpm",
-        "filename": "wavpack-5.4.0-5.el9.ppc64le.rpm",
-        "sum": "2daac54838e69fa9bc26e03ebbd756a5eade0a9c5e66e126cbdf3839ab8a87fe",
+        "filename": "wavpack-5.4.0-5.el9.s390x.rpm",
+        "sum": "42c0892cc8d512cd8bc519bccb6f83e6755c93847e154f71e22d57c4a1f50c74",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "wavpack",
+        "version": "5.4.0",
+        "release": "5.el9",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "wavpack-5.4.0-5.el9.src.rpm",
+        "filename": "wavpack-5.4.0-5.el9.aarch64.rpm",
+        "sum": "9cdc78fe997b54adfc0903d593063b8ad4d4a7a3ba161b561e644e79e02c6a88",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -80,6 +80,30 @@
         "src": "wavpack-5.4.0-5.el9.src.rpm",
         "filename": "wavpack-devel-5.4.0-5.el9.i686.rpm",
         "sum": "837ebdd3e2fe7110e8591394a90fbfef03ff3882c2f5d5423c8c7fe8ec26cbc3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "wavpack-devel",
+        "version": "5.4.0",
+        "release": "5.el9",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "wavpack-5.4.0-5.el9.src.rpm",
+        "filename": "wavpack-devel-5.4.0-5.el9.aarch64.rpm",
+        "sum": "7703f0abbcf207d2efb0beeb4498aac10a5bcdcb41df70903f139e6eb513603f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "wavpack-devel",
+        "version": "5.4.0",
+        "release": "5.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "wavpack-5.4.0-5.el9.src.rpm",
+        "filename": "wavpack-devel-5.4.0-5.el9.s390x.rpm",
+        "sum": "b6e70fb97afa6c00006053707a8c2039baa1c09796be68821ef02567e7e14b28",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -104,30 +128,6 @@
         "src": "wavpack-5.4.0-5.el9.src.rpm",
         "filename": "wavpack-devel-5.4.0-5.el9.x86_64.rpm",
         "sum": "2f5da3c013be2fd03dcff683a6fa603e6c71b3e083818a77a627d2b5cab50510",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "wavpack-devel",
-        "version": "5.4.0",
-        "release": "5.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "wavpack-5.4.0-5.el9.src.rpm",
-        "filename": "wavpack-devel-5.4.0-5.el9.s390x.rpm",
-        "sum": "b6e70fb97afa6c00006053707a8c2039baa1c09796be68821ef02567e7e14b28",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "wavpack-devel",
-        "version": "5.4.0",
-        "release": "5.el9",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "wavpack-5.4.0-5.el9.src.rpm",
-        "filename": "wavpack-devel-5.4.0-5.el9.aarch64.rpm",
-        "sum": "7703f0abbcf207d2efb0beeb4498aac10a5bcdcb41df70903f139e6eb513603f",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -170,7 +170,7 @@
   "title": "Low: wavpack security update",
   "type": "security",
   "updated_date": {
-    "$date": 1668744058000
+    "$date": 1668776894000
   },
   "version": "1"
 }

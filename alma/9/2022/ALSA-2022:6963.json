@@ -8,8 +8,8 @@
     "$date": 1666051200000
   },
   "pkglist": {
-    "name": "almalinux-9-for-i686-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-i686-appstream-rpms__9_default",
+    "name": "almalinux-9-for-x86_64-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_default",
     "packages": [
       {
         "name": "nodejs-docs",
@@ -24,6 +24,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "nodejs-full-i18n",
+        "version": "16.17.1",
+        "release": "1.el9_0",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
+        "filename": "nodejs-full-i18n-16.17.1-1.el9_0.x86_64.rpm",
+        "sum": "407ab5eeeab8ca27be35d35bea480b4fcdc6ccae79788892fa4bbda5bdcc3bd7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nodejs",
+        "version": "16.17.1",
+        "release": "1.el9_0",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
+        "filename": "nodejs-16.17.1-1.el9_0.x86_64.rpm",
+        "sum": "6ef77b8d72a105f2e9a94f0812cb6b02c3499a3889dbb4db20162e5efb2459cd",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "nodejs-libs",
         "version": "16.17.1",
         "release": "1.el9_0",
@@ -32,6 +56,66 @@
         "src": "nodejs-16.17.1-1.el9_0.src.rpm",
         "filename": "nodejs-libs-16.17.1-1.el9_0.i686.rpm",
         "sum": "dfc9e65ea6573cc240c0840dad0d3853758223f815f5a887ee6872e0b7eca5a2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "npm",
+        "version": "8.15.0",
+        "release": "1.16.17.1.1.el9_0",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
+        "filename": "npm-8.15.0-1.16.17.1.1.el9_0.x86_64.rpm",
+        "sum": "e00fdc38440c6c0087c25a0e018fd59e078f0a8f7312b3e936d2ebafea798318",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nodejs",
+        "version": "16.17.1",
+        "release": "1.el9_0",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
+        "filename": "nodejs-16.17.1-1.el9_0.ppc64le.rpm",
+        "sum": "63ede40b1f1c9e126b44a17d479555f84a2a59b988c742e69a7231b1bf0dfda4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "npm",
+        "version": "8.15.0",
+        "release": "1.16.17.1.1.el9_0",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
+        "filename": "npm-8.15.0-1.16.17.1.1.el9_0.ppc64le.rpm",
+        "sum": "80742308fb3e08610c45202cf6dfe3fa9edbf6f8e19b9788c5ef49232661317f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nodejs-full-i18n",
+        "version": "16.17.1",
+        "release": "1.el9_0",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
+        "filename": "nodejs-full-i18n-16.17.1-1.el9_0.ppc64le.rpm",
+        "sum": "9bed70c6398029715fbefd32d7d88843c50cdbad2fb79664359e130bfaf98750",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nodejs-libs",
+        "version": "16.17.1",
+        "release": "1.el9_0",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
+        "filename": "nodejs-libs-16.17.1-1.el9_0.ppc64le.rpm",
+        "sum": "a4636231da5d605d2a18adbbe9549ad14f6bf1fe4dc7a7eb7ece8450b973daa0",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -84,42 +168,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "nodejs-full-i18n",
-        "version": "16.17.1",
-        "release": "1.el9_0",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
-        "filename": "nodejs-full-i18n-16.17.1-1.el9_0.x86_64.rpm",
-        "sum": "407ab5eeeab8ca27be35d35bea480b4fcdc6ccae79788892fa4bbda5bdcc3bd7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nodejs",
-        "version": "16.17.1",
-        "release": "1.el9_0",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
-        "filename": "nodejs-16.17.1-1.el9_0.x86_64.rpm",
-        "sum": "6ef77b8d72a105f2e9a94f0812cb6b02c3499a3889dbb4db20162e5efb2459cd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "npm",
-        "version": "8.15.0",
-        "release": "1.16.17.1.1.el9_0",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
-        "filename": "npm-8.15.0-1.16.17.1.1.el9_0.x86_64.rpm",
-        "sum": "e00fdc38440c6c0087c25a0e018fd59e078f0a8f7312b3e936d2ebafea798318",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "npm",
         "version": "8.15.0",
         "release": "1.16.17.1.1.el9_0",
@@ -164,54 +212,6 @@
         "src": "nodejs-16.17.1-1.el9_0.src.rpm",
         "filename": "nodejs-16.17.1-1.el9_0.aarch64.rpm",
         "sum": "f74580e2d438b12b7a826d3fcacd63e8ad0638627e5aa58811b1a8a0055ef41f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nodejs",
-        "version": "16.17.1",
-        "release": "1.el9_0",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
-        "filename": "nodejs-16.17.1-1.el9_0.ppc64le.rpm",
-        "sum": "63ede40b1f1c9e126b44a17d479555f84a2a59b988c742e69a7231b1bf0dfda4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "npm",
-        "version": "8.15.0",
-        "release": "1.16.17.1.1.el9_0",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
-        "filename": "npm-8.15.0-1.16.17.1.1.el9_0.ppc64le.rpm",
-        "sum": "80742308fb3e08610c45202cf6dfe3fa9edbf6f8e19b9788c5ef49232661317f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nodejs-full-i18n",
-        "version": "16.17.1",
-        "release": "1.el9_0",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
-        "filename": "nodejs-full-i18n-16.17.1-1.el9_0.ppc64le.rpm",
-        "sum": "9bed70c6398029715fbefd32d7d88843c50cdbad2fb79664359e130bfaf98750",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nodejs-libs",
-        "version": "16.17.1",
-        "release": "1.el9_0",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
-        "filename": "nodejs-libs-16.17.1-1.el9_0.ppc64le.rpm",
-        "sum": "a4636231da5d605d2a18adbbe9549ad14f6bf1fe4dc7a7eb7ece8450b973daa0",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -266,7 +266,7 @@
   "title": "Important: nodejs security update",
   "type": "security",
   "updated_date": {
-    "$date": 1666167019000
+    "$date": 1666167023000
   },
   "version": "1"
 }

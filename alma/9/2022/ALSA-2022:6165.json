@@ -8,21 +8,9 @@
     "$date": 1661299200000
   },
   "pkglist": {
-    "name": "almalinux-9-for-s390x-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-s390x-appstream-rpms__9_default",
+    "name": "almalinux-9-for-x86_64-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_default",
     "packages": [
-      {
-        "name": "thunderbird",
-        "version": "91.13.0",
-        "release": "1.el9_0.alma",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "thunderbird-91.13.0-1.el9_0.alma.src.rpm",
-        "filename": "thunderbird-91.13.0-1.el9_0.alma.s390x.rpm",
-        "sum": "80faa00eca76c2730a89404bd9007e41910132c0c968c9c0a4ce84277b882708",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "thunderbird",
         "version": "91.13.0",
@@ -40,10 +28,10 @@
         "version": "91.13.0",
         "release": "1.el9_0.alma",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "thunderbird-91.13.0-1.el9_0.alma.src.rpm",
-        "filename": "thunderbird-91.13.0-1.el9_0.alma.aarch64.rpm",
-        "sum": "cce20eeb85e48a76b58622200823be4aab1d44612d62d01c2e996a1aaa598345",
+        "filename": "thunderbird-91.13.0-1.el9_0.alma.ppc64le.rpm",
+        "sum": "f038c8da2dab8a13ced14d709b4f0bcc3e8acd3f950d6a44ab861f631f735c18",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +40,22 @@
         "version": "91.13.0",
         "release": "1.el9_0.alma",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "s390x",
         "src": "thunderbird-91.13.0-1.el9_0.alma.src.rpm",
-        "filename": "thunderbird-91.13.0-1.el9_0.alma.ppc64le.rpm",
-        "sum": "f038c8da2dab8a13ced14d709b4f0bcc3e8acd3f950d6a44ab861f631f735c18",
+        "filename": "thunderbird-91.13.0-1.el9_0.alma.s390x.rpm",
+        "sum": "80faa00eca76c2730a89404bd9007e41910132c0c968c9c0a4ce84277b882708",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "thunderbird",
+        "version": "91.13.0",
+        "release": "1.el9_0.alma",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "thunderbird-91.13.0-1.el9_0.alma.src.rpm",
+        "filename": "thunderbird-91.13.0-1.el9_0.alma.aarch64.rpm",
+        "sum": "cce20eeb85e48a76b58622200823be4aab1d44612d62d01c2e996a1aaa598345",
         "sum_type": 5,
         "reboot_suggested": 0
       }

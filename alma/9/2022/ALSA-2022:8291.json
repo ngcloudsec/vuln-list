@@ -8,8 +8,8 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-i686-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
     "packages": [
       {
         "name": "rsync-daemon",
@@ -20,30 +20,6 @@
         "src": "rsync-3.2.3-18.el9.src.rpm",
         "filename": "rsync-daemon-3.2.3-18.el9.noarch.rpm",
         "sum": "1b7b8d0f1db62a381e9185eebd1de7e50598cff114744e8b9f5608fc7689b231",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rsync",
-        "version": "3.2.3",
-        "release": "18.el9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "rsync-3.2.3-18.el9.src.rpm",
-        "filename": "rsync-3.2.3-18.el9.ppc64le.rpm",
-        "sum": "80a5233faa503ab7a879be7ea59d9884e9594c23700a078d28bfd146e2ba6630",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rsync",
-        "version": "3.2.3",
-        "release": "18.el9",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "rsync-3.2.3-18.el9.src.rpm",
-        "filename": "rsync-3.2.3-18.el9.x86_64.rpm",
-        "sum": "e2d83f9e45848b39bd69a8d19f84a0c92912c70fcfd88801954a43de23218328",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -68,6 +44,30 @@
         "src": "rsync-3.2.3-18.el9.src.rpm",
         "filename": "rsync-3.2.3-18.el9.s390x.rpm",
         "sum": "8fbbb83bfd308d8cc9fd5430308610dff74f251316c65d0abf0a3c8294571937",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rsync",
+        "version": "3.2.3",
+        "release": "18.el9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "rsync-3.2.3-18.el9.src.rpm",
+        "filename": "rsync-3.2.3-18.el9.x86_64.rpm",
+        "sum": "e2d83f9e45848b39bd69a8d19f84a0c92912c70fcfd88801954a43de23218328",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rsync",
+        "version": "3.2.3",
+        "release": "18.el9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "rsync-3.2.3-18.el9.src.rpm",
+        "filename": "rsync-3.2.3-18.el9.ppc64le.rpm",
+        "sum": "80a5233faa503ab7a879be7ea59d9884e9594c23700a078d28bfd146e2ba6630",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -110,7 +110,7 @@
   "title": "Moderate: rsync security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1668731969000
+    "$date": 1668731968000
   },
   "version": "1"
 }

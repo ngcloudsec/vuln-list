@@ -8,8 +8,8 @@
     "$date": 1663632000000
   },
   "pkglist": {
-    "name": "almalinux-9-for-i686-highavailability-rpms__9_default",
-    "shortname": "almalinux-9-for-i686-highavailability-rpms__9_default",
+    "name": "almalinux-9-for-x86_64-highavailability-rpms__9_default",
+    "shortname": "almalinux-9-for-x86_64-highavailability-rpms__9_default",
     "packages": [
       {
         "name": "booth-site",
@@ -36,18 +36,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "booth-test",
-        "version": "1.0",
-        "release": "251.3.bfb2f92.git.el9_0.1",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "booth-1.0-251.3.bfb2f92.git.el9_0.1.src.rpm",
-        "filename": "booth-test-1.0-251.3.bfb2f92.git.el9_0.1.noarch.rpm",
-        "sum": "e1ec94a19684f02911ad1435aea6965fef07990a888f9e81de2884d753fca0e9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "booth-core",
         "version": "1.0",
         "release": "251.3.bfb2f92.git.el9_0.1",
@@ -68,6 +56,18 @@
         "src": "booth-1.0-251.3.bfb2f92.git.el9_0.1.src.rpm",
         "filename": "booth-1.0-251.3.bfb2f92.git.el9_0.1.x86_64.rpm",
         "sum": "bceb51d38a54080cd96ce2a300bc76dd467c1d8075e5b848cddf5135218f2d81",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "booth-test",
+        "version": "1.0",
+        "release": "251.3.bfb2f92.git.el9_0.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "booth-1.0-251.3.bfb2f92.git.el9_0.1.src.rpm",
+        "filename": "booth-test-1.0-251.3.bfb2f92.git.el9_0.1.noarch.rpm",
+        "sum": "e1ec94a19684f02911ad1435aea6965fef07990a888f9e81de2884d753fca0e9",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -182,7 +182,7 @@
   "title": "Moderate: booth security update",
   "type": "security",
   "updated_date": {
-    "$date": 1665758393000
+    "$date": 1665758403000
   },
   "version": "1"
 }

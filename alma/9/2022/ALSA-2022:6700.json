@@ -8,21 +8,9 @@
     "$date": 1664150400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-s390x-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-s390x-appstream-rpms__9_default",
+    "name": "almalinux-9-for-x86_64-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_default",
     "packages": [
-      {
-        "name": "firefox",
-        "version": "102.3.0",
-        "release": "6.el9_0.alma",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "firefox-102.3.0-6.el9_0.alma.src.rpm",
-        "filename": "firefox-102.3.0-6.el9_0.alma.s390x.rpm",
-        "sum": "db6877f2df2d218d5f5c7c8910a93a31587175526ea30651501c1c6a017d5ca6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "firefox",
         "version": "102.3.0",
@@ -40,10 +28,10 @@
         "version": "102.3.0",
         "release": "6.el9_0.alma",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "firefox-102.3.0-6.el9_0.alma.src.rpm",
-        "filename": "firefox-102.3.0-6.el9_0.alma.aarch64.rpm",
-        "sum": "1013666dbad163cba83a8a6736d7d5f18eb1dbe27dde6196d4ee4e2945a4ca46",
+        "filename": "firefox-102.3.0-6.el9_0.alma.ppc64le.rpm",
+        "sum": "0a42ed717368923edbbb7ed0b84f9dad94a74c8c9d226d077d62eefc78ed4e99",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +40,22 @@
         "version": "102.3.0",
         "release": "6.el9_0.alma",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "s390x",
         "src": "firefox-102.3.0-6.el9_0.alma.src.rpm",
-        "filename": "firefox-102.3.0-6.el9_0.alma.ppc64le.rpm",
-        "sum": "0a42ed717368923edbbb7ed0b84f9dad94a74c8c9d226d077d62eefc78ed4e99",
+        "filename": "firefox-102.3.0-6.el9_0.alma.s390x.rpm",
+        "sum": "db6877f2df2d218d5f5c7c8910a93a31587175526ea30651501c1c6a017d5ca6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "firefox",
+        "version": "102.3.0",
+        "release": "6.el9_0.alma",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "firefox-102.3.0-6.el9_0.alma.src.rpm",
+        "filename": "firefox-102.3.0-6.el9_0.alma.aarch64.rpm",
+        "sum": "1013666dbad163cba83a8a6736d7d5f18eb1dbe27dde6196d4ee4e2945a4ca46",
         "sum_type": 5,
         "reboot_suggested": 0
       }

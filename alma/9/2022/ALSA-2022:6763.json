@@ -8,9 +8,21 @@
     "$date": 1664755200000
   },
   "pkglist": {
-    "name": "almalinux-9-for-i686-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-i686-appstream-rpms__9_default",
+    "name": "almalinux-9-for-x86_64-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_default",
     "packages": [
+      {
+        "name": "bind-utils",
+        "version": "9.16.23",
+        "release": "1.el9_0.1",
+        "epoch": "32",
+        "arch": "x86_64",
+        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
+        "filename": "bind-utils-9.16.23-1.el9_0.1.x86_64.rpm",
+        "sum": "308098b4314dfa76bb257f01ca30b561b2502a0d257c0ce475bb4e0ab7e84c49",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "bind-dnssec-doc",
         "version": "9.16.23",
@@ -20,6 +32,42 @@
         "src": "bind-9.16.23-1.el9_0.1.src.rpm",
         "filename": "bind-dnssec-doc-9.16.23-1.el9_0.1.noarch.rpm",
         "sum": "4088d5438d88486bafd546b5fb2ce066ca0050519d9080299ef4cdd16fb3b279",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "bind-chroot",
+        "version": "9.16.23",
+        "release": "1.el9_0.1",
+        "epoch": "32",
+        "arch": "x86_64",
+        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
+        "filename": "bind-chroot-9.16.23-1.el9_0.1.x86_64.rpm",
+        "sum": "877fe5d04389d13997ffab9fdf88a1223f21ffa4cdb27fba87327ea0d164ad1b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "bind-libs",
+        "version": "9.16.23",
+        "release": "1.el9_0.1",
+        "epoch": "32",
+        "arch": "x86_64",
+        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
+        "filename": "bind-libs-9.16.23-1.el9_0.1.x86_64.rpm",
+        "sum": "9412f0058481e9e3ba312e9715e27409bcfa67ba675e9bd8cd18edd4867dbb5e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "bind",
+        "version": "9.16.23",
+        "release": "1.el9_0.1",
+        "epoch": "32",
+        "arch": "x86_64",
+        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
+        "filename": "bind-9.16.23-1.el9_0.1.x86_64.rpm",
+        "sum": "acd11f6909b9620744a6bf7d022570fe87b6231cf7634e1b0de654d2cac4632b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -36,6 +84,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "bind-dnssec-utils",
+        "version": "9.16.23",
+        "release": "1.el9_0.1",
+        "epoch": "32",
+        "arch": "x86_64",
+        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
+        "filename": "bind-dnssec-utils-9.16.23-1.el9_0.1.x86_64.rpm",
+        "sum": "cd48bf05c979cfd84e9d03c340ee46f547e987ad5593a86b61d05eba2c150a59",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "bind-license",
         "version": "9.16.23",
         "release": "1.el9_0.1",
@@ -44,6 +104,66 @@
         "src": "bind-9.16.23-1.el9_0.1.src.rpm",
         "filename": "bind-license-9.16.23-1.el9_0.1.noarch.rpm",
         "sum": "e745141e636123b205e4d059aa3b57e080a29f58d014d6f6e5ca704d05093e33",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "bind-dnssec-utils",
+        "version": "9.16.23",
+        "release": "1.el9_0.1",
+        "epoch": "32",
+        "arch": "ppc64le",
+        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
+        "filename": "bind-dnssec-utils-9.16.23-1.el9_0.1.ppc64le.rpm",
+        "sum": "5e7727cc63a6205754bc7133e55fbe7488d58f48446fb7d7676ef94bdd10818e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "bind-utils",
+        "version": "9.16.23",
+        "release": "1.el9_0.1",
+        "epoch": "32",
+        "arch": "ppc64le",
+        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
+        "filename": "bind-utils-9.16.23-1.el9_0.1.ppc64le.rpm",
+        "sum": "5f08af577b3f0f852eb7df944aa11dd734f21e20283d445909b1fef7de4b8816",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "bind-libs",
+        "version": "9.16.23",
+        "release": "1.el9_0.1",
+        "epoch": "32",
+        "arch": "ppc64le",
+        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
+        "filename": "bind-libs-9.16.23-1.el9_0.1.ppc64le.rpm",
+        "sum": "6475376bad1fda5fe4e614abe9ff8fba705f44dbc03699377211293abf0b8dc6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "bind",
+        "version": "9.16.23",
+        "release": "1.el9_0.1",
+        "epoch": "32",
+        "arch": "ppc64le",
+        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
+        "filename": "bind-9.16.23-1.el9_0.1.ppc64le.rpm",
+        "sum": "7eccea68c9b95d62d1ad3ed66876ec998614f088b1f83beade1500c2476eeecb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "bind-chroot",
+        "version": "9.16.23",
+        "release": "1.el9_0.1",
+        "epoch": "32",
+        "arch": "ppc64le",
+        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
+        "filename": "bind-chroot-9.16.23-1.el9_0.1.ppc64le.rpm",
+        "sum": "cb504a7cadcc528781bb90bf0538be53c771be14098f56567d2969b3c395932f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -120,66 +240,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "bind-utils",
-        "version": "9.16.23",
-        "release": "1.el9_0.1",
-        "epoch": "32",
-        "arch": "x86_64",
-        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
-        "filename": "bind-utils-9.16.23-1.el9_0.1.x86_64.rpm",
-        "sum": "308098b4314dfa76bb257f01ca30b561b2502a0d257c0ce475bb4e0ab7e84c49",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "bind-chroot",
-        "version": "9.16.23",
-        "release": "1.el9_0.1",
-        "epoch": "32",
-        "arch": "x86_64",
-        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
-        "filename": "bind-chroot-9.16.23-1.el9_0.1.x86_64.rpm",
-        "sum": "877fe5d04389d13997ffab9fdf88a1223f21ffa4cdb27fba87327ea0d164ad1b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "bind-libs",
-        "version": "9.16.23",
-        "release": "1.el9_0.1",
-        "epoch": "32",
-        "arch": "x86_64",
-        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
-        "filename": "bind-libs-9.16.23-1.el9_0.1.x86_64.rpm",
-        "sum": "9412f0058481e9e3ba312e9715e27409bcfa67ba675e9bd8cd18edd4867dbb5e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "bind",
-        "version": "9.16.23",
-        "release": "1.el9_0.1",
-        "epoch": "32",
-        "arch": "x86_64",
-        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
-        "filename": "bind-9.16.23-1.el9_0.1.x86_64.rpm",
-        "sum": "acd11f6909b9620744a6bf7d022570fe87b6231cf7634e1b0de654d2cac4632b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "bind-dnssec-utils",
-        "version": "9.16.23",
-        "release": "1.el9_0.1",
-        "epoch": "32",
-        "arch": "x86_64",
-        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
-        "filename": "bind-dnssec-utils-9.16.23-1.el9_0.1.x86_64.rpm",
-        "sum": "cd48bf05c979cfd84e9d03c340ee46f547e987ad5593a86b61d05eba2c150a59",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "bind",
         "version": "9.16.23",
         "release": "1.el9_0.1",
@@ -240,66 +300,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "bind-dnssec-utils",
-        "version": "9.16.23",
-        "release": "1.el9_0.1",
-        "epoch": "32",
-        "arch": "ppc64le",
-        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
-        "filename": "bind-dnssec-utils-9.16.23-1.el9_0.1.ppc64le.rpm",
-        "sum": "5e7727cc63a6205754bc7133e55fbe7488d58f48446fb7d7676ef94bdd10818e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "bind-utils",
-        "version": "9.16.23",
-        "release": "1.el9_0.1",
-        "epoch": "32",
-        "arch": "ppc64le",
-        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
-        "filename": "bind-utils-9.16.23-1.el9_0.1.ppc64le.rpm",
-        "sum": "5f08af577b3f0f852eb7df944aa11dd734f21e20283d445909b1fef7de4b8816",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "bind-libs",
-        "version": "9.16.23",
-        "release": "1.el9_0.1",
-        "epoch": "32",
-        "arch": "ppc64le",
-        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
-        "filename": "bind-libs-9.16.23-1.el9_0.1.ppc64le.rpm",
-        "sum": "6475376bad1fda5fe4e614abe9ff8fba705f44dbc03699377211293abf0b8dc6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "bind",
-        "version": "9.16.23",
-        "release": "1.el9_0.1",
-        "epoch": "32",
-        "arch": "ppc64le",
-        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
-        "filename": "bind-9.16.23-1.el9_0.1.ppc64le.rpm",
-        "sum": "7eccea68c9b95d62d1ad3ed66876ec998614f088b1f83beade1500c2476eeecb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "bind-chroot",
-        "version": "9.16.23",
-        "release": "1.el9_0.1",
-        "epoch": "32",
-        "arch": "ppc64le",
-        "src": "bind-9.16.23-1.el9_0.1.src.rpm",
-        "filename": "bind-chroot-9.16.23-1.el9_0.1.ppc64le.rpm",
-        "sum": "cb504a7cadcc528781bb90bf0538be53c771be14098f56567d2969b3c395932f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "bind-devel",
         "version": "9.16.23",
         "release": "1.el9_0.1",
@@ -316,10 +316,10 @@
         "version": "9.16.23",
         "release": "1.el9_0.1",
         "epoch": "32",
-        "arch": "ppc64le",
+        "arch": "aarch64",
         "src": "bind-9.16.23-1.el9_0.1.src.rpm",
-        "filename": "bind-devel-9.16.23-1.el9_0.1.ppc64le.rpm",
-        "sum": "86a3a1d351735b85d409e8b79eb90355c8a0a89a60d7306158d1015e6ec449ec",
+        "filename": "bind-devel-9.16.23-1.el9_0.1.aarch64.rpm",
+        "sum": "554042dbd95f1e0249beeed93709b4c8943e52532a8a74a66d694d81e2b04b46",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -340,10 +340,10 @@
         "version": "9.16.23",
         "release": "1.el9_0.1",
         "epoch": "32",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "bind-9.16.23-1.el9_0.1.src.rpm",
-        "filename": "bind-devel-9.16.23-1.el9_0.1.aarch64.rpm",
-        "sum": "554042dbd95f1e0249beeed93709b4c8943e52532a8a74a66d694d81e2b04b46",
+        "filename": "bind-devel-9.16.23-1.el9_0.1.ppc64le.rpm",
+        "sum": "86a3a1d351735b85d409e8b79eb90355c8a0a89a60d7306158d1015e6ec449ec",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -410,7 +410,7 @@
   "title": "Important: bind security update",
   "type": "security",
   "updated_date": {
-    "$date": 1665763459000
+    "$date": 1665763466000
   },
   "version": "1"
 }

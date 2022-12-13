@@ -8,21 +8,9 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-s390x-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-s390x-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
     "packages": [
-      {
-        "name": "frr",
-        "version": "8.2.2",
-        "release": "4.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "frr-8.2.2-4.el9.src.rpm",
-        "filename": "frr-8.2.2-4.el9.s390x.rpm",
-        "sum": "cf77f6b767fba00c7ae7b2b7611ca302ab908497f2320d823966e7cc4e3a5904",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "frr",
         "version": "8.2.2",
@@ -40,10 +28,10 @@
         "version": "8.2.2",
         "release": "4.el9",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "frr-8.2.2-4.el9.src.rpm",
-        "filename": "frr-8.2.2-4.el9.aarch64.rpm",
-        "sum": "7371503c0bc78d22b9aae2858df10bb5a2517341b5c018a8a7fa37faed571d88",
+        "filename": "frr-8.2.2-4.el9.ppc64le.rpm",
+        "sum": "72aac6e4cdfce3191ef3e8721f62f3457e59dbb1552e815c4b8be19d43d9d57d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +40,22 @@
         "version": "8.2.2",
         "release": "4.el9",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "s390x",
         "src": "frr-8.2.2-4.el9.src.rpm",
-        "filename": "frr-8.2.2-4.el9.ppc64le.rpm",
-        "sum": "72aac6e4cdfce3191ef3e8721f62f3457e59dbb1552e815c4b8be19d43d9d57d",
+        "filename": "frr-8.2.2-4.el9.s390x.rpm",
+        "sum": "cf77f6b767fba00c7ae7b2b7611ca302ab908497f2320d823966e7cc4e3a5904",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "frr",
+        "version": "8.2.2",
+        "release": "4.el9",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "frr-8.2.2-4.el9.src.rpm",
+        "filename": "frr-8.2.2-4.el9.aarch64.rpm",
+        "sum": "7371503c0bc78d22b9aae2858df10bb5a2517341b5c018a8a7fa37faed571d88",
         "sum_type": 5,
         "reboot_suggested": 0
       }

@@ -8,21 +8,9 @@
     "$date": 1667347200000
   },
   "pkglist": {
-    "name": "almalinux-9-for-s390x-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-s390x-appstream-rpms__9_default",
+    "name": "almalinux-9-for-x86_64-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_default",
     "packages": [
-      {
-        "name": "lua",
-        "version": "5.4.2",
-        "release": "4.el9_0.3",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "lua-5.4.2-4.el9_0.3.src.rpm",
-        "filename": "lua-5.4.2-4.el9_0.3.s390x.rpm",
-        "sum": "241e6776d500dbe56d58c34edaade9ae02e479cb1f218aaf5e2cbe008110a4e5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "lua",
         "version": "5.4.2",
@@ -40,18 +28,6 @@
         "version": "5.4.2",
         "release": "4.el9_0.3",
         "epoch": "0",
-        "arch": "aarch64",
-        "src": "lua-5.4.2-4.el9_0.3.src.rpm",
-        "filename": "lua-5.4.2-4.el9_0.3.aarch64.rpm",
-        "sum": "6d4f748ab0699c75b783a7e5de28a9c8e8e40e71107acc59e5c8e8ae63bccf74",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "lua",
-        "version": "5.4.2",
-        "release": "4.el9_0.3",
-        "epoch": "0",
         "arch": "ppc64le",
         "src": "lua-5.4.2-4.el9_0.3.src.rpm",
         "filename": "lua-5.4.2-4.el9_0.3.ppc64le.rpm",
@@ -60,14 +36,50 @@
         "reboot_suggested": 0
       },
       {
+        "name": "lua",
+        "version": "5.4.2",
+        "release": "4.el9_0.3",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "lua-5.4.2-4.el9_0.3.src.rpm",
+        "filename": "lua-5.4.2-4.el9_0.3.s390x.rpm",
+        "sum": "241e6776d500dbe56d58c34edaade9ae02e479cb1f218aaf5e2cbe008110a4e5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "lua",
+        "version": "5.4.2",
+        "release": "4.el9_0.3",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "lua-5.4.2-4.el9_0.3.src.rpm",
+        "filename": "lua-5.4.2-4.el9_0.3.aarch64.rpm",
+        "sum": "6d4f748ab0699c75b783a7e5de28a9c8e8e40e71107acc59e5c8e8ae63bccf74",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "lua-libs",
         "version": "5.4.2",
         "release": "4.el9_0.3",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "aarch64",
         "src": "lua-5.4.2-4.el9_0.3.src.rpm",
-        "filename": "lua-libs-5.4.2-4.el9_0.3.ppc64le.rpm",
-        "sum": "2095aa65ba47651e95253dcfbf7390ec50b9446b0795e421e6ddbc12a1d4da77",
+        "filename": "lua-libs-5.4.2-4.el9_0.3.aarch64.rpm",
+        "sum": "696be7e6a02b7d4f054bbe17b0fa78167f36cfd340a717f36d0de9dd450ead00",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "lua-libs",
+        "version": "5.4.2",
+        "release": "4.el9_0.3",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "lua-5.4.2-4.el9_0.3.src.rpm",
+        "filename": "lua-libs-5.4.2-4.el9_0.3.s390x.rpm",
+        "sum": "de9877861da1ecdeb05e53e112ae0ede9f07a2c14af5aa361f7d8dd3d37cbcd3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -88,10 +100,34 @@
         "version": "5.4.2",
         "release": "4.el9_0.3",
         "epoch": "0",
+        "arch": "ppc64le",
+        "src": "lua-5.4.2-4.el9_0.3.src.rpm",
+        "filename": "lua-libs-5.4.2-4.el9_0.3.ppc64le.rpm",
+        "sum": "2095aa65ba47651e95253dcfbf7390ec50b9446b0795e421e6ddbc12a1d4da77",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "lua-devel",
+        "version": "5.4.2",
+        "release": "4.el9_0.3",
+        "epoch": "0",
         "arch": "aarch64",
         "src": "lua-5.4.2-4.el9_0.3.src.rpm",
-        "filename": "lua-libs-5.4.2-4.el9_0.3.aarch64.rpm",
-        "sum": "696be7e6a02b7d4f054bbe17b0fa78167f36cfd340a717f36d0de9dd450ead00",
+        "filename": "lua-devel-5.4.2-4.el9_0.3.aarch64.rpm",
+        "sum": "361e8fe0d5c2819cee386139009d1c1affb30d55d4c5b835ec4b94d01914a705",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "lua-devel",
+        "version": "5.4.2",
+        "release": "4.el9_0.3",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "lua-5.4.2-4.el9_0.3.src.rpm",
+        "filename": "lua-devel-5.4.2-4.el9_0.3.s390x.rpm",
+        "sum": "c345598381aa00205494f3165374390ff6c05e08bc676c5b985ab14f6772ebf5",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -128,42 +164,6 @@
         "src": "lua-5.4.2-4.el9_0.3.src.rpm",
         "filename": "lua-5.4.2-4.el9_0.3.i686.rpm",
         "sum": "2cb593b6b0e23cfa2597288f810679512f2042b411bb0be3516b73df1a07f9d2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "lua-devel",
-        "version": "5.4.2",
-        "release": "4.el9_0.3",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "lua-5.4.2-4.el9_0.3.src.rpm",
-        "filename": "lua-devel-5.4.2-4.el9_0.3.s390x.rpm",
-        "sum": "c345598381aa00205494f3165374390ff6c05e08bc676c5b985ab14f6772ebf5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "lua-devel",
-        "version": "5.4.2",
-        "release": "4.el9_0.3",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "lua-5.4.2-4.el9_0.3.src.rpm",
-        "filename": "lua-devel-5.4.2-4.el9_0.3.aarch64.rpm",
-        "sum": "361e8fe0d5c2819cee386139009d1c1affb30d55d4c5b835ec4b94d01914a705",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "lua-libs",
-        "version": "5.4.2",
-        "release": "4.el9_0.3",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "lua-5.4.2-4.el9_0.3.src.rpm",
-        "filename": "lua-libs-5.4.2-4.el9_0.3.s390x.rpm",
-        "sum": "de9877861da1ecdeb05e53e112ae0ede9f07a2c14af5aa361f7d8dd3d37cbcd3",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -206,7 +206,7 @@
   "title": "Moderate: lua security update",
   "type": "security",
   "updated_date": {
-    "$date": 1667458065000
+    "$date": 1667458064000
   },
   "version": "1"
 }

@@ -8,18 +8,18 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-s390x-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-s390x-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
     "packages": [
       {
-        "name": "389-ds-base",
+        "name": "389-ds-base-libs",
         "version": "2.1.3",
         "release": "4.el9_1",
         "epoch": "0",
-        "arch": "s390x",
+        "arch": "x86_64",
         "src": "389-ds-base-2.1.3-4.el9_1.src.rpm",
-        "filename": "389-ds-base-2.1.3-4.el9_1.s390x.rpm",
-        "sum": "23819698eefaa613b27fbc75dfa7a4e449f45ccc2b96bb9153e509c86919405f",
+        "filename": "389-ds-base-libs-2.1.3-4.el9_1.x86_64.rpm",
+        "sum": "39b9508d2df3d7207c27024048b34b1b6c7e18e8423bb94a1ade8b6c94cd8e82",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -36,30 +36,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "389-ds-base-libs",
-        "version": "2.1.3",
-        "release": "4.el9_1",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "389-ds-base-2.1.3-4.el9_1.src.rpm",
-        "filename": "389-ds-base-libs-2.1.3-4.el9_1.s390x.rpm",
-        "sum": "edbfc4726d34137fbcdfb97b8e73be5c755a06aaf4c1b24012ade4f8a3ca0011",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "389-ds-base-libs",
-        "version": "2.1.3",
-        "release": "4.el9_1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "389-ds-base-2.1.3-4.el9_1.src.rpm",
-        "filename": "389-ds-base-libs-2.1.3-4.el9_1.x86_64.rpm",
-        "sum": "39b9508d2df3d7207c27024048b34b1b6c7e18e8423bb94a1ade8b6c94cd8e82",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "389-ds-base",
         "version": "2.1.3",
         "release": "4.el9_1",
@@ -68,30 +44,6 @@
         "src": "389-ds-base-2.1.3-4.el9_1.src.rpm",
         "filename": "389-ds-base-2.1.3-4.el9_1.x86_64.rpm",
         "sum": "e95ddc672e86cf19aed9ad7895299a08cddfe72ccb4c3778c76dea5d6b61fe4b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "389-ds-base",
-        "version": "2.1.3",
-        "release": "4.el9_1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "389-ds-base-2.1.3-4.el9_1.src.rpm",
-        "filename": "389-ds-base-2.1.3-4.el9_1.aarch64.rpm",
-        "sum": "027c130c7e073748b7bd711ef4e90a8e8a6b5a18202c98749632b078abcfe330",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "389-ds-base-libs",
-        "version": "2.1.3",
-        "release": "4.el9_1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "389-ds-base-2.1.3-4.el9_1.src.rpm",
-        "filename": "389-ds-base-libs-2.1.3-4.el9_1.aarch64.rpm",
-        "sum": "cf8017d08c89f2ac07a7eb6aafea90e171fb530b77bf89a8ec40d88e72234e99",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -116,6 +68,54 @@
         "src": "389-ds-base-2.1.3-4.el9_1.src.rpm",
         "filename": "389-ds-base-libs-2.1.3-4.el9_1.ppc64le.rpm",
         "sum": "87545b498dff0204a3f981f5372d302e29ebe1a545f4fbc1d7fc5339fd1799a2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "389-ds-base",
+        "version": "2.1.3",
+        "release": "4.el9_1",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "389-ds-base-2.1.3-4.el9_1.src.rpm",
+        "filename": "389-ds-base-2.1.3-4.el9_1.s390x.rpm",
+        "sum": "23819698eefaa613b27fbc75dfa7a4e449f45ccc2b96bb9153e509c86919405f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "389-ds-base-libs",
+        "version": "2.1.3",
+        "release": "4.el9_1",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "389-ds-base-2.1.3-4.el9_1.src.rpm",
+        "filename": "389-ds-base-libs-2.1.3-4.el9_1.s390x.rpm",
+        "sum": "edbfc4726d34137fbcdfb97b8e73be5c755a06aaf4c1b24012ade4f8a3ca0011",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "389-ds-base",
+        "version": "2.1.3",
+        "release": "4.el9_1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "389-ds-base-2.1.3-4.el9_1.src.rpm",
+        "filename": "389-ds-base-2.1.3-4.el9_1.aarch64.rpm",
+        "sum": "027c130c7e073748b7bd711ef4e90a8e8a6b5a18202c98749632b078abcfe330",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "389-ds-base-libs",
+        "version": "2.1.3",
+        "release": "4.el9_1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "389-ds-base-2.1.3-4.el9_1.src.rpm",
+        "filename": "389-ds-base-libs-2.1.3-4.el9_1.aarch64.rpm",
+        "sum": "cf8017d08c89f2ac07a7eb6aafea90e171fb530b77bf89a8ec40d88e72234e99",
         "sum_type": 5,
         "reboot_suggested": 0
       }
