@@ -5,7 +5,7 @@
     "date": "2022-12-01 20:31"
   },
   "updated": {
-    "date": "2022-12-01 20:31"
+    "date": "2022-12-06 22:41"
   },
   "severity": "important",
   "description": "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2022-3564:\n\tA vulnerability classified as critical was found in Linux Kernel. Affected by this vulnerability is the function l2cap_reassemble_sdu of the file net/bluetooth/l2cap_core.c of the component Bluetooth. The manipulation leads to use after free. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-211087.\n\nCVE-2022-26373:\n\tA flaw was found in hw. In certain processors with Intel's Enhanced Indirect Branch Restricted Speculation (eIBRS) capabilities, soon after VM exit or IBPB command event, the linear address following the most recent near CALL instruction prior to a VM exit may be used as the Return Stack Buffer (RSB) prediction.\n\nCVE-2022-20369:\n\tIn v4l2_m2m_querybuf of v4l2-mem2mem.c, there is a possible out of bounds write due to improper input validation. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation.Product: AndroidVersions: Android kernelAndroid ID: A-223375145References: Upstream kernel\n",

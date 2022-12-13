@@ -5,7 +5,7 @@
     "date": "2022-12-01 20:31"
   },
   "updated": {
-    "date": "2022-12-01 20:31"
+    "date": "2022-12-06 22:41"
   },
   "severity": "important",
   "description": "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2022-41716:\n\tDue to unsanitized NUL values, attackers may be able to maliciously set environment variables on Windows. In syscall.StartProcess and os/exec.Cmd, invalid environment variable values containing NUL values are not properly checked for. A malicious environment variable value can exploit this behavior to set a value for a different environment variable. For example, the environment variable string \"A=B\\x00C=D\" sets the variables \"A=B\" and \"C=D\".\n\nCVE-2022-41715:\n\tNo description is available for this CVE.\n\nCVE-2022-2879:\n\tReader.Read does not set a limit on the maximum size of file headers. A maliciously crafted archive could cause Read to allocate unbounded amounts of memory, potentially causing resource exhaustion or panics. After fix, Reader.Read limits the maximum size of header blocks to 1 MiB.\n",

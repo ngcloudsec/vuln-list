@@ -5,7 +5,7 @@
     "date": "2022-12-01 20:31"
   },
   "updated": {
-    "date": "2022-12-01 20:31"
+    "date": "2022-12-06 22:40"
   },
   "severity": "low",
   "description": "Package updates are available for Amazon Linux 2 that fix the following vulnerabilities:\nCVE-2022-1122:\n\tA flaw was found in the opj2_decompress program in openjpeg2 in the way it handles an input directory with a large number of files. When it fails to allocate a buffer to store the filenames of the input directory, it calls free() on an uninitialized pointer, leading to a segmentation fault and a denial of service.\n",
