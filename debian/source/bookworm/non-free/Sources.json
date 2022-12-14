@@ -14116,19 +14116,19 @@
       "libtestu01-0, testu01-data, libtestu01-0-dev, libtestu01-0-dev-common, testu01-doc, testu01-bin"
     ],
     "Build-Depends": [
-      "debhelper (\u003e= 11), gnulib, libtool, cproto (\u003e= 4.7l-4), libgmp-dev"
+      "debhelper-compat (= 12), gnulib, libtool, cproto, libgmp-dev"
     ],
     "Build-Depends-Indep": [
       "texlive-latex-base, texlive-latex-recommended, texlive-latex-extra"
     ],
     "Checksums-Sha256": [
-      "4ada1eb027ba8ff1cdc62d992cc8ecd66f68a875a4e0991b99a71a6bca3cb261 3312 testu01_1.2.3+ds1-1.dsc b4b6323170d7cbb4fa0e1131cb849edefb4cd1a651093b5d9aa017ad22d198dd 575080 testu01_1.2.3+ds1.orig.tar.xz 242d60961d06e5d3f2401f945d6171f34639d6d3595b3c185c88b9bae459810a 12617020 testu01_1.2.3+ds1-1.debian.tar.xz"
+      "e0d3ef8647f6ffe8419c86bf2db4a5b29c366492fe3dbccd324bf41ca597416b 3267 testu01_1.2.3+ds1-2.dsc b4b6323170d7cbb4fa0e1131cb849edefb4cd1a651093b5d9aa017ad22d198dd 575080 testu01_1.2.3+ds1.orig.tar.xz 51dfecdda751482a3b803ede1db03a5e318bda05f822324e03890ce6f1b47b22 12617456 testu01_1.2.3+ds1-2.debian.tar.xz"
     ],
     "Directory": [
       "pool/non-free/t/testu01"
     ],
     "Files": [
-      "02728c3ffcfed9d281b1af3d13782379 3312 testu01_1.2.3+ds1-1.dsc 86cdd4a5f9d939bdf9193e81e7f74e58 575080 testu01_1.2.3+ds1.orig.tar.xz 292cf1350016c1926692046df26655cb 12617020 testu01_1.2.3+ds1-1.debian.tar.xz"
+      "dcb5fb2a461ec625523120f824c5ea46 3267 testu01_1.2.3+ds1-2.dsc 86cdd4a5f9d939bdf9193e81e7f74e58 575080 testu01_1.2.3+ds1.orig.tar.xz 918b468b73ec67a8603b4b43735b2c8e 12617456 testu01_1.2.3+ds1-2.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -14152,7 +14152,7 @@
       "non-free/misc"
     ],
     "Standards-Version": [
-      "4.1.3"
+      "4.6.1"
     ],
     "Testsuite": [
       "autopkgtest"
@@ -14164,13 +14164,13 @@
       "Jerome Benoit \u003ccalculus@rezozer.net\u003e"
     ],
     "Vcs-Browser": [
-      "https://anonscm.debian.org/cgit/debian-science/packages/testu01.git"
+      "https://salsa.debian.org/science-team/testu01"
     ],
     "Vcs-Git": [
-      "https://anonscm.debian.org/git/debian-science/packages/testu01.git"
+      "https://salsa.debian.org/science-team/testu01.git"
     ],
     "Version": [
-      "1.2.3+ds1-1"
+      "1.2.3+ds1-2"
     ]
   },
   {
