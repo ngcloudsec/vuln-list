@@ -1,0 +1,494 @@
+{
+  "Title": "Security update for containerd",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:4463-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-12-13T16:05:13Z",
+    "CurrentReleaseDate": "2022-12-13T16:05:13Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-12-13T16:05:13Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for containerd",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for containerd fixes the following issues:\n\nUpdate to containerd v1.6.12 including Docker v20.10.21-ce (bsc#1206065). \n\nAlso includes the following fix:\n\n- CVE-2022-23471: host memory exhaustion through Terminal resize goroutine leak (bsc#1206235).\n- CVE-2022-27191: crash in a golang.org/x/crypto/ssh server (bsc#1197284).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Containers 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Containers 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Containers 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Containers 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Package Hub 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP1-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-BCL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-1.6.12-150000.79.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "containerd-ctr-1.6.12-150000.79.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20224463-1/",
+      "Description": "Link for SUSE-SU-2022:4463-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-December/013228.html",
+      "Description": "E-Mail link for SUSE-SU-2022:4463-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1197284",
+      "Description": "SUSE Bug 1197284"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1206065",
+      "Description": "SUSE Bug 1206065"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1206235",
+      "Description": "SUSE Bug 1206235"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-23471/",
+      "Description": "SUSE CVE CVE-2022-23471 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-27191/",
+      "Description": "SUSE CVE CVE-2022-27191 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-23471",
+      "Description": "containerd is an open source container runtime. A bug was found in containerd's CRI implementation where a user can exhaust memory on the host. In the CRI stream server, a goroutine is launched to handle terminal resize events if a TTY is requested. If the user's process fails to launch due to, for example, a faulty command, the goroutine will be stuck waiting to send without a receiver, resulting in a memory leak. Kubernetes and crictl can both be configured to use containerd's CRI implementation and the stream server is used for handling container IO. This bug has been fixed in containerd 1.6.12 and 1.5.16. Users should update to these versions to resolve the issue. Users unable to upgrade should ensure that only trusted images and commands are used and that only trusted users have permissions to execute commands in running containers.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-23471.html",
+          "Description": "CVE-2022-23471"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1206235",
+          "Description": "SUSE Bug 1206235"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 6:containerd-1.6.12-150000.79.1",
+            "SUSE Enterprise Storage 6:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Enterprise Storage 7:containerd-1.6.12-150000.79.1",
+            "SUSE Enterprise Storage 7:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Micro 5.1:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Micro 5.2:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Micro 5.3:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Module for Containers 15 SP3:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Module for Containers 15 SP3:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Module for Containers 15 SP4:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Module for Containers 15 SP4:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP3:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15-LTSS:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15-LTSS:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Manager Proxy 4.1:containerd-1.6.12-150000.79.1",
+            "SUSE Manager Proxy 4.1:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Manager Retail Branch Server 4.1:containerd-1.6.12-150000.79.1",
+            "SUSE Manager Retail Branch Server 4.1:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Manager Server 4.1:containerd-1.6.12-150000.79.1",
+            "SUSE Manager Server 4.1:containerd-ctr-1.6.12-150000.79.1",
+            "openSUSE Leap 15.3:containerd-1.6.12-150000.79.1",
+            "openSUSE Leap 15.3:containerd-ctr-1.6.12-150000.79.1",
+            "openSUSE Leap 15.4:containerd-1.6.12-150000.79.1",
+            "openSUSE Leap 15.4:containerd-ctr-1.6.12-150000.79.1",
+            "openSUSE Leap Micro 5.2:containerd-1.6.12-150000.79.1",
+            "openSUSE Leap Micro 5.3:containerd-1.6.12-150000.79.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-27191",
+      "Description": "The golang.org/x/crypto/ssh package before 0.0.0-20220314234659-1baeb1ce4c0b for Go allows an attacker to crash a server in certain circumstances involving AddHostKey.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-27191.html",
+          "Description": "CVE-2022-27191"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1197284",
+          "Description": "SUSE Bug 1197284"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 6:containerd-1.6.12-150000.79.1",
+            "SUSE Enterprise Storage 6:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Enterprise Storage 7:containerd-1.6.12-150000.79.1",
+            "SUSE Enterprise Storage 7:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-ESPOS:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP1-LTSS:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-ESPOS:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15-ESPOS:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise High Performance Computing 15-LTSS:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Micro 5.1:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Micro 5.2:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Micro 5.3:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Module for Containers 15 SP3:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Module for Containers 15 SP3:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Module for Containers 15 SP4:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Module for Containers 15 SP4:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP3:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15 SP1-BCL:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15 SP1-LTSS:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15 SP2-BCL:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15-LTSS:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server 15-LTSS:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP1:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:containerd-1.6.12-150000.79.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Manager Proxy 4.1:containerd-1.6.12-150000.79.1",
+            "SUSE Manager Proxy 4.1:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Manager Retail Branch Server 4.1:containerd-1.6.12-150000.79.1",
+            "SUSE Manager Retail Branch Server 4.1:containerd-ctr-1.6.12-150000.79.1",
+            "SUSE Manager Server 4.1:containerd-1.6.12-150000.79.1",
+            "SUSE Manager Server 4.1:containerd-ctr-1.6.12-150000.79.1",
+            "openSUSE Leap 15.3:containerd-1.6.12-150000.79.1",
+            "openSUSE Leap 15.3:containerd-ctr-1.6.12-150000.79.1",
+            "openSUSE Leap 15.4:containerd-1.6.12-150000.79.1",
+            "openSUSE Leap 15.4:containerd-ctr-1.6.12-150000.79.1",
+            "openSUSE Leap Micro 5.2:containerd-1.6.12-150000.79.1",
+            "openSUSE Leap Micro 5.3:containerd-1.6.12-150000.79.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}
