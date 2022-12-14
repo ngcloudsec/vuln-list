@@ -5625,6 +5625,65 @@
       "any all"
     ],
     "Binary": [
+      "git, git-man, git-doc, git-cvs, git-svn, git-mediawiki, git-email, git-daemon-run, git-daemon-sysvinit, git-gui, gitk, git-el, gitweb, git-all"
+    ],
+    "Build-Depends": [
+      "libz-dev, gettext, libpcre2-dev | libpcre3-dev, libcurl4-gnutls-dev, libexpat1-dev, subversion, libsvn-perl, libyaml-perl, tcl, python, libhttp-date-perl | libtime-parsedate-perl, libcgi-pm-perl, liberror-perl, libmailtools-perl, cvs, cvsps, libdbd-sqlite3-perl, unzip, libio-pty-perl, debhelper (\u003e= 9), dh-exec (\u003e= 0.7), dh-apache2, dpkg-dev (\u003e= 1.16.2~)"
+    ],
+    "Build-Depends-Indep": [
+      "asciidoc (\u003e= 8.6.10), xmlto, docbook-xsl"
+    ],
+    "Checksums-Sha256": [
+      "6a8d22b88d0deab73b3da6a23b725788349adb246dcab4fc314bd2c309d63566 2894 git_2.20.1-2+deb10u5.dsc 9d2e91e2faa2ea61ba0a70201d023b36f54d846314591a002c610ea2ab81c3e9 5359872 git_2.20.1.orig.tar.xz 0dc9f3fef30893e6678026345881dd07c7933f7f139aa06145e20a7127b50c47 676036 git_2.20.1-2+deb10u5.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/main/g/git"
+    ],
+    "Files": [
+      "fa5346bf770a5974210c0f5c61708cf4 2894 git_2.20.1-2+deb10u5.dsc 5fb4ff92b56ce3172b99c1c74c046c1a 5359872 git_2.20.1.orig.tar.xz 4cf58e4fbe1beaf593f1751d56c8db4f 676036 git_2.20.1-2+deb10u5.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://git-scm.com/"
+    ],
+    "Maintainer": [
+      "Gerrit Pape \u003cpape@smarden.org\u003e"
+    ],
+    "Package": [
+      "git"
+    ],
+    "Package-List": [
+      "git deb vcs optional arch=any git-all deb vcs optional arch=all git-cvs deb vcs optional arch=all git-daemon-run deb vcs optional arch=all git-daemon-sysvinit deb vcs optional arch=all git-doc deb doc optional arch=all git-el deb vcs optional arch=all git-email deb vcs optional arch=all git-gui deb vcs optional arch=all git-man deb doc optional arch=all git-mediawiki deb vcs optional arch=all git-svn deb vcs optional arch=all gitk deb vcs optional arch=all gitweb deb vcs optional arch=all"
+    ],
+    "Priority": [
+      "extra"
+    ],
+    "Section": [
+      "vcs"
+    ],
+    "Standards-Version": [
+      "4.3.0.1"
+    ],
+    "Uploaders": [
+      "Jonathan Nieder \u003cjrnieder@gmail.com\u003e, Anders Kaseorg \u003candersk@mit.edu\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://repo.or.cz/w/git/debian.git/"
+    ],
+    "Vcs-Git": [
+      "https://repo.or.cz/r/git/debian.git/"
+    ],
+    "Version": [
+      "1:2.20.1-2+deb10u5"
+    ]
+  },
+  {
+    "Architecture": [
+      "any all"
+    ],
+    "Binary": [
       "libglib2.0-0, libglib2.0-tests, libglib2.0-udeb, libglib2.0-bin, libglib2.0-dev, libglib2.0-dev-bin, libglib2.0-data, libglib2.0-doc, libgio-fam"
     ],
     "Build-Depends": [
