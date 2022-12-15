@@ -8,21 +8,9 @@
     "$date": 1658793600000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
+    "name": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
+    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
     "packages": [
-      {
-        "name": "grafana",
-        "version": "7.5.11",
-        "release": "3.el8_6",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "grafana-7.5.11-3.el8_6.src.rpm",
-        "filename": "grafana-7.5.11-3.el8_6.x86_64.rpm",
-        "sum": "fea82bbfd29af7f539c017fde4a9e0e9324ff638bfce0638d828fd60a529a4b5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "grafana",
         "version": "7.5.11",
@@ -32,6 +20,18 @@
         "src": "grafana-7.5.11-3.el8_6.src.rpm",
         "filename": "grafana-7.5.11-3.el8_6.aarch64.rpm",
         "sum": "62d51b1e56a398f6e0a48dda94f94009e53e2e5f4135ca334adb798fd49c011b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grafana",
+        "version": "7.5.11",
+        "release": "3.el8_6",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "grafana-7.5.11-3.el8_6.src.rpm",
+        "filename": "grafana-7.5.11-3.el8_6.x86_64.rpm",
+        "sum": "fea82bbfd29af7f539c017fde4a9e0e9324ff638bfce0638d828fd60a529a4b5",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -86,7 +86,7 @@
   "title": "Important: grafana security update",
   "type": "security",
   "updated_date": {
-    "$date": 1659000812000
+    "$date": 1659000743000
   },
   "version": "1"
 }

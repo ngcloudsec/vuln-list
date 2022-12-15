@@ -8,18 +8,42 @@
     "$date": 1652164723000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
+    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
     "packages": [
       {
         "name": "qt5-qtsvg-devel",
         "version": "5.15.2",
         "release": "4.el8",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "qt5-qtsvg-5.15.2-4.el8.src.rpm",
-        "filename": "qt5-qtsvg-devel-5.15.2-4.el8.x86_64.rpm",
-        "sum": "3a924e166faa7baaa394a2dc527eeb46ecfa3c7822ade0ceb6017769ca9a94b5",
+        "filename": "qt5-qtsvg-devel-5.15.2-4.el8.aarch64.rpm",
+        "sum": "35221c9ab5304c59827ad2d30f7fccbdce20425eaf823cb84110fe93586caefd",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qt5-qtsvg",
+        "version": "5.15.2",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "qt5-qtsvg-5.15.2-4.el8.src.rpm",
+        "filename": "qt5-qtsvg-5.15.2-4.el8.aarch64.rpm",
+        "sum": "3f097f4259fd6ea3301d2664688551d5363a079a9215292300d5351bb1e6e592",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qt5-qtsvg-examples",
+        "version": "5.15.2",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "qt5-qtsvg-5.15.2-4.el8.src.rpm",
+        "filename": "qt5-qtsvg-examples-5.15.2-4.el8.aarch64.rpm",
+        "sum": "5f979ae8a83b50c2bb43074544711f19f4baa8e2ec75976774b03868b57cfe8f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -56,54 +80,6 @@
         "src": "qt5-qtsvg-5.15.2-4.el8.src.rpm",
         "filename": "qt5-qtsvg-5.15.2-4.el8.x86_64.rpm",
         "sum": "f763a7cd02a8450dd7c73140f584029d7088f255803b7d5f6a5c29af52a52452",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qt5-qtsvg",
-        "version": "5.15.2",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "qt5-qtsvg-5.15.2-4.el8.src.rpm",
-        "filename": "qt5-qtsvg-5.15.2-4.el8.x86_64.rpm",
-        "sum": "f763a7cd02a8450dd7c73140f584029d7088f255803b7d5f6a5c29af52a52452",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qt5-qtsvg-devel",
-        "version": "5.15.2",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "qt5-qtsvg-5.15.2-4.el8.src.rpm",
-        "filename": "qt5-qtsvg-devel-5.15.2-4.el8.aarch64.rpm",
-        "sum": "35221c9ab5304c59827ad2d30f7fccbdce20425eaf823cb84110fe93586caefd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qt5-qtsvg",
-        "version": "5.15.2",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "qt5-qtsvg-5.15.2-4.el8.src.rpm",
-        "filename": "qt5-qtsvg-5.15.2-4.el8.aarch64.rpm",
-        "sum": "3f097f4259fd6ea3301d2664688551d5363a079a9215292300d5351bb1e6e592",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qt5-qtsvg-examples",
-        "version": "5.15.2",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "qt5-qtsvg-5.15.2-4.el8.src.rpm",
-        "filename": "qt5-qtsvg-examples-5.15.2-4.el8.aarch64.rpm",
-        "sum": "5f979ae8a83b50c2bb43074544711f19f4baa8e2ec75976774b03868b57cfe8f",
         "sum_type": 5,
         "reboot_suggested": 0
       },

@@ -8,9 +8,69 @@
     "$date": 1604406428000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
     "packages": [
+      {
+        "name": "openwsman-server",
+        "version": "2.6.5",
+        "release": "7.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "openwsman-2.6.5-7.el8.src.rpm",
+        "filename": "openwsman-server-2.6.5-7.el8.aarch64.rpm",
+        "sum": "10f77dee17e4ce69e89c39c63232003875098fa5c4a6a83a7326fac9c576412d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openwsman-python3",
+        "version": "2.6.5",
+        "release": "7.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "openwsman-2.6.5-7.el8.src.rpm",
+        "filename": "openwsman-python3-2.6.5-7.el8.aarch64.rpm",
+        "sum": "65d0212f9b16e8e3c38df4e5b84388270449358ae1079272f10e1f17e2cbd5ee",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openwsman-client",
+        "version": "2.6.5",
+        "release": "7.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "openwsman-2.6.5-7.el8.src.rpm",
+        "filename": "openwsman-client-2.6.5-7.el8.aarch64.rpm",
+        "sum": "a8c520ec6367da348d86f038c700de87132201efc94e595f006879e151a5188f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libwsman1",
+        "version": "2.6.5",
+        "release": "7.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "openwsman-2.6.5-7.el8.src.rpm",
+        "filename": "libwsman1-2.6.5-7.el8.aarch64.rpm",
+        "sum": "c7e6a802a847000dc9ce51a0371617e4a5ed067efaba4308822284c0c08b0050",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libwsman-devel",
+        "version": "2.6.5",
+        "release": "7.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "openwsman-2.6.5-7.el8.src.rpm",
+        "filename": "libwsman-devel-2.6.5-7.el8.aarch64.rpm",
+        "sum": "d90b381b34ee9e239f2e1362f72efbeb5533372d50b7e55c6d555bc0439f060a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "openwsman-server",
         "version": "2.6.5",
@@ -80,66 +140,6 @@
         "src": "openwsman-2.6.5-7.el8.src.rpm",
         "filename": "libwsman1-2.6.5-7.el8.x86_64.rpm",
         "sum": "f49950e42d22a6ccc623f0b0c5862b9da578ef176bcff240816175b9a7ba699e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openwsman-server",
-        "version": "2.6.5",
-        "release": "7.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "openwsman-2.6.5-7.el8.src.rpm",
-        "filename": "openwsman-server-2.6.5-7.el8.aarch64.rpm",
-        "sum": "10f77dee17e4ce69e89c39c63232003875098fa5c4a6a83a7326fac9c576412d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openwsman-python3",
-        "version": "2.6.5",
-        "release": "7.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "openwsman-2.6.5-7.el8.src.rpm",
-        "filename": "openwsman-python3-2.6.5-7.el8.aarch64.rpm",
-        "sum": "65d0212f9b16e8e3c38df4e5b84388270449358ae1079272f10e1f17e2cbd5ee",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openwsman-client",
-        "version": "2.6.5",
-        "release": "7.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "openwsman-2.6.5-7.el8.src.rpm",
-        "filename": "openwsman-client-2.6.5-7.el8.aarch64.rpm",
-        "sum": "a8c520ec6367da348d86f038c700de87132201efc94e595f006879e151a5188f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwsman1",
-        "version": "2.6.5",
-        "release": "7.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "openwsman-2.6.5-7.el8.src.rpm",
-        "filename": "libwsman1-2.6.5-7.el8.aarch64.rpm",
-        "sum": "c7e6a802a847000dc9ce51a0371617e4a5ed067efaba4308822284c0c08b0050",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwsman-devel",
-        "version": "2.6.5",
-        "release": "7.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "openwsman-2.6.5-7.el8.src.rpm",
-        "filename": "libwsman-devel-2.6.5-7.el8.aarch64.rpm",
-        "sum": "d90b381b34ee9e239f2e1362f72efbeb5533372d50b7e55c6d555bc0439f060a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -245,6 +245,12 @@
   "pushcount": "4",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2020-4689.html",
+      "type": "self",
+      "id": "ALSA-2020-4689",
+      "title": "ALSA-2020-4689"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2019-3833",
       "type": "cve",
       "id": "CVE-2019-3833",
@@ -252,7 +258,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -260,7 +266,7 @@
   "title": "Moderate: openwsman security update",
   "type": "security",
   "updated_date": {
-    "$date": 1628672040000
+    "$date": 1604433020000
   },
   "version": "2"
 }

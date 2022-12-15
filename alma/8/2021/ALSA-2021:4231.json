@@ -8,9 +8,33 @@
     "$date": 1636447644000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
+    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
     "packages": [
+      {
+        "name": "libwebp-devel",
+        "version": "1.0.0",
+        "release": "5.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libwebp-1.0.0-5.el8.src.rpm",
+        "filename": "libwebp-devel-1.0.0-5.el8.aarch64.rpm",
+        "sum": "6320e41b478dc2d4cdd71858effff89684de12b719b55e57e9ecae75643dd367",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libwebp",
+        "version": "1.0.0",
+        "release": "5.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libwebp-1.0.0-5.el8.src.rpm",
+        "filename": "libwebp-1.0.0-5.el8.aarch64.rpm",
+        "sum": "b506724c2f3c67c3b020458c2a44ffe5559087ea74fc1eaf5ce0d04ab5e4c8e3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "libwebp",
         "version": "1.0.0",
@@ -64,30 +88,6 @@
         "version": "1.0.0",
         "release": "5.el8",
         "epoch": "0",
-        "arch": "aarch64",
-        "src": "libwebp-1.0.0-5.el8.src.rpm",
-        "filename": "libwebp-devel-1.0.0-5.el8.aarch64.rpm",
-        "sum": "6320e41b478dc2d4cdd71858effff89684de12b719b55e57e9ecae75643dd367",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwebp",
-        "version": "1.0.0",
-        "release": "5.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libwebp-1.0.0-5.el8.src.rpm",
-        "filename": "libwebp-1.0.0-5.el8.aarch64.rpm",
-        "sum": "b506724c2f3c67c3b020458c2a44ffe5559087ea74fc1eaf5ce0d04ab5e4c8e3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwebp-devel",
-        "version": "1.0.0",
-        "release": "5.el8",
-        "epoch": "0",
         "arch": "ppc64le",
         "src": "libwebp-1.0.0-5.el8.src.rpm",
         "filename": "libwebp-devel-1.0.0-5.el8.ppc64le.rpm",
@@ -112,6 +112,12 @@
   },
   "pushcount": "4",
   "references": [
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-4231.html",
+      "type": "self",
+      "id": "ALSA-2021-4231",
+      "title": "ALSA-2021-4231"
+    },
     {
       "href": "https://vulners.com/cve/CVE-2018-25009",
       "type": "cve",
@@ -162,7 +168,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -170,7 +176,7 @@
   "title": "Moderate: libwebp security update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712456000
+    "$date": 1636462533000
   },
   "version": "2"
 }

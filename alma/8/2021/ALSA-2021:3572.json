@@ -8,9 +8,33 @@
     "$date": 1632208110000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
+    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
     "packages": [
+      {
+        "name": "nspr-devel",
+        "version": "4.32.0",
+        "release": "1.el8_4",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "nspr-4.32.0-1.el8_4.src.rpm",
+        "filename": "nspr-devel-4.32.0-1.el8_4.aarch64.rpm",
+        "sum": "92459c12b2615a6c51b7167dca002952a9178951de627244d84fe67e618b46f5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nspr",
+        "version": "4.32.0",
+        "release": "1.el8_4",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "nspr-4.32.0-1.el8_4.src.rpm",
+        "filename": "nspr-4.32.0-1.el8_4.aarch64.rpm",
+        "sum": "976f796f30ff866c98a8cc1c96b3d82a83606f4b4c7fbb2e9ec682cbae3417e6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "nss-sysinit",
         "version": "3.67.0",
@@ -276,30 +300,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "nspr-devel",
-        "version": "4.32.0",
-        "release": "1.el8_4",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "nspr-4.32.0-1.el8_4.src.rpm",
-        "filename": "nspr-devel-4.32.0-1.el8_4.aarch64.rpm",
-        "sum": "92459c12b2615a6c51b7167dca002952a9178951de627244d84fe67e618b46f5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nspr",
-        "version": "4.32.0",
-        "release": "1.el8_4",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "nspr-4.32.0-1.el8_4.src.rpm",
-        "filename": "nspr-4.32.0-1.el8_4.aarch64.rpm",
-        "sum": "976f796f30ff866c98a8cc1c96b3d82a83606f4b4c7fbb2e9ec682cbae3417e6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "nspr",
         "version": "4.32.0",
         "release": "1.el8_4",
@@ -329,6 +329,12 @@
   "pushcount": "3",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-3572.html",
+      "type": "self",
+      "id": "ALSA-2021-3572",
+      "title": "ALSA-2021-3572"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2020-25648",
       "type": "cve",
       "id": "CVE-2020-25648",
@@ -336,7 +342,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -344,7 +350,7 @@
   "title": "Moderate: nss and nspr security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712456000
+    "$date": 1632208090000
   },
   "version": "1"
 }

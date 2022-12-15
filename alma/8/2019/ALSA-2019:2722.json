@@ -8,9 +8,45 @@
     "$date": 1568129579000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
     "packages": [
+      {
+        "name": "libwmf-devel",
+        "version": "0.2.9",
+        "release": "8.el8_0",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libwmf-0.2.9-8.el8_0.src.rpm",
+        "filename": "libwmf-devel-0.2.9-8.el8_0.aarch64.rpm",
+        "sum": "0b3bb7bc2e117303c1b72678a0f65bad4be955cd997427492ebe7f121fd2aa68",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libwmf-lite",
+        "version": "0.2.9",
+        "release": "8.el8_0",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libwmf-0.2.9-8.el8_0.src.rpm",
+        "filename": "libwmf-lite-0.2.9-8.el8_0.aarch64.rpm",
+        "sum": "56ee0267ef85c3fcbdcd0cbb15e1e800fadd9f4876942be31bf9ddf6d15191a5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libwmf",
+        "version": "0.2.9",
+        "release": "8.el8_0",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libwmf-0.2.9-8.el8_0.src.rpm",
+        "filename": "libwmf-0.2.9-8.el8_0.aarch64.rpm",
+        "sum": "84923c479012c05bb07de347ca009360fbf0c1dab273f8db6651c577f9eaffa1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "libwmf",
         "version": "0.2.9",
@@ -56,42 +92,6 @@
         "src": "libwmf-0.2.9-8.el8_0.src.rpm",
         "filename": "libwmf-devel-0.2.9-8.el8_0.x86_64.rpm",
         "sum": "c4213f6736e692bab45dc9a989df50de6d46d6bfdc67750bf2acdaafc1f4e5ce",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwmf-devel",
-        "version": "0.2.9",
-        "release": "8.el8_0",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-        "filename": "libwmf-devel-0.2.9-8.el8_0.aarch64.rpm",
-        "sum": "0b3bb7bc2e117303c1b72678a0f65bad4be955cd997427492ebe7f121fd2aa68",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwmf-lite",
-        "version": "0.2.9",
-        "release": "8.el8_0",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-        "filename": "libwmf-lite-0.2.9-8.el8_0.aarch64.rpm",
-        "sum": "56ee0267ef85c3fcbdcd0cbb15e1e800fadd9f4876942be31bf9ddf6d15191a5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwmf",
-        "version": "0.2.9",
-        "release": "8.el8_0",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-        "filename": "libwmf-0.2.9-8.el8_0.aarch64.rpm",
-        "sum": "84923c479012c05bb07de347ca009360fbf0c1dab273f8db6651c577f9eaffa1",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -161,6 +161,12 @@
   "pushcount": "4",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2019-2722.html",
+      "type": "self",
+      "id": "ALSA-2019-2722",
+      "title": "ALSA-2019-2722"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2019-6978",
       "type": "cve",
       "id": "CVE-2019-6978",
@@ -168,7 +174,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Low",
   "solution": "",
   "status": "final",
@@ -176,7 +182,7 @@
   "title": "Low: libwmf security update",
   "type": "security",
   "updated_date": {
-    "$date": 1628672040000
+    "$date": 1568129573000
   },
   "version": "1"
 }

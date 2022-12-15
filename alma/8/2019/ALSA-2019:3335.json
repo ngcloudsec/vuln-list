@@ -8,8 +8,8 @@
     "$date": 1572975132000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_python27",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_python27",
+    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_python27",
+    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_python27",
     "packages": [
       {
         "name": "python2-pluggy",
@@ -20,18 +20,6 @@
         "src": "python-pluggy-0.6.0-8.module_el8.6.0+2781+fed64c13.src.rpm",
         "filename": "python2-pluggy-0.6.0-8.module_el8.6.0+2781+fed64c13.noarch.rpm",
         "sum": "08adf4c4c608ab9cfbe42ca66b8e5cdc2cf929e09998dcab11672d121b1d66d5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python-psycopg2-doc",
-        "version": "2.7.5",
-        "release": "7.module_el8.6.0+2781+fed64c13",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python-psycopg2-2.7.5-7.module_el8.6.0+2781+fed64c13.src.rpm",
-        "filename": "python-psycopg2-doc-2.7.5-7.module_el8.6.0+2781+fed64c13.x86_64.rpm",
-        "sum": "0e072a71d43783a6a20af215eb1976af080661cbac8bba1d2dd8a4144644d2da",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -60,6 +48,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "python-psycopg2-doc",
+        "version": "2.7.5",
+        "release": "7.module_el8.6.0+2781+fed64c13",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "python-psycopg2-2.7.5-7.module_el8.6.0+2781+fed64c13.src.rpm",
+        "filename": "python-psycopg2-doc-2.7.5-7.module_el8.6.0+2781+fed64c13.aarch64.rpm",
+        "sum": "268cb518d03ad67213b5a14751d8876f7ec3b21cdc7e9d980163b4c1b62f0155",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "python2-setuptools_scm",
         "version": "1.15.7",
         "release": "6.module_el8.6.0+2781+fed64c13",
@@ -68,18 +68,6 @@
         "src": "python-setuptools_scm-1.15.7-6.module_el8.6.0+2781+fed64c13.src.rpm",
         "filename": "python2-setuptools_scm-1.15.7-6.module_el8.6.0+2781+fed64c13.noarch.rpm",
         "sum": "2708c00d2388bd78588f0d1352c95b9c18be47e8b52416df1d3026b0eecbbf98",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python2-psycopg2-tests",
-        "version": "2.7.5",
-        "release": "7.module_el8.6.0+2781+fed64c13",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python-psycopg2-2.7.5-7.module_el8.6.0+2781+fed64c13.src.rpm",
-        "filename": "python2-psycopg2-tests-2.7.5-7.module_el8.6.0+2781+fed64c13.x86_64.rpm",
-        "sum": "2f0a68ba40aed0431c3c3e3dfd400f50cdeed313c01b01349eb3d3a86f5caa13",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -96,14 +84,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "python2-pyyaml",
-        "version": "3.12",
-        "release": "16.module_el8.6.0+2781+fed64c13",
+        "name": "python2-psycopg2-debug",
+        "version": "2.7.5",
+        "release": "7.module_el8.6.0+2781+fed64c13",
         "epoch": "0",
-        "arch": "x86_64",
-        "src": "PyYAML-3.12-16.module_el8.6.0+2781+fed64c13.src.rpm",
-        "filename": "python2-pyyaml-3.12-16.module_el8.6.0+2781+fed64c13.x86_64.rpm",
-        "sum": "437bb7ba3c82271515d58f1a3169f155a6cedcf84a1fb87ff8020b2e1c48dd26",
+        "arch": "aarch64",
+        "src": "python-psycopg2-2.7.5-7.module_el8.6.0+2781+fed64c13.src.rpm",
+        "filename": "python2-psycopg2-debug-2.7.5-7.module_el8.6.0+2781+fed64c13.aarch64.rpm",
+        "sum": "4385e2456c28b5c9fc21ba5d7b291028e29fd4432e5ba11da0dbf7c7f4309a66",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -116,6 +104,18 @@
         "src": "python-dns-1.15.0-10.module_el8.6.0+2781+fed64c13.src.rpm",
         "filename": "python2-dns-1.15.0-10.module_el8.6.0+2781+fed64c13.noarch.rpm",
         "sum": "4ccfd396082173299bc64629fc3e5831c5fc85b40be33f6f51723c270bb749f1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python2-Cython",
+        "version": "0.28.1",
+        "release": "7.module_el8.6.0+2781+fed64c13",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "Cython-0.28.1-7.module_el8.6.0+2781+fed64c13.src.rpm",
+        "filename": "python2-Cython-0.28.1-7.module_el8.6.0+2781+fed64c13.aarch64.rpm",
+        "sum": "4fe0221b4c60da2042adc812ae223663b8379ae638e05db9d9d016fa01597ab3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -156,6 +156,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "python2-markupsafe",
+        "version": "0.23",
+        "release": "19.module_el8.6.0+2781+fed64c13",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "python-markupsafe-0.23-19.module_el8.6.0+2781+fed64c13.src.rpm",
+        "filename": "python2-markupsafe-0.23-19.module_el8.6.0+2781+fed64c13.aarch64.rpm",
+        "sum": "63d42274de243d293e0d49e60cdd4c53eaf5d5086499cc3c260c6a7ce9a95c3a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "python2-attrs",
         "version": "17.4.0",
         "release": "10.module_el8.6.0+2781+fed64c13",
@@ -168,26 +180,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "python2-psycopg2-debug",
-        "version": "2.7.5",
-        "release": "7.module_el8.6.0+2781+fed64c13",
+        "name": "python2-pyyaml",
+        "version": "3.12",
+        "release": "16.module_el8.6.0+2781+fed64c13",
         "epoch": "0",
-        "arch": "x86_64",
-        "src": "python-psycopg2-2.7.5-7.module_el8.6.0+2781+fed64c13.src.rpm",
-        "filename": "python2-psycopg2-debug-2.7.5-7.module_el8.6.0+2781+fed64c13.x86_64.rpm",
-        "sum": "672a61a8b5eda31bc08b5c01783a88f606baf8fee4cb2ffaca8082183083a6d3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python2-Cython",
-        "version": "0.28.1",
-        "release": "7.module_el8.6.0+2781+fed64c13",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "Cython-0.28.1-7.module_el8.6.0+2781+fed64c13.src.rpm",
-        "filename": "python2-Cython-0.28.1-7.module_el8.6.0+2781+fed64c13.x86_64.rpm",
-        "sum": "67947b53184d533452458c7354bd26707265d931cc1ad91f289fbefb0f946039",
+        "arch": "aarch64",
+        "src": "PyYAML-3.12-16.module_el8.6.0+2781+fed64c13.src.rpm",
+        "filename": "python2-pyyaml-3.12-16.module_el8.6.0+2781+fed64c13.aarch64.rpm",
+        "sum": "7b2a5473b6953d3f88816b6c355c19e40cd2e38f71f3b735c39bf19f5b574774",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -224,18 +224,6 @@
         "src": "python-chardet-3.0.4-10.module_el8.6.0+2781+fed64c13.src.rpm",
         "filename": "python2-chardet-3.0.4-10.module_el8.6.0+2781+fed64c13.noarch.rpm",
         "sum": "92024f7522fa403c63b09c5b7ccc6ff43ae6cff21dd1d3e714b7cae19021f715",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python2-markupsafe",
-        "version": "0.23",
-        "release": "19.module_el8.6.0+2781+fed64c13",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python-markupsafe-0.23-19.module_el8.6.0+2781+fed64c13.src.rpm",
-        "filename": "python2-markupsafe-0.23-19.module_el8.6.0+2781+fed64c13.x86_64.rpm",
-        "sum": "a4d71692bac0c905d804a1edfda8ae592fa102e3983877ac4ebe2bf7516634f3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -288,114 +276,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "python2-psycopg2",
-        "version": "2.7.5",
-        "release": "7.module_el8.6.0+2781+fed64c13",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python-psycopg2-2.7.5-7.module_el8.6.0+2781+fed64c13.src.rpm",
-        "filename": "python2-psycopg2-2.7.5-7.module_el8.6.0+2781+fed64c13.x86_64.rpm",
-        "sum": "ced41fe26fbfb43b950c02fe0e7ba32143950496276b9a11d97da5cd3cb34856",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python2-coverage",
-        "version": "4.5.1",
-        "release": "4.module_el8.6.0+2781+fed64c13",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python-coverage-4.5.1-4.module_el8.6.0+2781+fed64c13.src.rpm",
-        "filename": "python2-coverage-4.5.1-4.module_el8.6.0+2781+fed64c13.x86_64.rpm",
-        "sum": "dde557783dcf06f144efb1b8877c2b1167d178e9e59931c52fb68fc8fed8768e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python2-py",
-        "version": "1.5.3",
-        "release": "6.module_el8.6.0+2781+fed64c13",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "python-py-1.5.3-6.module_el8.6.0+2781+fed64c13.src.rpm",
-        "filename": "python2-py-1.5.3-6.module_el8.6.0+2781+fed64c13.noarch.rpm",
-        "sum": "fcb588e2011cbee8960377755b67b2414430947af876b981e4b491298e293245",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python2-funcsigs",
-        "version": "1.0.2",
-        "release": "13.module_el8.6.0+2781+fed64c13",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "python-funcsigs-1.0.2-13.module_el8.6.0+2781+fed64c13.src.rpm",
-        "filename": "python2-funcsigs-1.0.2-13.module_el8.6.0+2781+fed64c13.noarch.rpm",
-        "sum": "fdd155b2957a59e67ee7a0566cb2913167afbdc764547bbbb7b5f40743fc8a9d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python-psycopg2-doc",
-        "version": "2.7.5",
-        "release": "7.module_el8.6.0+2781+fed64c13",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "python-psycopg2-2.7.5-7.module_el8.6.0+2781+fed64c13.src.rpm",
-        "filename": "python-psycopg2-doc-2.7.5-7.module_el8.6.0+2781+fed64c13.aarch64.rpm",
-        "sum": "268cb518d03ad67213b5a14751d8876f7ec3b21cdc7e9d980163b4c1b62f0155",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python2-psycopg2-debug",
-        "version": "2.7.5",
-        "release": "7.module_el8.6.0+2781+fed64c13",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "python-psycopg2-2.7.5-7.module_el8.6.0+2781+fed64c13.src.rpm",
-        "filename": "python2-psycopg2-debug-2.7.5-7.module_el8.6.0+2781+fed64c13.aarch64.rpm",
-        "sum": "4385e2456c28b5c9fc21ba5d7b291028e29fd4432e5ba11da0dbf7c7f4309a66",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python2-Cython",
-        "version": "0.28.1",
-        "release": "7.module_el8.6.0+2781+fed64c13",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "Cython-0.28.1-7.module_el8.6.0+2781+fed64c13.src.rpm",
-        "filename": "python2-Cython-0.28.1-7.module_el8.6.0+2781+fed64c13.aarch64.rpm",
-        "sum": "4fe0221b4c60da2042adc812ae223663b8379ae638e05db9d9d016fa01597ab3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python2-markupsafe",
-        "version": "0.23",
-        "release": "19.module_el8.6.0+2781+fed64c13",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "python-markupsafe-0.23-19.module_el8.6.0+2781+fed64c13.src.rpm",
-        "filename": "python2-markupsafe-0.23-19.module_el8.6.0+2781+fed64c13.aarch64.rpm",
-        "sum": "63d42274de243d293e0d49e60cdd4c53eaf5d5086499cc3c260c6a7ce9a95c3a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python2-pyyaml",
-        "version": "3.12",
-        "release": "16.module_el8.6.0+2781+fed64c13",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "PyYAML-3.12-16.module_el8.6.0+2781+fed64c13.src.rpm",
-        "filename": "python2-pyyaml-3.12-16.module_el8.6.0+2781+fed64c13.aarch64.rpm",
-        "sum": "7b2a5473b6953d3f88816b6c355c19e40cd2e38f71f3b735c39bf19f5b574774",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "python2-coverage",
         "version": "4.5.1",
         "release": "4.module_el8.6.0+2781+fed64c13",
@@ -428,6 +308,126 @@
         "src": "python-psycopg2-2.7.5-7.module_el8.6.0+2781+fed64c13.src.rpm",
         "filename": "python2-psycopg2-tests-2.7.5-7.module_el8.6.0+2781+fed64c13.aarch64.rpm",
         "sum": "f35b3393280a34d59fcb7bf772ed1c4b6ddf501b7c5ed22e680c7ddc346dc661",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python2-py",
+        "version": "1.5.3",
+        "release": "6.module_el8.6.0+2781+fed64c13",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "python-py-1.5.3-6.module_el8.6.0+2781+fed64c13.src.rpm",
+        "filename": "python2-py-1.5.3-6.module_el8.6.0+2781+fed64c13.noarch.rpm",
+        "sum": "fcb588e2011cbee8960377755b67b2414430947af876b981e4b491298e293245",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python2-funcsigs",
+        "version": "1.0.2",
+        "release": "13.module_el8.6.0+2781+fed64c13",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "python-funcsigs-1.0.2-13.module_el8.6.0+2781+fed64c13.src.rpm",
+        "filename": "python2-funcsigs-1.0.2-13.module_el8.6.0+2781+fed64c13.noarch.rpm",
+        "sum": "fdd155b2957a59e67ee7a0566cb2913167afbdc764547bbbb7b5f40743fc8a9d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python-psycopg2-doc",
+        "version": "2.7.5",
+        "release": "7.module_el8.6.0+2781+fed64c13",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "python-psycopg2-2.7.5-7.module_el8.6.0+2781+fed64c13.src.rpm",
+        "filename": "python-psycopg2-doc-2.7.5-7.module_el8.6.0+2781+fed64c13.x86_64.rpm",
+        "sum": "0e072a71d43783a6a20af215eb1976af080661cbac8bba1d2dd8a4144644d2da",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python2-psycopg2-tests",
+        "version": "2.7.5",
+        "release": "7.module_el8.6.0+2781+fed64c13",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "python-psycopg2-2.7.5-7.module_el8.6.0+2781+fed64c13.src.rpm",
+        "filename": "python2-psycopg2-tests-2.7.5-7.module_el8.6.0+2781+fed64c13.x86_64.rpm",
+        "sum": "2f0a68ba40aed0431c3c3e3dfd400f50cdeed313c01b01349eb3d3a86f5caa13",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python2-pyyaml",
+        "version": "3.12",
+        "release": "16.module_el8.6.0+2781+fed64c13",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "PyYAML-3.12-16.module_el8.6.0+2781+fed64c13.src.rpm",
+        "filename": "python2-pyyaml-3.12-16.module_el8.6.0+2781+fed64c13.x86_64.rpm",
+        "sum": "437bb7ba3c82271515d58f1a3169f155a6cedcf84a1fb87ff8020b2e1c48dd26",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python2-psycopg2-debug",
+        "version": "2.7.5",
+        "release": "7.module_el8.6.0+2781+fed64c13",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "python-psycopg2-2.7.5-7.module_el8.6.0+2781+fed64c13.src.rpm",
+        "filename": "python2-psycopg2-debug-2.7.5-7.module_el8.6.0+2781+fed64c13.x86_64.rpm",
+        "sum": "672a61a8b5eda31bc08b5c01783a88f606baf8fee4cb2ffaca8082183083a6d3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python2-Cython",
+        "version": "0.28.1",
+        "release": "7.module_el8.6.0+2781+fed64c13",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "Cython-0.28.1-7.module_el8.6.0+2781+fed64c13.src.rpm",
+        "filename": "python2-Cython-0.28.1-7.module_el8.6.0+2781+fed64c13.x86_64.rpm",
+        "sum": "67947b53184d533452458c7354bd26707265d931cc1ad91f289fbefb0f946039",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python2-markupsafe",
+        "version": "0.23",
+        "release": "19.module_el8.6.0+2781+fed64c13",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "python-markupsafe-0.23-19.module_el8.6.0+2781+fed64c13.src.rpm",
+        "filename": "python2-markupsafe-0.23-19.module_el8.6.0+2781+fed64c13.x86_64.rpm",
+        "sum": "a4d71692bac0c905d804a1edfda8ae592fa102e3983877ac4ebe2bf7516634f3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python2-psycopg2",
+        "version": "2.7.5",
+        "release": "7.module_el8.6.0+2781+fed64c13",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "python-psycopg2-2.7.5-7.module_el8.6.0+2781+fed64c13.src.rpm",
+        "filename": "python2-psycopg2-2.7.5-7.module_el8.6.0+2781+fed64c13.x86_64.rpm",
+        "sum": "ced41fe26fbfb43b950c02fe0e7ba32143950496276b9a11d97da5cd3cb34856",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python2-coverage",
+        "version": "4.5.1",
+        "release": "4.module_el8.6.0+2781+fed64c13",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "python-coverage-4.5.1-4.module_el8.6.0+2781+fed64c13.src.rpm",
+        "filename": "python2-coverage-4.5.1-4.module_el8.6.0+2781+fed64c13.x86_64.rpm",
+        "sum": "dde557783dcf06f144efb1b8877c2b1167d178e9e59931c52fb68fc8fed8768e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -531,8 +531,8 @@
     "module": {
       "stream": "2.7",
       "name": "python27",
-      "version": 8060020220421123549,
-      "arch": "x86_64",
+      "version": 8060020220421123613,
+      "arch": "aarch64",
       "context": "182f7c73"
     }
   },

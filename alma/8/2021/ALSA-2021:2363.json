@@ -8,9 +8,33 @@
     "$date": 1623243248000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
     "packages": [
+      {
+        "name": "gupnp",
+        "version": "1.0.6",
+        "release": "2.el8_4",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gupnp-1.0.6-2.el8_4.src.rpm",
+        "filename": "gupnp-1.0.6-2.el8_4.aarch64.rpm",
+        "sum": "8b335342f6b8f6a02db14d075ed54275f547eb0ebcc4185a24158df5da790955",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gupnp-devel",
+        "version": "1.0.6",
+        "release": "2.el8_4",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gupnp-1.0.6-2.el8_4.src.rpm",
+        "filename": "gupnp-devel-1.0.6-2.el8_4.aarch64.rpm",
+        "sum": "a42a41ca123c0e1ec9d22d2fbe4b9e9301e59c2aa67c740c9473cbbb6aebc3d9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "gupnp",
         "version": "1.0.6",
@@ -44,30 +68,6 @@
         "src": "gupnp-1.0.6-2.el8_4.src.rpm",
         "filename": "gupnp-devel-1.0.6-2.el8_4.i686.rpm",
         "sum": "976df14b3d007dfa5c447cc9a18dc5760623efb8b1e8890bb2837c501f1db5b9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gupnp",
-        "version": "1.0.6",
-        "release": "2.el8_4",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gupnp-1.0.6-2.el8_4.src.rpm",
-        "filename": "gupnp-1.0.6-2.el8_4.aarch64.rpm",
-        "sum": "8b335342f6b8f6a02db14d075ed54275f547eb0ebcc4185a24158df5da790955",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gupnp-devel",
-        "version": "1.0.6",
-        "release": "2.el8_4",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gupnp-1.0.6-2.el8_4.src.rpm",
-        "filename": "gupnp-devel-1.0.6-2.el8_4.aarch64.rpm",
-        "sum": "a42a41ca123c0e1ec9d22d2fbe4b9e9301e59c2aa67c740c9473cbbb6aebc3d9",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -113,6 +113,12 @@
   "pushcount": "3",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-2363.html",
+      "type": "self",
+      "id": "ALSA-2021-2363",
+      "title": "ALSA-2021-2363"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2021-33516",
       "type": "cve",
       "id": "CVE-2021-33516",
@@ -120,7 +126,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Important",
   "solution": "",
   "status": "final",
@@ -128,7 +134,7 @@
   "title": "Important: gupnp security update",
   "type": "security",
   "updated_date": {
-    "$date": 1628672040000
+    "$date": 1623243248000
   },
   "version": "1"
 }

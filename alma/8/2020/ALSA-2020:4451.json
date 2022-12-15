@@ -8,9 +8,33 @@
     "$date": 1604405156000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
+    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
     "packages": [
+      {
+        "name": "libsoup",
+        "version": "2.62.3",
+        "release": "2.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libsoup-2.62.3-2.el8.src.rpm",
+        "filename": "libsoup-2.62.3-2.el8.aarch64.rpm",
+        "sum": "1755f74cac2c3d6d41999e0f8499f81734101eb667adaec49960ab39c2650d26",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-gobject-base",
+        "version": "3.28.3",
+        "release": "2.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pygobject3-3.28.3-2.el8.src.rpm",
+        "filename": "python3-gobject-base-3.28.3-2.el8.aarch64.rpm",
+        "sum": "6dcb81cf36a5cdbd090b96e570cd78f654c572874396ab782da1d3e4ffc783b1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "python3-gobject",
         "version": "3.28.3",
@@ -480,26 +504,62 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libsoup",
-        "version": "2.62.3",
-        "release": "2.el8",
+        "name": "PackageKit-glib-devel",
+        "version": "1.1.12",
+        "release": "6.el8",
         "epoch": "0",
         "arch": "aarch64",
-        "src": "libsoup-2.62.3-2.el8.src.rpm",
-        "filename": "libsoup-2.62.3-2.el8.aarch64.rpm",
-        "sum": "1755f74cac2c3d6d41999e0f8499f81734101eb667adaec49960ab39c2650d26",
+        "src": "PackageKit-1.1.12-6.el8.src.rpm",
+        "filename": "PackageKit-glib-devel-1.1.12-6.el8.aarch64.rpm",
+        "sum": "0830fd94c3a73990234b7f3b4b82e696be25e3d8d9b29c7d428de47fad00f9a2",
         "sum_type": 5,
         "reboot_suggested": 0
       },
       {
-        "name": "python3-gobject-base",
+        "name": "tracker-devel",
+        "version": "2.1.5",
+        "release": "2.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "tracker-2.1.5-2.el8.src.rpm",
+        "filename": "tracker-devel-2.1.5-2.el8.aarch64.rpm",
+        "sum": "52ffb9d0b9b8b77eb8d5cda32ee96f044c90b9eea3ee2da491cc0cc038d2e255",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pygobject3-devel",
         "version": "3.28.3",
         "release": "2.el8",
         "epoch": "0",
         "arch": "aarch64",
         "src": "pygobject3-3.28.3-2.el8.src.rpm",
-        "filename": "python3-gobject-base-3.28.3-2.el8.aarch64.rpm",
-        "sum": "6dcb81cf36a5cdbd090b96e570cd78f654c572874396ab782da1d3e4ffc783b1",
+        "filename": "pygobject3-devel-3.28.3-2.el8.aarch64.rpm",
+        "sum": "9645c99c5e913e0c27094af5906e61c615a0c62ece2f1c1eaa0f82c091b299ee",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "frei0r-devel",
+        "version": "1.6.1",
+        "release": "7.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "frei0r-plugins-1.6.1-7.el8.src.rpm",
+        "filename": "frei0r-devel-1.6.1-7.el8.aarch64.rpm",
+        "sum": "cf09a9309861abc21dbd1ab9b802d39f848954d0ef3407f8186bece1c9c27235",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "vte291-devel",
+        "version": "0.52.4",
+        "release": "2.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "vte291-0.52.4-2.el8.src.rpm",
+        "filename": "vte291-devel-0.52.4-2.el8.aarch64.rpm",
+        "sum": "dd9727927559e2806a542d4bb95dc6bf8b2cfbbbfc661b7ba680ae815698e800",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -740,66 +800,6 @@
         "src": "mutter-3.32.2-48.el8.src.rpm",
         "filename": "mutter-devel-3.32.2-48.el8.i686.rpm",
         "sum": "fa63acee53da165ebf03b5fcade07284410720b41166bb258ec62b705c017fd2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "PackageKit-glib-devel",
-        "version": "1.1.12",
-        "release": "6.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "PackageKit-1.1.12-6.el8.src.rpm",
-        "filename": "PackageKit-glib-devel-1.1.12-6.el8.aarch64.rpm",
-        "sum": "0830fd94c3a73990234b7f3b4b82e696be25e3d8d9b29c7d428de47fad00f9a2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "tracker-devel",
-        "version": "2.1.5",
-        "release": "2.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "tracker-2.1.5-2.el8.src.rpm",
-        "filename": "tracker-devel-2.1.5-2.el8.aarch64.rpm",
-        "sum": "52ffb9d0b9b8b77eb8d5cda32ee96f044c90b9eea3ee2da491cc0cc038d2e255",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pygobject3-devel",
-        "version": "3.28.3",
-        "release": "2.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pygobject3-3.28.3-2.el8.src.rpm",
-        "filename": "pygobject3-devel-3.28.3-2.el8.aarch64.rpm",
-        "sum": "9645c99c5e913e0c27094af5906e61c615a0c62ece2f1c1eaa0f82c091b299ee",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "frei0r-devel",
-        "version": "1.6.1",
-        "release": "7.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "frei0r-plugins-1.6.1-7.el8.src.rpm",
-        "filename": "frei0r-devel-1.6.1-7.el8.aarch64.rpm",
-        "sum": "cf09a9309861abc21dbd1ab9b802d39f848954d0ef3407f8186bece1c9c27235",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "vte291-devel",
-        "version": "0.52.4",
-        "release": "2.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "vte291-0.52.4-2.el8.src.rpm",
-        "filename": "vte291-devel-0.52.4-2.el8.aarch64.rpm",
-        "sum": "dd9727927559e2806a542d4bb95dc6bf8b2cfbbbfc661b7ba680ae815698e800",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1445,6 +1445,12 @@
   "pushcount": "7",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2020-4451.html",
+      "type": "self",
+      "id": "ALSA-2020-4451",
+      "title": "ALSA-2020-4451"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2019-8625",
       "type": "cve",
       "id": "CVE-2019-8625",
@@ -1788,7 +1794,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -1796,7 +1802,7 @@
   "title": "Moderate: GNOME security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712456000
+    "$date": 1604431895000
   },
   "version": "4"
 }

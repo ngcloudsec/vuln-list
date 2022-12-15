@@ -8,9 +8,33 @@
     "$date": 1621319086000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
     "packages": [
+      {
+        "name": "spice-server",
+        "version": "0.14.3",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "spice-0.14.3-4.el8.src.rpm",
+        "filename": "spice-server-0.14.3-4.el8.aarch64.rpm",
+        "sum": "0f953043c1e9a26bde137a6cf23d655d5f375a2cc670c8a268d3e08835ea00e0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "spice-server-devel",
+        "version": "0.14.3",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "spice-0.14.3-4.el8.src.rpm",
+        "filename": "spice-server-devel-0.14.3-4.el8.aarch64.rpm",
+        "sum": "9e66538342ae30b651b4053eddc539325924a811d61d6d2084cca87872047151",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "spice-server-devel",
         "version": "0.14.3",
@@ -52,30 +76,6 @@
         "version": "0.14.3",
         "release": "4.el8",
         "epoch": "0",
-        "arch": "aarch64",
-        "src": "spice-0.14.3-4.el8.src.rpm",
-        "filename": "spice-server-0.14.3-4.el8.aarch64.rpm",
-        "sum": "0f953043c1e9a26bde137a6cf23d655d5f375a2cc670c8a268d3e08835ea00e0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "spice-server-devel",
-        "version": "0.14.3",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "spice-0.14.3-4.el8.src.rpm",
-        "filename": "spice-server-devel-0.14.3-4.el8.aarch64.rpm",
-        "sum": "9e66538342ae30b651b4053eddc539325924a811d61d6d2084cca87872047151",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "spice-server",
-        "version": "0.14.3",
-        "release": "4.el8",
-        "epoch": "0",
         "arch": "i686",
         "src": "spice-0.14.3-4.el8.src.rpm",
         "filename": "spice-server-0.14.3-4.el8.i686.rpm",
@@ -89,6 +89,12 @@
   "pushcount": "3",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-1924.html",
+      "type": "self",
+      "id": "ALSA-2021-1924",
+      "title": "ALSA-2021-1924"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2021-20201",
       "type": "cve",
       "id": "CVE-2021-20201",
@@ -96,7 +102,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Low",
   "solution": "",
   "status": "final",
@@ -104,7 +110,7 @@
   "title": "Low: spice security update",
   "type": "security",
   "updated_date": {
-    "$date": 1628672040000
+    "$date": 1621319076000
   },
   "version": "1"
 }

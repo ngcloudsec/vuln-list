@@ -8,9 +8,69 @@
     "$date": 1636448167000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
     "packages": [
+      {
+        "name": "libjpeg-turbo-devel",
+        "version": "1.5.3",
+        "release": "12.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
+        "filename": "libjpeg-turbo-devel-1.5.3-12.el8.aarch64.rpm",
+        "sum": "19da1a1e0f23fa5af9345088827db9c6750ee31ee501cc441e63dd5c5edfb01a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "turbojpeg-devel",
+        "version": "1.5.3",
+        "release": "12.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
+        "filename": "turbojpeg-devel-1.5.3-12.el8.aarch64.rpm",
+        "sum": "7fd1fa812ca4a18bba799b17af2da7a8de928c9d58e98c318c837b613d457f04",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libjpeg-turbo",
+        "version": "1.5.3",
+        "release": "12.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
+        "filename": "libjpeg-turbo-1.5.3-12.el8.aarch64.rpm",
+        "sum": "8a5853d86c31cbe3ac5f89338c84739684fca01fb4acf16c54ab398f37d82d04",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "turbojpeg",
+        "version": "1.5.3",
+        "release": "12.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
+        "filename": "turbojpeg-1.5.3-12.el8.aarch64.rpm",
+        "sum": "edca5dc656de9f1a1b210c10db5e64491b77f79d44b4ec1544e80750800008c2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libjpeg-turbo-utils",
+        "version": "1.5.3",
+        "release": "12.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
+        "filename": "libjpeg-turbo-utils-1.5.3-12.el8.aarch64.rpm",
+        "sum": "fb5bed56ebc6dbcae8036c559c408e7fc11c5ae9e2ab31608eaee0b8f59df15a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "turbojpeg-devel",
         "version": "1.5.3",
@@ -80,66 +140,6 @@
         "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
         "filename": "libjpeg-turbo-devel-1.5.3-12.el8.x86_64.rpm",
         "sum": "edbee2bfc4206ea3f9cd440a53661a1a356a6acb6af4a99177ac4c77c7bf43a5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libjpeg-turbo-devel",
-        "version": "1.5.3",
-        "release": "12.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
-        "filename": "libjpeg-turbo-devel-1.5.3-12.el8.aarch64.rpm",
-        "sum": "19da1a1e0f23fa5af9345088827db9c6750ee31ee501cc441e63dd5c5edfb01a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "turbojpeg-devel",
-        "version": "1.5.3",
-        "release": "12.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
-        "filename": "turbojpeg-devel-1.5.3-12.el8.aarch64.rpm",
-        "sum": "7fd1fa812ca4a18bba799b17af2da7a8de928c9d58e98c318c837b613d457f04",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libjpeg-turbo",
-        "version": "1.5.3",
-        "release": "12.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
-        "filename": "libjpeg-turbo-1.5.3-12.el8.aarch64.rpm",
-        "sum": "8a5853d86c31cbe3ac5f89338c84739684fca01fb4acf16c54ab398f37d82d04",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "turbojpeg",
-        "version": "1.5.3",
-        "release": "12.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
-        "filename": "turbojpeg-1.5.3-12.el8.aarch64.rpm",
-        "sum": "edca5dc656de9f1a1b210c10db5e64491b77f79d44b4ec1544e80750800008c2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libjpeg-turbo-utils",
-        "version": "1.5.3",
-        "release": "12.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
-        "filename": "libjpeg-turbo-utils-1.5.3-12.el8.aarch64.rpm",
-        "sum": "fb5bed56ebc6dbcae8036c559c408e7fc11c5ae9e2ab31608eaee0b8f59df15a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -245,6 +245,12 @@
   "pushcount": "3",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-4288.html",
+      "type": "self",
+      "id": "ALSA-2021-4288",
+      "title": "ALSA-2021-4288"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2020-17541",
       "type": "cve",
       "id": "CVE-2020-17541",
@@ -252,7 +258,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -260,7 +266,7 @@
   "title": "Moderate: libjpeg-turbo security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712461000
+    "$date": 1636462869000
   },
   "version": "2"
 }

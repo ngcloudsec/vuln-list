@@ -8,8 +8,8 @@
     "$date": 1564485385000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_ruby",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_ruby",
+    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_ruby",
+    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_ruby",
     "packages": [
       {
         "name": "rubygem-abrt-doc",
@@ -20,18 +20,6 @@
         "src": "rubygem-abrt-0.3.0-4.module_el8.5.0+2623+08a8ba32.src.rpm",
         "filename": "rubygem-abrt-doc-0.3.0-4.module_el8.5.0+2623+08a8ba32.noarch.rpm",
         "sum": "170bbe9133041c6959d3996e7531a30d32100cb72360a22689121f13394eb5e3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "rubygem-pg",
-        "version": "1.0.0",
-        "release": "2.module_el8.5.0+2625+ec418553",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "rubygem-pg-1.0.0-2.module_el8.5.0+2625+ec418553.src.rpm",
-        "filename": "rubygem-pg-1.0.0-2.module_el8.5.0+2625+ec418553.x86_64.rpm",
-        "sum": "2476cd71faf291d949829de9fb61b9923886ba75aff75e3df9dd2e7117fe70c3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +40,10 @@
         "version": "4.3.0",
         "release": "2.module_el8.5.0+2625+ec418553",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "rubygem-bson-4.3.0-2.module_el8.5.0+2625+ec418553.src.rpm",
-        "filename": "rubygem-bson-4.3.0-2.module_el8.5.0+2625+ec418553.x86_64.rpm",
-        "sum": "701b12df65f3a6b04c5a716c2d13fa048539842fff558d5ca2a5517735c0ad17",
+        "filename": "rubygem-bson-4.3.0-2.module_el8.5.0+2625+ec418553.aarch64.rpm",
+        "sum": "5974fa8497b83d1a4df2acf3d75301aa07fad828a823aec6a400436f617dc58f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -108,14 +96,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "rubygem-mysql2",
-        "version": "0.4.10",
-        "release": "4.module_el8.5.0+2625+ec418553",
+        "name": "rubygem-pg",
+        "version": "1.0.0",
+        "release": "2.module_el8.5.0+2625+ec418553",
         "epoch": "0",
-        "arch": "x86_64",
-        "src": "rubygem-mysql2-0.4.10-4.module_el8.5.0+2625+ec418553.src.rpm",
-        "filename": "rubygem-mysql2-0.4.10-4.module_el8.5.0+2625+ec418553.x86_64.rpm",
-        "sum": "b2ebe847eeadbc351ac9bd080addfc65a5c7d8181cd5b6178b37febc62237648",
+        "arch": "aarch64",
+        "src": "rubygem-pg-1.0.0-2.module_el8.5.0+2625+ec418553.src.rpm",
+        "filename": "rubygem-pg-1.0.0-2.module_el8.5.0+2625+ec418553.aarch64.rpm",
+        "sum": "b76cc13be890a6906181ad9982fe8b11be4f53e55c642d0251eb2b8f4d838c3f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -128,6 +116,18 @@
         "src": "rubygem-mongo-2.5.1-2.module_el8.5.0+2625+ec418553.src.rpm",
         "filename": "rubygem-mongo-doc-2.5.1-2.module_el8.5.0+2625+ec418553.noarch.rpm",
         "sum": "c506b397bd566dcb4d539202156f734660a33a62d3a515a6a1cd6b116e8f1608",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-mysql2",
+        "version": "0.4.10",
+        "release": "4.module_el8.5.0+2625+ec418553",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "rubygem-mysql2-0.4.10-4.module_el8.5.0+2625+ec418553.src.rpm",
+        "filename": "rubygem-mysql2-0.4.10-4.module_el8.5.0+2625+ec418553.aarch64.rpm",
+        "sum": "df9c22479a5fbb8f2897203f63a3e4427a4fe59460d7e9ed5fe686519e1e51c8",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -156,26 +156,26 @@
         "reboot_suggested": 0
       },
       {
-        "name": "rubygem-bson",
-        "version": "4.3.0",
-        "release": "2.module_el8.5.0+2625+ec418553",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "rubygem-bson-4.3.0-2.module_el8.5.0+2625+ec418553.src.rpm",
-        "filename": "rubygem-bson-4.3.0-2.module_el8.5.0+2625+ec418553.aarch64.rpm",
-        "sum": "5974fa8497b83d1a4df2acf3d75301aa07fad828a823aec6a400436f617dc58f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "rubygem-pg",
         "version": "1.0.0",
         "release": "2.module_el8.5.0+2625+ec418553",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "rubygem-pg-1.0.0-2.module_el8.5.0+2625+ec418553.src.rpm",
-        "filename": "rubygem-pg-1.0.0-2.module_el8.5.0+2625+ec418553.aarch64.rpm",
-        "sum": "b76cc13be890a6906181ad9982fe8b11be4f53e55c642d0251eb2b8f4d838c3f",
+        "filename": "rubygem-pg-1.0.0-2.module_el8.5.0+2625+ec418553.x86_64.rpm",
+        "sum": "2476cd71faf291d949829de9fb61b9923886ba75aff75e3df9dd2e7117fe70c3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-bson",
+        "version": "4.3.0",
+        "release": "2.module_el8.5.0+2625+ec418553",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "rubygem-bson-4.3.0-2.module_el8.5.0+2625+ec418553.src.rpm",
+        "filename": "rubygem-bson-4.3.0-2.module_el8.5.0+2625+ec418553.x86_64.rpm",
+        "sum": "701b12df65f3a6b04c5a716c2d13fa048539842fff558d5ca2a5517735c0ad17",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -184,10 +184,10 @@
         "version": "0.4.10",
         "release": "4.module_el8.5.0+2625+ec418553",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "rubygem-mysql2-0.4.10-4.module_el8.5.0+2625+ec418553.src.rpm",
-        "filename": "rubygem-mysql2-0.4.10-4.module_el8.5.0+2625+ec418553.aarch64.rpm",
-        "sum": "df9c22479a5fbb8f2897203f63a3e4427a4fe59460d7e9ed5fe686519e1e51c8",
+        "filename": "rubygem-mysql2-0.4.10-4.module_el8.5.0+2625+ec418553.x86_64.rpm",
+        "sum": "b2ebe847eeadbc351ac9bd080addfc65a5c7d8181cd5b6178b37febc62237648",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -316,7 +316,7 @@
       "stream": "2.6",
       "name": "ruby",
       "version": 8060020220629053007,
-      "arch": "x86_64",
+      "arch": "aarch64",
       "context": "9edba152"
     }
   },

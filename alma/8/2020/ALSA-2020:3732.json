@@ -8,45 +8,9 @@
     "$date": 1600086204000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_mysql",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_mysql",
+    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_mysql",
+    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_mysql",
     "packages": [
-      {
-        "name": "mecab",
-        "version": "0.996",
-        "release": "1.module_el8.4.0+2532+b8928c02.9",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "mecab-0.996-1.module_el8.4.0+2532+b8928c02.9.src.rpm",
-        "filename": "mecab-0.996-1.module_el8.4.0+2532+b8928c02.9.x86_64.rpm",
-        "sum": "70ddb89b5dab7580422739226a6c2a9cfd9ea37d86e658a560bd579d93e7a2f8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mecab-ipadic-EUCJP",
-        "version": "2.7.0.20070801",
-        "release": "16.module_el8.4.0+2532+b8928c02",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "mecab-ipadic-2.7.0.20070801-16.module_el8.4.0+2532+b8928c02.src.rpm",
-        "filename": "mecab-ipadic-EUCJP-2.7.0.20070801-16.module_el8.4.0+2532+b8928c02.x86_64.rpm",
-        "sum": "e7c6788b71c96ca8ca63fd038acaa9bbf0cf6e07c9ce08e6bc85ec6df4d17394",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mecab-ipadic",
-        "version": "2.7.0.20070801",
-        "release": "16.module_el8.4.0+2532+b8928c02",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "mecab-ipadic-2.7.0.20070801-16.module_el8.4.0+2532+b8928c02.src.rpm",
-        "filename": "mecab-ipadic-2.7.0.20070801-16.module_el8.4.0+2532+b8928c02.x86_64.rpm",
-        "sum": "ef0f9ce428c6bd138cea55c89ddea2f479ab2e6854c2584b84f0178924260f95",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "mecab-ipadic-EUCJP",
         "version": "2.7.0.20070801",
@@ -80,6 +44,42 @@
         "src": "mecab-ipadic-2.7.0.20070801-16.module_el8.4.0+2532+b8928c02.src.rpm",
         "filename": "mecab-ipadic-2.7.0.20070801-16.module_el8.4.0+2532+b8928c02.aarch64.rpm",
         "sum": "f03a74d0a129ec765e5c8b713138f65429c438952ce89753789d00f879948d68",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mecab",
+        "version": "0.996",
+        "release": "1.module_el8.4.0+2532+b8928c02.9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "mecab-0.996-1.module_el8.4.0+2532+b8928c02.9.src.rpm",
+        "filename": "mecab-0.996-1.module_el8.4.0+2532+b8928c02.9.x86_64.rpm",
+        "sum": "70ddb89b5dab7580422739226a6c2a9cfd9ea37d86e658a560bd579d93e7a2f8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mecab-ipadic-EUCJP",
+        "version": "2.7.0.20070801",
+        "release": "16.module_el8.4.0+2532+b8928c02",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "mecab-ipadic-2.7.0.20070801-16.module_el8.4.0+2532+b8928c02.src.rpm",
+        "filename": "mecab-ipadic-EUCJP-2.7.0.20070801-16.module_el8.4.0+2532+b8928c02.x86_64.rpm",
+        "sum": "e7c6788b71c96ca8ca63fd038acaa9bbf0cf6e07c9ce08e6bc85ec6df4d17394",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mecab-ipadic",
+        "version": "2.7.0.20070801",
+        "release": "16.module_el8.4.0+2532+b8928c02",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "mecab-ipadic-2.7.0.20070801-16.module_el8.4.0+2532+b8928c02.src.rpm",
+        "filename": "mecab-ipadic-2.7.0.20070801-16.module_el8.4.0+2532+b8928c02.x86_64.rpm",
+        "sum": "ef0f9ce428c6bd138cea55c89ddea2f479ab2e6854c2584b84f0178924260f95",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -124,7 +124,7 @@
       "stream": "8.0",
       "name": "mysql",
       "version": 8040020210924073447,
-      "arch": "x86_64",
+      "arch": "aarch64",
       "context": "522a0ee4"
     }
   },

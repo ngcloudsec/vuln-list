@@ -8,9 +8,45 @@
     "$date": 1572987175000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
     "packages": [
+      {
+        "name": "libvorbis-devel",
+        "version": "1.3.6",
+        "release": "2.el8",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "libvorbis-1.3.6-2.el8.src.rpm",
+        "filename": "libvorbis-devel-1.3.6-2.el8.aarch64.rpm",
+        "sum": "0c596e145bc54ea6df927f7e74bd83621e31f547afe114fb40856ff50416dfb7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libvorbis-devel-docs",
+        "version": "1.3.6",
+        "release": "2.el8",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "libvorbis-1.3.6-2.el8.src.rpm",
+        "filename": "libvorbis-devel-docs-1.3.6-2.el8.noarch.rpm",
+        "sum": "8fed9a09938ee9f62ed4514fddbdbef65fb3e1330056f8b34c22f8ef59f15a78",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libvorbis",
+        "version": "1.3.6",
+        "release": "2.el8",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "libvorbis-1.3.6-2.el8.src.rpm",
+        "filename": "libvorbis-1.3.6-2.el8.aarch64.rpm",
+        "sum": "b10c8f96d4347deb9104410ef0e81ffca909121555087b2c1e4fa1a75cb8f40b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "libvorbis-devel",
         "version": "1.3.6",
@@ -36,18 +72,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libvorbis-devel-docs",
-        "version": "1.3.6",
-        "release": "2.el8",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "libvorbis-1.3.6-2.el8.src.rpm",
-        "filename": "libvorbis-devel-docs-1.3.6-2.el8.noarch.rpm",
-        "sum": "8fed9a09938ee9f62ed4514fddbdbef65fb3e1330056f8b34c22f8ef59f15a78",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libvorbis",
         "version": "1.3.6",
         "release": "2.el8",
@@ -56,30 +80,6 @@
         "src": "libvorbis-1.3.6-2.el8.src.rpm",
         "filename": "libvorbis-1.3.6-2.el8.x86_64.rpm",
         "sum": "9ecabb1ee69662e028c90a90b24e094745849cda3f0bb6591450ad9194ded552",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libvorbis-devel",
-        "version": "1.3.6",
-        "release": "2.el8",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "libvorbis-1.3.6-2.el8.src.rpm",
-        "filename": "libvorbis-devel-1.3.6-2.el8.aarch64.rpm",
-        "sum": "0c596e145bc54ea6df927f7e74bd83621e31f547afe114fb40856ff50416dfb7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libvorbis",
-        "version": "1.3.6",
-        "release": "2.el8",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "libvorbis-1.3.6-2.el8.src.rpm",
-        "filename": "libvorbis-1.3.6-2.el8.aarch64.rpm",
-        "sum": "b10c8f96d4347deb9104410ef0e81ffca909121555087b2c1e4fa1a75cb8f40b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -125,6 +125,12 @@
   "pushcount": "3",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2019-3703.html",
+      "type": "self",
+      "id": "ALSA-2019-3703",
+      "title": "ALSA-2019-3703"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2018-10392",
       "type": "cve",
       "id": "CVE-2018-10392",
@@ -138,7 +144,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Low",
   "solution": "",
   "status": "final",
@@ -146,7 +152,7 @@
   "title": "Low: libvorbis security update",
   "type": "security",
   "updated_date": {
-    "$date": 1628672040000
+    "$date": 1572987167000
   },
   "version": "1"
 }

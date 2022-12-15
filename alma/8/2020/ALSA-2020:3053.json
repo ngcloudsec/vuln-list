@@ -8,8 +8,8 @@
     "$date": 1595343700000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_container-tools",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_container-tools",
+    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_container-tools",
+    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_container-tools",
     "packages": [
       {
         "name": "toolbox",
@@ -20,18 +20,6 @@
         "src": "toolbox-0.0.7-1.module_el8.5.0+2635+e4386a39.src.rpm",
         "filename": "toolbox-0.0.7-1.module_el8.5.0+2635+e4386a39.noarch.rpm",
         "sum": "2a26195b240f74ef12f6e381516294c3983a2873382d2940167dcff48cdf6e2c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "runc",
-        "version": "1.0.0",
-        "release": "66.rc10.module_el8.5.0+2635+e4386a39",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.src.rpm",
-        "filename": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.x86_64.rpm",
-        "sum": "3429bb0130a28570aab16478439ad0151b9c42a3d2978f21808d4ef46f315967",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -68,6 +56,18 @@
         "src": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.src.rpm",
         "filename": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.aarch64.rpm",
         "sum": "e360394cbb03aa96f1902d2c82f59a96a5cba68925db515b171f31ccac6c34f6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "runc",
+        "version": "1.0.0",
+        "release": "66.rc10.module_el8.5.0+2635+e4386a39",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.src.rpm",
+        "filename": "runc-1.0.0-66.rc10.module_el8.5.0+2635+e4386a39.x86_64.rpm",
+        "sum": "3429bb0130a28570aab16478439ad0151b9c42a3d2978f21808d4ef46f315967",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -124,7 +124,7 @@
       "stream": "2.0",
       "name": "container-tools",
       "version": 8050020220427075245,
-      "arch": "x86_64",
+      "arch": "aarch64",
       "context": "e34216c9"
     }
   },

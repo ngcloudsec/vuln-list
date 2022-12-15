@@ -8,45 +8,9 @@
     "$date": 1572976333000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_container-tools",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_container-tools",
+    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_container-tools",
+    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_container-tools",
     "packages": [
-      {
-        "name": "fuse-overlayfs",
-        "version": "0.3",
-        "release": "5.module_el8.3.0+2044+12421f43",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "fuse-overlayfs-0.3-5.module_el8.3.0+2044+12421f43.src.rpm",
-        "filename": "fuse-overlayfs-0.3-5.module_el8.3.0+2044+12421f43.x86_64.rpm",
-        "sum": "813eb4acbccfc1f231c6b9b02b01c70196d7b88c309598a270c55383de41bf36",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "oci-umount",
-        "version": "2.3.4",
-        "release": "2.git87f9237.module_el8.3.0+2044+12421f43",
-        "epoch": "2",
-        "arch": "x86_64",
-        "src": "oci-umount-2.3.4-2.git87f9237.module_el8.3.0+2044+12421f43.src.rpm",
-        "filename": "oci-umount-2.3.4-2.git87f9237.module_el8.3.0+2044+12421f43.x86_64.rpm",
-        "sum": "82477f79b1e2569d7909cf5e334b443d2c90c7e7ae710bb25826a793f46c0e6e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "oci-systemd-hook",
-        "version": "0.1.15",
-        "release": "2.git2d0b8a3.module_el8.3.0+2044+12421f43",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.3.0+2044+12421f43.src.rpm",
-        "filename": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.3.0+2044+12421f43.x86_64.rpm",
-        "sum": "b0316c313c77ab89cb757717f70d4033c6593a3ea657981a4c351d397629218a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "oci-umount",
         "version": "2.3.4",
@@ -80,6 +44,42 @@
         "src": "fuse-overlayfs-0.3-5.module_el8.4.0+2496+12421f43.src.rpm",
         "filename": "fuse-overlayfs-0.3-5.module_el8.4.0+2496+12421f43.aarch64.rpm",
         "sum": "90cde31a5e68574aba6ec587bbcb2a0de1926524b781da2f5cd98a055369d4e5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "fuse-overlayfs",
+        "version": "0.3",
+        "release": "5.module_el8.3.0+2044+12421f43",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "fuse-overlayfs-0.3-5.module_el8.3.0+2044+12421f43.src.rpm",
+        "filename": "fuse-overlayfs-0.3-5.module_el8.3.0+2044+12421f43.x86_64.rpm",
+        "sum": "813eb4acbccfc1f231c6b9b02b01c70196d7b88c309598a270c55383de41bf36",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "oci-umount",
+        "version": "2.3.4",
+        "release": "2.git87f9237.module_el8.3.0+2044+12421f43",
+        "epoch": "2",
+        "arch": "x86_64",
+        "src": "oci-umount-2.3.4-2.git87f9237.module_el8.3.0+2044+12421f43.src.rpm",
+        "filename": "oci-umount-2.3.4-2.git87f9237.module_el8.3.0+2044+12421f43.x86_64.rpm",
+        "sum": "82477f79b1e2569d7909cf5e334b443d2c90c7e7ae710bb25826a793f46c0e6e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "oci-systemd-hook",
+        "version": "0.1.15",
+        "release": "2.git2d0b8a3.module_el8.3.0+2044+12421f43",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.3.0+2044+12421f43.src.rpm",
+        "filename": "oci-systemd-hook-0.1.15-2.git2d0b8a3.module_el8.3.0+2044+12421f43.x86_64.rpm",
+        "sum": "b0316c313c77ab89cb757717f70d4033c6593a3ea657981a4c351d397629218a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -123,8 +123,8 @@
     "module": {
       "stream": "1.0",
       "name": "container-tools",
-      "version": 8040020210609195049,
-      "arch": "x86_64",
+      "version": 8040020210617090548,
+      "arch": "aarch64",
       "context": "830d479e"
     }
   },

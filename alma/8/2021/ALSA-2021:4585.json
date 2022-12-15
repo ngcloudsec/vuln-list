@@ -8,9 +8,165 @@
     "$date": 1636533102000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
     "packages": [
+      {
+        "name": "gcc-toolset-10-libtsan-devel",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-10-libtsan-devel-10.3.1-1.2.el8_5.aarch64.rpm",
+        "sum": "0282e71c1d44ef34acaf82bdc83dcb20b110fc592c5140345e74b9d13a65b78c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-10-gcc",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.aarch64.rpm",
+        "sum": "1bd7804331bb3b6ef53dfc1cefbbd8a56a1cff5cd4a879028e67b4e46c1fbd7c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-10-gcc-plugin-devel",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-10-gcc-plugin-devel-10.3.1-1.2.el8_5.aarch64.rpm",
+        "sum": "3bbac294f14aa1eff93fc901344bf296e1af6b7c966529f4907a14c35ea564c5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-10-libatomic-devel",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-10-libatomic-devel-10.3.1-1.2.el8_5.aarch64.rpm",
+        "sum": "3e0d58af6b390871202c2f0f940b64b3651c9f6eb55e8fe7f8170614fdd6608f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-10-libstdc++-docs",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-10-libstdc++-docs-10.3.1-1.2.el8_5.aarch64.rpm",
+        "sum": "4281d4d55772b6c17e6b87b53059dde1bb8aae37b08371fb51a43d8962e295b2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-10-gcc-gdb-plugin",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-10-gcc-gdb-plugin-10.3.1-1.2.el8_5.aarch64.rpm",
+        "sum": "7a09a571b3a6c2aac0ad7fbb887ede1d3f018dafa8e68114bcbf2f1251346f3d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-10-libitm-devel",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-10-libitm-devel-10.3.1-1.2.el8_5.aarch64.rpm",
+        "sum": "87739c16c963218956c943185939fe76565911188d0ebda1bb5726bcb7945023",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-10-libasan-devel",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-10-libasan-devel-10.3.1-1.2.el8_5.aarch64.rpm",
+        "sum": "9138eabb48d7b4ba30e0e2f1321aac14f0e9082f0838cbc2ee20103eb2c032e6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-10-liblsan-devel",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-10-liblsan-devel-10.3.1-1.2.el8_5.aarch64.rpm",
+        "sum": "9c57673314654a02c96375c07f0ce1b1bf0a66656a11183311c606597ab101a6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-10-gcc-gfortran",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-10-gcc-gfortran-10.3.1-1.2.el8_5.aarch64.rpm",
+        "sum": "a9045e80ef7535620d9eebd52b194d46494d3e670b20b2104213090fabfb57d3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-10-libubsan-devel",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-10-libubsan-devel-10.3.1-1.2.el8_5.aarch64.rpm",
+        "sum": "da87e1d40e7652f1a71cf0266472c0a60f24d9a042d7b7d30398831664ea2ea1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-10-libstdc++-devel",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-10-libstdc++-devel-10.3.1-1.2.el8_5.aarch64.rpm",
+        "sum": "e5e658a7c767328b12b091fed8f19c55ac6d5d8a7da67843043e9618cea1d12e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-10-gcc-c++",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-10-gcc-c++-10.3.1-1.2.el8_5.aarch64.rpm",
+        "sum": "f32b98571e82186a59bf7e8661cb67e82d3f21ae2f0bd8bcc5c4afb553f624a3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "gcc-toolset-10-libubsan-devel",
         "version": "10.3.1",
@@ -176,162 +332,6 @@
         "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
         "filename": "gcc-toolset-10-gcc-gdb-plugin-10.3.1-1.2.el8_5.x86_64.rpm",
         "sum": "fca930bb76cb8221a090b8750f2e951044d157db6677892fbcd8457738fdabab",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-10-libtsan-devel",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-10-libtsan-devel-10.3.1-1.2.el8_5.aarch64.rpm",
-        "sum": "0282e71c1d44ef34acaf82bdc83dcb20b110fc592c5140345e74b9d13a65b78c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-10-gcc",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.aarch64.rpm",
-        "sum": "1bd7804331bb3b6ef53dfc1cefbbd8a56a1cff5cd4a879028e67b4e46c1fbd7c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-10-gcc-plugin-devel",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-10-gcc-plugin-devel-10.3.1-1.2.el8_5.aarch64.rpm",
-        "sum": "3bbac294f14aa1eff93fc901344bf296e1af6b7c966529f4907a14c35ea564c5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-10-libatomic-devel",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-10-libatomic-devel-10.3.1-1.2.el8_5.aarch64.rpm",
-        "sum": "3e0d58af6b390871202c2f0f940b64b3651c9f6eb55e8fe7f8170614fdd6608f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-10-libstdc++-docs",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-10-libstdc++-docs-10.3.1-1.2.el8_5.aarch64.rpm",
-        "sum": "4281d4d55772b6c17e6b87b53059dde1bb8aae37b08371fb51a43d8962e295b2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-10-gcc-gdb-plugin",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-10-gcc-gdb-plugin-10.3.1-1.2.el8_5.aarch64.rpm",
-        "sum": "7a09a571b3a6c2aac0ad7fbb887ede1d3f018dafa8e68114bcbf2f1251346f3d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-10-libitm-devel",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-10-libitm-devel-10.3.1-1.2.el8_5.aarch64.rpm",
-        "sum": "87739c16c963218956c943185939fe76565911188d0ebda1bb5726bcb7945023",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-10-libasan-devel",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-10-libasan-devel-10.3.1-1.2.el8_5.aarch64.rpm",
-        "sum": "9138eabb48d7b4ba30e0e2f1321aac14f0e9082f0838cbc2ee20103eb2c032e6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-10-liblsan-devel",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-10-liblsan-devel-10.3.1-1.2.el8_5.aarch64.rpm",
-        "sum": "9c57673314654a02c96375c07f0ce1b1bf0a66656a11183311c606597ab101a6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-10-gcc-gfortran",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-10-gcc-gfortran-10.3.1-1.2.el8_5.aarch64.rpm",
-        "sum": "a9045e80ef7535620d9eebd52b194d46494d3e670b20b2104213090fabfb57d3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-10-libubsan-devel",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-10-libubsan-devel-10.3.1-1.2.el8_5.aarch64.rpm",
-        "sum": "da87e1d40e7652f1a71cf0266472c0a60f24d9a042d7b7d30398831664ea2ea1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-10-libstdc++-devel",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-10-libstdc++-devel-10.3.1-1.2.el8_5.aarch64.rpm",
-        "sum": "e5e658a7c767328b12b091fed8f19c55ac6d5d8a7da67843043e9618cea1d12e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-10-gcc-c++",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-10-gcc-c++-10.3.1-1.2.el8_5.aarch64.rpm",
-        "sum": "f32b98571e82186a59bf7e8661cb67e82d3f21ae2f0bd8bcc5c4afb553f624a3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -605,6 +605,12 @@
   "pushcount": "3",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-4585.html",
+      "type": "self",
+      "id": "ALSA-2021-4585",
+      "title": "ALSA-2021-4585"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2021-42574",
       "type": "cve",
       "id": "CVE-2021-42574",
@@ -612,7 +618,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -620,7 +626,7 @@
   "title": "Moderate: gcc-toolset-10-gcc security update",
   "type": "security",
   "updated_date": {
-    "$date": 1636734050000
+    "$date": 1636533102000
   },
   "version": "1"
 }

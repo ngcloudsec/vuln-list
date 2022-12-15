@@ -8,9 +8,105 @@
     "$date": 1621318495000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
     "packages": [
+      {
+        "name": "ghostscript-tools-fonts",
+        "version": "9.27",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "ghostscript-9.27-1.el8.src.rpm",
+        "filename": "ghostscript-tools-fonts-9.27-1.el8.aarch64.rpm",
+        "sum": "07d64f00818b777a645de12ce2a09486fcfcf943d95f82b3b9ef99208113e296",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libgs-devel",
+        "version": "9.27",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "ghostscript-9.27-1.el8.src.rpm",
+        "filename": "libgs-devel-9.27-1.el8.aarch64.rpm",
+        "sum": "084e57d713abc654dc30240b25b28ec2f7b2f67e140670321aa37aca21c6d9f5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ghostscript-tools-printing",
+        "version": "9.27",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "ghostscript-9.27-1.el8.src.rpm",
+        "filename": "ghostscript-tools-printing-9.27-1.el8.aarch64.rpm",
+        "sum": "2b8d6e782d7ffe8fd83583de0e0e2f7fb8dadc3957b13c53c7610229b6b52426",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libgs",
+        "version": "9.27",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "ghostscript-9.27-1.el8.src.rpm",
+        "filename": "libgs-9.27-1.el8.aarch64.rpm",
+        "sum": "725eb2e02dc7c1421dd57b9eb37342d684f1fbe17d5361e052fb39472aa377d7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ghostscript",
+        "version": "9.27",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "ghostscript-9.27-1.el8.src.rpm",
+        "filename": "ghostscript-9.27-1.el8.aarch64.rpm",
+        "sum": "8ebc8612d3b6bd28e92b739735ed7bd5885e78964f88deaab5837ead8bc81631",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ghostscript-x11",
+        "version": "9.27",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "ghostscript-9.27-1.el8.src.rpm",
+        "filename": "ghostscript-x11-9.27-1.el8.aarch64.rpm",
+        "sum": "b3f74b6304ac5180f9540172243e2b56555cce5d309ef3a1e7c7da1004051db6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ghostscript-doc",
+        "version": "9.27",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ghostscript-9.27-1.el8.src.rpm",
+        "filename": "ghostscript-doc-9.27-1.el8.noarch.rpm",
+        "sum": "f4272facbfb25f9aaf34b083a0f00b542c5dd78760c50f62dd3d46024d35b7f1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ghostscript-tools-dvipdf",
+        "version": "9.27",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "ghostscript-9.27-1.el8.src.rpm",
+        "filename": "ghostscript-tools-dvipdf-9.27-1.el8.aarch64.rpm",
+        "sum": "f478c973943dde44ee3a24cb48e47f76d357b28d1ec37dd4461945c746549102",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "ghostscript-tools-dvipdf",
         "version": "9.27",
@@ -96,18 +192,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "ghostscript-doc",
-        "version": "9.27",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "ghostscript-9.27-1.el8.src.rpm",
-        "filename": "ghostscript-doc-9.27-1.el8.noarch.rpm",
-        "sum": "f4272facbfb25f9aaf34b083a0f00b542c5dd78760c50f62dd3d46024d35b7f1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "ghostscript-tools-fonts",
         "version": "9.27",
         "release": "1.el8",
@@ -116,90 +200,6 @@
         "src": "ghostscript-9.27-1.el8.src.rpm",
         "filename": "ghostscript-tools-fonts-9.27-1.el8.x86_64.rpm",
         "sum": "f5cc1797f6d71845d680d1ebf35599c34108307e271bd899467e20d8dc748afd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ghostscript-tools-fonts",
-        "version": "9.27",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "ghostscript-9.27-1.el8.src.rpm",
-        "filename": "ghostscript-tools-fonts-9.27-1.el8.aarch64.rpm",
-        "sum": "07d64f00818b777a645de12ce2a09486fcfcf943d95f82b3b9ef99208113e296",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libgs-devel",
-        "version": "9.27",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "ghostscript-9.27-1.el8.src.rpm",
-        "filename": "libgs-devel-9.27-1.el8.aarch64.rpm",
-        "sum": "084e57d713abc654dc30240b25b28ec2f7b2f67e140670321aa37aca21c6d9f5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ghostscript-tools-printing",
-        "version": "9.27",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "ghostscript-9.27-1.el8.src.rpm",
-        "filename": "ghostscript-tools-printing-9.27-1.el8.aarch64.rpm",
-        "sum": "2b8d6e782d7ffe8fd83583de0e0e2f7fb8dadc3957b13c53c7610229b6b52426",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libgs",
-        "version": "9.27",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "ghostscript-9.27-1.el8.src.rpm",
-        "filename": "libgs-9.27-1.el8.aarch64.rpm",
-        "sum": "725eb2e02dc7c1421dd57b9eb37342d684f1fbe17d5361e052fb39472aa377d7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ghostscript",
-        "version": "9.27",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "ghostscript-9.27-1.el8.src.rpm",
-        "filename": "ghostscript-9.27-1.el8.aarch64.rpm",
-        "sum": "8ebc8612d3b6bd28e92b739735ed7bd5885e78964f88deaab5837ead8bc81631",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ghostscript-x11",
-        "version": "9.27",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "ghostscript-9.27-1.el8.src.rpm",
-        "filename": "ghostscript-x11-9.27-1.el8.aarch64.rpm",
-        "sum": "b3f74b6304ac5180f9540172243e2b56555cce5d309ef3a1e7c7da1004051db6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "ghostscript-tools-dvipdf",
-        "version": "9.27",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "ghostscript-9.27-1.el8.src.rpm",
-        "filename": "ghostscript-tools-dvipdf-9.27-1.el8.aarch64.rpm",
-        "sum": "f478c973943dde44ee3a24cb48e47f76d357b28d1ec37dd4461945c746549102",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -304,6 +304,12 @@
   },
   "pushcount": "6",
   "references": [
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-1852.html",
+      "type": "self",
+      "id": "ALSA-2021-1852",
+      "title": "ALSA-2021-1852"
+    },
     {
       "href": "https://vulners.com/cve/CVE-2020-14373",
       "type": "cve",
@@ -462,7 +468,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -470,7 +476,7 @@
   "title": "Moderate: ghostscript security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1628672040000
+    "$date": 1621318490000
   },
   "version": "1"
 }

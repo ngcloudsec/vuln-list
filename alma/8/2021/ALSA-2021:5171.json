@@ -8,9 +8,21 @@
     "$date": 1639595369000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_nodejs",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_nodejs",
+    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_nodejs",
+    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_nodejs",
     "packages": [
+      {
+        "name": "nodejs-full-i18n",
+        "version": "16.13.1",
+        "release": "3.module_el8.5.0+2605+45d748af",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "nodejs-16.13.1-3.module_el8.5.0+2605+45d748af.src.rpm",
+        "filename": "nodejs-full-i18n-16.13.1-3.module_el8.5.0+2605+45d748af.aarch64.rpm",
+        "sum": "0b27a23de7e801b0b59ca6442c07fea0f2a757152305d9d71e179c9e8d44d74b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "nodejs-nodemon",
         "version": "2.0.15",
@@ -20,30 +32,6 @@
         "src": "nodejs-nodemon-2.0.15-1.module_el8.6.0+2904+f21ad6f4.src.rpm",
         "filename": "nodejs-nodemon-2.0.15-1.module_el8.6.0+2904+f21ad6f4.noarch.rpm",
         "sum": "2e6bf93ba8b10d89b5ec0778b46e78d8b7bcf21d1230487757c4b58a94b31ea9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nodejs-devel",
-        "version": "16.13.1",
-        "release": "3.module_el8.5.0+2605+45d748af",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "nodejs-16.13.1-3.module_el8.5.0+2605+45d748af.src.rpm",
-        "filename": "nodejs-devel-16.13.1-3.module_el8.5.0+2605+45d748af.x86_64.rpm",
-        "sum": "3dae171abbddadfbac97b73bc3829af67465c48fbb77c45bf5741339eb1b75e5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "npm",
-        "version": "8.1.2",
-        "release": "1.16.13.1.3.module_el8.5.0+2605+45d748af",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "nodejs-16.13.1-3.module_el8.5.0+2605+45d748af.src.rpm",
-        "filename": "npm-8.1.2-1.16.13.1.3.module_el8.5.0+2605+45d748af.x86_64.rpm",
-        "sum": "50ede779edd134459634432330a96b1412632b0bfd3ab63b2736accf409e66b9",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -68,54 +56,6 @@
         "src": "nodejs-16.13.1-3.module_el8.5.0+2605+45d748af.src.rpm",
         "filename": "nodejs-docs-16.13.1-3.module_el8.5.0+2605+45d748af.noarch.rpm",
         "sum": "7e7f9457f07e303d7b3749b0d590f29b370ed4ecbeb02218c9b6f3d58017e304",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nodejs-full-i18n",
-        "version": "16.13.1",
-        "release": "3.module_el8.5.0+2605+45d748af",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "nodejs-16.13.1-3.module_el8.5.0+2605+45d748af.src.rpm",
-        "filename": "nodejs-full-i18n-16.13.1-3.module_el8.5.0+2605+45d748af.x86_64.rpm",
-        "sum": "868dfffb9f8ac2082a307262c883dc7a07ff246f91de107b3fb0914637862f7e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nodejs",
-        "version": "16.13.1",
-        "release": "3.module_el8.5.0+2605+45d748af",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "nodejs-16.13.1-3.module_el8.5.0+2605+45d748af.src.rpm",
-        "filename": "nodejs-16.13.1-3.module_el8.5.0+2605+45d748af.x86_64.rpm",
-        "sum": "ac324b7991189b776b4d2caafa796ac608a2b58f67701a941203bb5c938e80eb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nodejs-packaging",
-        "version": "25",
-        "release": "1.module_el8.5.0+2605+45d748af",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "nodejs-packaging-25-1.module_el8.5.0+2605+45d748af.src.rpm",
-        "filename": "nodejs-packaging-25-1.module_el8.5.0+2605+45d748af.noarch.rpm",
-        "sum": "cb0391aca612f152879a96ea35099dc00cc9685ea52575761848c9e6eb7578bf",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nodejs-full-i18n",
-        "version": "16.13.1",
-        "release": "3.module_el8.5.0+2605+45d748af",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "nodejs-16.13.1-3.module_el8.5.0+2605+45d748af.src.rpm",
-        "filename": "nodejs-full-i18n-16.13.1-3.module_el8.5.0+2605+45d748af.aarch64.rpm",
-        "sum": "0b27a23de7e801b0b59ca6442c07fea0f2a757152305d9d71e179c9e8d44d74b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -152,6 +92,66 @@
         "src": "nodejs-16.13.1-3.module_el8.5.0+2605+45d748af.src.rpm",
         "filename": "nodejs-devel-16.13.1-3.module_el8.5.0+2605+45d748af.aarch64.rpm",
         "sum": "ca9e4465be820c6228a224e91716e1c75c5f2a085050943558f7330b1abde791",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nodejs-packaging",
+        "version": "25",
+        "release": "1.module_el8.5.0+2605+45d748af",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "nodejs-packaging-25-1.module_el8.5.0+2605+45d748af.src.rpm",
+        "filename": "nodejs-packaging-25-1.module_el8.5.0+2605+45d748af.noarch.rpm",
+        "sum": "cb0391aca612f152879a96ea35099dc00cc9685ea52575761848c9e6eb7578bf",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nodejs-devel",
+        "version": "16.13.1",
+        "release": "3.module_el8.5.0+2605+45d748af",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "nodejs-16.13.1-3.module_el8.5.0+2605+45d748af.src.rpm",
+        "filename": "nodejs-devel-16.13.1-3.module_el8.5.0+2605+45d748af.x86_64.rpm",
+        "sum": "3dae171abbddadfbac97b73bc3829af67465c48fbb77c45bf5741339eb1b75e5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "npm",
+        "version": "8.1.2",
+        "release": "1.16.13.1.3.module_el8.5.0+2605+45d748af",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "nodejs-16.13.1-3.module_el8.5.0+2605+45d748af.src.rpm",
+        "filename": "npm-8.1.2-1.16.13.1.3.module_el8.5.0+2605+45d748af.x86_64.rpm",
+        "sum": "50ede779edd134459634432330a96b1412632b0bfd3ab63b2736accf409e66b9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nodejs-full-i18n",
+        "version": "16.13.1",
+        "release": "3.module_el8.5.0+2605+45d748af",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "nodejs-16.13.1-3.module_el8.5.0+2605+45d748af.src.rpm",
+        "filename": "nodejs-full-i18n-16.13.1-3.module_el8.5.0+2605+45d748af.x86_64.rpm",
+        "sum": "868dfffb9f8ac2082a307262c883dc7a07ff246f91de107b3fb0914637862f7e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nodejs",
+        "version": "16.13.1",
+        "release": "3.module_el8.5.0+2605+45d748af",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "nodejs-16.13.1-3.module_el8.5.0+2605+45d748af.src.rpm",
+        "filename": "nodejs-16.13.1-3.module_el8.5.0+2605+45d748af.x86_64.rpm",
+        "sum": "ac324b7991189b776b4d2caafa796ac608a2b58f67701a941203bb5c938e80eb",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -232,12 +232,18 @@
       "stream": "16",
       "name": "nodejs",
       "version": 8050020211216075314,
-      "arch": "x86_64",
+      "arch": "aarch64",
       "context": "c5368500"
     }
   },
   "pushcount": "3",
   "references": [
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-5171.html",
+      "type": "self",
+      "id": "ALSA-2021-5171",
+      "title": "ALSA-2021-5171"
+    },
     {
       "href": "https://vulners.com/cve/CVE-2020-28469",
       "type": "cve",
@@ -282,7 +288,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -290,7 +296,7 @@
   "title": "Moderate: nodejs:16 security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1639654155000
+    "$date": 1639595369000
   },
   "version": "1"
 }

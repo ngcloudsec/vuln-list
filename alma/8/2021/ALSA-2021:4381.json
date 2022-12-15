@@ -8,9 +8,33 @@
     "$date": 1636449315000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
+    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
     "packages": [
+      {
+        "name": "gnome-autoar",
+        "version": "0.2.3",
+        "release": "2.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gnome-autoar-0.2.3-2.el8.src.rpm",
+        "filename": "gnome-autoar-0.2.3-2.el8.aarch64.rpm",
+        "sum": "97e173e0846f518f95c83668d87859f4bb256e4bb1e6cd545226808378a8e57f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gsettings-desktop-schemas",
+        "version": "3.32.0",
+        "release": "6.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gsettings-desktop-schemas-3.32.0-6.el8.src.rpm",
+        "filename": "gsettings-desktop-schemas-3.32.0-6.el8.aarch64.rpm",
+        "sum": "c8e07e7aa9b7be2b15d2beec5f396eed344abc04756f4b2b0a3a1720ff2fbe08",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "gnome-online-accounts-devel",
         "version": "3.28.2",
@@ -828,26 +852,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "gnome-autoar",
-        "version": "0.2.3",
-        "release": "2.el8",
+        "name": "gnome-software-devel",
+        "version": "3.36.1",
+        "release": "10.el8",
         "epoch": "0",
         "arch": "aarch64",
-        "src": "gnome-autoar-0.2.3-2.el8.src.rpm",
-        "filename": "gnome-autoar-0.2.3-2.el8.aarch64.rpm",
-        "sum": "97e173e0846f518f95c83668d87859f4bb256e4bb1e6cd545226808378a8e57f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gsettings-desktop-schemas",
-        "version": "3.32.0",
-        "release": "6.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gsettings-desktop-schemas-3.32.0-6.el8.src.rpm",
-        "filename": "gsettings-desktop-schemas-3.32.0-6.el8.aarch64.rpm",
-        "sum": "c8e07e7aa9b7be2b15d2beec5f396eed344abc04756f4b2b0a3a1720ff2fbe08",
+        "src": "gnome-software-3.36.1-10.el8.src.rpm",
+        "filename": "gnome-software-devel-3.36.1-10.el8.aarch64.rpm",
+        "sum": "9273b479534b2fedc6e525165e98bb31b708d0f1073c9a845368d539e95e3ab0",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -944,18 +956,6 @@
         "src": "accountsservice-0.6.55-2.el8.src.rpm",
         "filename": "accountsservice-devel-0.6.55-2.el8.i686.rpm",
         "sum": "ec06bb263abcfff3781cb1da669f17ebb19c8f35278a36c09d28b822cef5f163",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gnome-software-devel",
-        "version": "3.36.1",
-        "release": "10.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gnome-software-3.36.1-10.el8.src.rpm",
-        "filename": "gnome-software-devel-3.36.1-10.el8.aarch64.rpm",
-        "sum": "9273b479534b2fedc6e525165e98bb31b708d0f1073c9a845368d539e95e3ab0",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1193,6 +1193,12 @@
   "pushcount": "5",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-4381.html",
+      "type": "self",
+      "id": "ALSA-2021-4381",
+      "title": "ALSA-2021-4381"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2020-13558",
       "type": "cve",
       "id": "CVE-2020-13558",
@@ -1368,7 +1374,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -1376,7 +1382,7 @@
   "title": "Moderate: GNOME security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712456000
+    "$date": 1636463406000
   },
   "version": "2"
 }

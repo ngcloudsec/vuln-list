@@ -8,9 +8,57 @@
     "$date": 1645550731000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
     "packages": [
+      {
+        "name": "python3-pillow-tk",
+        "version": "5.1.1",
+        "release": "18.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+        "filename": "python3-pillow-tk-5.1.1-18.el8_5.aarch64.rpm",
+        "sum": "1d6a2627dcccb3628b027f7b5abc0d7b8920f705d9fd5ae5f9fd1c000a3246b1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-pillow-doc",
+        "version": "5.1.1",
+        "release": "18.el8_5",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+        "filename": "python3-pillow-doc-5.1.1-18.el8_5.noarch.rpm",
+        "sum": "77fcdc9fd93c5f375179289519ef43064b05c10f2143c390fd08af864328395b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-pillow",
+        "version": "5.1.1",
+        "release": "18.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+        "filename": "python3-pillow-5.1.1-18.el8_5.aarch64.rpm",
+        "sum": "9412c36401f155e24a2ed98ce2a799a859b2fa687db657ecfb742bdd12c2221c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-pillow-devel",
+        "version": "5.1.1",
+        "release": "18.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+        "filename": "python3-pillow-devel-5.1.1-18.el8_5.aarch64.rpm",
+        "sum": "fca3f1ed8832dc1865388f1847a18190d36c5ac8326b7f9c0cc46a122b88cfb3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "python3-pillow-tk",
         "version": "5.1.1",
@@ -60,18 +108,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "python3-pillow-doc",
-        "version": "5.1.1",
-        "release": "18.el8_5",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-        "filename": "python3-pillow-doc-5.1.1-18.el8_5.noarch.rpm",
-        "sum": "77fcdc9fd93c5f375179289519ef43064b05c10f2143c390fd08af864328395b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "python3-pillow",
         "version": "5.1.1",
         "release": "18.el8_5",
@@ -80,42 +116,6 @@
         "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
         "filename": "python3-pillow-5.1.1-18.el8_5.i686.rpm",
         "sum": "94c7028905416c8b496c79a3661ef6a5e2d34e0816f0d8dcd8c4ec1782afd4cf",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-pillow-tk",
-        "version": "5.1.1",
-        "release": "18.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-        "filename": "python3-pillow-tk-5.1.1-18.el8_5.aarch64.rpm",
-        "sum": "1d6a2627dcccb3628b027f7b5abc0d7b8920f705d9fd5ae5f9fd1c000a3246b1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-pillow",
-        "version": "5.1.1",
-        "release": "18.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-        "filename": "python3-pillow-5.1.1-18.el8_5.aarch64.rpm",
-        "sum": "9412c36401f155e24a2ed98ce2a799a859b2fa687db657ecfb742bdd12c2221c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-pillow-devel",
-        "version": "5.1.1",
-        "release": "18.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-        "filename": "python3-pillow-devel-5.1.1-18.el8_5.aarch64.rpm",
-        "sum": "fca3f1ed8832dc1865388f1847a18190d36c5ac8326b7f9c0cc46a122b88cfb3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -161,6 +161,18 @@
   "pushcount": "3",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2022-0643.html",
+      "type": "self",
+      "id": "ALSA-2022-0643",
+      "title": "ALSA-2022-0643"
+    },
+    {
+      "href": "https://vulners.com/cve/CVE-2022-22815",
+      "type": "cve",
+      "id": "CVE-2022-22815",
+      "title": "CVE-2022-22815"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2022-22816",
       "type": "cve",
       "id": "CVE-2022-22816",
@@ -182,7 +194,7 @@
   "title": "Important: python-pillow security update",
   "type": "security",
   "updated_date": {
-    "$date": 1645622689000
+    "$date": 1645550731000
   },
-  "version": "1"
+  "version": "2"
 }
