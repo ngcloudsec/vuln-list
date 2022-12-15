@@ -8,9 +8,33 @@
     "$date": 1656547200000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_default",
+    "name": "almalinux-9-for-i686-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-i686-appstream-rpms__9_default",
     "packages": [
+      {
+        "name": "libinput",
+        "version": "1.19.3",
+        "release": "2.el9_0",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libinput-1.19.3-2.el9_0.src.rpm",
+        "filename": "libinput-1.19.3-2.el9_0.i686.rpm",
+        "sum": "717a674cba257324bf1a84057769f1e5aad55797341696a3c8aa85b245115988",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libinput-devel",
+        "version": "1.19.3",
+        "release": "2.el9_0",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libinput-1.19.3-2.el9_0.src.rpm",
+        "filename": "libinput-devel-1.19.3-2.el9_0.i686.rpm",
+        "sum": "9e4b1db4dbf3c19a785a9dbb287a9f87ff61aa7e56d0bc13718a76c6dc67451b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "libinput",
         "version": "1.19.3",
@@ -32,18 +56,6 @@
         "src": "libinput-1.19.3-2.el9_0.src.rpm",
         "filename": "libinput-utils-1.19.3-2.el9_0.x86_64.rpm",
         "sum": "3d72a89e967db7ac7f6afb33b6c30323564340c1384b23727056c5fe36164fef",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libinput",
-        "version": "1.19.3",
-        "release": "2.el9_0",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libinput-1.19.3-2.el9_0.src.rpm",
-        "filename": "libinput-1.19.3-2.el9_0.i686.rpm",
-        "sum": "717a674cba257324bf1a84057769f1e5aad55797341696a3c8aa85b245115988",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -96,14 +108,38 @@
         "reboot_suggested": 0
       },
       {
+        "name": "libinput",
+        "version": "1.19.3",
+        "release": "2.el9_0",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libinput-1.19.3-2.el9_0.src.rpm",
+        "filename": "libinput-1.19.3-2.el9_0.aarch64.rpm",
+        "sum": "7446f72679817160ab134136345579b5db0845ec21b65e2dc8eefce096940c2f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libinput-devel",
         "version": "1.19.3",
         "release": "2.el9_0",
         "epoch": "0",
-        "arch": "i686",
+        "arch": "aarch64",
         "src": "libinput-1.19.3-2.el9_0.src.rpm",
-        "filename": "libinput-devel-1.19.3-2.el9_0.i686.rpm",
-        "sum": "9e4b1db4dbf3c19a785a9dbb287a9f87ff61aa7e56d0bc13718a76c6dc67451b",
+        "filename": "libinput-devel-1.19.3-2.el9_0.aarch64.rpm",
+        "sum": "83b676e0c1946352dba5b6d36349bb5d1f80822acf98a2143c34bb8384250aa4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libinput-utils",
+        "version": "1.19.3",
+        "release": "2.el9_0",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libinput-1.19.3-2.el9_0.src.rpm",
+        "filename": "libinput-utils-1.19.3-2.el9_0.aarch64.rpm",
+        "sum": "e9636a15a5931ae4a41782ce213794d9afcbbb130aafbffb9376618f2286af8e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -140,42 +176,6 @@
         "src": "libinput-1.19.3-2.el9_0.src.rpm",
         "filename": "libinput-1.19.3-2.el9_0.s390x.rpm",
         "sum": "a28458e552b4ce640eb13c9d505b54de8f347cdec5b781427db7c08603425539",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libinput",
-        "version": "1.19.3",
-        "release": "2.el9_0",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libinput-1.19.3-2.el9_0.src.rpm",
-        "filename": "libinput-1.19.3-2.el9_0.aarch64.rpm",
-        "sum": "7446f72679817160ab134136345579b5db0845ec21b65e2dc8eefce096940c2f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libinput-devel",
-        "version": "1.19.3",
-        "release": "2.el9_0",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libinput-1.19.3-2.el9_0.src.rpm",
-        "filename": "libinput-devel-1.19.3-2.el9_0.aarch64.rpm",
-        "sum": "83b676e0c1946352dba5b6d36349bb5d1f80822acf98a2143c34bb8384250aa4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libinput-utils",
-        "version": "1.19.3",
-        "release": "2.el9_0",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libinput-1.19.3-2.el9_0.src.rpm",
-        "filename": "libinput-utils-1.19.3-2.el9_0.aarch64.rpm",
-        "sum": "e9636a15a5931ae4a41782ce213794d9afcbbb130aafbffb9376618f2286af8e",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -218,7 +218,7 @@
   "title": "Moderate: libinput security update",
   "type": "security",
   "updated_date": {
-    "$date": 1658425203000
+    "$date": 1658425197000
   },
   "version": "1"
 }

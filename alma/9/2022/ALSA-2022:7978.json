@@ -8,9 +8,21 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-i686-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
     "packages": [
+      {
+        "name": "gimp-libs",
+        "version": "2.99.8",
+        "release": "3.el9",
+        "epoch": "2",
+        "arch": "i686",
+        "src": "gimp-2.99.8-3.el9.src.rpm",
+        "filename": "gimp-libs-2.99.8-3.el9.i686.rpm",
+        "sum": "e9fc43cd3f4a0d027441300881599f506b924ee2a965293e7f99b751f5a4409c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "gimp-libs",
         "version": "2.99.8",
@@ -32,18 +44,6 @@
         "src": "gimp-2.99.8-3.el9.src.rpm",
         "filename": "gimp-2.99.8-3.el9.x86_64.rpm",
         "sum": "b297b7f02616e8e793df5bff99c4f416e805e8997effc93b7e54beaf59f46a19",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gimp-libs",
-        "version": "2.99.8",
-        "release": "3.el9",
-        "epoch": "2",
-        "arch": "i686",
-        "src": "gimp-2.99.8-3.el9.src.rpm",
-        "filename": "gimp-libs-2.99.8-3.el9.i686.rpm",
-        "sum": "e9fc43cd3f4a0d027441300881599f506b924ee2a965293e7f99b751f5a4409c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -76,30 +76,6 @@
         "version": "2.99.8",
         "release": "3.el9",
         "epoch": "2",
-        "arch": "s390x",
-        "src": "gimp-2.99.8-3.el9.src.rpm",
-        "filename": "gimp-2.99.8-3.el9.s390x.rpm",
-        "sum": "0402338b885bcac316b5a45a34e2c0b40ac19cd9ce1ffcd3358c5aa3abb84a2a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gimp-libs",
-        "version": "2.99.8",
-        "release": "3.el9",
-        "epoch": "2",
-        "arch": "s390x",
-        "src": "gimp-2.99.8-3.el9.src.rpm",
-        "filename": "gimp-libs-2.99.8-3.el9.s390x.rpm",
-        "sum": "a5b4b4dcd6f4db985cccc3fc666b62c2a41e5972e4780b3c9550cc978bc0babd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gimp",
-        "version": "2.99.8",
-        "release": "3.el9",
-        "epoch": "2",
         "arch": "aarch64",
         "src": "gimp-2.99.8-3.el9.src.rpm",
         "filename": "gimp-2.99.8-3.el9.aarch64.rpm",
@@ -116,6 +92,30 @@
         "src": "gimp-2.99.8-3.el9.src.rpm",
         "filename": "gimp-libs-2.99.8-3.el9.aarch64.rpm",
         "sum": "a35e404ab94cd1f5b7b6715251dbd382615aed9585f83a3245a53a4a9b3869f8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gimp",
+        "version": "2.99.8",
+        "release": "3.el9",
+        "epoch": "2",
+        "arch": "s390x",
+        "src": "gimp-2.99.8-3.el9.src.rpm",
+        "filename": "gimp-2.99.8-3.el9.s390x.rpm",
+        "sum": "0402338b885bcac316b5a45a34e2c0b40ac19cd9ce1ffcd3358c5aa3abb84a2a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gimp-libs",
+        "version": "2.99.8",
+        "release": "3.el9",
+        "epoch": "2",
+        "arch": "s390x",
+        "src": "gimp-2.99.8-3.el9.src.rpm",
+        "filename": "gimp-libs-2.99.8-3.el9.s390x.rpm",
+        "sum": "a5b4b4dcd6f4db985cccc3fc666b62c2a41e5972e4780b3c9550cc978bc0babd",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -170,7 +170,7 @@
   "title": "Moderate: gimp security and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1668776330000
+    "$date": 1668749062000
   },
   "version": "1"
 }

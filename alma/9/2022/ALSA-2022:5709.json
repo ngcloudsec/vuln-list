@@ -8,8 +8,8 @@
     "$date": 1658707200000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_default",
+    "name": "almalinux-9-for-i686-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-i686-appstream-rpms__9_default",
     "packages": [
       {
         "name": "java-1.8.0-openjdk-javadoc",
@@ -20,6 +20,18 @@
         "src": "java-1.8.0-openjdk-1.8.0.342.b07-1.el9_0.src.rpm",
         "filename": "java-1.8.0-openjdk-javadoc-1.8.0.342.b07-1.el9_0.noarch.rpm",
         "sum": "016c0c76cdcb9e6561492bf3c35a2cedde2695d2d3573cb0ca2a4fa753bf5a75",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "java-1.8.0-openjdk-javadoc-zip",
+        "version": "1.8.0.342.b07",
+        "release": "1.el9_0",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "java-1.8.0-openjdk-1.8.0.342.b07-1.el9_0.src.rpm",
+        "filename": "java-1.8.0-openjdk-javadoc-zip-1.8.0.342.b07-1.el9_0.noarch.rpm",
+        "sum": "eef6d2e8806b1e7e959d8ea2224f3ff6f2aa5e4802e5b61ddcebf3adad114d9b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -188,18 +200,6 @@
         "src": "java-1.8.0-openjdk-1.8.0.342.b07-1.el9_0.src.rpm",
         "filename": "java-1.8.0-openjdk-devel-slowdebug-1.8.0.342.b07-1.el9_0.x86_64.rpm",
         "sum": "ee028e2b534b83f401da98d42a9b3156ae6ffc3add9841acca4368d385e09059",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "java-1.8.0-openjdk-javadoc-zip",
-        "version": "1.8.0.342.b07",
-        "release": "1.el9_0",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "java-1.8.0-openjdk-1.8.0.342.b07-1.el9_0.src.rpm",
-        "filename": "java-1.8.0-openjdk-javadoc-zip-1.8.0.342.b07-1.el9_0.noarch.rpm",
-        "sum": "eef6d2e8806b1e7e959d8ea2224f3ff6f2aa5e4802e5b61ddcebf3adad114d9b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -396,66 +396,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "java-1.8.0-openjdk-src",
-        "version": "1.8.0.342.b07",
-        "release": "1.el9_0",
-        "epoch": "1",
-        "arch": "s390x",
-        "src": "java-1.8.0-openjdk-1.8.0.342.b07-1.el9_0.src.rpm",
-        "filename": "java-1.8.0-openjdk-src-1.8.0.342.b07-1.el9_0.s390x.rpm",
-        "sum": "29c7366dcbd590099906bfc35189e7a3021f445ff493e2c61f7b48eb2b9a07a9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "java-1.8.0-openjdk-devel",
-        "version": "1.8.0.342.b07",
-        "release": "1.el9_0",
-        "epoch": "1",
-        "arch": "s390x",
-        "src": "java-1.8.0-openjdk-1.8.0.342.b07-1.el9_0.src.rpm",
-        "filename": "java-1.8.0-openjdk-devel-1.8.0.342.b07-1.el9_0.s390x.rpm",
-        "sum": "42e346332d01180b339ed65516228075b44c257531f81eca17c5457cdef5ec63",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "java-1.8.0-openjdk",
-        "version": "1.8.0.342.b07",
-        "release": "1.el9_0",
-        "epoch": "1",
-        "arch": "s390x",
-        "src": "java-1.8.0-openjdk-1.8.0.342.b07-1.el9_0.src.rpm",
-        "filename": "java-1.8.0-openjdk-1.8.0.342.b07-1.el9_0.s390x.rpm",
-        "sum": "ccb707fb101b9f45b3b3a97b34c57923a65ae21b788b2bacdc97f0876eb13d4b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "java-1.8.0-openjdk-headless",
-        "version": "1.8.0.342.b07",
-        "release": "1.el9_0",
-        "epoch": "1",
-        "arch": "s390x",
-        "src": "java-1.8.0-openjdk-1.8.0.342.b07-1.el9_0.src.rpm",
-        "filename": "java-1.8.0-openjdk-headless-1.8.0.342.b07-1.el9_0.s390x.rpm",
-        "sum": "d849852e7b3d1781ce869688385a0c0756d723067019f804829e762f78418e29",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "java-1.8.0-openjdk-demo",
-        "version": "1.8.0.342.b07",
-        "release": "1.el9_0",
-        "epoch": "1",
-        "arch": "s390x",
-        "src": "java-1.8.0-openjdk-1.8.0.342.b07-1.el9_0.src.rpm",
-        "filename": "java-1.8.0-openjdk-demo-1.8.0.342.b07-1.el9_0.s390x.rpm",
-        "sum": "f0539609f45106e9d1570ed9248e2ffa51790b35a7d1d0459b8d37c4fe390ab2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "java-1.8.0-openjdk-demo-fastdebug",
         "version": "1.8.0.342.b07",
         "release": "1.el9_0",
@@ -634,6 +574,66 @@
         "sum": "bc2ce7c6832e2fb2c60b46cb5284a3c3bbb1e4e1c377e7001a75645cd6bad5d6",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "java-1.8.0-openjdk-src",
+        "version": "1.8.0.342.b07",
+        "release": "1.el9_0",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "java-1.8.0-openjdk-1.8.0.342.b07-1.el9_0.src.rpm",
+        "filename": "java-1.8.0-openjdk-src-1.8.0.342.b07-1.el9_0.s390x.rpm",
+        "sum": "29c7366dcbd590099906bfc35189e7a3021f445ff493e2c61f7b48eb2b9a07a9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "java-1.8.0-openjdk-devel",
+        "version": "1.8.0.342.b07",
+        "release": "1.el9_0",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "java-1.8.0-openjdk-1.8.0.342.b07-1.el9_0.src.rpm",
+        "filename": "java-1.8.0-openjdk-devel-1.8.0.342.b07-1.el9_0.s390x.rpm",
+        "sum": "42e346332d01180b339ed65516228075b44c257531f81eca17c5457cdef5ec63",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "java-1.8.0-openjdk",
+        "version": "1.8.0.342.b07",
+        "release": "1.el9_0",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "java-1.8.0-openjdk-1.8.0.342.b07-1.el9_0.src.rpm",
+        "filename": "java-1.8.0-openjdk-1.8.0.342.b07-1.el9_0.s390x.rpm",
+        "sum": "ccb707fb101b9f45b3b3a97b34c57923a65ae21b788b2bacdc97f0876eb13d4b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "java-1.8.0-openjdk-headless",
+        "version": "1.8.0.342.b07",
+        "release": "1.el9_0",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "java-1.8.0-openjdk-1.8.0.342.b07-1.el9_0.src.rpm",
+        "filename": "java-1.8.0-openjdk-headless-1.8.0.342.b07-1.el9_0.s390x.rpm",
+        "sum": "d849852e7b3d1781ce869688385a0c0756d723067019f804829e762f78418e29",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "java-1.8.0-openjdk-demo",
+        "version": "1.8.0.342.b07",
+        "release": "1.el9_0",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "java-1.8.0-openjdk-1.8.0.342.b07-1.el9_0.src.rpm",
+        "filename": "java-1.8.0-openjdk-demo-1.8.0.342.b07-1.el9_0.s390x.rpm",
+        "sum": "f0539609f45106e9d1570ed9248e2ffa51790b35a7d1d0459b8d37c4fe390ab2",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -644,25 +644,25 @@
       "href": "https://access.redhat.com/errata/RHSA-2022:5709",
       "type": "rhsa",
       "id": "RHSA-2022:5709",
-      "title": "RHSA-2022:5709"
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-21540",
       "type": "cve",
       "id": "CVE-2022-21540",
-      "title": "CVE-2022-21540"
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-21541",
       "type": "cve",
       "id": "CVE-2022-21541",
-      "title": "CVE-2022-21541"
+      "title": ""
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-34169",
       "type": "cve",
       "id": "CVE-2022-34169",
-      "title": "CVE-2022-34169"
+      "title": ""
     },
     {
       "href": "https://bugzilla.redhat.com/2108540",
@@ -694,11 +694,11 @@
   "severity": "Important",
   "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
   "status": "final",
-  "summary": "An update for java-1.8.0-openjdk is now available for AlmaLinux 9.",
+  "summary": "An update for java-1.8.0-openjdk-javadoc is now available for AlmaLinux 9.",
   "title": "Important: java-1.8.0-openjdk security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1659000046000
+    "$date": 1659000072000
   },
   "version": "1"
 }

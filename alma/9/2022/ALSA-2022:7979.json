@@ -8,21 +8,9 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-i686-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
     "packages": [
-      {
-        "name": "speex",
-        "version": "1.2.0",
-        "release": "11.el9",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "speex-1.2.0-11.el9.src.rpm",
-        "filename": "speex-1.2.0-11.el9.x86_64.rpm",
-        "sum": "227f139537ed1d773c5b0c3719b7ec50414d00d95ce6569e51abec2499ad708c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "speex",
         "version": "1.2.0",
@@ -40,10 +28,10 @@
         "version": "1.2.0",
         "release": "11.el9",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "x86_64",
         "src": "speex-1.2.0-11.el9.src.rpm",
-        "filename": "speex-1.2.0-11.el9.ppc64le.rpm",
-        "sum": "9ca7d1371783e759f8021caac61a2b5cca6d4880dc9a54707a1841ee9782be82",
+        "filename": "speex-1.2.0-11.el9.x86_64.rpm",
+        "sum": "227f139537ed1d773c5b0c3719b7ec50414d00d95ce6569e51abec2499ad708c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +40,10 @@
         "version": "1.2.0",
         "release": "11.el9",
         "epoch": "0",
-        "arch": "s390x",
+        "arch": "ppc64le",
         "src": "speex-1.2.0-11.el9.src.rpm",
-        "filename": "speex-1.2.0-11.el9.s390x.rpm",
-        "sum": "4af15d8583198ab945de2ce69aec1bb02547d2248a202da73f64541e50dd737d",
+        "filename": "speex-1.2.0-11.el9.ppc64le.rpm",
+        "sum": "9ca7d1371783e759f8021caac61a2b5cca6d4880dc9a54707a1841ee9782be82",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -88,30 +76,6 @@
         "version": "1.2.0",
         "release": "11.el9",
         "epoch": "0",
-        "arch": "aarch64",
-        "src": "speex-1.2.0-11.el9.src.rpm",
-        "filename": "speex-devel-1.2.0-11.el9.aarch64.rpm",
-        "sum": "9f6cb8b1bdf0c1fa169c07a2bcd2d8921ae4d65c62900e48da56b7b4ae7115dd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "speex-devel",
-        "version": "1.2.0",
-        "release": "11.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "speex-1.2.0-11.el9.src.rpm",
-        "filename": "speex-devel-1.2.0-11.el9.s390x.rpm",
-        "sum": "8a45f3349104bac1fff7ca2af48db8546dbf09e6a8c4d8ebc3aa38b132f0b2d4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "speex-devel",
-        "version": "1.2.0",
-        "release": "11.el9",
-        "epoch": "0",
         "arch": "ppc64le",
         "src": "speex-1.2.0-11.el9.src.rpm",
         "filename": "speex-devel-1.2.0-11.el9.ppc64le.rpm",
@@ -128,6 +92,42 @@
         "src": "speex-1.2.0-11.el9.src.rpm",
         "filename": "speex-devel-1.2.0-11.el9.x86_64.rpm",
         "sum": "0b96eafa14f58bd71cf5621ade749c865b1a1c648459e6f71100e10016ebea2b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "speex-devel",
+        "version": "1.2.0",
+        "release": "11.el9",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "speex-1.2.0-11.el9.src.rpm",
+        "filename": "speex-devel-1.2.0-11.el9.aarch64.rpm",
+        "sum": "9f6cb8b1bdf0c1fa169c07a2bcd2d8921ae4d65c62900e48da56b7b4ae7115dd",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "speex",
+        "version": "1.2.0",
+        "release": "11.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "speex-1.2.0-11.el9.src.rpm",
+        "filename": "speex-1.2.0-11.el9.s390x.rpm",
+        "sum": "4af15d8583198ab945de2ce69aec1bb02547d2248a202da73f64541e50dd737d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "speex-devel",
+        "version": "1.2.0",
+        "release": "11.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "speex-1.2.0-11.el9.src.rpm",
+        "filename": "speex-devel-1.2.0-11.el9.s390x.rpm",
+        "sum": "8a45f3349104bac1fff7ca2af48db8546dbf09e6a8c4d8ebc3aa38b132f0b2d4",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -170,7 +170,7 @@
   "title": "Low: speex security update",
   "type": "security",
   "updated_date": {
-    "$date": 1668776343000
+    "$date": 1668748768000
   },
   "version": "1"
 }

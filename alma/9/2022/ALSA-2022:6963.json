@@ -8,8 +8,8 @@
     "$date": 1666051200000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_default",
+    "name": "almalinux-9-for-i686-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-i686-appstream-rpms__9_default",
     "packages": [
       {
         "name": "nodejs-docs",
@@ -20,6 +20,18 @@
         "src": "nodejs-16.17.1-1.el9_0.src.rpm",
         "filename": "nodejs-docs-16.17.1-1.el9_0.noarch.rpm",
         "sum": "025d8cf2ef9c89f70a4254dae5644efaa1dfaa4f88db77dec807afd44515bd8c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nodejs-libs",
+        "version": "16.17.1",
+        "release": "1.el9_0",
+        "epoch": "1",
+        "arch": "i686",
+        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
+        "filename": "nodejs-libs-16.17.1-1.el9_0.i686.rpm",
+        "sum": "dfc9e65ea6573cc240c0840dad0d3853758223f815f5a887ee6872e0b7eca5a2",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -44,18 +56,6 @@
         "src": "nodejs-16.17.1-1.el9_0.src.rpm",
         "filename": "nodejs-16.17.1-1.el9_0.x86_64.rpm",
         "sum": "6ef77b8d72a105f2e9a94f0812cb6b02c3499a3889dbb4db20162e5efb2459cd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nodejs-libs",
-        "version": "16.17.1",
-        "release": "1.el9_0",
-        "epoch": "1",
-        "arch": "i686",
-        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
-        "filename": "nodejs-libs-16.17.1-1.el9_0.i686.rpm",
-        "sum": "dfc9e65ea6573cc240c0840dad0d3853758223f815f5a887ee6872e0b7eca5a2",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -124,54 +124,6 @@
         "version": "8.15.0",
         "release": "1.16.17.1.1.el9_0",
         "epoch": "1",
-        "arch": "s390x",
-        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
-        "filename": "npm-8.15.0-1.16.17.1.1.el9_0.s390x.rpm",
-        "sum": "010ce55fd7f4b99fc64cd309abf08101e8a97a9b75bff513faeb833d0b725d9f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nodejs",
-        "version": "16.17.1",
-        "release": "1.el9_0",
-        "epoch": "1",
-        "arch": "s390x",
-        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
-        "filename": "nodejs-16.17.1-1.el9_0.s390x.rpm",
-        "sum": "590bec1e3025a4e9ce6f99ec31334ab8fa075a3ba3043c1302fa9c48a0aaadde",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nodejs-libs",
-        "version": "16.17.1",
-        "release": "1.el9_0",
-        "epoch": "1",
-        "arch": "s390x",
-        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
-        "filename": "nodejs-libs-16.17.1-1.el9_0.s390x.rpm",
-        "sum": "807232891ec884518f3e57b6fbc5262225e8b43b74db337ecf91496354026791",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nodejs-full-i18n",
-        "version": "16.17.1",
-        "release": "1.el9_0",
-        "epoch": "1",
-        "arch": "s390x",
-        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
-        "filename": "nodejs-full-i18n-16.17.1-1.el9_0.s390x.rpm",
-        "sum": "dd0d43ef0ebe4f59f4f4235c3735ab8b0fe77f10e5c22d5ff9b706ba0de4ca07",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "npm",
-        "version": "8.15.0",
-        "release": "1.16.17.1.1.el9_0",
-        "epoch": "1",
         "arch": "aarch64",
         "src": "nodejs-16.17.1-1.el9_0.src.rpm",
         "filename": "npm-8.15.0-1.16.17.1.1.el9_0.aarch64.rpm",
@@ -212,6 +164,54 @@
         "src": "nodejs-16.17.1-1.el9_0.src.rpm",
         "filename": "nodejs-16.17.1-1.el9_0.aarch64.rpm",
         "sum": "f74580e2d438b12b7a826d3fcacd63e8ad0638627e5aa58811b1a8a0055ef41f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "npm",
+        "version": "8.15.0",
+        "release": "1.16.17.1.1.el9_0",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
+        "filename": "npm-8.15.0-1.16.17.1.1.el9_0.s390x.rpm",
+        "sum": "010ce55fd7f4b99fc64cd309abf08101e8a97a9b75bff513faeb833d0b725d9f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nodejs",
+        "version": "16.17.1",
+        "release": "1.el9_0",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
+        "filename": "nodejs-16.17.1-1.el9_0.s390x.rpm",
+        "sum": "590bec1e3025a4e9ce6f99ec31334ab8fa075a3ba3043c1302fa9c48a0aaadde",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nodejs-libs",
+        "version": "16.17.1",
+        "release": "1.el9_0",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
+        "filename": "nodejs-libs-16.17.1-1.el9_0.s390x.rpm",
+        "sum": "807232891ec884518f3e57b6fbc5262225e8b43b74db337ecf91496354026791",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nodejs-full-i18n",
+        "version": "16.17.1",
+        "release": "1.el9_0",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "nodejs-16.17.1-1.el9_0.src.rpm",
+        "filename": "nodejs-full-i18n-16.17.1-1.el9_0.s390x.rpm",
+        "sum": "dd0d43ef0ebe4f59f4f4235c3735ab8b0fe77f10e5c22d5ff9b706ba0de4ca07",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -266,7 +266,7 @@
   "title": "Important: nodejs security update",
   "type": "security",
   "updated_date": {
-    "$date": 1666167023000
+    "$date": 1666167019000
   },
   "version": "1"
 }

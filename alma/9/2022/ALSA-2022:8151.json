@@ -8,8 +8,8 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-i686-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
     "packages": [
       {
         "name": "poppler-cpp",
@@ -20,6 +20,42 @@
         "src": "poppler-21.01.0-13.el9.src.rpm",
         "filename": "poppler-cpp-21.01.0-13.el9.i686.rpm",
         "sum": "006b812b9ddbfef56c86b4ae53e0f511100484262fce60be1b076e5e02f4b6c9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "poppler",
+        "version": "21.01.0",
+        "release": "13.el9",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "poppler-21.01.0-13.el9.src.rpm",
+        "filename": "poppler-21.01.0-13.el9.i686.rpm",
+        "sum": "9d6ed678a90546993ee346e046061e5e90b2ceefdbb9386af7c0ba673c846e95",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "poppler-qt5",
+        "version": "21.01.0",
+        "release": "13.el9",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "poppler-21.01.0-13.el9.src.rpm",
+        "filename": "poppler-qt5-21.01.0-13.el9.i686.rpm",
+        "sum": "b7163941c3c4795255a02dc8c3231adca46125e4db26185eba19839a7767cb5f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "poppler-glib",
+        "version": "21.01.0",
+        "release": "13.el9",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "poppler-21.01.0-13.el9.src.rpm",
+        "filename": "poppler-glib-21.01.0-13.el9.i686.rpm",
+        "sum": "ce1e806463f472af4b696a5e0bee333533d924c4ddcb17b5c18666e21589cc5e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -64,46 +100,10 @@
         "version": "21.01.0",
         "release": "13.el9",
         "epoch": "0",
-        "arch": "i686",
-        "src": "poppler-21.01.0-13.el9.src.rpm",
-        "filename": "poppler-21.01.0-13.el9.i686.rpm",
-        "sum": "9d6ed678a90546993ee346e046061e5e90b2ceefdbb9386af7c0ba673c846e95",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "poppler",
-        "version": "21.01.0",
-        "release": "13.el9",
-        "epoch": "0",
         "arch": "x86_64",
         "src": "poppler-21.01.0-13.el9.src.rpm",
         "filename": "poppler-21.01.0-13.el9.x86_64.rpm",
         "sum": "9e10ddeca464a6a704892c1dca8b6a5672df95e67c6618b9f99079f24b012200",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "poppler-qt5",
-        "version": "21.01.0",
-        "release": "13.el9",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "poppler-21.01.0-13.el9.src.rpm",
-        "filename": "poppler-qt5-21.01.0-13.el9.i686.rpm",
-        "sum": "b7163941c3c4795255a02dc8c3231adca46125e4db26185eba19839a7767cb5f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "poppler-glib",
-        "version": "21.01.0",
-        "release": "13.el9",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "poppler-21.01.0-13.el9.src.rpm",
-        "filename": "poppler-glib-21.01.0-13.el9.i686.rpm",
-        "sum": "ce1e806463f472af4b696a5e0bee333533d924c4ddcb17b5c18666e21589cc5e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -176,66 +176,6 @@
         "src": "poppler-21.01.0-13.el9.src.rpm",
         "filename": "poppler-21.01.0-13.el9.ppc64le.rpm",
         "sum": "d6f29b4c2191c36a784506fc751c1a0392c8193f6025ba01b77b7eac15360f1e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "poppler-cpp",
-        "version": "21.01.0",
-        "release": "13.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "poppler-21.01.0-13.el9.src.rpm",
-        "filename": "poppler-cpp-21.01.0-13.el9.s390x.rpm",
-        "sum": "1a13bc3af3bb379bda470f24dc05c04ca3cef79c915cfe89a49ed59fd7d2b25e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "poppler-utils",
-        "version": "21.01.0",
-        "release": "13.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "poppler-21.01.0-13.el9.src.rpm",
-        "filename": "poppler-utils-21.01.0-13.el9.s390x.rpm",
-        "sum": "36dd78ef9e9437558d8e5600db196689df53d92305c655dcece13cca26c12a57",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "poppler",
-        "version": "21.01.0",
-        "release": "13.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "poppler-21.01.0-13.el9.src.rpm",
-        "filename": "poppler-21.01.0-13.el9.s390x.rpm",
-        "sum": "b3bc5b9b8d519fede582050ceba0b25c06a9a99e2afddeeba4af33496c1e7e6f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "poppler-glib",
-        "version": "21.01.0",
-        "release": "13.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "poppler-21.01.0-13.el9.src.rpm",
-        "filename": "poppler-glib-21.01.0-13.el9.s390x.rpm",
-        "sum": "b419af4bfdafd20774a49b4952a6e926d165ce357d085b105d412a193d901c0c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "poppler-qt5",
-        "version": "21.01.0",
-        "release": "13.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "poppler-21.01.0-13.el9.src.rpm",
-        "filename": "poppler-qt5-21.01.0-13.el9.s390x.rpm",
-        "sum": "d57bad88f4a9a2a2f46098cb39f2ec15591950a41ccbd9f28ac9f4c0566651e4",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -348,102 +288,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "poppler-devel",
-        "version": "21.01.0",
-        "release": "13.el9",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "poppler-21.01.0-13.el9.src.rpm",
-        "filename": "poppler-devel-21.01.0-13.el9.aarch64.rpm",
-        "sum": "8f263f6ee501e4c3e677539097904acfb2d4e2931559cada927a139068cacb9d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "poppler-qt5-devel",
-        "version": "21.01.0",
-        "release": "13.el9",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "poppler-21.01.0-13.el9.src.rpm",
-        "filename": "poppler-qt5-devel-21.01.0-13.el9.aarch64.rpm",
-        "sum": "ca2bb3d27ece214af6f5ac9c242e1ad3d002eb39942e65b39829e8021254e4b0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "poppler-cpp-devel",
-        "version": "21.01.0",
-        "release": "13.el9",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "poppler-21.01.0-13.el9.src.rpm",
-        "filename": "poppler-cpp-devel-21.01.0-13.el9.aarch64.rpm",
-        "sum": "fc19a1b56310b7174674256b8ff1177187f67e90f3a7f18c6c7a86e50ec947dd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "poppler-glib-devel",
-        "version": "21.01.0",
-        "release": "13.el9",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "poppler-21.01.0-13.el9.src.rpm",
-        "filename": "poppler-glib-devel-21.01.0-13.el9.aarch64.rpm",
-        "sum": "fc8afa88a99b8b9cb21619cf0ba0c5be0eab6af2bf52cfa11e9ae0802cab1309",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "poppler-devel",
-        "version": "21.01.0",
-        "release": "13.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "poppler-21.01.0-13.el9.src.rpm",
-        "filename": "poppler-devel-21.01.0-13.el9.s390x.rpm",
-        "sum": "5009d963b982b3c7eeb2d88a687757726a63106faf3ee1737597ef9d477bd167",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "poppler-cpp-devel",
-        "version": "21.01.0",
-        "release": "13.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "poppler-21.01.0-13.el9.src.rpm",
-        "filename": "poppler-cpp-devel-21.01.0-13.el9.s390x.rpm",
-        "sum": "536c21c8fedb2f4e9e15a568dd174e539e3f997b5b956422f1f46894112d7b35",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "poppler-qt5-devel",
-        "version": "21.01.0",
-        "release": "13.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "poppler-21.01.0-13.el9.src.rpm",
-        "filename": "poppler-qt5-devel-21.01.0-13.el9.s390x.rpm",
-        "sum": "85fea71b94f007d0c7f5e240cf25a16a1e489139b0dbbcb0ab262445b2343676",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "poppler-glib-devel",
-        "version": "21.01.0",
-        "release": "13.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "poppler-21.01.0-13.el9.src.rpm",
-        "filename": "poppler-glib-devel-21.01.0-13.el9.s390x.rpm",
-        "sum": "f593a2b46dbc151b9f3320f48086c39ac61ca8c2697f05ef266d7b5340c672e9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "poppler-qt5-devel",
         "version": "21.01.0",
         "release": "13.el9",
@@ -538,6 +382,162 @@
         "sum": "f06b462229c12bbe8cfce31960e1982b5313d1fe4e546f1d5320706534671586",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "poppler-devel",
+        "version": "21.01.0",
+        "release": "13.el9",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "poppler-21.01.0-13.el9.src.rpm",
+        "filename": "poppler-devel-21.01.0-13.el9.aarch64.rpm",
+        "sum": "8f263f6ee501e4c3e677539097904acfb2d4e2931559cada927a139068cacb9d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "poppler-qt5-devel",
+        "version": "21.01.0",
+        "release": "13.el9",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "poppler-21.01.0-13.el9.src.rpm",
+        "filename": "poppler-qt5-devel-21.01.0-13.el9.aarch64.rpm",
+        "sum": "ca2bb3d27ece214af6f5ac9c242e1ad3d002eb39942e65b39829e8021254e4b0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "poppler-cpp-devel",
+        "version": "21.01.0",
+        "release": "13.el9",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "poppler-21.01.0-13.el9.src.rpm",
+        "filename": "poppler-cpp-devel-21.01.0-13.el9.aarch64.rpm",
+        "sum": "fc19a1b56310b7174674256b8ff1177187f67e90f3a7f18c6c7a86e50ec947dd",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "poppler-glib-devel",
+        "version": "21.01.0",
+        "release": "13.el9",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "poppler-21.01.0-13.el9.src.rpm",
+        "filename": "poppler-glib-devel-21.01.0-13.el9.aarch64.rpm",
+        "sum": "fc8afa88a99b8b9cb21619cf0ba0c5be0eab6af2bf52cfa11e9ae0802cab1309",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "poppler-cpp",
+        "version": "21.01.0",
+        "release": "13.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "poppler-21.01.0-13.el9.src.rpm",
+        "filename": "poppler-cpp-21.01.0-13.el9.s390x.rpm",
+        "sum": "1a13bc3af3bb379bda470f24dc05c04ca3cef79c915cfe89a49ed59fd7d2b25e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "poppler-utils",
+        "version": "21.01.0",
+        "release": "13.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "poppler-21.01.0-13.el9.src.rpm",
+        "filename": "poppler-utils-21.01.0-13.el9.s390x.rpm",
+        "sum": "36dd78ef9e9437558d8e5600db196689df53d92305c655dcece13cca26c12a57",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "poppler",
+        "version": "21.01.0",
+        "release": "13.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "poppler-21.01.0-13.el9.src.rpm",
+        "filename": "poppler-21.01.0-13.el9.s390x.rpm",
+        "sum": "b3bc5b9b8d519fede582050ceba0b25c06a9a99e2afddeeba4af33496c1e7e6f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "poppler-glib",
+        "version": "21.01.0",
+        "release": "13.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "poppler-21.01.0-13.el9.src.rpm",
+        "filename": "poppler-glib-21.01.0-13.el9.s390x.rpm",
+        "sum": "b419af4bfdafd20774a49b4952a6e926d165ce357d085b105d412a193d901c0c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "poppler-qt5",
+        "version": "21.01.0",
+        "release": "13.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "poppler-21.01.0-13.el9.src.rpm",
+        "filename": "poppler-qt5-21.01.0-13.el9.s390x.rpm",
+        "sum": "d57bad88f4a9a2a2f46098cb39f2ec15591950a41ccbd9f28ac9f4c0566651e4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "poppler-devel",
+        "version": "21.01.0",
+        "release": "13.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "poppler-21.01.0-13.el9.src.rpm",
+        "filename": "poppler-devel-21.01.0-13.el9.s390x.rpm",
+        "sum": "5009d963b982b3c7eeb2d88a687757726a63106faf3ee1737597ef9d477bd167",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "poppler-cpp-devel",
+        "version": "21.01.0",
+        "release": "13.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "poppler-21.01.0-13.el9.src.rpm",
+        "filename": "poppler-cpp-devel-21.01.0-13.el9.s390x.rpm",
+        "sum": "536c21c8fedb2f4e9e15a568dd174e539e3f997b5b956422f1f46894112d7b35",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "poppler-qt5-devel",
+        "version": "21.01.0",
+        "release": "13.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "poppler-21.01.0-13.el9.src.rpm",
+        "filename": "poppler-qt5-devel-21.01.0-13.el9.s390x.rpm",
+        "sum": "85fea71b94f007d0c7f5e240cf25a16a1e489139b0dbbcb0ab262445b2343676",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "poppler-glib-devel",
+        "version": "21.01.0",
+        "release": "13.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "poppler-21.01.0-13.el9.src.rpm",
+        "filename": "poppler-glib-devel-21.01.0-13.el9.s390x.rpm",
+        "sum": "f593a2b46dbc151b9f3320f48086c39ac61ca8c2697f05ef266d7b5340c672e9",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -578,7 +578,7 @@
   "title": "Moderate: poppler security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1668776916000
+    "$date": 1668743731000
   },
   "version": "1"
 }

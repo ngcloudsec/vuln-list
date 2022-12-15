@@ -8,9 +8,21 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-i686-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
     "packages": [
+      {
+        "name": "podman-docker",
+        "version": "4.2.0",
+        "release": "7.el9_1",
+        "epoch": "2",
+        "arch": "noarch",
+        "src": "podman-4.2.0-7.el9_1.src.rpm",
+        "filename": "podman-docker-4.2.0-7.el9_1.noarch.rpm",
+        "sum": "5fc18b2301ea8e5a166d1c090e387bb6aa6ca2f6037faaa08e39a50baedc42ee",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "podman-remote",
         "version": "4.2.0",
@@ -32,18 +44,6 @@
         "src": "podman-4.2.0-7.el9_1.src.rpm",
         "filename": "podman-4.2.0-7.el9_1.x86_64.rpm",
         "sum": "5bc18e1869d04569db44eebed7600c87cd7ffbe5b3548a1dfdd7238fcc9341c0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "podman-docker",
-        "version": "4.2.0",
-        "release": "7.el9_1",
-        "epoch": "2",
-        "arch": "noarch",
-        "src": "podman-4.2.0-7.el9_1.src.rpm",
-        "filename": "podman-docker-4.2.0-7.el9_1.noarch.rpm",
-        "sum": "5fc18b2301ea8e5a166d1c090e387bb6aa6ca2f6037faaa08e39a50baedc42ee",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -168,78 +168,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "podman",
-        "version": "4.2.0",
-        "release": "7.el9_1",
-        "epoch": "2",
-        "arch": "s390x",
-        "src": "podman-4.2.0-7.el9_1.src.rpm",
-        "filename": "podman-4.2.0-7.el9_1.s390x.rpm",
-        "sum": "11f2864ac7505d04264dfc80ed08aceed0da89129c7136316a135ea36f587f14",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "podman-gvproxy",
-        "version": "4.2.0",
-        "release": "7.el9_1",
-        "epoch": "2",
-        "arch": "s390x",
-        "src": "podman-4.2.0-7.el9_1.src.rpm",
-        "filename": "podman-gvproxy-4.2.0-7.el9_1.s390x.rpm",
-        "sum": "467ee3e45f2238a3cd35d6c28c394c47f522f5e88d624157322da3200753a442",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "podman-catatonit",
-        "version": "4.2.0",
-        "release": "7.el9_1",
-        "epoch": "2",
-        "arch": "s390x",
-        "src": "podman-4.2.0-7.el9_1.src.rpm",
-        "filename": "podman-catatonit-4.2.0-7.el9_1.s390x.rpm",
-        "sum": "4b3d311870e78872989cdffab0df2159fedf75b54781f26f1457caa567e3dd27",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "podman-remote",
-        "version": "4.2.0",
-        "release": "7.el9_1",
-        "epoch": "2",
-        "arch": "s390x",
-        "src": "podman-4.2.0-7.el9_1.src.rpm",
-        "filename": "podman-remote-4.2.0-7.el9_1.s390x.rpm",
-        "sum": "8ad49c2cefc6b64c04b1b9715e80b0192ecd5ae131e02cb0958a3eb08d5728cd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "podman-tests",
-        "version": "4.2.0",
-        "release": "7.el9_1",
-        "epoch": "2",
-        "arch": "s390x",
-        "src": "podman-4.2.0-7.el9_1.src.rpm",
-        "filename": "podman-tests-4.2.0-7.el9_1.s390x.rpm",
-        "sum": "8ba2d0984fcb2a0bd07f99b5e1079f6022aef24b421290cafbd5381597b13db7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "podman-plugins",
-        "version": "4.2.0",
-        "release": "7.el9_1",
-        "epoch": "2",
-        "arch": "s390x",
-        "src": "podman-4.2.0-7.el9_1.src.rpm",
-        "filename": "podman-plugins-4.2.0-7.el9_1.s390x.rpm",
-        "sum": "c98af756ad4e7bcdfb23367327b0c21bcb45e377a207b65d89cd49d75994a1c6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "podman-gvproxy",
         "version": "4.2.0",
         "release": "7.el9_1",
@@ -310,6 +238,78 @@
         "sum": "fe764a5817febd35f79f472897a687833943fa9bd01cf10233a6ac1ac1500a58",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "podman",
+        "version": "4.2.0",
+        "release": "7.el9_1",
+        "epoch": "2",
+        "arch": "s390x",
+        "src": "podman-4.2.0-7.el9_1.src.rpm",
+        "filename": "podman-4.2.0-7.el9_1.s390x.rpm",
+        "sum": "11f2864ac7505d04264dfc80ed08aceed0da89129c7136316a135ea36f587f14",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "podman-gvproxy",
+        "version": "4.2.0",
+        "release": "7.el9_1",
+        "epoch": "2",
+        "arch": "s390x",
+        "src": "podman-4.2.0-7.el9_1.src.rpm",
+        "filename": "podman-gvproxy-4.2.0-7.el9_1.s390x.rpm",
+        "sum": "467ee3e45f2238a3cd35d6c28c394c47f522f5e88d624157322da3200753a442",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "podman-catatonit",
+        "version": "4.2.0",
+        "release": "7.el9_1",
+        "epoch": "2",
+        "arch": "s390x",
+        "src": "podman-4.2.0-7.el9_1.src.rpm",
+        "filename": "podman-catatonit-4.2.0-7.el9_1.s390x.rpm",
+        "sum": "4b3d311870e78872989cdffab0df2159fedf75b54781f26f1457caa567e3dd27",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "podman-remote",
+        "version": "4.2.0",
+        "release": "7.el9_1",
+        "epoch": "2",
+        "arch": "s390x",
+        "src": "podman-4.2.0-7.el9_1.src.rpm",
+        "filename": "podman-remote-4.2.0-7.el9_1.s390x.rpm",
+        "sum": "8ad49c2cefc6b64c04b1b9715e80b0192ecd5ae131e02cb0958a3eb08d5728cd",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "podman-tests",
+        "version": "4.2.0",
+        "release": "7.el9_1",
+        "epoch": "2",
+        "arch": "s390x",
+        "src": "podman-4.2.0-7.el9_1.src.rpm",
+        "filename": "podman-tests-4.2.0-7.el9_1.s390x.rpm",
+        "sum": "8ba2d0984fcb2a0bd07f99b5e1079f6022aef24b421290cafbd5381597b13db7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "podman-plugins",
+        "version": "4.2.0",
+        "release": "7.el9_1",
+        "epoch": "2",
+        "arch": "s390x",
+        "src": "podman-4.2.0-7.el9_1.src.rpm",
+        "filename": "podman-plugins-4.2.0-7.el9_1.s390x.rpm",
+        "sum": "c98af756ad4e7bcdfb23367327b0c21bcb45e377a207b65d89cd49d75994a1c6",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -362,7 +362,7 @@
   "title": "Low: podman security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1668692325000
+    "$date": 1668692324000
   },
   "version": "1"
 }

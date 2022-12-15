@@ -8,8 +8,8 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-i686-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
     "packages": [
       {
         "name": "openjpeg2",
@@ -52,18 +52,6 @@
         "version": "2.4.0",
         "release": "7.el9",
         "epoch": "0",
-        "arch": "s390x",
-        "src": "openjpeg2-2.4.0-7.el9.src.rpm",
-        "filename": "openjpeg2-2.4.0-7.el9.s390x.rpm",
-        "sum": "25e799c95429d74d87477d4962bd06f953b79100f4d15fb40e62a2b090ce21da",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openjpeg2",
-        "version": "2.4.0",
-        "release": "7.el9",
-        "epoch": "0",
         "arch": "aarch64",
         "src": "openjpeg2-2.4.0-7.el9.src.rpm",
         "filename": "openjpeg2-2.4.0-7.el9.aarch64.rpm",
@@ -92,54 +80,6 @@
         "src": "openjpeg2-2.4.0-7.el9.src.rpm",
         "filename": "openjpeg2-tools-2.4.0-7.el9.i686.rpm",
         "sum": "ffb2181263f52ac958a76cae8597d7ff46a25d07b0e7bacffce52dc73d423dd7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openjpeg2-tools",
-        "version": "2.4.0",
-        "release": "7.el9",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "openjpeg2-2.4.0-7.el9.src.rpm",
-        "filename": "openjpeg2-tools-2.4.0-7.el9.aarch64.rpm",
-        "sum": "2e424013141fe356d2bc7d16058582a0789adef3d404d3d333cd6476b53dddbd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openjpeg2-devel",
-        "version": "2.4.0",
-        "release": "7.el9",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "openjpeg2-2.4.0-7.el9.src.rpm",
-        "filename": "openjpeg2-devel-2.4.0-7.el9.aarch64.rpm",
-        "sum": "3655ef2d95841b2b062acfe6619efa463f02840fefc86f11db22ebe7b9a1e8ce",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openjpeg2-tools",
-        "version": "2.4.0",
-        "release": "7.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "openjpeg2-2.4.0-7.el9.src.rpm",
-        "filename": "openjpeg2-tools-2.4.0-7.el9.s390x.rpm",
-        "sum": "1ca8474cd2ebf6be846b439abeaa66b50b72346bdfaaa94f306af196679da7a8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openjpeg2-devel",
-        "version": "2.4.0",
-        "release": "7.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "openjpeg2-2.4.0-7.el9.src.rpm",
-        "filename": "openjpeg2-devel-2.4.0-7.el9.s390x.rpm",
-        "sum": "6a0d56d32fdeb77caf988288fc14e677f404bff0def2c33ad0adf35e2338aa44",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -190,6 +130,66 @@
         "sum": "d622b0123aacd8e5dc0ab8d47dacccd1b75801532f777a62176fe856a134730e",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "openjpeg2-tools",
+        "version": "2.4.0",
+        "release": "7.el9",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "openjpeg2-2.4.0-7.el9.src.rpm",
+        "filename": "openjpeg2-tools-2.4.0-7.el9.aarch64.rpm",
+        "sum": "2e424013141fe356d2bc7d16058582a0789adef3d404d3d333cd6476b53dddbd",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openjpeg2-devel",
+        "version": "2.4.0",
+        "release": "7.el9",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "openjpeg2-2.4.0-7.el9.src.rpm",
+        "filename": "openjpeg2-devel-2.4.0-7.el9.aarch64.rpm",
+        "sum": "3655ef2d95841b2b062acfe6619efa463f02840fefc86f11db22ebe7b9a1e8ce",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openjpeg2",
+        "version": "2.4.0",
+        "release": "7.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "openjpeg2-2.4.0-7.el9.src.rpm",
+        "filename": "openjpeg2-2.4.0-7.el9.s390x.rpm",
+        "sum": "25e799c95429d74d87477d4962bd06f953b79100f4d15fb40e62a2b090ce21da",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openjpeg2-tools",
+        "version": "2.4.0",
+        "release": "7.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "openjpeg2-2.4.0-7.el9.src.rpm",
+        "filename": "openjpeg2-tools-2.4.0-7.el9.s390x.rpm",
+        "sum": "1ca8474cd2ebf6be846b439abeaa66b50b72346bdfaaa94f306af196679da7a8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openjpeg2-devel",
+        "version": "2.4.0",
+        "release": "7.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "openjpeg2-2.4.0-7.el9.src.rpm",
+        "filename": "openjpeg2-devel-2.4.0-7.el9.s390x.rpm",
+        "sum": "6a0d56d32fdeb77caf988288fc14e677f404bff0def2c33ad0adf35e2338aa44",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -230,7 +230,7 @@
   "title": "Low: openjpeg2 security update",
   "type": "security",
   "updated_date": {
-    "$date": 1668777049000
+    "$date": 1668742746000
   },
   "version": "1"
 }

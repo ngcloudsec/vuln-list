@@ -8,8 +8,8 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-i686-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
     "packages": [
       {
         "name": "keylime-selinux",
@@ -168,78 +168,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "keylime-verifier",
-        "version": "6.5.1",
-        "release": "1.el9_1",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "keylime-6.5.1-1.el9_1.src.rpm",
-        "filename": "keylime-verifier-6.5.1-1.el9_1.s390x.rpm",
-        "sum": "03513a1d371a37c5197f47ad021e9c203626800960d895c893aba222ee298b67",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "keylime-tenant",
-        "version": "6.5.1",
-        "release": "1.el9_1",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "keylime-6.5.1-1.el9_1.src.rpm",
-        "filename": "keylime-tenant-6.5.1-1.el9_1.s390x.rpm",
-        "sum": "0fd5319634c58d8d783bab102ee1a34ad120e6715b747a84d6a018afb7513dfe",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "keylime-base",
-        "version": "6.5.1",
-        "release": "1.el9_1",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "keylime-6.5.1-1.el9_1.src.rpm",
-        "filename": "keylime-base-6.5.1-1.el9_1.s390x.rpm",
-        "sum": "21cf71f007846e9943b2a4ff167044d893279512be059d513c5510c29046faa5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-keylime",
-        "version": "6.5.1",
-        "release": "1.el9_1",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "keylime-6.5.1-1.el9_1.src.rpm",
-        "filename": "python3-keylime-6.5.1-1.el9_1.s390x.rpm",
-        "sum": "4fd6c4ae35d2eb1dc5dd83079c9033ce6b4d532a4bdcb9ec525b83892b55a18f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "keylime",
-        "version": "6.5.1",
-        "release": "1.el9_1",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "keylime-6.5.1-1.el9_1.src.rpm",
-        "filename": "keylime-6.5.1-1.el9_1.s390x.rpm",
-        "sum": "6196fa08ea14c77e6c0eea748552c2b7e61ae6e41ce9177370c432659bf47a74",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "keylime-registrar",
-        "version": "6.5.1",
-        "release": "1.el9_1",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "keylime-6.5.1-1.el9_1.src.rpm",
-        "filename": "keylime-registrar-6.5.1-1.el9_1.s390x.rpm",
-        "sum": "cf2838d0dc79614e115bddaf6f45322846c94563b226f1f865fa33ac637cf77b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "keylime-base",
         "version": "6.5.1",
         "release": "1.el9_1",
@@ -310,6 +238,78 @@
         "sum": "da19815f807d3c38e25155bf6459e496e955468080ec98ccd30eb815b0fc9b83",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "keylime-verifier",
+        "version": "6.5.1",
+        "release": "1.el9_1",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "keylime-6.5.1-1.el9_1.src.rpm",
+        "filename": "keylime-verifier-6.5.1-1.el9_1.s390x.rpm",
+        "sum": "03513a1d371a37c5197f47ad021e9c203626800960d895c893aba222ee298b67",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "keylime-tenant",
+        "version": "6.5.1",
+        "release": "1.el9_1",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "keylime-6.5.1-1.el9_1.src.rpm",
+        "filename": "keylime-tenant-6.5.1-1.el9_1.s390x.rpm",
+        "sum": "0fd5319634c58d8d783bab102ee1a34ad120e6715b747a84d6a018afb7513dfe",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "keylime-base",
+        "version": "6.5.1",
+        "release": "1.el9_1",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "keylime-6.5.1-1.el9_1.src.rpm",
+        "filename": "keylime-base-6.5.1-1.el9_1.s390x.rpm",
+        "sum": "21cf71f007846e9943b2a4ff167044d893279512be059d513c5510c29046faa5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-keylime",
+        "version": "6.5.1",
+        "release": "1.el9_1",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "keylime-6.5.1-1.el9_1.src.rpm",
+        "filename": "python3-keylime-6.5.1-1.el9_1.s390x.rpm",
+        "sum": "4fd6c4ae35d2eb1dc5dd83079c9033ce6b4d532a4bdcb9ec525b83892b55a18f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "keylime",
+        "version": "6.5.1",
+        "release": "1.el9_1",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "keylime-6.5.1-1.el9_1.src.rpm",
+        "filename": "keylime-6.5.1-1.el9_1.s390x.rpm",
+        "sum": "6196fa08ea14c77e6c0eea748552c2b7e61ae6e41ce9177370c432659bf47a74",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "keylime-registrar",
+        "version": "6.5.1",
+        "release": "1.el9_1",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "keylime-6.5.1-1.el9_1.src.rpm",
+        "filename": "keylime-registrar-6.5.1-1.el9_1.s390x.rpm",
+        "sum": "cf2838d0dc79614e115bddaf6f45322846c94563b226f1f865fa33ac637cf77b",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -350,7 +350,7 @@
   "title": "Moderate: keylime security update",
   "type": "security",
   "updated_date": {
-    "$date": 1668693799000
+    "$date": 1668693798000
   },
   "version": "1"
 }

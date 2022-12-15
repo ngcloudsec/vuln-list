@@ -8,8 +8,8 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-i686-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
     "packages": [
       {
         "name": "httpd-manual",
@@ -20,6 +20,18 @@
         "src": "httpd-2.4.53-7.el9.src.rpm",
         "filename": "httpd-manual-2.4.53-7.el9.noarch.rpm",
         "sum": "16046de23e78b6ad29d370f55f942cde4a132a036d4ddf55c0e9f1c975292dab",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "httpd-filesystem",
+        "version": "2.4.53",
+        "release": "7.el9",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "httpd-2.4.53-7.el9.src.rpm",
+        "filename": "httpd-filesystem-2.4.53-7.el9.noarch.rpm",
+        "sum": "61226547b629d1bfe902193c7322ef89e09039ac4017036efa0b678183f622e5",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -68,18 +80,6 @@
         "src": "httpd-2.4.53-7.el9.src.rpm",
         "filename": "httpd-tools-2.4.53-7.el9.x86_64.rpm",
         "sum": "5229ff1b43c85d85bd12caae9194ba82f648f6e0eb904d42e8b4c4bfe3a51c84",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "httpd-filesystem",
-        "version": "2.4.53",
-        "release": "7.el9",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "httpd-2.4.53-7.el9.src.rpm",
-        "filename": "httpd-filesystem-2.4.53-7.el9.noarch.rpm",
-        "sum": "61226547b629d1bfe902193c7322ef89e09039ac4017036efa0b678183f622e5",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -252,114 +252,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "httpd-tools",
-        "version": "2.4.53",
-        "release": "7.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "httpd-2.4.53-7.el9.src.rpm",
-        "filename": "httpd-tools-2.4.53-7.el9.s390x.rpm",
-        "sum": "1873c68a0551ba831c633ccfaa68c34046179c3c3558be8ddb0bfd07ad8259e3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "httpd-core",
-        "version": "2.4.53",
-        "release": "7.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "httpd-2.4.53-7.el9.src.rpm",
-        "filename": "httpd-core-2.4.53-7.el9.s390x.rpm",
-        "sum": "26c80698e3cab8f510d3c92703250fa943b1549fda27fb42f0ae55cfc4815def",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mod_ldap",
-        "version": "2.4.53",
-        "release": "7.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "httpd-2.4.53-7.el9.src.rpm",
-        "filename": "mod_ldap-2.4.53-7.el9.s390x.rpm",
-        "sum": "b467167b6297ef8dde672502aa82f945f4bdc6ed90ccf64d5e73a8a30e57c3bc",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mod_ssl",
-        "version": "2.4.53",
-        "release": "7.el9",
-        "epoch": "1",
-        "arch": "s390x",
-        "src": "httpd-2.4.53-7.el9.src.rpm",
-        "filename": "mod_ssl-2.4.53-7.el9.s390x.rpm",
-        "sum": "b8893c75d551d99d484d1f257ff7a8875eb9ece7d1ae863939c0f2faba2cf481",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "httpd",
-        "version": "2.4.53",
-        "release": "7.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "httpd-2.4.53-7.el9.src.rpm",
-        "filename": "httpd-2.4.53-7.el9.s390x.rpm",
-        "sum": "beb9906ee671b161245bb92e2da407059d251208508f3892e4685472a461e0d5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mod_lua",
-        "version": "2.4.53",
-        "release": "7.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "httpd-2.4.53-7.el9.src.rpm",
-        "filename": "mod_lua-2.4.53-7.el9.s390x.rpm",
-        "sum": "c43ee3837334a6f022ef20c2a5efb278f834a55e418521aba0c1077a048d8737",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mod_proxy_html",
-        "version": "2.4.53",
-        "release": "7.el9",
-        "epoch": "1",
-        "arch": "s390x",
-        "src": "httpd-2.4.53-7.el9.src.rpm",
-        "filename": "mod_proxy_html-2.4.53-7.el9.s390x.rpm",
-        "sum": "db84727bd44a2b1633a1fee96eb0f1f633c53a8e2ce77bb8f2c05974552e560f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mod_session",
-        "version": "2.4.53",
-        "release": "7.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "httpd-2.4.53-7.el9.src.rpm",
-        "filename": "mod_session-2.4.53-7.el9.s390x.rpm",
-        "sum": "f4ea8af478f90f584274138771719722c6c45bfc86355718631759d0576306f5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "httpd-devel",
-        "version": "2.4.53",
-        "release": "7.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "httpd-2.4.53-7.el9.src.rpm",
-        "filename": "httpd-devel-2.4.53-7.el9.s390x.rpm",
-        "sum": "f8c44f00ad285a505c40b9e5cf53c459ff69848725ab203989b22b3537c5d696",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "mod_lua",
         "version": "2.4.53",
         "release": "7.el9",
@@ -464,6 +356,114 @@
         "src": "httpd-2.4.53-7.el9.src.rpm",
         "filename": "mod_session-2.4.53-7.el9.aarch64.rpm",
         "sum": "ffba43f397543ce2aa87ec208f1e606540a302542f56dc0640ff398bc6f0f19d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "httpd-tools",
+        "version": "2.4.53",
+        "release": "7.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "httpd-2.4.53-7.el9.src.rpm",
+        "filename": "httpd-tools-2.4.53-7.el9.s390x.rpm",
+        "sum": "1873c68a0551ba831c633ccfaa68c34046179c3c3558be8ddb0bfd07ad8259e3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "httpd-core",
+        "version": "2.4.53",
+        "release": "7.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "httpd-2.4.53-7.el9.src.rpm",
+        "filename": "httpd-core-2.4.53-7.el9.s390x.rpm",
+        "sum": "26c80698e3cab8f510d3c92703250fa943b1549fda27fb42f0ae55cfc4815def",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mod_ldap",
+        "version": "2.4.53",
+        "release": "7.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "httpd-2.4.53-7.el9.src.rpm",
+        "filename": "mod_ldap-2.4.53-7.el9.s390x.rpm",
+        "sum": "b467167b6297ef8dde672502aa82f945f4bdc6ed90ccf64d5e73a8a30e57c3bc",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mod_ssl",
+        "version": "2.4.53",
+        "release": "7.el9",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "httpd-2.4.53-7.el9.src.rpm",
+        "filename": "mod_ssl-2.4.53-7.el9.s390x.rpm",
+        "sum": "b8893c75d551d99d484d1f257ff7a8875eb9ece7d1ae863939c0f2faba2cf481",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "httpd",
+        "version": "2.4.53",
+        "release": "7.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "httpd-2.4.53-7.el9.src.rpm",
+        "filename": "httpd-2.4.53-7.el9.s390x.rpm",
+        "sum": "beb9906ee671b161245bb92e2da407059d251208508f3892e4685472a461e0d5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mod_lua",
+        "version": "2.4.53",
+        "release": "7.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "httpd-2.4.53-7.el9.src.rpm",
+        "filename": "mod_lua-2.4.53-7.el9.s390x.rpm",
+        "sum": "c43ee3837334a6f022ef20c2a5efb278f834a55e418521aba0c1077a048d8737",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mod_proxy_html",
+        "version": "2.4.53",
+        "release": "7.el9",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "httpd-2.4.53-7.el9.src.rpm",
+        "filename": "mod_proxy_html-2.4.53-7.el9.s390x.rpm",
+        "sum": "db84727bd44a2b1633a1fee96eb0f1f633c53a8e2ce77bb8f2c05974552e560f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mod_session",
+        "version": "2.4.53",
+        "release": "7.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "httpd-2.4.53-7.el9.src.rpm",
+        "filename": "mod_session-2.4.53-7.el9.s390x.rpm",
+        "sum": "f4ea8af478f90f584274138771719722c6c45bfc86355718631759d0576306f5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "httpd-devel",
+        "version": "2.4.53",
+        "release": "7.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "httpd-2.4.53-7.el9.src.rpm",
+        "filename": "httpd-devel-2.4.53-7.el9.s390x.rpm",
+        "sum": "f8c44f00ad285a505c40b9e5cf53c459ff69848725ab203989b22b3537c5d696",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -614,7 +614,7 @@
   "title": "Moderate: httpd security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1668746441000
+    "$date": 1668746438000
   },
   "version": "1"
 }

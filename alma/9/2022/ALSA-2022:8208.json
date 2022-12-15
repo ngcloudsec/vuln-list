@@ -8,9 +8,21 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-i686-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
     "packages": [
+      {
+        "name": "dovecot",
+        "version": "2.3.16",
+        "release": "7.el9",
+        "epoch": "1",
+        "arch": "i686",
+        "src": "dovecot-2.3.16-7.el9.src.rpm",
+        "filename": "dovecot-2.3.16-7.el9.i686.rpm",
+        "sum": "dc844cf27548a01b45e3baacab6be0578a79e98ec2a03d9599317b982f1b2b02",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "dovecot-pgsql",
         "version": "2.3.16",
@@ -108,66 +120,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "dovecot",
-        "version": "2.3.16",
-        "release": "7.el9",
-        "epoch": "1",
-        "arch": "i686",
-        "src": "dovecot-2.3.16-7.el9.src.rpm",
-        "filename": "dovecot-2.3.16-7.el9.i686.rpm",
-        "sum": "dc844cf27548a01b45e3baacab6be0578a79e98ec2a03d9599317b982f1b2b02",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "dovecot",
-        "version": "2.3.16",
-        "release": "7.el9",
-        "epoch": "1",
-        "arch": "s390x",
-        "src": "dovecot-2.3.16-7.el9.src.rpm",
-        "filename": "dovecot-2.3.16-7.el9.s390x.rpm",
-        "sum": "073bc0340d97bb2d69fdf90a95ce5ba680382a144beaed29119f8634a6f8d747",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "dovecot-mysql",
-        "version": "2.3.16",
-        "release": "7.el9",
-        "epoch": "1",
-        "arch": "s390x",
-        "src": "dovecot-2.3.16-7.el9.src.rpm",
-        "filename": "dovecot-mysql-2.3.16-7.el9.s390x.rpm",
-        "sum": "3d45bc1feef35a0061968bd039aed36f12e32a56345f65de31b13de6a9fbe07c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "dovecot-pgsql",
-        "version": "2.3.16",
-        "release": "7.el9",
-        "epoch": "1",
-        "arch": "s390x",
-        "src": "dovecot-2.3.16-7.el9.src.rpm",
-        "filename": "dovecot-pgsql-2.3.16-7.el9.s390x.rpm",
-        "sum": "b0e55847317cbd27bdb30ff32da773d6830da983c584e0165120eb8213b7120f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "dovecot-pigeonhole",
-        "version": "2.3.16",
-        "release": "7.el9",
-        "epoch": "1",
-        "arch": "s390x",
-        "src": "dovecot-2.3.16-7.el9.src.rpm",
-        "filename": "dovecot-pigeonhole-2.3.16-7.el9.s390x.rpm",
-        "sum": "f0f1adc1febf23050daa5d5f68f4473e62e38be86a1400c68a49217b7dc97c55",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "dovecot-pigeonhole",
         "version": "2.3.16",
         "release": "7.el9",
@@ -232,30 +184,6 @@
         "version": "2.3.16",
         "release": "7.el9",
         "epoch": "1",
-        "arch": "aarch64",
-        "src": "dovecot-2.3.16-7.el9.src.rpm",
-        "filename": "dovecot-devel-2.3.16-7.el9.aarch64.rpm",
-        "sum": "6c187e3b25d29372f86753803435b984763febbbe022b0840ba5e5c5e11b3c15",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "dovecot-devel",
-        "version": "2.3.16",
-        "release": "7.el9",
-        "epoch": "1",
-        "arch": "s390x",
-        "src": "dovecot-2.3.16-7.el9.src.rpm",
-        "filename": "dovecot-devel-2.3.16-7.el9.s390x.rpm",
-        "sum": "251346e866ce0bf76791c73676f7aca9d0a81a502e1775e127066bbe929d20d4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "dovecot-devel",
-        "version": "2.3.16",
-        "release": "7.el9",
-        "epoch": "1",
         "arch": "ppc64le",
         "src": "dovecot-2.3.16-7.el9.src.rpm",
         "filename": "dovecot-devel-2.3.16-7.el9.ppc64le.rpm",
@@ -272,6 +200,78 @@
         "src": "dovecot-2.3.16-7.el9.src.rpm",
         "filename": "dovecot-devel-2.3.16-7.el9.x86_64.rpm",
         "sum": "68df5df9ceb5456d94fb9e16dd1184e4846d4c39480239d60e7bc33eff5f8d85",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "dovecot-devel",
+        "version": "2.3.16",
+        "release": "7.el9",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "dovecot-2.3.16-7.el9.src.rpm",
+        "filename": "dovecot-devel-2.3.16-7.el9.aarch64.rpm",
+        "sum": "6c187e3b25d29372f86753803435b984763febbbe022b0840ba5e5c5e11b3c15",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "dovecot",
+        "version": "2.3.16",
+        "release": "7.el9",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "dovecot-2.3.16-7.el9.src.rpm",
+        "filename": "dovecot-2.3.16-7.el9.s390x.rpm",
+        "sum": "073bc0340d97bb2d69fdf90a95ce5ba680382a144beaed29119f8634a6f8d747",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "dovecot-mysql",
+        "version": "2.3.16",
+        "release": "7.el9",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "dovecot-2.3.16-7.el9.src.rpm",
+        "filename": "dovecot-mysql-2.3.16-7.el9.s390x.rpm",
+        "sum": "3d45bc1feef35a0061968bd039aed36f12e32a56345f65de31b13de6a9fbe07c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "dovecot-pgsql",
+        "version": "2.3.16",
+        "release": "7.el9",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "dovecot-2.3.16-7.el9.src.rpm",
+        "filename": "dovecot-pgsql-2.3.16-7.el9.s390x.rpm",
+        "sum": "b0e55847317cbd27bdb30ff32da773d6830da983c584e0165120eb8213b7120f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "dovecot-pigeonhole",
+        "version": "2.3.16",
+        "release": "7.el9",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "dovecot-2.3.16-7.el9.src.rpm",
+        "filename": "dovecot-pigeonhole-2.3.16-7.el9.s390x.rpm",
+        "sum": "f0f1adc1febf23050daa5d5f68f4473e62e38be86a1400c68a49217b7dc97c55",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "dovecot-devel",
+        "version": "2.3.16",
+        "release": "7.el9",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "dovecot-2.3.16-7.el9.src.rpm",
+        "filename": "dovecot-devel-2.3.16-7.el9.s390x.rpm",
+        "sum": "251346e866ce0bf76791c73676f7aca9d0a81a502e1775e127066bbe929d20d4",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -314,7 +314,7 @@
   "title": "Moderate: dovecot security and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1668742377000
+    "$date": 1668742376000
   },
   "version": "1"
 }

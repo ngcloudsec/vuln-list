@@ -8,9 +8,21 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-i686-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
     "packages": [
+      {
+        "name": "yajl",
+        "version": "2.1.0",
+        "release": "21.el9",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "yajl-2.1.0-21.el9.src.rpm",
+        "filename": "yajl-2.1.0-21.el9.i686.rpm",
+        "sum": "e3c1080bd728fcca4cd225027a5f0a3cdca45dd3793113ed440a404d678c0148",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "yajl",
         "version": "2.1.0",
@@ -32,30 +44,6 @@
         "src": "yajl-2.1.0-21.el9.src.rpm",
         "filename": "yajl-2.1.0-21.el9.ppc64le.rpm",
         "sum": "74b71a14e6c2a92fa1017c1161f525848caffff2f98db8911072dca4fa663c11",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "yajl",
-        "version": "2.1.0",
-        "release": "21.el9",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "yajl-2.1.0-21.el9.src.rpm",
-        "filename": "yajl-2.1.0-21.el9.i686.rpm",
-        "sum": "e3c1080bd728fcca4cd225027a5f0a3cdca45dd3793113ed440a404d678c0148",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "yajl",
-        "version": "2.1.0",
-        "release": "21.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "yajl-2.1.0-21.el9.src.rpm",
-        "filename": "yajl-2.1.0-21.el9.s390x.rpm",
-        "sum": "abb1f940d171238b3d165c8818b677c36cff267d3e154fbc10080e41badd6a6a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -88,30 +76,6 @@
         "version": "2.1.0",
         "release": "21.el9",
         "epoch": "0",
-        "arch": "aarch64",
-        "src": "yajl-2.1.0-21.el9.src.rpm",
-        "filename": "yajl-devel-2.1.0-21.el9.aarch64.rpm",
-        "sum": "77bb19f4420d72a2f118921a076e94592d5921116ecdfad4849bf4702d24dbb4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "yajl-devel",
-        "version": "2.1.0",
-        "release": "21.el9",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "yajl-2.1.0-21.el9.src.rpm",
-        "filename": "yajl-devel-2.1.0-21.el9.s390x.rpm",
-        "sum": "4824643d9d415ef368b5a9501ade5510dd10223c8248793d2af79650a2072e25",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "yajl-devel",
-        "version": "2.1.0",
-        "release": "21.el9",
-        "epoch": "0",
         "arch": "ppc64le",
         "src": "yajl-2.1.0-21.el9.src.rpm",
         "filename": "yajl-devel-2.1.0-21.el9.ppc64le.rpm",
@@ -128,6 +92,42 @@
         "src": "yajl-2.1.0-21.el9.src.rpm",
         "filename": "yajl-devel-2.1.0-21.el9.x86_64.rpm",
         "sum": "04a9fc3f025fe48b8e9ef7e4b1722557f7811bce2029bd7cedc3510ce41cfcc5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "yajl-devel",
+        "version": "2.1.0",
+        "release": "21.el9",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "yajl-2.1.0-21.el9.src.rpm",
+        "filename": "yajl-devel-2.1.0-21.el9.aarch64.rpm",
+        "sum": "77bb19f4420d72a2f118921a076e94592d5921116ecdfad4849bf4702d24dbb4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "yajl",
+        "version": "2.1.0",
+        "release": "21.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "yajl-2.1.0-21.el9.src.rpm",
+        "filename": "yajl-2.1.0-21.el9.s390x.rpm",
+        "sum": "abb1f940d171238b3d165c8818b677c36cff267d3e154fbc10080e41badd6a6a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "yajl-devel",
+        "version": "2.1.0",
+        "release": "21.el9",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "yajl-2.1.0-21.el9.src.rpm",
+        "filename": "yajl-devel-2.1.0-21.el9.s390x.rpm",
+        "sum": "4824643d9d415ef368b5a9501ade5510dd10223c8248793d2af79650a2072e25",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -170,7 +170,7 @@
   "title": "Moderate: yajl security update",
   "type": "security",
   "updated_date": {
-    "$date": 1668786483000
+    "$date": 1668786482000
   },
   "version": "1"
 }
