@@ -5575,13 +5575,13 @@
       "asciidoc (\u003e= 8.6.10), xmlto, docbook-xsl"
     ],
     "Checksums-Sha256": [
-      "69ebfaebd3b3399b11aae11088889974a9f3df2fe59db7af9d7920347742717e 3045 git_2.20.1-2+deb10u4.dsc 9d2e91e2faa2ea61ba0a70201d023b36f54d846314591a002c610ea2ab81c3e9 5359872 git_2.20.1.orig.tar.xz f090130a1fb44a4ac3164cd0d851f55f385768afbb55b4fb50df14ac68269e5e 648624 git_2.20.1-2+deb10u4.debian.tar.xz"
+      "e4693cb9f20d2a7061b43bb30224ee41d779d027e15785e85f8f67eddf4ee3ae 2894 git_2.20.1-2+deb10u6.dsc 9d2e91e2faa2ea61ba0a70201d023b36f54d846314591a002c610ea2ab81c3e9 5359872 git_2.20.1.orig.tar.xz ce8c8cb4a3f420589aeb2ac244bab88316e34641c7a3efceb049d2854b54196b 676232 git_2.20.1-2+deb10u6.debian.tar.xz"
     ],
     "Directory": [
       "pool/updates/main/g/git"
     ],
     "Files": [
-      "4bfd751298e908659efc57593f796d96 3045 git_2.20.1-2+deb10u4.dsc 5fb4ff92b56ce3172b99c1c74c046c1a 5359872 git_2.20.1.orig.tar.xz 37a3e61267692be2a605a12ffe6ce624 648624 git_2.20.1-2+deb10u4.debian.tar.xz"
+      "0ccd81b92ffd66c534e26594ee125d5a 2894 git_2.20.1-2+deb10u6.dsc 5fb4ff92b56ce3172b99c1c74c046c1a 5359872 git_2.20.1.orig.tar.xz f5e87836ec9430dd3e96615fd72e2ec6 676232 git_2.20.1-2+deb10u6.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -5617,66 +5617,7 @@
       "https://repo.or.cz/r/git/debian.git/"
     ],
     "Version": [
-      "1:2.20.1-2+deb10u4"
-    ]
-  },
-  {
-    "Architecture": [
-      "any all"
-    ],
-    "Binary": [
-      "git, git-man, git-doc, git-cvs, git-svn, git-mediawiki, git-email, git-daemon-run, git-daemon-sysvinit, git-gui, gitk, git-el, gitweb, git-all"
-    ],
-    "Build-Depends": [
-      "libz-dev, gettext, libpcre2-dev | libpcre3-dev, libcurl4-gnutls-dev, libexpat1-dev, subversion, libsvn-perl, libyaml-perl, tcl, python, libhttp-date-perl | libtime-parsedate-perl, libcgi-pm-perl, liberror-perl, libmailtools-perl, cvs, cvsps, libdbd-sqlite3-perl, unzip, libio-pty-perl, debhelper (\u003e= 9), dh-exec (\u003e= 0.7), dh-apache2, dpkg-dev (\u003e= 1.16.2~)"
-    ],
-    "Build-Depends-Indep": [
-      "asciidoc (\u003e= 8.6.10), xmlto, docbook-xsl"
-    ],
-    "Checksums-Sha256": [
-      "6a8d22b88d0deab73b3da6a23b725788349adb246dcab4fc314bd2c309d63566 2894 git_2.20.1-2+deb10u5.dsc 9d2e91e2faa2ea61ba0a70201d023b36f54d846314591a002c610ea2ab81c3e9 5359872 git_2.20.1.orig.tar.xz 0dc9f3fef30893e6678026345881dd07c7933f7f139aa06145e20a7127b50c47 676036 git_2.20.1-2+deb10u5.debian.tar.xz"
-    ],
-    "Directory": [
-      "pool/updates/main/g/git"
-    ],
-    "Files": [
-      "fa5346bf770a5974210c0f5c61708cf4 2894 git_2.20.1-2+deb10u5.dsc 5fb4ff92b56ce3172b99c1c74c046c1a 5359872 git_2.20.1.orig.tar.xz 4cf58e4fbe1beaf593f1751d56c8db4f 676036 git_2.20.1-2+deb10u5.debian.tar.xz"
-    ],
-    "Format": [
-      "3.0 (quilt)"
-    ],
-    "Homepage": [
-      "https://git-scm.com/"
-    ],
-    "Maintainer": [
-      "Gerrit Pape \u003cpape@smarden.org\u003e"
-    ],
-    "Package": [
-      "git"
-    ],
-    "Package-List": [
-      "git deb vcs optional arch=any git-all deb vcs optional arch=all git-cvs deb vcs optional arch=all git-daemon-run deb vcs optional arch=all git-daemon-sysvinit deb vcs optional arch=all git-doc deb doc optional arch=all git-el deb vcs optional arch=all git-email deb vcs optional arch=all git-gui deb vcs optional arch=all git-man deb doc optional arch=all git-mediawiki deb vcs optional arch=all git-svn deb vcs optional arch=all gitk deb vcs optional arch=all gitweb deb vcs optional arch=all"
-    ],
-    "Priority": [
-      "extra"
-    ],
-    "Section": [
-      "vcs"
-    ],
-    "Standards-Version": [
-      "4.3.0.1"
-    ],
-    "Uploaders": [
-      "Jonathan Nieder \u003cjrnieder@gmail.com\u003e, Anders Kaseorg \u003candersk@mit.edu\u003e"
-    ],
-    "Vcs-Browser": [
-      "https://repo.or.cz/w/git/debian.git/"
-    ],
-    "Vcs-Git": [
-      "https://repo.or.cz/r/git/debian.git/"
-    ],
-    "Version": [
-      "1:2.20.1-2+deb10u5"
+      "1:2.20.1-2+deb10u6"
     ]
   },
   {
