@@ -1974,20 +1974,26 @@
     "Architecture": [
       "all"
     ],
+    "Autobuild": [
+      "yes"
+    ],
     "Binary": [
       "emacs-common-non-dfsg"
     ],
     "Build-Depends": [
-      "texinfo, autotools-dev, dpkg-dev (\u003e\u003e 1.10.0), debhelper (\u003e= 10)"
+      "debhelper (\u003e= 10), dpkg-dev (\u003e\u003e 1.10.0), emacs-nox (\u003e= 1:28) | emacs (\u003e= 1:28), texinfo"
     ],
     "Checksums-Sha256": [
-      "4d6e9c64a36c4293359d7b39ea387ca0b5b71ad09518f5b107a029cb13b9d181 1831 emacs-non-dfsg_27.1+1-2.dsc f31e250266d8cf538fccee7f657980d53314ad257da12265c402ceb099bb6ae8 4750148 emacs-non-dfsg_27.1+1.orig.tar.xz 3c843f1b0ea26e7c559e604672ee787d23c3dd6e77410679e2b6f29d08d96b1a 8372 emacs-non-dfsg_27.1+1-2.debian.tar.xz"
+      "e5f30cb1b90693df657a6bf97829d730a861e8c323bc2b1afed0e0549cdc841b 2018 emacs-non-dfsg_28.2+1-2.dsc 96981f6de1c623355b8042bb0968b3a2a7d5a6cc815ba3b26d746ec41c02cf1e 5468232 emacs-non-dfsg_28.2+1.orig.tar.xz d99af20838de25002da02ca973785769c339cb48c2c86c6e57918aae7f58f78d 10260 emacs-non-dfsg_28.2+1-2.debian.tar.xz"
+    ],
+    "Dgit": [
+      "9482f1ccf8a2d62589017f63cbbb5e90785409e3 debian archive/debian/1%28.2+1-2 https://git.dgit.debian.org/emacs-non-dfsg"
     ],
     "Directory": [
       "pool/non-free/e/emacs-non-dfsg"
     ],
     "Files": [
-      "35e07b4fba460ea1f688f3c93fb61338 1831 emacs-non-dfsg_27.1+1-2.dsc bc634bd7e5cdd072a085061dcbcb0087 4750148 emacs-non-dfsg_27.1+1.orig.tar.xz 1c8860d75f0b44ee706763a8b750f4d8 8372 emacs-non-dfsg_27.1+1-2.debian.tar.xz"
+      "94897803a78c1625eda004879d737d2a 2018 emacs-non-dfsg_28.2+1-2.dsc c982d6586aba4315a0d1fd10719f23a6 5468232 emacs-non-dfsg_28.2+1.orig.tar.xz eeddea41fee0c806e7dce3017abd762a 10260 emacs-non-dfsg_28.2+1-2.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -2008,10 +2014,13 @@
       "non-free/misc"
     ],
     "Standards-Version": [
-      "3.7.2"
+      "4.6.1"
+    ],
+    "Uploaders": [
+      "Sean Whitton \u003cspwhitton@spwhitton.name\u003e"
     ],
     "Version": [
-      "1:27.1+1-2"
+      "1:28.2+1-2"
     ]
   },
   {
@@ -4179,13 +4188,13 @@
       "debhelper-compat (= 13), dh-sequence-libva, cmake, libdrm-dev, libigdgmm-dev (\u003e= 21.1.1), libva-dev (\u003e= 2.12), libx11-dev, pkg-config"
     ],
     "Checksums-Sha256": [
-      "7871250a941c58c727f82f9ae95adb8605493ed62a9e3d931766ce1995110335 2342 intel-media-driver-non-free_22.6.3+ds1-1.dsc 19a28d85020992ba6986e18af2288b8b60c9bc042c69d45b939db9be49f0b984 15521452 intel-media-driver-non-free_22.6.3+ds1.orig.tar.xz d953cd31c45a637534a71c71d14d23c97c3ae2129e114ac8e46d4ed1141bf6b4 5656 intel-media-driver-non-free_22.6.3+ds1-1.debian.tar.xz"
+      "9e5598f28073fd8c414d8c94689588689dc2fa8914b48efc1c634f571afa9c54 2342 intel-media-driver-non-free_22.6.4+ds1-1.dsc cd3ced3a38c9d75917b536d38354a401d1c16c59a0d90a0aa6404f2e3716511c 15570236 intel-media-driver-non-free_22.6.4+ds1.orig.tar.xz 15c751db4314133f5a0c4b481c1d5b7decaf3c371d165f1cf2da67af05c3ba0c 5652 intel-media-driver-non-free_22.6.4+ds1-1.debian.tar.xz"
     ],
     "Directory": [
       "pool/non-free/i/intel-media-driver-non-free"
     ],
     "Files": [
-      "6008fdc59a24bc337896f9b078b6d6da 2342 intel-media-driver-non-free_22.6.3+ds1-1.dsc 186f0de510796e40586d23e2f8415a9c 15521452 intel-media-driver-non-free_22.6.3+ds1.orig.tar.xz 40f31e98c0ef2008d55d24ef9bc7052e 5656 intel-media-driver-non-free_22.6.3+ds1-1.debian.tar.xz"
+      "9b90e7844fcd4e378446ff7ec68ad8ab 2342 intel-media-driver-non-free_22.6.4+ds1-1.dsc 0d738b90b52c2c0549e57c122a475abd 15570236 intel-media-driver-non-free_22.6.4+ds1.orig.tar.xz 0862a44d82f3668b66cadfc7f3e519d9 5652 intel-media-driver-non-free_22.6.4+ds1-1.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -4221,7 +4230,7 @@
       "https://salsa.debian.org/multimedia-team/intel-media-driver-non-free.git"
     ],
     "Version": [
-      "22.6.3+ds1-1"
+      "22.6.4+ds1-1"
     ]
   },
   {
