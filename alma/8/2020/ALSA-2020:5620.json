@@ -8,33 +8,9 @@
     "$date": 1608219010000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_postgresql",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_postgresql",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_postgresql",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_postgresql",
     "packages": [
-      {
-        "name": "postgres-decoderbufs",
-        "version": "0.10.0",
-        "release": "2.module_el8.6.0+2760+1746ec94",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2760+1746ec94.src.rpm",
-        "filename": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2760+1746ec94.aarch64.rpm",
-        "sum": "6e3400183f8f17474e90addbd65385025002f6f67f655a5c09fccd1901a6bd45",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "postgres-decoderbufs",
-        "version": "0.10.0",
-        "release": "2.module_el8.6.0+2758+4f4474df",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.src.rpm",
-        "filename": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.aarch64.rpm",
-        "sum": "bf811155cf3657988a3d16afe45a7c73de068ad1a9b8a34d8f78d145ee445bee",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "postgres-decoderbufs",
         "version": "0.10.0",
@@ -70,13 +46,37 @@
         "sum": "13cd44b926f28289bb0a5b01f74460112ef2a7b442da8131cb2586d4227ef755",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "postgres-decoderbufs",
+        "version": "0.10.0",
+        "release": "2.module_el8.6.0+2760+1746ec94",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2760+1746ec94.src.rpm",
+        "filename": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2760+1746ec94.aarch64.rpm",
+        "sum": "6e3400183f8f17474e90addbd65385025002f6f67f655a5c09fccd1901a6bd45",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "postgres-decoderbufs",
+        "version": "0.10.0",
+        "release": "2.module_el8.6.0+2758+4f4474df",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.src.rpm",
+        "filename": "postgres-decoderbufs-0.10.0-2.module_el8.6.0+2758+4f4474df.aarch64.rpm",
+        "sum": "bf811155cf3657988a3d16afe45a7c73de068ad1a9b8a34d8f78d145ee445bee",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {
       "stream": "12",
       "name": "postgresql",
       "version": 8060020220531080156,
-      "arch": "aarch64",
+      "arch": "x86_64",
       "context": "9edba152"
     }
   },

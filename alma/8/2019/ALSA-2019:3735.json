@@ -8,129 +8,9 @@
     "$date": 1573046134000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_php",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_php",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_php",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_php",
     "packages": [
-      {
-        "name": "apcu-panel",
-        "version": "5.1.12",
-        "release": "2.module_el8.4.0+2228+7c76a223",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "php-pecl-apcu-5.1.12-2.module_el8.4.0+2228+7c76a223.src.rpm",
-        "filename": "apcu-panel-5.1.12-2.module_el8.4.0+2228+7c76a223.noarch.rpm",
-        "sum": "0f363505bde763ed390306e0ef440cbe60457d9406acdb957172a16db1746bff",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-pear",
-        "version": "1.10.5",
-        "release": "9.module_el8.4.0+2228+7c76a223",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "php-pear-1.10.5-9.module_el8.4.0+2228+7c76a223.src.rpm",
-        "filename": "php-pear-1.10.5-9.module_el8.4.0+2228+7c76a223.noarch.rpm",
-        "sum": "2f5e5bbd8f0a085da623392259779401897a9f540009ca468f65db2da5112317",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libzip-devel",
-        "version": "1.5.1",
-        "release": "2.module_el8.4.0+2228+7c76a223",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libzip-1.5.1-2.module_el8.4.0+2228+7c76a223.src.rpm",
-        "filename": "libzip-devel-1.5.1-2.module_el8.4.0+2228+7c76a223.aarch64.rpm",
-        "sum": "30e1eb53154934def2303456e3ff6f98e8be58426e1c3834508f18c5154b5cf0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libzip-tools",
-        "version": "1.5.1",
-        "release": "2.module_el8.4.0+2228+7c76a223",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libzip-1.5.1-2.module_el8.4.0+2228+7c76a223.src.rpm",
-        "filename": "libzip-tools-1.5.1-2.module_el8.4.0+2228+7c76a223.aarch64.rpm",
-        "sum": "3590f60911fcbc12b3636fa2371d9d527f2f4b26a176684f178ae525b30a84f5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-pecl-zip",
-        "version": "1.15.3",
-        "release": "1.module_el8.4.0+2228+7c76a223",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-pecl-zip-1.15.3-1.module_el8.4.0+2228+7c76a223.src.rpm",
-        "filename": "php-pecl-zip-1.15.3-1.module_el8.4.0+2228+7c76a223.aarch64.rpm",
-        "sum": "651e03228c81c03113cd3044bfdf9946b9c389344707bf13dd77e89647ed6195",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-pecl-apcu",
-        "version": "5.1.12",
-        "release": "2.module_el8.4.0+2228+7c76a223",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-pecl-apcu-5.1.12-2.module_el8.4.0+2228+7c76a223.src.rpm",
-        "filename": "php-pecl-apcu-5.1.12-2.module_el8.4.0+2228+7c76a223.aarch64.rpm",
-        "sum": "87678c8fc296edbb0ad16891b3f19a0573ab388922b246e356894ebbb940bd05",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libzip",
-        "version": "1.5.1",
-        "release": "2.module_el8.4.0+2228+7c76a223",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libzip-1.5.1-2.module_el8.4.0+2228+7c76a223.src.rpm",
-        "filename": "libzip-1.5.1-2.module_el8.4.0+2228+7c76a223.aarch64.rpm",
-        "sum": "9f09d96fb6676ee1b29ef6a41cf71cde13126d1da701b3203dd871de1b0ff5f6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "apcu-panel",
-        "version": "5.1.12",
-        "release": "2.module_el8.3.0+2010+7c76a223",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "php-pecl-apcu-5.1.12-2.module_el8.3.0+2010+7c76a223.src.rpm",
-        "filename": "apcu-panel-5.1.12-2.module_el8.3.0+2010+7c76a223.noarch.rpm",
-        "sum": "a8150cc85924eac6c55d84d57cf416b40b5a97a341a5d5ae298bd77a7274da5a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-pecl-apcu-devel",
-        "version": "5.1.12",
-        "release": "2.module_el8.4.0+2228+7c76a223",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "php-pecl-apcu-5.1.12-2.module_el8.4.0+2228+7c76a223.src.rpm",
-        "filename": "php-pecl-apcu-devel-5.1.12-2.module_el8.4.0+2228+7c76a223.aarch64.rpm",
-        "sum": "baa334289981799ca0543114b5f22076c85366333c5e0df9e5beef9efc6a2995",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "php-pear",
-        "version": "1.10.5",
-        "release": "9.module_el8.3.0+2010+7c76a223",
-        "epoch": "1",
-        "arch": "noarch",
-        "src": "php-pear-1.10.5-9.module_el8.3.0+2010+7c76a223.src.rpm",
-        "filename": "php-pear-1.10.5-9.module_el8.3.0+2010+7c76a223.noarch.rpm",
-        "sum": "d395dd7c89f997659fde7691c83af4d57154ca41e0f6d661e7dde08bf1fc95f9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "libzip-devel",
         "version": "1.5.1",
@@ -180,6 +60,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "apcu-panel",
+        "version": "5.1.12",
+        "release": "2.module_el8.3.0+2010+7c76a223",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "php-pecl-apcu-5.1.12-2.module_el8.3.0+2010+7c76a223.src.rpm",
+        "filename": "apcu-panel-5.1.12-2.module_el8.3.0+2010+7c76a223.noarch.rpm",
+        "sum": "a8150cc85924eac6c55d84d57cf416b40b5a97a341a5d5ae298bd77a7274da5a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "php-pecl-zip",
         "version": "1.15.3",
         "release": "1.module_el8.3.0+2010+7c76a223",
@@ -188,6 +80,18 @@
         "src": "php-pecl-zip-1.15.3-1.module_el8.3.0+2010+7c76a223.src.rpm",
         "filename": "php-pecl-zip-1.15.3-1.module_el8.3.0+2010+7c76a223.x86_64.rpm",
         "sum": "acd6695d6318e64647a5cc4414fc018e8be25214be3534385b3db3ba03baeef4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "php-pear",
+        "version": "1.10.5",
+        "release": "9.module_el8.3.0+2010+7c76a223",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "php-pear-1.10.5-9.module_el8.3.0+2010+7c76a223.src.rpm",
+        "filename": "php-pear-1.10.5-9.module_el8.3.0+2010+7c76a223.noarch.rpm",
+        "sum": "d395dd7c89f997659fde7691c83af4d57154ca41e0f6d661e7dde08bf1fc95f9",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -298,13 +202,109 @@
         "sum": "ab61b23a5c38de84b64871d74ed144dcad54625231b35a2749de4561efc1575c",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "apcu-panel",
+        "version": "5.1.12",
+        "release": "2.module_el8.4.0+2228+7c76a223",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "php-pecl-apcu-5.1.12-2.module_el8.4.0+2228+7c76a223.src.rpm",
+        "filename": "apcu-panel-5.1.12-2.module_el8.4.0+2228+7c76a223.noarch.rpm",
+        "sum": "0f363505bde763ed390306e0ef440cbe60457d9406acdb957172a16db1746bff",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "php-pear",
+        "version": "1.10.5",
+        "release": "9.module_el8.4.0+2228+7c76a223",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "php-pear-1.10.5-9.module_el8.4.0+2228+7c76a223.src.rpm",
+        "filename": "php-pear-1.10.5-9.module_el8.4.0+2228+7c76a223.noarch.rpm",
+        "sum": "2f5e5bbd8f0a085da623392259779401897a9f540009ca468f65db2da5112317",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libzip-devel",
+        "version": "1.5.1",
+        "release": "2.module_el8.4.0+2228+7c76a223",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libzip-1.5.1-2.module_el8.4.0+2228+7c76a223.src.rpm",
+        "filename": "libzip-devel-1.5.1-2.module_el8.4.0+2228+7c76a223.aarch64.rpm",
+        "sum": "30e1eb53154934def2303456e3ff6f98e8be58426e1c3834508f18c5154b5cf0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libzip-tools",
+        "version": "1.5.1",
+        "release": "2.module_el8.4.0+2228+7c76a223",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libzip-1.5.1-2.module_el8.4.0+2228+7c76a223.src.rpm",
+        "filename": "libzip-tools-1.5.1-2.module_el8.4.0+2228+7c76a223.aarch64.rpm",
+        "sum": "3590f60911fcbc12b3636fa2371d9d527f2f4b26a176684f178ae525b30a84f5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "php-pecl-zip",
+        "version": "1.15.3",
+        "release": "1.module_el8.4.0+2228+7c76a223",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "php-pecl-zip-1.15.3-1.module_el8.4.0+2228+7c76a223.src.rpm",
+        "filename": "php-pecl-zip-1.15.3-1.module_el8.4.0+2228+7c76a223.aarch64.rpm",
+        "sum": "651e03228c81c03113cd3044bfdf9946b9c389344707bf13dd77e89647ed6195",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "php-pecl-apcu",
+        "version": "5.1.12",
+        "release": "2.module_el8.4.0+2228+7c76a223",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "php-pecl-apcu-5.1.12-2.module_el8.4.0+2228+7c76a223.src.rpm",
+        "filename": "php-pecl-apcu-5.1.12-2.module_el8.4.0+2228+7c76a223.aarch64.rpm",
+        "sum": "87678c8fc296edbb0ad16891b3f19a0573ab388922b246e356894ebbb940bd05",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libzip",
+        "version": "1.5.1",
+        "release": "2.module_el8.4.0+2228+7c76a223",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libzip-1.5.1-2.module_el8.4.0+2228+7c76a223.src.rpm",
+        "filename": "libzip-1.5.1-2.module_el8.4.0+2228+7c76a223.aarch64.rpm",
+        "sum": "9f09d96fb6676ee1b29ef6a41cf71cde13126d1da701b3203dd871de1b0ff5f6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "php-pecl-apcu-devel",
+        "version": "5.1.12",
+        "release": "2.module_el8.4.0+2228+7c76a223",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "php-pecl-apcu-5.1.12-2.module_el8.4.0+2228+7c76a223.src.rpm",
+        "filename": "php-pecl-apcu-devel-5.1.12-2.module_el8.4.0+2228+7c76a223.aarch64.rpm",
+        "sum": "baa334289981799ca0543114b5f22076c85366333c5e0df9e5beef9efc6a2995",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {
       "stream": "7.2",
       "name": "php",
-      "version": 8040020210504103500,
-      "arch": "aarch64",
+      "version": 8030020210119114311,
+      "arch": "x86_64",
       "context": "2c7ca891"
     }
   },

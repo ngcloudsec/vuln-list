@@ -8,57 +8,9 @@
     "$date": 1669593600000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_7_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_7_default",
+    "name": "almalinux-8-for-s390x-appstream-rpms__8_7_default",
+    "shortname": "almalinux-8-for-s390x-appstream-rpms__8_7_default",
     "packages": [
-      {
-        "name": "varnish-modules",
-        "version": "0.15.0",
-        "release": "6.module_el8.5.0+2620+03a0c2cc",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "varnish-modules-0.15.0-6.module_el8.5.0+2620+03a0c2cc.src.rpm",
-        "filename": "Packages/varnish-modules-0.15.0-6.module_el8.5.0+2620+03a0c2cc.aarch64.rpm",
-        "sum": "05cbad74192ade6ad5372b3c2a7fa6605599b836ebe6eb13155d5b6cf31661ef",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "varnish-devel",
-        "version": "6.0.8",
-        "release": "2.module_el8.7.0+3353+b11d8f2f.1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.src.rpm",
-        "filename": "varnish-devel-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.aarch64.rpm",
-        "sum": "14d4a156bdc9814706fd2de86c316e8f64a960ada1eef3c4da61e262ae60b423",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "varnish",
-        "version": "6.0.8",
-        "release": "2.module_el8.7.0+3353+b11d8f2f.1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.src.rpm",
-        "filename": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.aarch64.rpm",
-        "sum": "8edb5d9a2f24d58818283ac14c797092c6489262473de463748277ffb1a58944",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "varnish-docs",
-        "version": "6.0.8",
-        "release": "2.module_el8.7.0+3353+b11d8f2f.1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.src.rpm",
-        "filename": "varnish-docs-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.aarch64.rpm",
-        "sum": "db6ff51b9811dcfb61b9a450ba029e1b6e2b3733ff73216b19a1eae027797d52",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "varnish-devel",
         "version": "6.0.8",
@@ -202,13 +154,61 @@
         "sum": "de1f5422f92056ada37c2bfa75ad55a3aa44fe2f7a44f79ab9c43a70ab16cd22",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "varnish-modules",
+        "version": "0.15.0",
+        "release": "6.module_el8.5.0+2620+03a0c2cc",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "varnish-modules-0.15.0-6.module_el8.5.0+2620+03a0c2cc.src.rpm",
+        "filename": "Packages/varnish-modules-0.15.0-6.module_el8.5.0+2620+03a0c2cc.aarch64.rpm",
+        "sum": "05cbad74192ade6ad5372b3c2a7fa6605599b836ebe6eb13155d5b6cf31661ef",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "varnish-devel",
+        "version": "6.0.8",
+        "release": "2.module_el8.7.0+3353+b11d8f2f.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.src.rpm",
+        "filename": "varnish-devel-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.aarch64.rpm",
+        "sum": "14d4a156bdc9814706fd2de86c316e8f64a960ada1eef3c4da61e262ae60b423",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "varnish",
+        "version": "6.0.8",
+        "release": "2.module_el8.7.0+3353+b11d8f2f.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.src.rpm",
+        "filename": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.aarch64.rpm",
+        "sum": "8edb5d9a2f24d58818283ac14c797092c6489262473de463748277ffb1a58944",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "varnish-docs",
+        "version": "6.0.8",
+        "release": "2.module_el8.7.0+3353+b11d8f2f.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "varnish-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.src.rpm",
+        "filename": "varnish-docs-6.0.8-2.module_el8.7.0+3353+b11d8f2f.1.aarch64.rpm",
+        "sum": "db6ff51b9811dcfb61b9a450ba029e1b6e2b3733ff73216b19a1eae027797d52",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {
       "stream": "6",
       "name": "varnish",
       "version": 8070020221128103530,
-      "arch": "aarch64",
+      "arch": "s390x",
       "context": "9edba152"
     }
   },
@@ -248,7 +248,7 @@
   "title": "Important: varnish:6 security update",
   "type": "security",
   "updated_date": {
-    "$date": 1670236788000
+    "$date": 1670236787000
   },
   "version": "1"
 }

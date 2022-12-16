@@ -8,9 +8,33 @@
     "$date": 1667865600000
   },
   "pkglist": {
-    "name": "almalinux-8-for-i686-powertools-rpms__8_6_default",
-    "shortname": "almalinux-8-for-i686-powertools-rpms__8_6_default",
+    "name": "almalinux-8-for-i686-baseos-rpms__8_6_default",
+    "shortname": "almalinux-8-for-i686-baseos-rpms__8_6_default",
     "packages": [
+      {
+        "name": "xmlrpc-c",
+        "version": "1.51.0",
+        "release": "8.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "xmlrpc-c-1.51.0-8.el8.src.rpm",
+        "filename": "xmlrpc-c-1.51.0-8.el8.i686.rpm",
+        "sum": "0c412c3b0424c80fdc4a4ed711a4d31073d7acc99a598b0d32427683618ef5ae",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "xmlrpc-c-client",
+        "version": "1.51.0",
+        "release": "8.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "xmlrpc-c-1.51.0-8.el8.src.rpm",
+        "filename": "xmlrpc-c-client-1.51.0-8.el8.i686.rpm",
+        "sum": "a18c8daf0f337b1e88a547f405b3284596974ae71b11cf0cc40e111347584cd6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "xmlrpc-c-devel",
         "version": "1.51.0",
@@ -44,30 +68,6 @@
         "src": "xmlrpc-c-1.51.0-8.el8.src.rpm",
         "filename": "xmlrpc-c-c++-1.51.0-8.el8.i686.rpm",
         "sum": "e3e8699923f28bdb694506d4eea3c9ccd0a991907368c0703e65e769601e3a4c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "xmlrpc-c",
-        "version": "1.51.0",
-        "release": "8.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "xmlrpc-c-1.51.0-8.el8.src.rpm",
-        "filename": "xmlrpc-c-1.51.0-8.el8.i686.rpm",
-        "sum": "0c412c3b0424c80fdc4a4ed711a4d31073d7acc99a598b0d32427683618ef5ae",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "xmlrpc-c-client",
-        "version": "1.51.0",
-        "release": "8.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "xmlrpc-c-1.51.0-8.el8.src.rpm",
-        "filename": "xmlrpc-c-client-1.51.0-8.el8.i686.rpm",
-        "sum": "a18c8daf0f337b1e88a547f405b3284596974ae71b11cf0cc40e111347584cd6",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -216,6 +216,42 @@
         "reboot_suggested": 0
       },
       {
+        "name": "xmlrpc-c-client++",
+        "version": "1.51.0",
+        "release": "8.el8",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "xmlrpc-c-1.51.0-8.el8.src.rpm",
+        "filename": "xmlrpc-c-client++-1.51.0-8.el8.ppc64le.rpm",
+        "sum": "86ace51215a186faa9b99f4b5fe46f9d8857929f5b217f8fc942a2fc10f14caf",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "xmlrpc-c-c++",
+        "version": "1.51.0",
+        "release": "8.el8",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "xmlrpc-c-1.51.0-8.el8.src.rpm",
+        "filename": "xmlrpc-c-c++-1.51.0-8.el8.ppc64le.rpm",
+        "sum": "bc469d1872acb891734aaf6abb99558e046c27cef397a09ef5014088b66fa4d4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "xmlrpc-c-devel",
+        "version": "1.51.0",
+        "release": "8.el8",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "xmlrpc-c-1.51.0-8.el8.src.rpm",
+        "filename": "xmlrpc-c-devel-1.51.0-8.el8.ppc64le.rpm",
+        "sum": "f4f86caba4e7b26125fc1730a9d5c42288667fa6b87b12cee4ce6e759d34e733",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "xmlrpc-c-client",
         "version": "1.51.0",
         "release": "8.el8",
@@ -272,42 +308,6 @@
         "src": "xmlrpc-c-1.51.0-8.el8.src.rpm",
         "filename": "xmlrpc-c-c++-1.51.0-8.el8.s390x.rpm",
         "sum": "2fbeff89f81f7267aa7b8327b1d2d29e24d09b64768b8b0ead3a3a4edf7ba273",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "xmlrpc-c-client++",
-        "version": "1.51.0",
-        "release": "8.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "xmlrpc-c-1.51.0-8.el8.src.rpm",
-        "filename": "xmlrpc-c-client++-1.51.0-8.el8.ppc64le.rpm",
-        "sum": "86ace51215a186faa9b99f4b5fe46f9d8857929f5b217f8fc942a2fc10f14caf",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "xmlrpc-c-c++",
-        "version": "1.51.0",
-        "release": "8.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "xmlrpc-c-1.51.0-8.el8.src.rpm",
-        "filename": "xmlrpc-c-c++-1.51.0-8.el8.ppc64le.rpm",
-        "sum": "bc469d1872acb891734aaf6abb99558e046c27cef397a09ef5014088b66fa4d4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "xmlrpc-c-devel",
-        "version": "1.51.0",
-        "release": "8.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "xmlrpc-c-1.51.0-8.el8.src.rpm",
-        "filename": "xmlrpc-c-devel-1.51.0-8.el8.ppc64le.rpm",
-        "sum": "f4f86caba4e7b26125fc1730a9d5c42288667fa6b87b12cee4ce6e759d34e733",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -422,7 +422,7 @@
   "title": "Moderate: xmlrpc-c security update",
   "type": "security",
   "updated_date": {
-    "$date": 1668201362000
+    "$date": 1668201361000
   },
   "version": "1"
 }

@@ -8,9 +8,21 @@
     "$date": 1667865600000
   },
   "pkglist": {
-    "name": "almalinux-8-for-i686-appstream-rpms__8_6_default",
-    "shortname": "almalinux-8-for-i686-appstream-rpms__8_6_default",
+    "name": "almalinux-8-for-i686-powertools-rpms__8_6_default",
+    "shortname": "almalinux-8-for-i686-powertools-rpms__8_6_default",
     "packages": [
+      {
+        "name": "openjpeg2-devel",
+        "version": "2.4.0",
+        "release": "5.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "openjpeg2-2.4.0-5.el8.src.rpm",
+        "filename": "openjpeg2-devel-2.4.0-5.el8.i686.rpm",
+        "sum": "fda4b663d32503e88c0685350e5351a208bcb7cecaea2f22276807d512b389da",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "openjpeg2-tools",
         "version": "2.4.0",
@@ -52,18 +64,6 @@
         "version": "2.4.0",
         "release": "5.el8",
         "epoch": "0",
-        "arch": "i686",
-        "src": "openjpeg2-2.4.0-5.el8.src.rpm",
-        "filename": "openjpeg2-devel-2.4.0-5.el8.i686.rpm",
-        "sum": "fda4b663d32503e88c0685350e5351a208bcb7cecaea2f22276807d512b389da",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openjpeg2-devel",
-        "version": "2.4.0",
-        "release": "5.el8",
-        "epoch": "0",
         "arch": "aarch64",
         "src": "openjpeg2-2.4.0-5.el8.src.rpm",
         "filename": "openjpeg2-devel-2.4.0-5.el8.aarch64.rpm",
@@ -84,26 +84,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "openjpeg2",
+        "name": "openjpeg2-devel",
         "version": "2.4.0",
         "release": "5.el8",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "openjpeg2-2.4.0-5.el8.src.rpm",
-        "filename": "openjpeg2-2.4.0-5.el8.aarch64.rpm",
-        "sum": "1b3a5598601851bdbf1b364aff9f953e4a1858f1ecfbdb203f8c309cc7345b92",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openjpeg2-tools",
-        "version": "2.4.0",
-        "release": "5.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "openjpeg2-2.4.0-5.el8.src.rpm",
-        "filename": "openjpeg2-tools-2.4.0-5.el8.aarch64.rpm",
-        "sum": "755532af2066652b6ddf6481cdb26c29c2e1e00fceaac8ce931991e30d6c12fd",
+        "filename": "openjpeg2-devel-2.4.0-5.el8.ppc64le.rpm",
+        "sum": "11c91f2782132d67e4882b5035cbb79a24b38f8749ea5dc8e3202debf4669f61",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -168,18 +156,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "openjpeg2-devel",
-        "version": "2.4.0",
-        "release": "5.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "openjpeg2-2.4.0-5.el8.src.rpm",
-        "filename": "openjpeg2-devel-2.4.0-5.el8.ppc64le.rpm",
-        "sum": "11c91f2782132d67e4882b5035cbb79a24b38f8749ea5dc8e3202debf4669f61",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "openjpeg2",
         "version": "2.4.0",
         "release": "5.el8",
@@ -200,6 +176,30 @@
         "src": "openjpeg2-2.4.0-5.el8.src.rpm",
         "filename": "openjpeg2-tools-2.4.0-5.el8.ppc64le.rpm",
         "sum": "561bca29f389686ba75a196606fbb92b9f16d4b8b91dad49fe38f38040db17d2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openjpeg2",
+        "version": "2.4.0",
+        "release": "5.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "openjpeg2-2.4.0-5.el8.src.rpm",
+        "filename": "openjpeg2-2.4.0-5.el8.aarch64.rpm",
+        "sum": "1b3a5598601851bdbf1b364aff9f953e4a1858f1ecfbdb203f8c309cc7345b92",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openjpeg2-tools",
+        "version": "2.4.0",
+        "release": "5.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "openjpeg2-2.4.0-5.el8.src.rpm",
+        "filename": "openjpeg2-tools-2.4.0-5.el8.aarch64.rpm",
+        "sum": "755532af2066652b6ddf6481cdb26c29c2e1e00fceaac8ce931991e30d6c12fd",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -242,7 +242,7 @@
   "title": "Low: openjpeg2 security update",
   "type": "security",
   "updated_date": {
-    "$date": 1668203268000
+    "$date": 1668203261000
   },
   "version": "1"
 }

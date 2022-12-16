@@ -8,33 +8,9 @@
     "$date": 1604406280000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
     "packages": [
-      {
-        "name": "gd",
-        "version": "2.2.5",
-        "release": "7.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gd-2.2.5-7.el8.src.rpm",
-        "filename": "gd-2.2.5-7.el8.aarch64.rpm",
-        "sum": "6fd636508eee6b5a3ca9a9793c662242c7c952a5ef0b06204dc07972abfbec79",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gd-devel",
-        "version": "2.2.5",
-        "release": "7.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gd-2.2.5-7.el8.src.rpm",
-        "filename": "gd-devel-2.2.5-7.el8.aarch64.rpm",
-        "sum": "7951fffa5bf341bea7cd44637a5c1154ca89c5f67693587da53e85798217182a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "gd-devel",
         "version": "2.2.5",
@@ -106,18 +82,36 @@
         "sum": "ce27e20da08d5dfe18ded15d62662becf4d7f33053dab4ceca9ba68f20569e4a",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "gd",
+        "version": "2.2.5",
+        "release": "7.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gd-2.2.5-7.el8.src.rpm",
+        "filename": "gd-2.2.5-7.el8.aarch64.rpm",
+        "sum": "6fd636508eee6b5a3ca9a9793c662242c7c952a5ef0b06204dc07972abfbec79",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gd-devel",
+        "version": "2.2.5",
+        "release": "7.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gd-2.2.5-7.el8.src.rpm",
+        "filename": "gd-devel-2.2.5-7.el8.aarch64.rpm",
+        "sum": "7951fffa5bf341bea7cd44637a5c1154ca89c5f67693587da53e85798217182a",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
   },
   "pushcount": "2",
   "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2020-4659.html",
-      "type": "self",
-      "id": "ALSA-2020-4659",
-      "title": "ALSA-2020-4659"
-    },
     {
       "href": "https://vulners.com/cve/CVE-2018-14553",
       "type": "cve",
@@ -138,7 +132,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -146,7 +140,7 @@
   "title": "Moderate: gd security update",
   "type": "security",
   "updated_date": {
-    "$date": 1604432868000
+    "$date": 1636712455000
   },
   "version": "2"
 }

@@ -8,57 +8,9 @@
     "$date": 1604406569000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_subversion",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_subversion",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_subversion",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_subversion",
     "packages": [
-      {
-        "name": "utf8proc",
-        "version": "2.1.1",
-        "release": "5.module_el8.4.0+2266+ac338b6d",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "utf8proc-2.1.1-5.module_el8.4.0+2266+ac338b6d.src.rpm",
-        "filename": "utf8proc-2.1.1-5.module_el8.4.0+2266+ac338b6d.aarch64.rpm",
-        "sum": "1efea1ad94beb329b3936b482d8997f229fd8d202252a8925ed72a4601cafb5c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "utf8proc",
-        "version": "2.1.1",
-        "release": "5.module_el8.6.0+2912+eb1cdf5a",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "utf8proc-2.1.1-5.module_el8.6.0+2912+eb1cdf5a.src.rpm",
-        "filename": "utf8proc-2.1.1-5.module_el8.6.0+2912+eb1cdf5a.aarch64.rpm",
-        "sum": "6017cd22ae595cb063f6d905f6d4f935412ccec4f4139c46a2238f3fe23465f1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libserf",
-        "version": "1.3.9",
-        "release": "9.module_el8.6.0+2912+eb1cdf5a",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libserf-1.3.9-9.module_el8.6.0+2912+eb1cdf5a.src.rpm",
-        "filename": "libserf-1.3.9-9.module_el8.6.0+2912+eb1cdf5a.aarch64.rpm",
-        "sum": "6776d091e39604fc0077ede5a695b29d56262a415c401ec3aee1c580ab0b7e2c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libserf",
-        "version": "1.3.9",
-        "release": "9.module_el8.4.0+2266+ac338b6d",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libserf-1.3.9-9.module_el8.4.0+2266+ac338b6d.src.rpm",
-        "filename": "libserf-1.3.9-9.module_el8.4.0+2266+ac338b6d.aarch64.rpm",
-        "sum": "87fc27c8b0af4df1736900e20d3c6cd63fc9b37e3913563cb4a2cfa07fd74757",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "libserf",
         "version": "1.3.9",
@@ -130,13 +82,61 @@
         "sum": "eba92002a9b5dbcdd15afa1d99ee1da305bcefee2e702f5d9b81fc76b4ad076d",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "utf8proc",
+        "version": "2.1.1",
+        "release": "5.module_el8.4.0+2266+ac338b6d",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "utf8proc-2.1.1-5.module_el8.4.0+2266+ac338b6d.src.rpm",
+        "filename": "utf8proc-2.1.1-5.module_el8.4.0+2266+ac338b6d.aarch64.rpm",
+        "sum": "1efea1ad94beb329b3936b482d8997f229fd8d202252a8925ed72a4601cafb5c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "utf8proc",
+        "version": "2.1.1",
+        "release": "5.module_el8.6.0+2912+eb1cdf5a",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "utf8proc-2.1.1-5.module_el8.6.0+2912+eb1cdf5a.src.rpm",
+        "filename": "utf8proc-2.1.1-5.module_el8.6.0+2912+eb1cdf5a.aarch64.rpm",
+        "sum": "6017cd22ae595cb063f6d905f6d4f935412ccec4f4139c46a2238f3fe23465f1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libserf",
+        "version": "1.3.9",
+        "release": "9.module_el8.6.0+2912+eb1cdf5a",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libserf-1.3.9-9.module_el8.6.0+2912+eb1cdf5a.src.rpm",
+        "filename": "libserf-1.3.9-9.module_el8.6.0+2912+eb1cdf5a.aarch64.rpm",
+        "sum": "6776d091e39604fc0077ede5a695b29d56262a415c401ec3aee1c580ab0b7e2c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libserf",
+        "version": "1.3.9",
+        "release": "9.module_el8.4.0+2266+ac338b6d",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libserf-1.3.9-9.module_el8.4.0+2266+ac338b6d.src.rpm",
+        "filename": "libserf-1.3.9-9.module_el8.4.0+2266+ac338b6d.aarch64.rpm",
+        "sum": "87fc27c8b0af4df1736900e20d3c6cd63fc9b37e3913563cb4a2cfa07fd74757",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {
       "stream": "1.10",
       "name": "subversion",
-      "version": 8040020210504171021,
-      "arch": "aarch64",
+      "version": 8030020210311134923,
+      "arch": "x86_64",
       "context": "4035eae3"
     }
   },

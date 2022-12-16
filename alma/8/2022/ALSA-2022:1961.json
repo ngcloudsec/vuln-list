@@ -8,78 +8,18 @@
     "$date": 1652170182000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
     "packages": [
-      {
-        "name": "pixman-devel",
-        "version": "0.38.4",
-        "release": "2.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pixman-0.38.4-2.el8.src.rpm",
-        "filename": "pixman-devel-0.38.4-2.el8.aarch64.rpm",
-        "sum": "5680a84532879453fdaaf14b9d0c8d04c18004d46cf8f3e6ed6ba693eae58c8c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cairo",
-        "version": "1.15.12",
-        "release": "6.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "cairo-1.15.12-6.el8.src.rpm",
-        "filename": "cairo-1.15.12-6.el8.aarch64.rpm",
-        "sum": "9dd9efba371b195df9b02e563800bcd6591b74dc47b44489cdb19f08374c24ec",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cairo-devel",
-        "version": "1.15.12",
-        "release": "6.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "cairo-1.15.12-6.el8.src.rpm",
-        "filename": "cairo-devel-1.15.12-6.el8.aarch64.rpm",
-        "sum": "b36238bb42b548b9164bae7918cd08dea596a5c5c78d9eb5c4f79240eafa814d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cairo-gobject",
-        "version": "1.15.12",
-        "release": "6.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "cairo-1.15.12-6.el8.src.rpm",
-        "filename": "cairo-gobject-1.15.12-6.el8.aarch64.rpm",
-        "sum": "b49053821e120731a55408c48c8a6edf69b31a6eee0f9c39482c6383e91e095e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pixman",
-        "version": "0.38.4",
-        "release": "2.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pixman-0.38.4-2.el8.src.rpm",
-        "filename": "pixman-0.38.4-2.el8.aarch64.rpm",
-        "sum": "c5c5de21c5427e9a2f9e7e7cd1fe2a76570acef06878262e50d29ab230924250",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "cairo-gobject-devel",
         "version": "1.15.12",
         "release": "6.el8",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "cairo-1.15.12-6.el8.src.rpm",
-        "filename": "cairo-gobject-devel-1.15.12-6.el8.aarch64.rpm",
-        "sum": "da12afc98e3d3eef05d3153a0cf57c1c0a37d52ca9e4e541b8d49306e75a7551",
+        "filename": "cairo-gobject-devel-1.15.12-6.el8.x86_64.rpm",
+        "sum": "57ba64cad0637db5b297401533ff55f234ca076d688394a6738c125d8301c3cb",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -108,6 +48,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "cairo",
+        "version": "1.15.12",
+        "release": "6.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "cairo-1.15.12-6.el8.src.rpm",
+        "filename": "cairo-1.15.12-6.el8.x86_64.rpm",
+        "sum": "68bc20d9d2959635aa877f588e9cd3fb44562976fcdb2c6c4057620cbe78a81d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pixman",
+        "version": "0.38.4",
+        "release": "2.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "pixman-0.38.4-2.el8.src.rpm",
+        "filename": "pixman-0.38.4-2.el8.x86_64.rpm",
+        "sum": "7b142cf852bf9e1d984beaf33d591fd2ae596e0a4fa509dd6bc43390c6f454a7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "pixman",
         "version": "0.38.4",
         "release": "2.el8",
@@ -132,6 +96,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "cairo-gobject",
+        "version": "1.15.12",
+        "release": "6.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "cairo-1.15.12-6.el8.src.rpm",
+        "filename": "cairo-gobject-1.15.12-6.el8.x86_64.rpm",
+        "sum": "cc729af11d0ab1e60fb76e4c50b97ae3bd86c0d0cbc025069173effeffded2de",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "pixman-devel",
         "version": "0.38.4",
         "release": "2.el8",
@@ -140,6 +116,30 @@
         "src": "pixman-0.38.4-2.el8.src.rpm",
         "filename": "pixman-devel-0.38.4-2.el8.x86_64.rpm",
         "sum": "d2f066e1aeb4833ff2abb5a0f3a69cfc21aec83ee494afe989ede70a709b2b2f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pixman-devel",
+        "version": "0.38.4",
+        "release": "2.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "pixman-0.38.4-2.el8.src.rpm",
+        "filename": "pixman-devel-0.38.4-2.el8.x86_64.rpm",
+        "sum": "d2f066e1aeb4833ff2abb5a0f3a69cfc21aec83ee494afe989ede70a709b2b2f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cairo-devel",
+        "version": "1.15.12",
+        "release": "6.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "cairo-1.15.12-6.el8.src.rpm",
+        "filename": "cairo-devel-1.15.12-6.el8.x86_64.rpm",
+        "sum": "f8ea69f6c37e368fe13bf27689b062bbceef590cc2158afaa4221e897ae70d6c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -224,6 +224,78 @@
         "src": "cairo-1.15.12-6.el8.src.rpm",
         "filename": "cairo-1.15.12-6.el8.ppc64le.rpm",
         "sum": "c6e4c4f8df3693a4cd885d20b769ef19f5b2664c9d560e58636b620638863f69",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pixman-devel",
+        "version": "0.38.4",
+        "release": "2.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pixman-0.38.4-2.el8.src.rpm",
+        "filename": "pixman-devel-0.38.4-2.el8.aarch64.rpm",
+        "sum": "5680a84532879453fdaaf14b9d0c8d04c18004d46cf8f3e6ed6ba693eae58c8c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cairo",
+        "version": "1.15.12",
+        "release": "6.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "cairo-1.15.12-6.el8.src.rpm",
+        "filename": "cairo-1.15.12-6.el8.aarch64.rpm",
+        "sum": "9dd9efba371b195df9b02e563800bcd6591b74dc47b44489cdb19f08374c24ec",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cairo-devel",
+        "version": "1.15.12",
+        "release": "6.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "cairo-1.15.12-6.el8.src.rpm",
+        "filename": "cairo-devel-1.15.12-6.el8.aarch64.rpm",
+        "sum": "b36238bb42b548b9164bae7918cd08dea596a5c5c78d9eb5c4f79240eafa814d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cairo-gobject",
+        "version": "1.15.12",
+        "release": "6.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "cairo-1.15.12-6.el8.src.rpm",
+        "filename": "cairo-gobject-1.15.12-6.el8.aarch64.rpm",
+        "sum": "b49053821e120731a55408c48c8a6edf69b31a6eee0f9c39482c6383e91e095e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pixman",
+        "version": "0.38.4",
+        "release": "2.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pixman-0.38.4-2.el8.src.rpm",
+        "filename": "pixman-0.38.4-2.el8.aarch64.rpm",
+        "sum": "c5c5de21c5427e9a2f9e7e7cd1fe2a76570acef06878262e50d29ab230924250",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cairo-gobject-devel",
+        "version": "1.15.12",
+        "release": "6.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "cairo-1.15.12-6.el8.src.rpm",
+        "filename": "cairo-gobject-devel-1.15.12-6.el8.aarch64.rpm",
+        "sum": "da12afc98e3d3eef05d3153a0cf57c1c0a37d52ca9e4e541b8d49306e75a7551",
         "sum_type": 5,
         "reboot_suggested": 0
       }

@@ -8,8 +8,8 @@
     "$date": 1568129569000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_1_pki-deps",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_1_pki-deps",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_1_pki-deps",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_1_pki-deps",
     "packages": [
       {
         "name": "xmlstreambuffer",
@@ -168,18 +168,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "python-nss-doc",
-        "version": "1.0.1",
-        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
-        "filename": "python-nss-doc-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.aarch64.rpm",
-        "sum": "61a26ea1c27f1ca3c6032b2f56d4060152e3e73a6ccb07181913a7ad380bad27",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "jackson-jaxrs-providers",
         "version": "2.9.9",
         "release": "1.module_el8.5.0+2577+9e95fe00",
@@ -224,18 +212,6 @@
         "src": "glassfish-jaxb-2.2.11-11.module_el8.5.0+2577+9e95fe00.src.rpm",
         "filename": "glassfish-jaxb-runtime-2.2.11-11.module_el8.5.0+2577+9e95fe00.noarch.rpm",
         "sum": "9686df16e5d697e4060189f8f12487883b69cacdf0f54670b6725b396f4c8262",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-nss",
-        "version": "1.0.1",
-        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
-        "filename": "python3-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.aarch64.rpm",
-        "sum": "ae60fc0416f6002b600d429d0ec5f54876e7a259bd5ba480de5886d03b28e23d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -288,6 +264,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "python3-nss",
+        "version": "1.0.1",
+        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
+        "filename": "python3-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.x86_64.rpm",
+        "sum": "c715d300c489d952c2abd192c47eb696c0ed6b286bb55883fecbf1d07f96a412",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "javassist-javadoc",
         "version": "3.18.1",
         "release": "8.module_el8.5.0+2577+9e95fe00",
@@ -336,30 +324,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "jackson-module-jaxb-annotations",
-        "version": "2.7.6",
-        "release": "4.module_el8.5.0+2577+9e95fe00",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "jackson-module-jaxb-annotations-2.7.6-4.module_el8.5.0+2577+9e95fe00.src.rpm",
-        "filename": "jackson-module-jaxb-annotations-2.7.6-4.module_el8.5.0+2577+9e95fe00.noarch.rpm",
-        "sum": "fb515d40cac152aad1609b30a1c9d0055f7c1bb842273f558573965a13fed76d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-nss",
-        "version": "1.0.1",
-        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
-        "filename": "python3-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.x86_64.rpm",
-        "sum": "c715d300c489d952c2abd192c47eb696c0ed6b286bb55883fecbf1d07f96a412",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "python-nss-doc",
         "version": "1.0.1",
         "release": "10.module_el8.5.0+2577+9e95fe00.alma",
@@ -368,6 +332,18 @@
         "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
         "filename": "python-nss-doc-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.x86_64.rpm",
         "sum": "f77a753add8d4d4cc9e8393982a0c220fd0ea5b7b2247e5f2c1399f723202eb0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "jackson-module-jaxb-annotations",
+        "version": "2.7.6",
+        "release": "4.module_el8.5.0+2577+9e95fe00",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "jackson-module-jaxb-annotations-2.7.6-4.module_el8.5.0+2577+9e95fe00.src.rpm",
+        "filename": "jackson-module-jaxb-annotations-2.7.6-4.module_el8.5.0+2577+9e95fe00.noarch.rpm",
+        "sum": "fb515d40cac152aad1609b30a1c9d0055f7c1bb842273f558573965a13fed76d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -682,13 +658,37 @@
         "sum": "ef482473fca00f95cfe02e1057056e98e87908cb07aed0e28d505b5cd99b91c7",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "python-nss-doc",
+        "version": "1.0.1",
+        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
+        "filename": "python-nss-doc-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.aarch64.rpm",
+        "sum": "61a26ea1c27f1ca3c6032b2f56d4060152e3e73a6ccb07181913a7ad380bad27",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-nss",
+        "version": "1.0.1",
+        "release": "10.module_el8.5.0+2577+9e95fe00.alma",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "python-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.src.rpm",
+        "filename": "python3-nss-1.0.1-10.module_el8.5.0+2577+9e95fe00.alma.aarch64.rpm",
+        "sum": "ae60fc0416f6002b600d429d0ec5f54876e7a259bd5ba480de5886d03b28e23d",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {
       "stream": "10.6",
       "name": "pki-deps",
       "version": 8050020211010083254,
-      "arch": "aarch64",
+      "arch": "x86_64",
       "context": "b4937e53"
     }
   },

@@ -8,21 +8,9 @@
     "$date": 1636446770000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
     "packages": [
-      {
-        "name": "file-roller",
-        "version": "3.28.1",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "file-roller-3.28.1-4.el8.src.rpm",
-        "filename": "file-roller-3.28.1-4.el8.aarch64.rpm",
-        "sum": "e30ff57a4994baa6bfc34120c37cc8d20c41f0bb6472df825b26336c286de65d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "file-roller",
         "version": "3.28.1",
@@ -46,18 +34,24 @@
         "sum": "a588a29e5206abdbc2911bca30a2f09f5588e0c69921494e411805e018456ad7",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "file-roller",
+        "version": "3.28.1",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "file-roller-3.28.1-4.el8.src.rpm",
+        "filename": "file-roller-3.28.1-4.el8.aarch64.rpm",
+        "sum": "e30ff57a4994baa6bfc34120c37cc8d20c41f0bb6472df825b26336c286de65d",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
   },
   "pushcount": "2",
   "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2021-4179.html",
-      "type": "self",
-      "id": "ALSA-2021-4179",
-      "title": "ALSA-2021-4179"
-    },
     {
       "href": "https://vulners.com/cve/CVE-2020-36314",
       "type": "cve",
@@ -66,7 +60,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Low",
   "solution": "",
   "status": "final",
@@ -74,7 +68,7 @@
   "title": "Low: file-roller security update",
   "type": "security",
   "updated_date": {
-    "$date": 1636462181000
+    "$date": 1636712456000
   },
   "version": "2"
 }
