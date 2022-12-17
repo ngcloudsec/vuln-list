@@ -9908,16 +9908,16 @@
       "nvidia-driver, nvidia-alternative, nvidia-kernel-support, nvidia-kernel-dkms, nvidia-kernel-source, xserver-xorg-video-nvidia, nvidia-legacy-check, nvidia-driver-bin, libnvidia-cfg1, nvidia-driver-libs, libglx-nvidia0, libgl1-nvidia-glvnd-glx, libnvidia-glcore, libegl-nvidia0, libgles-nvidia1, libgles-nvidia2, libnvidia-eglcore, nvidia-egl-common, nvidia-egl-icd, nvidia-vdpau-driver, nvidia-vulkan-common, nvidia-vulkan-icd, nvidia-nonglvnd-vulkan-common, libnvidia-glvkspirv, libnvidia-cbl, libnvidia-rtcore, nvidia-smi, libnvidia-ml1, libcuda1, libnvidia-compiler, libnvidia-ptxjitcompiler1, libnvidia-nvvm4, libnvcuvid1, libnvidia-encode1, libnvidia-ifr1, libnvidia-fbc1, libnvoptix1, libnvidia-opticalflow1, libnvidia-allocator1, libnvidia-ngx1, nvidia-opencl-common, nvidia-opencl-icd, nvidia-libopencl1, nvidia-detect"
     ],
     "Build-Depends": [
-      "debhelper-compat (= 13), dh-sequence-dkms, dh-exec, libnvidia-egl-wayland1, libvulkan1 (\u003e= 1.0.42), libxext6, po-debconf, quilt, xz-utils, libglvnd-dev"
+      "debhelper-compat (= 13), dh-sequence-dkms, dh-exec, libnvidia-egl-wayland1, libvulkan1 (\u003e= 1.0.42), libxext6, po-debconf, quilt, xz-utils, linux-headers-amd64 [amd64] \u003c!nocheck\u003e, linux-headers-arm64 [arm64] \u003c!nocheck\u003e, linux-headers-powerpc64le [ppc64el] \u003c!nocheck\u003e, libglvnd-dev"
     ],
     "Checksums-Sha256": [
-      "28dbf184e3137f70bbe3d1395fc34444cbeca8013b20821cbdc1bda8073dad74 7088 nvidia-graphics-drivers_470.141.03-1~deb11u1.dsc c59808154faec1c9f87d0bd0b97761807027b51df7fd27c9b3a4073b0d3b3f4c 272970754 nvidia-graphics-drivers_470.141.03.orig-amd64.tar.gz 0af3d0d34b6933dcf9f53aa81a3157bce139702e535331d5984f831b94696525 184399040 nvidia-graphics-drivers_470.141.03.orig-arm64.tar.gz 8701466110c31ff6dd5ac47046cedf4e8ab449c9c9dab0a2a3c219f55c06fc0e 140 nvidia-graphics-drivers_470.141.03.orig.tar.gz c23ea0f36dcd43a897d9a003ae27ba531598d6b46f4edf688e87e91f8a576304 209644 nvidia-graphics-drivers_470.141.03-1~deb11u1.debian.tar.xz"
+      "3f97fd9d5a4ad9b1baa69e4b8ad95e4a5828f633836960027788eb4fb4b488f5 7202 nvidia-graphics-drivers_470.161.03-1.dsc 76f2338e5f6827e6237e29f11bd6cf7350042e068b895d37101107485f609eed 272382526 nvidia-graphics-drivers_470.161.03.orig-amd64.tar.gz e99d24fa054c44c659cd00e6cbf630ee9c9576da53254580f6b8c230302b1113 184356759 nvidia-graphics-drivers_470.161.03.orig-arm64.tar.gz e9097c9c87d7a849db8a995f092ff13cb0c9ac833c60d612001dd2695edb6131 141 nvidia-graphics-drivers_470.161.03.orig.tar.gz e4568aa5e9b6f54b3c8418807a992e85bdaec2f9b6797e727ba059875884b47d 209156 nvidia-graphics-drivers_470.161.03-1.debian.tar.xz"
     ],
     "Directory": [
       "pool/non-free/n/nvidia-graphics-drivers"
     ],
     "Files": [
-      "aad6bb0649d9398406cb716907353f50 7088 nvidia-graphics-drivers_470.141.03-1~deb11u1.dsc f73041c488d0ca2880e34ecd71e0889b 272970754 nvidia-graphics-drivers_470.141.03.orig-amd64.tar.gz bf7d0957a0c183c2bffad867bf65430d 184399040 nvidia-graphics-drivers_470.141.03.orig-arm64.tar.gz 670a7c645247a04b4fd9a07c1d2be0d0 140 nvidia-graphics-drivers_470.141.03.orig.tar.gz 2527a1d748aaa3b9b372e97eabdb64b7 209644 nvidia-graphics-drivers_470.141.03-1~deb11u1.debian.tar.xz"
+      "dea15b830367cd5ac25932c4146e5c94 7202 nvidia-graphics-drivers_470.161.03-1.dsc 5a37fb22665d7ed79b9ab67da07fb469 272382526 nvidia-graphics-drivers_470.161.03.orig-amd64.tar.gz b10a691a11949b935a362224555a2f89 184356759 nvidia-graphics-drivers_470.161.03.orig-arm64.tar.gz bea0852da52749a0f97443f402188c40 141 nvidia-graphics-drivers_470.161.03.orig.tar.gz 4b76da4f5c3fa15b5cddb5dd0743b3d1 209156 nvidia-graphics-drivers_470.161.03-1.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -9947,7 +9947,7 @@
       "autopkgtest, autopkgtest-pkg-dkms"
     ],
     "Testsuite-Triggers": [
-      "linux-headers-686, linux-headers-686-pae, linux-headers-amd64, linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, linux-headers-cloud-amd64, linux-headers-cloud-arm64, linux-headers-powerpc64le, linux-headers-rt-686-pae, linux-headers-rt-amd64, linux-headers-rt-arm64, linux-headers-rt-armmp, module-assistant"
+      "linux-doc, linux-headers-686, linux-headers-686-pae, linux-headers-amd64, linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, linux-headers-cloud-amd64, linux-headers-cloud-arm64, linux-headers-powerpc64le, linux-headers-rt-686-pae, linux-headers-rt-amd64, linux-headers-rt-arm64, linux-headers-rt-armmp, module-assistant"
     ],
     "Uploaders": [
       "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
@@ -9956,10 +9956,10 @@
       "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers"
     ],
     "Vcs-Git": [
-      "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers.git"
+      "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers.git -b 470"
     ],
     "Version": [
-      "470.141.03-1~deb11u1"
+      "470.161.03-1"
     ]
   },
   {
@@ -9973,16 +9973,16 @@
       "nvidia-legacy-390xx-driver, nvidia-legacy-390xx-alternative, nvidia-legacy-390xx-kernel-support, nvidia-legacy-390xx-kernel-dkms, nvidia-legacy-390xx-kernel-source, xserver-xorg-video-nvidia-legacy-390xx, nvidia-legacy-390xx-driver-bin, libnvidia-legacy-390xx-cfg1, nvidia-legacy-390xx-driver-libs, nvidia-legacy-390xx-driver-libs-i386, nvidia-legacy-390xx-driver-libs-nonglvnd, nvidia-legacy-390xx-driver-libs-nonglvnd-i386, libglx-nvidia-legacy-390xx0, libgl1-nvidia-legacy-390xx-glvnd-glx, libgl1-nvidia-legacy-390xx-glx, libnvidia-legacy-390xx-glcore, libegl1-nvidia-legacy-390xx, libegl-nvidia-legacy-390xx0, libgles-nvidia-legacy-390xx1, libgles-nvidia-legacy-390xx2, libnvidia-legacy-390xx-eglcore, nvidia-legacy-390xx-egl-icd, nvidia-legacy-390xx-vdpau-driver, nvidia-legacy-390xx-vulkan-icd, nvidia-legacy-390xx-nonglvnd-vulkan-icd, nvidia-legacy-390xx-smi, libnvidia-legacy-390xx-ml1, libnvidia-legacy-390xx-cuda1, libnvidia-legacy-390xx-cuda1-i386, libnvidia-legacy-390xx-compiler, libnvidia-legacy-390xx-fatbinaryloader, libnvidia-legacy-390xx-ptxjitcompiler1, libnvidia-legacy-390xx-nvcuvid1, libnvidia-legacy-390xx-encode1, libnvidia-legacy-390xx-ifr1, libnvidia-legacy-390xx-fbc1, nvidia-legacy-390xx-opencl-icd"
     ],
     "Build-Depends": [
-      "debhelper-compat (= 12), dpkg-dev (\u003e= 1.18.8), dkms, libvulkan1 (\u003e= 1.0.42), libxext6 [!ppc64el], po-debconf, quilt, xz-utils, libglvnd-dev"
+      "debhelper-compat (= 12), dpkg-dev (\u003e= 1.18.8), dkms, libvulkan1 (\u003e= 1.0.42), libxext6 [!ppc64el], po-debconf, quilt, xz-utils, linux-headers-amd64 [amd64] \u003c!nocheck\u003e, linux-headers-686 [i386] \u003c!nocheck\u003e, linux-headers-armmp [armhf] \u003c!nocheck\u003e, libglvnd-dev"
     ],
     "Checksums-Sha256": [
-      "1bf28761f0b34da9672d5ffff982b589c130183c42cee18ded9f2df8e489edc3 8022 nvidia-graphics-drivers-legacy-390xx_390.154-1~deb11u1.dsc 2630482d46205cc677a5ffcff0936c54e0094e563700b516b951e73c421fd32b 84402970 nvidia-graphics-drivers-legacy-390xx_390.154.orig-amd64.tar.gz 2f97e720a2434a7c98574a354cddb672885bc13c11e499acc59838f6078bc762 30212086 nvidia-graphics-drivers-legacy-390xx_390.154.orig-armhf.tar.gz 2e8574f2edb59903e98f3bb0971799206a9a17b145ad04e6e0fbe301a639b097 49325122 nvidia-graphics-drivers-legacy-390xx_390.154.orig-i386.tar.gz cd0a41141087632258e10e3b8fb24eb90f049a3c944f97026b6ea6426656f74d 139 nvidia-graphics-drivers-legacy-390xx_390.154.orig.tar.gz c04437c32c45d3a412079b68a941e4fecfd54f62a4160691141a9c6a8f5dd3c2 178284 nvidia-graphics-drivers-legacy-390xx_390.154-1~deb11u1.debian.tar.xz"
+      "3a0d37f44c51f9e986ffc474e6f3566603cabb3d283bfa58a770560e731b2385 8148 nvidia-graphics-drivers-legacy-390xx_390.157-1~deb11u1.dsc f7de164f36589563358ae5f06262f6be3e24f54c6066994d71c5d527eab4b288 85800680 nvidia-graphics-drivers-legacy-390xx_390.157.orig-amd64.tar.gz 4768f44759ac85610da7c62965ab4926f54a64c037d1f2af084292a6a5444a30 30245694 nvidia-graphics-drivers-legacy-390xx_390.157.orig-armhf.tar.gz 2938d7cb8b06a187267e7808de73759ba6448529d217a12aa1c7ee2e6f33cbdc 49380168 nvidia-graphics-drivers-legacy-390xx_390.157.orig-i386.tar.gz 14a4ad0c72302d99b719689436f45c1e79efddce8725738b21340f945a85439f 138 nvidia-graphics-drivers-legacy-390xx_390.157.orig.tar.gz e930f0bbf1eb435dff3d9aa9a7fa876e907d2c379b11c7b9a136aca0c8d870f3 179260 nvidia-graphics-drivers-legacy-390xx_390.157-1~deb11u1.debian.tar.xz"
     ],
     "Directory": [
       "pool/non-free/n/nvidia-graphics-drivers-legacy-390xx"
     ],
     "Files": [
-      "635f96a999c93e177d8b67059850d006 8022 nvidia-graphics-drivers-legacy-390xx_390.154-1~deb11u1.dsc f5733dad3dd436f67eda8dbf0a707d2d 84402970 nvidia-graphics-drivers-legacy-390xx_390.154.orig-amd64.tar.gz 07b7206e4f0016f8658f584b18781cdc 30212086 nvidia-graphics-drivers-legacy-390xx_390.154.orig-armhf.tar.gz 5fb622de243cb8a41462b9e98734268f 49325122 nvidia-graphics-drivers-legacy-390xx_390.154.orig-i386.tar.gz 9cb44ff9054b7840fc9d23ca12304990 139 nvidia-graphics-drivers-legacy-390xx_390.154.orig.tar.gz 38458d82676e79c41bd4d23d77c0e563 178284 nvidia-graphics-drivers-legacy-390xx_390.154-1~deb11u1.debian.tar.xz"
+      "0d7a6f9931cac0dbc2e8684a929ea9a3 8148 nvidia-graphics-drivers-legacy-390xx_390.157-1~deb11u1.dsc b8902773d2b3b2e4911911c3eebf6b98 85800680 nvidia-graphics-drivers-legacy-390xx_390.157.orig-amd64.tar.gz caf898305bed678fbe0cbe11f0241a52 30245694 nvidia-graphics-drivers-legacy-390xx_390.157.orig-armhf.tar.gz f9d5cd18d6d058c58b991982975fda89 49380168 nvidia-graphics-drivers-legacy-390xx_390.157.orig-i386.tar.gz acf7a131621f6858cbe15c1ad80c5851 138 nvidia-graphics-drivers-legacy-390xx_390.157.orig.tar.gz 6f7c569118311e58e11caede3959e2b3 179260 nvidia-graphics-drivers-legacy-390xx_390.157-1~deb11u1.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -10012,7 +10012,7 @@
       "autopkgtest, autopkgtest-pkg-dkms"
     ],
     "Testsuite-Triggers": [
-      "linux-headers-686, linux-headers-686-pae, linux-headers-amd64, linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, linux-headers-cloud-amd64, linux-headers-cloud-arm64, linux-headers-powerpc64le, linux-headers-rt-686-pae, linux-headers-rt-amd64, linux-headers-rt-arm64, linux-headers-rt-armmp, module-assistant"
+      "linux-doc, linux-headers-686, linux-headers-686-pae, linux-headers-amd64, linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, linux-headers-cloud-amd64, linux-headers-cloud-arm64, linux-headers-powerpc64le, linux-headers-rt-686-pae, linux-headers-rt-amd64, linux-headers-rt-arm64, linux-headers-rt-armmp, module-assistant"
     ],
     "Uploaders": [
       "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
@@ -10021,10 +10021,10 @@
       "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers"
     ],
     "Vcs-Git": [
-      "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers.git -b 390xx/master"
+      "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers.git -b 390xx/main"
     ],
     "Version": [
-      "390.154-1~deb11u1"
+      "390.157-1~deb11u1"
     ]
   },
   {
@@ -10100,16 +10100,16 @@
       "nvidia-tesla-450-driver, nvidia-tesla-450-alternative, nvidia-tesla-450-kernel-support, nvidia-tesla-450-kernel-dkms, nvidia-tesla-450-kernel-source, xserver-xorg-video-nvidia-tesla-450, nvidia-tesla-450-driver-bin, libnvidia-tesla-450-cfg1, nvidia-tesla-450-driver-libs, libglx-nvidia-tesla-450-0, libgl1-nvidia-tesla-450-glvnd-glx, libnvidia-tesla-450-glcore, libegl-nvidia-tesla-450-0, libgles-nvidia-tesla-450-1, libgles-nvidia-tesla-450-2, libnvidia-tesla-450-eglcore, nvidia-tesla-450-egl-icd, nvidia-tesla-450-vdpau-driver, nvidia-tesla-450-vulkan-icd, libnvidia-tesla-450-glvkspirv, libnvidia-tesla-450-cbl, libnvidia-tesla-450-rtcore, nvidia-tesla-450-smi, libnvidia-tesla-450-ml1, libnvidia-tesla-450-cuda1, libnvidia-tesla-450-compiler, libnvidia-tesla-450-ptxjitcompiler1, libnvidia-tesla-450-nvcuvid1, libnvidia-tesla-450-encode1, libnvidia-tesla-450-ifr1, libnvidia-tesla-450-fbc1, libnvidia-tesla-450-nvoptix1, libnvidia-tesla-450-opticalflow1, libnvidia-tesla-450-allocator1, libnvidia-tesla-450-ngx1, nvidia-tesla-450-opencl-icd"
     ],
     "Build-Depends": [
-      "debhelper-compat (= 13), dh-sequence-dkms, dh-exec, libvulkan1 (\u003e= 1.0.42), libxext6, po-debconf, quilt, xz-utils, libglvnd-dev"
+      "debhelper-compat (= 13), dh-sequence-dkms, dh-exec, libvulkan1 (\u003e= 1.0.42), libxext6, po-debconf, quilt, xz-utils, linux-headers-amd64 [amd64] \u003c!nocheck\u003e, linux-headers-arm64 [arm64] \u003c!nocheck\u003e, linux-headers-powerpc64le [ppc64el] \u003c!nocheck\u003e, libglvnd-dev"
     ],
     "Checksums-Sha256": [
-      "8452cff62af2e08c8d0d09f34ed2c63ff6c378fbfdaaea39827bcecf3c12b0ec 7831 nvidia-graphics-drivers-tesla-450_450.203.03-1~deb11u1.dsc 5c13523914b300bd3253764b84ef076e1955708d3418ba00d75493df3a0f5bf3 141913350 nvidia-graphics-drivers-tesla-450_450.203.03.orig-amd64.tar.gz ae2f514090328b02c8bddd53eb53d1c3b718b5bfdac3a4c58c66af8634ffd028 80530082 nvidia-graphics-drivers-tesla-450_450.203.03.orig-arm64.tar.gz c33c91c843a3644582ec89c1492d72bba2733544b9de46505ea21b8db0553f42 40950888 nvidia-graphics-drivers-tesla-450_450.203.03.orig-ppc64el.tar.gz 8325e9224d5c59e24f6e87e3fc3b20b01c8b975b1780fa92af977bf94d2fe27e 140 nvidia-graphics-drivers-tesla-450_450.203.03.orig.tar.gz 02740ddb271929d754564db58844f35d9b862d9e18598f169eae594e9b5ea3b4 199872 nvidia-graphics-drivers-tesla-450_450.203.03-1~deb11u1.debian.tar.xz"
+      "97d8cae5c586701da660dedf7d2bc81b77d521e8de36fab5a355dc16a13ebc20 7968 nvidia-graphics-drivers-tesla-450_450.216.04-1~deb11u1.dsc ed7918b2fef58252378e4aa6acc27bffaea6cffd109ebff7ec5dfdfef6424c56 141693624 nvidia-graphics-drivers-tesla-450_450.216.04.orig-amd64.tar.gz b859ba38bf8e6550c5bc472d3c457e5834b74caa01dc2d7068e19c2a0ddaab6a 80547450 nvidia-graphics-drivers-tesla-450_450.216.04.orig-arm64.tar.gz da6bff9f799646863a6eb4b61d7072de73460a0ab2c0b54fa5b99bbcdece867e 41034894 nvidia-graphics-drivers-tesla-450_450.216.04.orig-ppc64el.tar.gz db0230cc1ca29efdd78fe862d1821b4afd13bd7c9fac960d624d5505db58384f 140 nvidia-graphics-drivers-tesla-450_450.216.04.orig.tar.gz 86709c281af212c68b40a91d45e405c31aef12401c450d26e066fe334ed9f2e8 201356 nvidia-graphics-drivers-tesla-450_450.216.04-1~deb11u1.debian.tar.xz"
     ],
     "Directory": [
       "pool/non-free/n/nvidia-graphics-drivers-tesla-450"
     ],
     "Files": [
-      "3866189c65c9535c0fd05302ad7a8727 7831 nvidia-graphics-drivers-tesla-450_450.203.03-1~deb11u1.dsc 3e4158d2a09577adc9dba5824d4436f8 141913350 nvidia-graphics-drivers-tesla-450_450.203.03.orig-amd64.tar.gz 8507e3cc4659311bf3a074b5d878fa83 80530082 nvidia-graphics-drivers-tesla-450_450.203.03.orig-arm64.tar.gz d1ec2de96a3c0d31ee384dc9b2808696 40950888 nvidia-graphics-drivers-tesla-450_450.203.03.orig-ppc64el.tar.gz 24dbab2dc140d01d64925e23534f4b69 140 nvidia-graphics-drivers-tesla-450_450.203.03.orig.tar.gz ebb21b0e585b51043bdd3ce7b7c7667e 199872 nvidia-graphics-drivers-tesla-450_450.203.03-1~deb11u1.debian.tar.xz"
+      "37a1fdd9049716d2597d3cb24baca087 7968 nvidia-graphics-drivers-tesla-450_450.216.04-1~deb11u1.dsc c926be2c06bff1246ddb3460aa2c8901 141693624 nvidia-graphics-drivers-tesla-450_450.216.04.orig-amd64.tar.gz 23c039e95c30bdd45e4a5ff7b0a3b716 80547450 nvidia-graphics-drivers-tesla-450_450.216.04.orig-arm64.tar.gz 97009f35817af549d8bec52c9863ffbe 41034894 nvidia-graphics-drivers-tesla-450_450.216.04.orig-ppc64el.tar.gz 177953e80f65164b24e3db42976193cf 140 nvidia-graphics-drivers-tesla-450_450.216.04.orig.tar.gz fc417c7e7f222d1c798e0fdb48a33259 201356 nvidia-graphics-drivers-tesla-450_450.216.04-1~deb11u1.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -10139,7 +10139,7 @@
       "autopkgtest, autopkgtest-pkg-dkms"
     ],
     "Testsuite-Triggers": [
-      "linux-headers-686, linux-headers-686-pae, linux-headers-amd64, linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, linux-headers-cloud-amd64, linux-headers-cloud-arm64, linux-headers-powerpc64le, linux-headers-rt-686-pae, linux-headers-rt-amd64, linux-headers-rt-arm64, linux-headers-rt-armmp, module-assistant"
+      "linux-doc, linux-headers-686, linux-headers-686-pae, linux-headers-amd64, linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, linux-headers-cloud-amd64, linux-headers-cloud-arm64, linux-headers-powerpc64le, linux-headers-rt-686-pae, linux-headers-rt-amd64, linux-headers-rt-arm64, linux-headers-rt-armmp, module-assistant"
     ],
     "Uploaders": [
       "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
@@ -10148,10 +10148,10 @@
       "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers"
     ],
     "Vcs-Git": [
-      "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers.git -b tesla-450/master"
+      "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers.git -b tesla-450/main"
     ],
     "Version": [
-      "450.203.03-1~deb11u1"
+      "450.216.04-1~deb11u1"
     ]
   },
   {
@@ -10227,16 +10227,16 @@
       "nvidia-tesla-470-driver, nvidia-tesla-470-alternative, nvidia-tesla-470-kernel-support, nvidia-tesla-470-kernel-dkms, nvidia-tesla-470-kernel-source, xserver-xorg-video-nvidia-tesla-470, nvidia-tesla-470-driver-bin, libnvidia-tesla-470-cfg1, nvidia-tesla-470-driver-libs, libglx-nvidia-tesla-470-0, libgl1-nvidia-tesla-470-glvnd-glx, libnvidia-tesla-470-glcore, libegl-nvidia-tesla-470-0, libgles-nvidia-tesla-470-1, libgles-nvidia-tesla-470-2, libnvidia-tesla-470-eglcore, nvidia-tesla-470-egl-icd, nvidia-tesla-470-vdpau-driver, nvidia-tesla-470-vulkan-icd, libnvidia-tesla-470-glvkspirv, libnvidia-tesla-470-cbl, libnvidia-tesla-470-rtcore, nvidia-tesla-470-smi, libnvidia-tesla-470-ml1, nvidia-cuda-mps, libnvidia-tesla-470-cuda1, libnvidia-tesla-470-compiler, libnvidia-tesla-470-ptxjitcompiler1, libnvidia-tesla-470-nvvm4, libnvidia-tesla-470-nvcuvid1, libnvidia-tesla-470-encode1, libnvidia-tesla-470-ifr1, libnvidia-tesla-470-fbc1, libnvidia-tesla-470-nvoptix1, libnvidia-tesla-470-opticalflow1, libnvidia-tesla-470-allocator1, libnvidia-tesla-470-ngx1, nvidia-tesla-470-opencl-icd"
     ],
     "Build-Depends": [
-      "debhelper-compat (= 13), dh-sequence-dkms, dh-exec, libnvidia-egl-wayland1, libvulkan1 (\u003e= 1.0.42), libxext6, po-debconf, quilt, xz-utils, libglvnd-dev"
+      "debhelper-compat (= 13), dh-sequence-dkms, dh-exec, libnvidia-egl-wayland1, libvulkan1 (\u003e= 1.0.42), libxext6, po-debconf, quilt, xz-utils, linux-headers-amd64 [amd64] \u003c!nocheck\u003e, linux-headers-arm64 [arm64] \u003c!nocheck\u003e, linux-headers-powerpc64le [ppc64el] \u003c!nocheck\u003e, libglvnd-dev"
     ],
     "Checksums-Sha256": [
-      "85c66c7c4f54f26d841d76a2aa9f1582fdb817d5bb265345baf3aecc0dac3e39 8051 nvidia-graphics-drivers-tesla-470_470.141.03-1~deb11u1.dsc c59808154faec1c9f87d0bd0b97761807027b51df7fd27c9b3a4073b0d3b3f4c 272970754 nvidia-graphics-drivers-tesla-470_470.141.03.orig-amd64.tar.gz 0af3d0d34b6933dcf9f53aa81a3157bce139702e535331d5984f831b94696525 184399040 nvidia-graphics-drivers-tesla-470_470.141.03.orig-arm64.tar.gz a5c18f1b27a52e71258ef83a992cc240a3b591034de5d59c3af183f33eab95ca 67513010 nvidia-graphics-drivers-tesla-470_470.141.03.orig-ppc64el.tar.gz 8701466110c31ff6dd5ac47046cedf4e8ab449c9c9dab0a2a3c219f55c06fc0e 140 nvidia-graphics-drivers-tesla-470_470.141.03.orig.tar.gz 43e49b98124e53180299dc0c266c730fb27bbe0da875d5d81a4bdcb87700dfcc 211036 nvidia-graphics-drivers-tesla-470_470.141.03-1~deb11u1.debian.tar.xz"
+      "c816241df4e2dccf2344e4aff7d7f093f9674e6f986af3ee84462081f65a4b97 8188 nvidia-graphics-drivers-tesla-470_470.161.03-1~deb11u1.dsc 76f2338e5f6827e6237e29f11bd6cf7350042e068b895d37101107485f609eed 272382526 nvidia-graphics-drivers-tesla-470_470.161.03.orig-amd64.tar.gz e99d24fa054c44c659cd00e6cbf630ee9c9576da53254580f6b8c230302b1113 184356759 nvidia-graphics-drivers-tesla-470_470.161.03.orig-arm64.tar.gz 4f0388f56196e72f53fa8a7961d964fc52d5e6c78e49ca474089ac0e817016a2 67536258 nvidia-graphics-drivers-tesla-470_470.161.03.orig-ppc64el.tar.gz e9097c9c87d7a849db8a995f092ff13cb0c9ac833c60d612001dd2695edb6131 141 nvidia-graphics-drivers-tesla-470_470.161.03.orig.tar.gz c837de478d9daa8e8fa1a27f4cccac182edcdc0aa7a4ac8bcb37c4e38ae029e0 210652 nvidia-graphics-drivers-tesla-470_470.161.03-1~deb11u1.debian.tar.xz"
     ],
     "Directory": [
       "pool/non-free/n/nvidia-graphics-drivers-tesla-470"
     ],
     "Files": [
-      "e313d14b6ae5dce25dec39bd7f310560 8051 nvidia-graphics-drivers-tesla-470_470.141.03-1~deb11u1.dsc f73041c488d0ca2880e34ecd71e0889b 272970754 nvidia-graphics-drivers-tesla-470_470.141.03.orig-amd64.tar.gz bf7d0957a0c183c2bffad867bf65430d 184399040 nvidia-graphics-drivers-tesla-470_470.141.03.orig-arm64.tar.gz 11838d18aba2e42b23b71930952aae9a 67513010 nvidia-graphics-drivers-tesla-470_470.141.03.orig-ppc64el.tar.gz 670a7c645247a04b4fd9a07c1d2be0d0 140 nvidia-graphics-drivers-tesla-470_470.141.03.orig.tar.gz 3190845a716813f2a5c816d2d5d95dcd 211036 nvidia-graphics-drivers-tesla-470_470.141.03-1~deb11u1.debian.tar.xz"
+      "8a62e4fc1cc351cb83c768a605e1672f 8188 nvidia-graphics-drivers-tesla-470_470.161.03-1~deb11u1.dsc 5a37fb22665d7ed79b9ab67da07fb469 272382526 nvidia-graphics-drivers-tesla-470_470.161.03.orig-amd64.tar.gz b10a691a11949b935a362224555a2f89 184356759 nvidia-graphics-drivers-tesla-470_470.161.03.orig-arm64.tar.gz 7d008a20a05e3842cad75c16b46a82a9 67536258 nvidia-graphics-drivers-tesla-470_470.161.03.orig-ppc64el.tar.gz bea0852da52749a0f97443f402188c40 141 nvidia-graphics-drivers-tesla-470_470.161.03.orig.tar.gz 2be923ed23f38e17b0ecbdd871556027 210652 nvidia-graphics-drivers-tesla-470_470.161.03-1~deb11u1.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -10266,7 +10266,7 @@
       "autopkgtest, autopkgtest-pkg-dkms"
     ],
     "Testsuite-Triggers": [
-      "linux-headers-686, linux-headers-686-pae, linux-headers-amd64, linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, linux-headers-cloud-amd64, linux-headers-cloud-arm64, linux-headers-powerpc64le, linux-headers-rt-686-pae, linux-headers-rt-amd64, linux-headers-rt-arm64, linux-headers-rt-armmp, module-assistant"
+      "linux-doc, linux-headers-686, linux-headers-686-pae, linux-headers-amd64, linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, linux-headers-cloud-amd64, linux-headers-cloud-arm64, linux-headers-powerpc64le, linux-headers-rt-686-pae, linux-headers-rt-amd64, linux-headers-rt-arm64, linux-headers-rt-armmp, module-assistant"
     ],
     "Uploaders": [
       "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
@@ -10275,10 +10275,10 @@
       "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers"
     ],
     "Vcs-Git": [
-      "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers.git -b tesla-470/master"
+      "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers.git -b tesla-470/main"
     ],
     "Version": [
-      "470.141.03-1~deb11u1"
+      "470.161.03-1~deb11u1"
     ]
   },
   {
