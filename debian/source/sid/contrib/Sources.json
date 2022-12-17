@@ -8217,6 +8217,68 @@
   },
   {
     "Architecture": [
+      "any"
+    ],
+    "Binary": [
+      "librust-proton-call-dev, proton-caller"
+    ],
+    "Build-Depends": [
+      "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native, rustc:native, libstd-rust-dev, librust-bincode-1+default-dev (\u003e= 1.3.3-~~), librust-jargon-args-0.2+default-dev (\u003e= 0.2.5-~~), librust-lliw-0.2+default-dev, librust-serde-1+default-dev (\u003e= 1.0.132-~~), librust-serde-1+derive-dev (\u003e= 1.0.132-~~), librust-toml-0.5+default-dev (\u003e= 0.5.8-~~), help2man"
+    ],
+    "Checksums-Sha256": [
+      "05db81753aadf9b439935c63212dfd1a322000fb1fb4eba3517cd02cb0305c05 2547 rust-proton-call_3.1.1-1.dsc 1a2a0a4e411751f1f3d661daf262a2fc51d6a007280855aab73d6393e7ec4105 91228 rust-proton-call_3.1.1.orig.tar.gz 1f10dd5349a25d484e73d99a77b7f172956dde8df821f08ce2caf557b062f8e9 3296 rust-proton-call_3.1.1-1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/r/rust-proton-call"
+    ],
+    "Files": [
+      "c8546079a3d72c5abe33936f6e3161ca 2547 rust-proton-call_3.1.1-1.dsc 85c6b16a092579ad0a36818fe028d795 91228 rust-proton-call_3.1.1.orig.tar.gz 3958ab429923674d9cb9a9c22fb3ab00 3296 rust-proton-call_3.1.1-1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://github.com/caverym/proton-caller"
+    ],
+    "Maintainer": [
+      "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+    ],
+    "Package": [
+      "rust-proton-call"
+    ],
+    "Package-List": [
+      "librust-proton-call-dev deb contrib/otherosfs optional arch=any proton-caller deb contrib/otherosfs optional arch=any"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.1"
+    ],
+    "Testsuite": [
+      "autopkgtest"
+    ],
+    "Testsuite-Triggers": [
+      "dh-cargo"
+    ],
+    "Uploaders": [
+      "Ben Westover \u003cme@benthetechguy.net\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/proton-call"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/rust-team/debcargo-conf.git [src/proton-call]"
+    ],
+    "Version": [
+      "3.1.1-1"
+    ]
+  },
+  {
+    "Architecture": [
       "all"
     ],
     "Binary": [
