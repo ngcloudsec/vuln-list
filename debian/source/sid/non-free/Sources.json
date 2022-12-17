@@ -2529,6 +2529,62 @@
       "yes"
     ],
     "Binary": [
+      "firmware-linux, firmware-linux-nonfree, firmware-qcom-media, firmware-amd-graphics, firmware-atheros, firmware-bnx2, firmware-bnx2x, firmware-brcm80211, firmware-cavium, firmware-intel-sound, firmware-ipw2x00, firmware-ivtv, firmware-iwlwifi, firmware-libertas, firmware-misc-nonfree, firmware-myricom, firmware-netronome, firmware-netxen, firmware-qcom-soc, firmware-qlogic, firmware-realtek, firmware-samsung, firmware-siano, firmware-ti-connectivity"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13)"
+    ],
+    "Checksums-Sha256": [
+      "1118fcbee2ab4b530ae0155d24b2f74edacd8c5c8942ffa90272a48d453b405e 4060 firmware-nonfree_20221214-1.dsc 9c273a47b05f90cf2064a472ed39f4a100336cdf2fa857bd03b77ccce0e0c1d8 230915452 firmware-nonfree_20221214.orig.tar.xz b50d5e444348a86885ab8001c17bb546b2e465aa4d080567f527ff80d90978d3 827688 firmware-nonfree_20221214-1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/non-free/f/firmware-nonfree"
+    ],
+    "Files": [
+      "88630e184b9522efd1c980ba0c003045 4060 firmware-nonfree_20221214-1.dsc dfd303d7632392b17716c7edd5eb2737 230915452 firmware-nonfree_20221214.orig.tar.xz 374e0584f492ed11165669007314b616 827688 firmware-nonfree_20221214-1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Maintainer": [
+      "Debian Kernel Team \u003cdebian-kernel@lists.debian.org\u003e"
+    ],
+    "Package": [
+      "firmware-nonfree"
+    ],
+    "Package-List": [
+      "firmware-amd-graphics deb non-free/kernel optional arch=all firmware-atheros deb non-free/kernel optional arch=all firmware-bnx2 deb non-free/kernel optional arch=all firmware-bnx2x deb non-free/kernel optional arch=all firmware-brcm80211 deb non-free/kernel optional arch=all firmware-cavium deb non-free/kernel optional arch=all firmware-intel-sound deb non-free/kernel optional arch=all firmware-ipw2x00 deb non-free/kernel optional arch=all firmware-ivtv deb non-free/kernel optional arch=all firmware-iwlwifi deb non-free/kernel optional arch=all firmware-libertas deb non-free/kernel optional arch=all firmware-linux deb non-free/metapackages optional arch=all firmware-linux-nonfree deb non-free/metapackages optional arch=all firmware-misc-nonfree deb non-free/kernel optional arch=all firmware-myricom deb non-free/kernel optional arch=all firmware-netronome deb non-free/kernel optional arch=all firmware-netxen deb non-free/kernel optional arch=all firmware-qcom-media deb non-free/oldlibs optional arch=all firmware-qcom-soc deb non-free/kernel optional arch=all firmware-qlogic deb non-free/kernel optional arch=all firmware-realtek deb non-free/kernel optional arch=all firmware-samsung deb non-free/kernel optional arch=all firmware-siano deb non-free/kernel optional arch=all firmware-ti-connectivity deb non-free/kernel optional arch=all"
+    ],
+    "Priority": [
+      "source"
+    ],
+    "Section": [
+      "non-free/kernel"
+    ],
+    "Standards-Version": [
+      "4.0.1"
+    ],
+    "Uploaders": [
+      "Bastian Blank \u003cwaldi@debian.org\u003e, Steve Langasek \u003cvorlon@debian.org\u003e, maximilian attems \u003cmaks@debian.org\u003e, Ben Hutchings \u003cbenh@debian.org\u003e, Salvatore Bonaccorso \u003ccarnil@debian.org\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/kernel-team/firmware-nonfree"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/kernel-team/firmware-nonfree.git"
+    ],
+    "Version": [
+      "20221214-1"
+    ]
+  },
+  {
+    "Architecture": [
+      "all"
+    ],
+    "Autobuild": [
+      "yes"
+    ],
+    "Binary": [
       "firmware-sof-signed"
     ],
     "Build-Depends": [
@@ -3876,13 +3932,13 @@
       "gsfonts-other"
     ],
     "Checksums-Sha256": [
-      "822e10149b2db561c2bb19493119e7ae969a162f4fec09db91fc1019d7e78820 1533 gsfonts-other_6.0-4.1.dsc 8146cccc4699fe9dab841446bdd17039f4769c903eceb54409188b920754aab3 796086 gsfonts-other_6.0.orig.tar.gz 279cd7bebd293ec1af065ba03088f4352b461afc2df0068fab6f0de34c301b22 4464 gsfonts-other_6.0-4.1.debian.tar.xz"
+      "186f7c4d54a52ff9ea62b090ffea090c3faab264a71d4671d27424efdd0529fe 1683 gsfonts-other_6.0-4.2.dsc 8146cccc4699fe9dab841446bdd17039f4769c903eceb54409188b920754aab3 796086 gsfonts-other_6.0.orig.tar.gz 6ccff92b5546497b7a8e31c3a43aee122f50722bf0eb33e569cd7bfcbccd83b2 4520 gsfonts-other_6.0-4.2.debian.tar.xz"
     ],
     "Directory": [
       "pool/non-free/g/gsfonts-other"
     ],
     "Files": [
-      "3586cab07b8939206bef53ce3f25d286 1533 gsfonts-other_6.0-4.1.dsc 33457d3f37de7ef03d2eea05a9e6aa4f 796086 gsfonts-other_6.0.orig.tar.gz bc8214c6cb83f00b2055c98fdf7d160f 4464 gsfonts-other_6.0-4.1.debian.tar.xz"
+      "b50e1bd9f07a32d31c38aab02f903dcf 1683 gsfonts-other_6.0-4.2.dsc 33457d3f37de7ef03d2eea05a9e6aa4f 796086 gsfonts-other_6.0.orig.tar.gz fc6e2ba2be1da5343739384aa2cb7b78 4520 gsfonts-other_6.0-4.2.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -3906,7 +3962,7 @@
       "3.9.2"
     ],
     "Version": [
-      "6.0-4.1"
+      "6.0-4.2"
     ]
   },
   {
@@ -15456,68 +15512,6 @@
     ],
     "Version": [
       "2.5-9"
-    ]
-  },
-  {
-    "Architecture": [
-      "any all"
-    ],
-    "Autobuild": [
-      "yes"
-    ],
-    "Binary": [
-      "unrar, libunrar5, libunrar-dev, libunrar-headers"
-    ],
-    "Build-Depends": [
-      "debhelper-compat (= 13), dh-exec"
-    ],
-    "Checksums-Sha256": [
-      "9a85e0c34669ccd7a716b2600c93145fd58c235c6e728a6fb3ac717c82a094b8 2309 unrar-nonfree_6.2.2-2.dsc 477d6ca7e246caec5412cc83b36c15a4ac837726a892df022919800129107cd5 243051 unrar-nonfree_6.2.2.orig.tar.gz babe88c57494621369018876a249a54601ef99173349a23fb9c7d861c0a30b5d 14044 unrar-nonfree_6.2.2-2.debian.tar.xz"
-    ],
-    "Directory": [
-      "pool/non-free/u/unrar-nonfree"
-    ],
-    "Files": [
-      "600637ab1a85d1eaf1dcd84178a9ed26 2309 unrar-nonfree_6.2.2-2.dsc d4efcc8ecf82ef747fad02aa6b3197a6 243051 unrar-nonfree_6.2.2.orig.tar.gz 2af9a3421ad18693230df00615fc22ec 14044 unrar-nonfree_6.2.2-2.debian.tar.xz"
-    ],
-    "Format": [
-      "3.0 (quilt)"
-    ],
-    "Homepage": [
-      "https://www.rarlab.com/"
-    ],
-    "Maintainer": [
-      "UnRar maintainer team \u003cteam+unrar-nonfree@tracker.debian.org\u003e"
-    ],
-    "Package": [
-      "unrar-nonfree"
-    ],
-    "Package-List": [
-      "libunrar-dev deb non-free/libdevel optional arch=any libunrar-headers deb non-free/libdevel optional arch=all libunrar5 deb non-free/libs optional arch=any unrar deb non-free/utils optional arch=any"
-    ],
-    "Priority": [
-      "source"
-    ],
-    "Section": [
-      "non-free/utils"
-    ],
-    "Standards-Version": [
-      "4.6.1"
-    ],
-    "Testsuite": [
-      "autopkgtest"
-    ],
-    "Uploaders": [
-      "Martin Meredith \u003cmez@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, YOKOTA Hiroshi \u003cyokota.hgml@gmail.com\u003e,"
-    ],
-    "Vcs-Browser": [
-      "https://github.com/debian-calibre/unrar-nonfree"
-    ],
-    "Vcs-Git": [
-      "https://github.com/debian-calibre/unrar-nonfree.git"
-    ],
-    "Version": [
-      "1:6.2.2-2"
     ]
   },
   {
