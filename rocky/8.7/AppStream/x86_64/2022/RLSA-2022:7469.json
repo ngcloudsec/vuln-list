@@ -11,69 +11,6 @@
   "description": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\nAdditional Changes:\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
   "packages": [
     {
-      "name": "libslirp",
-      "epoch": "0",
-      "version": "4.4.0",
-      "release": "1.module+el8.7.0+1078+e72fcd4f",
-      "arch": "x86_64",
-      "src": "libslirp-4.4.0-1.module+el8.7.0+1078+e72fcd4f.src.rpm",
-      "filename": "libslirp-4.4.0-1.module+el8.7.0+1078+e72fcd4f.x86_64.rpm"
-    },
-    {
-      "name": "libslirp-devel",
-      "epoch": "0",
-      "version": "4.4.0",
-      "release": "1.module+el8.7.0+1078+e72fcd4f",
-      "arch": "x86_64",
-      "src": "libslirp-4.4.0-1.module+el8.7.0+1078+e72fcd4f.src.rpm",
-      "filename": "libslirp-devel-4.4.0-1.module+el8.7.0+1078+e72fcd4f.x86_64.rpm"
-    },
-    {
-      "name": "conmon",
-      "epoch": "2",
-      "version": "2.1.4",
-      "release": "1.module+el8.7.0+1077+0e4f03d4",
-      "arch": "x86_64",
-      "src": "conmon-2.1.4-1.module+el8.7.0+1077+0e4f03d4.src.rpm",
-      "filename": "conmon-2.1.4-1.module+el8.7.0+1077+0e4f03d4.x86_64.rpm"
-    },
-    {
-      "name": "crun",
-      "epoch": "0",
-      "version": "1.5",
-      "release": "1.module+el8.7.0+1077+0e4f03d4",
-      "arch": "x86_64",
-      "src": "crun-1.5-1.module+el8.7.0+1077+0e4f03d4.src.rpm",
-      "filename": "crun-1.5-1.module+el8.7.0+1077+0e4f03d4.x86_64.rpm"
-    },
-    {
-      "name": "libslirp",
-      "epoch": "0",
-      "version": "4.4.0",
-      "release": "1.module+el8.7.0+1078+e72fcd4f",
-      "arch": "x86_64",
-      "src": "libslirp-4.4.0-1.module+el8.7.0+1078+e72fcd4f.src.rpm",
-      "filename": "libslirp-4.4.0-1.module+el8.7.0+1078+e72fcd4f.x86_64.rpm"
-    },
-    {
-      "name": "libslirp-devel",
-      "epoch": "0",
-      "version": "4.4.0",
-      "release": "1.module+el8.7.0+1078+e72fcd4f",
-      "arch": "x86_64",
-      "src": "libslirp-4.4.0-1.module+el8.7.0+1078+e72fcd4f.src.rpm",
-      "filename": "libslirp-devel-4.4.0-1.module+el8.7.0+1078+e72fcd4f.x86_64.rpm"
-    },
-    {
-      "name": "udica",
-      "epoch": "0",
-      "version": "0.2.6",
-      "release": "3.module+el8.7.0+1078+e72fcd4f",
-      "arch": "noarch",
-      "src": "udica-0.2.6-3.module+el8.7.0+1078+e72fcd4f.src.rpm",
-      "filename": "udica-0.2.6-3.module+el8.7.0+1078+e72fcd4f.noarch.rpm"
-    },
-    {
       "name": "cockpit-podman",
       "epoch": "0",
       "version": "46",
@@ -81,42 +18,6 @@
       "arch": "noarch",
       "src": "cockpit-podman-46-1.module+el8.7.0+1077+0e4f03d4.src.rpm",
       "filename": "cockpit-podman-46-1.module+el8.7.0+1077+0e4f03d4.noarch.rpm"
-    },
-    {
-      "name": "conmon",
-      "epoch": "2",
-      "version": "2.1.4",
-      "release": "1.module+el8.7.0+1077+0e4f03d4",
-      "arch": "x86_64",
-      "src": "conmon-2.1.4-1.module+el8.7.0+1077+0e4f03d4.src.rpm",
-      "filename": "conmon-2.1.4-1.module+el8.7.0+1077+0e4f03d4.x86_64.rpm"
-    },
-    {
-      "name": "crun",
-      "epoch": "0",
-      "version": "1.5",
-      "release": "1.module+el8.7.0+1077+0e4f03d4",
-      "arch": "x86_64",
-      "src": "crun-1.5-1.module+el8.7.0+1077+0e4f03d4.src.rpm",
-      "filename": "crun-1.5-1.module+el8.7.0+1077+0e4f03d4.x86_64.rpm"
-    },
-    {
-      "name": "libslirp",
-      "epoch": "0",
-      "version": "4.4.0",
-      "release": "1.module+el8.7.0+1078+e72fcd4f",
-      "arch": "x86_64",
-      "src": "libslirp-4.4.0-1.module+el8.7.0+1078+e72fcd4f.src.rpm",
-      "filename": "libslirp-4.4.0-1.module+el8.7.0+1078+e72fcd4f.x86_64.rpm"
-    },
-    {
-      "name": "libslirp-devel",
-      "epoch": "0",
-      "version": "4.4.0",
-      "release": "1.module+el8.7.0+1078+e72fcd4f",
-      "arch": "x86_64",
-      "src": "libslirp-4.4.0-1.module+el8.7.0+1078+e72fcd4f.src.rpm",
-      "filename": "libslirp-devel-4.4.0-1.module+el8.7.0+1078+e72fcd4f.x86_64.rpm"
     },
     {
       "name": "python3-podman",
@@ -153,15 +54,6 @@
       "arch": "x86_64",
       "src": "toolbox-0.0.99.3-0.5.module+el8.7.0+1077+0e4f03d4.src.rpm",
       "filename": "toolbox-tests-0.0.99.3-0.5.module+el8.7.0+1077+0e4f03d4.x86_64.rpm"
-    },
-    {
-      "name": "udica",
-      "epoch": "0",
-      "version": "0.2.6",
-      "release": "3.module+el8.7.0+1078+e72fcd4f",
-      "arch": "noarch",
-      "src": "udica-0.2.6-3.module+el8.7.0+1078+e72fcd4f.src.rpm",
-      "filename": "udica-0.2.6-3.module+el8.7.0+1078+e72fcd4f.noarch.rpm"
     }
   ],
   "references": [
