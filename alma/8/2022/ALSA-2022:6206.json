@@ -8,105 +8,9 @@
     "$date": 1661731200000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-baseos-rpms__8_6_default",
-    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_6_default",
+    "name": "almalinux-8-for-x86_64-baseos-rpms__8_6_default",
+    "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_6_default",
     "packages": [
-      {
-        "name": "systemd-udev",
-        "version": "239",
-        "release": "58.el8_6.4",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "systemd-239-58.el8_6.4.src.rpm",
-        "filename": "systemd-udev-239-58.el8_6.4.aarch64.rpm",
-        "sum": "4bde443b38836b928a5fa6a45391e5b382f98b08d087bb97ca5877ab7b326d12",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "systemd",
-        "version": "239",
-        "release": "58.el8_6.4",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "systemd-239-58.el8_6.4.src.rpm",
-        "filename": "systemd-239-58.el8_6.4.aarch64.rpm",
-        "sum": "5b2a9959d6f7fd57093d648aba3cf5290ab4a9ab9f46b359abb51042201f034a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "systemd-pam",
-        "version": "239",
-        "release": "58.el8_6.4",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "systemd-239-58.el8_6.4.src.rpm",
-        "filename": "systemd-pam-239-58.el8_6.4.aarch64.rpm",
-        "sum": "998866f9f6a44a04873ff4f2ad98a755bd294d7e68ab07e2dc3a1a39206fe61c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "systemd-tests",
-        "version": "239",
-        "release": "58.el8_6.4",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "systemd-239-58.el8_6.4.src.rpm",
-        "filename": "systemd-tests-239-58.el8_6.4.aarch64.rpm",
-        "sum": "9bad4492394009d221ae91ba60461db90d5c1440fce42e7ea349404c63c41dae",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "systemd-journal-remote",
-        "version": "239",
-        "release": "58.el8_6.4",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "systemd-239-58.el8_6.4.src.rpm",
-        "filename": "systemd-journal-remote-239-58.el8_6.4.aarch64.rpm",
-        "sum": "a2356bb86857a33ab0fd1875de9e7b62fee9350674a73e61ae6f5e52a7c8b11b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "systemd-libs",
-        "version": "239",
-        "release": "58.el8_6.4",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "systemd-239-58.el8_6.4.src.rpm",
-        "filename": "systemd-libs-239-58.el8_6.4.aarch64.rpm",
-        "sum": "da0acfb8483429ff4878bbb3822021d05992a75eb6629ea6e62c7d09f2dd572a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "systemd-container",
-        "version": "239",
-        "release": "58.el8_6.4",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "systemd-239-58.el8_6.4.src.rpm",
-        "filename": "systemd-container-239-58.el8_6.4.aarch64.rpm",
-        "sum": "dbe2a1d21076e9c28a3d758e9648a05f26f25778ace76cae61ab630423545206",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "systemd-devel",
-        "version": "239",
-        "release": "58.el8_6.4",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "systemd-239-58.el8_6.4.src.rpm",
-        "filename": "systemd-devel-239-58.el8_6.4.aarch64.rpm",
-        "sum": "ef771453f6fab2722fd80864cdf4c9e167770b6928f09147ed3bb76c90d0c92c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "systemd-libs",
         "version": "239",
@@ -248,6 +152,102 @@
         "src": "systemd-239-58.el8_6.4.src.rpm",
         "filename": "systemd-devel-239-58.el8_6.4.i686.rpm",
         "sum": "f35f07dd001ffc4bc0aacf728f24a696af81e4508045108e1ee02a59db39f382",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "systemd-udev",
+        "version": "239",
+        "release": "58.el8_6.4",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "systemd-239-58.el8_6.4.src.rpm",
+        "filename": "systemd-udev-239-58.el8_6.4.aarch64.rpm",
+        "sum": "4bde443b38836b928a5fa6a45391e5b382f98b08d087bb97ca5877ab7b326d12",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "systemd",
+        "version": "239",
+        "release": "58.el8_6.4",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "systemd-239-58.el8_6.4.src.rpm",
+        "filename": "systemd-239-58.el8_6.4.aarch64.rpm",
+        "sum": "5b2a9959d6f7fd57093d648aba3cf5290ab4a9ab9f46b359abb51042201f034a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "systemd-pam",
+        "version": "239",
+        "release": "58.el8_6.4",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "systemd-239-58.el8_6.4.src.rpm",
+        "filename": "systemd-pam-239-58.el8_6.4.aarch64.rpm",
+        "sum": "998866f9f6a44a04873ff4f2ad98a755bd294d7e68ab07e2dc3a1a39206fe61c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "systemd-tests",
+        "version": "239",
+        "release": "58.el8_6.4",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "systemd-239-58.el8_6.4.src.rpm",
+        "filename": "systemd-tests-239-58.el8_6.4.aarch64.rpm",
+        "sum": "9bad4492394009d221ae91ba60461db90d5c1440fce42e7ea349404c63c41dae",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "systemd-journal-remote",
+        "version": "239",
+        "release": "58.el8_6.4",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "systemd-239-58.el8_6.4.src.rpm",
+        "filename": "systemd-journal-remote-239-58.el8_6.4.aarch64.rpm",
+        "sum": "a2356bb86857a33ab0fd1875de9e7b62fee9350674a73e61ae6f5e52a7c8b11b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "systemd-libs",
+        "version": "239",
+        "release": "58.el8_6.4",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "systemd-239-58.el8_6.4.src.rpm",
+        "filename": "systemd-libs-239-58.el8_6.4.aarch64.rpm",
+        "sum": "da0acfb8483429ff4878bbb3822021d05992a75eb6629ea6e62c7d09f2dd572a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "systemd-container",
+        "version": "239",
+        "release": "58.el8_6.4",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "systemd-239-58.el8_6.4.src.rpm",
+        "filename": "systemd-container-239-58.el8_6.4.aarch64.rpm",
+        "sum": "dbe2a1d21076e9c28a3d758e9648a05f26f25778ace76cae61ab630423545206",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "systemd-devel",
+        "version": "239",
+        "release": "58.el8_6.4",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "systemd-239-58.el8_6.4.src.rpm",
+        "filename": "systemd-devel-239-58.el8_6.4.aarch64.rpm",
+        "sum": "ef771453f6fab2722fd80864cdf4c9e167770b6928f09147ed3bb76c90d0c92c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -482,7 +482,7 @@
   "title": "Important: systemd security update",
   "type": "security",
   "updated_date": {
-    "$date": 1662108752000
+    "$date": 1662108754000
   },
   "version": "1"
 }

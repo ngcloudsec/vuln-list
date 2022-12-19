@@ -8,57 +8,9 @@
     "$date": 1656547200000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-baseos-rpms__8_6_default",
-    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_6_default",
+    "name": "almalinux-8-for-x86_64-baseos-rpms__8_6_default",
+    "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_6_default",
     "packages": [
-      {
-        "name": "curl",
-        "version": "7.61.1",
-        "release": "22.el8_6.3",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
-        "filename": "curl-7.61.1-22.el8_6.3.aarch64.rpm",
-        "sum": "b99917ca74325e9f36d540906621d98da28c8174f6224caaeac65bb6dbe52493",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libcurl",
-        "version": "7.61.1",
-        "release": "22.el8_6.3",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
-        "filename": "libcurl-7.61.1-22.el8_6.3.aarch64.rpm",
-        "sum": "e3c8f80e702b0c0bdb9ab460008f6b702dd100f389eca734b832432763242d29",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libcurl-devel",
-        "version": "7.61.1",
-        "release": "22.el8_6.3",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
-        "filename": "libcurl-devel-7.61.1-22.el8_6.3.aarch64.rpm",
-        "sum": "f07127a9aba8e71f4e015e0bbc1f511efcc6d7d830b8f8ea80bc1336a49f1bed",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libcurl-minimal",
-        "version": "7.61.1",
-        "release": "22.el8_6.3",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
-        "filename": "libcurl-minimal-7.61.1-22.el8_6.3.aarch64.rpm",
-        "sum": "fbd024cc955f816e0edd333b07d23ba5eea455b59fc85543e03787c6f5e7ce59",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "libcurl",
         "version": "7.61.1",
@@ -144,6 +96,54 @@
         "reboot_suggested": 0
       },
       {
+        "name": "curl",
+        "version": "7.61.1",
+        "release": "22.el8_6.3",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
+        "filename": "curl-7.61.1-22.el8_6.3.aarch64.rpm",
+        "sum": "b99917ca74325e9f36d540906621d98da28c8174f6224caaeac65bb6dbe52493",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libcurl",
+        "version": "7.61.1",
+        "release": "22.el8_6.3",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
+        "filename": "libcurl-7.61.1-22.el8_6.3.aarch64.rpm",
+        "sum": "e3c8f80e702b0c0bdb9ab460008f6b702dd100f389eca734b832432763242d29",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libcurl-devel",
+        "version": "7.61.1",
+        "release": "22.el8_6.3",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
+        "filename": "libcurl-devel-7.61.1-22.el8_6.3.aarch64.rpm",
+        "sum": "f07127a9aba8e71f4e015e0bbc1f511efcc6d7d830b8f8ea80bc1336a49f1bed",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libcurl-minimal",
+        "version": "7.61.1",
+        "release": "22.el8_6.3",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "curl-7.61.1-22.el8_6.3.src.rpm",
+        "filename": "libcurl-minimal-7.61.1-22.el8_6.3.aarch64.rpm",
+        "sum": "fbd024cc955f816e0edd333b07d23ba5eea455b59fc85543e03787c6f5e7ce59",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libcurl-minimal",
         "version": "7.61.1",
         "release": "22.el8_6.3",
@@ -200,31 +200,31 @@
       "href": "https://access.redhat.com/errata/RHSA-2022:5313",
       "type": "rhsa",
       "id": "RHSA-2022:5313",
-      "title": ""
+      "title": "RHSA-2022:5313"
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-22576",
       "type": "cve",
       "id": "CVE-2022-22576",
-      "title": ""
+      "title": "CVE-2022-22576"
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-27774",
       "type": "cve",
       "id": "CVE-2022-27774",
-      "title": ""
+      "title": "CVE-2022-27774"
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-27776",
       "type": "cve",
       "id": "CVE-2022-27776",
-      "title": ""
+      "title": "CVE-2022-27776"
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-27782",
       "type": "cve",
       "id": "CVE-2022-27782",
-      "title": ""
+      "title": "CVE-2022-27782"
     },
     {
       "href": "https://bugzilla.redhat.com/2077541",
@@ -266,7 +266,7 @@
   "title": "Moderate: curl security update",
   "type": "security",
   "updated_date": {
-    "$date": 1658751879000
+    "$date": 1658751970000
   },
   "version": "1"
 }

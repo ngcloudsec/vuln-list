@@ -24,6 +24,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "idm-pki-symkey",
+        "version": "10.12.0",
+        "release": "4.module_el8.7.0+3316+50b99934",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "pki-core-10.12.0-4.module_el8.7.0+3316+50b99934.src.rpm",
+        "filename": "idm-pki-symkey-10.12.0-4.module_el8.7.0+3316+50b99934.x86_64.rpm",
+        "sum": "09a12d5a37384e0ebba4881369ee8d79e0f1c0a1e6bb33518aa2723b1408676f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "python3-idm-pki",
         "version": "10.12.0",
         "release": "4.module_el8.7.0+3316+50b99934",
@@ -44,18 +56,6 @@
         "src": "pki-core-10.12.0-4.module_el8.7.0+3316+50b99934.src.rpm",
         "filename": "idm-pki-ca-10.12.0-4.module_el8.7.0+3316+50b99934.noarch.rpm",
         "sum": "3c6bc9643839ffaeaa51044b728087d6aa76ce88364150cd6d99c479f1af5d12",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "idm-pki-tools",
-        "version": "10.12.0",
-        "release": "4.module_el8.7.0+3316+50b99934",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "pki-core-10.12.0-4.module_el8.7.0+3316+50b99934.src.rpm",
-        "filename": "idm-pki-tools-10.12.0-4.module_el8.7.0+3316+50b99934.s390x.rpm",
-        "sum": "473b80ea988a01032df59130848f8c20574988beb2b52504b2b904cc7cee0764",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -84,18 +84,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "idm-pki-symkey",
-        "version": "10.12.0",
-        "release": "4.module_el8.7.0+3316+50b99934",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "pki-core-10.12.0-4.module_el8.7.0+3316+50b99934.src.rpm",
-        "filename": "idm-pki-symkey-10.12.0-4.module_el8.7.0+3316+50b99934.s390x.rpm",
-        "sum": "e57761bca39e33164771515b2c142918907d6f291ac9fb6e9dae88968a7a6159",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "idm-pki-server",
         "version": "10.12.0",
         "release": "4.module_el8.7.0+3316+50b99934",
@@ -104,6 +92,18 @@
         "src": "pki-core-10.12.0-4.module_el8.7.0+3316+50b99934.src.rpm",
         "filename": "idm-pki-server-10.12.0-4.module_el8.7.0+3316+50b99934.noarch.rpm",
         "sum": "e992bc539342b866b92f76af88ccc0f8301747ffe82ea61d6ddbb1923984a168",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "idm-pki-tools",
+        "version": "10.12.0",
+        "release": "4.module_el8.7.0+3316+50b99934",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "pki-core-10.12.0-4.module_el8.7.0+3316+50b99934.src.rpm",
+        "filename": "idm-pki-tools-10.12.0-4.module_el8.7.0+3316+50b99934.x86_64.rpm",
+        "sum": "f55a6108567876287c22a5cd38a306c5af14ebc2a9ab84c5e7bf3e8004180742",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -132,26 +132,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "idm-pki-symkey",
-        "version": "10.12.0",
-        "release": "4.module_el8.7.0+3316+50b99934",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "pki-core-10.12.0-4.module_el8.7.0+3316+50b99934.src.rpm",
-        "filename": "idm-pki-symkey-10.12.0-4.module_el8.7.0+3316+50b99934.x86_64.rpm",
-        "sum": "09a12d5a37384e0ebba4881369ee8d79e0f1c0a1e6bb33518aa2723b1408676f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "idm-pki-tools",
         "version": "10.12.0",
         "release": "4.module_el8.7.0+3316+50b99934",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "s390x",
         "src": "pki-core-10.12.0-4.module_el8.7.0+3316+50b99934.src.rpm",
-        "filename": "idm-pki-tools-10.12.0-4.module_el8.7.0+3316+50b99934.x86_64.rpm",
-        "sum": "f55a6108567876287c22a5cd38a306c5af14ebc2a9ab84c5e7bf3e8004180742",
+        "filename": "idm-pki-tools-10.12.0-4.module_el8.7.0+3316+50b99934.s390x.rpm",
+        "sum": "473b80ea988a01032df59130848f8c20574988beb2b52504b2b904cc7cee0764",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -160,22 +148,10 @@
         "version": "10.12.0",
         "release": "4.module_el8.7.0+3316+50b99934",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "s390x",
         "src": "pki-core-10.12.0-4.module_el8.7.0+3316+50b99934.src.rpm",
-        "filename": "idm-pki-symkey-10.12.0-4.module_el8.7.0+3316+50b99934.ppc64le.rpm",
-        "sum": "74c0a772c4eacb48a6f16102603d55ce687b33fe366989106ad4d7f74daee7e3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "idm-pki-tools",
-        "version": "10.12.0",
-        "release": "4.module_el8.7.0+3316+50b99934",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "pki-core-10.12.0-4.module_el8.7.0+3316+50b99934.src.rpm",
-        "filename": "idm-pki-tools-10.12.0-4.module_el8.7.0+3316+50b99934.ppc64le.rpm",
-        "sum": "8b592c582f35eec112c2b069f7e8b8c679b80284c99a211e89aa7a4d82438952",
+        "filename": "idm-pki-symkey-10.12.0-4.module_el8.7.0+3316+50b99934.s390x.rpm",
+        "sum": "e57761bca39e33164771515b2c142918907d6f291ac9fb6e9dae88968a7a6159",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -200,6 +176,30 @@
         "src": "pki-core-10.12.0-4.module_el8.7.0+3316+50b99934.src.rpm",
         "filename": "idm-pki-symkey-10.12.0-4.module_el8.7.0+3316+50b99934.aarch64.rpm",
         "sum": "e4794fc0f9e3776168bbd82361c60e53b3465aa8b790ab528d728aed9b0f43a7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "idm-pki-symkey",
+        "version": "10.12.0",
+        "release": "4.module_el8.7.0+3316+50b99934",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "pki-core-10.12.0-4.module_el8.7.0+3316+50b99934.src.rpm",
+        "filename": "idm-pki-symkey-10.12.0-4.module_el8.7.0+3316+50b99934.ppc64le.rpm",
+        "sum": "74c0a772c4eacb48a6f16102603d55ce687b33fe366989106ad4d7f74daee7e3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "idm-pki-tools",
+        "version": "10.12.0",
+        "release": "4.module_el8.7.0+3316+50b99934",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "pki-core-10.12.0-4.module_el8.7.0+3316+50b99934.src.rpm",
+        "filename": "idm-pki-tools-10.12.0-4.module_el8.7.0+3316+50b99934.ppc64le.rpm",
+        "sum": "8b592c582f35eec112c2b069f7e8b8c679b80284c99a211e89aa7a4d82438952",
         "sum_type": 5,
         "reboot_suggested": 0
       }

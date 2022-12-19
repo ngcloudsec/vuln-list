@@ -8,33 +8,9 @@
     "$date": 1656547200000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-baseos-rpms__8_6_default",
-    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_6_default",
+    "name": "almalinux-8-for-x86_64-baseos-rpms__8_6_default",
+    "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_6_default",
     "packages": [
-      {
-        "name": "expat",
-        "version": "2.2.5",
-        "release": "8.el8_6.2",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "expat-2.2.5-8.el8_6.2.src.rpm",
-        "filename": "expat-2.2.5-8.el8_6.2.aarch64.rpm",
-        "sum": "2b382bf2e190a7aa2d695a9e21f8843a03ad457d37e905f1ec1ba97face2f18a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "expat-devel",
-        "version": "2.2.5",
-        "release": "8.el8_6.2",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "expat-2.2.5-8.el8_6.2.src.rpm",
-        "filename": "expat-devel-2.2.5-8.el8_6.2.aarch64.rpm",
-        "sum": "48721b6f0033081972e5794a3548a241cd208a04276e483b67bcf3da912b8d14",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "expat-devel",
         "version": "2.2.5",
@@ -88,6 +64,30 @@
         "version": "2.2.5",
         "release": "8.el8_6.2",
         "epoch": "0",
+        "arch": "aarch64",
+        "src": "expat-2.2.5-8.el8_6.2.src.rpm",
+        "filename": "expat-2.2.5-8.el8_6.2.aarch64.rpm",
+        "sum": "2b382bf2e190a7aa2d695a9e21f8843a03ad457d37e905f1ec1ba97face2f18a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "expat-devel",
+        "version": "2.2.5",
+        "release": "8.el8_6.2",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "expat-2.2.5-8.el8_6.2.src.rpm",
+        "filename": "expat-devel-2.2.5-8.el8_6.2.aarch64.rpm",
+        "sum": "48721b6f0033081972e5794a3548a241cd208a04276e483b67bcf3da912b8d14",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "expat",
+        "version": "2.2.5",
+        "release": "8.el8_6.2",
+        "epoch": "0",
         "arch": "ppc64le",
         "src": "expat-2.2.5-8.el8_6.2.src.rpm",
         "filename": "expat-2.2.5-8.el8_6.2.ppc64le.rpm",
@@ -116,19 +116,19 @@
       "href": "https://access.redhat.com/errata/RHSA-2022:5314",
       "type": "rhsa",
       "id": "RHSA-2022:5314",
-      "title": ""
+      "title": "RHSA-2022:5314"
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-25313",
       "type": "cve",
       "id": "CVE-2022-25313",
-      "title": ""
+      "title": "CVE-2022-25313"
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-25314",
       "type": "cve",
       "id": "CVE-2022-25314",
-      "title": ""
+      "title": "CVE-2022-25314"
     },
     {
       "href": "https://bugzilla.redhat.com/2056350",
@@ -158,7 +158,7 @@
   "title": "Moderate: expat security update",
   "type": "security",
   "updated_date": {
-    "$date": 1658425540000
+    "$date": 1658425557000
   },
   "version": "1"
 }

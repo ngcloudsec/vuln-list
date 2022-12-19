@@ -60,42 +60,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "sqlite",
-        "version": "3.26.0",
-        "release": "16.el8_6",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "sqlite-3.26.0-16.el8_6.src.rpm",
-        "filename": "sqlite-3.26.0-16.el8_6.aarch64.rpm",
-        "sum": "1213c355300e452374a435aec99c4187c7978fbcf612e1c8bfb3ea93e5594721",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "sqlite-devel",
-        "version": "3.26.0",
-        "release": "16.el8_6",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "sqlite-3.26.0-16.el8_6.src.rpm",
-        "filename": "sqlite-devel-3.26.0-16.el8_6.aarch64.rpm",
-        "sum": "96e1832d5a7402c2688e6a4838c409d4ef65764db8f972eacdb2e1ede6dfa3a7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "sqlite-libs",
-        "version": "3.26.0",
-        "release": "16.el8_6",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "sqlite-3.26.0-16.el8_6.src.rpm",
-        "filename": "sqlite-libs-3.26.0-16.el8_6.aarch64.rpm",
-        "sum": "ec8497703cc852d7fbe619a4d8e0dd0d0ca49fcb8caef4bc507fc58d12ae6a17",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "sqlite-libs",
         "version": "3.26.0",
         "release": "16.el8_6",
@@ -136,6 +100,42 @@
         "version": "3.26.0",
         "release": "16.el8_6",
         "epoch": "0",
+        "arch": "aarch64",
+        "src": "sqlite-3.26.0-16.el8_6.src.rpm",
+        "filename": "sqlite-3.26.0-16.el8_6.aarch64.rpm",
+        "sum": "1213c355300e452374a435aec99c4187c7978fbcf612e1c8bfb3ea93e5594721",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "sqlite-devel",
+        "version": "3.26.0",
+        "release": "16.el8_6",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "sqlite-3.26.0-16.el8_6.src.rpm",
+        "filename": "sqlite-devel-3.26.0-16.el8_6.aarch64.rpm",
+        "sum": "96e1832d5a7402c2688e6a4838c409d4ef65764db8f972eacdb2e1ede6dfa3a7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "sqlite-libs",
+        "version": "3.26.0",
+        "release": "16.el8_6",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "sqlite-3.26.0-16.el8_6.src.rpm",
+        "filename": "sqlite-libs-3.26.0-16.el8_6.aarch64.rpm",
+        "sum": "ec8497703cc852d7fbe619a4d8e0dd0d0ca49fcb8caef4bc507fc58d12ae6a17",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "sqlite",
+        "version": "3.26.0",
+        "release": "16.el8_6",
+        "epoch": "0",
         "arch": "ppc64le",
         "src": "sqlite-3.26.0-16.el8_6.src.rpm",
         "filename": "sqlite-3.26.0-16.el8_6.ppc64le.rpm",
@@ -164,6 +164,18 @@
         "src": "sqlite-3.26.0-16.el8_6.src.rpm",
         "filename": "sqlite-devel-3.26.0-16.el8_6.ppc64le.rpm",
         "sum": "f18525e64987ad8bf5998db9f21139269bcc3256758874cd226c7eaeef646583",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "lemon",
+        "version": "3.26.0",
+        "release": "16.el8_6",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "sqlite-3.26.0-16.el8_6.src.rpm",
+        "filename": "lemon-3.26.0-16.el8_6.x86_64.rpm",
+        "sum": "1bb15fb2e1db1df811ff7c24e9f63fb25cad39ec4acfc1e662ce57edeab2b8ef",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -220,10 +232,10 @@
         "version": "3.26.0",
         "release": "16.el8_6",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "sqlite-3.26.0-16.el8_6.src.rpm",
-        "filename": "lemon-3.26.0-16.el8_6.x86_64.rpm",
-        "sum": "1bb15fb2e1db1df811ff7c24e9f63fb25cad39ec4acfc1e662ce57edeab2b8ef",
+        "filename": "lemon-3.26.0-16.el8_6.aarch64.rpm",
+        "sum": "e79635089ff45f3619803ca81abe5b996d3c785785b6ff4058c402f4af21e467",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -236,18 +248,6 @@
         "src": "sqlite-3.26.0-16.el8_6.src.rpm",
         "filename": "lemon-3.26.0-16.el8_6.ppc64le.rpm",
         "sum": "1a52c917cf0b08049e2cc5fd5dd6983d9bb59e2226096152c85d8ad7dedfc107",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "lemon",
-        "version": "3.26.0",
-        "release": "16.el8_6",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "sqlite-3.26.0-16.el8_6.src.rpm",
-        "filename": "lemon-3.26.0-16.el8_6.aarch64.rpm",
-        "sum": "e79635089ff45f3619803ca81abe5b996d3c785785b6ff4058c402f4af21e467",
         "sum_type": 5,
         "reboot_suggested": 0
       }

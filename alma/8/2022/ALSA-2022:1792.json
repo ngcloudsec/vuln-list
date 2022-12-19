@@ -8,69 +8,9 @@
     "$date": 1652169699000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
-      {
-        "name": "flatpak",
-        "version": "1.8.7",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "flatpak-1.8.7-1.el8.src.rpm",
-        "filename": "flatpak-1.8.7-1.el8.aarch64.rpm",
-        "sum": "287d9e91420724d125ce9932e2117f9147559c38cee3a52a3c1aa85a5da96889",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "flatpak-devel",
-        "version": "1.8.7",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "flatpak-1.8.7-1.el8.src.rpm",
-        "filename": "flatpak-devel-1.8.7-1.el8.aarch64.rpm",
-        "sum": "69d3838bd2fa5498ff9d255f36ee820632d87299229cc968a8bcd12f71df80d5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "flatpak-libs",
-        "version": "1.8.7",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "flatpak-1.8.7-1.el8.src.rpm",
-        "filename": "flatpak-libs-1.8.7-1.el8.aarch64.rpm",
-        "sum": "962620215a65d6547d01913a0f8655b3c23e272a816a30ff9534b2a760e9cae9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "flatpak-selinux",
-        "version": "1.8.7",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "flatpak-1.8.7-1.el8.src.rpm",
-        "filename": "flatpak-selinux-1.8.7-1.el8.noarch.rpm",
-        "sum": "9e286ab3e3ac6b4210009ce4a7dae938242d633b33e23e0202b70c9185c3ce84",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "flatpak-session-helper",
-        "version": "1.8.7",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "flatpak-1.8.7-1.el8.src.rpm",
-        "filename": "flatpak-session-helper-1.8.7-1.el8.aarch64.rpm",
-        "sum": "e855137561149552688696ad66e7a8f63096e84a1da5c475c64b2992db5adf41",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "flatpak",
         "version": "1.8.7",
@@ -108,6 +48,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "flatpak-devel",
+        "version": "1.8.7",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "flatpak-1.8.7-1.el8.src.rpm",
+        "filename": "flatpak-devel-1.8.7-1.el8.x86_64.rpm",
+        "sum": "83266ee7149b17616f5ce719ba6a42b27630d220b291fab7cd3e41eef60770e1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "flatpak-selinux",
+        "version": "1.8.7",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "flatpak-1.8.7-1.el8.src.rpm",
+        "filename": "flatpak-selinux-1.8.7-1.el8.noarch.rpm",
+        "sum": "9e286ab3e3ac6b4210009ce4a7dae938242d633b33e23e0202b70c9185c3ce84",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "flatpak-session-helper",
         "version": "1.8.7",
         "release": "1.el8",
@@ -140,6 +104,54 @@
         "src": "flatpak-1.8.7-1.el8.src.rpm",
         "filename": "flatpak-1.8.7-1.el8.i686.rpm",
         "sum": "dccab336a2b295874c913c5116e924f89a12c28f3784b0e10b1172627131078d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "flatpak",
+        "version": "1.8.7",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "flatpak-1.8.7-1.el8.src.rpm",
+        "filename": "flatpak-1.8.7-1.el8.aarch64.rpm",
+        "sum": "287d9e91420724d125ce9932e2117f9147559c38cee3a52a3c1aa85a5da96889",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "flatpak-devel",
+        "version": "1.8.7",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "flatpak-1.8.7-1.el8.src.rpm",
+        "filename": "flatpak-devel-1.8.7-1.el8.aarch64.rpm",
+        "sum": "69d3838bd2fa5498ff9d255f36ee820632d87299229cc968a8bcd12f71df80d5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "flatpak-libs",
+        "version": "1.8.7",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "flatpak-1.8.7-1.el8.src.rpm",
+        "filename": "flatpak-libs-1.8.7-1.el8.aarch64.rpm",
+        "sum": "962620215a65d6547d01913a0f8655b3c23e272a816a30ff9534b2a760e9cae9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "flatpak-session-helper",
+        "version": "1.8.7",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "flatpak-1.8.7-1.el8.src.rpm",
+        "filename": "flatpak-session-helper-1.8.7-1.el8.aarch64.rpm",
+        "sum": "e855137561149552688696ad66e7a8f63096e84a1da5c475c64b2992db5adf41",
         "sum_type": 5,
         "reboot_suggested": 0
       },

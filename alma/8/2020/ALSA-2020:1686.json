@@ -8,33 +8,9 @@
     "$date": 1588064711000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
-      {
-        "name": "libmspack-devel",
-        "version": "0.7",
-        "release": "0.3.alpha.el8.4",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libmspack-0.7-0.3.alpha.el8.4.src.rpm",
-        "filename": "libmspack-devel-0.7-0.3.alpha.el8.4.aarch64.rpm",
-        "sum": "6802b8ffb8d994c40ed5cc1718d3ba123457d23dcdb256d92a1554c6dbbcaa23",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libmspack",
-        "version": "0.7",
-        "release": "0.3.alpha.el8.4",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libmspack-0.7-0.3.alpha.el8.4.src.rpm",
-        "filename": "libmspack-0.7-0.3.alpha.el8.4.aarch64.rpm",
-        "sum": "8f56372f7d3345cda6bf45a394446a14abc685f74d4e4cc5b8e0dfbfb746daa0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "libmspack",
         "version": "0.7",
@@ -76,6 +52,42 @@
         "version": "0.7",
         "release": "0.3.alpha.el8.4",
         "epoch": "0",
+        "arch": "aarch64",
+        "src": "libmspack-0.7-0.3.alpha.el8.4.src.rpm",
+        "filename": "libmspack-devel-0.7-0.3.alpha.el8.4.aarch64.rpm",
+        "sum": "6802b8ffb8d994c40ed5cc1718d3ba123457d23dcdb256d92a1554c6dbbcaa23",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libmspack",
+        "version": "0.7",
+        "release": "0.3.alpha.el8.4",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libmspack-0.7-0.3.alpha.el8.4.src.rpm",
+        "filename": "libmspack-0.7-0.3.alpha.el8.4.aarch64.rpm",
+        "sum": "8f56372f7d3345cda6bf45a394446a14abc685f74d4e4cc5b8e0dfbfb746daa0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libmspack",
+        "version": "0.7",
+        "release": "0.3.alpha.el8.4",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libmspack-0.7-0.3.alpha.el8.4.src.rpm",
+        "filename": "libmspack-0.7-0.3.alpha.el8.4.i686.rpm",
+        "sum": "23805bddb17b3577f7c3a98895266cbca96e5739b7d85cc0797a22bd2003402f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libmspack-devel",
+        "version": "0.7",
+        "release": "0.3.alpha.el8.4",
+        "epoch": "0",
         "arch": "ppc64le",
         "src": "libmspack-0.7-0.3.alpha.el8.4.src.rpm",
         "filename": "libmspack-devel-0.7-0.3.alpha.el8.4.ppc64le.rpm",
@@ -94,30 +106,12 @@
         "sum": "7267bda4330688afe5c99661ad142ee057acb9729f4a5428055430bdafa4533b",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "libmspack",
-        "version": "0.7",
-        "release": "0.3.alpha.el8.4",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libmspack-0.7-0.3.alpha.el8.4.src.rpm",
-        "filename": "libmspack-0.7-0.3.alpha.el8.4.i686.rpm",
-        "sum": "23805bddb17b3577f7c3a98895266cbca96e5739b7d85cc0797a22bd2003402f",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {}
   },
   "pushcount": "2",
   "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2020-1686.html",
-      "type": "self",
-      "id": "ALSA-2020-1686",
-      "title": "ALSA-2020-1686"
-    },
     {
       "href": "https://vulners.com/cve/CVE-2019-1010305",
       "type": "cve",
@@ -126,7 +120,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Low",
   "solution": "",
   "status": "final",
@@ -134,7 +128,7 @@
   "title": "Low: libmspack security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1588064701000
+    "$date": 1628672040000
   },
   "version": "1"
 }

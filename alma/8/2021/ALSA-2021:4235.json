@@ -8,33 +8,9 @@
     "$date": 1636447712000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
-      {
-        "name": "jasper-libs",
-        "version": "2.0.14",
-        "release": "5.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "jasper-2.0.14-5.el8.src.rpm",
-        "filename": "jasper-libs-2.0.14-5.el8.aarch64.rpm",
-        "sum": "3873876d5efbca83bba2cdbf37f7575beca9fbc0908f0dc4544564e1a58b1fdf",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "jasper-devel",
-        "version": "2.0.14",
-        "release": "5.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "jasper-2.0.14-5.el8.src.rpm",
-        "filename": "jasper-devel-2.0.14-5.el8.aarch64.rpm",
-        "sum": "96266e370437661ff5881fffdeb92f42908226f8ba622b792601e1a73fa76e96",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "jasper-devel",
         "version": "2.0.14",
@@ -72,6 +48,42 @@
         "reboot_suggested": 0
       },
       {
+        "name": "jasper-libs",
+        "version": "2.0.14",
+        "release": "5.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "jasper-2.0.14-5.el8.src.rpm",
+        "filename": "jasper-libs-2.0.14-5.el8.aarch64.rpm",
+        "sum": "3873876d5efbca83bba2cdbf37f7575beca9fbc0908f0dc4544564e1a58b1fdf",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "jasper-devel",
+        "version": "2.0.14",
+        "release": "5.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "jasper-2.0.14-5.el8.src.rpm",
+        "filename": "jasper-devel-2.0.14-5.el8.aarch64.rpm",
+        "sum": "96266e370437661ff5881fffdeb92f42908226f8ba622b792601e1a73fa76e96",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "jasper-libs",
+        "version": "2.0.14",
+        "release": "5.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "jasper-2.0.14-5.el8.src.rpm",
+        "filename": "jasper-libs-2.0.14-5.el8.i686.rpm",
+        "sum": "116771f2f80d4aa712474de9347b8ba86ef04213333946837dec30f8aaa20a12",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "jasper-devel",
         "version": "2.0.14",
         "release": "5.el8",
@@ -94,30 +106,12 @@
         "sum": "a2cb986bc85f9fac7edfaef266b5f5f9fafe5d87f91cd71b22d30cc64dda7ded",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "jasper-libs",
-        "version": "2.0.14",
-        "release": "5.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "jasper-2.0.14-5.el8.src.rpm",
-        "filename": "jasper-libs-2.0.14-5.el8.i686.rpm",
-        "sum": "116771f2f80d4aa712474de9347b8ba86ef04213333946837dec30f8aaa20a12",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {}
   },
   "pushcount": "3",
   "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2021-4235.html",
-      "type": "self",
-      "id": "ALSA-2021-4235",
-      "title": "ALSA-2021-4235"
-    },
     {
       "href": "https://vulners.com/cve/CVE-2020-27828",
       "type": "cve",
@@ -144,7 +138,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -152,7 +146,7 @@
   "title": "Moderate: jasper security update",
   "type": "security",
   "updated_date": {
-    "$date": 1636462589000
+    "$date": 1636712461000
   },
   "version": "2"
 }

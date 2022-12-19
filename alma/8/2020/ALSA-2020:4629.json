@@ -8,33 +8,9 @@
     "$date": 1604406110000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
-      {
-        "name": "libvpx",
-        "version": "1.7.0",
-        "release": "8.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libvpx-1.7.0-8.el8.src.rpm",
-        "filename": "libvpx-1.7.0-8.el8.aarch64.rpm",
-        "sum": "598091c58f10f45c446625448266f36287723834c0f55d46599f02d3c4111aea",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libvpx-devel",
-        "version": "1.7.0",
-        "release": "8.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libvpx-1.7.0-8.el8.src.rpm",
-        "filename": "libvpx-devel-1.7.0-8.el8.aarch64.rpm",
-        "sum": "898547a9d592ca2d8ebf25a724bce6af341889efc16d0bc09fe8cdcb81290917",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "libvpx-devel",
         "version": "1.7.0",
@@ -72,6 +48,42 @@
         "reboot_suggested": 0
       },
       {
+        "name": "libvpx",
+        "version": "1.7.0",
+        "release": "8.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libvpx-1.7.0-8.el8.src.rpm",
+        "filename": "libvpx-1.7.0-8.el8.aarch64.rpm",
+        "sum": "598091c58f10f45c446625448266f36287723834c0f55d46599f02d3c4111aea",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libvpx-devel",
+        "version": "1.7.0",
+        "release": "8.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libvpx-1.7.0-8.el8.src.rpm",
+        "filename": "libvpx-devel-1.7.0-8.el8.aarch64.rpm",
+        "sum": "898547a9d592ca2d8ebf25a724bce6af341889efc16d0bc09fe8cdcb81290917",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libvpx",
+        "version": "1.7.0",
+        "release": "8.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libvpx-1.7.0-8.el8.src.rpm",
+        "filename": "libvpx-1.7.0-8.el8.i686.rpm",
+        "sum": "1daf04ee9a9df39a611b07a4e8dcc5d175a434bbfdac16a44f2d19cee2bac1f2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "libvpx-devel",
         "version": "1.7.0",
         "release": "8.el8",
@@ -94,30 +106,12 @@
         "sum": "a737e72648552feb8d400f22e9685558d3a16de1549bba90614de50b17bd693c",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "libvpx",
-        "version": "1.7.0",
-        "release": "8.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libvpx-1.7.0-8.el8.src.rpm",
-        "filename": "libvpx-1.7.0-8.el8.i686.rpm",
-        "sum": "1daf04ee9a9df39a611b07a4e8dcc5d175a434bbfdac16a44f2d19cee2bac1f2",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {}
   },
   "pushcount": "3",
   "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2020-4629.html",
-      "type": "self",
-      "id": "ALSA-2020-4629",
-      "title": "ALSA-2020-4629"
-    },
     {
       "href": "https://vulners.com/cve/CVE-2019-2126",
       "type": "cve",
@@ -144,7 +138,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -152,7 +146,7 @@
   "title": "Moderate: libvpx security update",
   "type": "security",
   "updated_date": {
-    "$date": 1604432704000
+    "$date": 1628672040000
   },
   "version": "2"
 }

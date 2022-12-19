@@ -8,33 +8,9 @@
     "$date": 1636448577000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
-      {
-        "name": "grilo",
-        "version": "0.3.6",
-        "release": "3.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "grilo-0.3.6-3.el8.src.rpm",
-        "filename": "grilo-0.3.6-3.el8.aarch64.rpm",
-        "sum": "0ce2ea252c4cd7bff593eed6b00c23a1e578b41f9ab0f470daa885b596124d4c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "grilo-devel",
-        "version": "0.3.6",
-        "release": "3.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "grilo-0.3.6-3.el8.src.rpm",
-        "filename": "grilo-devel-0.3.6-3.el8.aarch64.rpm",
-        "sum": "e024589abe9d3a08ae3f3a8a69d97cd4c725cc719cf87baeee03007c400fab3b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "grilo",
         "version": "0.3.6",
@@ -72,6 +48,42 @@
         "reboot_suggested": 0
       },
       {
+        "name": "grilo",
+        "version": "0.3.6",
+        "release": "3.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "grilo-0.3.6-3.el8.src.rpm",
+        "filename": "grilo-0.3.6-3.el8.aarch64.rpm",
+        "sum": "0ce2ea252c4cd7bff593eed6b00c23a1e578b41f9ab0f470daa885b596124d4c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grilo-devel",
+        "version": "0.3.6",
+        "release": "3.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "grilo-0.3.6-3.el8.src.rpm",
+        "filename": "grilo-devel-0.3.6-3.el8.aarch64.rpm",
+        "sum": "e024589abe9d3a08ae3f3a8a69d97cd4c725cc719cf87baeee03007c400fab3b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grilo",
+        "version": "0.3.6",
+        "release": "3.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "grilo-0.3.6-3.el8.src.rpm",
+        "filename": "grilo-0.3.6-3.el8.i686.rpm",
+        "sum": "d00e94e5c7dd958e31dd06f2bc7a5d1a3ea6a3a83755b8c80c1da6644165c8f1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "grilo-devel",
         "version": "0.3.6",
         "release": "3.el8",
@@ -94,30 +106,12 @@
         "sum": "9d5f24e1696b21b5b41c3ebd796a42493c15cce455bdff8d24b7621f47435ba6",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "grilo",
-        "version": "0.3.6",
-        "release": "3.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "grilo-0.3.6-3.el8.src.rpm",
-        "filename": "grilo-0.3.6-3.el8.i686.rpm",
-        "sum": "d00e94e5c7dd958e31dd06f2bc7a5d1a3ea6a3a83755b8c80c1da6644165c8f1",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {}
   },
   "pushcount": "3",
   "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2021-4339.html",
-      "type": "self",
-      "id": "ALSA-2021-4339",
-      "title": "ALSA-2021-4339"
-    },
     {
       "href": "https://vulners.com/cve/CVE-2021-39365",
       "type": "cve",
@@ -126,7 +120,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -134,7 +128,7 @@
   "title": "Moderate: grilo security update",
   "type": "security",
   "updated_date": {
-    "$date": 1636463019000
+    "$date": 1636712461000
   },
   "version": "2"
 }

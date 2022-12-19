@@ -8,33 +8,9 @@
     "$date": 1607944789000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
-      {
-        "name": "libexif",
-        "version": "0.6.22",
-        "release": "5.el8_3",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libexif-0.6.22-5.el8_3.src.rpm",
-        "filename": "libexif-0.6.22-5.el8_3.aarch64.rpm",
-        "sum": "a13b4f0c6bcc9080f74d79794ed0313e7d46bab52a4bac9ef8b8d1fd800d0808",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libexif-devel",
-        "version": "0.6.22",
-        "release": "5.el8_3",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libexif-0.6.22-5.el8_3.src.rpm",
-        "filename": "libexif-devel-0.6.22-5.el8_3.aarch64.rpm",
-        "sum": "bc0c32c911431eda09a81a5d8729035b8fd2a802c40dc4819b2c20f7b362e09e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "libexif",
         "version": "0.6.22",
@@ -76,6 +52,42 @@
         "version": "0.6.22",
         "release": "5.el8_3",
         "epoch": "0",
+        "arch": "aarch64",
+        "src": "libexif-0.6.22-5.el8_3.src.rpm",
+        "filename": "libexif-0.6.22-5.el8_3.aarch64.rpm",
+        "sum": "a13b4f0c6bcc9080f74d79794ed0313e7d46bab52a4bac9ef8b8d1fd800d0808",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libexif-devel",
+        "version": "0.6.22",
+        "release": "5.el8_3",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libexif-0.6.22-5.el8_3.src.rpm",
+        "filename": "libexif-devel-0.6.22-5.el8_3.aarch64.rpm",
+        "sum": "bc0c32c911431eda09a81a5d8729035b8fd2a802c40dc4819b2c20f7b362e09e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libexif",
+        "version": "0.6.22",
+        "release": "5.el8_3",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libexif-0.6.22-5.el8_3.src.rpm",
+        "filename": "libexif-0.6.22-5.el8_3.i686.rpm",
+        "sum": "30414f7540901a09839d8b2eb1f802358764b85947b8af84566f80da18c1723a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libexif",
+        "version": "0.6.22",
+        "release": "5.el8_3",
+        "epoch": "0",
         "arch": "ppc64le",
         "src": "libexif-0.6.22-5.el8_3.src.rpm",
         "filename": "libexif-0.6.22-5.el8_3.ppc64le.rpm",
@@ -94,30 +106,12 @@
         "sum": "6b07a3738ff8f9f616d951b770b634b1d9fbcbf300a8e7cefa33ed90d5ffb61e",
         "sum_type": 5,
         "reboot_suggested": 0
-      },
-      {
-        "name": "libexif",
-        "version": "0.6.22",
-        "release": "5.el8_3",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libexif-0.6.22-5.el8_3.src.rpm",
-        "filename": "libexif-0.6.22-5.el8_3.i686.rpm",
-        "sum": "30414f7540901a09839d8b2eb1f802358764b85947b8af84566f80da18c1723a",
-        "sum_type": 5,
-        "reboot_suggested": 0
       }
     ],
     "module": {}
   },
   "pushcount": "2",
   "references": [
-    {
-      "href": "https://errata.almalinux.org/8/ALSA-2020-5393.html",
-      "type": "self",
-      "id": "ALSA-2020-5393",
-      "title": "ALSA-2020-5393"
-    },
     {
       "href": "https://vulners.com/cve/CVE-2020-0452",
       "type": "cve",
@@ -126,7 +120,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2022 AlmaLinux OS",
+  "rights": "Copyright 2021 AlmaLinux OS",
   "severity": "Important",
   "solution": "",
   "status": "final",
@@ -134,7 +128,7 @@
   "title": "Important: libexif security update",
   "type": "security",
   "updated_date": {
-    "$date": 1607944789000
+    "$date": 1628672040000
   },
   "version": "1"
 }
