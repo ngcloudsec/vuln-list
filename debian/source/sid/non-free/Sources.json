@@ -2479,62 +2479,6 @@
       "debhelper-compat (= 13)"
     ],
     "Checksums-Sha256": [
-      "1118fcbee2ab4b530ae0155d24b2f74edacd8c5c8942ffa90272a48d453b405e 4060 firmware-nonfree_20221214-1.dsc 9c273a47b05f90cf2064a472ed39f4a100336cdf2fa857bd03b77ccce0e0c1d8 230915452 firmware-nonfree_20221214.orig.tar.xz b50d5e444348a86885ab8001c17bb546b2e465aa4d080567f527ff80d90978d3 827688 firmware-nonfree_20221214-1.debian.tar.xz"
-    ],
-    "Directory": [
-      "pool/non-free/f/firmware-nonfree"
-    ],
-    "Files": [
-      "88630e184b9522efd1c980ba0c003045 4060 firmware-nonfree_20221214-1.dsc dfd303d7632392b17716c7edd5eb2737 230915452 firmware-nonfree_20221214.orig.tar.xz 374e0584f492ed11165669007314b616 827688 firmware-nonfree_20221214-1.debian.tar.xz"
-    ],
-    "Format": [
-      "3.0 (quilt)"
-    ],
-    "Maintainer": [
-      "Debian Kernel Team \u003cdebian-kernel@lists.debian.org\u003e"
-    ],
-    "Package": [
-      "firmware-nonfree"
-    ],
-    "Package-List": [
-      "firmware-amd-graphics deb non-free/kernel optional arch=all firmware-atheros deb non-free/kernel optional arch=all firmware-bnx2 deb non-free/kernel optional arch=all firmware-bnx2x deb non-free/kernel optional arch=all firmware-brcm80211 deb non-free/kernel optional arch=all firmware-cavium deb non-free/kernel optional arch=all firmware-intel-sound deb non-free/kernel optional arch=all firmware-ipw2x00 deb non-free/kernel optional arch=all firmware-ivtv deb non-free/kernel optional arch=all firmware-iwlwifi deb non-free/kernel optional arch=all firmware-libertas deb non-free/kernel optional arch=all firmware-linux deb non-free/metapackages optional arch=all firmware-linux-nonfree deb non-free/metapackages optional arch=all firmware-misc-nonfree deb non-free/kernel optional arch=all firmware-myricom deb non-free/kernel optional arch=all firmware-netronome deb non-free/kernel optional arch=all firmware-netxen deb non-free/kernel optional arch=all firmware-qcom-media deb non-free/oldlibs optional arch=all firmware-qcom-soc deb non-free/kernel optional arch=all firmware-qlogic deb non-free/kernel optional arch=all firmware-realtek deb non-free/kernel optional arch=all firmware-samsung deb non-free/kernel optional arch=all firmware-siano deb non-free/kernel optional arch=all firmware-ti-connectivity deb non-free/kernel optional arch=all"
-    ],
-    "Priority": [
-      "source"
-    ],
-    "Section": [
-      "non-free/kernel"
-    ],
-    "Standards-Version": [
-      "4.0.1"
-    ],
-    "Uploaders": [
-      "Bastian Blank \u003cwaldi@debian.org\u003e, Steve Langasek \u003cvorlon@debian.org\u003e, maximilian attems \u003cmaks@debian.org\u003e, Ben Hutchings \u003cbenh@debian.org\u003e, Salvatore Bonaccorso \u003ccarnil@debian.org\u003e"
-    ],
-    "Vcs-Browser": [
-      "https://salsa.debian.org/kernel-team/firmware-nonfree"
-    ],
-    "Vcs-Git": [
-      "https://salsa.debian.org/kernel-team/firmware-nonfree.git"
-    ],
-    "Version": [
-      "20221214-1"
-    ]
-  },
-  {
-    "Architecture": [
-      "all"
-    ],
-    "Autobuild": [
-      "yes"
-    ],
-    "Binary": [
-      "firmware-linux, firmware-linux-nonfree, firmware-qcom-media, firmware-amd-graphics, firmware-atheros, firmware-bnx2, firmware-bnx2x, firmware-brcm80211, firmware-cavium, firmware-intel-sound, firmware-ipw2x00, firmware-ivtv, firmware-iwlwifi, firmware-libertas, firmware-misc-nonfree, firmware-myricom, firmware-netronome, firmware-netxen, firmware-qcom-soc, firmware-qlogic, firmware-realtek, firmware-samsung, firmware-siano, firmware-ti-connectivity"
-    ],
-    "Build-Depends": [
-      "debhelper-compat (= 13)"
-    ],
-    "Checksums-Sha256": [
       "275fa3c1f54c3add346c53acb3eb1ab07b12f5a1102c5ed55f163881e111b579 4060 firmware-nonfree_20221214-2.dsc 9c273a47b05f90cf2064a472ed39f4a100336cdf2fa857bd03b77ccce0e0c1d8 230915452 firmware-nonfree_20221214.orig.tar.xz 3da15268f12680472cb18de34f6f6acc0ef755c8554ecd37730531d7b8a776bf 827320 firmware-nonfree_20221214-2.debian.tar.xz"
     ],
     "Directory": [
@@ -5315,65 +5259,6 @@
     ],
     "Version": [
       "3.67-6"
-    ]
-  },
-  {
-    "Architecture": [
-      "i386 amd64 armhf arm64"
-    ],
-    "Autobuild": [
-      "yes"
-    ],
-    "Binary": [
-      "libasi"
-    ],
-    "Build-Depends": [
-      "debhelper-compat (= 13), cmake, libusb-1.0-0-dev"
-    ],
-    "Checksums-Sha256": [
-      "003d81061810db18c41812da9d8f5127bbb67a4c91ea60e2457519be8aecf131 2263 libasi_1.22+20220607002509-1.dsc cfb58315f723dc52eaf43f1955b4469cb4c22f7dc33ab485f339bbb6a5e49a15 6020188 libasi_1.22+20220607002509.orig.tar.gz 6d11ee4ba7de230be89f95b69f804ae18289c2f01d1557287c9c283361687f12 2600 libasi_1.22+20220607002509-1.debian.tar.xz"
-    ],
-    "Directory": [
-      "pool/non-free/liba/libasi"
-    ],
-    "Files": [
-      "1e3472e7bde08ca71ce81a9b4a2d2b0a 2263 libasi_1.22+20220607002509-1.dsc 80844817abdc6503bd0c1b1cdc37b213 6020188 libasi_1.22+20220607002509.orig.tar.gz ffc157cb8ebf31d8beed4b0285efe50d 2600 libasi_1.22+20220607002509-1.debian.tar.xz"
-    ],
-    "Format": [
-      "3.0 (quilt)"
-    ],
-    "Homepage": [
-      "https://github.com/indilib/indi-3rdparty"
-    ],
-    "Maintainer": [
-      "Debian Astronomy Team \u003cdebian-astro-maintainers@lists.alioth.debian.org\u003e"
-    ],
-    "Package": [
-      "libasi"
-    ],
-    "Package-List": [
-      "libasi deb non-free/libs optional arch=i386,amd64,armhf,arm64"
-    ],
-    "Priority": [
-      "optional"
-    ],
-    "Section": [
-      "non-free/misc"
-    ],
-    "Standards-Version": [
-      "4.6.0"
-    ],
-    "Uploaders": [
-      "Thorsten Alteholz \u003cdebian@alteholz.de\u003e"
-    ],
-    "Vcs-Browser": [
-      "https://salsa.debian.org/debian-astro-team/libasi"
-    ],
-    "Vcs-Git": [
-      "https://salsa.debian.org/debian-astro-team/libasi.git"
-    ],
-    "Version": [
-      "1.22+20220607002509-1"
     ]
   },
   {
@@ -13449,65 +13334,6 @@
     ],
     "Version": [
       "0.8.0-4"
-    ]
-  },
-  {
-    "Architecture": [
-      "all"
-    ],
-    "Autobuild": [
-      "yes"
-    ],
-    "Binary": [
-      "r8125-dkms"
-    ],
-    "Build-Depends": [
-      "debhelper-compat (= 13), dh-sequence-dkms"
-    ],
-    "Checksums-Sha256": [
-      "73a7c7ffaee06b873c42bc622d1fb9dbb2ab69d003a38279d37d46bb273f050c 1989 r8125_9.009.02-1.dsc 1a0249f6c852658d64c5f2752d1006e71b7bf360173a29266fe581cf6088332f 87616 r8125_9.009.02.orig.tar.xz 82aa1098ac620ee77801b9cbbd053af8546d6d35c0d0f280e061dcf2a1e500bb 2836 r8125_9.009.02-1.debian.tar.xz"
-    ],
-    "Directory": [
-      "pool/non-free/r/r8125"
-    ],
-    "Files": [
-      "dbbe3ed40a38d8ef2a857d81c7b21e54 1989 r8125_9.009.02-1.dsc efc82da44b00a29958ad456e3692da6e 87616 r8125_9.009.02.orig.tar.xz 53603c44c21ea12b6dc44596d971e062 2836 r8125_9.009.02-1.debian.tar.xz"
-    ],
-    "Format": [
-      "3.0 (quilt)"
-    ],
-    "Homepage": [
-      "https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software"
-    ],
-    "Maintainer": [
-      "Hideki Yamane \u003chenrich@debian.org\u003e"
-    ],
-    "Package": [
-      "r8125"
-    ],
-    "Package-List": [
-      "r8125-dkms deb non-free/kernel optional arch=all"
-    ],
-    "Priority": [
-      "optional"
-    ],
-    "Section": [
-      "non-free/misc"
-    ],
-    "Standards-Version": [
-      "4.6.1"
-    ],
-    "Testsuite": [
-      "autopkgtest-pkg-dkms"
-    ],
-    "Vcs-Browser": [
-      "https://salsa.debian.org/debian/r8125"
-    ],
-    "Vcs-Git": [
-      "https://salsa.debian.org/debian/r8125.git"
-    ],
-    "Version": [
-      "9.009.02-1"
     ]
   },
   {
