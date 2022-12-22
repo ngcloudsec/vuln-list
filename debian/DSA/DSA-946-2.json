@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[08 Apr 2006] DSA-946-2 sudo - missing input sanitising",
-    "Line": 14876,
+    "Line": 14879,
     "ID": "DSA-946-2",
     "Description": "sudo - missing input sanitising"
   },
   "Annotations": [
     {
       "Original": "{CVE-2005-4158 CVE-2006-0151}",
-      "Line": 14877,
+      "Line": 14880,
       "Type": "xref",
       "Bugs": [
         "CVE-2005-4158",
@@ -17,7 +17,7 @@
     },
     {
       "Original": "[woody] - sudo 1.6.6-1.6",
-      "Line": 14878,
+      "Line": 14881,
       "Type": "package",
       "Release": "woody",
       "Package": "sudo",
@@ -26,7 +26,7 @@
     },
     {
       "Original": "[sarge] - sudo 1.6.8p7-1.4",
-      "Line": 14879,
+      "Line": 14882,
       "Type": "package",
       "Release": "sarge",
       "Package": "sudo",
@@ -35,37 +35,37 @@
     },
     {
       "Original": "NOTE: fixed in testing at time of DSA",
-      "Line": 14880,
+      "Line": 14883,
       "Type": "NOTE",
       "Description": "fixed in testing at time of DSA"
     },
     {
       "Original": "NOTE: The fix for stable and oldstable switched from a black list",
-      "Line": 14881,
+      "Line": 14884,
       "Type": "NOTE",
       "Description": "The fix for stable and oldstable switched from a black list"
     },
     {
       "Original": "NOTE: of dangerous env vars to a white list of known-to-be-safe env vars",
-      "Line": 14882,
+      "Line": 14885,
       "Type": "NOTE",
       "Description": "of dangerous env vars to a white list of known-to-be-safe env vars"
     },
     {
       "Original": "NOTE: sid's 1.6.8p12 still has the black list (although with the strong",
-      "Line": 14883,
+      "Line": 14886,
       "Type": "NOTE",
       "Description": "sid's 1.6.8p12 still has the black list (although with the strong"
     },
     {
       "Original": "NOTE: recommendation to use env_reset, which basically does the same),",
-      "Line": 14884,
+      "Line": 14887,
       "Type": "NOTE",
       "Description": "recommendation to use env_reset, which basically does the same),"
     },
     {
       "Original": "NOTE: but 1.7 will have a white list as well",
-      "Line": 14885,
+      "Line": 14888,
       "Type": "NOTE",
       "Description": "but 1.7 will have a white list as well"
     }
