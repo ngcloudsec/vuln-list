@@ -20887,6 +20887,62 @@
   },
   {
     "Architecture": [
+      "amd64"
+    ],
+    "Binary": [
+      "linux-image-5.10.0-0.deb10.20-amd64, linux-image-5.10-amd64, linux-headers-5.10-amd64, linux-image-5.10.0-0.deb10.20-cloud-amd64, linux-image-5.10-cloud-amd64, linux-headers-5.10-cloud-amd64, linux-image-5.10.0-0.deb10.20-rt-amd64, linux-image-5.10-rt-amd64, linux-headers-5.10-rt-amd64"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 12), rsync, sbsigntool [amd64 arm64 i386], linux-kbuild-5.10, linux-support-5.10.0-0.deb10.20 (= 5.10.158-2~deb10u1), linux-image-5.10.0-0.deb10.20-amd64-unsigned (= 5.10.158-2~deb10u1) [amd64], linux-image-5.10.0-0.deb10.20-cloud-amd64-unsigned (= 5.10.158-2~deb10u1) [amd64], linux-image-5.10.0-0.deb10.20-rt-amd64-unsigned (= 5.10.158-2~deb10u1) [amd64]"
+    ],
+    "Checksums-Sha256": [
+      "9b20bb78860702d403ea69c44f9d0ffa924ec7b47fc5b3fe8eb1010d47c985f6 3000 linux-signed-5.10-amd64_5.10.158+2~deb10u1.dsc 939f63620891324c610badf0d14cd65e08270e7fd50834896396e50e3c7c6810 2816632 linux-signed-5.10-amd64_5.10.158+2~deb10u1.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/main/l/linux-signed-5.10-amd64"
+    ],
+    "Files": [
+      "8514223f4789eb278884ae5f7acae796 3000 linux-signed-5.10-amd64_5.10.158+2~deb10u1.dsc 9fe6b6579f7c73becd66892b662cd45b 2816632 linux-signed-5.10-amd64_5.10.158+2~deb10u1.tar.xz"
+    ],
+    "Format": [
+      "3.0 (native)"
+    ],
+    "Homepage": [
+      "https://www.kernel.org/"
+    ],
+    "Maintainer": [
+      "Debian Kernel Team \u003cdebian-kernel@lists.debian.org\u003e"
+    ],
+    "Package": [
+      "linux-signed-5.10-amd64"
+    ],
+    "Package-List": [
+      "linux-headers-5.10-amd64 deb kernel optional arch=amd64 linux-headers-5.10-cloud-amd64 deb kernel optional arch=amd64 linux-headers-5.10-rt-amd64 deb kernel optional arch=amd64 linux-image-5.10-amd64 deb kernel optional arch=amd64 linux-image-5.10-cloud-amd64 deb kernel optional arch=amd64 linux-image-5.10-rt-amd64 deb kernel optional arch=amd64 linux-image-5.10.0-0.deb10.20-amd64 deb kernel optional arch=amd64 linux-image-5.10.0-0.deb10.20-cloud-amd64 deb kernel optional arch=amd64 linux-image-5.10.0-0.deb10.20-rt-amd64 deb kernel optional arch=amd64"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "misc"
+    ],
+    "Standards-Version": [
+      "4.2.0"
+    ],
+    "Uploaders": [
+      "Bastian Blank \u003cwaldi@debian.org\u003e, maximilian attems \u003cmaks@debian.org\u003e, Ben Hutchings \u003cbenh@debian.org\u003e, Salvatore Bonaccorso \u003ccarnil@debian.org\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/kernel-team/linux"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/kernel-team/linux.git"
+    ],
+    "Version": [
+      "5.10.158+2~deb10u1"
+    ]
+  },
+  {
+    "Architecture": [
       "arm64"
     ],
     "Binary": [
@@ -20999,6 +21055,62 @@
   },
   {
     "Architecture": [
+      "arm64"
+    ],
+    "Binary": [
+      "linux-image-5.10.0-0.deb10.20-arm64, linux-image-5.10-arm64, linux-headers-5.10-arm64, linux-image-5.10.0-0.deb10.20-cloud-arm64, linux-image-5.10-cloud-arm64, linux-headers-5.10-cloud-arm64, linux-image-5.10.0-0.deb10.20-rt-arm64, linux-image-5.10-rt-arm64, linux-headers-5.10-rt-arm64"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 12), rsync, sbsigntool [amd64 arm64 i386], linux-kbuild-5.10, linux-support-5.10.0-0.deb10.20 (= 5.10.158-2~deb10u1), linux-image-5.10.0-0.deb10.20-arm64-unsigned (= 5.10.158-2~deb10u1) [arm64], linux-image-5.10.0-0.deb10.20-cloud-arm64-unsigned (= 5.10.158-2~deb10u1) [arm64], linux-image-5.10.0-0.deb10.20-rt-arm64-unsigned (= 5.10.158-2~deb10u1) [arm64]"
+    ],
+    "Checksums-Sha256": [
+      "c9fe1030bd2251399abac987ed4e6497ade5ca94b9d09d5c30309cde3d37da76 3000 linux-signed-5.10-arm64_5.10.158+2~deb10u1.dsc 996151dbccfdb87e3c37b6a43de4b115cce1ff6c4de8ec723ad31f37e733d897 2560064 linux-signed-5.10-arm64_5.10.158+2~deb10u1.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/main/l/linux-signed-5.10-arm64"
+    ],
+    "Files": [
+      "b641aaaf03a47c3b38416db64d61c542 3000 linux-signed-5.10-arm64_5.10.158+2~deb10u1.dsc 91e4628dd44c48548e75dbe42674515c 2560064 linux-signed-5.10-arm64_5.10.158+2~deb10u1.tar.xz"
+    ],
+    "Format": [
+      "3.0 (native)"
+    ],
+    "Homepage": [
+      "https://www.kernel.org/"
+    ],
+    "Maintainer": [
+      "Debian Kernel Team \u003cdebian-kernel@lists.debian.org\u003e"
+    ],
+    "Package": [
+      "linux-signed-5.10-arm64"
+    ],
+    "Package-List": [
+      "linux-headers-5.10-arm64 deb kernel optional arch=arm64 linux-headers-5.10-cloud-arm64 deb kernel optional arch=arm64 linux-headers-5.10-rt-arm64 deb kernel optional arch=arm64 linux-image-5.10-arm64 deb kernel optional arch=arm64 linux-image-5.10-cloud-arm64 deb kernel optional arch=arm64 linux-image-5.10-rt-arm64 deb kernel optional arch=arm64 linux-image-5.10.0-0.deb10.20-arm64 deb kernel optional arch=arm64 linux-image-5.10.0-0.deb10.20-cloud-arm64 deb kernel optional arch=arm64 linux-image-5.10.0-0.deb10.20-rt-arm64 deb kernel optional arch=arm64"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "misc"
+    ],
+    "Standards-Version": [
+      "4.2.0"
+    ],
+    "Uploaders": [
+      "Bastian Blank \u003cwaldi@debian.org\u003e, maximilian attems \u003cmaks@debian.org\u003e, Ben Hutchings \u003cbenh@debian.org\u003e, Salvatore Bonaccorso \u003ccarnil@debian.org\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/kernel-team/linux"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/kernel-team/linux.git"
+    ],
+    "Version": [
+      "5.10.158+2~deb10u1"
+    ]
+  },
+  {
+    "Architecture": [
       "i386"
     ],
     "Binary": [
@@ -21107,6 +21219,62 @@
     ],
     "Version": [
       "5.10.149+2~deb10u1"
+    ]
+  },
+  {
+    "Architecture": [
+      "i386"
+    ],
+    "Binary": [
+      "linux-image-5.10.0-0.deb10.20-686, linux-image-5.10-686, linux-headers-5.10-686, linux-image-5.10.0-0.deb10.20-686-pae, linux-image-5.10-686-pae, linux-headers-5.10-686-pae, linux-image-5.10.0-0.deb10.20-rt-686-pae, linux-image-5.10-rt-686-pae, linux-headers-5.10-rt-686-pae"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 12), rsync, sbsigntool [amd64 arm64 i386], linux-kbuild-5.10, linux-support-5.10.0-0.deb10.20 (= 5.10.158-2~deb10u1), linux-image-5.10.0-0.deb10.20-686-unsigned (= 5.10.158-2~deb10u1) [i386], linux-image-5.10.0-0.deb10.20-686-pae-unsigned (= 5.10.158-2~deb10u1) [i386], linux-image-5.10.0-0.deb10.20-rt-686-pae-unsigned (= 5.10.158-2~deb10u1) [i386]"
+    ],
+    "Checksums-Sha256": [
+      "ffd32d401fdfdcabfdf06da98a78a15075f21a29c09ec693313d9685f6433ca6 2955 linux-signed-5.10-i386_5.10.158+2~deb10u1.dsc 544b996a39b8f1bd51d58dca82945d9b7a70df91ca94e29c562ac10ecab5f789 3759868 linux-signed-5.10-i386_5.10.158+2~deb10u1.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/main/l/linux-signed-5.10-i386"
+    ],
+    "Files": [
+      "2f0aff7dda69c5dcf739c8ca540b467e 2955 linux-signed-5.10-i386_5.10.158+2~deb10u1.dsc 790860f42824fa08ae9e70d0183d13d2 3759868 linux-signed-5.10-i386_5.10.158+2~deb10u1.tar.xz"
+    ],
+    "Format": [
+      "3.0 (native)"
+    ],
+    "Homepage": [
+      "https://www.kernel.org/"
+    ],
+    "Maintainer": [
+      "Debian Kernel Team \u003cdebian-kernel@lists.debian.org\u003e"
+    ],
+    "Package": [
+      "linux-signed-5.10-i386"
+    ],
+    "Package-List": [
+      "linux-headers-5.10-686 deb kernel optional arch=i386 linux-headers-5.10-686-pae deb kernel optional arch=i386 linux-headers-5.10-rt-686-pae deb kernel optional arch=i386 linux-image-5.10-686 deb kernel optional arch=i386 linux-image-5.10-686-pae deb kernel optional arch=i386 linux-image-5.10-rt-686-pae deb kernel optional arch=i386 linux-image-5.10.0-0.deb10.20-686 deb kernel optional arch=i386 linux-image-5.10.0-0.deb10.20-686-pae deb kernel optional arch=i386 linux-image-5.10.0-0.deb10.20-rt-686-pae deb kernel optional arch=i386"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "misc"
+    ],
+    "Standards-Version": [
+      "4.2.0"
+    ],
+    "Uploaders": [
+      "Bastian Blank \u003cwaldi@debian.org\u003e, maximilian attems \u003cmaks@debian.org\u003e, Ben Hutchings \u003cbenh@debian.org\u003e, Salvatore Bonaccorso \u003ccarnil@debian.org\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/kernel-team/linux"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/kernel-team/linux.git"
+    ],
+    "Version": [
+      "5.10.158+2~deb10u1"
     ]
   },
   {
