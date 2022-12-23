@@ -21783,6 +21783,62 @@
   },
   {
     "Architecture": [
+      "amd64"
+    ],
+    "Binary": [
+      "kernel-image-4.19.0-23-amd64-di, nic-modules-4.19.0-23-amd64-di, nic-wireless-modules-4.19.0-23-amd64-di, nic-shared-modules-4.19.0-23-amd64-di, serial-modules-4.19.0-23-amd64-di, usb-serial-modules-4.19.0-23-amd64-di, ppp-modules-4.19.0-23-amd64-di, pata-modules-4.19.0-23-amd64-di, cdrom-core-modules-4.19.0-23-amd64-di, firewire-core-modules-4.19.0-23-amd64-di, scsi-core-modules-4.19.0-23-amd64-di, scsi-modules-4.19.0-23-amd64-di, scsi-nic-modules-4.19.0-23-amd64-di, loop-modules-4.19.0-23-amd64-di, btrfs-modules-4.19.0-23-amd64-di, ext4-modules-4.19.0-23-amd64-di, isofs-modules-4.19.0-23-amd64-di, jfs-modules-4.19.0-23-amd64-di, xfs-modules-4.19.0-23-amd64-di, fat-modules-4.19.0-23-amd64-di, md-modules-4.19.0-23-amd64-di, multipath-modules-4.19.0-23-amd64-di, usb-modules-4.19.0-23-amd64-di, usb-storage-modules-4.19.0-23-amd64-di, pcmcia-storage-modules-4.19.0-23-amd64-di, fb-modules-4.19.0-23-amd64-di, input-modules-4.19.0-23-amd64-di, event-modules-4.19.0-23-amd64-di, mouse-modules-4.19.0-23-amd64-di, nic-pcmcia-modules-4.19.0-23-amd64-di, pcmcia-modules-4.19.0-23-amd64-di, nic-usb-modules-4.19.0-23-amd64-di, sata-modules-4.19.0-23-amd64-di, acpi-modules-4.19.0-23-amd64-di, i2c-modules-4.19.0-23-amd64-di, crc-modules-4.19.0-23-amd64-di, crypto-modules-4.19.0-23-amd64-di, crypto-dm-modules-4.19.0-23-amd64-di, efi-modules-4.19.0-23-amd64-di, ata-modules-4.19.0-23-amd64-di, mmc-core-modules-4.19.0-23-amd64-di, mmc-modules-4.19.0-23-amd64-di, nbd-modules-4.19.0-23-amd64-di, squashfs-modules-4.19.0-23-amd64-di, speakup-modules-4.19.0-23-amd64-di, uinput-modules-4.19.0-23-amd64-di, sound-modules-4.19.0-23-amd64-di, compress-modules-4.19.0-23-amd64-di, udf-modules-4.19.0-23-amd64-di, fuse-modules-4.19.0-23-amd64-di, mtd-core-modules-4.19.0-23-amd64-di, linux-image-4.19.0-23-amd64, linux-image-4.19.0-23-cloud-amd64, linux-image-4.19.0-23-rt-amd64"
+    ],
+    "Build-Depends": [
+      "debhelper (\u003e= 10.1~), rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (\u003e= 2.99~), linux-kbuild-4.19, linux-support-4.19.0-23 (= 4.19.269-1), linux-image-4.19.0-23-amd64-unsigned (= 4.19.269-1) [amd64], linux-image-4.19.0-23-cloud-amd64-unsigned (= 4.19.269-1) [amd64], linux-image-4.19.0-23-rt-amd64-unsigned (= 4.19.269-1) [amd64]"
+    ],
+    "Checksums-Sha256": [
+      "5c4c92fa25d725db3446bee7a0988a32ab6282d6affae62e2d5f511f8a90e3a9 7929 linux-signed-amd64_4.19.269+1.dsc 59919aa9d0324f4476b384aa0b347af9bd650fa2cfd7d46f354505d7785cce86 2688124 linux-signed-amd64_4.19.269+1.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/main/l/linux-signed-amd64"
+    ],
+    "Files": [
+      "0bef02554ec212b6eb630a436bb461d2 7929 linux-signed-amd64_4.19.269+1.dsc 74bc12c5ce98e2bc3e815c65fb4d05ba 2688124 linux-signed-amd64_4.19.269+1.tar.xz"
+    ],
+    "Format": [
+      "3.0 (native)"
+    ],
+    "Homepage": [
+      "https://www.kernel.org/"
+    ],
+    "Maintainer": [
+      "Debian Kernel Team \u003cdebian-kernel@lists.debian.org\u003e"
+    ],
+    "Package": [
+      "linux-signed-amd64"
+    ],
+    "Package-List": [
+      "acpi-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 ata-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 btrfs-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 cdrom-core-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 compress-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 crc-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 crypto-dm-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 crypto-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 efi-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 event-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 ext4-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 fat-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 fb-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 firewire-core-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 fuse-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 i2c-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 input-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 isofs-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 jfs-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 kernel-image-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 linux-image-4.19.0-23-amd64 deb kernel optional arch=amd64 linux-image-4.19.0-23-cloud-amd64 deb kernel optional arch=amd64 linux-image-4.19.0-23-rt-amd64 deb kernel optional arch=amd64 loop-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 md-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 mmc-core-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 mmc-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 mouse-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 mtd-core-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 multipath-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 nbd-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 nic-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 nic-pcmcia-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 nic-shared-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 nic-usb-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 nic-wireless-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 pata-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 pcmcia-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 pcmcia-storage-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 ppp-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 sata-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 scsi-core-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 scsi-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 scsi-nic-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 serial-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 sound-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 speakup-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 squashfs-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 udf-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 uinput-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 usb-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 usb-serial-modules-4.19.0-23-amd64-di udeb debian-installer optional arch=amd64 usb-storage-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64 xfs-modules-4.19.0-23-amd64-di udeb debian-installer standard arch=amd64"
+    ],
+    "Priority": [
+      "extra"
+    ],
+    "Section": [
+      "misc"
+    ],
+    "Standards-Version": [
+      "4.1.1"
+    ],
+    "Uploaders": [
+      "Ben Hutchings \u003cben@decadent.org.uk\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/kernel-team/linux"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/kernel-team/linux.git"
+    ],
+    "Version": [
+      "4.19.269+1"
+    ]
+  },
+  {
+    "Architecture": [
       "arm64"
     ],
     "Binary": [
@@ -22287,6 +22343,62 @@
   },
   {
     "Architecture": [
+      "arm64"
+    ],
+    "Binary": [
+      "kernel-image-4.19.0-23-arm64-di, nic-modules-4.19.0-23-arm64-di, nic-wireless-modules-4.19.0-23-arm64-di, nic-shared-modules-4.19.0-23-arm64-di, usb-serial-modules-4.19.0-23-arm64-di, ppp-modules-4.19.0-23-arm64-di, cdrom-core-modules-4.19.0-23-arm64-di, scsi-core-modules-4.19.0-23-arm64-di, scsi-modules-4.19.0-23-arm64-di, scsi-nic-modules-4.19.0-23-arm64-di, loop-modules-4.19.0-23-arm64-di, btrfs-modules-4.19.0-23-arm64-di, ext4-modules-4.19.0-23-arm64-di, isofs-modules-4.19.0-23-arm64-di, jfs-modules-4.19.0-23-arm64-di, xfs-modules-4.19.0-23-arm64-di, fat-modules-4.19.0-23-arm64-di, md-modules-4.19.0-23-arm64-di, multipath-modules-4.19.0-23-arm64-di, usb-modules-4.19.0-23-arm64-di, usb-storage-modules-4.19.0-23-arm64-di, fb-modules-4.19.0-23-arm64-di, input-modules-4.19.0-23-arm64-di, event-modules-4.19.0-23-arm64-di, nic-usb-modules-4.19.0-23-arm64-di, sata-modules-4.19.0-23-arm64-di, i2c-modules-4.19.0-23-arm64-di, crc-modules-4.19.0-23-arm64-di, crypto-modules-4.19.0-23-arm64-di, crypto-dm-modules-4.19.0-23-arm64-di, efi-modules-4.19.0-23-arm64-di, ata-modules-4.19.0-23-arm64-di, mmc-modules-4.19.0-23-arm64-di, nbd-modules-4.19.0-23-arm64-di, squashfs-modules-4.19.0-23-arm64-di, uinput-modules-4.19.0-23-arm64-di, compress-modules-4.19.0-23-arm64-di, leds-modules-4.19.0-23-arm64-di, udf-modules-4.19.0-23-arm64-di, fuse-modules-4.19.0-23-arm64-di, mtd-core-modules-4.19.0-23-arm64-di, linux-image-4.19.0-23-arm64, linux-image-4.19.0-23-rt-arm64"
+    ],
+    "Build-Depends": [
+      "debhelper (\u003e= 10.1~), rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (\u003e= 2.99~), linux-kbuild-4.19, linux-support-4.19.0-23 (= 4.19.269-1), linux-image-4.19.0-23-arm64-unsigned (= 4.19.269-1) [arm64], linux-image-4.19.0-23-rt-arm64-unsigned (= 4.19.269-1) [arm64]"
+    ],
+    "Checksums-Sha256": [
+      "d0053091b22698e9ed87e3bfb976e297fdab026aa53431f36d37ee57ed1855d8 6605 linux-signed-arm64_4.19.269+1.dsc 22fad1717e8bc2dd68905f9544b4b1a92e9399a7e23b0ca72811e3a8239d5880 2082196 linux-signed-arm64_4.19.269+1.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/main/l/linux-signed-arm64"
+    ],
+    "Files": [
+      "b015374c6003788dd77bb37eaeb50cae 6605 linux-signed-arm64_4.19.269+1.dsc d24aabc62257929c8841da0524c1bcb8 2082196 linux-signed-arm64_4.19.269+1.tar.xz"
+    ],
+    "Format": [
+      "3.0 (native)"
+    ],
+    "Homepage": [
+      "https://www.kernel.org/"
+    ],
+    "Maintainer": [
+      "Debian Kernel Team \u003cdebian-kernel@lists.debian.org\u003e"
+    ],
+    "Package": [
+      "linux-signed-arm64"
+    ],
+    "Package-List": [
+      "ata-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 btrfs-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 cdrom-core-modules-4.19.0-23-arm64-di udeb debian-installer standard arch=arm64 compress-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 crc-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 crypto-dm-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 crypto-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 efi-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 event-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 ext4-modules-4.19.0-23-arm64-di udeb debian-installer standard arch=arm64 fat-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 fb-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 fuse-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 i2c-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 input-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 isofs-modules-4.19.0-23-arm64-di udeb debian-installer standard arch=arm64 jfs-modules-4.19.0-23-arm64-di udeb debian-installer standard arch=arm64 kernel-image-4.19.0-23-arm64-di udeb debian-installer standard arch=arm64 leds-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 linux-image-4.19.0-23-arm64 deb kernel optional arch=arm64 linux-image-4.19.0-23-rt-arm64 deb kernel optional arch=arm64 loop-modules-4.19.0-23-arm64-di udeb debian-installer standard arch=arm64 md-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 mmc-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 mtd-core-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 multipath-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 nbd-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 nic-modules-4.19.0-23-arm64-di udeb debian-installer standard arch=arm64 nic-shared-modules-4.19.0-23-arm64-di udeb debian-installer standard arch=arm64 nic-usb-modules-4.19.0-23-arm64-di udeb debian-installer standard arch=arm64 nic-wireless-modules-4.19.0-23-arm64-di udeb debian-installer standard arch=arm64 ppp-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 sata-modules-4.19.0-23-arm64-di udeb debian-installer standard arch=arm64 scsi-core-modules-4.19.0-23-arm64-di udeb debian-installer standard arch=arm64 scsi-modules-4.19.0-23-arm64-di udeb debian-installer standard arch=arm64 scsi-nic-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 squashfs-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 udf-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 uinput-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 usb-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 usb-serial-modules-4.19.0-23-arm64-di udeb debian-installer optional arch=arm64 usb-storage-modules-4.19.0-23-arm64-di udeb debian-installer standard arch=arm64 xfs-modules-4.19.0-23-arm64-di udeb debian-installer standard arch=arm64"
+    ],
+    "Priority": [
+      "extra"
+    ],
+    "Section": [
+      "misc"
+    ],
+    "Standards-Version": [
+      "4.1.1"
+    ],
+    "Uploaders": [
+      "Ben Hutchings \u003cben@decadent.org.uk\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/kernel-team/linux"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/kernel-team/linux.git"
+    ],
+    "Version": [
+      "4.19.269+1"
+    ]
+  },
+  {
+    "Architecture": [
       "i386"
     ],
     "Binary": [
@@ -22787,6 +22899,62 @@
     ],
     "Version": [
       "4.19.260+1"
+    ]
+  },
+  {
+    "Architecture": [
+      "i386"
+    ],
+    "Binary": [
+      "kernel-image-4.19.0-23-686-di, nic-modules-4.19.0-23-686-di, nic-wireless-modules-4.19.0-23-686-di, nic-shared-modules-4.19.0-23-686-di, serial-modules-4.19.0-23-686-di, usb-serial-modules-4.19.0-23-686-di, ppp-modules-4.19.0-23-686-di, pata-modules-4.19.0-23-686-di, cdrom-core-modules-4.19.0-23-686-di, firewire-core-modules-4.19.0-23-686-di, scsi-core-modules-4.19.0-23-686-di, scsi-modules-4.19.0-23-686-di, scsi-nic-modules-4.19.0-23-686-di, loop-modules-4.19.0-23-686-di, btrfs-modules-4.19.0-23-686-di, ext4-modules-4.19.0-23-686-di, isofs-modules-4.19.0-23-686-di, jfs-modules-4.19.0-23-686-di, xfs-modules-4.19.0-23-686-di, fat-modules-4.19.0-23-686-di, md-modules-4.19.0-23-686-di, multipath-modules-4.19.0-23-686-di, usb-modules-4.19.0-23-686-di, usb-storage-modules-4.19.0-23-686-di, pcmcia-storage-modules-4.19.0-23-686-di, fb-modules-4.19.0-23-686-di, input-modules-4.19.0-23-686-di, event-modules-4.19.0-23-686-di, mouse-modules-4.19.0-23-686-di, nic-pcmcia-modules-4.19.0-23-686-di, pcmcia-modules-4.19.0-23-686-di, nic-usb-modules-4.19.0-23-686-di, sata-modules-4.19.0-23-686-di, acpi-modules-4.19.0-23-686-di, i2c-modules-4.19.0-23-686-di, crc-modules-4.19.0-23-686-di, crypto-modules-4.19.0-23-686-di, crypto-dm-modules-4.19.0-23-686-di, efi-modules-4.19.0-23-686-di, ata-modules-4.19.0-23-686-di, mmc-core-modules-4.19.0-23-686-di, mmc-modules-4.19.0-23-686-di, nbd-modules-4.19.0-23-686-di, squashfs-modules-4.19.0-23-686-di, speakup-modules-4.19.0-23-686-di, uinput-modules-4.19.0-23-686-di, sound-modules-4.19.0-23-686-di, compress-modules-4.19.0-23-686-di, udf-modules-4.19.0-23-686-di, fuse-modules-4.19.0-23-686-di, mtd-core-modules-4.19.0-23-686-di, kernel-image-4.19.0-23-686-pae-di, nic-modules-4.19.0-23-686-pae-di, nic-wireless-modules-4.19.0-23-686-pae-di, nic-shared-modules-4.19.0-23-686-pae-di, serial-modules-4.19.0-23-686-pae-di, usb-serial-modules-4.19.0-23-686-pae-di, ppp-modules-4.19.0-23-686-pae-di, pata-modules-4.19.0-23-686-pae-di, cdrom-core-modules-4.19.0-23-686-pae-di, firewire-core-modules-4.19.0-23-686-pae-di, scsi-core-modules-4.19.0-23-686-pae-di, scsi-modules-4.19.0-23-686-pae-di, scsi-nic-modules-4.19.0-23-686-pae-di, loop-modules-4.19.0-23-686-pae-di, btrfs-modules-4.19.0-23-686-pae-di, ext4-modules-4.19.0-23-686-pae-di, isofs-modules-4.19.0-23-686-pae-di, jfs-modules-4.19.0-23-686-pae-di, xfs-modules-4.19.0-23-686-pae-di, fat-modules-4.19.0-23-686-pae-di, md-modules-4.19.0-23-686-pae-di, multipath-modules-4.19.0-23-686-pae-di, usb-modules-4.19.0-23-686-pae-di, usb-storage-modules-4.19.0-23-686-pae-di, pcmcia-storage-modules-4.19.0-23-686-pae-di, fb-modules-4.19.0-23-686-pae-di, input-modules-4.19.0-23-686-pae-di, event-modules-4.19.0-23-686-pae-di, mouse-modules-4.19.0-23-686-pae-di, nic-pcmcia-modules-4.19.0-23-686-pae-di, pcmcia-modules-4.19.0-23-686-pae-di, nic-usb-modules-4.19.0-23-686-pae-di, sata-modules-4.19.0-23-686-pae-di, acpi-modules-4.19.0-23-686-pae-di, i2c-modules-4.19.0-23-686-pae-di, crc-modules-4.19.0-23-686-pae-di, crypto-modules-4.19.0-23-686-pae-di, crypto-dm-modules-4.19.0-23-686-pae-di, efi-modules-4.19.0-23-686-pae-di, ata-modules-4.19.0-23-686-pae-di, mmc-core-modules-4.19.0-23-686-pae-di, mmc-modules-4.19.0-23-686-pae-di, nbd-modules-4.19.0-23-686-pae-di, squashfs-modules-4.19.0-23-686-pae-di, speakup-modules-4.19.0-23-686-pae-di, uinput-modules-4.19.0-23-686-pae-di, sound-modules-4.19.0-23-686-pae-di, compress-modules-4.19.0-23-686-pae-di, udf-modules-4.19.0-23-686-pae-di, fuse-modules-4.19.0-23-686-pae-di, mtd-core-modules-4.19.0-23-686-pae-di, linux-image-4.19.0-23-686, linux-image-4.19.0-23-686-pae, linux-image-4.19.0-23-rt-686-pae"
+    ],
+    "Build-Depends": [
+      "debhelper (\u003e= 10.1~), rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (\u003e= 2.99~), linux-kbuild-4.19, linux-support-4.19.0-23 (= 4.19.269-1), linux-image-4.19.0-23-686-unsigned (= 4.19.269-1) [i386], linux-image-4.19.0-23-686-pae-unsigned (= 4.19.269-1) [i386], linux-image-4.19.0-23-rt-686-pae-unsigned (= 4.19.269-1) [i386]"
+    ],
+    "Checksums-Sha256": [
+      "7d793e404d08437af4f426b16cd134b7b26667c2cdd8ab9d00910f6807c07d94 13506 linux-signed-i386_4.19.269+1.dsc b1ff6659d13fc748814117e7c098000747ed365d97a4648eee7ddeca9b108d09 3548472 linux-signed-i386_4.19.269+1.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/main/l/linux-signed-i386"
+    ],
+    "Files": [
+      "261ef39192a5c0bc5932d47bf7a4826a 13506 linux-signed-i386_4.19.269+1.dsc 544e72b08af7f59e60c29db42e10b625 3548472 linux-signed-i386_4.19.269+1.tar.xz"
+    ],
+    "Format": [
+      "3.0 (native)"
+    ],
+    "Homepage": [
+      "https://www.kernel.org/"
+    ],
+    "Maintainer": [
+      "Debian Kernel Team \u003cdebian-kernel@lists.debian.org\u003e"
+    ],
+    "Package": [
+      "linux-signed-i386"
+    ],
+    "Package-List": [
+      "acpi-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 acpi-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 ata-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 ata-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 btrfs-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 btrfs-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 cdrom-core-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 cdrom-core-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 compress-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 compress-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 crc-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 crc-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 crypto-dm-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 crypto-dm-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 crypto-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 crypto-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 efi-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 efi-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 event-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 event-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 ext4-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 ext4-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 fat-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 fat-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 fb-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 fb-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 firewire-core-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 firewire-core-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 fuse-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 fuse-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 i2c-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 i2c-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 input-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 input-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 isofs-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 isofs-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 jfs-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 jfs-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 kernel-image-4.19.0-23-686-di udeb debian-installer standard arch=i386 kernel-image-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 linux-image-4.19.0-23-686 deb kernel optional arch=i386 linux-image-4.19.0-23-686-pae deb kernel optional arch=i386 linux-image-4.19.0-23-rt-686-pae deb kernel optional arch=i386 loop-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 loop-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 md-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 md-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 mmc-core-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 mmc-core-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 mmc-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 mmc-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 mouse-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 mouse-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 mtd-core-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 mtd-core-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 multipath-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 multipath-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 nbd-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 nbd-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 nic-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 nic-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 nic-pcmcia-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 nic-pcmcia-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 nic-shared-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 nic-shared-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 nic-usb-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 nic-usb-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 nic-wireless-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 nic-wireless-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 pata-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 pata-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 pcmcia-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 pcmcia-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 pcmcia-storage-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 pcmcia-storage-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 ppp-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 ppp-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 sata-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 sata-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 scsi-core-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 scsi-core-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 scsi-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 scsi-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 scsi-nic-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 scsi-nic-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 serial-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 serial-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 sound-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 sound-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 speakup-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 speakup-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 squashfs-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 squashfs-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 udf-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 udf-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 uinput-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 uinput-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 usb-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 usb-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 usb-serial-modules-4.19.0-23-686-di udeb debian-installer optional arch=i386 usb-serial-modules-4.19.0-23-686-pae-di udeb debian-installer optional arch=i386 usb-storage-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 usb-storage-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386 xfs-modules-4.19.0-23-686-di udeb debian-installer standard arch=i386 xfs-modules-4.19.0-23-686-pae-di udeb debian-installer standard arch=i386"
+    ],
+    "Priority": [
+      "extra"
+    ],
+    "Section": [
+      "misc"
+    ],
+    "Standards-Version": [
+      "4.1.1"
+    ],
+    "Uploaders": [
+      "Ben Hutchings \u003cben@decadent.org.uk\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/kernel-team/linux"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/kernel-team/linux.git"
+    ],
+    "Version": [
+      "4.19.269+1"
     ]
   },
   {
@@ -25266,6 +25434,65 @@
     ],
     "Version": [
       "3.3.0-1+deb10u1"
+    ]
+  },
+  {
+    "Architecture": [
+      "all"
+    ],
+    "Binary": [
+      "node-trim-newlines"
+    ],
+    "Build-Depends": [
+      "debhelper (\u003e= 9), dh-buildinfo, nodejs"
+    ],
+    "Checksums-Sha256": [
+      "97b43dadff1674952ac0909f2ea78aa2b52d14f5dc38ae0d0dfe5c47a10b0587 2127 node-trim-newlines_1.0.0-1+deb10u1.dsc a0ae452504bf24d3406d46b3ee1e19235d870e4e17924f35be3d1cdf045b715c 2193 node-trim-newlines_1.0.0.orig.tar.gz 4543c7f507a21619734cae52672429090de65f64274bdae8d90b786ba70725b1 2664 node-trim-newlines_1.0.0-1+deb10u1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/main/n/node-trim-newlines"
+    ],
+    "Files": [
+      "aa65b269f4a53e8656cd99b0831afa76 2127 node-trim-newlines_1.0.0-1+deb10u1.dsc 5ac6f11417468a1418fab41d4da3e864 2193 node-trim-newlines_1.0.0.orig.tar.gz c9bfa4a5825b6e031072d22a6496c435 2664 node-trim-newlines_1.0.0-1+deb10u1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://github.com/sindresorhus/trim-newlines"
+    ],
+    "Maintainer": [
+      "Debian Javascript Maintainers \u003cpkg-javascript-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "node-trim-newlines"
+    ],
+    "Package-List": [
+      "node-trim-newlines deb web optional arch=all"
+    ],
+    "Priority": [
+      "extra"
+    ],
+    "Section": [
+      "javascript"
+    ],
+    "Standards-Version": [
+      "3.9.8"
+    ],
+    "Testsuite": [
+      "autopkgtest"
+    ],
+    "Uploaders": [
+      "Sruthi Chandran \u003csrud@disroot.org\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://anonscm.debian.org/cgit/pkg-javascript/node-trim-newlines.git"
+    ],
+    "Vcs-Git": [
+      "https://anonscm.debian.org/git/pkg-javascript/node-trim-newlines.git"
+    ],
+    "Version": [
+      "1.0.0-1+deb10u1"
     ]
   },
   {
