@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2022-12-22T09:15:19Z",
+        "Date": "2022-12-23T09:09:58Z",
         "Description": "current"
       }
     ]
@@ -3117,7 +3117,7 @@
     },
     {
       "CVE": "CVE-2022-1097",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "\u003ccode\u003eNSSToken\u003c/code\u003e objects were referenced via direct points, and could have been accessed in an unsafe way on different threads, leading to a use-after-free and potentially exploitable crash. This vulnerability affects Thunderbird \u003c 91.8, Firefox \u003c 99, and Firefox ESR \u003c 91.8.",
       "Threats": [
         {
           "Type": "Impact",
