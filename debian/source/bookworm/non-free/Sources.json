@@ -2432,13 +2432,13 @@
       "debhelper-compat (= 13)"
     ],
     "Checksums-Sha256": [
-      "8794eb07b3d48a8819f820cf4cdd4f7786115635683071ce59e008380869830f 4060 firmware-nonfree_20221109-4.dsc 48f5a68c8297c0b3ecc6b79c53ecc4f023cecc2be809d41b84297536489dbe02 229118064 firmware-nonfree_20221109.orig.tar.xz 72cddb92f33ae2abfb7615c6922346c366f3b82c360b3eb11d6c991fdbb27a39 827144 firmware-nonfree_20221109-4.debian.tar.xz"
+      "275fa3c1f54c3add346c53acb3eb1ab07b12f5a1102c5ed55f163881e111b579 4060 firmware-nonfree_20221214-2.dsc 9c273a47b05f90cf2064a472ed39f4a100336cdf2fa857bd03b77ccce0e0c1d8 230915452 firmware-nonfree_20221214.orig.tar.xz 3da15268f12680472cb18de34f6f6acc0ef755c8554ecd37730531d7b8a776bf 827320 firmware-nonfree_20221214-2.debian.tar.xz"
     ],
     "Directory": [
       "pool/non-free/f/firmware-nonfree"
     ],
     "Files": [
-      "7c274e5a9717ca13804fec1617caaf40 4060 firmware-nonfree_20221109-4.dsc 1dab1b7cc8b0d11058fc6cc5f99faedf 229118064 firmware-nonfree_20221109.orig.tar.xz 61d1a34138fccac87a0640d4e34e7843 827144 firmware-nonfree_20221109-4.debian.tar.xz"
+      "8036d7ee521d911a20c80843d98ecb5c 4060 firmware-nonfree_20221214-2.dsc dfd303d7632392b17716c7edd5eb2737 230915452 firmware-nonfree_20221214.orig.tar.xz f3a271a000442b324ed0ada5182667d5 827320 firmware-nonfree_20221214-2.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -2471,7 +2471,7 @@
       "https://salsa.debian.org/kernel-team/firmware-nonfree.git"
     ],
     "Version": [
-      "20221109-4"
+      "20221214-2"
     ]
   },
   {
@@ -3322,16 +3322,16 @@
       "libretro-genesisplusgx"
     ],
     "Build-Depends": [
-      "debhelper (\u003e= 9), dh-exec, libvorbis-dev"
+      "debhelper-compat (= 13), dh-exec, libvorbis-dev"
     ],
     "Checksums-Sha256": [
-      "c2c75cb1eb9b948e791c4857d73d82fff69efd0be4a45c30de99fe2e35218de4 2118 genesisplusgx_1.7.4+git20160410-5.dsc 48bd8c9372cae6df6943a516bc116f2dafdcfaa7dc4e0de434f9dba60eb9eece 2083830 genesisplusgx_1.7.4+git20160410.orig.tar.gz dc566e8a93e164e715082e920a0708be03f6febe5c5b233b1fca24e9e17a34b0 8828 genesisplusgx_1.7.4+git20160410-5.debian.tar.xz"
+      "cc6d5ea6c447d742b25ba8e75ff3084638054715f5a2d6b0b6a2506e9844af52 2125 genesisplusgx_1.7.4+git20221128-1.dsc 6a4a02233f54aa8df8fe493fa572b21fd2b2b2573234fd51f9927fd9fbc7f465 8225152 genesisplusgx_1.7.4+git20221128.orig.tar.xz 929f69310022e4990c5877b3bd55e82ff3777d90d2cd411b1ed97f253ed0d353 8432 genesisplusgx_1.7.4+git20221128-1.debian.tar.xz"
     ],
     "Directory": [
       "pool/non-free/g/genesisplusgx"
     ],
     "Files": [
-      "4c7a07b4346bccd840ae5ec2ca749f76 2118 genesisplusgx_1.7.4+git20160410-5.dsc ee2d21653866edf62973c2bb04d69b95 2083830 genesisplusgx_1.7.4+git20160410.orig.tar.gz 40941872877ed29af8f77022113b9645 8828 genesisplusgx_1.7.4+git20160410-5.debian.tar.xz"
+      "41cc176e19122ad8835f82cdaba0da10 2125 genesisplusgx_1.7.4+git20221128-1.dsc 7981adaf68cb6bb8361d1370b5d3fe63 8225152 genesisplusgx_1.7.4+git20221128.orig.tar.xz 72eceb853d4dcc16b596e759e49a2c86 8432 genesisplusgx_1.7.4+git20221128-1.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -3367,7 +3367,7 @@
       "https://salsa.debian.org/games-team/genesisplusgx.git"
     ],
     "Version": [
-      "1.7.4+git20160410-5"
+      "1.7.4+git20221128-1"
     ]
   },
   {
@@ -4904,13 +4904,13 @@
       "debhelper-compat (= 13), cmake, libusb-1.0-0-dev"
     ],
     "Checksums-Sha256": [
-      "003d81061810db18c41812da9d8f5127bbb67a4c91ea60e2457519be8aecf131 2263 libasi_1.22+20220607002509-1.dsc cfb58315f723dc52eaf43f1955b4469cb4c22f7dc33ab485f339bbb6a5e49a15 6020188 libasi_1.22+20220607002509.orig.tar.gz 6d11ee4ba7de230be89f95b69f804ae18289c2f01d1557287c9c283361687f12 2600 libasi_1.22+20220607002509-1.debian.tar.xz"
+      "979c04d0692345449a864f5da4eedc8d6341b9289248a0d0e6db2ac310169c61 2263 libasi_1.27+20221218230335-1.dsc 9a518762e863868ad0659e470c0cba9fbc51aac4b0f358d5b5379003be49ba3d 6296738 libasi_1.27+20221218230335.orig.tar.gz ea4c5257e40a65c305c98ad9e656db1de4c83862dcf893c539a9bb2e77d85bd2 2628 libasi_1.27+20221218230335-1.debian.tar.xz"
     ],
     "Directory": [
       "pool/non-free/liba/libasi"
     ],
     "Files": [
-      "1e3472e7bde08ca71ce81a9b4a2d2b0a 2263 libasi_1.22+20220607002509-1.dsc 80844817abdc6503bd0c1b1cdc37b213 6020188 libasi_1.22+20220607002509.orig.tar.gz ffc157cb8ebf31d8beed4b0285efe50d 2600 libasi_1.22+20220607002509-1.debian.tar.xz"
+      "9d738e5487f82ef3a20c97ed519f0b56 2263 libasi_1.27+20221218230335-1.dsc 85ff4ec1e6ed929a72429f9a98120565 6296738 libasi_1.27+20221218230335.orig.tar.gz cb932b8e4ee8c7e71d9f85550fcaf11f 2628 libasi_1.27+20221218230335-1.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -4946,7 +4946,7 @@
       "https://salsa.debian.org/debian-astro-team/libasi.git"
     ],
     "Version": [
-      "1.22+20220607002509-1"
+      "1.27+20221218230335-1"
     ]
   },
   {
