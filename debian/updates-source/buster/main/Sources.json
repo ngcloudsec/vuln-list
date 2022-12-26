@@ -23516,6 +23516,71 @@
   },
   {
     "Architecture": [
+      "any all"
+    ],
+    "Binary": [
+      "libmbedtls-dev, libmbedcrypto3, libmbedtls12, libmbedx509-0, libmbedtls-doc"
+    ],
+    "Build-Depends": [
+      "cmake, debhelper-compat (= 12)"
+    ],
+    "Build-Depends-Arch": [
+      "faketime, python3"
+    ],
+    "Build-Depends-Indep": [
+      "doxygen, graphviz"
+    ],
+    "Checksums-Sha256": [
+      "678e0879d1854d46e194b64c00ec71cb68cc92d5dc7212ac27c80788dcb984d5 2400 mbedtls_2.16.9-0~deb10u1.dsc fc17ff7d8c11d08f23ae2800a18269408ad2c24ea6bb8b9363e41a01c2425697 2668292 mbedtls_2.16.9.orig.tar.gz 2006cbc7118c68688fe14ccc15672fd5b6b3538a9b81f906f30607a597e95346 19072 mbedtls_2.16.9-0~deb10u1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/main/m/mbedtls"
+    ],
+    "Files": [
+      "b81e4775bb422b82d3463cd5115939c0 2400 mbedtls_2.16.9-0~deb10u1.dsc 82ae1332c2e9e917be6eb8e1ed27ecbc 2668292 mbedtls_2.16.9.orig.tar.gz 099679cefd86b2c18f1f7e2410b8f0d2 19072 mbedtls_2.16.9-0~deb10u1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://github.com/ARMmbed/mbedtls"
+    ],
+    "Maintainer": [
+      "James Cowgill \u003cjcowgill@debian.org\u003e"
+    ],
+    "Package": [
+      "mbedtls"
+    ],
+    "Package-List": [
+      "libmbedcrypto3 deb libs optional arch=any libmbedtls-dev deb libdevel optional arch=any libmbedtls-doc deb doc optional arch=all libmbedtls12 deb libs optional arch=any libmbedx509-0 deb libs optional arch=any"
+    ],
+    "Priority": [
+      "extra"
+    ],
+    "Section": [
+      "misc"
+    ],
+    "Standards-Version": [
+      "4.5.0"
+    ],
+    "Testsuite": [
+      "autopkgtest"
+    ],
+    "Testsuite-Triggers": [
+      "gcc, libc-dev"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/debian/mbedtls"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/debian/mbedtls.git"
+    ],
+    "Version": [
+      "2.16.9-0~deb10u1"
+    ]
+  },
+  {
+    "Architecture": [
       "all"
     ],
     "Binary": [

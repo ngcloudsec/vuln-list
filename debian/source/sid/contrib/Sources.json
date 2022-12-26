@@ -3733,6 +3733,65 @@
   },
   {
     "Architecture": [
+      "i386 amd64 armhf arm64"
+    ],
+    "Autobuild": [
+      "yes"
+    ],
+    "Binary": [
+      "indi-asi"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), cmake, libusb-1.0-0-dev, libcfitsio-dev, libindi-dev, zlib1g-dev, libnova-dev, libasi"
+    ],
+    "Checksums-Sha256": [
+      "1b933c3c1efe484c042895c613cd5337c78c2605cf3bf2809259d8ba1a70085a 2336 indi-asi_2.2+20221225102500-1.dsc ac88b16fde1e3e06a33422dc27f66968d86aed9a6c620cbf6bd53e60f5f409bb 81296 indi-asi_2.2+20221225102500.orig.tar.gz 0925705711536bf642994d963572ddf718ea359eb677f2ced92056b03dc8fcc5 1408 indi-asi_2.2+20221225102500-1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/i/indi-asi"
+    ],
+    "Files": [
+      "1b29283d4125491b15903bf6afb115a8 2336 indi-asi_2.2+20221225102500-1.dsc b96bd5320ff3e0136eb775c2a5e698e3 81296 indi-asi_2.2+20221225102500.orig.tar.gz 0564f8160e0589102578c81f7672d0b1 1408 indi-asi_2.2+20221225102500-1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://github.com/indilib/indi-3rdparty"
+    ],
+    "Maintainer": [
+      "Debian Astronomy Team \u003cdebian-astro-maintainers@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "indi-asi"
+    ],
+    "Package-List": [
+      "indi-asi deb contrib/science optional arch=i386,amd64,armhf,arm64"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.0"
+    ],
+    "Uploaders": [
+      "Thorsten Alteholz \u003cdebian@alteholz.de\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/debian-astro-team/indi-asi"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/debian-astro-team/indi-asi.git"
+    ],
+    "Version": [
+      "2.2+20221225102500-1"
+    ]
+  },
+  {
+    "Architecture": [
       "any"
     ],
     "Autobuild": [
