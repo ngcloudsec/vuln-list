@@ -1,0 +1,1666 @@
+{
+  "Title": "Security update for freeradius-server",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:4622-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-12-27T07:05:34Z",
+    "CurrentReleaseDate": "2022-12-27T07:05:34Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-12-27T07:05:34Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for freeradius-server",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for freeradius-server fixes the following issues:\n\n- CVE-2022-41859: Fixes an information leakage in EAP-PWD (bsc#1206204).\n- CVE-2022-41860: Fixes a crash on unknown option in EAP-SIM (bsc#1206205).\n- CVE-2022-41861: Fixes a crash on invalid abinary data (bsc#1206206).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "freeradius-server-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-devel-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-krb5-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-ldap-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-libs-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-mysql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-perl-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-postgresql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-python3-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-sqlite-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-utils-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-devel-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-krb5-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-ldap-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-libs-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-mysql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-perl-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-postgresql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-python3-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-sqlite-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-utils-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-devel-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-krb5-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-ldap-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-libs-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-mysql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-perl-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-postgresql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-python3-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-sqlite-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-utils-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-devel-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-krb5-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-ldap-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-libs-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-mysql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-perl-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-postgresql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-python3-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-sqlite-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-utils-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-devel-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-krb5-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-ldap-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-libs-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-mysql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-perl-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-postgresql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-python3-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-sqlite-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-utils-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-devel-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-krb5-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-ldap-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-libs-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-mysql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-perl-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-postgresql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-python3-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-sqlite-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-utils-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-devel-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-krb5-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-ldap-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-libs-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-mysql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-perl-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-postgresql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-python3-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-sqlite-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-utils-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-devel-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-krb5-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-ldap-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-libs-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-mysql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-perl-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-postgresql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-python3-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-sqlite-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-utils-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-devel-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-krb5-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-ldap-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-libs-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-mysql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-perl-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-postgresql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-python3-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-sqlite-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-utils-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-devel-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-krb5-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-ldap-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-libs-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-mysql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-perl-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-postgresql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-python3-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-sqlite-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-utils-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-devel-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-krb5-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-ldap-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-libs-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-mysql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-perl-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-postgresql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-python3-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-sqlite-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-utils-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-devel-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-krb5-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-ldap-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-libs-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-mysql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-perl-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-postgresql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-python3-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-sqlite-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-utils-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-devel-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-krb5-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-ldap-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-libs-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-mysql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-perl-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-postgresql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-python3-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-sqlite-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-utils-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-devel-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-krb5-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-ldap-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-libs-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-mysql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-perl-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-postgresql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-python3-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-sqlite-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-utils-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-devel-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-krb5-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-ldap-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-libs-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-mysql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-perl-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-postgresql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-python3-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-sqlite-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-utils-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-devel-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-krb5-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-ldap-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-libs-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-mysql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-perl-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-postgresql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-python3-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-sqlite-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-utils-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-devel-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-doc-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-krb5-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-ldap-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-libs-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-mysql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-perl-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-postgresql-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-python3-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-sqlite-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "freeradius-server-utils-3.0.21-150200.3.12.1",
+        "RelatesToProductReference": "openSUSE Leap 15.3",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20224622-1/",
+      "Description": "Link for SUSE-SU-2022:4622-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-December/013346.html",
+      "Description": "E-Mail link for SUSE-SU-2022:4622-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1206204",
+      "Description": "SUSE Bug 1206204"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1206205",
+      "Description": "SUSE Bug 1206205"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1206206",
+      "Description": "SUSE Bug 1206206"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-41859/",
+      "Description": "SUSE CVE CVE-2022-41859 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-41860/",
+      "Description": "SUSE CVE CVE-2022-41860 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-41861/",
+      "Description": "SUSE CVE CVE-2022-41861 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-41859",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-41859.html",
+          "Description": "CVE-2022-41859"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1206204",
+          "Description": "SUSE Bug 1206204"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-doc-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-utils-3.0.21-150200.3.12.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-41860",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-41860.html",
+          "Description": "CVE-2022-41860"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1206205",
+          "Description": "SUSE Bug 1206205"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-doc-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-utils-3.0.21-150200.3.12.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2022-41861",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-41861.html",
+          "Description": "CVE-2022-41861"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1206206",
+          "Description": "SUSE Bug 1206206"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "SUSE Enterprise Storage 7.1:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7.1:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Enterprise Storage 7:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Real Time 15 SP3:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP2-LTSS:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server 15 SP3-LTSS:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP2:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP3:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.1:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Manager Proxy 4.2:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.1:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Manager Retail Branch Server 4.2:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.1:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "SUSE Manager Server 4.2:freeradius-server-utils-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-devel-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-doc-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-krb5-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-ldap-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-libs-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-mysql-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-perl-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-postgresql-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-python3-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-sqlite-3.0.21-150200.3.12.1",
+            "openSUSE Leap 15.3:freeradius-server-utils-3.0.21-150200.3.12.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}
