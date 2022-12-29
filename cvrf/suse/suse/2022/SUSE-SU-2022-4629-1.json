@@ -1,0 +1,670 @@
+{
+  "Title": "Security update for systemd",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:4629-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-12-28T08:24:18Z",
+    "CurrentReleaseDate": "2022-12-28T08:24:18Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-12-28T08:24:18Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for systemd",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for systemd fixes the following issues:\n\n- CVE-2022-4415: Fixed systemd-coredump that did not respect the fs.suid_dumpable kernel setting (bsc#1205000).\n\nBug fixes:\n\n- Support by-path devlink for multipath nvme block devices (bsc#1200723).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/bci-init:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/dotnet-aspnet:6.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/dotnet-runtime:6.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:3.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:5.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/dotnet-sdk:6.0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/golang:1.16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/golang:1.16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/golang:1.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/golang:1.17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/golang:1.18",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/golang:1.18",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/golang:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/node:14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:11",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:11",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/openjdk-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/openjdk:11",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/openjdk:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/python:3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/python:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/python:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/ruby:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/rust:1.64",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container bci/rust:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container suse/pcp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container suse/pcp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container suse/pcp:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-sysvinit-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "udev-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container suse/sle15:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-249.12-150400.8.16.1",
+        "RelatesToProductReference": "Container suse/sle15:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-container-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-journal-remote-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-sysvinit-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "udev-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-32bit-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-32bit-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-32bit-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-container-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-coredump-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-devel-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-doc-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-lang-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-sysvinit-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "udev-249.12-150400.8.16.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-container-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-journal-remote-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-sysvinit-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "udev-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libsystemd0-32bit-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libudev1-32bit-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nss-myhostname-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nss-myhostname-32bit-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "nss-systemd-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-32bit-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-container-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-coredump-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-devel-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-doc-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-experimental-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-journal-remote-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-lang-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-network-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-portable-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-sysvinit-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "systemd-testsuite-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "udev-249.12-150400.8.16.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20224629-1/",
+      "Description": "Link for SUSE-SU-2022:4629-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-December/013352.html",
+      "Description": "E-Mail link for SUSE-SU-2022:4629-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1200723",
+      "Description": "SUSE Bug 1200723"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1205000",
+      "Description": "SUSE Bug 1205000"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2022-4415/",
+      "Description": "SUSE CVE CVE-2022-4415 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-4415",
+      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2022-4415.html",
+          "Description": "CVE-2022-4415"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1205000",
+          "Description": "SUSE Bug 1205000"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-init:latest:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/bci-init:latest:libudev1-249.12-150400.8.16.1",
+            "Container bci/bci-init:latest:systemd-249.12-150400.8.16.1",
+            "Container bci/dotnet-aspnet:3.1:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/dotnet-aspnet:5.0:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/dotnet-aspnet:6.0:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/dotnet-runtime:3.1:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/dotnet-runtime:5.0:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/dotnet-runtime:6.0:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/dotnet-sdk:3.1:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/dotnet-sdk:5.0:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/dotnet-sdk:6.0:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/golang:1.16:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/golang:1.16:libudev1-249.12-150400.8.16.1",
+            "Container bci/golang:1.17:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/golang:1.17:libudev1-249.12-150400.8.16.1",
+            "Container bci/golang:1.18:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/golang:1.18:libudev1-249.12-150400.8.16.1",
+            "Container bci/golang:latest:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/golang:latest:libudev1-249.12-150400.8.16.1",
+            "Container bci/node:14:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/node:14:libudev1-249.12-150400.8.16.1",
+            "Container bci/nodejs:latest:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/nodejs:latest:libudev1-249.12-150400.8.16.1",
+            "Container bci/openjdk-devel:11:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/openjdk-devel:11:libudev1-249.12-150400.8.16.1",
+            "Container bci/openjdk-devel:latest:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/openjdk-devel:latest:libudev1-249.12-150400.8.16.1",
+            "Container bci/openjdk:11:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/openjdk:latest:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/python:3:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/python:3:libudev1-249.12-150400.8.16.1",
+            "Container bci/python:latest:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/python:latest:libudev1-249.12-150400.8.16.1",
+            "Container bci/ruby:latest:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/ruby:latest:libudev1-249.12-150400.8.16.1",
+            "Container bci/rust:1.64:libsystemd0-249.12-150400.8.16.1",
+            "Container bci/rust:latest:libsystemd0-249.12-150400.8.16.1",
+            "Container suse/pcp:latest:libsystemd0-249.12-150400.8.16.1",
+            "Container suse/pcp:latest:libudev1-249.12-150400.8.16.1",
+            "Container suse/pcp:latest:systemd-249.12-150400.8.16.1",
+            "Container suse/sle-micro-rancher/5.3:latest:libsystemd0-249.12-150400.8.16.1",
+            "Container suse/sle-micro-rancher/5.3:latest:libudev1-249.12-150400.8.16.1",
+            "Container suse/sle-micro-rancher/5.3:latest:systemd-249.12-150400.8.16.1",
+            "Container suse/sle-micro-rancher/5.3:latest:systemd-sysvinit-249.12-150400.8.16.1",
+            "Container suse/sle-micro-rancher/5.3:latest:udev-249.12-150400.8.16.1",
+            "Container suse/sle15:15.4:libsystemd0-249.12-150400.8.16.1",
+            "Container suse/sle15:15.4:libudev1-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Micro 5.3:libsystemd0-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Micro 5.3:libudev1-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Micro 5.3:systemd-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Micro 5.3:systemd-container-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Micro 5.3:systemd-journal-remote-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Micro 5.3:systemd-sysvinit-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Micro 5.3:udev-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libsystemd0-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libsystemd0-32bit-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libudev1-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:libudev1-32bit-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:systemd-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:systemd-32bit-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:systemd-container-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:systemd-coredump-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:systemd-devel-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:systemd-doc-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:systemd-lang-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:systemd-sysvinit-249.12-150400.8.16.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP4:udev-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:libsystemd0-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:libsystemd0-32bit-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:libudev1-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:libudev1-32bit-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:nss-myhostname-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:nss-myhostname-32bit-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:nss-systemd-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:systemd-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:systemd-32bit-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:systemd-container-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:systemd-coredump-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:systemd-devel-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:systemd-doc-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:systemd-experimental-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:systemd-journal-remote-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:systemd-lang-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:systemd-network-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:systemd-portable-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:systemd-sysvinit-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:systemd-testsuite-249.12-150400.8.16.1",
+            "openSUSE Leap 15.4:udev-249.12-150400.8.16.1",
+            "openSUSE Leap Micro 5.3:libsystemd0-249.12-150400.8.16.1",
+            "openSUSE Leap Micro 5.3:libudev1-249.12-150400.8.16.1",
+            "openSUSE Leap Micro 5.3:systemd-249.12-150400.8.16.1",
+            "openSUSE Leap Micro 5.3:systemd-container-249.12-150400.8.16.1",
+            "openSUSE Leap Micro 5.3:systemd-journal-remote-249.12-150400.8.16.1",
+            "openSUSE Leap Micro 5.3:systemd-sysvinit-249.12-150400.8.16.1",
+            "openSUSE Leap Micro 5.3:udev-249.12-150400.8.16.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}
