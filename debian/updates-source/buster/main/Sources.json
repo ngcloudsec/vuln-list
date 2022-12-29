@@ -24079,6 +24079,68 @@
   },
   {
     "Architecture": [
+      "linux-any all"
+    ],
+    "Binary": [
+      "multipath-tools, kpartx, multipath-tools-boot, multipath-udeb, kpartx-udeb"
+    ],
+    "Build-Depends": [
+      "debhelper (\u003e= 9.20160709), po-debconf, libdevmapper-dev (\u003e= 2:1.02.20), libreadline-dev, libaio-dev, dpkg-dev (\u003e= 1.16.1~), libudev-dev, libsystemd-dev, systemd, liburcu-dev, pkg-config, libjson-c-dev"
+    ],
+    "Checksums-Sha256": [
+      "a488b6bc88d917aac198e643bb06ee7f64be4d1ed58a5af8b4504c0cabab89ec 2660 multipath-tools_0.7.9-3+deb10u2.dsc 5537996bc053d059f28343ce00b5d722a0ff42aac28110a5429a67259fb50c12 419298 multipath-tools_0.7.9.orig.tar.gz 99232c43d6abc2a13e93d0183dfd82286f8191ca2e86863c1aa1fc3dd2e95556 43872 multipath-tools_0.7.9-3+deb10u2.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/main/m/multipath-tools"
+    ],
+    "Files": [
+      "249aa07d1694b97b980c179f6681ef2b 2660 multipath-tools_0.7.9-3+deb10u2.dsc de10966b84d62874f078526d18bd6c23 419298 multipath-tools_0.7.9.orig.tar.gz 14f1eab5e094e6ee20673d80e6b19b79 43872 multipath-tools_0.7.9-3+deb10u2.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "http://christophe.varoqui.free.fr/"
+    ],
+    "Maintainer": [
+      "Debian DM Multipath Team \u003cteam+linux-blocks@tracker.debian.org\u003e"
+    ],
+    "Package": [
+      "multipath-tools"
+    ],
+    "Package-List": [
+      "kpartx deb admin optional arch=linux-any kpartx-udeb udeb debian-installer optional arch=linux-any multipath-tools deb admin optional arch=linux-any multipath-tools-boot deb admin optional arch=all multipath-udeb udeb debian-installer optional arch=linux-any"
+    ],
+    "Priority": [
+      "extra"
+    ],
+    "Section": [
+      "admin"
+    ],
+    "Standards-Version": [
+      "3.9.8"
+    ],
+    "Testsuite": [
+      "autopkgtest"
+    ],
+    "Testsuite-Triggers": [
+      "fio, gdisk, lsscsi, open-iscsi, qemu-utils, tgt"
+    ],
+    "Uploaders": [
+      "Guido Günther \u003cagx@sigxcpu.org\u003e, Ritesh Raj Sarraf \u003crrs@debian.org\u003e, Chris Hofstaedtler \u003czeha@debian.org\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/linux-blocks-team/multipath-tools"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/linux-blocks-team/multipath-tools.git"
+    ],
+    "Version": [
+      "0.7.9-3+deb10u2"
+    ]
+  },
+  {
+    "Architecture": [
       "any"
     ],
     "Binary": [

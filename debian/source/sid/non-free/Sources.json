@@ -1651,13 +1651,13 @@
       "debhelper-compat (= 13), po-debconf"
     ],
     "Checksums-Sha256": [
-      "544cc515a078556f7a34f44788428b33878cf21fa98903ed4106b91494f78bce 2015 distributed-net_2.9112.521+arm64-2.dsc 475d2632a257c4f6377ad040db0341c41f340a8dd6a6ecb6188cbbe6d91ce8f9 1262192 distributed-net_2.9112.521+arm64.orig.tar.xz 67c632b67a4e061077367154a114dfbd3c74f586163b85a536fa9bfead31a5f1 27600 distributed-net_2.9112.521+arm64-2.debian.tar.xz"
+      "9a03a144b1c77d04c39111070e7b32489b270d343aa4286bfc76ec097d22589e 2015 distributed-net_2.9112.521+arm64-3.dsc 475d2632a257c4f6377ad040db0341c41f340a8dd6a6ecb6188cbbe6d91ce8f9 1262192 distributed-net_2.9112.521+arm64.orig.tar.xz 8e0a91ae2be2e73aca4a4a314a032473613186436b751d56bb86ba8aea4416a4 28000 distributed-net_2.9112.521+arm64-3.debian.tar.xz"
     ],
     "Directory": [
       "pool/non-free/d/distributed-net"
     ],
     "Files": [
-      "9c10dad340c0d0cd551f11681cd82a3b 2015 distributed-net_2.9112.521+arm64-2.dsc be9ea977ddef32e1bcd0d4f9ead25999 1262192 distributed-net_2.9112.521+arm64.orig.tar.xz 7063c25046eff01de8bd30f73b603837 27600 distributed-net_2.9112.521+arm64-2.debian.tar.xz"
+      "7e636cd231a5d5a8a972b4eccd276aa7 2015 distributed-net_2.9112.521+arm64-3.dsc be9ea977ddef32e1bcd0d4f9ead25999 1262192 distributed-net_2.9112.521+arm64.orig.tar.xz d9ec85edd95e003b4c75db4d4d18f8cc 28000 distributed-net_2.9112.521+arm64-3.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -1687,7 +1687,7 @@
       "tony mancill \u003ctmancill@debian.org\u003e"
     ],
     "Version": [
-      "2.9112.521+arm64-2"
+      "2.9112.521+arm64-3"
     ]
   },
   {
@@ -12003,20 +12003,23 @@
     "Architecture": [
       "any"
     ],
+    "Autobuild": [
+      "yes"
+    ],
     "Binary": [
       "openzwave-controlpanel"
     ],
     "Build-Depends": [
-      "debhelper (\u003e= 9), libmicrohttpd-dev, libopenzwave1.6-dev"
+      "debhelper-compat (= 13), libmicrohttpd-dev, libopenzwave1.6-dev"
     ],
     "Checksums-Sha256": [
-      "5422f7583f8a7680c4c525ca6f2e1afe91ac40101f659d78af296b6988f6ae42 2285 openzwave-controlpanel_0.2a+git20161006.a390f35-2.2.dsc ec8842134543a8d5d49506c853dcb4c0aaf857046b65897fcb26c14ad2c44df9 41425 openzwave-controlpanel_0.2a+git20161006.a390f35.orig.tar.gz 27cde6670498cbcceae2e9d48cd67ba7f15be2f0cc84d2b393ac05153f8cdbd0 7120 openzwave-controlpanel_0.2a+git20161006.a390f35-2.2.debian.tar.xz"
+      "9b8869b8a9861ff197592bc99ef0b52c2a44b08afe9a0574d4af8786a0668b26 2491 openzwave-controlpanel_0.2a+git20161006.a390f35-3.dsc ec8842134543a8d5d49506c853dcb4c0aaf857046b65897fcb26c14ad2c44df9 41425 openzwave-controlpanel_0.2a+git20161006.a390f35.orig.tar.gz 04b3af475f6afedd404231cd7755ee601b55fca1be6dbd5ff79e22ef8f106e52 7400 openzwave-controlpanel_0.2a+git20161006.a390f35-3.debian.tar.xz"
     ],
     "Directory": [
       "pool/non-free/o/openzwave-controlpanel"
     ],
     "Files": [
-      "80d1114ca0dbda0e3fb9472ccd8d407b 2285 openzwave-controlpanel_0.2a+git20161006.a390f35-2.2.dsc 0c87327b6bfed1cec9e6f4c408e7a494 41425 openzwave-controlpanel_0.2a+git20161006.a390f35.orig.tar.gz c4cbf952c2ced9f4261debc0b4bc9753 7120 openzwave-controlpanel_0.2a+git20161006.a390f35-2.2.debian.tar.xz"
+      "a0c659fca8fa6df1569a9efcacc23783 2491 openzwave-controlpanel_0.2a+git20161006.a390f35-3.dsc 0c87327b6bfed1cec9e6f4c408e7a494 41425 openzwave-controlpanel_0.2a+git20161006.a390f35.orig.tar.gz ee6d8a4a1eeb171ce5b19bed02097d83 7400 openzwave-controlpanel_0.2a+git20161006.a390f35-3.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -12040,19 +12043,19 @@
       "non-free/misc"
     ],
     "Standards-Version": [
-      "4.0.1"
+      "4.6.1"
     ],
     "Uploaders": [
-      "Dara Adib \u003cdaradib@ocf.berkeley.edu\u003e"
+      "Dara Adib \u003cdaradib@ocf.berkeley.edu\u003e, Thorsten Alteholz \u003cdebian@alteholz.de\u003e"
     ],
     "Vcs-Browser": [
-      "https://anonscm.debian.org/cgit/debian-iot/openzwave-controlpanel.git"
+      "https://salsa.debian.org/debian-iot-team/openzwave-controlpanel"
     ],
     "Vcs-Git": [
-      "https://anonscm.debian.org/git/debian-iot/openzwave-controlpanel.git"
+      "https://salsa.debian.org/debian-iot-team/openzwave-controlpanel.git"
     ],
     "Version": [
-      "0.2a+git20161006.a390f35-2.2"
+      "0.2a+git20161006.a390f35-3"
     ]
   },
   {
