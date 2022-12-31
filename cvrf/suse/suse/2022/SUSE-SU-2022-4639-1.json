@@ -1,0 +1,72 @@
+{
+  "Title": "Security update for polkit-default-privs",
+  "Tracking": {
+    "ID": "SUSE-SU-2022:4639-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2022-12-30T08:31:22Z",
+    "CurrentReleaseDate": "2022-12-30T08:31:22Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2022-12-30T08:31:22Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for polkit-default-privs",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for polkit-default-privs fixes the following issues:\n\nUpdate to version 13.2+20221216.a0c29e6:\n\n- backport usbguard actions (bsc#1206414).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "polkit-default-privs-13.2+20221216.a0c29e6-150400.3.3.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "polkit-default-privs-13.2+20221216.a0c29e6-150400.3.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "polkit-whitelisting-13.2+20221216.a0c29e6-150400.3.3.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2022/suse-su-20224639-1/",
+      "Description": "Link for SUSE-SU-2022:4639-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2022-December/013400.html",
+      "Description": "E-Mail link for SUSE-SU-2022:4639-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1206414",
+      "Description": "SUSE Bug 1206414"
+    }
+  ],
+  "Vulnerabilities": null
+}
