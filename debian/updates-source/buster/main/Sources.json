@@ -1732,6 +1732,68 @@
   },
   {
     "Architecture": [
+      "all"
+    ],
+    "Binary": [
+      "cacti"
+    ],
+    "Build-Depends": [
+      "debhelper (\u003e= 11~), dh-linktree (\u003e= 0.5~), libjs-jquery-colorpicker, libjs-jquery-jstree, libjs-jquery-ui-theme-south-street, libjs-jquery-ui-theme-ui-darkness, libjs-jquery-ui-theme-smoothness, gettext, pandoc (\u003e= 2), po-debconf"
+    ],
+    "Checksums-Sha256": [
+      "6359608176695b02cd383f73e4329fb00fb32d38cf9d5f7e39c8c9b3b4d71610 2483 cacti_1.2.2+ds1-2+deb10u5.dsc 5d94359ea0b15cfe8f96ddc9999394594563cb34de2bb500a54f7b27565b44b4 12751572 cacti_1.2.2+ds1.orig-docs-source.tar.gz 45d263e2cbc7aa40e162c35adbe45229bd231e16faf082dbc01fb36403140bef 3702668 cacti_1.2.2+ds1.orig.tar.xz 4e0c38f4c842fbaa611d56c8201d791990c82932e249a0d9070b6cf402895354 77956 cacti_1.2.2+ds1-2+deb10u5.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/main/c/cacti"
+    ],
+    "Files": [
+      "3e20d29e3dd54058215c82bd0586e254 2483 cacti_1.2.2+ds1-2+deb10u5.dsc ebdf0461474378c083051b44ce15aa34 12751572 cacti_1.2.2+ds1.orig-docs-source.tar.gz b14ae7d08f482659a44d76cbeca91ebd 3702668 cacti_1.2.2+ds1.orig.tar.xz be0686d50010938905b3b126af6abbdb 77956 cacti_1.2.2+ds1-2+deb10u5.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://www.cacti.net/"
+    ],
+    "Maintainer": [
+      "Cacti Maintainer \u003cpkg-cacti-maint@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "cacti"
+    ],
+    "Package-List": [
+      "cacti deb web optional arch=all"
+    ],
+    "Priority": [
+      "extra"
+    ],
+    "Section": [
+      "web"
+    ],
+    "Standards-Version": [
+      "4.3.0"
+    ],
+    "Testsuite": [
+      "autopkgtest"
+    ],
+    "Testsuite-Triggers": [
+      "apache2, mysql-server, wget"
+    ],
+    "Uploaders": [
+      "Paul Gevers \u003celbrus@debian.org\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/cacti-team/cacti"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/cacti-team/cacti.git"
+    ],
+    "Version": [
+      "1.2.2+ds1-2+deb10u5"
+    ]
+  },
+  {
+    "Architecture": [
       "any"
     ],
     "Binary": [
@@ -34021,62 +34083,6 @@
     ],
     "Version": [
       "2.32.4-1~deb10u1"
-    ]
-  },
-  {
-    "Architecture": [
-      "any all"
-    ],
-    "Binary": [
-      "libjavascriptcoregtk-4.0-bin, libwebkit2gtk-4.0-doc, webkit2gtk-driver, libjavascriptcoregtk-4.0-18, libjavascriptcoregtk-4.0-dev, gir1.2-javascriptcoregtk-4.0, libwebkit2gtk-4.0-37, libwebkit2gtk-4.0-dev, gir1.2-webkit2-4.0"
-    ],
-    "Build-Depends": [
-      "debhelper (\u003e= 11.2~), bubblewrap (\u003e= 0.3.1) [!alpha !ia64 !m68k !riscv64 !sh4 !sparc64 !hurd-any !kfreebsd-any], xdg-dbus-proxy [!alpha !ia64 !m68k !riscv64 !sh4 !sparc64 !hurd-any !kfreebsd-any], libseccomp-dev [!alpha !ia64 !m68k !riscv64 !sh4 !sparc64 !hurd-any !kfreebsd-any], cmake (\u003e= 3.10), jdupes, libglib2.0-dev (\u003e= 2.44.0), libharfbuzz-dev (\u003e= 0.9.18), libcairo2-dev (\u003e= 1.14.0), libfontconfig1-dev (\u003e= 2.8), libfreetype6-dev, libicu-dev, libgcrypt20-dev (\u003e= 1.7.0), libhyphen-dev, libxslt1-dev (\u003e= 1.1.7), libxml2-dev (\u003e= 2.8), libsoup2.4-dev, libgtk-3-dev, libsqlite3-dev (\u003e= 3.0), libsystemd-dev [linux-any], libgudev-1.0-dev [linux-any], libwoff-dev (\u003e= 1.0.2), gperf, bison, flex, ruby:native, libjpeg-dev, libopenjp2-7-dev (\u003e= 2.2.0), libpng-dev, libtasn1-6-dev, libwebp-dev, libxt-dev, libgstreamer1.0-dev (\u003e= 1.14.0), libgstreamer-plugins-base1.0-dev (\u003e= 1.14.0), libenchant-dev, libsecret-1-dev, gobject-introspection (\u003e= 1.32.0), libgirepository1.0-dev (\u003e= 0.9.12-4), ninja-build, libegl1-mesa-dev, libgl1-mesa-dev, libgles2-mesa-dev"
-    ],
-    "Checksums-Sha256": [
-      "91c82b32eb7ef4bed0b57702391e4156b4c9c3e8f81dfd44e09252ab6366eeaa 4033 webkit2gtk_2.38.2-1~deb10u1.dsc f3eb82899651f583b4d99cacd16af784a1a7710fce9e7b6807bd6ccde909fe3e 33006668 webkit2gtk_2.38.2.orig.tar.xz 23c11b6b5debda8b61bfdf2f05a53b134b9a6f2ffd9be7fe973f8cc55f43c9f4 195 webkit2gtk_2.38.2.orig.tar.xz.asc 0f1f7dec53ca29063b06cb42ceb2c8710773359422d3af720d3724ebaa3668b4 78836 webkit2gtk_2.38.2-1~deb10u1.debian.tar.xz"
-    ],
-    "Directory": [
-      "pool/updates/main/w/webkit2gtk"
-    ],
-    "Files": [
-      "4dd3eac2a777e72e21940f3de248089d 4033 webkit2gtk_2.38.2-1~deb10u1.dsc c234585a51c015a42c80c705222098c6 33006668 webkit2gtk_2.38.2.orig.tar.xz 59ebbd7ef0b540e063de37fcdb81abc5 195 webkit2gtk_2.38.2.orig.tar.xz.asc 54d149a5649d48bd1b80a6cb9366c7f3 78836 webkit2gtk_2.38.2-1~deb10u1.debian.tar.xz"
-    ],
-    "Format": [
-      "3.0 (quilt)"
-    ],
-    "Homepage": [
-      "https://webkitgtk.org/"
-    ],
-    "Maintainer": [
-      "Debian WebKit Maintainers \u003cpkg-webkit-maintainers@lists.alioth.debian.org\u003e"
-    ],
-    "Package": [
-      "webkit2gtk"
-    ],
-    "Package-List": [
-      "gir1.2-javascriptcoregtk-4.0 deb introspection optional arch=any gir1.2-webkit2-4.0 deb introspection optional arch=any libjavascriptcoregtk-4.0-18 deb libs optional arch=any libjavascriptcoregtk-4.0-bin deb interpreters optional arch=any libjavascriptcoregtk-4.0-dev deb libdevel optional arch=any libwebkit2gtk-4.0-37 deb libs optional arch=any libwebkit2gtk-4.0-dev deb libdevel optional arch=any libwebkit2gtk-4.0-doc deb doc optional arch=all profile=!nodoc webkit2gtk-driver deb web optional arch=any"
-    ],
-    "Priority": [
-      "extra"
-    ],
-    "Section": [
-      "misc"
-    ],
-    "Standards-Version": [
-      "4.6.1.0"
-    ],
-    "Uploaders": [
-      "Gustavo Noronha Silva \u003ckov@debian.org\u003e, Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Alberto Garcia \u003cberto@igalia.com\u003e"
-    ],
-    "Vcs-Browser": [
-      "https://salsa.debian.org/webkit-team/webkit"
-    ],
-    "Vcs-Git": [
-      "https://salsa.debian.org/webkit-team/webkit.git"
-    ],
-    "Version": [
-      "2.38.2-1~deb10u1"
     ]
   },
   {
