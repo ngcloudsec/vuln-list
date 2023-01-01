@@ -3970,6 +3970,59 @@
   },
   {
     "Architecture": [
+      "any all"
+    ],
+    "Binary": [
+      "emacs, emacs-lucid, emacs-nox, emacs-gtk, emacs-bin-common, emacs-common, emacs-el, emacs21, emacs21-nox, emacs22, emacs22-gtk, emacs22-nox, emacs23, emacs23-lucid, emacs23-nox, emacs24, emacs24-lucid, emacs24-nox, emacs25, emacs25-lucid, emacs25-nox"
+    ],
+    "Build-Depends": [
+      "bsd-mailx | mailx, libncurses5-dev, texinfo, liblockfile-dev, librsvg2-dev, dbus-x11, gnupg-agent, libgif-dev, libtiff-dev, libsystemd-dev, procps, xaw3dg-dev, libpng-dev, libjpeg-dev, libm17n-dev, libotf-dev, libgpm-dev [linux-any], libdbus-1-dev, autoconf, automake, dpkg-dev (\u003e\u003e 1.10.0), quilt (\u003e= 0.42), debhelper (\u003e= 10), libxaw7-dev, sharutils, imagemagick, libgtk-3-dev, libgnutls28-dev, libxml2-dev, libselinux1-dev [linux-any], libasound2-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], libmagick++-6.q16-dev, libacl1-dev, liboss4-salsa-dev [hurd-i386 kfreebsd-i386 kfreebsd-amd64], zlib1g-dev"
+    ],
+    "Checksums-Sha256": [
+      "1729ce92ef3ae6f18866b0a71db23a43a90069ae912ea4e661aa49cd1bd006f8 3531 emacs_26.1+1-3.2+deb10u3.dsc ab772b04e48396dba221a96d2bff466c9ab13203c5baf046eece0388ed3dff4d 24259708 emacs_26.1+1.orig.tar.xz 91d7b6f6413c1712d510233d553e0ac5a6e3cd419e0a14c0f23a9d4c1cb88179 113012 emacs_26.1+1-3.2+deb10u3.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/main/e/emacs"
+    ],
+    "Files": [
+      "5286d71d096624b6055ffcc1770e36e7 3531 emacs_26.1+1-3.2+deb10u3.dsc 12cc8ab9906d389f59cc5338b74882d8 24259708 emacs_26.1+1.orig.tar.xz 0be80f9f3277af8e7a2df7e7c27ff0e6 113012 emacs_26.1+1-3.2+deb10u3.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://www.gnu.org/software/emacs/"
+    ],
+    "Maintainer": [
+      "Rob Browning \u003crlb@defaultvalue.org\u003e"
+    ],
+    "Package": [
+      "emacs"
+    ],
+    "Package-List": [
+      "emacs deb editors optional arch=all emacs-bin-common deb editors optional arch=any emacs-common deb editors optional arch=all emacs-el deb editors optional arch=all emacs-gtk deb editors optional arch=any emacs-lucid deb editors optional arch=any emacs-nox deb editors optional arch=any emacs21 deb oldlibs optional arch=all emacs21-nox deb oldlibs optional arch=all emacs22 deb oldlibs optional arch=all emacs22-gtk deb oldlibs optional arch=all emacs22-nox deb oldlibs optional arch=all emacs23 deb oldlibs optional arch=all emacs23-lucid deb oldlibs optional arch=all emacs23-nox deb oldlibs optional arch=all emacs24 deb oldlibs optional arch=all emacs24-lucid deb oldlibs optional arch=all emacs24-nox deb oldlibs optional arch=all emacs25 deb oldlibs optional arch=all emacs25-lucid deb oldlibs optional arch=all emacs25-nox deb oldlibs optional arch=all"
+    ],
+    "Priority": [
+      "extra"
+    ],
+    "Section": [
+      "misc"
+    ],
+    "Standards-Version": [
+      "3.7.2"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/rlb/deb-emacs"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/rlb/deb-emacs.git"
+    ],
+    "Version": [
+      "1:26.1+1-3.2+deb10u3"
+    ]
+  },
+  {
+    "Architecture": [
       "all"
     ],
     "Binary": [
@@ -16296,6 +16349,62 @@
       "all"
     ],
     "Binary": [
+      "libjersey1-core-java, libjersey1-client-java, libjersey1-server-java, libjersey1-servlet-java, libjersey1-guice-java, libjersey1-json-java, libjersey1-atom-java, libjersey1-fastinfoset-java"
+    ],
+    "Build-Depends": [
+      "debhelper (\u003e= 11), default-jdk, jaxb, libbuild-helper-maven-plugin-java, libcdi-api-java, libfastinfoset-java, libgeronimo-annotation-1.3-spec-java, libgeronimo-ejb-3.2-spec-java, libgeronimo-interceptor-3.0-spec-java (\u003e= 1.0.1-2~), libgeronimo-jpa-2.0-spec-java, libguice-java, libistack-commons-java, libjackson-json-java, libjaxb-java, libjdom1-java, libjettison-java (\u003e= 1.5.3), libjsr311-api-java, libmail-java, libmaven-bundle-plugin-java, libosgi-core-java, librome-java (\u003e= 1.6), maven-debian-helper (\u003e= 1.5)"
+    ],
+    "Checksums-Sha256": [
+      "8d556682004d438c2edf7d12f913e1fd94762628c147b8d791ed4b8e1a90577a 3130 jersey1_1.19.3-6+deb10u1.dsc 87de2c8d0f7abbd89fcfb12ba6516ccb33f8aeb80f31237ac08166a37b56863a 1232392 jersey1_1.19.3.orig.tar.xz 508e23999746ddc992918c1f869db6b3c8ef59f9f0b7cff0bf911e2614be8416 17228 jersey1_1.19.3-6+deb10u1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/updates/main/j/jersey1"
+    ],
+    "Files": [
+      "b323c2d8155577f5f1bf825d4b57d883 3130 jersey1_1.19.3-6+deb10u1.dsc b16545846d7336be10c86100abeded5c 1232392 jersey1_1.19.3.orig.tar.xz 6187dbfdcdaa5cdfe1ea32b357b9dcbd 17228 jersey1_1.19.3-6+deb10u1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://jersey.java.net"
+    ],
+    "Maintainer": [
+      "Debian Java Maintainers \u003cpkg-java-maintainers@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "jersey1"
+    ],
+    "Package-List": [
+      "libjersey1-atom-java deb java optional arch=all libjersey1-client-java deb java optional arch=all libjersey1-core-java deb java optional arch=all libjersey1-fastinfoset-java deb java optional arch=all libjersey1-guice-java deb java optional arch=all libjersey1-json-java deb java optional arch=all libjersey1-server-java deb java optional arch=all libjersey1-servlet-java deb java optional arch=all"
+    ],
+    "Priority": [
+      "extra"
+    ],
+    "Section": [
+      "misc"
+    ],
+    "Standards-Version": [
+      "4.3.0"
+    ],
+    "Uploaders": [
+      "Emmanuel Bourg \u003cebourg@apache.org\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/java-team/jersey1"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/java-team/jersey1.git"
+    ],
+    "Version": [
+      "1.19.3-6+deb10u1"
+    ]
+  },
+  {
+    "Architecture": [
+      "all"
+    ],
+    "Binary": [
       "libjetty9-java, libjetty9-extra-java, jetty9"
     ],
     "Build-Depends": [
@@ -18180,16 +18289,16 @@
       "libjettison-java"
     ],
     "Build-Depends": [
-      "debhelper (\u003e= 11), default-jdk, junit4, libmaven-bundle-plugin-java, libwoodstox-java, maven-debian-helper"
+      "debhelper-compat (= 12), default-jdk, junit4, libmaven-bundle-plugin-java, libwoodstox-java, maven-debian-helper"
     ],
     "Checksums-Sha256": [
-      "af44025cfacc4bb8e3ea50a42f24e699d0681e2f4a888dc4b50be7ea82c3db2a 2284 libjettison-java_1.4.0-1+deb10u1.dsc f4324cedd04d0b2ec92225f7f56e1d6a8f780f6da77a35123075995d4af7cecf 51596 libjettison-java_1.4.0.orig.tar.xz ae8c75d84cab29bbf9de35477c852b4515647ea4b3d8ddd2a4392288c60c6f75 3776 libjettison-java_1.4.0-1+deb10u1.debian.tar.xz"
+      "b64fa065c03e78e10cfa13d1dc510d817e48c3c1e28ae1fd6d34db2db0c2f75c 2275 libjettison-java_1.5.3-1~deb10u1.dsc c68ff9851b25789467e8168b3e54ada18e21964fae2b1986027e6bf133947920 72810 libjettison-java_1.5.3.orig.tar.gz 75213ccd0443e2810e95644806d5a9628cbe177a8eed28c6c51812541102f176 2996 libjettison-java_1.5.3-1~deb10u1.debian.tar.xz"
     ],
     "Directory": [
       "pool/updates/main/libj/libjettison-java"
     ],
     "Files": [
-      "4ff37ae390f11f66a7396b6daddcdcee 2284 libjettison-java_1.4.0-1+deb10u1.dsc 23b2c0dcbbd2228604f85b78f6314b3a 51596 libjettison-java_1.4.0.orig.tar.xz 01ed85cc619a7a29e77c90b24f11eaf3 3776 libjettison-java_1.4.0-1+deb10u1.debian.tar.xz"
+      "46946488ce7afa63c1718c887a98c727 2275 libjettison-java_1.5.3-1~deb10u1.dsc 4fe6afb04644a6a85ac23fb35a663935 72810 libjettison-java_1.5.3.orig.tar.gz 8323f28672e685c2b07aae0b9f647835 2996 libjettison-java_1.5.3-1~deb10u1.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -18213,19 +18322,19 @@
       "java"
     ],
     "Standards-Version": [
-      "4.1.4"
+      "4.6.2"
     ],
     "Uploaders": [
       "Torsten Werner \u003ctwerner@debian.org\u003e"
     ],
     "Vcs-Browser": [
-      "https://anonscm.debian.org/cgit/pkg-java/libjettison-java.git"
+      "https://salsa.debian.org/java-team/libjettison-java"
     ],
     "Vcs-Git": [
-      "https://anonscm.debian.org/git/pkg-java/libjettison-java.git"
+      "https://salsa.debian.org/java-team/libjettison-java.git"
     ],
     "Version": [
-      "1.4.0-1+deb10u1"
+      "1.5.3-1~deb10u1"
     ]
   },
   {
@@ -26850,62 +26959,6 @@
     ],
     "Version": [
       "1.1.1n-0+deb10u3"
-    ]
-  },
-  {
-    "Architecture": [
-      "linux-any all"
-    ],
-    "Binary": [
-      "openvswitch-common, openvswitch-dbg, openvswitch-dev, openvswitch-pki, openvswitch-switch, openvswitch-testcontroller, openvswitch-vtep, ovn-central, ovn-controller-vtep, ovn-host, python-openvswitch, python3-openvswitch"
-    ],
-    "Build-Depends": [
-      "autoconf, automake, bzip2, debhelper (\u003e= 10), dh-python, graphviz, libssl-dev, libtool, openssl, openstack-pkg-tools, procps, python-all, python-all-dev, python-setuptools, python-six, python-twisted-conch, python-zope.interface, python3-all, python3-all-dev, python3-setuptools, python3-six, python3-sphinx, python3-zope.interface"
-    ],
-    "Checksums-Sha256": [
-      "2944806ad5f4fc032a9eba0796aa91fdef8459494e16bb429842f0c31cbdf208 3369 openvswitch_2.10.7+ds1-0+deb10u2.dsc 42c705fe12bee854250738b1fa975ee0e3934ce9cbc3a3ea80777066aca15fac 3871520 openvswitch_2.10.7+ds1.orig.tar.xz 86dfc0b80e180fc12548bd9584fab279d24befdfe170c5d668d337e6e09327fc 66968 openvswitch_2.10.7+ds1-0+deb10u2.debian.tar.xz"
-    ],
-    "Directory": [
-      "pool/updates/main/o/openvswitch"
-    ],
-    "Files": [
-      "9a011a842399a518bff4cb52efd1a199 3369 openvswitch_2.10.7+ds1-0+deb10u2.dsc 972d6239c7af468809d7383f510d0fac 3871520 openvswitch_2.10.7+ds1.orig.tar.xz ca3d417584cb53534ab5d3fe2771a32a 66968 openvswitch_2.10.7+ds1-0+deb10u2.debian.tar.xz"
-    ],
-    "Format": [
-      "3.0 (quilt)"
-    ],
-    "Homepage": [
-      "http://openvswitch.org/"
-    ],
-    "Maintainer": [
-      "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
-    ],
-    "Package": [
-      "openvswitch"
-    ],
-    "Package-List": [
-      "openvswitch-common deb net optional arch=linux-any openvswitch-dbg deb debug optional arch=linux-any openvswitch-dev deb net optional arch=linux-any openvswitch-pki deb net optional arch=all openvswitch-switch deb net optional arch=linux-any openvswitch-testcontroller deb net optional arch=linux-any openvswitch-vtep deb net optional arch=linux-any ovn-central deb net optional arch=linux-any ovn-controller-vtep deb net optional arch=linux-any ovn-host deb net optional arch=linux-any python-openvswitch deb python optional arch=all python3-openvswitch deb python optional arch=all"
-    ],
-    "Priority": [
-      "extra"
-    ],
-    "Section": [
-      "net"
-    ],
-    "Standards-Version": [
-      "4.1.1"
-    ],
-    "Uploaders": [
-      "Ben Pfaff \u003cpfaffben@debian.org\u003e, Simon Horman \u003chorms@debian.org\u003e, Thomas Goirand \u003czigo@debian.org\u003e, Michal Arbet \u003cmichal.arbet@ultimum.io\u003e,"
-    ],
-    "Vcs-Browser": [
-      "https://salsa.debian.org/openstack-team/third-party/openvswitch"
-    ],
-    "Vcs-Git": [
-      "https://salsa.debian.org/openstack-team/third-party/openvswitch.git"
-    ],
-    "Version": [
-      "2.10.7+ds1-0+deb10u2"
     ]
   },
   {
