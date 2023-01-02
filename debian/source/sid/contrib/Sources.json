@@ -1212,6 +1212,62 @@
   },
   {
     "Architecture": [
+      "any all"
+    ],
+    "Binary": [
+      "corsix-th, corsix-th-data"
+    ],
+    "Build-Depends": [
+      "cmake, debhelper-compat (= 13), imagemagick, libavcodec-dev, libavformat-dev, libfreetype-dev, liblua5.4-dev, libsdl2-dev, libsdl2-mixer-dev, libswresample-dev, libswscale-dev, lua-busted, lua5.4"
+    ],
+    "Checksums-Sha256": [
+      "33a22c41b7b4e4f39e42ab8f92071a542fd400395ee3dd1ccbb20909f8805f7b 2242 corsix-th_0.66-2.dsc 9f87ff002405501b12798a715b691496775a4f9727188eeba167143816992a0f 4117046 corsix-th_0.66.orig.tar.gz 692ff93041500fc168accf88cd1cef99f29b048ecc97247b9b75a49f6d35c9a2 14056 corsix-th_0.66-2.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/c/corsix-th"
+    ],
+    "Files": [
+      "7a16dcc967eda63864a0c6ab335ae8d7 2242 corsix-th_0.66-2.dsc cc66cebaa183318429d5845a1843b99e 4117046 corsix-th_0.66.orig.tar.gz a4d9958f3a20434e1ff349081a3f748e 14056 corsix-th_0.66-2.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://corsixth.com"
+    ],
+    "Maintainer": [
+      "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "corsix-th"
+    ],
+    "Package-List": [
+      "corsix-th deb contrib/games optional arch=any corsix-th-data deb contrib/games optional arch=all"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.1"
+    ],
+    "Uploaders": [
+      "Alexandre Detiste \u003calexandre.detiste@gmail.com\u003e, Phil Morrell \u003cdebian@emorrp1.name\u003e,"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/games-team/corsix-th"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/games-team/corsix-th.git"
+    ],
+    "Version": [
+      "0.66-2"
+    ]
+  },
+  {
+    "Architecture": [
       "all"
     ],
     "Binary": [
@@ -6532,6 +6588,62 @@
     ],
     "Version": [
       "2.1.20220318-1"
+    ]
+  },
+  {
+    "Architecture": [
+      "any"
+    ],
+    "Binary": [
+      "opentyrian"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), libsdl2-net-dev"
+    ],
+    "Checksums-Sha256": [
+      "cbf99a1beebc76306edf9035bc3902ccf39366925b3714402427bf004f1bee4f 2093 opentyrian_2.1.20221123-1.dsc e0e8a8b0d61de10a3a65789ace9ea8e8c5d8dc67f3e423d2c852d64da38aeeb9 297694 opentyrian_2.1.20221123.orig.tar.gz 5f917ca848db48f4299d22dfe1ab13323cf88f93b942bced0f1da198c71b020f 7476 opentyrian_2.1.20221123-1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/o/opentyrian"
+    ],
+    "Files": [
+      "7011f8e4f76192a28eb7f6a378b36a75 2093 opentyrian_2.1.20221123-1.dsc d3e082d310073bc9577a4ec4974c76b4 297694 opentyrian_2.1.20221123.orig.tar.gz 0aee894614b6e418971030dbea22ccb9 7476 opentyrian_2.1.20221123-1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://github.com/opentyrian/opentyrian"
+    ],
+    "Maintainer": [
+      "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "opentyrian"
+    ],
+    "Package-List": [
+      "opentyrian deb contrib/games optional arch=any"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.1"
+    ],
+    "Uploaders": [
+      "Etienne Millon \u003cme@emillon.org\u003e, Alexandre Detiste \u003calexandre.detiste@gmail.com\u003e,"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/games-team/opentyrian"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/games-team/opentyrian.git"
+    ],
+    "Version": [
+      "2.1.20221123-1"
     ]
   },
   {
