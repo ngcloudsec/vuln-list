@@ -8,21 +8,9 @@
     "$date": 1657152000000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_default",
+    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_default",
     "packages": [
-      {
-        "name": "squid",
-        "version": "5.2",
-        "release": "1.el9_0.1",
-        "epoch": "7",
-        "arch": "x86_64",
-        "src": "squid-5.2-1.el9_0.1.src.rpm",
-        "filename": "squid-5.2-1.el9_0.1.x86_64.rpm",
-        "sum": "bcbc9f5fa02d1924f595c20ec89b62034ca0adafbe3c41aad4a2c83f9a2ce6f2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "squid",
         "version": "5.2",
@@ -32,6 +20,18 @@
         "src": "squid-5.2-1.el9_0.1.src.rpm",
         "filename": "squid-5.2-1.el9_0.1.ppc64le.rpm",
         "sum": "4e3d724ca6edd8a7ee2d98db54677747b7215095c39581d1d08516bb0be06a11",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "squid",
+        "version": "5.2",
+        "release": "1.el9_0.1",
+        "epoch": "7",
+        "arch": "x86_64",
+        "src": "squid-5.2-1.el9_0.1.src.rpm",
+        "filename": "squid-5.2-1.el9_0.1.x86_64.rpm",
+        "sum": "bcbc9f5fa02d1924f595c20ec89b62034ca0adafbe3c41aad4a2c83f9a2ce6f2",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -98,7 +98,7 @@
   "title": "Important: squid security update",
   "type": "security",
   "updated_date": {
-    "$date": 1658423063000
+    "$date": 1658423052000
   },
   "version": "1"
 }

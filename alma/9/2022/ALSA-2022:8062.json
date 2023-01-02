@@ -24,42 +24,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "python3-unbound",
-        "version": "1.16.2",
-        "release": "2.el9",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "unbound-1.16.2-2.el9.src.rpm",
-        "filename": "python3-unbound-1.16.2-2.el9.x86_64.rpm",
-        "sum": "568d43871557889acb78c2b7b3d441cb4a663e95d06186e6ad6a7f5b80429eaa",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "unbound-libs",
-        "version": "1.16.2",
-        "release": "2.el9",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "unbound-1.16.2-2.el9.src.rpm",
-        "filename": "unbound-libs-1.16.2-2.el9.x86_64.rpm",
-        "sum": "81028273f1fb4a72e23cf051e776b150dc10dbcea85c107376e1887a8ea05d82",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "unbound",
-        "version": "1.16.2",
-        "release": "2.el9",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "unbound-1.16.2-2.el9.src.rpm",
-        "filename": "unbound-1.16.2-2.el9.x86_64.rpm",
-        "sum": "c641d75900cc79129dabd175d6bc95e98084073a29c5c132739aaec7b45fd05d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "unbound",
         "version": "1.16.2",
         "release": "2.el9",
@@ -96,6 +60,42 @@
         "reboot_suggested": 0
       },
       {
+        "name": "python3-unbound",
+        "version": "1.16.2",
+        "release": "2.el9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "unbound-1.16.2-2.el9.src.rpm",
+        "filename": "python3-unbound-1.16.2-2.el9.x86_64.rpm",
+        "sum": "568d43871557889acb78c2b7b3d441cb4a663e95d06186e6ad6a7f5b80429eaa",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "unbound-libs",
+        "version": "1.16.2",
+        "release": "2.el9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "unbound-1.16.2-2.el9.src.rpm",
+        "filename": "unbound-libs-1.16.2-2.el9.x86_64.rpm",
+        "sum": "81028273f1fb4a72e23cf051e776b150dc10dbcea85c107376e1887a8ea05d82",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "unbound",
+        "version": "1.16.2",
+        "release": "2.el9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "unbound-1.16.2-2.el9.src.rpm",
+        "filename": "unbound-1.16.2-2.el9.x86_64.rpm",
+        "sum": "c641d75900cc79129dabd175d6bc95e98084073a29c5c132739aaec7b45fd05d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "unbound-libs",
         "version": "1.16.2",
         "release": "2.el9",
@@ -128,18 +128,6 @@
         "src": "unbound-1.16.2-2.el9.src.rpm",
         "filename": "unbound-1.16.2-2.el9.s390x.rpm",
         "sum": "f11ec3ec722346cb8101a6f79748c2088e9cfccaa3b6b7bc18f75c3aeaff74aa",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "unbound-devel",
-        "version": "1.16.2",
-        "release": "2.el9",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "unbound-1.16.2-2.el9.src.rpm",
-        "filename": "unbound-devel-1.16.2-2.el9.i686.rpm",
-        "sum": "6469e0f04451e671f3a4712c51b66d430dd48492de66063384e25caa2101f8c0",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -184,10 +172,10 @@
         "version": "1.16.2",
         "release": "2.el9",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "i686",
         "src": "unbound-1.16.2-2.el9.src.rpm",
-        "filename": "unbound-devel-1.16.2-2.el9.x86_64.rpm",
-        "sum": "9c682e9f670e4531a57296d171cc7f71dc16a4c004024e8e8bf55de0524245db",
+        "filename": "unbound-devel-1.16.2-2.el9.i686.rpm",
+        "sum": "6469e0f04451e671f3a4712c51b66d430dd48492de66063384e25caa2101f8c0",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -212,6 +200,18 @@
         "src": "unbound-1.16.2-2.el9.src.rpm",
         "filename": "unbound-devel-1.16.2-2.el9.ppc64le.rpm",
         "sum": "15d6faa01d27d57325f7175dbe2b4c178a40faa1ff145145efcf6d7cf981a6cf",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "unbound-devel",
+        "version": "1.16.2",
+        "release": "2.el9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "unbound-1.16.2-2.el9.src.rpm",
+        "filename": "unbound-devel-1.16.2-2.el9.x86_64.rpm",
+        "sum": "9c682e9f670e4531a57296d171cc7f71dc16a4c004024e8e8bf55de0524245db",
         "sum_type": 5,
         "reboot_suggested": 0
       },

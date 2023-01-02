@@ -8,9 +8,45 @@
     "$date": 1656633600000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_default",
+    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_default",
     "packages": [
+      {
+        "name": "libarchive-devel",
+        "version": "3.5.3",
+        "release": "2.el9_0",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libarchive-3.5.3-2.el9_0.src.rpm",
+        "filename": "libarchive-devel-3.5.3-2.el9_0.ppc64le.rpm",
+        "sum": "014a2db1037b53c695e7c91b05e3f652a834d9ea545c1ca46bc7e676a67da327",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libarchive",
+        "version": "3.5.3",
+        "release": "2.el9_0",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libarchive-3.5.3-2.el9_0.src.rpm",
+        "filename": "libarchive-3.5.3-2.el9_0.ppc64le.rpm",
+        "sum": "763959ef8d263ab5857c84e5255efdb0f343378f7a39310cf46606963e674184",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "bsdtar",
+        "version": "3.5.3",
+        "release": "2.el9_0",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "libarchive-3.5.3-2.el9_0.src.rpm",
+        "filename": "bsdtar-3.5.3-2.el9_0.ppc64le.rpm",
+        "sum": "b36034c64c30f92db3e52e0e38f7171ed6ac0090a0d2e03322c6fd702729dc42",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "libarchive",
         "version": "3.5.3",
@@ -68,42 +104,6 @@
         "src": "libarchive-3.5.3-2.el9_0.src.rpm",
         "filename": "libarchive-devel-3.5.3-2.el9_0.i686.rpm",
         "sum": "33d1567208bd84d8697507947591691b0ab6ae6761160c181847d1c67e5ea845",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libarchive-devel",
-        "version": "3.5.3",
-        "release": "2.el9_0",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libarchive-3.5.3-2.el9_0.src.rpm",
-        "filename": "libarchive-devel-3.5.3-2.el9_0.ppc64le.rpm",
-        "sum": "014a2db1037b53c695e7c91b05e3f652a834d9ea545c1ca46bc7e676a67da327",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libarchive",
-        "version": "3.5.3",
-        "release": "2.el9_0",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libarchive-3.5.3-2.el9_0.src.rpm",
-        "filename": "libarchive-3.5.3-2.el9_0.ppc64le.rpm",
-        "sum": "763959ef8d263ab5857c84e5255efdb0f343378f7a39310cf46606963e674184",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "bsdtar",
-        "version": "3.5.3",
-        "release": "2.el9_0",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "libarchive-3.5.3-2.el9_0.src.rpm",
-        "filename": "bsdtar-3.5.3-2.el9_0.ppc64le.rpm",
-        "sum": "b36034c64c30f92db3e52e0e38f7171ed6ac0090a0d2e03322c6fd702729dc42",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -218,7 +218,7 @@
   "title": "Moderate: libarchive security update",
   "type": "security",
   "updated_date": {
-    "$date": 1658424549000
+    "$date": 1658424540000
   },
   "version": "1"
 }

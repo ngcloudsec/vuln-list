@@ -8,9 +8,33 @@
     "$date": 1656633600000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_default",
+    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_default",
     "packages": [
+      {
+        "name": "qemu-guest-agent",
+        "version": "6.2.0",
+        "release": "11.el9_0.3",
+        "epoch": "17",
+        "arch": "ppc64le",
+        "src": "qemu-kvm-6.2.0-11.el9_0.3.src.rpm",
+        "filename": "qemu-guest-agent-6.2.0-11.el9_0.3.ppc64le.rpm",
+        "sum": "cb6e4c7fa3bee352d3657b3b1cbc08e47a43fc01d0f4e1f4e8dc58f2475ae167",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-img",
+        "version": "6.2.0",
+        "release": "11.el9_0.3",
+        "epoch": "17",
+        "arch": "ppc64le",
+        "src": "qemu-kvm-6.2.0-11.el9_0.3.src.rpm",
+        "filename": "qemu-img-6.2.0-11.el9_0.3.ppc64le.rpm",
+        "sum": "f65858c85d111c34bac3e50209d2b7d043465823fe7876af98758f1bd4b09019",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "qemu-kvm-device-display-virtio-vga",
         "version": "6.2.0",
@@ -260,30 +284,6 @@
         "src": "qemu-kvm-6.2.0-11.el9_0.3.src.rpm",
         "filename": "qemu-kvm-core-6.2.0-11.el9_0.3.x86_64.rpm",
         "sum": "fa47fb11d032980a88cd6af9682d6667f8d35f4ebc555562e10ab21d8038b72b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-guest-agent",
-        "version": "6.2.0",
-        "release": "11.el9_0.3",
-        "epoch": "17",
-        "arch": "ppc64le",
-        "src": "qemu-kvm-6.2.0-11.el9_0.3.src.rpm",
-        "filename": "qemu-guest-agent-6.2.0-11.el9_0.3.ppc64le.rpm",
-        "sum": "cb6e4c7fa3bee352d3657b3b1cbc08e47a43fc01d0f4e1f4e8dc58f2475ae167",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-img",
-        "version": "6.2.0",
-        "release": "11.el9_0.3",
-        "epoch": "17",
-        "arch": "ppc64le",
-        "src": "qemu-kvm-6.2.0-11.el9_0.3.src.rpm",
-        "filename": "qemu-img-6.2.0-11.el9_0.3.ppc64le.rpm",
-        "sum": "f65858c85d111c34bac3e50209d2b7d043465823fe7876af98758f1bd4b09019",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -710,7 +710,7 @@
   "title": "Moderate: qemu-kvm security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1658424740000
+    "$date": 1658424718000
   },
   "version": "1"
 }

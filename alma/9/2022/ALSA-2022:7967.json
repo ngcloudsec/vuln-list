@@ -8,9 +8,33 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_1_default",
     "packages": [
+      {
+        "name": "qemu-guest-agent",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "ppc64le",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-guest-agent-7.0.0-13.el9.ppc64le.rpm",
+        "sum": "3efe04a21fba6bcb670b54f03b923574613f2319882ec69dc586d70c838dec11",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "qemu-img",
+        "version": "7.0.0",
+        "release": "13.el9",
+        "epoch": "17",
+        "arch": "ppc64le",
+        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
+        "filename": "qemu-img-7.0.0-13.el9.ppc64le.rpm",
+        "sum": "5224f243829f2d60ce19f35dbbdb434f1a8d13244f7ecf540fab2071338db03d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "qemu-kvm-device-display-virtio-gpu-gl",
         "version": "7.0.0",
@@ -260,30 +284,6 @@
         "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
         "filename": "qemu-kvm-docs-7.0.0-13.el9.x86_64.rpm",
         "sum": "f0b8dd0c8a949119ee98350cbbd2c130e4098225f60ea2a72175e24d8e503bcd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-guest-agent",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "ppc64le",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-guest-agent-7.0.0-13.el9.ppc64le.rpm",
-        "sum": "3efe04a21fba6bcb670b54f03b923574613f2319882ec69dc586d70c838dec11",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qemu-img",
-        "version": "7.0.0",
-        "release": "13.el9",
-        "epoch": "17",
-        "arch": "ppc64le",
-        "src": "qemu-kvm-7.0.0-13.el9.src.rpm",
-        "filename": "qemu-img-7.0.0-13.el9.ppc64le.rpm",
-        "sum": "5224f243829f2d60ce19f35dbbdb434f1a8d13244f7ecf540fab2071338db03d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -734,7 +734,7 @@
   "title": "Moderate: qemu-kvm security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1668749734000
+    "$date": 1668749730000
   },
   "version": "1"
 }

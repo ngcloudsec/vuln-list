@@ -8,9 +8,33 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-ppc64le-highavailability-rpms__9_1_default",
-    "shortname": "almalinux-9-for-ppc64le-highavailability-rpms__9_1_default",
+    "name": "almalinux-9-for-x86_64-highavailability-rpms__9_1_default",
+    "shortname": "almalinux-9-for-x86_64-highavailability-rpms__9_1_default",
     "packages": [
+      {
+        "name": "pcs-snmp",
+        "version": "0.11.3",
+        "release": "4.el9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "pcs-0.11.3-4.el9.src.rpm",
+        "filename": "pcs-snmp-0.11.3-4.el9.x86_64.rpm",
+        "sum": "7b283bdbbda55f6e1d4825c113966329d315aaecccee536f4efa4abd5e4c993b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pcs",
+        "version": "0.11.3",
+        "release": "4.el9",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "pcs-0.11.3-4.el9.src.rpm",
+        "filename": "pcs-0.11.3-4.el9.x86_64.rpm",
+        "sum": "92326bfb5c01ece1739f972cf03cbf532d2dcd8ab7c6ddcbfadfec601e95c385",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "pcs-snmp",
         "version": "0.11.3",
@@ -80,30 +104,6 @@
         "src": "pcs-0.11.3-4.el9.src.rpm",
         "filename": "pcs-snmp-0.11.3-4.el9.s390x.rpm",
         "sum": "ebce80f673f35a88dff5fd651d621150105b792d47efd0fd1a329bbf167b0f7c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs-snmp",
-        "version": "0.11.3",
-        "release": "4.el9",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "pcs-0.11.3-4.el9.src.rpm",
-        "filename": "pcs-snmp-0.11.3-4.el9.x86_64.rpm",
-        "sum": "7b283bdbbda55f6e1d4825c113966329d315aaecccee536f4efa4abd5e4c993b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pcs",
-        "version": "0.11.3",
-        "release": "4.el9",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "pcs-0.11.3-4.el9.src.rpm",
-        "filename": "pcs-0.11.3-4.el9.x86_64.rpm",
-        "sum": "92326bfb5c01ece1739f972cf03cbf532d2dcd8ab7c6ddcbfadfec601e95c385",
         "sum_type": 5,
         "reboot_suggested": 0
       }

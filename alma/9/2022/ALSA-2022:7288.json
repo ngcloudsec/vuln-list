@@ -8,9 +8,33 @@
     "$date": 1667260800000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_default",
+    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_default",
     "packages": [
+      {
+        "name": "openssl-devel",
+        "version": "3.0.1",
+        "release": "43.el9_0",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "openssl-3.0.1-43.el9_0.src.rpm",
+        "filename": "openssl-devel-3.0.1-43.el9_0.ppc64le.rpm",
+        "sum": "06177e7b74eb793fadb0a736226aa0e96c081913394e21f8e8bf9d5e4d6994a1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl-perl",
+        "version": "3.0.1",
+        "release": "43.el9_0",
+        "epoch": "1",
+        "arch": "ppc64le",
+        "src": "openssl-3.0.1-43.el9_0.src.rpm",
+        "filename": "openssl-perl-3.0.1-43.el9_0.ppc64le.rpm",
+        "sum": "0926322816fa625547692a3e6d3414d6ea19ca744a3bca85e002dea73fdd9f98",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "openssl-devel",
         "version": "3.0.1",
@@ -36,50 +60,26 @@
         "reboot_suggested": 0
       },
       {
-        "name": "openssl",
-        "version": "3.0.1",
-        "release": "43.el9_0",
-        "epoch": "1",
-        "arch": "x86_64",
-        "src": "openssl-3.0.1-43.el9_0.src.rpm",
-        "filename": "openssl-3.0.1-43.el9_0.x86_64.rpm",
-        "sum": "1f2725433bacad30e4b6a3770d4264589fc78af12254a7044350651b1405f654",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "openssl-libs",
         "version": "3.0.1",
         "release": "43.el9_0",
         "epoch": "1",
-        "arch": "i686",
+        "arch": "ppc64le",
         "src": "openssl-3.0.1-43.el9_0.src.rpm",
-        "filename": "openssl-libs-3.0.1-43.el9_0.i686.rpm",
-        "sum": "cebd58c692ce94f0a163cb1a8a584d7e341d6b2a071991e5ed40c78e76187738",
+        "filename": "openssl-libs-3.0.1-43.el9_0.ppc64le.rpm",
+        "sum": "672c35d1764ec170713f3f78802cfce549ed1c35264d2a30b3011165189b43de",
         "sum_type": 5,
         "reboot_suggested": 0
       },
       {
-        "name": "openssl-devel",
+        "name": "openssl",
         "version": "3.0.1",
         "release": "43.el9_0",
         "epoch": "1",
         "arch": "ppc64le",
         "src": "openssl-3.0.1-43.el9_0.src.rpm",
-        "filename": "openssl-devel-3.0.1-43.el9_0.ppc64le.rpm",
-        "sum": "06177e7b74eb793fadb0a736226aa0e96c081913394e21f8e8bf9d5e4d6994a1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssl-perl",
-        "version": "3.0.1",
-        "release": "43.el9_0",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "openssl-3.0.1-43.el9_0.src.rpm",
-        "filename": "openssl-perl-3.0.1-43.el9_0.ppc64le.rpm",
-        "sum": "0926322816fa625547692a3e6d3414d6ea19ca744a3bca85e002dea73fdd9f98",
+        "filename": "openssl-3.0.1-43.el9_0.ppc64le.rpm",
+        "sum": "c12f4dba545eb6b0f461df5d6acd27a42261b3e66a0f68211100380ef39e493f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -132,38 +132,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "openssl-libs",
-        "version": "3.0.1",
-        "release": "43.el9_0",
-        "epoch": "1",
-        "arch": "ppc64le",
-        "src": "openssl-3.0.1-43.el9_0.src.rpm",
-        "filename": "openssl-libs-3.0.1-43.el9_0.ppc64le.rpm",
-        "sum": "672c35d1764ec170713f3f78802cfce549ed1c35264d2a30b3011165189b43de",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "openssl",
         "version": "3.0.1",
         "release": "43.el9_0",
         "epoch": "1",
-        "arch": "ppc64le",
+        "arch": "x86_64",
         "src": "openssl-3.0.1-43.el9_0.src.rpm",
-        "filename": "openssl-3.0.1-43.el9_0.ppc64le.rpm",
-        "sum": "c12f4dba545eb6b0f461df5d6acd27a42261b3e66a0f68211100380ef39e493f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssl",
-        "version": "3.0.1",
-        "release": "43.el9_0",
-        "epoch": "1",
-        "arch": "s390x",
-        "src": "openssl-3.0.1-43.el9_0.src.rpm",
-        "filename": "openssl-3.0.1-43.el9_0.s390x.rpm",
-        "sum": "e874c129fea803e5ccf94ec8ec3c35cd9bcc002378da0a4eb9d8bf764983891b",
+        "filename": "openssl-3.0.1-43.el9_0.x86_64.rpm",
+        "sum": "1f2725433bacad30e4b6a3770d4264589fc78af12254a7044350651b1405f654",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -172,10 +148,10 @@
         "version": "3.0.1",
         "release": "43.el9_0",
         "epoch": "1",
-        "arch": "s390x",
+        "arch": "i686",
         "src": "openssl-3.0.1-43.el9_0.src.rpm",
-        "filename": "openssl-libs-3.0.1-43.el9_0.s390x.rpm",
-        "sum": "f9c5873940cd9c8a2221a9dff3a8a4bfd12219e9bd43947ebe10d1bee68205e9",
+        "filename": "openssl-libs-3.0.1-43.el9_0.i686.rpm",
+        "sum": "cebd58c692ce94f0a163cb1a8a584d7e341d6b2a071991e5ed40c78e76187738",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -200,6 +176,30 @@
         "src": "openssl-3.0.1-43.el9_0.src.rpm",
         "filename": "openssl-devel-3.0.1-43.el9_0.aarch64.rpm",
         "sum": "dedc767352c17dcddce284906facd19c9a6b30ab50ca790f8a2758fa52148992",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl",
+        "version": "3.0.1",
+        "release": "43.el9_0",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "openssl-3.0.1-43.el9_0.src.rpm",
+        "filename": "openssl-3.0.1-43.el9_0.s390x.rpm",
+        "sum": "e874c129fea803e5ccf94ec8ec3c35cd9bcc002378da0a4eb9d8bf764983891b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl-libs",
+        "version": "3.0.1",
+        "release": "43.el9_0",
+        "epoch": "1",
+        "arch": "s390x",
+        "src": "openssl-3.0.1-43.el9_0.src.rpm",
+        "filename": "openssl-libs-3.0.1-43.el9_0.s390x.rpm",
+        "sum": "f9c5873940cd9c8a2221a9dff3a8a4bfd12219e9bd43947ebe10d1bee68205e9",
         "sum_type": 5,
         "reboot_suggested": 0
       }
