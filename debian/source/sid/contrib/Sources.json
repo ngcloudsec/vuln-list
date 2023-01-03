@@ -169,6 +169,62 @@
   },
   {
     "Architecture": [
+      "any all"
+    ],
+    "Binary": [
+      "libamgcl-dev, python3-amgcl"
+    ],
+    "Build-Depends": [
+      "cmake, debhelper-compat (= 13), libboost-test-dev, libboost-serialization-dev, libboost-program-options-dev, libeigen3-dev, libviennacl-dev, libopenmpi-dev, libmetis-dev, libparmetis-dev, libblas-dev, libscotch-dev, libbz2-dev, libhwloc-dev, gfortran, dh-python, pybind11-dev, python3-dev:any, libpython3-dev, python3-numpy \u003c!nocheck\u003e, python3-scipy \u003c!nocheck\u003e"
+    ],
+    "Checksums-Sha256": [
+      "390ae9e7dc350308489c44cdeb0e310bccb889ee3d956ae60bd2ca16bef2b30b 2324 amgcl_1.4.3-5.dsc e920d5767814ce697d707d1f359a16c9b9eb79eba28fe19e14c18c2a505fe0ad 3033676 amgcl_1.4.3.orig.tar.gz dc2d496b6fa65e6b184db3824bd101801594d72abbf6034e6d3f2b7e6a88f497 6220 amgcl_1.4.3-5.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/a/amgcl"
+    ],
+    "Files": [
+      "55a23c9a946a5b52f27f5002eda59ce4 2324 amgcl_1.4.3-5.dsc 43b8ee3a97673452c75cb806a61dcf9c 3033676 amgcl_1.4.3.orig.tar.gz 014ed1a5e489d3addf598bf3951c33d0 6220 amgcl_1.4.3-5.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://github.com/ddemidov/amgcl"
+    ],
+    "Maintainer": [
+      "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "amgcl"
+    ],
+    "Package-List": [
+      "libamgcl-dev deb contrib/libdevel optional arch=all python3-amgcl deb contrib/python optional arch=any"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.0"
+    ],
+    "Uploaders": [
+      "Dima Kogan \u003cdkogan@debian.org\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/science-team/amgcl"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/science-team/amgcl.git"
+    ],
+    "Version": [
+      "1.4.3-5"
+    ]
+  },
+  {
+    "Architecture": [
       "any"
     ],
     "Binary": [
