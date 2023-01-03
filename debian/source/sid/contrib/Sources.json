@@ -328,6 +328,65 @@
       "any"
     ],
     "Binary": [
+      "python3-astra-toolbox, octave-astra-toolbox"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), libboost-dev, nvidia-cuda-toolkit-gcc, clang, python3-dev, cython3, python3-numpy, python3-six, python3-scipy, liboctave-dev, dh-python"
+    ],
+    "Checksums-Sha256": [
+      "43ae19543de1f801e9573cff4914b8d0bcf6e98964432432eeda41a0dcda67ce 2191 astra-toolbox_2.1.0-2.dsc 7768863a2756887e54829725e8fe95a371c7cb0cdfa5392b2e11cfc290f54dc3 690300 astra-toolbox_2.1.0.orig.tar.gz a8b523c81f43280fb8ba0e337532000b9f6680168cb20ec823e0b52b294ab5b4 5680 astra-toolbox_2.1.0-2.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/a/astra-toolbox"
+    ],
+    "Files": [
+      "42734e9c70a18ccd1a87bf20a452d9e8 2191 astra-toolbox_2.1.0-2.dsc eeecd4fb80ffd9237c9dad36856777a8 690300 astra-toolbox_2.1.0.orig.tar.gz c7eac4620517c193dceaecc8b1dac03a 5680 astra-toolbox_2.1.0-2.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://github.com/astra-toolbox/astra-toolbox"
+    ],
+    "Maintainer": [
+      "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "astra-toolbox"
+    ],
+    "Package-List": [
+      "octave-astra-toolbox deb contrib/python optional arch=any python3-astra-toolbox deb contrib/python optional arch=any"
+    ],
+    "Priority": [
+      "extra"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.0"
+    ],
+    "Testsuite": [
+      "autopkgtest-pkg-python"
+    ],
+    "Uploaders": [
+      "Freexian Packaging Team \u003cteam+freexian@tracker.debian.org\u003e, Picca Frédéric-Emmanuel \u003cpicca@debian.org\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/science-team/astra-toolbox"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/science-team/astra-toolbox.git"
+    ],
+    "Version": [
+      "2.1.0-2"
+    ]
+  },
+  {
+    "Architecture": [
+      "any"
+    ],
+    "Binary": [
       "astromenace"
     ],
     "Build-Depends": [
