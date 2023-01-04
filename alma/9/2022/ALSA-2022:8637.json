@@ -8,9 +8,21 @@
     "$date": 1669593600000
   },
   "pkglist": {
-    "name": "almalinux-9-for-i686-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
     "packages": [
+      {
+        "name": "krb5-devel",
+        "version": "1.19.1",
+        "release": "24.el9_1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "krb5-1.19.1-24.el9_1.src.rpm",
+        "filename": "krb5-devel-1.19.1-24.el9_1.aarch64.rpm",
+        "sum": "4f85cad4dd4a8ffa035f4d1c2f3955600308aa18f8d59ffaae316d6a22bb031a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "krb5-devel",
         "version": "1.19.1",
@@ -32,6 +44,18 @@
         "src": "krb5-1.19.1-24.el9_1.src.rpm",
         "filename": "krb5-devel-1.19.1-24.el9_1.ppc64le.rpm",
         "sum": "c6bc44ff2ffbdcbf5691d86739966eae0bca7b33619be4e89d4a4bdd0e8b195f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "krb5-devel",
+        "version": "1.19.1",
+        "release": "24.el9_1",
+        "epoch": "0",
+        "arch": "s390x",
+        "src": "krb5-1.19.1-24.el9_1.src.rpm",
+        "filename": "krb5-devel-1.19.1-24.el9_1.s390x.rpm",
+        "sum": "7431d3f866a4891f39de75474314d3bde187a185790afd6b507160bd851e0895",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -168,114 +192,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "krb5-workstation",
-        "version": "1.19.1",
-        "release": "24.el9_1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "krb5-1.19.1-24.el9_1.src.rpm",
-        "filename": "krb5-workstation-1.19.1-24.el9_1.aarch64.rpm",
-        "sum": "468ab732fa847ae9e92c472d880717df2a1642fb846449787293e559cc3a5fa1",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libkadm5",
-        "version": "1.19.1",
-        "release": "24.el9_1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "krb5-1.19.1-24.el9_1.src.rpm",
-        "filename": "libkadm5-1.19.1-24.el9_1.aarch64.rpm",
-        "sum": "5c87d598eee577a298bd991fc435c659f080c762f61a2ef0072f1dce99c3f072",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "krb5-server-ldap",
-        "version": "1.19.1",
-        "release": "24.el9_1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "krb5-1.19.1-24.el9_1.src.rpm",
-        "filename": "krb5-server-ldap-1.19.1-24.el9_1.aarch64.rpm",
-        "sum": "63cc2ff8181a05c68a1f5f761521111fd28445eba6251384bf537eeaf8b40b6d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "krb5-pkinit",
-        "version": "1.19.1",
-        "release": "24.el9_1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "krb5-1.19.1-24.el9_1.src.rpm",
-        "filename": "krb5-pkinit-1.19.1-24.el9_1.aarch64.rpm",
-        "sum": "8f4a3ac834e13e78facd50f637e336394d5e2b951755ab44ae5eec39357feb38",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "krb5-libs",
-        "version": "1.19.1",
-        "release": "24.el9_1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "krb5-1.19.1-24.el9_1.src.rpm",
-        "filename": "krb5-libs-1.19.1-24.el9_1.aarch64.rpm",
-        "sum": "b2b5b74269745b31d793c495c4f8049739a4ae89696feb5fa780bab7a0300dba",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "krb5-server",
-        "version": "1.19.1",
-        "release": "24.el9_1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "krb5-1.19.1-24.el9_1.src.rpm",
-        "filename": "krb5-server-1.19.1-24.el9_1.aarch64.rpm",
-        "sum": "ce3c829184aa3373a67ca70817a0a1136390bef84031f59e837ec7d27d716d5a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "krb5-devel",
-        "version": "1.19.1",
-        "release": "24.el9_1",
-        "epoch": "0",
-        "arch": "s390x",
-        "src": "krb5-1.19.1-24.el9_1.src.rpm",
-        "filename": "krb5-devel-1.19.1-24.el9_1.s390x.rpm",
-        "sum": "7431d3f866a4891f39de75474314d3bde187a185790afd6b507160bd851e0895",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "krb5-workstation",
-        "version": "1.19.1",
-        "release": "24.el9_1",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "krb5-1.19.1-24.el9_1.src.rpm",
-        "filename": "krb5-workstation-1.19.1-24.el9_1.x86_64.rpm",
-        "sum": "8745f4c52443e8e9e0d555169aa9eb2d794407b75ad2327081390f5ca2d9e4ad",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "krb5-devel",
-        "version": "1.19.1",
-        "release": "24.el9_1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "krb5-1.19.1-24.el9_1.src.rpm",
-        "filename": "krb5-devel-1.19.1-24.el9_1.aarch64.rpm",
-        "sum": "4f85cad4dd4a8ffa035f4d1c2f3955600308aa18f8d59ffaae316d6a22bb031a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "krb5-server",
         "version": "1.19.1",
         "release": "24.el9_1",
@@ -344,6 +260,90 @@
         "src": "krb5-1.19.1-24.el9_1.src.rpm",
         "filename": "krb5-server-ldap-1.19.1-24.el9_1.s390x.rpm",
         "sum": "de292f38abbf92517fc897108e00e3ff80ff0f419a133d38eb2f88e8bdc29a10",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "krb5-workstation",
+        "version": "1.19.1",
+        "release": "24.el9_1",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "krb5-1.19.1-24.el9_1.src.rpm",
+        "filename": "krb5-workstation-1.19.1-24.el9_1.x86_64.rpm",
+        "sum": "8745f4c52443e8e9e0d555169aa9eb2d794407b75ad2327081390f5ca2d9e4ad",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "krb5-workstation",
+        "version": "1.19.1",
+        "release": "24.el9_1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "krb5-1.19.1-24.el9_1.src.rpm",
+        "filename": "krb5-workstation-1.19.1-24.el9_1.aarch64.rpm",
+        "sum": "468ab732fa847ae9e92c472d880717df2a1642fb846449787293e559cc3a5fa1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libkadm5",
+        "version": "1.19.1",
+        "release": "24.el9_1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "krb5-1.19.1-24.el9_1.src.rpm",
+        "filename": "libkadm5-1.19.1-24.el9_1.aarch64.rpm",
+        "sum": "5c87d598eee577a298bd991fc435c659f080c762f61a2ef0072f1dce99c3f072",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "krb5-server-ldap",
+        "version": "1.19.1",
+        "release": "24.el9_1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "krb5-1.19.1-24.el9_1.src.rpm",
+        "filename": "krb5-server-ldap-1.19.1-24.el9_1.aarch64.rpm",
+        "sum": "63cc2ff8181a05c68a1f5f761521111fd28445eba6251384bf537eeaf8b40b6d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "krb5-pkinit",
+        "version": "1.19.1",
+        "release": "24.el9_1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "krb5-1.19.1-24.el9_1.src.rpm",
+        "filename": "krb5-pkinit-1.19.1-24.el9_1.aarch64.rpm",
+        "sum": "8f4a3ac834e13e78facd50f637e336394d5e2b951755ab44ae5eec39357feb38",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "krb5-libs",
+        "version": "1.19.1",
+        "release": "24.el9_1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "krb5-1.19.1-24.el9_1.src.rpm",
+        "filename": "krb5-libs-1.19.1-24.el9_1.aarch64.rpm",
+        "sum": "b2b5b74269745b31d793c495c4f8049739a4ae89696feb5fa780bab7a0300dba",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "krb5-server",
+        "version": "1.19.1",
+        "release": "24.el9_1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "krb5-1.19.1-24.el9_1.src.rpm",
+        "filename": "krb5-server-1.19.1-24.el9_1.aarch64.rpm",
+        "sum": "ce3c829184aa3373a67ca70817a0a1136390bef84031f59e837ec7d27d716d5a",
         "sum_type": 5,
         "reboot_suggested": 0
       }

@@ -8,18 +8,18 @@
     "$date": 1657152000000
   },
   "pkglist": {
-    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_default",
     "packages": [
       {
         "name": "squid",
         "version": "5.2",
         "release": "1.el9_0.1",
         "epoch": "7",
-        "arch": "ppc64le",
+        "arch": "aarch64",
         "src": "squid-5.2-1.el9_0.1.src.rpm",
-        "filename": "squid-5.2-1.el9_0.1.ppc64le.rpm",
-        "sum": "4e3d724ca6edd8a7ee2d98db54677747b7215095c39581d1d08516bb0be06a11",
+        "filename": "squid-5.2-1.el9_0.1.aarch64.rpm",
+        "sum": "61debed15088bbd352f8fea33ceb0ac11ce4f7374c1c0d924a08e6648da2368e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -40,10 +40,10 @@
         "version": "5.2",
         "release": "1.el9_0.1",
         "epoch": "7",
-        "arch": "s390x",
+        "arch": "ppc64le",
         "src": "squid-5.2-1.el9_0.1.src.rpm",
-        "filename": "squid-5.2-1.el9_0.1.s390x.rpm",
-        "sum": "7df384b54cb6fd1394e05d220d400324b307abe46cf75b19119b576f4ab68400",
+        "filename": "squid-5.2-1.el9_0.1.ppc64le.rpm",
+        "sum": "4e3d724ca6edd8a7ee2d98db54677747b7215095c39581d1d08516bb0be06a11",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -52,10 +52,10 @@
         "version": "5.2",
         "release": "1.el9_0.1",
         "epoch": "7",
-        "arch": "aarch64",
+        "arch": "s390x",
         "src": "squid-5.2-1.el9_0.1.src.rpm",
-        "filename": "squid-5.2-1.el9_0.1.aarch64.rpm",
-        "sum": "61debed15088bbd352f8fea33ceb0ac11ce4f7374c1c0d924a08e6648da2368e",
+        "filename": "squid-5.2-1.el9_0.1.s390x.rpm",
+        "sum": "7df384b54cb6fd1394e05d220d400324b307abe46cf75b19119b576f4ab68400",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -98,7 +98,7 @@
   "title": "Important: squid security update",
   "type": "security",
   "updated_date": {
-    "$date": 1658423052000
+    "$date": 1658423047000
   },
   "version": "1"
 }

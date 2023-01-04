@@ -8,9 +8,33 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-i686-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
     "packages": [
+      {
+        "name": "fribidi",
+        "version": "1.0.10",
+        "release": "6.el9.2",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "fribidi-1.0.10-6.el9.2.src.rpm",
+        "filename": "fribidi-1.0.10-6.el9.2.aarch64.rpm",
+        "sum": "3178621f3860aca5918ae3c6e1ad56b00d7acac96a7f207953dde664a67a61fc",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "fribidi-devel",
+        "version": "1.0.10",
+        "release": "6.el9.2",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "fribidi-1.0.10-6.el9.2.src.rpm",
+        "filename": "fribidi-devel-1.0.10-6.el9.2.aarch64.rpm",
+        "sum": "f954b65faa4f3e9d10938fb2aba0c490bcf7af9b1196be21e43327d05857f5a4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "fribidi-devel",
         "version": "1.0.10",
@@ -32,30 +56,6 @@
         "src": "fribidi-1.0.10-6.el9.2.src.rpm",
         "filename": "fribidi-1.0.10-6.el9.2.i686.rpm",
         "sum": "75f808f0f5f93aceb4e477aa5f302edbed07a605a0644f0ea929d4ea609e36a0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "fribidi-devel",
-        "version": "1.0.10",
-        "release": "6.el9.2",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "fribidi-1.0.10-6.el9.2.src.rpm",
-        "filename": "fribidi-devel-1.0.10-6.el9.2.ppc64le.rpm",
-        "sum": "43e536ead328c5d0654147a8c9878a51cde4511a6bb189be32376a8c2ebb5a24",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "fribidi",
-        "version": "1.0.10",
-        "release": "6.el9.2",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "fribidi-1.0.10-6.el9.2.src.rpm",
-        "filename": "fribidi-1.0.10-6.el9.2.ppc64le.rpm",
-        "sum": "8cdbe41a002edd6a57c51a06f23449c98f78dcb027845bb028d35892a3cc415d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -88,6 +88,30 @@
         "version": "1.0.10",
         "release": "6.el9.2",
         "epoch": "0",
+        "arch": "ppc64le",
+        "src": "fribidi-1.0.10-6.el9.2.src.rpm",
+        "filename": "fribidi-devel-1.0.10-6.el9.2.ppc64le.rpm",
+        "sum": "43e536ead328c5d0654147a8c9878a51cde4511a6bb189be32376a8c2ebb5a24",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "fribidi",
+        "version": "1.0.10",
+        "release": "6.el9.2",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "fribidi-1.0.10-6.el9.2.src.rpm",
+        "filename": "fribidi-1.0.10-6.el9.2.ppc64le.rpm",
+        "sum": "8cdbe41a002edd6a57c51a06f23449c98f78dcb027845bb028d35892a3cc415d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "fribidi-devel",
+        "version": "1.0.10",
+        "release": "6.el9.2",
+        "epoch": "0",
         "arch": "s390x",
         "src": "fribidi-1.0.10-6.el9.2.src.rpm",
         "filename": "fribidi-devel-1.0.10-6.el9.2.s390x.rpm",
@@ -104,30 +128,6 @@
         "src": "fribidi-1.0.10-6.el9.2.src.rpm",
         "filename": "fribidi-1.0.10-6.el9.2.s390x.rpm",
         "sum": "7013b1a3add62222f2fabebf5c1e99780979f8b2c6ee5c53971815066dae49af",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "fribidi",
-        "version": "1.0.10",
-        "release": "6.el9.2",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "fribidi-1.0.10-6.el9.2.src.rpm",
-        "filename": "fribidi-1.0.10-6.el9.2.aarch64.rpm",
-        "sum": "3178621f3860aca5918ae3c6e1ad56b00d7acac96a7f207953dde664a67a61fc",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "fribidi-devel",
-        "version": "1.0.10",
-        "release": "6.el9.2",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "fribidi-1.0.10-6.el9.2.src.rpm",
-        "filename": "fribidi-devel-1.0.10-6.el9.2.aarch64.rpm",
-        "sum": "f954b65faa4f3e9d10938fb2aba0c490bcf7af9b1196be21e43327d05857f5a4",
         "sum_type": 5,
         "reboot_suggested": 0
       }

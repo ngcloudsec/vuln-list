@@ -8,9 +8,33 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-i686-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
     "packages": [
+      {
+        "name": "gimp",
+        "version": "2.99.8",
+        "release": "3.el9",
+        "epoch": "2",
+        "arch": "aarch64",
+        "src": "gimp-2.99.8-3.el9.src.rpm",
+        "filename": "gimp-2.99.8-3.el9.aarch64.rpm",
+        "sum": "664f6fca9e33d9f6a455714dbb6eba13db9fcac51c4ed4223701b5087b5d8ee2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gimp-libs",
+        "version": "2.99.8",
+        "release": "3.el9",
+        "epoch": "2",
+        "arch": "aarch64",
+        "src": "gimp-2.99.8-3.el9.src.rpm",
+        "filename": "gimp-libs-2.99.8-3.el9.aarch64.rpm",
+        "sum": "a35e404ab94cd1f5b7b6715251dbd382615aed9585f83a3245a53a4a9b3869f8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "gimp-libs",
         "version": "2.99.8",
@@ -20,30 +44,6 @@
         "src": "gimp-2.99.8-3.el9.src.rpm",
         "filename": "gimp-libs-2.99.8-3.el9.i686.rpm",
         "sum": "e9fc43cd3f4a0d027441300881599f506b924ee2a965293e7f99b751f5a4409c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gimp-libs",
-        "version": "2.99.8",
-        "release": "3.el9",
-        "epoch": "2",
-        "arch": "ppc64le",
-        "src": "gimp-2.99.8-3.el9.src.rpm",
-        "filename": "gimp-libs-2.99.8-3.el9.ppc64le.rpm",
-        "sum": "432a74a864f26587e3a568f69f374c5a0df4b92db2faaef5d44284ac7068ddb5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gimp",
-        "version": "2.99.8",
-        "release": "3.el9",
-        "epoch": "2",
-        "arch": "ppc64le",
-        "src": "gimp-2.99.8-3.el9.src.rpm",
-        "filename": "gimp-2.99.8-3.el9.ppc64le.rpm",
-        "sum": "66ba6e2dd1afcc8966707dc17109d620b392f518ace522b90e9df2ecc222747c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -72,6 +72,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "gimp-libs",
+        "version": "2.99.8",
+        "release": "3.el9",
+        "epoch": "2",
+        "arch": "ppc64le",
+        "src": "gimp-2.99.8-3.el9.src.rpm",
+        "filename": "gimp-libs-2.99.8-3.el9.ppc64le.rpm",
+        "sum": "432a74a864f26587e3a568f69f374c5a0df4b92db2faaef5d44284ac7068ddb5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gimp",
+        "version": "2.99.8",
+        "release": "3.el9",
+        "epoch": "2",
+        "arch": "ppc64le",
+        "src": "gimp-2.99.8-3.el9.src.rpm",
+        "filename": "gimp-2.99.8-3.el9.ppc64le.rpm",
+        "sum": "66ba6e2dd1afcc8966707dc17109d620b392f518ace522b90e9df2ecc222747c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "gimp",
         "version": "2.99.8",
         "release": "3.el9",
@@ -92,30 +116,6 @@
         "src": "gimp-2.99.8-3.el9.src.rpm",
         "filename": "gimp-libs-2.99.8-3.el9.s390x.rpm",
         "sum": "a5b4b4dcd6f4db985cccc3fc666b62c2a41e5972e4780b3c9550cc978bc0babd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gimp",
-        "version": "2.99.8",
-        "release": "3.el9",
-        "epoch": "2",
-        "arch": "aarch64",
-        "src": "gimp-2.99.8-3.el9.src.rpm",
-        "filename": "gimp-2.99.8-3.el9.aarch64.rpm",
-        "sum": "664f6fca9e33d9f6a455714dbb6eba13db9fcac51c4ed4223701b5087b5d8ee2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gimp-libs",
-        "version": "2.99.8",
-        "release": "3.el9",
-        "epoch": "2",
-        "arch": "aarch64",
-        "src": "gimp-2.99.8-3.el9.src.rpm",
-        "filename": "gimp-libs-2.99.8-3.el9.aarch64.rpm",
-        "sum": "a35e404ab94cd1f5b7b6715251dbd382615aed9585f83a3245a53a4a9b3869f8",
         "sum_type": 5,
         "reboot_suggested": 0
       }

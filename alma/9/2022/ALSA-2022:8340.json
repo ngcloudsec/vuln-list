@@ -8,9 +8,21 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-i686-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-i686-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
     "packages": [
+      {
+        "name": "freetype-devel",
+        "version": "2.10.4",
+        "release": "9.el9",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "freetype-2.10.4-9.el9.src.rpm",
+        "filename": "freetype-devel-2.10.4-9.el9.aarch64.rpm",
+        "sum": "f0e32023e8e87374ffd9c63678b99147af4e9fdd80ee7c6aecb3ad3eb15b6278",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "freetype-devel",
         "version": "2.10.4",
@@ -28,18 +40,6 @@
         "version": "2.10.4",
         "release": "9.el9",
         "epoch": "0",
-        "arch": "ppc64le",
-        "src": "freetype-2.10.4-9.el9.src.rpm",
-        "filename": "freetype-devel-2.10.4-9.el9.ppc64le.rpm",
-        "sum": "c2c669a62d2d1ffb5283fbb43c30f653c809960c355803edfaf08df71bdc8fb4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "freetype-devel",
-        "version": "2.10.4",
-        "release": "9.el9",
-        "epoch": "0",
         "arch": "x86_64",
         "src": "freetype-2.10.4-9.el9.src.rpm",
         "filename": "freetype-devel-2.10.4-9.el9.x86_64.rpm",
@@ -48,38 +48,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "freetype",
-        "version": "2.10.4",
-        "release": "9.el9",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "freetype-2.10.4-9.el9.src.rpm",
-        "filename": "freetype-2.10.4-9.el9.i686.rpm",
-        "sum": "0be85a34eaff6ae7640c58d0f0148e010bfb7e69081ffd214bc74bf1fbedd50d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "freetype",
+        "name": "freetype-devel",
         "version": "2.10.4",
         "release": "9.el9",
         "epoch": "0",
         "arch": "ppc64le",
         "src": "freetype-2.10.4-9.el9.src.rpm",
-        "filename": "freetype-2.10.4-9.el9.ppc64le.rpm",
-        "sum": "3b3945e8d7c01ce524970e26580d984a1afe8cf9126755bac42f74627db083ee",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "freetype",
-        "version": "2.10.4",
-        "release": "9.el9",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "freetype-2.10.4-9.el9.src.rpm",
-        "filename": "freetype-2.10.4-9.el9.aarch64.rpm",
-        "sum": "7cb40a9b475e98ba6327983031b5684aa7ad8a090b9766643cb5c49d74d101eb",
+        "filename": "freetype-devel-2.10.4-9.el9.ppc64le.rpm",
+        "sum": "c2c669a62d2d1ffb5283fbb43c30f653c809960c355803edfaf08df71bdc8fb4",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -112,6 +88,30 @@
         "version": "2.10.4",
         "release": "9.el9",
         "epoch": "0",
+        "arch": "i686",
+        "src": "freetype-2.10.4-9.el9.src.rpm",
+        "filename": "freetype-2.10.4-9.el9.i686.rpm",
+        "sum": "0be85a34eaff6ae7640c58d0f0148e010bfb7e69081ffd214bc74bf1fbedd50d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "freetype",
+        "version": "2.10.4",
+        "release": "9.el9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "freetype-2.10.4-9.el9.src.rpm",
+        "filename": "freetype-2.10.4-9.el9.ppc64le.rpm",
+        "sum": "3b3945e8d7c01ce524970e26580d984a1afe8cf9126755bac42f74627db083ee",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "freetype",
+        "version": "2.10.4",
+        "release": "9.el9",
+        "epoch": "0",
         "arch": "x86_64",
         "src": "freetype-2.10.4-9.el9.src.rpm",
         "filename": "freetype-2.10.4-9.el9.x86_64.rpm",
@@ -120,14 +120,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "freetype-devel",
+        "name": "freetype",
         "version": "2.10.4",
         "release": "9.el9",
         "epoch": "0",
         "arch": "aarch64",
         "src": "freetype-2.10.4-9.el9.src.rpm",
-        "filename": "freetype-devel-2.10.4-9.el9.aarch64.rpm",
-        "sum": "f0e32023e8e87374ffd9c63678b99147af4e9fdd80ee7c6aecb3ad3eb15b6278",
+        "filename": "freetype-2.10.4-9.el9.aarch64.rpm",
+        "sum": "7cb40a9b475e98ba6327983031b5684aa7ad8a090b9766643cb5c49d74d101eb",
         "sum_type": 5,
         "reboot_suggested": 0
       }

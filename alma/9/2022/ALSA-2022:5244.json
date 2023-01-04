@@ -8,9 +8,33 @@
     "$date": 1656633600000
   },
   "pkglist": {
-    "name": "almalinux-9-for-i686-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-i686-appstream-rpms__9_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_default",
     "packages": [
+      {
+        "name": "expat",
+        "version": "2.2.10",
+        "release": "12.el9_0.2",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "expat-2.2.10-12.el9_0.2.src.rpm",
+        "filename": "expat-2.2.10-12.el9_0.2.aarch64.rpm",
+        "sum": "75b798e4c8ba56be6447292d150c33e376c0f6e4ccc0f6bf906756fedd2aec7e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "expat-devel",
+        "version": "2.2.10",
+        "release": "12.el9_0.2",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "expat-2.2.10-12.el9_0.2.src.rpm",
+        "filename": "expat-devel-2.2.10-12.el9_0.2.aarch64.rpm",
+        "sum": "b7aac88e74b704bb1712f24c5db2429cb42d203358582d83c524c252ec325628",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "expat-devel",
         "version": "2.2.10",
@@ -40,30 +64,6 @@
         "version": "2.2.10",
         "release": "12.el9_0.2",
         "epoch": "0",
-        "arch": "ppc64le",
-        "src": "expat-2.2.10-12.el9_0.2.src.rpm",
-        "filename": "expat-devel-2.2.10-12.el9_0.2.ppc64le.rpm",
-        "sum": "40910d792dca4fb076d05994881d9d58410d8f21eb83e76ba3fa2980351fbd21",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "expat",
-        "version": "2.2.10",
-        "release": "12.el9_0.2",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "expat-2.2.10-12.el9_0.2.src.rpm",
-        "filename": "expat-2.2.10-12.el9_0.2.ppc64le.rpm",
-        "sum": "dc5897205c14915e70d78042a2b3ca48343f0acc0885b67c33984e10d6990e06",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "expat-devel",
-        "version": "2.2.10",
-        "release": "12.el9_0.2",
-        "epoch": "0",
         "arch": "x86_64",
         "src": "expat-2.2.10-12.el9_0.2.src.rpm",
         "filename": "expat-devel-2.2.10-12.el9_0.2.x86_64.rpm",
@@ -84,26 +84,26 @@
         "reboot_suggested": 0
       },
       {
-        "name": "expat",
-        "version": "2.2.10",
-        "release": "12.el9_0.2",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "expat-2.2.10-12.el9_0.2.src.rpm",
-        "filename": "expat-2.2.10-12.el9_0.2.aarch64.rpm",
-        "sum": "75b798e4c8ba56be6447292d150c33e376c0f6e4ccc0f6bf906756fedd2aec7e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "expat-devel",
         "version": "2.2.10",
         "release": "12.el9_0.2",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "ppc64le",
         "src": "expat-2.2.10-12.el9_0.2.src.rpm",
-        "filename": "expat-devel-2.2.10-12.el9_0.2.aarch64.rpm",
-        "sum": "b7aac88e74b704bb1712f24c5db2429cb42d203358582d83c524c252ec325628",
+        "filename": "expat-devel-2.2.10-12.el9_0.2.ppc64le.rpm",
+        "sum": "40910d792dca4fb076d05994881d9d58410d8f21eb83e76ba3fa2980351fbd21",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "expat",
+        "version": "2.2.10",
+        "release": "12.el9_0.2",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "expat-2.2.10-12.el9_0.2.src.rpm",
+        "filename": "expat-2.2.10-12.el9_0.2.ppc64le.rpm",
+        "sum": "dc5897205c14915e70d78042a2b3ca48343f0acc0885b67c33984e10d6990e06",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -182,7 +182,7 @@
   "title": "Moderate: expat security update",
   "type": "security",
   "updated_date": {
-    "$date": 1658424885000
+    "$date": 1658424879000
   },
   "version": "1"
 }

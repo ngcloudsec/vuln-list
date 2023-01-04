@@ -8,30 +8,30 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
     "packages": [
-      {
-        "name": "dnsmasq-utils",
-        "version": "2.85",
-        "release": "5.el9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "dnsmasq-2.85-5.el9.src.rpm",
-        "filename": "dnsmasq-utils-2.85-5.el9.ppc64le.rpm",
-        "sum": "13f0cf13c4a737f4d2da5be9dbd3fe7b551c79606ab1bf8f20f316b8cf095b62",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "dnsmasq",
         "version": "2.85",
         "release": "5.el9",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "aarch64",
         "src": "dnsmasq-2.85-5.el9.src.rpm",
-        "filename": "dnsmasq-2.85-5.el9.ppc64le.rpm",
-        "sum": "4e057799a9dc6c3fce5617d8892c1042189d2b711afa6e32812e4e543d4a52c7",
+        "filename": "dnsmasq-2.85-5.el9.aarch64.rpm",
+        "sum": "56a187cb23a02de14c9607281b50bc6c383c297e3ca32d7363897300756481d0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "dnsmasq-utils",
+        "version": "2.85",
+        "release": "5.el9",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "dnsmasq-2.85-5.el9.src.rpm",
+        "filename": "dnsmasq-utils-2.85-5.el9.aarch64.rpm",
+        "sum": "7896a120eafd04cc41b335c81a9f0b9ca65a6dab81ad1d5df04a95e779402260",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -60,6 +60,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "dnsmasq-utils",
+        "version": "2.85",
+        "release": "5.el9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "dnsmasq-2.85-5.el9.src.rpm",
+        "filename": "dnsmasq-utils-2.85-5.el9.ppc64le.rpm",
+        "sum": "13f0cf13c4a737f4d2da5be9dbd3fe7b551c79606ab1bf8f20f316b8cf095b62",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "dnsmasq",
+        "version": "2.85",
+        "release": "5.el9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "dnsmasq-2.85-5.el9.src.rpm",
+        "filename": "dnsmasq-2.85-5.el9.ppc64le.rpm",
+        "sum": "4e057799a9dc6c3fce5617d8892c1042189d2b711afa6e32812e4e543d4a52c7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "dnsmasq",
         "version": "2.85",
         "release": "5.el9",
@@ -80,30 +104,6 @@
         "src": "dnsmasq-2.85-5.el9.src.rpm",
         "filename": "dnsmasq-utils-2.85-5.el9.s390x.rpm",
         "sum": "d1db7e1e9e9b0e2afbe32723d76c0dbd3228709ef4ef8b59994f1d567b7a4f9d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "dnsmasq",
-        "version": "2.85",
-        "release": "5.el9",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "dnsmasq-2.85-5.el9.src.rpm",
-        "filename": "dnsmasq-2.85-5.el9.aarch64.rpm",
-        "sum": "56a187cb23a02de14c9607281b50bc6c383c297e3ca32d7363897300756481d0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "dnsmasq-utils",
-        "version": "2.85",
-        "release": "5.el9",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "dnsmasq-2.85-5.el9.src.rpm",
-        "filename": "dnsmasq-utils-2.85-5.el9.aarch64.rpm",
-        "sum": "7896a120eafd04cc41b335c81a9f0b9ca65a6dab81ad1d5df04a95e779402260",
         "sum_type": 5,
         "reboot_suggested": 0
       }

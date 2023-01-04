@@ -8,8 +8,8 @@
     "$date": 1659312000000
   },
   "pkglist": {
-    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_default",
     "packages": [
       {
         "name": "golang-src",
@@ -52,22 +52,10 @@
         "version": "1.17.12",
         "release": "1.el9_0",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "aarch64",
         "src": "golang-1.17.12-1.el9_0.src.rpm",
-        "filename": "golang-1.17.12-1.el9_0.ppc64le.rpm",
-        "sum": "b14afa034fe98c1140e8b7e26f8f38ea1606df0e125d00552d29e4c808ca5047",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "golang-bin",
-        "version": "1.17.12",
-        "release": "1.el9_0",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "golang-1.17.12-1.el9_0.src.rpm",
-        "filename": "golang-bin-1.17.12-1.el9_0.ppc64le.rpm",
-        "sum": "c4e41baf35e30bd7f166af141b77c78b18cf3050b861da57b1f2d6e715f7e5e5",
+        "filename": "golang-1.17.12-1.el9_0.aarch64.rpm",
+        "sum": "b445fba0c7fa46380c9b88bd7385b4b81c28c5701cea57d08ce4d1a2d4fe481d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -80,6 +68,18 @@
         "src": "golang-1.17.12-1.el9_0.src.rpm",
         "filename": "golang-docs-1.17.12-1.el9_0.noarch.rpm",
         "sum": "c8197d076419d8de01726a8e6e5818593a8c2358bc4afb2843a93e69a9a69daf",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "golang-bin",
+        "version": "1.17.12",
+        "release": "1.el9_0",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "golang-1.17.12-1.el9_0.src.rpm",
+        "filename": "golang-bin-1.17.12-1.el9_0.aarch64.rpm",
+        "sum": "d7daa6128c83bcd9a372a8b5bc1344fbccac7d6e461233d4c66f63276b4dc019",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -124,6 +124,30 @@
         "version": "1.17.12",
         "release": "1.el9_0",
         "epoch": "0",
+        "arch": "ppc64le",
+        "src": "golang-1.17.12-1.el9_0.src.rpm",
+        "filename": "golang-1.17.12-1.el9_0.ppc64le.rpm",
+        "sum": "b14afa034fe98c1140e8b7e26f8f38ea1606df0e125d00552d29e4c808ca5047",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "golang-bin",
+        "version": "1.17.12",
+        "release": "1.el9_0",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "golang-1.17.12-1.el9_0.src.rpm",
+        "filename": "golang-bin-1.17.12-1.el9_0.ppc64le.rpm",
+        "sum": "c4e41baf35e30bd7f166af141b77c78b18cf3050b861da57b1f2d6e715f7e5e5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "golang",
+        "version": "1.17.12",
+        "release": "1.el9_0",
+        "epoch": "0",
         "arch": "s390x",
         "src": "golang-1.17.12-1.el9_0.src.rpm",
         "filename": "golang-1.17.12-1.el9_0.s390x.rpm",
@@ -140,30 +164,6 @@
         "src": "golang-1.17.12-1.el9_0.src.rpm",
         "filename": "golang-bin-1.17.12-1.el9_0.s390x.rpm",
         "sum": "e849bfad0f4fbaa1148803a9e13181ccf4eb48f476e49cebb7282fa36cc45b06",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "golang",
-        "version": "1.17.12",
-        "release": "1.el9_0",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "golang-1.17.12-1.el9_0.src.rpm",
-        "filename": "golang-1.17.12-1.el9_0.aarch64.rpm",
-        "sum": "b445fba0c7fa46380c9b88bd7385b4b81c28c5701cea57d08ce4d1a2d4fe481d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "golang-bin",
-        "version": "1.17.12",
-        "release": "1.el9_0",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "golang-1.17.12-1.el9_0.src.rpm",
-        "filename": "golang-bin-1.17.12-1.el9_0.aarch64.rpm",
-        "sum": "d7daa6128c83bcd9a372a8b5bc1344fbccac7d6e461233d4c66f63276b4dc019",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -302,7 +302,7 @@
   "title": "Important: go-toolset and golang security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1659712666000
+    "$date": 1659713224000
   },
   "version": "1"
 }

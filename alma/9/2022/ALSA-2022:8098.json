@@ -8,30 +8,30 @@
     "$date": 1668470400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_1_default",
-    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_1_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_1_default",
     "packages": [
-      {
-        "name": "toolbox",
-        "version": "0.0.99.3",
-        "release": "5.el9",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "toolbox-0.0.99.3-5.el9.src.rpm",
-        "filename": "toolbox-0.0.99.3-5.el9.ppc64le.rpm",
-        "sum": "b6dcda39c5c21d98916d7d39e91de307d0429ee7eb9110219e6f7c5f9469e684",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "toolbox-tests",
         "version": "0.0.99.3",
         "release": "5.el9",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "aarch64",
         "src": "toolbox-0.0.99.3-5.el9.src.rpm",
-        "filename": "toolbox-tests-0.0.99.3-5.el9.ppc64le.rpm",
-        "sum": "b9639f2bc8db4f4bcb958ff6ff5c66ce23437bd09e73a9a5a301a9f8d33c2aa0",
+        "filename": "toolbox-tests-0.0.99.3-5.el9.aarch64.rpm",
+        "sum": "5a7dbb7577025725ed04679a45df55a5e21f5f42985c05eb8533668226bf1c2b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "toolbox",
+        "version": "0.0.99.3",
+        "release": "5.el9",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "toolbox-0.0.99.3-5.el9.src.rpm",
+        "filename": "toolbox-0.0.99.3-5.el9.aarch64.rpm",
+        "sum": "90826184d3e2d3a72b2b934cd74508f7aae17de1c73b5d141b199434870c6513",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -64,6 +64,30 @@
         "version": "0.0.99.3",
         "release": "5.el9",
         "epoch": "0",
+        "arch": "ppc64le",
+        "src": "toolbox-0.0.99.3-5.el9.src.rpm",
+        "filename": "toolbox-0.0.99.3-5.el9.ppc64le.rpm",
+        "sum": "b6dcda39c5c21d98916d7d39e91de307d0429ee7eb9110219e6f7c5f9469e684",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "toolbox-tests",
+        "version": "0.0.99.3",
+        "release": "5.el9",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "toolbox-0.0.99.3-5.el9.src.rpm",
+        "filename": "toolbox-tests-0.0.99.3-5.el9.ppc64le.rpm",
+        "sum": "b9639f2bc8db4f4bcb958ff6ff5c66ce23437bd09e73a9a5a301a9f8d33c2aa0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "toolbox",
+        "version": "0.0.99.3",
+        "release": "5.el9",
+        "epoch": "0",
         "arch": "s390x",
         "src": "toolbox-0.0.99.3-5.el9.src.rpm",
         "filename": "toolbox-0.0.99.3-5.el9.s390x.rpm",
@@ -80,30 +104,6 @@
         "src": "toolbox-0.0.99.3-5.el9.src.rpm",
         "filename": "toolbox-tests-0.0.99.3-5.el9.s390x.rpm",
         "sum": "7ec4fafe667dbcc6ca2e8b2c7a412e8a7ba4c2773a99a79d185b69e9ec505e6a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "toolbox-tests",
-        "version": "0.0.99.3",
-        "release": "5.el9",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "toolbox-0.0.99.3-5.el9.src.rpm",
-        "filename": "toolbox-tests-0.0.99.3-5.el9.aarch64.rpm",
-        "sum": "5a7dbb7577025725ed04679a45df55a5e21f5f42985c05eb8533668226bf1c2b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "toolbox",
-        "version": "0.0.99.3",
-        "release": "5.el9",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "toolbox-0.0.99.3-5.el9.src.rpm",
-        "filename": "toolbox-0.0.99.3-5.el9.aarch64.rpm",
-        "sum": "90826184d3e2d3a72b2b934cd74508f7aae17de1c73b5d141b199434870c6513",
         "sum_type": 5,
         "reboot_suggested": 0
       }

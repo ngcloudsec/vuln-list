@@ -8,9 +8,45 @@
     "$date": 1662422400000
   },
   "pkglist": {
-    "name": "almalinux-9-for-x86_64-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-x86_64-appstream-rpms__9_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_default",
     "packages": [
+      {
+        "name": "open-vm-tools",
+        "version": "11.3.5",
+        "release": "1.el9_0.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "open-vm-tools-11.3.5-1.el9_0.1.src.rpm",
+        "filename": "open-vm-tools-11.3.5-1.el9_0.1.aarch64.rpm",
+        "sum": "0163f2058626381eeaad47438383c6c20f6bbdb730866497d8485271925f90ed",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "open-vm-tools-desktop",
+        "version": "11.3.5",
+        "release": "1.el9_0.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "open-vm-tools-11.3.5-1.el9_0.1.src.rpm",
+        "filename": "open-vm-tools-desktop-11.3.5-1.el9_0.1.aarch64.rpm",
+        "sum": "0dfb44ce9cec1c29b3a6966d8b4fd2ef739d07c97fedb026945f383293db1aca",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "open-vm-tools-test",
+        "version": "11.3.5",
+        "release": "1.el9_0.1",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "open-vm-tools-11.3.5-1.el9_0.1.src.rpm",
+        "filename": "open-vm-tools-test-11.3.5-1.el9_0.1.aarch64.rpm",
+        "sum": "6902baab93fd4535b23c201b9fd95ce04a707c3422e1b7d36c3b5f294e710d6f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "open-vm-tools-desktop",
         "version": "11.3.5",
@@ -56,42 +92,6 @@
         "src": "open-vm-tools-11.3.5-1.el9_0.1.src.rpm",
         "filename": "open-vm-tools-11.3.5-1.el9_0.1.x86_64.rpm",
         "sum": "e358123c40e1cdfc3ef2dfbedabebf782eb125314229c22d7b9cf1cdd2d90fd7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "open-vm-tools",
-        "version": "11.3.5",
-        "release": "1.el9_0.1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "open-vm-tools-11.3.5-1.el9_0.1.src.rpm",
-        "filename": "open-vm-tools-11.3.5-1.el9_0.1.aarch64.rpm",
-        "sum": "0163f2058626381eeaad47438383c6c20f6bbdb730866497d8485271925f90ed",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "open-vm-tools-desktop",
-        "version": "11.3.5",
-        "release": "1.el9_0.1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "open-vm-tools-11.3.5-1.el9_0.1.src.rpm",
-        "filename": "open-vm-tools-desktop-11.3.5-1.el9_0.1.aarch64.rpm",
-        "sum": "0dfb44ce9cec1c29b3a6966d8b4fd2ef739d07c97fedb026945f383293db1aca",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "open-vm-tools-test",
-        "version": "11.3.5",
-        "release": "1.el9_0.1",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "open-vm-tools-11.3.5-1.el9_0.1.src.rpm",
-        "filename": "open-vm-tools-test-11.3.5-1.el9_0.1.aarch64.rpm",
-        "sum": "6902baab93fd4535b23c201b9fd95ce04a707c3422e1b7d36c3b5f294e710d6f",
         "sum_type": 5,
         "reboot_suggested": 0
       }

@@ -8,18 +8,18 @@
     "$date": 1667347200000
   },
   "pkglist": {
-    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_default",
     "packages": [
       {
         "name": "lua",
         "version": "5.4.2",
         "release": "4.el9_0.3",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "aarch64",
         "src": "lua-5.4.2-4.el9_0.3.src.rpm",
-        "filename": "lua-5.4.2-4.el9_0.3.ppc64le.rpm",
-        "sum": "6cdd659422d8b4c8964be2f0aad2b8243f30a99f8519cfc5768df7f8254e48ec",
+        "filename": "lua-5.4.2-4.el9_0.3.aarch64.rpm",
+        "sum": "6d4f748ab0699c75b783a7e5de28a9c8e8e40e71107acc59e5c8e8ae63bccf74",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -36,26 +36,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "lua-libs",
+        "name": "lua",
         "version": "5.4.2",
         "release": "4.el9_0.3",
         "epoch": "0",
         "arch": "ppc64le",
         "src": "lua-5.4.2-4.el9_0.3.src.rpm",
-        "filename": "lua-libs-5.4.2-4.el9_0.3.ppc64le.rpm",
-        "sum": "2095aa65ba47651e95253dcfbf7390ec50b9446b0795e421e6ddbc12a1d4da77",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "lua-libs",
-        "version": "5.4.2",
-        "release": "4.el9_0.3",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "lua-5.4.2-4.el9_0.3.src.rpm",
-        "filename": "lua-libs-5.4.2-4.el9_0.3.aarch64.rpm",
-        "sum": "696be7e6a02b7d4f054bbe17b0fa78167f36cfd340a717f36d0de9dd450ead00",
+        "filename": "lua-5.4.2-4.el9_0.3.ppc64le.rpm",
+        "sum": "6cdd659422d8b4c8964be2f0aad2b8243f30a99f8519cfc5768df7f8254e48ec",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -76,22 +64,10 @@
         "version": "5.4.2",
         "release": "4.el9_0.3",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "ppc64le",
         "src": "lua-5.4.2-4.el9_0.3.src.rpm",
-        "filename": "lua-libs-5.4.2-4.el9_0.3.x86_64.rpm",
-        "sum": "f51f5631bc9131b93934308f4ddd10d962c77982053799316bd5a823023afdb2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "lua",
-        "version": "5.4.2",
-        "release": "4.el9_0.3",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "lua-5.4.2-4.el9_0.3.src.rpm",
-        "filename": "lua-5.4.2-4.el9_0.3.aarch64.rpm",
-        "sum": "6d4f748ab0699c75b783a7e5de28a9c8e8e40e71107acc59e5c8e8ae63bccf74",
+        "filename": "lua-libs-5.4.2-4.el9_0.3.ppc64le.rpm",
+        "sum": "2095aa65ba47651e95253dcfbf7390ec50b9446b0795e421e6ddbc12a1d4da77",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -108,14 +84,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "lua-devel",
+        "name": "lua-libs",
         "version": "5.4.2",
         "release": "4.el9_0.3",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "lua-5.4.2-4.el9_0.3.src.rpm",
-        "filename": "lua-devel-5.4.2-4.el9_0.3.aarch64.rpm",
-        "sum": "361e8fe0d5c2819cee386139009d1c1affb30d55d4c5b835ec4b94d01914a705",
+        "filename": "lua-libs-5.4.2-4.el9_0.3.x86_64.rpm",
+        "sum": "f51f5631bc9131b93934308f4ddd10d962c77982053799316bd5a823023afdb2",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -152,6 +128,30 @@
         "src": "lua-5.4.2-4.el9_0.3.src.rpm",
         "filename": "lua-5.4.2-4.el9_0.3.i686.rpm",
         "sum": "2cb593b6b0e23cfa2597288f810679512f2042b411bb0be3516b73df1a07f9d2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "lua-libs",
+        "version": "5.4.2",
+        "release": "4.el9_0.3",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "lua-5.4.2-4.el9_0.3.src.rpm",
+        "filename": "lua-libs-5.4.2-4.el9_0.3.aarch64.rpm",
+        "sum": "696be7e6a02b7d4f054bbe17b0fa78167f36cfd340a717f36d0de9dd450ead00",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "lua-devel",
+        "version": "5.4.2",
+        "release": "4.el9_0.3",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "lua-5.4.2-4.el9_0.3.src.rpm",
+        "filename": "lua-devel-5.4.2-4.el9_0.3.aarch64.rpm",
+        "sum": "361e8fe0d5c2819cee386139009d1c1affb30d55d4c5b835ec4b94d01914a705",
         "sum_type": 5,
         "reboot_suggested": 0
       },

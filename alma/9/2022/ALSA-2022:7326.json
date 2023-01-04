@@ -8,8 +8,8 @@
     "$date": 1667347200000
   },
   "pkglist": {
-    "name": "almalinux-9-for-ppc64le-appstream-rpms__9_default",
-    "shortname": "almalinux-9-for-ppc64le-appstream-rpms__9_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_default",
     "packages": [
       {
         "name": "python3-pki",
@@ -52,10 +52,10 @@
         "version": "11.0.6",
         "release": "2.el9_0",
         "epoch": "0",
-        "arch": "ppc64le",
+        "arch": "aarch64",
         "src": "pki-core-11.0.6-2.el9_0.src.rpm",
-        "filename": "pki-tools-11.0.6-2.el9_0.ppc64le.rpm",
-        "sum": "696f0cbe31bcc2ddb4341d19e6cd3e19d9687218298f2e145db66d9193211e9b",
+        "filename": "pki-tools-11.0.6-2.el9_0.aarch64.rpm",
+        "sum": "3fbd528ab199de810b96d497a8d59d2b1694a69d909c22439ce783d22715c991",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -84,18 +84,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "pki-symkey",
-        "version": "11.0.6",
-        "release": "2.el9_0",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "pki-core-11.0.6-2.el9_0.src.rpm",
-        "filename": "pki-symkey-11.0.6-2.el9_0.ppc64le.rpm",
-        "sum": "864892044fe7c03da79652ea6ffd7eea5c9b42bcb557a99f8d4b15acc128cf44",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "pki-base",
         "version": "11.0.6",
         "release": "2.el9_0",
@@ -104,6 +92,18 @@
         "src": "pki-core-11.0.6-2.el9_0.src.rpm",
         "filename": "pki-base-11.0.6-2.el9_0.noarch.rpm",
         "sum": "b5255a17f14305055a701fa99beabc0fa64becfd31413319cb6f77b7f57d8a7c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pki-symkey",
+        "version": "11.0.6",
+        "release": "2.el9_0",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "pki-core-11.0.6-2.el9_0.src.rpm",
+        "filename": "pki-symkey-11.0.6-2.el9_0.aarch64.rpm",
+        "sum": "be8ea91d0b03c8dc1d3f74ff49e1c26f55c7e8ee11a11f68dc4d3bd8cdaa5244",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -148,6 +148,30 @@
         "version": "11.0.6",
         "release": "2.el9_0",
         "epoch": "0",
+        "arch": "ppc64le",
+        "src": "pki-core-11.0.6-2.el9_0.src.rpm",
+        "filename": "pki-tools-11.0.6-2.el9_0.ppc64le.rpm",
+        "sum": "696f0cbe31bcc2ddb4341d19e6cd3e19d9687218298f2e145db66d9193211e9b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pki-symkey",
+        "version": "11.0.6",
+        "release": "2.el9_0",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "pki-core-11.0.6-2.el9_0.src.rpm",
+        "filename": "pki-symkey-11.0.6-2.el9_0.ppc64le.rpm",
+        "sum": "864892044fe7c03da79652ea6ffd7eea5c9b42bcb557a99f8d4b15acc128cf44",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "pki-tools",
+        "version": "11.0.6",
+        "release": "2.el9_0",
+        "epoch": "0",
         "arch": "s390x",
         "src": "pki-core-11.0.6-2.el9_0.src.rpm",
         "filename": "pki-tools-11.0.6-2.el9_0.s390x.rpm",
@@ -164,30 +188,6 @@
         "src": "pki-core-11.0.6-2.el9_0.src.rpm",
         "filename": "pki-symkey-11.0.6-2.el9_0.s390x.rpm",
         "sum": "62c8796b84c14d26be775baf4b94139569f47466833b3bb916fb5fc78e431462",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pki-tools",
-        "version": "11.0.6",
-        "release": "2.el9_0",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pki-core-11.0.6-2.el9_0.src.rpm",
-        "filename": "pki-tools-11.0.6-2.el9_0.aarch64.rpm",
-        "sum": "3fbd528ab199de810b96d497a8d59d2b1694a69d909c22439ce783d22715c991",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "pki-symkey",
-        "version": "11.0.6",
-        "release": "2.el9_0",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "pki-core-11.0.6-2.el9_0.src.rpm",
-        "filename": "pki-symkey-11.0.6-2.el9_0.aarch64.rpm",
-        "sum": "be8ea91d0b03c8dc1d3f74ff49e1c26f55c7e8ee11a11f68dc4d3bd8cdaa5244",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -230,7 +230,7 @@
   "title": "Important: pki-core security update",
   "type": "security",
   "updated_date": {
-    "$date": 1667425164000
+    "$date": 1667425163000
   },
   "version": "1"
 }
