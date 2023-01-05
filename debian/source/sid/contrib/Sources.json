@@ -5469,6 +5469,62 @@
       "i386 amd64 armhf arm64 ppc64el"
     ],
     "Binary": [
+      "nvidia-modprobe"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), m4"
+    ],
+    "Checksums-Sha256": [
+      "1065a9f56a426dca191f092ffd7862d1ed40530b7b9033a671696226bebad11a 2152 nvidia-modprobe_515.86.01-1.dsc d50d1ea7a46e03681335b6a86d47af0c961b576bf8ee7d87640dd4f27571e585 39100 nvidia-modprobe_515.86.01.orig.tar.bz2 8089379e322fcc003b1b8b3cf198ee6c3115b14915b5b059d214efc0edd76257 5224 nvidia-modprobe_515.86.01-1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/n/nvidia-modprobe"
+    ],
+    "Files": [
+      "7eac685c44a4532e5114ba851e8db213 2152 nvidia-modprobe_515.86.01-1.dsc 206ae478ad83a45db35112ff3b4958ca 39100 nvidia-modprobe_515.86.01.orig.tar.bz2 953ebf1ac5999ba76ab570891f387b6f 5224 nvidia-modprobe_515.86.01-1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://github.com/NVIDIA/nvidia-modprobe"
+    ],
+    "Maintainer": [
+      "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "nvidia-modprobe"
+    ],
+    "Package-List": [
+      "nvidia-modprobe deb contrib/utils optional arch=i386,amd64,armhf,arm64,ppc64el"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.2"
+    ],
+    "Uploaders": [
+      "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/nvidia-team/nvidia-modprobe"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/nvidia-team/nvidia-modprobe.git"
+    ],
+    "Version": [
+      "515.86.01-1"
+    ]
+  },
+  {
+    "Architecture": [
+      "i386 amd64 armhf arm64 ppc64el"
+    ],
+    "Binary": [
       "nvidia-persistenced"
     ],
     "Build-Depends": [
@@ -5518,6 +5574,62 @@
     ],
     "Version": [
       "510.85.02-1"
+    ]
+  },
+  {
+    "Architecture": [
+      "amd64 arm64 ppc64el"
+    ],
+    "Binary": [
+      "nvidia-persistenced"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), pkg-config, libtirpc-dev, m4"
+    ],
+    "Checksums-Sha256": [
+      "a65ba659a74625910aedde29d8cb71cea159dbe8a1c2d657cfb707adeb3f43cc 2177 nvidia-persistenced_510.108.03-1.dsc ce53ebcb66b72f4184c7f78a26ba4a34dbdb7089285270884d7562e03bb48b70 47222 nvidia-persistenced_510.108.03.orig.tar.bz2 58fdd38fcad8c9a000df38adc010ae2db9e57ba8127e69aa728c4843354c290d 5516 nvidia-persistenced_510.108.03-1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/n/nvidia-persistenced"
+    ],
+    "Files": [
+      "47a776ce5026bdb7e4964a73596c279a 2177 nvidia-persistenced_510.108.03-1.dsc 6c13ad96a89f23406b72f37397554ef9 47222 nvidia-persistenced_510.108.03.orig.tar.bz2 5a733275a80c9570817da4b80a8f0c10 5516 nvidia-persistenced_510.108.03-1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://github.com/NVIDIA/nvidia-persistenced"
+    ],
+    "Maintainer": [
+      "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "nvidia-persistenced"
+    ],
+    "Package-List": [
+      "nvidia-persistenced deb contrib/utils optional arch=amd64,arm64,ppc64el"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.2"
+    ],
+    "Uploaders": [
+      "Andreas Beckmann \u003canbe@debian.org\u003e,"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/nvidia-team/nvidia-persistenced"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/nvidia-team/nvidia-persistenced.git"
+    ],
+    "Version": [
+      "510.108.03-1"
     ]
   },
   {
@@ -5577,6 +5689,65 @@
     ],
     "Version": [
       "340.108-6"
+    ]
+  },
+  {
+    "Architecture": [
+      "i386 amd64 armhf"
+    ],
+    "Binary": [
+      "nvidia-settings-legacy-340xx"
+    ],
+    "Build-Conflicts": [
+      "libxnvctrl-dev"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), m4, libgl-dev, libgtk2.0-dev, libjansson-dev, libvdpau-dev, libxext-dev, libxv-dev, libxxf86vm-dev, pkg-config, xserver-xorg-dev"
+    ],
+    "Checksums-Sha256": [
+      "ebbecbafdab0684cb3f09b29b705c15187a930270fd1edcd91d47c137b7bf9c1 2417 nvidia-settings-legacy-340xx_340.108-7.dsc d03c7f1d46be76191a2406ac347a5e309760b83b0302b3322126aed2e425e147 1550018 nvidia-settings-legacy-340xx_340.108.orig.tar.bz2 f1ad4ac693f005caf0aa3ebaa9a0596a207f2121e22345a542c724d6565e5bab 21212 nvidia-settings-legacy-340xx_340.108-7.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/n/nvidia-settings-legacy-340xx"
+    ],
+    "Files": [
+      "ee3211bf982d1773b63dd2b4c714c6d1 2417 nvidia-settings-legacy-340xx_340.108-7.dsc 86944ff799d5798f407c5051282699b3 1550018 nvidia-settings-legacy-340xx_340.108.orig.tar.bz2 fcb9f1f703ad342d2ce1f521aa6bc7ef 21212 nvidia-settings-legacy-340xx_340.108-7.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://download.nvidia.com/XFree86/nvidia-settings/"
+    ],
+    "Maintainer": [
+      "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "nvidia-settings-legacy-340xx"
+    ],
+    "Package-List": [
+      "nvidia-settings-legacy-340xx deb contrib/x11 optional arch=i386,amd64,armhf"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.2"
+    ],
+    "Uploaders": [
+      "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/nvidia-team/nvidia-settings"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/nvidia-team/nvidia-settings.git -b 340xx/main"
+    ],
+    "Version": [
+      "340.108-7"
     ]
   },
   {
@@ -6047,6 +6218,59 @@
   },
   {
     "Architecture": [
+      "amd64 i386 armhf arm64 ppc64el"
+    ],
+    "Binary": [
+      "nvidia-support, nvidia-installer-cleanup, nvidia-kernel-common"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), po-debconf"
+    ],
+    "Checksums-Sha256": [
+      "7349ac51ffb1476c80037d85a897347a6cf6c805fb69c2f9fcb18561b9e2f15d 2023 nvidia-support_20220217+2.dsc cbf8a800fde792611fd5a51eb998c7fdc29dfdc3ed4c7ff33920a22c07eefb76 34252 nvidia-support_20220217+2.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/n/nvidia-support"
+    ],
+    "Files": [
+      "fdbf46e28498c9bd776d0c9c7d57dd3f 2023 nvidia-support_20220217+2.dsc 93f5945f7e34dcac68a5f9be6cd129a2 34252 nvidia-support_20220217+2.tar.xz"
+    ],
+    "Format": [
+      "3.0 (native)"
+    ],
+    "Maintainer": [
+      "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "nvidia-support"
+    ],
+    "Package-List": [
+      "nvidia-installer-cleanup deb contrib/misc optional arch=amd64,i386,armhf,arm64,ppc64el nvidia-kernel-common deb contrib/kernel optional arch=amd64,i386,armhf,arm64,ppc64el nvidia-support deb contrib/misc optional arch=amd64,i386,armhf,arm64,ppc64el"
+    ],
+    "Priority": [
+      "source"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.2"
+    ],
+    "Uploaders": [
+      "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/nvidia-team/nvidia-support"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/nvidia-team/nvidia-support.git"
+    ],
+    "Version": [
+      "20220217+2"
+    ]
+  },
+  {
+    "Architecture": [
       "i386 amd64 armhf"
     ],
     "Binary": [
@@ -6099,6 +6323,62 @@
     ],
     "Version": [
       "510.85.02-1"
+    ]
+  },
+  {
+    "Architecture": [
+      "amd64"
+    ],
+    "Binary": [
+      "nvidia-xconfig"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), m4, pkg-config, xserver-xorg-dev"
+    ],
+    "Checksums-Sha256": [
+      "4053bb2a0d98ded4e28281d4e62e0a36ffdcb95a03d75c1eae62666cfc9328a3 2105 nvidia-xconfig_510.108.03-1.dsc a651475d8688c3e5761401f8302d6182b400ea6582dfe66a01bf497830e922f2 109729 nvidia-xconfig_510.108.03.orig.tar.bz2 d16a6aa9d73e7b86da8dbf699fa76b6023b113e27b8f99544871bcd8114d8284 8940 nvidia-xconfig_510.108.03-1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/n/nvidia-xconfig"
+    ],
+    "Files": [
+      "69ac58f8f2032c960fdba62e2e756547 2105 nvidia-xconfig_510.108.03-1.dsc 896da343ff6e5d1c559a8c5d80becb0f 109729 nvidia-xconfig_510.108.03.orig.tar.bz2 3347f8193d817d10b84f6169b70d6897 8940 nvidia-xconfig_510.108.03-1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://download.nvidia.com/XFree86/nvidia-xconfig/"
+    ],
+    "Maintainer": [
+      "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "nvidia-xconfig"
+    ],
+    "Package-List": [
+      "nvidia-xconfig deb contrib/x11 optional arch=amd64"
+    ],
+    "Priority": [
+      "source"
+    ],
+    "Section": [
+      "contrib/x11"
+    ],
+    "Standards-Version": [
+      "4.6.2"
+    ],
+    "Uploaders": [
+      "Andreas Beckmann \u003canbe@debian.org\u003e,"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/nvidia-team/nvidia-xconfig"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/nvidia-team/nvidia-xconfig.git"
+    ],
+    "Version": [
+      "510.108.03-1"
     ]
   },
   {
