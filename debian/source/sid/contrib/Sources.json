@@ -2743,6 +2743,59 @@
   },
   {
     "Architecture": [
+      "i386 amd64 armhf arm64 ppc64el"
+    ],
+    "Binary": [
+      "update-glx, glx-diversions, glx-alternative-mesa, glx-alternative-nvidia"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13)"
+    ],
+    "Checksums-Sha256": [
+      "7861e50b7e690970aef8d042800b0fc08895745e6ab89aafa2a423b46fd7cfc4 2048 glx-alternatives_1.2.2.dsc 7cfd4e852fe1b98eef8b2eed4504c127788b9e0b6bd7f3311541989c7f3ce1d2 14340 glx-alternatives_1.2.2.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/g/glx-alternatives"
+    ],
+    "Files": [
+      "2e54644652bfb87a32cc746ba5d554e9 2048 glx-alternatives_1.2.2.dsc 2f9f2176cfde8cc656de4875edff513a 14340 glx-alternatives_1.2.2.tar.xz"
+    ],
+    "Format": [
+      "3.0 (native)"
+    ],
+    "Maintainer": [
+      "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "glx-alternatives"
+    ],
+    "Package-List": [
+      "glx-alternative-mesa deb contrib/libs optional arch=i386,amd64,armhf,arm64,ppc64el glx-alternative-nvidia deb contrib/libs optional arch=i386,amd64,armhf,arm64,ppc64el glx-diversions deb contrib/libs optional arch=i386,amd64,armhf,arm64,ppc64el update-glx deb contrib/x11 optional arch=i386,amd64,armhf,arm64,ppc64el"
+    ],
+    "Priority": [
+      "source"
+    ],
+    "Section": [
+      "contrib/libs"
+    ],
+    "Standards-Version": [
+      "4.6.2"
+    ],
+    "Uploaders": [
+      "Andreas Beckmann \u003canbe@debian.org\u003e,"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/nvidia-team/glx-alternatives"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/nvidia-team/glx-alternatives.git"
+    ],
+    "Version": [
+      "1.2.2"
+    ]
+  },
+  {
+    "Architecture": [
       "any"
     ],
     "Binary": [
@@ -5301,6 +5354,62 @@
   },
   {
     "Architecture": [
+      "amd64 i386 arm64 ppc64el"
+    ],
+    "Binary": [
+      "libnvidia-egl-gbm1"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), eglexternalplatform-dev (\u003e= 1.1), eglexternalplatform-dev (\u003c\u003c 2), libdrm-dev (\u003e= 2.4.75), libegl-dev, libgbm-dev (\u003e= 21.2), meson (\u003e= 0.50), pkg-config"
+    ],
+    "Checksums-Sha256": [
+      "9d41622468d14ba269b469f59459f6ea49ac50d216954f1606d9a8c929fdb27c 2212 nvidia-egl-gbm_1.1.0-2.dsc 21e08ec5442eac08ed87d9d1f7fc5aeb86592f4756a3cd264e9c60620b9b8437 17165 nvidia-egl-gbm_1.1.0.orig.tar.gz f60b7bed38b178196a0c755096e04341e2a2490d7aaf8fe65f496ed46976d6b6 2408 nvidia-egl-gbm_1.1.0-2.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/n/nvidia-egl-gbm"
+    ],
+    "Files": [
+      "eb03cc2c672a41f17ed007741852017e 2212 nvidia-egl-gbm_1.1.0-2.dsc f303b058909a636b996483a9e18c7671 17165 nvidia-egl-gbm_1.1.0.orig.tar.gz b7d1bc599d777e8bf76e6a2f9d781a4d 2408 nvidia-egl-gbm_1.1.0-2.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://github.com/NVIDIA/egl-gbm"
+    ],
+    "Maintainer": [
+      "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "nvidia-egl-gbm"
+    ],
+    "Package-List": [
+      "libnvidia-egl-gbm1 deb contrib/libs optional arch=amd64,i386,arm64,ppc64el"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.2"
+    ],
+    "Uploaders": [
+      "Andreas Beckmann \u003canbe@debian.org\u003e,"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/nvidia-team/nvidia-egl-gbm"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/nvidia-team/nvidia-egl-gbm.git"
+    ],
+    "Version": [
+      "1.1.0-2"
+    ]
+  },
+  {
+    "Architecture": [
       "i386 amd64 armhf arm64 ppc64el"
     ],
     "Binary": [
@@ -7263,6 +7372,62 @@
     ],
     "Version": [
       "11.515.75-1"
+    ]
+  },
+  {
+    "Architecture": [
+      "amd64 arm64 i386 ppc64el"
+    ],
+    "Binary": [
+      "python3-pynvml"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), dh-python, nvidia-support | libnvidia-ml1 | libnvidia-ml.so.1, python3-all"
+    ],
+    "Checksums-Sha256": [
+      "f8fd78bf2d09c44995d0c66db5c3179158ec9ccc35884d5a3b4409a1c2d3625c 2178 python-pynvml_11.515.75-2.dsc e3c75f06d5a3201dc51136e00e58c5c132b3be5d604d86c143426adb4e41c490 30034 python-pynvml_11.515.75.orig.tar.gz ef7d27e837a6e3f26128e8fc2615223846d2752a5b947425f312121ee87cc2ad 2968 python-pynvml_11.515.75-2.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/p/python-pynvml"
+    ],
+    "Files": [
+      "61fd10f637689c304982b6804b4623c8 2178 python-pynvml_11.515.75-2.dsc c5cc20e1e82fa5ba1bc4e8bac8b98a1c 30034 python-pynvml_11.515.75.orig.tar.gz b379d52dca511bc3e943157b164c29a4 2968 python-pynvml_11.515.75-2.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://pypi.org/project/nvidia-ml-py"
+    ],
+    "Maintainer": [
+      "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "python-pynvml"
+    ],
+    "Package-List": [
+      "python3-pynvml deb contrib/python optional arch=amd64,arm64,i386,ppc64el"
+    ],
+    "Priority": [
+      "extra"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.2"
+    ],
+    "Uploaders": [
+      "Mo Zhou \u003clumin@debian.org\u003e, Andreas Beckmann \u003canbe@debian.org\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/nvidia-team/python-pynvml"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/nvidia-team/python-pynvml.git"
+    ],
+    "Version": [
+      "11.515.75-2"
     ]
   },
   {
