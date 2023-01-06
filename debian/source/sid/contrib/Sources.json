@@ -275,62 +275,6 @@
       "python3-astra-toolbox, octave-astra-toolbox"
     ],
     "Build-Depends": [
-      "gcc-12, debhelper-compat (= 13), gcc-10, g++-10, libboost-dev, nvidia-cuda-toolkit, clang, python3-dev, cython3, python3-numpy, python3-six, python3-scipy, liboctave-dev, dh-python"
-    ],
-    "Checksums-Sha256": [
-      "28037803759ffac76b741d0a353c58c65b37c73a74315f0973f93bc6ddd967ea 2303 astra-toolbox_2.1.0-1.dsc 7768863a2756887e54829725e8fe95a371c7cb0cdfa5392b2e11cfc290f54dc3 690300 astra-toolbox_2.1.0.orig.tar.gz 24e160dc42fceb89fb515b4aabd067bfa8f5e72b9731fb0a79aeaba5385d1d7f 5524 astra-toolbox_2.1.0-1.debian.tar.xz"
-    ],
-    "Directory": [
-      "pool/contrib/a/astra-toolbox"
-    ],
-    "Files": [
-      "42e36c18fa5090366206971b4f9d4adc 2303 astra-toolbox_2.1.0-1.dsc eeecd4fb80ffd9237c9dad36856777a8 690300 astra-toolbox_2.1.0.orig.tar.gz a600284a4c3e1df08d97268ee86c45f7 5524 astra-toolbox_2.1.0-1.debian.tar.xz"
-    ],
-    "Format": [
-      "3.0 (quilt)"
-    ],
-    "Homepage": [
-      "https://github.com/astra-toolbox/astra-toolbox"
-    ],
-    "Maintainer": [
-      "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
-    ],
-    "Package": [
-      "astra-toolbox"
-    ],
-    "Package-List": [
-      "octave-astra-toolbox deb contrib/python optional arch=any python3-astra-toolbox deb contrib/python optional arch=any"
-    ],
-    "Priority": [
-      "extra"
-    ],
-    "Section": [
-      "contrib/misc"
-    ],
-    "Standards-Version": [
-      "4.6.0"
-    ],
-    "Uploaders": [
-      "Sebastien Delafond \u003cseb@debian.org\u003e, Picca Frédéric-Emmanuel \u003cpicca@debian.org\u003e"
-    ],
-    "Vcs-Browser": [
-      "https://salsa.debian.org/science-team/astra-toolbox"
-    ],
-    "Vcs-Git": [
-      "https://salsa.debian.org/science-team/astra-toolbox.git"
-    ],
-    "Version": [
-      "2.1.0-1"
-    ]
-  },
-  {
-    "Architecture": [
-      "any"
-    ],
-    "Binary": [
-      "python3-astra-toolbox, octave-astra-toolbox"
-    ],
-    "Build-Depends": [
       "debhelper-compat (= 13), libboost-dev, nvidia-cuda-toolkit-gcc, clang, python3-dev, cython3, python3-numpy, python3-six, python3-scipy, liboctave-dev, dh-python"
     ],
     "Checksums-Sha256": [
@@ -1209,47 +1153,6 @@
       "crafty-books-medium"
     ],
     "Build-Depends": [
-      "crafty (\u003e= 23.1), debhelper (\u003e\u003e 5.0.0)"
-    ],
-    "Checksums-Sha256": [
-      "720629219ebaa1c89d96ac21724efdc22ac26d9654eac97c8bc34a630eebde40 1101 crafty-books-medium_1.0.debian1-2.dsc 0bb2cbb3c9fd0640c3517f94d8ed75dbbeff24948a7eb78e8fb59a5705813d2f 9105993 crafty-books-medium_1.0.debian1.orig.tar.gz dd4b549f055d60daa5dd57a5f0f0022dc8078a66562ef673a7552e946e79ebf3 11233 crafty-books-medium_1.0.debian1-2.diff.gz"
-    ],
-    "Directory": [
-      "pool/contrib/c/crafty-books-medium"
-    ],
-    "Files": [
-      "2586e1993276b49f6bb744d8aff5eae3 1101 crafty-books-medium_1.0.debian1-2.dsc ce7d64c114aa863a62e064df3b1c11d5 9105993 crafty-books-medium_1.0.debian1.orig.tar.gz c8fb942e6b97059979d0afb0033c5c24 11233 crafty-books-medium_1.0.debian1-2.diff.gz"
-    ],
-    "Format": [
-      "1.0"
-    ],
-    "Maintainer": [
-      "Oliver Korff \u003cok@xynyx.de\u003e"
-    ],
-    "Package": [
-      "crafty-books-medium"
-    ],
-    "Priority": [
-      "source"
-    ],
-    "Section": [
-      "contrib/games"
-    ],
-    "Standards-Version": [
-      "3.8.3"
-    ],
-    "Version": [
-      "1.0.debian1-2"
-    ]
-  },
-  {
-    "Architecture": [
-      "all"
-    ],
-    "Binary": [
-      "crafty-books-medium"
-    ],
-    "Build-Depends": [
       "crafty (\u003e= 23.1), debhelper (\u003e= 7)"
     ],
     "Checksums-Sha256": [
@@ -1294,47 +1197,6 @@
       "crafty-books-medtosmall"
     ],
     "Build-Depends": [
-      "crafty (\u003e= 23.1), debhelper (\u003e\u003e 5.0.0)"
-    ],
-    "Checksums-Sha256": [
-      "46ac0594f38ed1e61cc3d7c24b73097c3af5e13209ea7e489009fbf3e508aac3 1133 crafty-books-medtosmall_1.0.debian1-2.dsc bd3174ba11d306bf482a71c40430196e4a9929d0da2b719590ff3b19874077ca 1366064 crafty-books-medtosmall_1.0.debian1.orig.tar.gz 62f519a64a8175a72c27e762f3453defcaa7a75b69f31c613f10a479286bd8a8 11232 crafty-books-medtosmall_1.0.debian1-2.diff.gz"
-    ],
-    "Directory": [
-      "pool/contrib/c/crafty-books-medtosmall"
-    ],
-    "Files": [
-      "b2b1057841096edd33d39cb6b1f3a1ca 1133 crafty-books-medtosmall_1.0.debian1-2.dsc 8fe6d0d803fb72cbfa6ea9c37f0563c1 1366064 crafty-books-medtosmall_1.0.debian1.orig.tar.gz 64f31e13fda9f7cbca6b803aa65ebb62 11232 crafty-books-medtosmall_1.0.debian1-2.diff.gz"
-    ],
-    "Format": [
-      "1.0"
-    ],
-    "Maintainer": [
-      "Oliver Korff \u003cok@xynyx.de\u003e"
-    ],
-    "Package": [
-      "crafty-books-medtosmall"
-    ],
-    "Priority": [
-      "source"
-    ],
-    "Section": [
-      "contrib/games"
-    ],
-    "Standards-Version": [
-      "3.8.3"
-    ],
-    "Version": [
-      "1.0.debian1-2"
-    ]
-  },
-  {
-    "Architecture": [
-      "all"
-    ],
-    "Binary": [
-      "crafty-books-medtosmall"
-    ],
-    "Build-Depends": [
       "crafty (\u003e= 23.1), debhelper (\u003e= 7)"
     ],
     "Checksums-Sha256": [
@@ -1369,47 +1231,6 @@
     ],
     "Version": [
       "1.0.debian1-3"
-    ]
-  },
-  {
-    "Architecture": [
-      "all"
-    ],
-    "Binary": [
-      "crafty-books-small"
-    ],
-    "Build-Depends": [
-      "crafty (\u003e= 23.1), debhelper (\u003e\u003e 5.0.0)"
-    ],
-    "Checksums-Sha256": [
-      "795119baec50f3e3ef2fafca55b96063ad9d97e5ff7a1cebc7e0824738191891 1090 crafty-books-small_1.0.debian1-2.dsc 1df0f0146a1d47a90992b1f27d9ddecb5aed78efce700e8cc82474c19d7391b8 552217 crafty-books-small_1.0.debian1.orig.tar.gz 209d20550baac806083ea7fb201be3e0da91f4b8b52f404d2ae6bf06b53623a8 11303 crafty-books-small_1.0.debian1-2.diff.gz"
-    ],
-    "Directory": [
-      "pool/contrib/c/crafty-books-small"
-    ],
-    "Files": [
-      "7e7e2a3f8986b8c7a8a6645836c0e22b 1090 crafty-books-small_1.0.debian1-2.dsc 65b3f2ef63c9401a5f2713b67ea4f511 552217 crafty-books-small_1.0.debian1.orig.tar.gz 460a8ce74e6d0b5ead84333f36ac4abd 11303 crafty-books-small_1.0.debian1-2.diff.gz"
-    ],
-    "Format": [
-      "1.0"
-    ],
-    "Maintainer": [
-      "Oliver Korff \u003cok@xynyx.de\u003e"
-    ],
-    "Package": [
-      "crafty-books-small"
-    ],
-    "Priority": [
-      "source"
-    ],
-    "Section": [
-      "contrib/games"
-    ],
-    "Standards-Version": [
-      "3.8.3"
-    ],
-    "Version": [
-      "1.0.debian1-2"
     ]
   },
   {
@@ -5752,6 +5573,65 @@
   },
   {
     "Architecture": [
+      "amd64 arm64 ppc64el"
+    ],
+    "Binary": [
+      "nvidia-settings-tesla"
+    ],
+    "Build-Conflicts": [
+      "libxnvctrl-dev"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), m4, libgl-dev, libgtk-3-dev, libjansson-dev, libvdpau-dev, libxv-dev, libxxf86vm-dev, pkg-config, xserver-xorg-dev"
+    ],
+    "Checksums-Sha256": [
+      "8dbee26f13f9040dd2c093ed0127f36f75f184aabd56fb81afa153962853bf57 2367 nvidia-settings-tesla_510.108.03-1.dsc 585d52b98d6a9724191584710f122ba7958b01370a5df3842d81eb414d6e6218 1075907 nvidia-settings-tesla_510.108.03.orig.tar.bz2 8a29eb392e70f95c78f24645c83dedcdf0cc93538691665130fc9ee71e68e6b7 24020 nvidia-settings-tesla_510.108.03-1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/n/nvidia-settings-tesla"
+    ],
+    "Files": [
+      "d3fb4bf3fa7f7cc6efed87d5a02c952f 2367 nvidia-settings-tesla_510.108.03-1.dsc bb6f0b924cd8aafd324476a05c86c3ba 1075907 nvidia-settings-tesla_510.108.03.orig.tar.bz2 2b7db3123c693d4b8336f6ce87663af2 24020 nvidia-settings-tesla_510.108.03-1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://download.nvidia.com/XFree86/nvidia-settings/"
+    ],
+    "Maintainer": [
+      "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "nvidia-settings-tesla"
+    ],
+    "Package-List": [
+      "nvidia-settings-tesla deb contrib/x11 optional arch=amd64,arm64,ppc64el"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.2"
+    ],
+    "Uploaders": [
+      "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/nvidia-team/nvidia-settings"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/nvidia-team/nvidia-settings.git -b tesla/main"
+    ],
+    "Version": [
+      "510.108.03-1"
+    ]
+  },
+  {
+    "Architecture": [
       "amd64 ppc64el"
     ],
     "Binary": [
@@ -6279,6 +6159,65 @@
     ],
     "Version": [
       "510.85.02-1"
+    ]
+  },
+  {
+    "Architecture": [
+      "amd64 arm64 ppc64el"
+    ],
+    "Binary": [
+      "nvidia-settings-tesla-510"
+    ],
+    "Build-Conflicts": [
+      "libxnvctrl-dev"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), m4, libgl-dev, libgtk-3-dev, libjansson-dev, libvdpau-dev, libxv-dev, libxxf86vm-dev, pkg-config, xserver-xorg-dev"
+    ],
+    "Checksums-Sha256": [
+      "35b657da37fe1bcb604fe80dfb75346c1ef20f7cffd5b4a3b75135cc8a6b82b9 2407 nvidia-settings-tesla-510_510.108.03-1.dsc 585d52b98d6a9724191584710f122ba7958b01370a5df3842d81eb414d6e6218 1075907 nvidia-settings-tesla-510_510.108.03.orig.tar.bz2 08bb89e911adae9e5a0c8cec00a83bd83237aa66779ff5f7e700c4e18b417dcb 24296 nvidia-settings-tesla-510_510.108.03-1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/n/nvidia-settings-tesla-510"
+    ],
+    "Files": [
+      "ebe917a9f469857853105b265f9f63b6 2407 nvidia-settings-tesla-510_510.108.03-1.dsc bb6f0b924cd8aafd324476a05c86c3ba 1075907 nvidia-settings-tesla-510_510.108.03.orig.tar.bz2 a3ca62257afe45bf61bedad213671bea 24296 nvidia-settings-tesla-510_510.108.03-1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://download.nvidia.com/XFree86/nvidia-settings/"
+    ],
+    "Maintainer": [
+      "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "nvidia-settings-tesla-510"
+    ],
+    "Package-List": [
+      "nvidia-settings-tesla-510 deb contrib/x11 optional arch=amd64,arm64,ppc64el"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.2"
+    ],
+    "Uploaders": [
+      "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/nvidia-team/nvidia-settings"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/nvidia-team/nvidia-settings.git -b tesla-510/main"
+    ],
+    "Version": [
+      "510.108.03-1"
     ]
   },
   {
