@@ -4606,6 +4606,65 @@
   },
   {
     "Architecture": [
+      "amd64 i386 x32"
+    ],
+    "Autobuild": [
+      "yes"
+    ],
+    "Binary": [
+      "intel-media-va-driver-non-free"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), dh-sequence-libva, cmake, libdrm-dev, libigdgmm-dev (\u003e= 21.1.1), libva-dev (\u003e= 2.12), libx11-dev, pkg-config"
+    ],
+    "Checksums-Sha256": [
+      "5c118fc219de23794c1a251e8ae354ff9d04922bb62b06e3db792ff3517e0124 2342 intel-media-driver-non-free_22.6.5+ds1-1.dsc b7b517c6633fb57872720f166132503fa29effbeaab307599763187246d61ef6 15249240 intel-media-driver-non-free_22.6.5+ds1.orig.tar.xz 7e19d08b5b41d5e4d1f0a3269a1dda6b9b99f72f534ef42c052c12309781eddb 5684 intel-media-driver-non-free_22.6.5+ds1-1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/non-free/i/intel-media-driver-non-free"
+    ],
+    "Files": [
+      "618ccdd3426374312fda579cadc0fafa 2342 intel-media-driver-non-free_22.6.5+ds1-1.dsc 53a0edf71021c27a70f3fcd50acf47f4 15249240 intel-media-driver-non-free_22.6.5+ds1.orig.tar.xz 3bab98843f6927aeca9ecf67fc5f318e 5684 intel-media-driver-non-free_22.6.5+ds1-1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://github.com/intel/media-driver"
+    ],
+    "Maintainer": [
+      "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+    ],
+    "Package": [
+      "intel-media-driver-non-free"
+    ],
+    "Package-List": [
+      "intel-media-va-driver-non-free deb non-free/video optional arch=amd64,i386,x32"
+    ],
+    "Priority": [
+      "extra"
+    ],
+    "Section": [
+      "non-free/misc"
+    ],
+    "Standards-Version": [
+      "4.6.2"
+    ],
+    "Uploaders": [
+      "Sebastian Ramacher \u003csramacher@debian.org\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/multimedia-team/intel-media-driver-non-free"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/multimedia-team/intel-media-driver-non-free.git"
+    ],
+    "Version": [
+      "22.6.5+ds1-1"
+    ]
+  },
+  {
+    "Architecture": [
       "i386 amd64 x32"
     ],
     "Autobuild": [
@@ -13303,16 +13362,19 @@
       "python3-pynliner"
     ],
     "Build-Depends": [
-      "debhelper-compat (= 12), dh-python, python3, python3-setuptools"
+      "debhelper-compat (= 13), dh-sequence-python3, python3, python3-setuptools"
     ],
     "Checksums-Sha256": [
-      "a702008a62f82a5a4780aa21b8c7b3887fbbdeb656e471892141b95883f43fff 1970 pynliner_0.8.0-4.dsc 83e7dd4d48001bebbe0a648d7089e94e21ffb74c5af2f582c47d8793ffe8628e 6945 pynliner_0.8.0.orig.tar.gz f29c7c21487d15ce098146bac14eca109502f6a0eb45aedbb04e75138a160821 2484 pynliner_0.8.0-4.debian.tar.xz"
+      "aed9d16bf658a605a4fc8db9c49b9d1541a090b066bf75d0f695457064697f32 1496 pynliner_0.8.0-5.dsc 83e7dd4d48001bebbe0a648d7089e94e21ffb74c5af2f582c47d8793ffe8628e 6945 pynliner_0.8.0.orig.tar.gz f14983e1dd28c906249954b962c14601070f86c1590c3fbb26fd00c007ac5e7d 3364 pynliner_0.8.0-5.debian.tar.xz"
+    ],
+    "Dgit": [
+      "5c02b83a5319932823a9542f260b772c82e8c32f debian archive/debian/0.8.0-5 https://git.dgit.debian.org/pynliner"
     ],
     "Directory": [
       "pool/non-free/p/pynliner"
     ],
     "Files": [
-      "7cbeea19db89e56f4832e2bf6491b60c 1970 pynliner_0.8.0-4.dsc b276fa4fd3999c362bf65cfb76fa1ed1 6945 pynliner_0.8.0.orig.tar.gz f9bfcebbea60ee21fa7494083f44bc56 2484 pynliner_0.8.0-4.debian.tar.xz"
+      "1cea01c3a4cb6b6c8f2a0b9aa517049d 1496 pynliner_0.8.0-5.dsc b276fa4fd3999c362bf65cfb76fa1ed1 6945 pynliner_0.8.0.orig.tar.gz 4f64c0278369240d7ab5f828d86e3809 3364 pynliner_0.8.0-5.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -13321,7 +13383,7 @@
       "https://github.com/rennat/pynliner"
     ],
     "Maintainer": [
-      "Sandro Tosi \u003cmorph@debian.org\u003e"
+      "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
     ],
     "Package": [
       "pynliner"
@@ -13336,10 +13398,10 @@
       "non-free/misc"
     ],
     "Standards-Version": [
-      "4.5.0"
+      "4.6.1"
     ],
     "Uploaders": [
-      "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+      "Andrej Shadura \u003candrewsh@debian.org\u003e,"
     ],
     "Vcs-Browser": [
       "https://salsa.debian.org/python-team/packages/pynliner"
@@ -13348,7 +13410,7 @@
       "https://salsa.debian.org/python-team/packages/pynliner.git"
     ],
     "Version": [
-      "0.8.0-4"
+      "0.8.0-5"
     ]
   },
   {
