@@ -5643,65 +5643,6 @@
       "libxnvctrl-dev"
     ],
     "Build-Depends": [
-      "debhelper-compat (= 13), m4, libgl1-mesa-dev | libgl-dev, libgtk-3-dev, libjansson-dev, libvdpau-dev, libxv-dev, libxxf86vm-dev, pkg-config, xserver-xorg-dev"
-    ],
-    "Checksums-Sha256": [
-      "36daab3796db91bdef599e9455cbfdc936dd7ae6884a0ebaea0cb3ce86a0f2d4 2423 nvidia-settings-legacy-390xx_390.151-1.dsc 167b67ad29b9a48b47bad98a7df3ba443fd7cabe04bc12ec4a6d1df4d2371286 1109138 nvidia-settings-legacy-390xx_390.151.orig.tar.bz2 8fb428e5d6edf6630913fb132aecb7a69d73ae6f979d865318454242fddddf39 26356 nvidia-settings-legacy-390xx_390.151-1.debian.tar.xz"
-    ],
-    "Directory": [
-      "pool/contrib/n/nvidia-settings-legacy-390xx"
-    ],
-    "Files": [
-      "b0ec8d50ac62406f64110c6f30ef7a61 2423 nvidia-settings-legacy-390xx_390.151-1.dsc aa7929c353442027a2aa9934c7c6293d 1109138 nvidia-settings-legacy-390xx_390.151.orig.tar.bz2 874034d32ef2a636e07a63616a0e04e0 26356 nvidia-settings-legacy-390xx_390.151-1.debian.tar.xz"
-    ],
-    "Format": [
-      "3.0 (quilt)"
-    ],
-    "Homepage": [
-      "https://download.nvidia.com/XFree86/nvidia-settings/"
-    ],
-    "Maintainer": [
-      "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
-    ],
-    "Package": [
-      "nvidia-settings-legacy-390xx"
-    ],
-    "Package-List": [
-      "nvidia-settings-legacy-390xx deb contrib/x11 optional arch=i386,amd64,armhf"
-    ],
-    "Priority": [
-      "extra"
-    ],
-    "Section": [
-      "contrib/misc"
-    ],
-    "Standards-Version": [
-      "4.6.1"
-    ],
-    "Uploaders": [
-      "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
-    ],
-    "Vcs-Browser": [
-      "https://salsa.debian.org/nvidia-team/nvidia-settings"
-    ],
-    "Vcs-Git": [
-      "https://salsa.debian.org/nvidia-team/nvidia-settings.git -b 390xx/master"
-    ],
-    "Version": [
-      "390.151-1"
-    ]
-  },
-  {
-    "Architecture": [
-      "i386 amd64 armhf"
-    ],
-    "Binary": [
-      "nvidia-settings-legacy-390xx"
-    ],
-    "Build-Conflicts": [
-      "libxnvctrl-dev"
-    ],
-    "Build-Depends": [
       "debhelper-compat (= 13), m4, libgl-dev, libgtk-3-dev, libjansson-dev, libvdpau-dev, libxv-dev, libxxf86vm-dev, pkg-config, xserver-xorg-dev"
     ],
     "Checksums-Sha256": [
@@ -5991,6 +5932,65 @@
       "amd64 arm64 ppc64el"
     ],
     "Binary": [
+      "nvidia-settings-tesla-450"
+    ],
+    "Build-Conflicts": [
+      "libxnvctrl-dev"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), m4, libgl-dev, libgtk-3-dev, libjansson-dev, libvdpau-dev, libxv-dev, libxxf86vm-dev, pkg-config, xserver-xorg-dev"
+    ],
+    "Checksums-Sha256": [
+      "bb016142b16336e7a971dfb2231385ba6c97a7953de95acc46efe6d4f86ab64e 2407 nvidia-settings-tesla-450_450.119.03-4.dsc e91313631ce9d59b561ee7e9c0dbe9c7d19694d5261db96b47d973d5f728a4bd 1056877 nvidia-settings-tesla-450_450.119.03.orig.tar.bz2 9eacca3ef0bf2ff5ed0d68cd129237bc48f5aef9b14a587ec0901affb0b7cc94 23952 nvidia-settings-tesla-450_450.119.03-4.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/n/nvidia-settings-tesla-450"
+    ],
+    "Files": [
+      "24b28bba969eb9608af54875d9497260 2407 nvidia-settings-tesla-450_450.119.03-4.dsc f2a5780705650373ac796da610c647c6 1056877 nvidia-settings-tesla-450_450.119.03.orig.tar.bz2 7ccf86d6a3bd1fb9532f0e3e78e04597 23952 nvidia-settings-tesla-450_450.119.03-4.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://download.nvidia.com/XFree86/nvidia-settings/"
+    ],
+    "Maintainer": [
+      "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "nvidia-settings-tesla-450"
+    ],
+    "Package-List": [
+      "nvidia-settings-tesla-450 deb contrib/x11 optional arch=amd64,arm64,ppc64el"
+    ],
+    "Priority": [
+      "extra"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.2"
+    ],
+    "Uploaders": [
+      "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/nvidia-team/nvidia-settings"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/nvidia-team/nvidia-settings.git -b tesla-450/main"
+    ],
+    "Version": [
+      "450.119.03-4"
+    ]
+  },
+  {
+    "Architecture": [
+      "amd64 arm64 ppc64el"
+    ],
+    "Binary": [
       "nvidia-settings-tesla-460"
     ],
     "Build-Conflicts": [
@@ -6050,6 +6050,65 @@
       "amd64 arm64 ppc64el"
     ],
     "Binary": [
+      "nvidia-settings-tesla-460"
+    ],
+    "Build-Conflicts": [
+      "libxnvctrl-dev"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), m4, libgl-dev, libgtk-3-dev, libjansson-dev, libvdpau-dev, libxv-dev, libxxf86vm-dev, pkg-config, xserver-xorg-dev"
+    ],
+    "Checksums-Sha256": [
+      "d32b362214e90e0c1c8a579d1b791fad0800ce370f8a1b3465f57456bbe54816 2400 nvidia-settings-tesla-460_460.91.03-4.dsc 35d45230a26a405ed4ecb5c6010c64dd810ef25dd636a91598792113831bbc11 1061093 nvidia-settings-tesla-460_460.91.03.orig.tar.bz2 80827085365a50e33452265ac9a19146c5cad237a0f9dd78f093bd00de2bb648 23332 nvidia-settings-tesla-460_460.91.03-4.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/n/nvidia-settings-tesla-460"
+    ],
+    "Files": [
+      "f2d0c97712f3f7ea025fd11e7e35e42b 2400 nvidia-settings-tesla-460_460.91.03-4.dsc 55a550765faa1078b5d6d49b3290cd0b 1061093 nvidia-settings-tesla-460_460.91.03.orig.tar.bz2 a314d912bcd03a307f8f8be92662d4ad 23332 nvidia-settings-tesla-460_460.91.03-4.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://download.nvidia.com/XFree86/nvidia-settings/"
+    ],
+    "Maintainer": [
+      "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "nvidia-settings-tesla-460"
+    ],
+    "Package-List": [
+      "nvidia-settings-tesla-460 deb contrib/x11 optional arch=amd64,arm64,ppc64el"
+    ],
+    "Priority": [
+      "extra"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.2"
+    ],
+    "Uploaders": [
+      "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/nvidia-team/nvidia-settings"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/nvidia-team/nvidia-settings.git -b tesla-460/main"
+    ],
+    "Version": [
+      "460.91.03-4"
+    ]
+  },
+  {
+    "Architecture": [
+      "amd64 arm64 ppc64el"
+    ],
+    "Binary": [
       "nvidia-settings-tesla-470"
     ],
     "Build-Conflicts": [
@@ -6102,6 +6161,65 @@
     ],
     "Version": [
       "470.141.03-1"
+    ]
+  },
+  {
+    "Architecture": [
+      "amd64 arm64 ppc64el"
+    ],
+    "Binary": [
+      "nvidia-settings-tesla-470"
+    ],
+    "Build-Conflicts": [
+      "libxnvctrl-dev"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), m4, libgl-dev, libgtk-3-dev, libjansson-dev, libvdpau-dev, libxv-dev, libxxf86vm-dev, pkg-config, xserver-xorg-dev"
+    ],
+    "Checksums-Sha256": [
+      "ea452ce4fe1d20d8a81a479c6ac37d9b90664f9df4879aa75fccb2dc8fccfd44 2407 nvidia-settings-tesla-470_470.161.03-1.dsc 760f4c833a8f606f72104137bccdb749822029a0a93842e292f5244dfbefd7bb 1062425 nvidia-settings-tesla-470_470.161.03.orig.tar.bz2 ee64b466c77d97477eb19052a8077e443611bf489d8c847db1d76f2d9451dae9 23900 nvidia-settings-tesla-470_470.161.03-1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/n/nvidia-settings-tesla-470"
+    ],
+    "Files": [
+      "a181d0af8ecd51d3c2331fb4f347cbb6 2407 nvidia-settings-tesla-470_470.161.03-1.dsc 578e610ffe48258647775a1c003cc1a3 1062425 nvidia-settings-tesla-470_470.161.03.orig.tar.bz2 fc7b81f60aee9a125434688ff8bafbaf 23900 nvidia-settings-tesla-470_470.161.03-1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://download.nvidia.com/XFree86/nvidia-settings/"
+    ],
+    "Maintainer": [
+      "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "nvidia-settings-tesla-470"
+    ],
+    "Package-List": [
+      "nvidia-settings-tesla-470 deb contrib/x11 optional arch=amd64,arm64,ppc64el"
+    ],
+    "Priority": [
+      "extra"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.2"
+    ],
+    "Uploaders": [
+      "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/nvidia-team/nvidia-settings"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/nvidia-team/nvidia-settings.git -b tesla-470/main"
+    ],
+    "Version": [
+      "470.161.03-1"
     ]
   },
   {
