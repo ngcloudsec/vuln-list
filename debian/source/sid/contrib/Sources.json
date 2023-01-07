@@ -3837,6 +3837,65 @@
       "yes"
     ],
     "Binary": [
+      "indi-playerone"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), cmake, libusb-1.0-0-dev, libcfitsio-dev, libindi-dev, zlib1g-dev, libnova-dev, libplayeronecamera2"
+    ],
+    "Checksums-Sha256": [
+      "e12c4e794e244ef2426ae15fa50954ac3f2ccbece34ee104908873e11f729fcb 2405 indi-playerone_0.9+20230105184731-1.dsc 3f592574077cb79b95e2ac52de9fb557cddc3a50d471b3c34c58f1fe78a220c0 63735 indi-playerone_0.9+20230105184731.orig.tar.gz 8b08a330d1edfe5a67d1bed613236ba38cde500c4ebd41d2891979bf3022905d 1500 indi-playerone_0.9+20230105184731-1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/i/indi-playerone"
+    ],
+    "Files": [
+      "93df593d63cffa4fb4d693df481ed555 2405 indi-playerone_0.9+20230105184731-1.dsc 14d111459a5c065ae889609e130cbb95 63735 indi-playerone_0.9+20230105184731.orig.tar.gz e6ce397c4aeea12c8c422b85d00be4d0 1500 indi-playerone_0.9+20230105184731-1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://github.com/indilib/indi-3rdparty"
+    ],
+    "Maintainer": [
+      "Debian Astronomy Team \u003cdebian-astro-maintainers@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "indi-playerone"
+    ],
+    "Package-List": [
+      "indi-playerone deb contrib/science optional arch=amd64,armhf,arm64"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.0"
+    ],
+    "Uploaders": [
+      "Thorsten Alteholz \u003cdebian@alteholz.de\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/debian-astro-team/indi-playerone"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/debian-astro-team/indi-playerone.git"
+    ],
+    "Version": [
+      "0.9+20230105184731-1"
+    ]
+  },
+  {
+    "Architecture": [
+      "amd64 armhf arm64"
+    ],
+    "Autobuild": [
+      "yes"
+    ],
+    "Binary": [
       "indi-sbig"
     ],
     "Build-Depends": [
