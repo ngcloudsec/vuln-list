@@ -1,0 +1,311 @@
+{
+  "Title": "Security update for ca-certificates-mozilla",
+  "Tracking": {
+    "ID": "SUSE-SU-2023:0037-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2023-01-06T14:36:02Z",
+    "CurrentReleaseDate": "2023-01-06T14:36:02Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2023-01-06T14:36:02Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for ca-certificates-mozilla",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for ca-certificates-mozilla fixes the following issues:\n\n- Updated to 2.60 state of Mozilla SSL root CAs (bsc#1206622)\n  Removed CAs:\n  - Global Chambersign Root\n  - EC-ACC\n  - Network Solutions Certificate Authority\n  - Staat der Nederlanden EV Root CA\n  - SwissSign Platinum CA - G2\n  Added CAs:\n  - DIGITALSIGN GLOBAL ROOT ECDSA CA\n  - DIGITALSIGN GLOBAL ROOT RSA CA\n  - Security Communication ECC RootCA1\n  - Security Communication RootCA3\n  Changed trust:\n  - TrustCor certificates only trusted up to Nov 30 (bsc#1206212)\n- Removed CAs (bsc#1206212) as most code does not handle 'valid before nov 30 2022'\n  and it is not clear how many certs were issued for SSL middleware by TrustCor:\n  - TrustCor RootCert CA-1\n  - TrustCor RootCert CA-2\n  - TrustCor ECA-1\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "Container bci/bci-busybox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "Container bci/bci-micro:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "Container bci/bci-micro:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "Container suse/sle15:15.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "Container suse/sle15:15.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "Container suse/sle15:15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Development Tools 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Real Time 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP2-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP3-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Manager Proxy 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Manager Retail Branch Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Manager Server 4.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "openSUSE Leap Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-2.60-150200.27.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "ca-certificates-mozilla-prebuilt-2.60-150200.27.1",
+        "RelatesToProductReference": "openSUSE Leap 15.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2023/suse-su-20230037-1/",
+      "Description": "Link for SUSE-SU-2023:0037-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2023-January/013430.html",
+      "Description": "E-Mail link for SUSE-SU-2023:0037-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1206212",
+      "Description": "SUSE Bug 1206212"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1206622",
+      "Description": "SUSE Bug 1206622"
+    }
+  ],
+  "Vulnerabilities": null
+}
