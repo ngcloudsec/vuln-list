@@ -2446,6 +2446,68 @@
   },
   {
     "Architecture": [
+      "any"
+    ],
+    "Binary": [
+      "geoipupdate"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), dh-sequence-golang"
+    ],
+    "Build-Depends-Arch": [
+      "golang-any, golang-github-gofrs-flock-dev, golang-github-pkg-errors-dev, golang-github-spf13-pflag-dev, golang-github-stretchr-testify-dev, pandoc \u003c!nodoc\u003e"
+    ],
+    "Checksums-Sha256": [
+      "238eb7a7a7172b3108bebcef80a5785afd8bda588c6b7a4e8bcb6cb7f592750b 2157 geoipupdate_4.10.0-1.dsc 12e0083eb56eb39f4304fc21ef07af566702a0d5b843f3a19d3e5e5e33099230 36254 geoipupdate_4.10.0.orig.tar.gz 57a89fc8990b4a11dc9f27206534372753018ac10529c064a45bf5dfcbeffb4a 6308 geoipupdate_4.10.0-1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/contrib/g/geoipupdate"
+    ],
+    "Files": [
+      "2311983f6ba0c05b105e57c1e66e39db 2157 geoipupdate_4.10.0-1.dsc 09f8e544848aeb7a6cac52a4263770d4 36254 geoipupdate_4.10.0.orig.tar.gz 00f14db333e7e38c40663e673427b23a 6308 geoipupdate_4.10.0-1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Go-Import-Path": [
+      "github.com/maxmind/geoipupdate"
+    ],
+    "Homepage": [
+      "https://dev.maxmind.com/geoip/updating-databases"
+    ],
+    "Maintainer": [
+      "Faidon Liambotis \u003cparavoid@debian.org\u003e"
+    ],
+    "Package": [
+      "geoipupdate"
+    ],
+    "Package-List": [
+      "geoipupdate deb contrib/net optional arch=any"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.1"
+    ],
+    "Testsuite": [
+      "autopkgtest-pkg-go"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/debian/geoipupdate"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/debian/geoipupdate.git"
+    ],
+    "Version": [
+      "4.10.0-1"
+    ]
+  },
+  {
+    "Architecture": [
       "all"
     ],
     "Binary": [
