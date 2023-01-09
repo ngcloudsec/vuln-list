@@ -4011,6 +4011,65 @@
   },
   {
     "Architecture": [
+      "any"
+    ],
+    "Binary": [
+      "rtcw, rtcw-common, rtcw-server"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), dh-apparmor [linux-any], libcurl4-gnutls-dev, libfreetype-dev, libjpeg-dev, libogg-dev, libopenal-dev, libopus-dev, libopusfile-dev, libsdl2-dev, libvorbis-dev"
+    ],
+    "Checksums-Sha256": [
+      "020efafc61b4c2a9b0518c3b383165a6697b134d42ec3111c9f748083c84d394 2341 iortcw_1.51.c+dfsg1-4.dsc 80b55fa9be4293a74fbdbebcc2055d750b325b07738a70faeec50d6179f0b2e8 3297832 iortcw_1.51.c+dfsg1.orig.tar.xz a1807e455fc68ba10594f5b99dc3a239a3f1808506742be430a5d21d490742c1 32488 iortcw_1.51.c+dfsg1-4.debian.tar.xz"
+    ],
+    "Dgit": [
+      "9334b87028385f82062a299931958146734bcb19 debian archive/debian/1.51.c+dfsg1-4 https://git.dgit.debian.org/iortcw"
+    ],
+    "Directory": [
+      "pool/contrib/i/iortcw"
+    ],
+    "Files": [
+      "313a513dbbad3144ede8790fe83b771c 2341 iortcw_1.51.c+dfsg1-4.dsc a7bde21179c7ec4dc544eac67fafae17 3297832 iortcw_1.51.c+dfsg1.orig.tar.xz 22c899433e175b25e7b80b3770dd652c 32488 iortcw_1.51.c+dfsg1-4.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://github.com/iortcw/iortcw/"
+    ],
+    "Maintainer": [
+      "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "iortcw"
+    ],
+    "Package-List": [
+      "rtcw deb contrib/games optional arch=any rtcw-common deb contrib/games optional arch=any rtcw-server deb contrib/games optional arch=any"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.2"
+    ],
+    "Uploaders": [
+      "Simon McVittie \u003csmcv@debian.org\u003e,"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/games-team/iortcw"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/games-team/iortcw.git"
+    ],
+    "Version": [
+      "1.51.c+dfsg1-4"
+    ]
+  },
+  {
+    "Architecture": [
       "i386 amd64"
     ],
     "Binary": [
@@ -7327,13 +7386,13 @@
       "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools, python3-setuptools-scm, python3-vdf, python3-pytest"
     ],
     "Checksums-Sha256": [
-      "d05fc58d957829a9c25089e833972fb390ff920bf86112ebd1c91a0150462fc6 2191 protontricks_1.9.2-1.dsc 950f6e2c079322c1e9403e7896b9d7e4c401f1b74c5400c106c96daea0a985bd 151479 protontricks_1.9.2.orig.tar.gz a24111735187b8a242533b803a77a203063122d2d9957cfa952c1d3eb441e155 2340 protontricks_1.9.2-1.debian.tar.xz"
+      "485a5d2b029d1a840f7c8c970350335e649decf98212c3d58821e00e14fbd4b7 2198 protontricks_1.10.1-1.dsc bdc122acdee8a760bc029fd684707fdc7c0c7339c4b687dc082e1e05525fb1ba 153875 protontricks_1.10.1.orig.tar.gz e2da5fdd30ccde44d9a2aefa2cf9ca4dfddf9e4ca032de136148661363e35fb7 2364 protontricks_1.10.1-1.debian.tar.xz"
     ],
     "Directory": [
       "pool/contrib/p/protontricks"
     ],
     "Files": [
-      "ec44fdd844a6e7a7372a84d9ee12f624 2191 protontricks_1.9.2-1.dsc 8151e051f651a59cca378056c0f89a21 151479 protontricks_1.9.2.orig.tar.gz bcf1e58720001ef881247899e0515e09 2340 protontricks_1.9.2-1.debian.tar.xz"
+      "e9ab09a398d68508ef6ee017a322297b 2198 protontricks_1.10.1-1.dsc 0b4f8d317397535b9dde27210a7ab99c 153875 protontricks_1.10.1.orig.tar.gz d5b771dc3bc362ee452b7fa5b5b88908 2364 protontricks_1.10.1-1.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -7375,7 +7434,7 @@
       "https://salsa.debian.org/games-team/protontricks.git"
     ],
     "Version": [
-      "1.9.2-1"
+      "1.10.1-1"
     ]
   },
   {
@@ -10480,6 +10539,65 @@
     ],
     "Version": [
       "8.10+ctf1.08+dfsg-1"
+    ]
+  },
+  {
+    "Architecture": [
+      "linux-any"
+    ],
+    "Binary": [
+      "yamagi-quake2, yamagi-quake2-core"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), libcurl4-gnutls-dev | libcurl-dev, libgl-dev, libopenal-dev, libsdl2-dev, libvorbis-dev, libxrandr-dev, libxxf86vm-dev, zlib1g-dev"
+    ],
+    "Checksums-Sha256": [
+      "25b12f1a6500953b67119a872efce697d33f0e391acffa88a9ec62b5842f3b42 2635 yquake2_8.20+ctf1.09+dfsg-1.dsc 5c7877e48cc55887485aa134e8dc42afdbf45354306cfa8179628d08c6da1c7b 178063 yquake2_8.20+ctf1.09+dfsg.orig-ctf.tar.gz 8b1afa28b9cd5322ee1214c5afbd02f948defb8cbd7e21c701fe353383daddd1 1359955 yquake2_8.20+ctf1.09+dfsg.orig.tar.gz 2628850123c79086f7f84c90a076e8a81b5449a4941d39d952dbb2800cf4172d 13372 yquake2_8.20+ctf1.09+dfsg-1.debian.tar.xz"
+    ],
+    "Dgit": [
+      "51438f6ac38708e7c1ce8c58b21a8c9c50a188da debian archive/debian/8.20+ctf1.09+dfsg-1 https://git.dgit.debian.org/yquake2"
+    ],
+    "Directory": [
+      "pool/contrib/y/yquake2"
+    ],
+    "Files": [
+      "bbfe0c878a45f285e2b2e54b7a0b1436 2635 yquake2_8.20+ctf1.09+dfsg-1.dsc 99c5b6525da43d041eee25378c0773ee 178063 yquake2_8.20+ctf1.09+dfsg.orig-ctf.tar.gz d6ba13fd410596798baaa1ce05021bda 1359955 yquake2_8.20+ctf1.09+dfsg.orig.tar.gz 0397f01774d27a5b26c18e9349e9f760 13372 yquake2_8.20+ctf1.09+dfsg-1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://www.yamagi.org/quake2/"
+    ],
+    "Maintainer": [
+      "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "yquake2"
+    ],
+    "Package-List": [
+      "yamagi-quake2 deb contrib/games optional arch=linux-any yamagi-quake2-core deb contrib/games optional arch=linux-any"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.2"
+    ],
+    "Uploaders": [
+      "Simon McVittie \u003csmcv@debian.org\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/games-team/yquake2"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/games-team/yquake2.git"
+    ],
+    "Version": [
+      "8.20+ctf1.09+dfsg-1"
     ]
   },
   {
