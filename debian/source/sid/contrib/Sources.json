@@ -2216,19 +2216,19 @@
       "game-data-packager, etqw, etqw-server, game-data-packager-runtime, quake, quake-server, quake2, quake2-server, quake3, quake3-server, quake4, quake4-server"
     ],
     "Build-Depends": [
-      "bash-completion, dbus, debhelper-compat (= 13), dh-apparmor, dh-python, imagemagick, inkscape (\u003e= 1.0~), meson (\u003e= 0.56.0), pyflakes3 | pyflakes (\u003c\u003c 1.1.0), python3:any, python3-debian, python3-yaml:any, xmlstarlet, zip"
+      "bash-completion, dbus-daemon, debhelper-compat (= 13), dh-apparmor, dh-python, imagemagick, inkscape (\u003e= 1.0~), meson (\u003e= 0.56.0), pyflakes3, python3:any, python3-debian, python3-yaml:any, xmlstarlet, zip"
     ],
     "Checksums-Sha256": [
-      "992fc3ae2bc65e3b476f35d2058c1306693a29a45f4f71087778c2911c6a931a 2944 game-data-packager_69.dsc ce6c4d6b8841ee5ee9ab565daacf80da498120a20f3d8fd007a974aee08bff12 6976580 game-data-packager_69.tar.xz"
+      "81903ea29e1dcffab7f6b508785270d4f6930922cbd4998548745f858bd02e89 2929 game-data-packager_70.dsc 5244d36b3f4e4f10aeb801ef0531343c1da1b9888851013a4a4755b8fbd5ca68 7170444 game-data-packager_70.tar.xz"
     ],
     "Dgit": [
-      "0682f228e86165c0ed24757092c80bae54ee522b debian archive/debian/69 https://git.dgit.debian.org/game-data-packager"
+      "7fefc269cb0e145ff01db34a198ecdc3b635c27a debian archive/debian/70 https://git.dgit.debian.org/game-data-packager"
     ],
     "Directory": [
       "pool/contrib/g/game-data-packager"
     ],
     "Files": [
-      "5f4924ff91d4b21bcf4115ef280f5b69 2944 game-data-packager_69.dsc fc5857756c33ed05cb528dc3d6bc46ea 6976580 game-data-packager_69.tar.xz"
+      "7cac5e0426e360420f29e39d95b8203b 2929 game-data-packager_70.dsc 03ee94bc75d677f278d046f51ccf6d96 7170444 game-data-packager_70.tar.xz"
     ],
     "Format": [
       "3.0 (native)"
@@ -2252,7 +2252,7 @@
       "contrib/games"
     ],
     "Standards-Version": [
-      "4.6.0"
+      "4.6.2"
     ],
     "Testsuite": [
       "autopkgtest"
@@ -2270,7 +2270,7 @@
       "https://salsa.debian.org/games-team/game-data-packager.git"
     ],
     "Version": [
-      "69"
+      "70"
     ]
   },
   {
@@ -5190,62 +5190,6 @@
       "nvidia-modprobe"
     ],
     "Build-Depends": [
-      "debhelper-compat (= 13), dpkg-dev (\u003e= 1.18.8), m4"
-    ],
-    "Checksums-Sha256": [
-      "ee1534e80f697b1d644a0f2e364b6b7313fbfa27ed9c79741429b761c94fec5d 2174 nvidia-modprobe_515.48.07-1.dsc 2577c6092ac59a0c497aef4868b96d9bcf8ac5f7bb871672d55de35508a1812f 39099 nvidia-modprobe_515.48.07.orig.tar.bz2 d6429998e58f7828af5b574cf7259def591cf16e51634e49c805fb54c8e750fc 5180 nvidia-modprobe_515.48.07-1.debian.tar.xz"
-    ],
-    "Directory": [
-      "pool/contrib/n/nvidia-modprobe"
-    ],
-    "Files": [
-      "67e8a414672910f563f568675cbea774 2174 nvidia-modprobe_515.48.07-1.dsc 4d0b1d0c61e0730a1cba99ba87b86163 39099 nvidia-modprobe_515.48.07.orig.tar.bz2 73b8762e38a48e55e53fadf56b5b65d7 5180 nvidia-modprobe_515.48.07-1.debian.tar.xz"
-    ],
-    "Format": [
-      "3.0 (quilt)"
-    ],
-    "Homepage": [
-      "https://github.com/NVIDIA/nvidia-modprobe"
-    ],
-    "Maintainer": [
-      "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
-    ],
-    "Package": [
-      "nvidia-modprobe"
-    ],
-    "Package-List": [
-      "nvidia-modprobe deb contrib/utils optional arch=i386,amd64,armhf,arm64,ppc64el"
-    ],
-    "Priority": [
-      "optional"
-    ],
-    "Section": [
-      "contrib/misc"
-    ],
-    "Standards-Version": [
-      "4.6.1"
-    ],
-    "Uploaders": [
-      "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
-    ],
-    "Vcs-Browser": [
-      "https://salsa.debian.org/nvidia-team/nvidia-modprobe"
-    ],
-    "Vcs-Git": [
-      "https://salsa.debian.org/nvidia-team/nvidia-modprobe.git"
-    ],
-    "Version": [
-      "515.48.07-1"
-    ]
-  },
-  {
-    "Architecture": [
-      "i386 amd64 armhf arm64 ppc64el"
-    ],
-    "Binary": [
-      "nvidia-modprobe"
-    ],
-    "Build-Depends": [
       "debhelper-compat (= 13), m4"
     ],
     "Checksums-Sha256": [
@@ -6230,59 +6174,6 @@
     ],
     "Version": [
       "510.108.03-1"
-    ]
-  },
-  {
-    "Architecture": [
-      "amd64 i386 armhf arm64 ppc64el"
-    ],
-    "Binary": [
-      "nvidia-support, nvidia-installer-cleanup, nvidia-kernel-common"
-    ],
-    "Build-Depends": [
-      "debhelper-compat (= 13), po-debconf"
-    ],
-    "Checksums-Sha256": [
-      "fb985ab9a8b0ca66227b5de4b6d72b8e4d8c809315d77093aa11dc0db1ea151d 2023 nvidia-support_20220217+1.dsc ab8190906cd4f5db98b501120a7cef5e5b5229ff83f0bb1504e36fe047e24b8b 34188 nvidia-support_20220217+1.tar.xz"
-    ],
-    "Directory": [
-      "pool/contrib/n/nvidia-support"
-    ],
-    "Files": [
-      "561eeb18246db86195ef480a201fedf9 2023 nvidia-support_20220217+1.dsc 8fca357326ce414e7e186e17fa7f9cfb 34188 nvidia-support_20220217+1.tar.xz"
-    ],
-    "Format": [
-      "3.0 (native)"
-    ],
-    "Maintainer": [
-      "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
-    ],
-    "Package": [
-      "nvidia-support"
-    ],
-    "Package-List": [
-      "nvidia-installer-cleanup deb contrib/misc optional arch=amd64,i386,armhf,arm64,ppc64el nvidia-kernel-common deb contrib/kernel optional arch=amd64,i386,armhf,arm64,ppc64el nvidia-support deb contrib/misc optional arch=amd64,i386,armhf,arm64,ppc64el"
-    ],
-    "Priority": [
-      "source"
-    ],
-    "Section": [
-      "contrib/misc"
-    ],
-    "Standards-Version": [
-      "4.6.0"
-    ],
-    "Uploaders": [
-      "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
-    ],
-    "Vcs-Browser": [
-      "https://salsa.debian.org/nvidia-team/nvidia-support"
-    ],
-    "Vcs-Git": [
-      "https://salsa.debian.org/nvidia-team/nvidia-support.git"
-    ],
-    "Version": [
-      "20220217+1"
     ]
   },
   {
