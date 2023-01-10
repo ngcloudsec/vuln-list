@@ -8,9 +8,165 @@
     "$date": 1588064317000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
     "packages": [
+      {
+        "name": "gstreamer1-plugins-bad-free-devel",
+        "version": "1.16.1",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gstreamer1-plugins-bad-free-1.16.1-1.el8.src.rpm",
+        "filename": "gstreamer1-plugins-bad-free-devel-1.16.1-1.el8.aarch64.rpm",
+        "sum": "11a985deb8630b1d78fbcdcf3957101bd28a51d4c51a6559aaf2f7cf7c4a950a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "orc",
+        "version": "0.4.28",
+        "release": "3.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "orc-0.4.28-3.el8.src.rpm",
+        "filename": "orc-0.4.28-3.el8.aarch64.rpm",
+        "sum": "2469a52ee3094677545d654fa827b3a058d4a89fa71a8c54384d1cc3d0a20cc6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gstreamer1",
+        "version": "1.16.1",
+        "release": "2.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gstreamer1-1.16.1-2.el8.src.rpm",
+        "filename": "gstreamer1-1.16.1-2.el8.aarch64.rpm",
+        "sum": "3a506700c32f8cb709a400af5fb16b3e5d66d7ec6aeeb139ce92c265c7809532",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "SDL2-devel",
+        "version": "2.0.10",
+        "release": "2.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "SDL2-2.0.10-2.el8.src.rpm",
+        "filename": "SDL2-devel-2.0.10-2.el8.aarch64.rpm",
+        "sum": "3a5a868cb21cf814208903c51168c18a793a094ac6b686e47d5fb3e4cd9e7e6b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libmad-devel",
+        "version": "0.15.1b",
+        "release": "25.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libmad-0.15.1b-25.el8.src.rpm",
+        "filename": "libmad-devel-0.15.1b-25.el8.aarch64.rpm",
+        "sum": "3ec60291cec2e45700354af62dc4a19d8d9b6517c9b6ce0b9eceb0442bc78b46",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "SDL2-static",
+        "version": "2.0.10",
+        "release": "2.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "SDL2-2.0.10-2.el8.src.rpm",
+        "filename": "SDL2-static-2.0.10-2.el8.aarch64.rpm",
+        "sum": "54a9d7eaa01c4d430bdf96dcedeb96acdd7d458e42d225c2d647fc98a535ad25",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gstreamer1-plugins-bad-free",
+        "version": "1.16.1",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gstreamer1-plugins-bad-free-1.16.1-1.el8.src.rpm",
+        "filename": "gstreamer1-plugins-bad-free-1.16.1-1.el8.aarch64.rpm",
+        "sum": "5b266d4a2d0e7cc02a47e4266b15f6522fc89b4f9c86eb08655b6d7085791127",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "orc-devel",
+        "version": "0.4.28",
+        "release": "3.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "orc-0.4.28-3.el8.src.rpm",
+        "filename": "orc-devel-0.4.28-3.el8.aarch64.rpm",
+        "sum": "7c4f631e1832f2c1c817fe075d3bff1ca4d0d33216f699e254c2f9fadfd28d3d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gstreamer1-plugins-ugly-free",
+        "version": "1.16.1",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gstreamer1-plugins-ugly-free-1.16.1-1.el8.src.rpm",
+        "filename": "gstreamer1-plugins-ugly-free-1.16.1-1.el8.aarch64.rpm",
+        "sum": "abb1391ade43dc416369626d8ab2fdc3143b1f056ffb1a7a065b1d07d61a3a04",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "orc-compiler",
+        "version": "0.4.28",
+        "release": "3.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "orc-0.4.28-3.el8.src.rpm",
+        "filename": "orc-compiler-0.4.28-3.el8.aarch64.rpm",
+        "sum": "ac717bdb9bb16c172b542435ec757b119ae61f455b11631d9d204717541a528f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gstreamer1-devel",
+        "version": "1.16.1",
+        "release": "2.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gstreamer1-1.16.1-2.el8.src.rpm",
+        "filename": "gstreamer1-devel-1.16.1-2.el8.aarch64.rpm",
+        "sum": "db60518d9301a715be217f67faeb2d9b61fcd9ae294dfe1c897f5c076fa541e5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libmad",
+        "version": "0.15.1b",
+        "release": "25.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libmad-0.15.1b-25.el8.src.rpm",
+        "filename": "libmad-0.15.1b-25.el8.aarch64.rpm",
+        "sum": "dc696ad2c3c8a0d6a3836c2af4a1d65fc520f5e94aa17898ac26ed6d776a6664",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "SDL2",
+        "version": "2.0.10",
+        "release": "2.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "SDL2-2.0.10-2.el8.src.rpm",
+        "filename": "SDL2-2.0.10-2.el8.aarch64.rpm",
+        "sum": "ea0c3d8005302dea83bc8cb105efd9e3d547bcd1e9d02fb59deb500b4adc8843",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "SDL2-static",
         "version": "2.0.10",
@@ -224,162 +380,6 @@
         "src": "SDL2-2.0.10-2.el8.src.rpm",
         "filename": "SDL2-static-2.0.10-2.el8.i686.rpm",
         "sum": "f30ab1978a77ebd687b26b4e1ccd424f222f7c5f8a28a98201b57131bde85dad",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gstreamer1-plugins-bad-free-devel",
-        "version": "1.16.1",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gstreamer1-plugins-bad-free-1.16.1-1.el8.src.rpm",
-        "filename": "gstreamer1-plugins-bad-free-devel-1.16.1-1.el8.aarch64.rpm",
-        "sum": "11a985deb8630b1d78fbcdcf3957101bd28a51d4c51a6559aaf2f7cf7c4a950a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "orc",
-        "version": "0.4.28",
-        "release": "3.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "orc-0.4.28-3.el8.src.rpm",
-        "filename": "orc-0.4.28-3.el8.aarch64.rpm",
-        "sum": "2469a52ee3094677545d654fa827b3a058d4a89fa71a8c54384d1cc3d0a20cc6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gstreamer1",
-        "version": "1.16.1",
-        "release": "2.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gstreamer1-1.16.1-2.el8.src.rpm",
-        "filename": "gstreamer1-1.16.1-2.el8.aarch64.rpm",
-        "sum": "3a506700c32f8cb709a400af5fb16b3e5d66d7ec6aeeb139ce92c265c7809532",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "SDL2-devel",
-        "version": "2.0.10",
-        "release": "2.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "SDL2-2.0.10-2.el8.src.rpm",
-        "filename": "SDL2-devel-2.0.10-2.el8.aarch64.rpm",
-        "sum": "3a5a868cb21cf814208903c51168c18a793a094ac6b686e47d5fb3e4cd9e7e6b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libmad-devel",
-        "version": "0.15.1b",
-        "release": "25.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libmad-0.15.1b-25.el8.src.rpm",
-        "filename": "libmad-devel-0.15.1b-25.el8.aarch64.rpm",
-        "sum": "3ec60291cec2e45700354af62dc4a19d8d9b6517c9b6ce0b9eceb0442bc78b46",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "SDL2-static",
-        "version": "2.0.10",
-        "release": "2.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "SDL2-2.0.10-2.el8.src.rpm",
-        "filename": "SDL2-static-2.0.10-2.el8.aarch64.rpm",
-        "sum": "54a9d7eaa01c4d430bdf96dcedeb96acdd7d458e42d225c2d647fc98a535ad25",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gstreamer1-plugins-bad-free",
-        "version": "1.16.1",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gstreamer1-plugins-bad-free-1.16.1-1.el8.src.rpm",
-        "filename": "gstreamer1-plugins-bad-free-1.16.1-1.el8.aarch64.rpm",
-        "sum": "5b266d4a2d0e7cc02a47e4266b15f6522fc89b4f9c86eb08655b6d7085791127",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "orc-devel",
-        "version": "0.4.28",
-        "release": "3.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "orc-0.4.28-3.el8.src.rpm",
-        "filename": "orc-devel-0.4.28-3.el8.aarch64.rpm",
-        "sum": "7c4f631e1832f2c1c817fe075d3bff1ca4d0d33216f699e254c2f9fadfd28d3d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gstreamer1-plugins-ugly-free",
-        "version": "1.16.1",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gstreamer1-plugins-ugly-free-1.16.1-1.el8.src.rpm",
-        "filename": "gstreamer1-plugins-ugly-free-1.16.1-1.el8.aarch64.rpm",
-        "sum": "abb1391ade43dc416369626d8ab2fdc3143b1f056ffb1a7a065b1d07d61a3a04",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "orc-compiler",
-        "version": "0.4.28",
-        "release": "3.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "orc-0.4.28-3.el8.src.rpm",
-        "filename": "orc-compiler-0.4.28-3.el8.aarch64.rpm",
-        "sum": "ac717bdb9bb16c172b542435ec757b119ae61f455b11631d9d204717541a528f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gstreamer1-devel",
-        "version": "1.16.1",
-        "release": "2.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gstreamer1-1.16.1-2.el8.src.rpm",
-        "filename": "gstreamer1-devel-1.16.1-2.el8.aarch64.rpm",
-        "sum": "db60518d9301a715be217f67faeb2d9b61fcd9ae294dfe1c897f5c076fa541e5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libmad",
-        "version": "0.15.1b",
-        "release": "25.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libmad-0.15.1b-25.el8.src.rpm",
-        "filename": "libmad-0.15.1b-25.el8.aarch64.rpm",
-        "sum": "dc696ad2c3c8a0d6a3836c2af4a1d65fc520f5e94aa17898ac26ed6d776a6664",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "SDL2",
-        "version": "2.0.10",
-        "release": "2.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "SDL2-2.0.10-2.el8.src.rpm",
-        "filename": "SDL2-2.0.10-2.el8.aarch64.rpm",
-        "sum": "ea0c3d8005302dea83bc8cb105efd9e3d547bcd1e9d02fb59deb500b4adc8843",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -629,6 +629,12 @@
   "pushcount": "6",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2020-1631.html",
+      "type": "self",
+      "id": "ALSA-2020-1631",
+      "title": "ALSA-2020-1631"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2018-7263",
       "type": "cve",
       "id": "CVE-2018-7263",
@@ -636,7 +642,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Low",
   "solution": "",
   "status": "final",
@@ -644,7 +650,7 @@
   "title": "Low: GStreamer, libmad, and SDL security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1628672040000
+    "$date": 1588064309000
   },
   "version": "1"
 }

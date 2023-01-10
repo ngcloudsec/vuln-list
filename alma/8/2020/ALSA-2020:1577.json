@@ -8,9 +8,45 @@
     "$date": 1588063951000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
     "packages": [
+      {
+        "name": "libgexiv2-devel",
+        "version": "0.10.8",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libgexiv2-0.10.8-4.el8.src.rpm",
+        "filename": "libgexiv2-devel-0.10.8-4.el8.aarch64.rpm",
+        "sum": "5b60730ac8deb94adf9e436aa944dd2ba00b33574219c3561c841ad264d1b40f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gegl",
+        "version": "0.2.0",
+        "release": "39.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gegl-0.2.0-39.el8.src.rpm",
+        "filename": "gegl-0.2.0-39.el8.aarch64.rpm",
+        "sum": "d2eb5d08b4730614b2ad166d73961fcb7b6ae79e17f3a36afff9d970df60abdc",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libgexiv2",
+        "version": "0.10.8",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libgexiv2-0.10.8-4.el8.src.rpm",
+        "filename": "libgexiv2-0.10.8-4.el8.aarch64.rpm",
+        "sum": "eb752b2592e16880567f238b26a05daf8cbae702c2db0b3eecdd9a955ce18ebd",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "libgexiv2-devel",
         "version": "0.10.8",
@@ -108,42 +144,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libgexiv2-devel",
-        "version": "0.10.8",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libgexiv2-0.10.8-4.el8.src.rpm",
-        "filename": "libgexiv2-devel-0.10.8-4.el8.aarch64.rpm",
-        "sum": "5b60730ac8deb94adf9e436aa944dd2ba00b33574219c3561c841ad264d1b40f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gegl",
-        "version": "0.2.0",
-        "release": "39.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gegl-0.2.0-39.el8.src.rpm",
-        "filename": "gegl-0.2.0-39.el8.aarch64.rpm",
-        "sum": "d2eb5d08b4730614b2ad166d73961fcb7b6ae79e17f3a36afff9d970df60abdc",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libgexiv2",
-        "version": "0.10.8",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libgexiv2-0.10.8-4.el8.src.rpm",
-        "filename": "libgexiv2-0.10.8-4.el8.aarch64.rpm",
-        "sum": "eb752b2592e16880567f238b26a05daf8cbae702c2db0b3eecdd9a955ce18ebd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libgexiv2",
         "version": "0.10.8",
         "release": "4.el8",
@@ -220,6 +220,12 @@
   },
   "pushcount": "4",
   "references": [
+    {
+      "href": "https://errata.almalinux.org/8/ALSA-2020-1577.html",
+      "type": "self",
+      "id": "ALSA-2020-1577",
+      "title": "ALSA-2020-1577"
+    },
     {
       "href": "https://vulners.com/cve/CVE-2017-18005",
       "type": "cve",
@@ -396,7 +402,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -404,7 +410,7 @@
   "title": "Moderate: exiv2 security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1628672040000
+    "$date": 1588063939000
   },
   "version": "1"
 }

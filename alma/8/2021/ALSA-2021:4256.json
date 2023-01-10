@@ -8,9 +8,69 @@
     "$date": 1636447925000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
     "packages": [
+      {
+        "name": "graphviz-python3",
+        "version": "2.40.1",
+        "release": "43.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "graphviz-2.40.1-43.el8.src.rpm",
+        "filename": "graphviz-python3-2.40.1-43.el8.aarch64.rpm",
+        "sum": "090a07221bfc905a02be2538981b6babf9983de51cd9dcb6729b78cfb61fa00d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "graphviz-devel",
+        "version": "2.40.1",
+        "release": "43.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "graphviz-2.40.1-43.el8.src.rpm",
+        "filename": "graphviz-devel-2.40.1-43.el8.aarch64.rpm",
+        "sum": "30a2284807d34b8eae2c08d301e7ccd327c00c460646a613a5ba2d9ef586b631",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "graphviz",
+        "version": "2.40.1",
+        "release": "43.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "graphviz-2.40.1-43.el8.src.rpm",
+        "filename": "graphviz-2.40.1-43.el8.aarch64.rpm",
+        "sum": "52ae3a0a02e5f88f62585c15185af4f2f29b8e390c55a82231dd5e70496ffe60",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "graphviz-doc",
+        "version": "2.40.1",
+        "release": "43.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "graphviz-2.40.1-43.el8.src.rpm",
+        "filename": "graphviz-doc-2.40.1-43.el8.aarch64.rpm",
+        "sum": "9186b6f213984fcc29a6fdac9b4a2e2f3dd9e64ea0b0d5a0ca944f563e4b0be8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "graphviz-gd",
+        "version": "2.40.1",
+        "release": "43.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "graphviz-2.40.1-43.el8.src.rpm",
+        "filename": "graphviz-gd-2.40.1-43.el8.aarch64.rpm",
+        "sum": "91ab54c294a13794411fbb73da7084d07099e6bdf03fc57d42bbd40da9e130de",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "graphviz-python3",
         "version": "2.40.1",
@@ -96,66 +156,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "graphviz-python3",
-        "version": "2.40.1",
-        "release": "43.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "graphviz-2.40.1-43.el8.src.rpm",
-        "filename": "graphviz-python3-2.40.1-43.el8.aarch64.rpm",
-        "sum": "090a07221bfc905a02be2538981b6babf9983de51cd9dcb6729b78cfb61fa00d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "graphviz-devel",
-        "version": "2.40.1",
-        "release": "43.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "graphviz-2.40.1-43.el8.src.rpm",
-        "filename": "graphviz-devel-2.40.1-43.el8.aarch64.rpm",
-        "sum": "30a2284807d34b8eae2c08d301e7ccd327c00c460646a613a5ba2d9ef586b631",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "graphviz",
-        "version": "2.40.1",
-        "release": "43.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "graphviz-2.40.1-43.el8.src.rpm",
-        "filename": "graphviz-2.40.1-43.el8.aarch64.rpm",
-        "sum": "52ae3a0a02e5f88f62585c15185af4f2f29b8e390c55a82231dd5e70496ffe60",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "graphviz-doc",
-        "version": "2.40.1",
-        "release": "43.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "graphviz-2.40.1-43.el8.src.rpm",
-        "filename": "graphviz-doc-2.40.1-43.el8.aarch64.rpm",
-        "sum": "9186b6f213984fcc29a6fdac9b4a2e2f3dd9e64ea0b0d5a0ca944f563e4b0be8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "graphviz-gd",
-        "version": "2.40.1",
-        "release": "43.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "graphviz-2.40.1-43.el8.src.rpm",
-        "filename": "graphviz-gd-2.40.1-43.el8.aarch64.rpm",
-        "sum": "91ab54c294a13794411fbb73da7084d07099e6bdf03fc57d42bbd40da9e130de",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "graphviz",
         "version": "2.40.1",
         "release": "43.el8",
@@ -233,6 +233,12 @@
   "pushcount": "2",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-4256.html",
+      "type": "self",
+      "id": "ALSA-2021-4256",
+      "title": "ALSA-2021-4256"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2020-18032",
       "type": "cve",
       "id": "CVE-2020-18032",
@@ -240,7 +246,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -248,7 +254,7 @@
   "title": "Moderate: graphviz security update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712461000
+    "$date": 1636462783000
   },
   "version": "2"
 }

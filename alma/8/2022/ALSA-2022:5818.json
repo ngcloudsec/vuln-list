@@ -8,57 +8,9 @@
     "$date": 1659484800000
   },
   "pkglist": {
-    "name": "almalinux-8-for-aarch64-baseos-rpms__8_6_default",
-    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_6_default",
+    "name": "almalinux-8-for-x86_64-baseos-rpms__8_6_default",
+    "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_6_default",
     "packages": [
-      {
-        "name": "openssl-devel",
-        "version": "1.1.1k",
-        "release": "7.el8_6",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "openssl-1.1.1k-7.el8_6.src.rpm",
-        "filename": "openssl-devel-1.1.1k-7.el8_6.aarch64.rpm",
-        "sum": "374f89cc9ac86a5b36f7d1047417ad93a4113a508e6bf3e96838a0a0f3c35998",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssl",
-        "version": "1.1.1k",
-        "release": "7.el8_6",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "openssl-1.1.1k-7.el8_6.src.rpm",
-        "filename": "openssl-1.1.1k-7.el8_6.aarch64.rpm",
-        "sum": "4d14de70d830bd66c7ce2a7992a303f28ac96d171da95c71620ea0ec577be880",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssl-perl",
-        "version": "1.1.1k",
-        "release": "7.el8_6",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "openssl-1.1.1k-7.el8_6.src.rpm",
-        "filename": "openssl-perl-1.1.1k-7.el8_6.aarch64.rpm",
-        "sum": "85e39121154cf6a133af24e5007eca12f3525c691d8756538037072f9cb34d71",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openssl-libs",
-        "version": "1.1.1k",
-        "release": "7.el8_6",
-        "epoch": "1",
-        "arch": "aarch64",
-        "src": "openssl-1.1.1k-7.el8_6.src.rpm",
-        "filename": "openssl-libs-1.1.1k-7.el8_6.aarch64.rpm",
-        "sum": "87f712d1947a1388a480b471dea99deabc0943c5aa01ece0f3528e60e2d97c81",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "openssl-devel",
         "version": "1.1.1k",
@@ -136,6 +88,54 @@
         "version": "1.1.1k",
         "release": "7.el8_6",
         "epoch": "1",
+        "arch": "aarch64",
+        "src": "openssl-1.1.1k-7.el8_6.src.rpm",
+        "filename": "openssl-devel-1.1.1k-7.el8_6.aarch64.rpm",
+        "sum": "374f89cc9ac86a5b36f7d1047417ad93a4113a508e6bf3e96838a0a0f3c35998",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl",
+        "version": "1.1.1k",
+        "release": "7.el8_6",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "openssl-1.1.1k-7.el8_6.src.rpm",
+        "filename": "openssl-1.1.1k-7.el8_6.aarch64.rpm",
+        "sum": "4d14de70d830bd66c7ce2a7992a303f28ac96d171da95c71620ea0ec577be880",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl-perl",
+        "version": "1.1.1k",
+        "release": "7.el8_6",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "openssl-1.1.1k-7.el8_6.src.rpm",
+        "filename": "openssl-perl-1.1.1k-7.el8_6.aarch64.rpm",
+        "sum": "85e39121154cf6a133af24e5007eca12f3525c691d8756538037072f9cb34d71",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl-libs",
+        "version": "1.1.1k",
+        "release": "7.el8_6",
+        "epoch": "1",
+        "arch": "aarch64",
+        "src": "openssl-1.1.1k-7.el8_6.src.rpm",
+        "filename": "openssl-libs-1.1.1k-7.el8_6.aarch64.rpm",
+        "sum": "87f712d1947a1388a480b471dea99deabc0943c5aa01ece0f3528e60e2d97c81",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openssl-devel",
+        "version": "1.1.1k",
+        "release": "7.el8_6",
+        "epoch": "1",
         "arch": "ppc64le",
         "src": "openssl-1.1.1k-7.el8_6.src.rpm",
         "filename": "openssl-devel-1.1.1k-7.el8_6.ppc64le.rpm",
@@ -188,25 +188,25 @@
       "href": "https://access.redhat.com/errata/RHSA-2022:5818",
       "type": "rhsa",
       "id": "RHSA-2022:5818",
-      "title": ""
+      "title": "RHSA-2022:5818"
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-1292",
       "type": "cve",
       "id": "CVE-2022-1292",
-      "title": ""
+      "title": "CVE-2022-1292"
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-2068",
       "type": "cve",
       "id": "CVE-2022-2068",
-      "title": ""
+      "title": "CVE-2022-2068"
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-2097",
       "type": "cve",
       "id": "CVE-2022-2097",
-      "title": ""
+      "title": "CVE-2022-2097"
     },
     {
       "href": "https://bugzilla.redhat.com/2081494",
@@ -242,7 +242,7 @@
   "title": "Moderate: openssl security update",
   "type": "security",
   "updated_date": {
-    "$date": 1660154151000
+    "$date": 1660154152000
   },
   "version": "1"
 }

@@ -8,9 +8,69 @@
     "$date": 1636623273000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
     "packages": [
+      {
+        "name": "libwinpr",
+        "version": "2.2.0",
+        "release": "7.el8_5",
+        "epoch": "2",
+        "arch": "aarch64",
+        "src": "freerdp-2.2.0-7.el8_5.src.rpm",
+        "filename": "libwinpr-2.2.0-7.el8_5.aarch64.rpm",
+        "sum": "0eff093a7a01c558af9544caa3c1a2e059b375004c80249fbabe70bfeef17f1a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libwinpr-devel",
+        "version": "2.2.0",
+        "release": "7.el8_5",
+        "epoch": "2",
+        "arch": "aarch64",
+        "src": "freerdp-2.2.0-7.el8_5.src.rpm",
+        "filename": "libwinpr-devel-2.2.0-7.el8_5.aarch64.rpm",
+        "sum": "438be48577bea29d7273f71a818011d4d1c2f324fecfd2e5ac2769c27d6a92f2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "freerdp",
+        "version": "2.2.0",
+        "release": "7.el8_5",
+        "epoch": "2",
+        "arch": "aarch64",
+        "src": "freerdp-2.2.0-7.el8_5.src.rpm",
+        "filename": "freerdp-2.2.0-7.el8_5.aarch64.rpm",
+        "sum": "76dfe092d38dd88c8d664ae39b87593a39bab1402b424dcc697ed3abbae541de",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "freerdp-devel",
+        "version": "2.2.0",
+        "release": "7.el8_5",
+        "epoch": "2",
+        "arch": "aarch64",
+        "src": "freerdp-2.2.0-7.el8_5.src.rpm",
+        "filename": "freerdp-devel-2.2.0-7.el8_5.aarch64.rpm",
+        "sum": "7f991786b1f7d0a8bf81b5bec4a3e93ceaf7f8135ea357df0c67dc3a3a222d27",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "freerdp-libs",
+        "version": "2.2.0",
+        "release": "7.el8_5",
+        "epoch": "2",
+        "arch": "aarch64",
+        "src": "freerdp-2.2.0-7.el8_5.src.rpm",
+        "filename": "freerdp-libs-2.2.0-7.el8_5.aarch64.rpm",
+        "sum": "de4dbe74e2c79c989932817c841f839163b208353805fc1e67e326eb601ddb84",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "freerdp",
         "version": "2.2.0",
@@ -80,66 +140,6 @@
         "src": "freerdp-2.2.0-7.el8_5.src.rpm",
         "filename": "freerdp-devel-2.2.0-7.el8_5.i686.rpm",
         "sum": "f2c28edf5d619de42b02a53ec3f35ae0c95e36575c5aafb498ee9e2c408f58c2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwinpr",
-        "version": "2.2.0",
-        "release": "7.el8_5",
-        "epoch": "2",
-        "arch": "aarch64",
-        "src": "freerdp-2.2.0-7.el8_5.src.rpm",
-        "filename": "libwinpr-2.2.0-7.el8_5.aarch64.rpm",
-        "sum": "0eff093a7a01c558af9544caa3c1a2e059b375004c80249fbabe70bfeef17f1a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwinpr-devel",
-        "version": "2.2.0",
-        "release": "7.el8_5",
-        "epoch": "2",
-        "arch": "aarch64",
-        "src": "freerdp-2.2.0-7.el8_5.src.rpm",
-        "filename": "libwinpr-devel-2.2.0-7.el8_5.aarch64.rpm",
-        "sum": "438be48577bea29d7273f71a818011d4d1c2f324fecfd2e5ac2769c27d6a92f2",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "freerdp",
-        "version": "2.2.0",
-        "release": "7.el8_5",
-        "epoch": "2",
-        "arch": "aarch64",
-        "src": "freerdp-2.2.0-7.el8_5.src.rpm",
-        "filename": "freerdp-2.2.0-7.el8_5.aarch64.rpm",
-        "sum": "76dfe092d38dd88c8d664ae39b87593a39bab1402b424dcc697ed3abbae541de",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "freerdp-devel",
-        "version": "2.2.0",
-        "release": "7.el8_5",
-        "epoch": "2",
-        "arch": "aarch64",
-        "src": "freerdp-2.2.0-7.el8_5.src.rpm",
-        "filename": "freerdp-devel-2.2.0-7.el8_5.aarch64.rpm",
-        "sum": "7f991786b1f7d0a8bf81b5bec4a3e93ceaf7f8135ea357df0c67dc3a3a222d27",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "freerdp-libs",
-        "version": "2.2.0",
-        "release": "7.el8_5",
-        "epoch": "2",
-        "arch": "aarch64",
-        "src": "freerdp-2.2.0-7.el8_5.src.rpm",
-        "filename": "freerdp-libs-2.2.0-7.el8_5.aarch64.rpm",
-        "sum": "de4dbe74e2c79c989932817c841f839163b208353805fc1e67e326eb601ddb84",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -245,6 +245,12 @@
   "pushcount": "4",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-4622.html",
+      "type": "self",
+      "id": "ALSA-2021-4622",
+      "title": "ALSA-2021-4622"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2021-41159",
       "type": "cve",
       "id": "CVE-2021-41159",
@@ -258,7 +264,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Important",
   "solution": "",
   "status": "final",
@@ -266,7 +272,7 @@
   "title": "Important: freerdp security update",
   "type": "security",
   "updated_date": {
-    "$date": 1636739333000
+    "$date": 1636623273000
   },
   "version": "1"
 }

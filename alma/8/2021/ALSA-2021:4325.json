@@ -8,9 +8,33 @@
     "$date": 1636448465000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
     "packages": [
+      {
+        "name": "lasso",
+        "version": "2.6.0",
+        "release": "12.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "lasso-2.6.0-12.el8.src.rpm",
+        "filename": "lasso-2.6.0-12.el8.aarch64.rpm",
+        "sum": "32cea56bc0c21730fd725e07d0c24d9df242fa451878fd2f254c3d4c78a97903",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "lasso-devel",
+        "version": "2.6.0",
+        "release": "12.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "lasso-2.6.0-12.el8.src.rpm",
+        "filename": "lasso-devel-2.6.0-12.el8.aarch64.rpm",
+        "sum": "79743097671a0e4a35a66dd91684775087f208382881bfcc7e26f43e4bdd637a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "lasso",
         "version": "2.6.0",
@@ -44,30 +68,6 @@
         "src": "lasso-2.6.0-12.el8.src.rpm",
         "filename": "lasso-devel-2.6.0-12.el8.i686.rpm",
         "sum": "30c6adba7b80bfdea2a4cd354a09865a6fdce9c2cce4c1d3c61c670e54139b7f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "lasso",
-        "version": "2.6.0",
-        "release": "12.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "lasso-2.6.0-12.el8.src.rpm",
-        "filename": "lasso-2.6.0-12.el8.aarch64.rpm",
-        "sum": "32cea56bc0c21730fd725e07d0c24d9df242fa451878fd2f254c3d4c78a97903",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "lasso-devel",
-        "version": "2.6.0",
-        "release": "12.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "lasso-2.6.0-12.el8.src.rpm",
-        "filename": "lasso-devel-2.6.0-12.el8.aarch64.rpm",
-        "sum": "79743097671a0e4a35a66dd91684775087f208382881bfcc7e26f43e4bdd637a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -113,6 +113,12 @@
   "pushcount": "3",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-4325.html",
+      "type": "self",
+      "id": "ALSA-2021-4325",
+      "title": "ALSA-2021-4325"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2021-28091",
       "type": "cve",
       "id": "CVE-2021-28091",
@@ -120,7 +126,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -128,7 +134,7 @@
   "title": "Moderate: lasso security and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712461000
+    "$date": 1636462976000
   },
   "version": "2"
 }

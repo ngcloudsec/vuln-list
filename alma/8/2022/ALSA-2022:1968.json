@@ -8,18 +8,30 @@
     "$date": 1652170212000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
     "packages": [
+      {
+        "name": "libsndfile",
+        "version": "1.0.28",
+        "release": "12.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libsndfile-1.0.28-12.el8.src.rpm",
+        "filename": "libsndfile-1.0.28-12.el8.aarch64.rpm",
+        "sum": "6e3a8205eb9ab28b4bb78a7c0e99a510744f6920ea7d38c8e0d3ac333d164010",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "libsndfile-devel",
         "version": "1.0.28",
         "release": "12.el8",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "libsndfile-1.0.28-12.el8.src.rpm",
-        "filename": "libsndfile-devel-1.0.28-12.el8.x86_64.rpm",
-        "sum": "721afc0fa3e04133a4618e323672f83a39e9a88932189cb029cd783bd8a90663",
+        "filename": "libsndfile-devel-1.0.28-12.el8.aarch64.rpm",
+        "sum": "ab0a24151b5ae6799ce71a191dc847a96eb04864147027a198c8087ce6d01cf6",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -44,30 +56,6 @@
         "src": "libsndfile-1.0.28-12.el8.src.rpm",
         "filename": "libsndfile-1.0.28-12.el8.x86_64.rpm",
         "sum": "b8981af35c6927a03c754379620a56904995e6b301c8b68f9d2366f2763803bb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libsndfile",
-        "version": "1.0.28",
-        "release": "12.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libsndfile-1.0.28-12.el8.src.rpm",
-        "filename": "libsndfile-1.0.28-12.el8.aarch64.rpm",
-        "sum": "6e3a8205eb9ab28b4bb78a7c0e99a510744f6920ea7d38c8e0d3ac333d164010",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libsndfile-devel",
-        "version": "1.0.28",
-        "release": "12.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libsndfile-1.0.28-12.el8.src.rpm",
-        "filename": "libsndfile-devel-1.0.28-12.el8.aarch64.rpm",
-        "sum": "ab0a24151b5ae6799ce71a191dc847a96eb04864147027a198c8087ce6d01cf6",
         "sum_type": 5,
         "reboot_suggested": 0
       },

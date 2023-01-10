@@ -8,8 +8,8 @@
     "$date": 1621319489000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
     "packages": [
       {
         "name": "pandoc-common",
@@ -28,10 +28,10 @@
         "version": "2.0.6",
         "release": "5.el8",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "pandoc-2.0.6-5.el8.src.rpm",
-        "filename": "pandoc-2.0.6-5.el8.x86_64.rpm",
-        "sum": "b97dc64711360de0f157ea20061334ec4c2e27f5146bf18fcbff500ed1c89fa7",
+        "filename": "pandoc-2.0.6-5.el8.aarch64.rpm",
+        "sum": "4a896bdde1a6b3a08e9390459df39594225b0b41aaba1a010cbd937e0ae13f7c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -40,10 +40,10 @@
         "version": "2.0.6",
         "release": "5.el8",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "pandoc-2.0.6-5.el8.src.rpm",
-        "filename": "pandoc-2.0.6-5.el8.aarch64.rpm",
-        "sum": "4a896bdde1a6b3a08e9390459df39594225b0b41aaba1a010cbd937e0ae13f7c",
+        "filename": "pandoc-2.0.6-5.el8.x86_64.rpm",
+        "sum": "b97dc64711360de0f157ea20061334ec4c2e27f5146bf18fcbff500ed1c89fa7",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -65,6 +65,12 @@
   "pushcount": "3",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-1972.html",
+      "type": "self",
+      "id": "ALSA-2021-1972",
+      "title": "ALSA-2021-1972"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2020-5238",
       "type": "cve",
       "id": "CVE-2020-5238",
@@ -72,7 +78,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -80,7 +86,7 @@
   "title": "Moderate: pandoc security update",
   "type": "security",
   "updated_date": {
-    "$date": 1628672040000
+    "$date": 1621319475000
   },
   "version": "1"
 }

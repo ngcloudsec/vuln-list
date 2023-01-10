@@ -8,8 +8,8 @@
     "$date": 1621319439000
   },
   "pkglist": {
-    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
-    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-aarch64-rpms__8_0_default",
     "packages": [
       {
         "name": "mingw32-sqlite-static",
@@ -36,6 +36,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "mingw32-binutils",
+        "version": "2.30",
+        "release": "3.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "mingw-binutils-2.30-3.el8.src.rpm",
+        "filename": "mingw32-binutils-2.30-3.el8.aarch64.rpm",
+        "sum": "42a2587e8f44f1d195c35a798c7e903943b5bcef129d63cdc1c9c6511ddb1ea8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "mingw32-bzip2-static",
         "version": "1.0.6",
         "release": "14.el8",
@@ -56,6 +68,18 @@
         "src": "mingw-sqlite-3.26.0.0-1.el8.src.rpm",
         "filename": "mingw32-sqlite-3.26.0.0-1.el8.noarch.rpm",
         "sum": "65f32ec0f6e867edfd68bb7ac3fd821d0fcedd524af472842e626a3bc360c7a2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mingw-binutils-generic",
+        "version": "2.30",
+        "release": "3.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "mingw-binutils-2.30-3.el8.src.rpm",
+        "filename": "mingw-binutils-generic-2.30-3.el8.aarch64.rpm",
+        "sum": "835910046fc1d6620dac15651e0e32a44636088ffb22ebdb6b684fdc279a491c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -96,14 +120,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "mingw32-binutils",
+        "name": "mingw64-binutils",
         "version": "2.30",
         "release": "3.el8",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "aarch64",
         "src": "mingw-binutils-2.30-3.el8.src.rpm",
-        "filename": "mingw32-binutils-2.30-3.el8.x86_64.rpm",
-        "sum": "bd46328106c3173bd255701447eb54e602ecf66de27fda6c9a4b0a94a4065a8c",
+        "filename": "mingw64-binutils-2.30-3.el8.aarch64.rpm",
+        "sum": "bb69ae77e561ed8b5245cf05cf18150d8e9b7eea86d9baf7ea9429845ca31d71",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -144,18 +168,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "mingw64-binutils",
-        "version": "2.30",
-        "release": "3.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "mingw-binutils-2.30-3.el8.src.rpm",
-        "filename": "mingw64-binutils-2.30-3.el8.x86_64.rpm",
-        "sum": "e69659adc97e487b5dc5ce0e7b1dd8e1d3b8e11859d08b6fea1a9dac5a10e8e7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "mingw32-filesystem",
         "version": "104",
         "release": "2.el8",
@@ -168,38 +180,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "mingw-binutils-generic",
+        "name": "mingw32-binutils",
         "version": "2.30",
         "release": "3.el8",
         "epoch": "0",
         "arch": "x86_64",
         "src": "mingw-binutils-2.30-3.el8.src.rpm",
-        "filename": "mingw-binutils-generic-2.30-3.el8.x86_64.rpm",
-        "sum": "ff69aa8fbbfef22dc1f95a94ee8e39b3e6e39b6c6fe58a4b70de9eb72a2bd3d3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mingw32-binutils",
-        "version": "2.30",
-        "release": "3.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "mingw-binutils-2.30-3.el8.src.rpm",
-        "filename": "mingw32-binutils-2.30-3.el8.aarch64.rpm",
-        "sum": "42a2587e8f44f1d195c35a798c7e903943b5bcef129d63cdc1c9c6511ddb1ea8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "mingw-binutils-generic",
-        "version": "2.30",
-        "release": "3.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "mingw-binutils-2.30-3.el8.src.rpm",
-        "filename": "mingw-binutils-generic-2.30-3.el8.aarch64.rpm",
-        "sum": "835910046fc1d6620dac15651e0e32a44636088ffb22ebdb6b684fdc279a491c",
+        "filename": "mingw32-binutils-2.30-3.el8.x86_64.rpm",
+        "sum": "bd46328106c3173bd255701447eb54e602ecf66de27fda6c9a4b0a94a4065a8c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -208,10 +196,22 @@
         "version": "2.30",
         "release": "3.el8",
         "epoch": "0",
-        "arch": "aarch64",
+        "arch": "x86_64",
         "src": "mingw-binutils-2.30-3.el8.src.rpm",
-        "filename": "mingw64-binutils-2.30-3.el8.aarch64.rpm",
-        "sum": "bb69ae77e561ed8b5245cf05cf18150d8e9b7eea86d9baf7ea9429845ca31d71",
+        "filename": "mingw64-binutils-2.30-3.el8.x86_64.rpm",
+        "sum": "e69659adc97e487b5dc5ce0e7b1dd8e1d3b8e11859d08b6fea1a9dac5a10e8e7",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mingw-binutils-generic",
+        "version": "2.30",
+        "release": "3.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "mingw-binutils-2.30-3.el8.src.rpm",
+        "filename": "mingw-binutils-generic-2.30-3.el8.x86_64.rpm",
+        "sum": "ff69aa8fbbfef22dc1f95a94ee8e39b3e6e39b6c6fe58a4b70de9eb72a2bd3d3",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -257,6 +257,12 @@
   "pushcount": "5",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-1968.html",
+      "type": "self",
+      "id": "ALSA-2021-1968",
+      "title": "ALSA-2021-1968"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2019-16168",
       "type": "cve",
       "id": "CVE-2019-16168",
@@ -288,7 +294,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -296,7 +302,7 @@
   "title": "Moderate: mingw packages security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1628672040000
+    "$date": 1621319424000
   },
   "version": "1"
 }
