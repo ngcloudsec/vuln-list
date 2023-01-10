@@ -4267,13 +4267,13 @@
       "debhelper (\u003e= 11)"
     ],
     "Checksums-Sha256": [
-      "2ce3af63fbf3f0fba273d5e80440473c8c072685ac2ec13e353666bd0b4e192c 1246 msttcorefonts_3.8.dsc 35754d8ecde77b2cc137625c95b423411f6c709234f57432399ad732ed4ac104 40160 msttcorefonts_3.8.tar.xz"
+      "6f8c5cc994c006428d1187d595d10e34aeb8e45a13db8747987082fd084f3b0e 1254 msttcorefonts_3.8.1.dsc 211f86e82b56cf87461da4bb21136b096a57ae70ed9bcb6eb27f34c407295bf3 39200 msttcorefonts_3.8.1.tar.xz"
     ],
     "Directory": [
       "pool/contrib/m/msttcorefonts"
     ],
     "Files": [
-      "69e9c69bd48f60a14496eeb841fd2401 1246 msttcorefonts_3.8.dsc 8637e8daf941edbe1a0208b6483556d7 40160 msttcorefonts_3.8.tar.xz"
+      "aa316fc7f80b19af06e9102e9229946d 1254 msttcorefonts_3.8.1.dsc 59cb9e9e26242f8747eeb1e643b4aaa2 39200 msttcorefonts_3.8.1.tar.xz"
     ],
     "Format": [
       "3.0 (native)"
@@ -4294,7 +4294,7 @@
       "contrib/x11"
     ],
     "Standards-Version": [
-      "4.5.0"
+      "4.6.2"
     ],
     "Vcs-Browser": [
       "https://salsa.debian.org/debian/msttcorefonts"
@@ -4303,7 +4303,7 @@
       "https://salsa.debian.org/debian/msttcorefonts.git"
     ],
     "Version": [
-      "3.8"
+      "3.8.1"
     ]
   },
   {
@@ -6422,19 +6422,16 @@
       "python3-pyvkfft"
     ],
     "Build-Depends": [
-      "debhelper-compat (= 13), dh-python, dh-sequence-python3, libvkfft-dev, nvidia-cuda-toolkit, ocl-icd-opencl-dev | opencl-dev, pocl-opencl-icd, python3-all, python3-pycuda, python3-pyopencl \u003c!nocheck\u003e, python3-setuptools"
+      "debhelper-compat (= 13), dh-python, dh-sequence-python3, libvkfft-dev, nvidia-cuda-toolkit-gcc, ocl-icd-opencl-dev | opencl-dev, pocl-opencl-icd, python3-all, python3-pycuda, python3-pyopencl \u003c!nocheck\u003e, python3-setuptools"
     ],
     "Checksums-Sha256": [
-      "e8e64eff5e4f7b5dd3d5a355f098c6adf5a8204f4f977872d391fca9ea5421dd 2415 pyvkfft_2022.1.1-2.dsc d283542c14e5a0fac15d91018b8390dce397b3e02fc9c43a16cd799886801d45 152317 pyvkfft_2022.1.1.orig.tar.gz 531130485092df8f82616cdba0b8049c0a100ba02ff8845ef2c93337246e3a8c 3052 pyvkfft_2022.1.1-2.debian.tar.xz"
-    ],
-    "Dgit": [
-      "7aec39494e6dbf295eb2837e6063e767891cedb6 debian archive/debian/2022.1.1-2 https://git.dgit.debian.org/pyvkfft"
+      "f9d6e7e175487d945fc767b9eebfd709cda8c59e09427982158dcea408054ad3 2279 pyvkfft_2022.1.1-3.dsc d283542c14e5a0fac15d91018b8390dce397b3e02fc9c43a16cd799886801d45 152317 pyvkfft_2022.1.1.orig.tar.gz 4706d40d820284b1625f51b677295c3f1905f6bd64e9ff3550c06c8ac8f57827 3116 pyvkfft_2022.1.1-3.debian.tar.xz"
     ],
     "Directory": [
       "pool/contrib/p/pyvkfft"
     ],
     "Files": [
-      "9eaf6c985919da4b0961b294ceb461fe 2415 pyvkfft_2022.1.1-2.dsc b4597ef43c862df25067f103386f5eff 152317 pyvkfft_2022.1.1.orig.tar.gz b41bd57a2cb018fc084b7df41aff6b29 3052 pyvkfft_2022.1.1-2.debian.tar.xz"
+      "f5ede48b2cc36bf53215e128e1686585 2279 pyvkfft_2022.1.1-3.dsc b4597ef43c862df25067f103386f5eff 152317 pyvkfft_2022.1.1.orig.tar.gz 2b331256268e74987a44d00c442ea419 3116 pyvkfft_2022.1.1-3.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -6458,7 +6455,7 @@
       "contrib/misc"
     ],
     "Standards-Version": [
-      "4.6.0"
+      "4.6.2"
     ],
     "Uploaders": [
       "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e, Picca Frédéric-Emmanuel \u003cpicca@debian.org\u003e, Roland Mas \u003clolando@debian.org\u003e,"
@@ -6470,7 +6467,7 @@
       "https://salsa.debian.org/science-team/pyvkfft.git"
     ],
     "Version": [
-      "2022.1.1-2"
+      "2022.1.1-3"
     ]
   },
   {

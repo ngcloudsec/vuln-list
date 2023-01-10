@@ -2582,59 +2582,6 @@
       "debhelper-compat (= 13)"
     ],
     "Checksums-Sha256": [
-      "1f0e3db3d8d14dbc6d2ad0e50721087af63ed89a8d084fe48e89d58150a901c4 2048 glx-alternatives_1.2.1.dsc 1e4068629fce14e9414f52b9057be5adbe5d5012dfff228bc8c6cdf12df4848d 14092 glx-alternatives_1.2.1.tar.xz"
-    ],
-    "Directory": [
-      "pool/contrib/g/glx-alternatives"
-    ],
-    "Files": [
-      "14d29d4b0ef0acd5aa7010b1eae69734 2048 glx-alternatives_1.2.1.dsc b2f4b6c9abc32d5d01a88a2427d06f98 14092 glx-alternatives_1.2.1.tar.xz"
-    ],
-    "Format": [
-      "3.0 (native)"
-    ],
-    "Maintainer": [
-      "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
-    ],
-    "Package": [
-      "glx-alternatives"
-    ],
-    "Package-List": [
-      "glx-alternative-mesa deb contrib/libs optional arch=i386,amd64,armhf,arm64,ppc64el glx-alternative-nvidia deb contrib/libs optional arch=i386,amd64,armhf,arm64,ppc64el glx-diversions deb contrib/libs optional arch=i386,amd64,armhf,arm64,ppc64el update-glx deb contrib/x11 optional arch=i386,amd64,armhf,arm64,ppc64el"
-    ],
-    "Priority": [
-      "source"
-    ],
-    "Section": [
-      "contrib/libs"
-    ],
-    "Standards-Version": [
-      "4.6.0"
-    ],
-    "Uploaders": [
-      "Andreas Beckmann \u003canbe@debian.org\u003e,"
-    ],
-    "Vcs-Browser": [
-      "https://salsa.debian.org/nvidia-team/glx-alternatives"
-    ],
-    "Vcs-Git": [
-      "https://salsa.debian.org/nvidia-team/glx-alternatives.git"
-    ],
-    "Version": [
-      "1.2.1"
-    ]
-  },
-  {
-    "Architecture": [
-      "i386 amd64 armhf arm64 ppc64el"
-    ],
-    "Binary": [
-      "update-glx, glx-diversions, glx-alternative-mesa, glx-alternative-nvidia"
-    ],
-    "Build-Depends": [
-      "debhelper-compat (= 13)"
-    ],
-    "Checksums-Sha256": [
       "7861e50b7e690970aef8d042800b0fc08895745e6ab89aafa2a423b46fd7cfc4 2048 glx-alternatives_1.2.2.dsc 7cfd4e852fe1b98eef8b2eed4504c127788b9e0b6bd7f3311541989c7f3ce1d2 14340 glx-alternatives_1.2.2.tar.xz"
     ],
     "Directory": [
@@ -5190,62 +5137,6 @@
       "debhelper-compat (= 13), eglexternalplatform-dev (\u003e= 1.1), eglexternalplatform-dev (\u003c\u003c 2), libdrm-dev (\u003e= 2.4.75), libegl-dev, libgbm-dev (\u003e= 21.2), meson (\u003e= 0.50), pkg-config"
     ],
     "Checksums-Sha256": [
-      "f9604b03b38bb48abe745c6c14c950c786c06d844093953b04b3818f947cd357 2212 nvidia-egl-gbm_1.1.0-1.dsc 21e08ec5442eac08ed87d9d1f7fc5aeb86592f4756a3cd264e9c60620b9b8437 17165 nvidia-egl-gbm_1.1.0.orig.tar.gz fb3fe9def4928c5153e182f7bfd9cac813f030acccac62edbc6488c4049f1de1 2296 nvidia-egl-gbm_1.1.0-1.debian.tar.xz"
-    ],
-    "Directory": [
-      "pool/contrib/n/nvidia-egl-gbm"
-    ],
-    "Files": [
-      "6f794e45f220eff9973606e97b726af7 2212 nvidia-egl-gbm_1.1.0-1.dsc f303b058909a636b996483a9e18c7671 17165 nvidia-egl-gbm_1.1.0.orig.tar.gz e980f7aab97421b74bf29a39900ea5df 2296 nvidia-egl-gbm_1.1.0-1.debian.tar.xz"
-    ],
-    "Format": [
-      "3.0 (quilt)"
-    ],
-    "Homepage": [
-      "https://github.com/NVIDIA/egl-gbm"
-    ],
-    "Maintainer": [
-      "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
-    ],
-    "Package": [
-      "nvidia-egl-gbm"
-    ],
-    "Package-List": [
-      "libnvidia-egl-gbm1 deb contrib/libs optional arch=amd64,i386,arm64,ppc64el"
-    ],
-    "Priority": [
-      "optional"
-    ],
-    "Section": [
-      "contrib/misc"
-    ],
-    "Standards-Version": [
-      "4.6.0"
-    ],
-    "Uploaders": [
-      "Andreas Beckmann \u003canbe@debian.org\u003e,"
-    ],
-    "Vcs-Browser": [
-      "https://salsa.debian.org/nvidia-team/nvidia-egl-gbm"
-    ],
-    "Vcs-Git": [
-      "https://salsa.debian.org/nvidia-team/nvidia-egl-gbm.git"
-    ],
-    "Version": [
-      "1.1.0-1"
-    ]
-  },
-  {
-    "Architecture": [
-      "amd64 i386 arm64 ppc64el"
-    ],
-    "Binary": [
-      "libnvidia-egl-gbm1"
-    ],
-    "Build-Depends": [
-      "debhelper-compat (= 13), eglexternalplatform-dev (\u003e= 1.1), eglexternalplatform-dev (\u003c\u003c 2), libdrm-dev (\u003e= 2.4.75), libegl-dev, libgbm-dev (\u003e= 21.2), meson (\u003e= 0.50), pkg-config"
-    ],
-    "Checksums-Sha256": [
       "9d41622468d14ba269b469f59459f6ea49ac50d216954f1606d9a8c929fdb27c 2212 nvidia-egl-gbm_1.1.0-2.dsc 21e08ec5442eac08ed87d9d1f7fc5aeb86592f4756a3cd264e9c60620b9b8437 17165 nvidia-egl-gbm_1.1.0.orig.tar.gz f60b7bed38b178196a0c755096e04341e2a2490d7aaf8fe65f496ed46976d6b6 2408 nvidia-egl-gbm_1.1.0-2.debian.tar.xz"
     ],
     "Directory": [
@@ -6722,6 +6613,65 @@
     ],
     "Version": [
       "4.3.0-3"
+    ]
+  },
+  {
+    "Architecture": [
+      "any all"
+    ],
+    "Binary": [
+      "odpic-dev, libodpic4, odpic-doc"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13)"
+    ],
+    "Build-Depends-Indep": [
+      "dh-sequence-sphinxdoc, python3-sphinx \u003c!nodoc\u003e"
+    ],
+    "Checksums-Sha256": [
+      "41cfc6cdb434d4c61bc2f4b0138c7fd059848b97b7fc97529d55b4a9a12b2823 2445 odpic_4.6.0-1.dsc fdb07c734c59b807787b5677ef23edd52766bd2d3cf075d285994793edeb40c5 439979 odpic_4.6.0.orig.tar.gz 50f4ccf40b3cac948fafd142428cbf228f683415e909b1fd289a34c3e631bfeb 9660 odpic_4.6.0-1.debian.tar.xz"
+    ],
+    "Description": [
+      "Oracle Database Programming Interface Oracle Database Programming Interface for C (ODPI-C) is an open source library of C code that simplifies access to Oracle Database for applications written in C or C++. It is a wrapper over Oracle Call Interface (OCI) that makes applications and language interfaces easier to develop. . ODPI-C supports basic and advanced features of Oracle Database and Oracle Client. See the homepage for a list."
+    ],
+    "Directory": [
+      "pool/contrib/o/odpic"
+    ],
+    "Files": [
+      "f0e735d431c60998541dc612a3815d2c 2445 odpic_4.6.0-1.dsc 38eb1e97b5a0c3834f478de073003323 439979 odpic_4.6.0.orig.tar.gz a66e29d4e3fb013cfe25818fa9120a1e 9660 odpic_4.6.0-1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://oracle.github.io/odpi/"
+    ],
+    "Maintainer": [
+      "Joseph Nahmias \u003cjello@debian.org\u003e"
+    ],
+    "Package": [
+      "odpic"
+    ],
+    "Package-List": [
+      "libodpic4 deb contrib/libs optional arch=any odpic-dev deb contrib/libdevel optional arch=any odpic-doc deb contrib/doc optional arch=all"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "contrib/misc"
+    ],
+    "Standards-Version": [
+      "4.6.1"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/debian/odpic"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/debian/odpic.git"
+    ],
+    "Version": [
+      "4.6.0-1"
     ]
   },
   {
