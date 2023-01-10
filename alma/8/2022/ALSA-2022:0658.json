@@ -8,9 +8,141 @@
     "$date": 1645623192000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
+    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
     "packages": [
+      {
+        "name": "cyrus-sasl-ldap",
+        "version": "2.1.27",
+        "release": "6.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
+        "filename": "cyrus-sasl-ldap-2.1.27-6.el8_5.aarch64.rpm",
+        "sum": "1edf76aa97feccccab346a72af06bf36032a48a1c284ab9e4b53dba4cc5df7bb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cyrus-sasl-plain",
+        "version": "2.1.27",
+        "release": "6.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
+        "filename": "cyrus-sasl-plain-2.1.27-6.el8_5.aarch64.rpm",
+        "sum": "301593b7c5a595829571d10f534ebce7a9191e85766e7657ff887720f0ad9974",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cyrus-sasl-scram",
+        "version": "2.1.27",
+        "release": "6.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
+        "filename": "cyrus-sasl-scram-2.1.27-6.el8_5.aarch64.rpm",
+        "sum": "34e866e44780b3e07a153e1cb6942a632e92e32724e0bee07b64e78ade7d3b0d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cyrus-sasl-gs2",
+        "version": "2.1.27",
+        "release": "6.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
+        "filename": "cyrus-sasl-gs2-2.1.27-6.el8_5.aarch64.rpm",
+        "sum": "35158ccf950adb41fda433c87119a8f7fbb283c886a82b67592d707337e39340",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cyrus-sasl-devel",
+        "version": "2.1.27",
+        "release": "6.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
+        "filename": "cyrus-sasl-devel-2.1.27-6.el8_5.aarch64.rpm",
+        "sum": "69a883daf5ecdb923cfdc069c593d866f78b1103cc4ff7eb99c9e8d8cb3c0199",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cyrus-sasl-md5",
+        "version": "2.1.27",
+        "release": "6.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
+        "filename": "cyrus-sasl-md5-2.1.27-6.el8_5.aarch64.rpm",
+        "sum": "6afd746f95714787666368b6cd278f2634707731e4ccd48dcf21fdf55b1e0f2a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cyrus-sasl",
+        "version": "2.1.27",
+        "release": "6.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
+        "filename": "cyrus-sasl-2.1.27-6.el8_5.aarch64.rpm",
+        "sum": "8852a090447539e12930cce9e4ac48329100bb9f605bad7d130da74743c8e385",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cyrus-sasl-ntlm",
+        "version": "2.1.27",
+        "release": "6.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
+        "filename": "cyrus-sasl-ntlm-2.1.27-6.el8_5.aarch64.rpm",
+        "sum": "9ee4e16f02686d1f4c031a2b85cadbd28389d50f7a445bd84ea4f6ff4285c010",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cyrus-sasl-sql",
+        "version": "2.1.27",
+        "release": "6.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
+        "filename": "cyrus-sasl-sql-2.1.27-6.el8_5.aarch64.rpm",
+        "sum": "ef96b38eb9668fbcfe6980749df19716c19e49328a869f937c39848f374f5deb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cyrus-sasl-lib",
+        "version": "2.1.27",
+        "release": "6.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
+        "filename": "cyrus-sasl-lib-2.1.27-6.el8_5.aarch64.rpm",
+        "sum": "f75d1b8631a9271be94a1d7cbdae9def711995cb5331aa7de223cf7473a0bb2d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "cyrus-sasl-gssapi",
+        "version": "2.1.27",
+        "release": "6.el8_5",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
+        "filename": "cyrus-sasl-gssapi-2.1.27-6.el8_5.aarch64.rpm",
+        "sum": "fc984cf8d5e8834d9d6072ae0136448fb7a7d051a0f1c560c3d842fa32675da4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "cyrus-sasl",
         "version": "2.1.27",
@@ -156,138 +288,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "cyrus-sasl-ldap",
-        "version": "2.1.27",
-        "release": "6.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
-        "filename": "cyrus-sasl-ldap-2.1.27-6.el8_5.aarch64.rpm",
-        "sum": "1edf76aa97feccccab346a72af06bf36032a48a1c284ab9e4b53dba4cc5df7bb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cyrus-sasl-plain",
-        "version": "2.1.27",
-        "release": "6.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
-        "filename": "cyrus-sasl-plain-2.1.27-6.el8_5.aarch64.rpm",
-        "sum": "301593b7c5a595829571d10f534ebce7a9191e85766e7657ff887720f0ad9974",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cyrus-sasl-scram",
-        "version": "2.1.27",
-        "release": "6.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
-        "filename": "cyrus-sasl-scram-2.1.27-6.el8_5.aarch64.rpm",
-        "sum": "34e866e44780b3e07a153e1cb6942a632e92e32724e0bee07b64e78ade7d3b0d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cyrus-sasl-gs2",
-        "version": "2.1.27",
-        "release": "6.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
-        "filename": "cyrus-sasl-gs2-2.1.27-6.el8_5.aarch64.rpm",
-        "sum": "35158ccf950adb41fda433c87119a8f7fbb283c886a82b67592d707337e39340",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cyrus-sasl-devel",
-        "version": "2.1.27",
-        "release": "6.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
-        "filename": "cyrus-sasl-devel-2.1.27-6.el8_5.aarch64.rpm",
-        "sum": "69a883daf5ecdb923cfdc069c593d866f78b1103cc4ff7eb99c9e8d8cb3c0199",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cyrus-sasl-md5",
-        "version": "2.1.27",
-        "release": "6.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
-        "filename": "cyrus-sasl-md5-2.1.27-6.el8_5.aarch64.rpm",
-        "sum": "6afd746f95714787666368b6cd278f2634707731e4ccd48dcf21fdf55b1e0f2a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cyrus-sasl",
-        "version": "2.1.27",
-        "release": "6.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
-        "filename": "cyrus-sasl-2.1.27-6.el8_5.aarch64.rpm",
-        "sum": "8852a090447539e12930cce9e4ac48329100bb9f605bad7d130da74743c8e385",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cyrus-sasl-ntlm",
-        "version": "2.1.27",
-        "release": "6.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
-        "filename": "cyrus-sasl-ntlm-2.1.27-6.el8_5.aarch64.rpm",
-        "sum": "9ee4e16f02686d1f4c031a2b85cadbd28389d50f7a445bd84ea4f6ff4285c010",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cyrus-sasl-sql",
-        "version": "2.1.27",
-        "release": "6.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
-        "filename": "cyrus-sasl-sql-2.1.27-6.el8_5.aarch64.rpm",
-        "sum": "ef96b38eb9668fbcfe6980749df19716c19e49328a869f937c39848f374f5deb",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cyrus-sasl-lib",
-        "version": "2.1.27",
-        "release": "6.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
-        "filename": "cyrus-sasl-lib-2.1.27-6.el8_5.aarch64.rpm",
-        "sum": "f75d1b8631a9271be94a1d7cbdae9def711995cb5331aa7de223cf7473a0bb2d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "cyrus-sasl-gssapi",
-        "version": "2.1.27",
-        "release": "6.el8_5",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "cyrus-sasl-2.1.27-6.el8_5.src.rpm",
-        "filename": "cyrus-sasl-gssapi-2.1.27-6.el8_5.aarch64.rpm",
-        "sum": "fc984cf8d5e8834d9d6072ae0136448fb7a7d051a0f1c560c3d842fa32675da4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "cyrus-sasl-devel",
         "version": "2.1.27",
         "release": "6.el8_5",
@@ -425,6 +425,12 @@
   "pushcount": "3",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2022-0658.html",
+      "type": "self",
+      "id": "ALSA-2022-0658",
+      "title": "ALSA-2022-0658"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2022-24407",
       "type": "cve",
       "id": "CVE-2022-24407",
@@ -440,7 +446,7 @@
   "title": "Important: cyrus-sasl security update",
   "type": "security",
   "updated_date": {
-    "$date": 1645656490000
+    "$date": 1645623192000
   },
   "version": "1"
 }

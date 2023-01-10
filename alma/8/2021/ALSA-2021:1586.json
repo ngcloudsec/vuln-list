@@ -8,9 +8,21 @@
     "$date": 1621316126000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
+    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
     "packages": [
+      {
+        "name": "gamin",
+        "version": "0.1.10",
+        "release": "32.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gamin-0.1.10-32.el8.src.rpm",
+        "filename": "gamin-0.1.10-32.el8.aarch64.rpm",
+        "sum": "84930640372a3254b3b9d5f543e6c4435ca17ba31646ac129e9b16fcb00a762e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "glibmm24",
         "version": "2.56.0",
@@ -884,18 +896,6 @@
         "src": "nautilus-3.28.1-15.el8.src.rpm",
         "filename": "nautilus-extensions-3.28.1-15.el8.i686.rpm",
         "sum": "fc427c293f0d67e52816e64d8a097dded7fb312f8a2c0205f4072386fcb5fb79",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gamin",
-        "version": "0.1.10",
-        "release": "32.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gamin-0.1.10-32.el8.src.rpm",
-        "filename": "gamin-0.1.10-32.el8.aarch64.rpm",
-        "sum": "84930640372a3254b3b9d5f543e6c4435ca17ba31646ac129e9b16fcb00a762e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -3221,6 +3221,12 @@
   "pushcount": "7",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-1586.html",
+      "type": "self",
+      "id": "ALSA-2021-1586",
+      "title": "ALSA-2021-1586"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2019-13012",
       "type": "cve",
       "id": "CVE-2019-13012",
@@ -3294,7 +3300,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -3302,7 +3308,7 @@
   "title": "Moderate: GNOME security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712456000
+    "$date": 1621316107000
   },
   "version": "3"
 }

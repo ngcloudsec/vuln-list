@@ -8,33 +8,9 @@
     "$date": 1666656000000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-baseos-rpms__8_6_default",
-    "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_6_default",
+    "name": "almalinux-8-for-aarch64-baseos-rpms__8_6_default",
+    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_6_default",
     "packages": [
-      {
-        "name": "zlib-devel",
-        "version": "1.2.11",
-        "release": "19.el8_6",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "zlib-1.2.11-19.el8_6.src.rpm",
-        "filename": "zlib-devel-1.2.11-19.el8_6.i686.rpm",
-        "sum": "13d26ef755ace9e0cf1b616ccc70e829ebfabb2ad28f5ab630f4d8cf747c500f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "zlib",
-        "version": "1.2.11",
-        "release": "19.el8_6",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "zlib-1.2.11-19.el8_6.src.rpm",
-        "filename": "zlib-1.2.11-19.el8_6.i686.rpm",
-        "sum": "2124b9411b237ee9b025ab63d8dfba174cf757e7c0606fe3d31c2782d318e755",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "zlib-devel",
         "version": "1.2.11",
@@ -56,6 +32,30 @@
         "src": "zlib-1.2.11-19.el8_6.src.rpm",
         "filename": "zlib-1.2.11-19.el8_6.aarch64.rpm",
         "sum": "f0d07493dec05ced63d1dde395117bbc80a2c7ccdaa1c8c775b763a1d9e93fab",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "zlib-devel",
+        "version": "1.2.11",
+        "release": "19.el8_6",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "zlib-1.2.11-19.el8_6.src.rpm",
+        "filename": "zlib-devel-1.2.11-19.el8_6.i686.rpm",
+        "sum": "13d26ef755ace9e0cf1b616ccc70e829ebfabb2ad28f5ab630f4d8cf747c500f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "zlib",
+        "version": "1.2.11",
+        "release": "19.el8_6",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "zlib-1.2.11-19.el8_6.src.rpm",
+        "filename": "zlib-1.2.11-19.el8_6.i686.rpm",
+        "sum": "2124b9411b237ee9b025ab63d8dfba174cf757e7c0606fe3d31c2782d318e755",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -108,6 +108,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "zlib-static",
+        "version": "1.2.11",
+        "release": "19.el8_6",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "zlib-1.2.11-19.el8_6.src.rpm",
+        "filename": "zlib-static-1.2.11-19.el8_6.ppc64le.rpm",
+        "sum": "c42fb3bb4ce72490687c9eaaaf6c5d78e3be63f3f9aa1595730abc966df7d418",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "zlib",
         "version": "1.2.11",
         "release": "19.el8_6",
@@ -128,18 +140,6 @@
         "src": "zlib-1.2.11-19.el8_6.src.rpm",
         "filename": "zlib-devel-1.2.11-19.el8_6.s390x.rpm",
         "sum": "ac80a8849bfca92cd1f05a4c587c3d53e30508e70abde9ba2c0a62b298740979",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "zlib-static",
-        "version": "1.2.11",
-        "release": "19.el8_6",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "zlib-1.2.11-19.el8_6.src.rpm",
-        "filename": "zlib-static-1.2.11-19.el8_6.ppc64le.rpm",
-        "sum": "c42fb3bb4ce72490687c9eaaaf6c5d78e3be63f3f9aa1595730abc966df7d418",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -194,7 +194,7 @@
   "title": "Moderate: zlib security update",
   "type": "security",
   "updated_date": {
-    "$date": 1666786436000
+    "$date": 1666786434000
   },
   "version": "1"
 }
