@@ -8,9 +8,93 @@
     "$date": 1636449800000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
+    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
     "packages": [
+      {
+        "name": "gnutls-devel",
+        "version": "3.6.16",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gnutls-3.6.16-4.el8.src.rpm",
+        "filename": "gnutls-devel-3.6.16-4.el8.aarch64.rpm",
+        "sum": "11672a50cf19e968908a94675231efafabf63e832bccecb05b0c25d02abc73d3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gnutls",
+        "version": "3.6.16",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gnutls-3.6.16-4.el8.src.rpm",
+        "filename": "gnutls-3.6.16-4.el8.aarch64.rpm",
+        "sum": "22e254285c6d06fce13c403e01a4c947ead7576505645a6f69e9998133797d3e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gnutls-utils",
+        "version": "3.6.16",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gnutls-3.6.16-4.el8.src.rpm",
+        "filename": "gnutls-utils-3.6.16-4.el8.aarch64.rpm",
+        "sum": "709299263ced2a3eea74511eb317ec86f3a37be5f5e3016dadb53ba71d723de8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gnutls-c++",
+        "version": "3.6.16",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gnutls-3.6.16-4.el8.src.rpm",
+        "filename": "gnutls-c++-3.6.16-4.el8.aarch64.rpm",
+        "sum": "a83c417b75b985a07f7b6ce98aafbc56d0236e25cc97423154472885b7396360",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gnutls-dane",
+        "version": "3.6.16",
+        "release": "4.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gnutls-3.6.16-4.el8.src.rpm",
+        "filename": "gnutls-dane-3.6.16-4.el8.aarch64.rpm",
+        "sum": "a9f7a2803365f5491cb6ae1dcb9ae4eda92f49e450c058dbf381f7446804bd8d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nettle",
+        "version": "3.4.1",
+        "release": "7.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "nettle-3.4.1-7.el8.src.rpm",
+        "filename": "nettle-3.4.1-7.el8.aarch64.rpm",
+        "sum": "cbdbfd1b9e97a628f2c2409f3c64883a86d7b25a4dbf7ea21ac3ca476098ab7b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nettle-devel",
+        "version": "3.4.1",
+        "release": "7.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "nettle-3.4.1-7.el8.src.rpm",
+        "filename": "nettle-devel-3.4.1-7.el8.aarch64.rpm",
+        "sum": "f4db41e0b6ff5fe5c4af34b46b89e1a3fe97342705e47dbbf9b546210d50ee0b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "gnutls",
         "version": "3.6.16",
@@ -144,90 +228,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "gnutls-devel",
-        "version": "3.6.16",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gnutls-3.6.16-4.el8.src.rpm",
-        "filename": "gnutls-devel-3.6.16-4.el8.aarch64.rpm",
-        "sum": "11672a50cf19e968908a94675231efafabf63e832bccecb05b0c25d02abc73d3",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gnutls",
-        "version": "3.6.16",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gnutls-3.6.16-4.el8.src.rpm",
-        "filename": "gnutls-3.6.16-4.el8.aarch64.rpm",
-        "sum": "22e254285c6d06fce13c403e01a4c947ead7576505645a6f69e9998133797d3e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gnutls-utils",
-        "version": "3.6.16",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gnutls-3.6.16-4.el8.src.rpm",
-        "filename": "gnutls-utils-3.6.16-4.el8.aarch64.rpm",
-        "sum": "709299263ced2a3eea74511eb317ec86f3a37be5f5e3016dadb53ba71d723de8",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gnutls-c++",
-        "version": "3.6.16",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gnutls-3.6.16-4.el8.src.rpm",
-        "filename": "gnutls-c++-3.6.16-4.el8.aarch64.rpm",
-        "sum": "a83c417b75b985a07f7b6ce98aafbc56d0236e25cc97423154472885b7396360",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gnutls-dane",
-        "version": "3.6.16",
-        "release": "4.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gnutls-3.6.16-4.el8.src.rpm",
-        "filename": "gnutls-dane-3.6.16-4.el8.aarch64.rpm",
-        "sum": "a9f7a2803365f5491cb6ae1dcb9ae4eda92f49e450c058dbf381f7446804bd8d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nettle",
-        "version": "3.4.1",
-        "release": "7.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "nettle-3.4.1-7.el8.src.rpm",
-        "filename": "nettle-3.4.1-7.el8.aarch64.rpm",
-        "sum": "cbdbfd1b9e97a628f2c2409f3c64883a86d7b25a4dbf7ea21ac3ca476098ab7b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "nettle-devel",
-        "version": "3.4.1",
-        "release": "7.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "nettle-3.4.1-7.el8.src.rpm",
-        "filename": "nettle-devel-3.4.1-7.el8.aarch64.rpm",
-        "sum": "f4db41e0b6ff5fe5c4af34b46b89e1a3fe97342705e47dbbf9b546210d50ee0b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "nettle-devel",
         "version": "3.4.1",
         "release": "7.el8",
@@ -317,6 +317,12 @@
   "pushcount": "3",
   "references": [
     {
+      "href": "https://errata.almalinux.org/8/ALSA-2021-4451.html",
+      "type": "self",
+      "id": "ALSA-2021-4451",
+      "title": "ALSA-2021-4451"
+    },
+    {
       "href": "https://vulners.com/cve/CVE-2021-20231",
       "type": "cve",
       "id": "CVE-2021-20231",
@@ -336,7 +342,7 @@
     }
   ],
   "release": "0",
-  "rights": "Copyright 2021 AlmaLinux OS",
+  "rights": "Copyright 2022 AlmaLinux OS",
   "severity": "Moderate",
   "solution": "",
   "status": "final",
@@ -344,7 +350,7 @@
   "title": "Moderate: gnutls and nettle security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712456000
+    "$date": 1636463780000
   },
   "version": "2"
 }

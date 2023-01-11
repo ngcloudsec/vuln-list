@@ -8,9 +8,33 @@
     "$date": 1621317430000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-baseos-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-baseos-rpms__8_0_default",
+    "name": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
+    "shortname": "almalinux-8-for-aarch64-baseos-rpms__8_0_default",
     "packages": [
+      {
+        "name": "shim-aa64",
+        "version": "15.4",
+        "release": "2.el8_1.alma",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "shim-15.4-2.el8_1.alma.src.rpm",
+        "filename": "shim-aa64-15.4-2.el8_1.alma.aarch64.rpm",
+        "sum": "6cfb21a2513e1cf3faea077e09b42277bd84a53dd4221db8548af8ab6aa43764",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "shim-unsigned-aarch64",
+        "version": "15",
+        "release": "7.el8_1.alma",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "shim-unsigned-aarch64-15-7.el8_1.alma.src.rpm",
+        "filename": "shim-unsigned-aarch64-15-7.el8_1.alma.aarch64.rpm",
+        "sum": "c6c12853b775dd0f70ef7668c987157d301c3c667e50f65db887a26fd7a022e0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "shim-ia32",
         "version": "15.4",
@@ -44,30 +68,6 @@
         "src": "shim-15.4-2.el8_1.alma.src.rpm",
         "filename": "shim-x64-15.4-2.el8_1.alma.x86_64.rpm",
         "sum": "985ea8336abc099a339174466fbe3ec3248a04f9b89cbc58f5d48f0a8143d568",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "shim-aa64",
-        "version": "15.4",
-        "release": "2.el8_1.alma",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "shim-15.4-2.el8_1.alma.src.rpm",
-        "filename": "shim-aa64-15.4-2.el8_1.alma.aarch64.rpm",
-        "sum": "6cfb21a2513e1cf3faea077e09b42277bd84a53dd4221db8548af8ab6aa43764",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "shim-unsigned-aarch64",
-        "version": "15",
-        "release": "7.el8_1.alma",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "shim-unsigned-aarch64-15-7.el8_1.alma.src.rpm",
-        "filename": "shim-unsigned-aarch64-15-7.el8_1.alma.aarch64.rpm",
-        "sum": "c6c12853b775dd0f70ef7668c987157d301c3c667e50f65db887a26fd7a022e0",
         "sum_type": 5,
         "reboot_suggested": 0
       }

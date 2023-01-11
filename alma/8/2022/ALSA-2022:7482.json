@@ -8,9 +8,21 @@
     "$date": 1667865600000
   },
   "pkglist": {
-    "name": "almalinux-8-for-i686-appstream-rpms__8_6_default",
-    "shortname": "almalinux-8-for-i686-appstream-rpms__8_6_default",
+    "name": "almalinux-8-for-i686-powertools-rpms__8_6_default",
+    "shortname": "almalinux-8-for-i686-powertools-rpms__8_6_default",
     "packages": [
+      {
+        "name": "qt5-devel",
+        "version": "5.15.3",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "qt5-5.15.3-1.el8.src.rpm",
+        "filename": "qt5-devel-5.15.3-1.el8.noarch.rpm",
+        "sum": "e2529c70aaac1f516304f2c9f5f4f55d20b2aacb24eb513aa2c65655122f5909",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
       {
         "name": "qt5-rpm-macros",
         "version": "5.15.3",
@@ -32,18 +44,6 @@
         "src": "qt5-5.15.3-1.el8.src.rpm",
         "filename": "qt5-srpm-macros-5.15.3-1.el8.noarch.rpm",
         "sum": "21ed6f36e843aff573c5f3256a2bce62f9be440048c0675aa71e11a7ac524c2f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "qt5-devel",
-        "version": "5.15.3",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "noarch",
-        "src": "qt5-5.15.3-1.el8.src.rpm",
-        "filename": "qt5-devel-5.15.3-1.el8.noarch.rpm",
-        "sum": "e2529c70aaac1f516304f2c9f5f4f55d20b2aacb24eb513aa2c65655122f5909",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -86,7 +86,7 @@
   "title": "Moderate: qt5 security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1668219091000
+    "$date": 1668219086000
   },
   "version": "1"
 }

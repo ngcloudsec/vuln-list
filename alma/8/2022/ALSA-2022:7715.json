@@ -8,21 +8,9 @@
     "$date": 1667865600000
   },
   "pkglist": {
-    "name": "almalinux-8-for-i686-appstream-rpms__8_6_default",
-    "shortname": "almalinux-8-for-i686-appstream-rpms__8_6_default",
+    "name": "almalinux-8-for-i686-baseos-rpms__8_6_default",
+    "shortname": "almalinux-8-for-i686-baseos-rpms__8_6_default",
     "packages": [
-      {
-        "name": "libxml2-devel",
-        "version": "2.9.7",
-        "release": "15.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libxml2-2.9.7-15.el8.src.rpm",
-        "filename": "libxml2-devel-2.9.7-15.el8.i686.rpm",
-        "sum": "9414b67e96040e96661b02ab0a62401589b1ebf40e7cf36f3b803d629cd2282a",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "libxml2",
         "version": "2.9.7",
@@ -36,26 +24,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libxml2",
+        "name": "libxml2-devel",
         "version": "2.9.7",
         "release": "15.el8",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "i686",
         "src": "libxml2-2.9.7-15.el8.src.rpm",
-        "filename": "libxml2-2.9.7-15.el8.x86_64.rpm",
-        "sum": "8dca7ff74d545a13506345efc2ea27901a81c2046b359b7c7eed841cac81051b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-libxml2",
-        "version": "2.9.7",
-        "release": "15.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libxml2-2.9.7-15.el8.src.rpm",
-        "filename": "python3-libxml2-2.9.7-15.el8.x86_64.rpm",
-        "sum": "e8f6357310f27eed52a0538d8da3b73f3cb9c11b1682cc5a44ef3f23992c8d70",
+        "filename": "libxml2-devel-2.9.7-15.el8.i686.rpm",
+        "sum": "9414b67e96040e96661b02ab0a62401589b1ebf40e7cf36f3b803d629cd2282a",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -80,6 +56,30 @@
         "src": "libxml2-2.9.7-15.el8.src.rpm",
         "filename": "python3-libxml2-2.9.7-15.el8.aarch64.rpm",
         "sum": "7b83151ffc85f16e0069d45ee3d1fff4991d8b8291bbde7c352cc7b539cb9449",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libxml2",
+        "version": "2.9.7",
+        "release": "15.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libxml2-2.9.7-15.el8.src.rpm",
+        "filename": "libxml2-2.9.7-15.el8.x86_64.rpm",
+        "sum": "8dca7ff74d545a13506345efc2ea27901a81c2046b359b7c7eed841cac81051b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-libxml2",
+        "version": "2.9.7",
+        "release": "15.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "libxml2-2.9.7-15.el8.src.rpm",
+        "filename": "python3-libxml2-2.9.7-15.el8.x86_64.rpm",
+        "sum": "e8f6357310f27eed52a0538d8da3b73f3cb9c11b1682cc5a44ef3f23992c8d70",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -120,6 +120,18 @@
         "reboot_suggested": 0
       },
       {
+        "name": "libxml2-devel",
+        "version": "2.9.7",
+        "release": "15.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "libxml2-2.9.7-15.el8.src.rpm",
+        "filename": "libxml2-devel-2.9.7-15.el8.aarch64.rpm",
+        "sum": "3f42e59aea113e0a49bf25ef2b7aecc68a23feba6038bf0ee8faaf2b510f6f40",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "python3-libxml2",
         "version": "2.9.7",
         "release": "15.el8",
@@ -152,18 +164,6 @@
         "src": "libxml2-2.9.7-15.el8.src.rpm",
         "filename": "libxml2-devel-2.9.7-15.el8.s390x.rpm",
         "sum": "ca36f828ee32764dec795732e6b7a49e4113715af82426a3eec6fb65be767de6",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libxml2-devel",
-        "version": "2.9.7",
-        "release": "15.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "libxml2-2.9.7-15.el8.src.rpm",
-        "filename": "libxml2-devel-2.9.7-15.el8.aarch64.rpm",
-        "sum": "3f42e59aea113e0a49bf25ef2b7aecc68a23feba6038bf0ee8faaf2b510f6f40",
         "sum_type": 5,
         "reboot_suggested": 0
       },
